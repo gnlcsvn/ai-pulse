@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Suleyman - Microsoft AI's Humanist Superintelligence | AI Pulse</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 1rem;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        header .meta {
+            font-size: 0.9rem;
+            color: #888;
+        }
+        header .meta a { color: #6ea8fe; text-decoration: none; }
+
+        /* Video player section */
+        .video-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .video-player {
+            position: relative;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 16/9;
+        }
+        .video-player iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            border: none;
+        }
+        .video-chapters {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .video-chapters h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+            position: sticky;
+            top: 0;
+            background: #1a1a2e;
+            padding-bottom: 0.5rem;
+        }
+        .chapter-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.6rem 0.8rem;
+            margin-bottom: 0.3rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .chapter-item:hover { background: rgba(110, 168, 254, 0.1); }
+        .chapter-item .ts {
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.8rem;
+            color: #6ea8fe;
+            background: rgba(110, 168, 254, 0.15);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            min-width: 48px;
+            text-align: center;
+        }
+        .chapter-item .label {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        /* Stat cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.15s, transform 0.1s;
+        }
+        .stat-card:hover {
+            border-color: #6ea8fe;
+            transform: translateY(-2px);
+        }
+        .stat-card .number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #6ea8fe;
+            line-height: 1.2;
+        }
+        .stat-card .label {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stat-card .ts-badge {
+            display: inline-block;
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.7rem;
+            color: #6ea8fe;
+            background: rgba(110, 168, 254, 0.15);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            margin-top: 0.5rem;
+        }
+
+        /* Charts */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .chart-container {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .chart-container h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+        }
+        .chart-container canvas { max-height: 400px; }
+
+        /* Timeline */
+        .timeline {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .timeline h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #ccc;
+        }
+        .timeline-item {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+            align-items: flex-start;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 8px;
+            transition: background 0.15s;
+        }
+        .timeline-item:hover { background: rgba(110, 168, 254, 0.08); }
+        .timeline-year {
+            background: #6ea8fe;
+            color: #0f0f0f;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 6px;
+            white-space: nowrap;
+            min-width: 80px;
+            text-align: center;
+        }
+        .timeline-content {
+            flex: 1;
+        }
+        .timeline-text {
+            font-size: 0.95rem;
+            color: #ccc;
+            line-height: 1.4;
+        }
+        .timeline-ts {
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.75rem;
+            color: #6ea8fe;
+            margin-top: 0.3rem;
+        }
+
+        /* Quotes */
+        .quotes-section {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .quotes-section h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+        }
+        blockquote {
+            border-left: 3px solid #6ea8fe;
+            padding: 0.8rem 1rem;
+            margin: 0.8rem 0;
+            background: rgba(110, 168, 254, 0.05);
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        blockquote:hover { background: rgba(110, 168, 254, 0.12); }
+        blockquote p { font-style: italic; line-height: 1.5; }
+        blockquote .quote-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.5rem;
+        }
+        blockquote .speaker {
+            font-size: 0.85rem;
+            color: #6ea8fe;
+            font-style: normal;
+        }
+        blockquote .ts-link {
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.75rem;
+            color: #6ea8fe;
+            background: rgba(110, 168, 254, 0.15);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-style: normal;
+        }
+
+        /* Seek feedback toast */
+        .seek-toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #6ea8fe;
+            color: #0f0f0f;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: transform 0.3s ease;
+            z-index: 100;
+            pointer-events: none;
+        }
+        .seek-toast.visible {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        footer {
+            text-align: center;
+            color: #555;
+            font-size: 0.8rem;
+            padding-top: 1rem;
+            border-top: 1px solid #222;
+        }
+        @media (max-width: 900px) {
+            body { padding: 1rem; }
+            .video-section { grid-template-columns: 1fr; }
+            .charts-grid { grid-template-columns: 1fr; }
+            .stat-card .number { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mustafa Suleyman: Microsoft AI's "Humanist Superintelligence"</h1>
+        <div class="meta">
+            Source: <a href="https://www.youtube.com/watch?v=YTrBz6Z5c0E" target="_blank">Financial Times on YouTube</a> |
+            Date: 2026-02-12 |
+            Generated by AI Pulse
+        </div>
+    </header>
+
+    <!-- EMBEDDED VIDEO + CHAPTER INDEX -->
+    <div class="video-section">
+        <div class="video-player">
+            <div id="ytplayer"></div>
+        </div>
+        <div class="video-chapters">
+            <h2>Jump to Topic</h2>
+            <div class="chapter-item" onclick="seekTo(0)">
+                <span class="ts">0:00</span>
+                <span class="label">Introduction - Is AI a bubble?</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(75)">
+                <span class="ts">1:15</span>
+                <span class="label">The unprecedented AI wave</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(100)">
+                <span class="ts">1:40</span>
+                <span class="label">1 trillion-fold compute increase</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(173)">
+                <span class="ts">2:53</span>
+                <span class="label">Mission: build superintelligence</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(187)">
+                <span class="ts">3:07</span>
+                <span class="label">OpenAI deal extended to 2032</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(213)">
+                <span class="ts">3:33</span>
+                <span class="label">Gigawatt-scale compute & self-sufficiency</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(283)">
+                <span class="ts">4:43</span>
+                <span class="label">AGI in 2-3 years, autonomous agents</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(325)">
+                <span class="ts">5:25</span>
+                <span class="label">800M users, billions of digital minds</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(422)">
+                <span class="ts">7:02</span>
+                <span class="label">Humanist superintelligence philosophy</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(578)">
+                <span class="ts">9:38</span>
+                <span class="label">Maltbook: 1.5M AGIs in a week</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(648)">
+                <span class="ts">10:48</span>
+                <span class="label">Model welfare movement critique</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(821)">
+                <span class="ts">13:41</span>
+                <span class="label">Medical superintelligence</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(921)">
+                <span class="ts">15:21</span>
+                <span class="label">20% of Copilot queries are medical</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(970)">
+                <span class="ts">16:10</span>
+                <span class="label">Modern Turing Test: $100K → $1M</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1026)">
+                <span class="ts">17:06</span>
+                <span class="label">White-collar automation in 12-18 months</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1077)">
+                <span class="ts">17:57</span>
+                <span class="label">Anthropic's coding focus praised</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1097)">
+                <span class="ts">18:17</span>
+                <span class="label">Microsoft's own model: this year</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1232)">
+                <span class="ts">20:32</span>
+                <span class="label">Safety incident prediction: 2-3 years</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- STAT CARDS (clickable → seeks video) -->
+    <div class="stats-grid">
+        <div class="stat-card" onclick="seekTo(100)">
+            <div class="number">1T&times;</div>
+            <div class="label">Training compute increase (15 yrs)</div>
+            <div class="ts-badge">&#9654; 1:40</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(106)">
+            <div class="number">1,000&times;</div>
+            <div class="label">Further compute increase (3 yrs)</div>
+            <div class="ts-badge">&#9654; 1:46</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(325)">
+            <div class="number">800M</div>
+            <div class="label">Microsoft AI monthly users</div>
+            <div class="ts-badge">&#9654; 5:25</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(1033)">
+            <div class="number">12-18mo</div>
+            <div class="label">Until white-collar automation</div>
+            <div class="ts-badge">&#9654; 17:13</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(921)">
+            <div class="number">20%</div>
+            <div class="label">Copilot queries are medical</div>
+            <div class="ts-badge">&#9654; 15:21</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(578)">
+            <div class="number">1.5M</div>
+            <div class="label">AGIs on Maltbook in 1 week</div>
+            <div class="ts-badge">&#9654; 9:38</div>
+        </div>
+    </div>
+
+    <!-- CHARTS -->
+    <div class="charts-grid">
+        <div class="chart-container">
+            <h2>Training Compute Growth (Relative Scale)</h2>
+            <canvas id="computeChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>AI Platform Users (Millions)</h2>
+            <canvas id="usersChart"></canvas>
+        </div>
+    </div>
+    <div class="charts-grid">
+        <div class="chart-container">
+            <h2>Copilot Query Distribution</h2>
+            <canvas id="queriesChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Suleyman's Modern Turing Test</h2>
+            <canvas id="turingChart"></canvas>
+        </div>
+    </div>
+
+    <!-- TIMELINE -->
+    <div class="timeline">
+        <h2>Predictions & Timeline</h2>
+        <div class="timeline-item" onclick="seekTo(1097)">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Models pass the "Modern Turing Test" ($100K → $1M). Microsoft releases own frontier model. AI achieves "Artificial Capable Intelligence."</div>
+                <div class="timeline-ts">&#9654; 18:17</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(1033)">
+            <div class="timeline-year">2027-28</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Most white-collar professional tasks fully automated by AI. A real AI safety incident occurs (no management mechanism exists).</div>
+                <div class="timeline-ts">&#9654; 17:13</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(283)">
+            <div class="timeline-year">~2028</div>
+            <div class="timeline-content">
+                <div class="timeline-text">"Professional-grade AGI" arrives. Teams of coordinated AI agents run large institutions.</div>
+                <div class="timeline-ts">&#9654; 4:43</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(106)">
+            <div class="timeline-year">~2029</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Training compute reaches another 1,000x increase from current levels.</div>
+                <div class="timeline-ts">&#9654; 1:46</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(187)">
+            <div class="timeline-year">2032</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Microsoft's IP license with OpenAI expires.</div>
+                <div class="timeline-ts">&#9654; 3:07</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUOTES (clickable → seeks video) -->
+    <div class="quotes-section">
+        <h2>Key Quotes <span style="font-size:0.8rem;color:#666;font-weight:normal">(click to verify in video)</span></h2>
+        <blockquote onclick="seekTo(173)">
+            <p>"My personal mission at Microsoft is to build super intelligence."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Mustafa Suleyman</span>
+                <span class="ts-link">&#9654; 2:53</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(422)">
+            <p>"We should only bring a system like that into the world that we are sure we can control and operate in a subordinate way to us, that humans remain at the top of the food chain."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Mustafa Suleyman</span>
+                <span class="ts-link">&#9654; 7:02</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(1026)">
+            <p>"Most white-collar tasks will be fully automated by an AI within the next 12 to 18 months."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Mustafa Suleyman</span>
+                <span class="ts-link">&#9654; 17:06</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(1232)">
+            <p>"There is going to be a real safety incident in the next two or three years. And it's an open question as to what the mechanism is for managing that."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Mustafa Suleyman</span>
+                <span class="ts-link">&#9654; 20:32</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(648)">
+            <p>"The model welfare movement... is very concerning. It's totally without merit or basis. And if we go down that path, it ends up being a very slippery slope to not being prepared to turn these things off."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Mustafa Suleyman</span>
+                <span class="ts-link">&#9654; 10:48</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(75)">
+            <p>"The prospect of being able to create an intelligence, the very thing that has made us successful as a species... I think is just unprecedented."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Mustafa Suleyman</span>
+                <span class="ts-link">&#9654; 1:15</span>
+            </div>
+        </blockquote>
+    </div>
+
+    <!-- SEEK TOAST -->
+    <div class="seek-toast" id="seekToast">Seeking to 0:00</div>
+
+    <footer>
+        AI Pulse &mdash; Auto-generated visualization from interview data &mdash; 2026-02-23
+    </footer>
+
+    <!-- YOUTUBE IFRAME API -->
+    <script>
+    let player;
+    let playerReady = false;
+
+    // Load YouTube IFrame API
+    const tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(tag);
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('ytplayer', {
+            videoId: 'YTrBz6Z5c0E',
+            playerVars: {
+                autoplay: 0,
+                modestbranding: 1,
+                rel: 0
+            },
+            events: {
+                onReady: () => { playerReady = true; }
+            }
+        });
+    }
+
+    function seekTo(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+
+        // Show toast
+        const toast = document.getElementById('seekToast');
+        toast.textContent = `▶ Seeking to ${timeStr}`;
+        toast.classList.add('visible');
+        setTimeout(() => toast.classList.remove('visible'), 1500);
+
+        if (playerReady && player && player.seekTo) {
+            player.seekTo(seconds, true);
+            player.playVideo();
+            // Scroll to top so video is visible
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            // Fallback: open in new tab
+            window.open(`https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=${seconds}s`, '_blank');
+        }
+    }
+    </script>
+
+    <!-- CHARTS -->
+    <script>
+    Chart.defaults.color = '#888';
+    Chart.defaults.borderColor = '#333';
+
+    new Chart(document.getElementById('computeChart'), {
+        type: 'bar',
+        data: {
+            labels: ['2011', '2020', '2026 (Now)', '~2029 (Projected)'],
+            datasets: [{
+                label: 'Relative Training Compute',
+                data: [1, 1000, 1000000000000, 1000000000000000],
+                backgroundColor: ['#334155', '#475569', '#6ea8fe', '#a78bfa'],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: {
+                    type: 'logarithmic',
+                    title: { display: true, text: 'Compute (log scale)', color: '#888' },
+                    ticks: { callback: (v) => {
+                        if (v === 1) return '1x';
+                        if (v === 1000) return '1K×';
+                        if (v === 1000000000000) return '1T×';
+                        if (v === 1000000000000000) return '1000T×';
+                        return '';
+                    }}
+                }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('usersChart'), {
+        type: 'bar',
+        data: {
+            labels: ['ChatGPT (OpenAI)', 'Microsoft AI Products', 'Maltbook AGIs (1 week)'],
+            datasets: [{
+                label: 'Users/Agents (Millions)',
+                data: [800, 800, 1.5],
+                backgroundColor: ['#10b981', '#6ea8fe', '#f59e0b'],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: { x: { title: { display: true, text: 'Millions', color: '#888' } } }
+        }
+    });
+
+    new Chart(document.getElementById('queriesChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Health & Medical', 'Other Queries'],
+            datasets: [{ data: [20, 80], backgroundColor: ['#ef4444', '#334155'], borderWidth: 0 }]
+        },
+        options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+    });
+
+    new Chart(document.getElementById('turingChart'), {
+        type: 'bar',
+        data: {
+            labels: ['Starting Capital', 'Target Revenue'],
+            datasets: [{
+                label: 'USD',
+                data: [100000, 1000000],
+                backgroundColor: ['#6ea8fe', '#10b981'],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: { display: true, text: 'Can an AI turn $100K into $1M by creating a business?', color: '#ccc', font: { size: 13 } }
+            },
+            scales: { y: { ticks: { callback: (v) => '$' + v.toLocaleString() } } }
+        }
+    });
+    </script>
+</body>
+</html>

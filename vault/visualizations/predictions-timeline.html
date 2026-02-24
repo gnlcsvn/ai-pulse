@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Predictions Timeline | AI Pulse</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            padding: 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 1rem;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        header .subtitle {
+            font-size: 0.95rem;
+            color: #888;
+        }
+
+        /* Stats grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.2rem;
+            text-align: center;
+        }
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #6ea8fe;
+        }
+        .stat-card .label {
+            font-size: 0.8rem;
+            color: #888;
+            margin-top: 0.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Filters */
+        .filter-bar {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            align-items: center;
+        }
+        .filter-bar label {
+            font-size: 0.85rem;
+            color: #888;
+            margin-right: 0.3rem;
+        }
+        .filter-btn {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            color: #ccc;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.15s;
+        }
+        .filter-btn:hover { border-color: #6ea8fe; color: #fff; }
+        .filter-btn.active { background: #6ea8fe; color: #0f0f0f; border-color: #6ea8fe; font-weight: 600; }
+        .filter-separator { width: 1px; height: 24px; background: #333; margin: 0 0.5rem; }
+
+        /* Timeline */
+        .timeline-container {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            overflow-x: auto;
+        }
+        .timeline-container h2 {
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+        .timeline-svg text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            background: #1a1a2e;
+            border: 1px solid #555;
+            border-radius: 10px;
+            padding: 1rem;
+            max-width: 380px;
+            font-size: 0.85rem;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        .tooltip .tt-prediction { color: #fff; font-weight: 600; margin-bottom: 0.5rem; line-height: 1.3; }
+        .tooltip .tt-meta { color: #888; font-size: 0.78rem; line-height: 1.6; }
+        .tooltip .tt-meta span { color: #ccc; }
+        .tooltip .tt-link { color: #6ea8fe; font-size: 0.78rem; margin-top: 0.4rem; display: block; }
+
+        /* Charts section */
+        .charts-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        @media (max-width: 900px) { .charts-row { grid-template-columns: 1fr; } }
+        .chart-card {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .chart-card h2 {
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+
+        /* Table */
+        .table-container {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            overflow-x: auto;
+        }
+        .table-container h2 {
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+        }
+        th {
+            text-align: left;
+            padding: 0.6rem 0.8rem;
+            border-bottom: 2px solid #333;
+            color: #888;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.72rem;
+            letter-spacing: 0.5px;
+        }
+        th:hover { color: #6ea8fe; }
+        th .sort-arrow { margin-left: 4px; font-size: 0.65rem; }
+        td {
+            padding: 0.5rem 0.8rem;
+            border-bottom: 1px solid #222;
+            color: #ccc;
+            vertical-align: top;
+        }
+        tr:hover td { background: rgba(110, 168, 254, 0.05); }
+        td a { color: #6ea8fe; text-decoration: none; }
+        td a:hover { text-decoration: underline; }
+        .cat-badge {
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            border-radius: 10px;
+            font-size: 0.72rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        /* Loading */
+        .loading { text-align: center; padding: 3rem; color: #888; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Predictions Timeline</h1>
+        <p class="subtitle">Concrete predictions extracted from 12 AI leader interviews, each linked to its source timestamp</p>
+    </header>
+
+    <div class="stats-grid" id="stats-grid">
+        <div class="loading">Loading predictions data...</div>
+    </div>
+
+    <div class="filter-bar" id="filter-bar"></div>
+
+    <div class="timeline-container">
+        <h2>Timeline View</h2>
+        <div id="timeline"></div>
+    </div>
+
+    <div class="charts-row">
+        <div class="chart-card">
+            <h2>Predictions by Category</h2>
+            <div id="category-chart"></div>
+        </div>
+        <div class="chart-card">
+            <h2>Predictions by Person</h2>
+            <div id="person-chart"></div>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <h2>All Predictions</h2>
+        <table id="predictions-table">
+            <thead>
+                <tr>
+                    <th data-sort="person">Person <span class="sort-arrow"></span></th>
+                    <th data-sort="prediction">Prediction <span class="sort-arrow"></span></th>
+                    <th data-sort="category">Category <span class="sort-arrow"></span></th>
+                    <th data-sort="timeframe">Timeframe <span class="sort-arrow"></span></th>
+                    <th data-sort="midpoint">Year <span class="sort-arrow"></span></th>
+                    <th data-sort="confidence">Confidence <span class="sort-arrow"></span></th>
+                    <th data-sort="source">Source <span class="sort-arrow"></span></th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+    // Category colors
+    const CAT_COLORS = {
+        'AGI timeline': '#ff6b6b',
+        'coding automation': '#ffd93d',
+        'economic impact': '#6bcb77',
+        'job displacement': '#ff8c42',
+        'compute infrastructure': '#6ea8fe',
+        'product/company': '#c084fc',
+        'robotics': '#22d3ee',
+        'AI safety incident': '#f472b6',
+        'regulation': '#a78bfa',
+        'other': '#94a3b8'
+    };
+
+    const CONFIDENCE_COLORS = {
+        'high': '#6bcb77',
+        'medium': '#ffd93d',
+        'low': '#ff8c42',
+        'speculative': '#ff6b6b',
+        'unstated': '#94a3b8'
+    };
+
+    let allPredictions = [];
+    let filteredPredictions = [];
+    let activeCategory = null;
+    let activePerson = null;
+    let sortCol = 'midpoint';
+    let sortAsc = true;
+
+    // -- Future-proofing: switch to fetch('/api/predictions') for Vercel deployment --
+    const DATA_URL = '/data/predictions.json';
+
+    async function loadData() {
+        try {
+            const resp = await fetch(DATA_URL);
+            if (!resp.ok) throw new Error('Failed to load');
+            const data = await resp.json();
+            allPredictions = data.predictions;
+            filteredPredictions = [...allPredictions];
+            init();
+        } catch (e) {
+            document.getElementById('stats-grid').innerHTML =
+                `<div class="loading">Error loading predictions data. Make sure you're serving this from the project root or open the file from the ai-pulse directory.<br><small>${e.message}</small></div>`;
+        }
+    }
+
+    function init() {
+        renderStats();
+        renderFilters();
+        renderTimeline();
+        renderCategoryChart();
+        renderPersonChart();
+        renderTable();
+    }
+
+    function applyFilters() {
+        filteredPredictions = allPredictions.filter(p => {
+            if (activeCategory && p.category !== activeCategory) return false;
+            if (activePerson && p.person.name !== activePerson) return false;
+            return true;
+        });
+        renderTimeline();
+        renderTable();
+    }
+
+    // Stats
+    function renderStats() {
+        const people = new Set(allPredictions.map(p => p.person.name));
+        const agiMidpoints = allPredictions
+            .filter(p => p.category === 'AGI timeline' && p.timeframe.midpoint_year)
+            .map(p => p.timeframe.midpoint_year)
+            .sort((a, b) => a - b);
+        const medianAGI = agiMidpoints.length ? agiMidpoints[Math.floor(agiMidpoints.length / 2)] : 'N/A';
+        const cats = new Set(allPredictions.map(p => p.category));
+
+        document.getElementById('stats-grid').innerHTML = `
+            <div class="stat-card"><div class="value">${allPredictions.length}</div><div class="label">Total Predictions</div></div>
+            <div class="stat-card"><div class="value">${people.size}</div><div class="label">People</div></div>
+            <div class="stat-card"><div class="value">${agiMidpoints.length}</div><div class="label">AGI Timeline Predictions</div></div>
+            <div class="stat-card"><div class="value">${medianAGI}</div><div class="label">Median AGI Year</div></div>
+            <div class="stat-card"><div class="value">${cats.size}</div><div class="label">Categories</div></div>
+        `;
+    }
+
+    // Filters
+    function renderFilters() {
+        const bar = document.getElementById('filter-bar');
+        const categories = [...new Set(allPredictions.map(p => p.category))].sort();
+        const people = [...new Set(allPredictions.map(p => p.person.name))].sort();
+
+        let html = '<label>Category:</label>';
+        html += `<button class="filter-btn active" data-type="cat" data-val="">All</button>`;
+        categories.forEach(c => {
+            html += `<button class="filter-btn" data-type="cat" data-val="${c}">${c}</button>`;
+        });
+        html += '<div class="filter-separator"></div><label>Person:</label>';
+        html += `<button class="filter-btn active" data-type="person" data-val="">All</button>`;
+        people.forEach(p => {
+            html += `<button class="filter-btn" data-type="person" data-val="${p}">${p}</button>`;
+        });
+        bar.innerHTML = html;
+
+        bar.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.dataset.type;
+                const val = btn.dataset.val || null;
+                if (type === 'cat') {
+                    activeCategory = val;
+                    bar.querySelectorAll('[data-type="cat"]').forEach(b => b.classList.remove('active'));
+                } else {
+                    activePerson = val;
+                    bar.querySelectorAll('[data-type="person"]').forEach(b => b.classList.remove('active'));
+                }
+                btn.classList.add('active');
+                applyFilters();
+            });
+        });
+    }
+
+    // Timeline
+    function renderTimeline() {
+        const container = document.getElementById('timeline');
+        container.innerHTML = '';
+
+        const data = filteredPredictions.filter(p => p.timeframe.earliest_year && p.timeframe.latest_year);
+        if (!data.length) {
+            container.innerHTML = '<p style="color:#888;padding:2rem;text-align:center">No predictions with year ranges to display</p>';
+            return;
+        }
+
+        // Group by person
+        const byPerson = {};
+        data.forEach(p => {
+            if (!byPerson[p.person.name]) byPerson[p.person.name] = { name: p.person.name, company: p.person.company, preds: [] };
+            byPerson[p.person.name].preds.push(p);
+        });
+        const people = Object.values(byPerson).sort((a, b) => b.preds.length - a.preds.length);
+
+        const margin = { top: 40, right: 30, bottom: 40, left: 200 };
+        const rowH = 28;
+        const width = Math.max(container.clientWidth - 20, 800);
+        const height = margin.top + margin.bottom + people.length * rowH * 1.5 + 20;
+
+        const svg = d3.select(container).append('svg')
+            .attr('width', width).attr('height', height)
+            .attr('class', 'timeline-svg');
+
+        // X scale
+        const minYear = 2026;
+        const maxYear = 2055;
+        const x = d3.scaleLinear()
+            .domain([minYear, maxYear])
+            .range([margin.left, width - margin.right]);
+
+        // Y scale
+        const y = d3.scaleBand()
+            .domain(people.map(p => p.name))
+            .range([margin.top, height - margin.bottom])
+            .padding(0.3);
+
+        // Grid lines
+        const years = d3.range(minYear, maxYear + 1, 2);
+        svg.selectAll('.grid-line')
+            .data(years).enter()
+            .append('line')
+            .attr('x1', d => x(d)).attr('x2', d => x(d))
+            .attr('y1', margin.top - 10).attr('y2', height - margin.bottom)
+            .attr('stroke', '#222').attr('stroke-dasharray', '2,4');
+
+        // AGI consensus band
+        const agiPreds = allPredictions.filter(p => p.category === 'AGI timeline' && p.timeframe.midpoint_year);
+        if (agiPreds.length >= 3) {
+            const mids = agiPreds.map(p => p.timeframe.midpoint_year).sort((a, b) => a - b);
+            const q1 = mids[Math.floor(mids.length * 0.25)];
+            const q3 = mids[Math.floor(mids.length * 0.75)];
+            const median = mids[Math.floor(mids.length / 2)];
+
+            svg.append('rect')
+                .attr('x', x(q1)).attr('width', x(q3) - x(q1))
+                .attr('y', margin.top - 10).attr('height', height - margin.top - margin.bottom + 10)
+                .attr('fill', 'rgba(255, 107, 107, 0.08)')
+                .attr('rx', 4);
+
+            svg.append('line')
+                .attr('x1', x(median)).attr('x2', x(median))
+                .attr('y1', margin.top - 10).attr('y2', height - margin.bottom)
+                .attr('stroke', '#ff6b6b').attr('stroke-width', 1.5).attr('stroke-dasharray', '6,4')
+                .attr('opacity', 0.5);
+
+            svg.append('text')
+                .attr('x', x(median)).attr('y', margin.top - 15)
+                .attr('text-anchor', 'middle').attr('fill', '#ff6b6b')
+                .attr('font-size', '10px').attr('opacity', 0.7)
+                .text(`AGI median: ${median}`);
+        }
+
+        // X axis
+        svg.append('g')
+            .attr('transform', `translate(0,${height - margin.bottom})`)
+            .call(d3.axisBottom(x).tickValues(years).tickFormat(d3.format('d')))
+            .selectAll('text').attr('fill', '#888').attr('font-size', '11px');
+        svg.selectAll('.domain').attr('stroke', '#333');
+        svg.selectAll('.tick line').attr('stroke', '#333');
+
+        // Y axis labels
+        svg.selectAll('.y-label')
+            .data(people).enter()
+            .append('text')
+            .attr('x', margin.left - 10)
+            .attr('y', d => y(d.name) + y.bandwidth() / 2)
+            .attr('text-anchor', 'end')
+            .attr('dominant-baseline', 'middle')
+            .attr('fill', '#ccc')
+            .attr('font-size', '12px')
+            .text(d => d.name);
+
+        svg.selectAll('.y-company')
+            .data(people).enter()
+            .append('text')
+            .attr('x', margin.left - 10)
+            .attr('y', d => y(d.name) + y.bandwidth() / 2 + 13)
+            .attr('text-anchor', 'end')
+            .attr('dominant-baseline', 'middle')
+            .attr('fill', '#666')
+            .attr('font-size', '9px')
+            .text(d => d.company);
+
+        // Prediction bars
+        const tooltip = d3.select('#tooltip');
+
+        data.forEach(p => {
+            const yPos = y(p.person.name) + y.bandwidth() / 2;
+            const e = Math.max(p.timeframe.earliest_year, minYear);
+            const l = Math.min(p.timeframe.latest_year, maxYear);
+            const cat = p.category;
+            const color = CAT_COLORS[cat] || CAT_COLORS.other;
+
+            // Range bar
+            if (e !== l) {
+                svg.append('line')
+                    .attr('x1', x(e)).attr('x2', x(l))
+                    .attr('y1', yPos).attr('y2', yPos)
+                    .attr('stroke', color).attr('stroke-width', 3)
+                    .attr('opacity', 0.5)
+                    .attr('stroke-linecap', 'round');
+            }
+
+            // Midpoint dot
+            const mid = p.timeframe.midpoint_year || ((e + l) / 2);
+            const dot = svg.append('circle')
+                .attr('cx', x(Math.min(Math.max(mid, minYear), maxYear)))
+                .attr('cy', yPos)
+                .attr('r', 5)
+                .attr('fill', color)
+                .attr('stroke', '#0f0f0f')
+                .attr('stroke-width', 1.5)
+                .attr('cursor', 'pointer')
+                .attr('opacity', 0.9);
+
+            dot.on('mouseover', (event) => {
+                dot.attr('r', 7).attr('opacity', 1);
+                const confStr = p.confidence.percentage
+                    ? `${p.confidence.percentage}% (${p.confidence.level})`
+                    : p.confidence.level;
+                tooltip.html(`
+                    <div class="tt-prediction">${p.prediction}</div>
+                    <div class="tt-meta">
+                        <span>${p.person.name}</span> - ${p.person.role}, ${p.person.company}<br>
+                        Timeframe: <span>${p.timeframe.raw}</span><br>
+                        Confidence: <span>${confStr}</span><br>
+                        Category: <span>${p.category}</span>
+                    </div>
+                    <span class="tt-link">Click to watch source</span>
+                `);
+                tooltip.style('opacity', 1)
+                    .style('left', (event.pageX + 15) + 'px')
+                    .style('top', (event.pageY - 10) + 'px');
+            })
+            .on('mouseout', () => {
+                dot.attr('r', 5).attr('opacity', 0.9);
+                tooltip.style('opacity', 0);
+            })
+            .on('click', () => {
+                window.open(p.source.timestamp_url, '_blank');
+            });
+        });
+    }
+
+    // Category donut chart
+    function renderCategoryChart() {
+        const container = document.getElementById('category-chart');
+        const counts = {};
+        allPredictions.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
+        const data = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+        const w = container.clientWidth || 400;
+        const h = 280;
+        const radius = Math.min(w, h) / 2 - 20;
+
+        const svg = d3.select(container).append('svg').attr('width', w).attr('height', h);
+        const g = svg.append('g').attr('transform', `translate(${w/3},${h/2})`);
+
+        const pie = d3.pie().value(d => d[1]).sort(null);
+        const arc = d3.arc().innerRadius(radius * 0.55).outerRadius(radius);
+
+        g.selectAll('path')
+            .data(pie(data)).enter()
+            .append('path')
+            .attr('d', arc)
+            .attr('fill', d => CAT_COLORS[d.data[0]] || '#94a3b8')
+            .attr('stroke', '#1a1a2e')
+            .attr('stroke-width', 2);
+
+        // Legend
+        const legend = svg.append('g').attr('transform', `translate(${w * 0.62}, 20)`);
+        data.forEach((d, i) => {
+            const row = legend.append('g').attr('transform', `translate(0, ${i * 22})`);
+            row.append('rect').attr('width', 12).attr('height', 12).attr('rx', 3)
+                .attr('fill', CAT_COLORS[d[0]] || '#94a3b8');
+            row.append('text').attr('x', 18).attr('y', 10)
+                .attr('fill', '#ccc').attr('font-size', '11px')
+                .text(`${d[0]} (${d[1]})`);
+        });
+    }
+
+    // Person bar chart
+    function renderPersonChart() {
+        const container = document.getElementById('person-chart');
+        const counts = {};
+        allPredictions.forEach(p => { counts[p.person.name] = (counts[p.person.name] || 0) + 1; });
+        const data = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+        const w = container.clientWidth || 400;
+        const h = 280;
+        const margin = { top: 10, right: 20, bottom: 30, left: 140 };
+
+        const svg = d3.select(container).append('svg').attr('width', w).attr('height', h);
+
+        const x = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d[1])])
+            .range([margin.left, w - margin.right]);
+
+        const y = d3.scaleBand()
+            .domain(data.map(d => d[0]))
+            .range([margin.top, h - margin.bottom])
+            .padding(0.25);
+
+        svg.selectAll('rect')
+            .data(data).enter()
+            .append('rect')
+            .attr('x', margin.left)
+            .attr('y', d => y(d[0]))
+            .attr('width', d => x(d[1]) - margin.left)
+            .attr('height', y.bandwidth())
+            .attr('fill', '#6ea8fe')
+            .attr('rx', 4)
+            .attr('opacity', 0.8);
+
+        svg.selectAll('.bar-label')
+            .data(data).enter()
+            .append('text')
+            .attr('x', margin.left - 5)
+            .attr('y', d => y(d[0]) + y.bandwidth() / 2)
+            .attr('text-anchor', 'end')
+            .attr('dominant-baseline', 'middle')
+            .attr('fill', '#ccc')
+            .attr('font-size', '11px')
+            .text(d => d[0]);
+
+        svg.selectAll('.bar-count')
+            .data(data).enter()
+            .append('text')
+            .attr('x', d => x(d[1]) + 5)
+            .attr('y', d => y(d[0]) + y.bandwidth() / 2)
+            .attr('dominant-baseline', 'middle')
+            .attr('fill', '#888')
+            .attr('font-size', '11px')
+            .text(d => d[1]);
+    }
+
+    // Table
+    function renderTable() {
+        const tbody = document.getElementById('table-body');
+        const sorted = [...filteredPredictions].sort((a, b) => {
+            let va, vb;
+            switch (sortCol) {
+                case 'person': va = a.person.name; vb = b.person.name; break;
+                case 'prediction': va = a.prediction; vb = b.prediction; break;
+                case 'category': va = a.category; vb = b.category; break;
+                case 'timeframe': va = a.timeframe.raw; vb = b.timeframe.raw; break;
+                case 'midpoint': va = a.timeframe.midpoint_year || 9999; vb = b.timeframe.midpoint_year || 9999; break;
+                case 'confidence': va = a.confidence.level; vb = b.confidence.level; break;
+                case 'source': va = a.source.upload_date; vb = b.source.upload_date; break;
+                default: va = a.timeframe.midpoint_year || 9999; vb = b.timeframe.midpoint_year || 9999;
+            }
+            if (typeof va === 'string') return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+            return sortAsc ? va - vb : vb - va;
+        });
+
+        tbody.innerHTML = sorted.map(p => {
+            const cat = p.category;
+            const color = CAT_COLORS[cat] || CAT_COLORS.other;
+            const confColor = CONFIDENCE_COLORS[p.confidence.level] || '#94a3b8';
+            const confText = p.confidence.percentage
+                ? `${p.confidence.percentage}%`
+                : p.confidence.level;
+            const year = p.timeframe.midpoint_year || '-';
+            return `<tr>
+                <td><strong>${p.person.name}</strong><br><span style="color:#666;font-size:0.75rem">${p.person.company}</span></td>
+                <td style="max-width:300px">${p.prediction}</td>
+                <td><span class="cat-badge" style="background:${color}22;color:${color};border:1px solid ${color}44">${cat}</span></td>
+                <td style="font-size:0.78rem;color:#999;max-width:180px">${p.timeframe.raw}</td>
+                <td style="text-align:center;font-weight:600;color:#6ea8fe">${year}</td>
+                <td><span style="color:${confColor}">${confText}</span></td>
+                <td><a href="${p.source.timestamp_url}" target="_blank" title="${p.source.title}">&#9654; ${p.source.timestamp_display}</a></td>
+            </tr>`;
+        }).join('');
+
+        // Update sort arrows
+        document.querySelectorAll('#predictions-table th').forEach(th => {
+            const arrow = th.querySelector('.sort-arrow');
+            if (th.dataset.sort === sortCol) {
+                arrow.textContent = sortAsc ? ' \u25B2' : ' \u25BC';
+            } else {
+                arrow.textContent = '';
+            }
+        });
+    }
+
+    // Sort handlers
+    document.querySelectorAll('#predictions-table th').forEach(th => {
+        th.addEventListener('click', () => {
+            const col = th.dataset.sort;
+            if (sortCol === col) { sortAsc = !sortAsc; }
+            else { sortCol = col; sortAsc = true; }
+            renderTable();
+        });
+    });
+
+    // Start
+    loadData();
+    </script>
+</body>
+</html>

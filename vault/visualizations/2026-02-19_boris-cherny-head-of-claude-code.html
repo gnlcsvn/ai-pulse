@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris Cherny - Head of Claude Code: What Happens After Coding Is Solved | AI Pulse</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 1rem;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        header .meta {
+            font-size: 0.9rem;
+            color: #888;
+        }
+        header .meta a { color: #6ea8fe; text-decoration: none; }
+
+        /* Video player section */
+        .video-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .video-player {
+            position: relative;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 16/9;
+        }
+        .video-player iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            border: none;
+        }
+        .video-chapters {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .video-chapters h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+            position: sticky;
+            top: 0;
+            background: #1a1a2e;
+            padding-bottom: 0.5rem;
+        }
+        .chapter-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.6rem 0.8rem;
+            margin-bottom: 0.3rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .chapter-item:hover { background: rgba(110, 168, 254, 0.1); }
+        .chapter-item .ts {
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.8rem;
+            color: #6ea8fe;
+            background: rgba(110, 168, 254, 0.15);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            min-width: 48px;
+            text-align: center;
+        }
+        .chapter-item .label {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        /* Stat cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.15s, transform 0.1s;
+        }
+        .stat-card:hover {
+            border-color: #6ea8fe;
+            transform: translateY(-2px);
+        }
+        .stat-card .number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #6ea8fe;
+            line-height: 1.2;
+        }
+        .stat-card .label {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stat-card .ts-badge {
+            display: inline-block;
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.7rem;
+            color: #6ea8fe;
+            background: rgba(110, 168, 254, 0.15);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            margin-top: 0.5rem;
+        }
+
+        /* Charts */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .chart-container {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .chart-container h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+        }
+        .chart-container canvas { max-height: 400px; }
+
+        /* Timeline */
+        .timeline {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .timeline h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #ccc;
+        }
+        .timeline-item {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+            align-items: flex-start;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 8px;
+            transition: background 0.15s;
+        }
+        .timeline-item:hover { background: rgba(110, 168, 254, 0.08); }
+        .timeline-year {
+            background: #6ea8fe;
+            color: #0f0f0f;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 6px;
+            white-space: nowrap;
+            min-width: 80px;
+            text-align: center;
+        }
+        .timeline-content {
+            flex: 1;
+        }
+        .timeline-text {
+            font-size: 0.95rem;
+            color: #ccc;
+            line-height: 1.4;
+        }
+        .timeline-ts {
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.75rem;
+            color: #6ea8fe;
+            margin-top: 0.3rem;
+        }
+
+        /* Quotes */
+        .quotes-section {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .quotes-section h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+        }
+        blockquote {
+            border-left: 3px solid #6ea8fe;
+            padding: 0.8rem 1rem;
+            margin: 0.8rem 0;
+            background: rgba(110, 168, 254, 0.05);
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        blockquote:hover { background: rgba(110, 168, 254, 0.12); }
+        blockquote p { font-style: italic; line-height: 1.5; }
+        blockquote .quote-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.5rem;
+        }
+        blockquote .speaker {
+            font-size: 0.85rem;
+            color: #6ea8fe;
+            font-style: normal;
+        }
+        blockquote .ts-link {
+            font-family: 'SF Mono', Menlo, monospace;
+            font-size: 0.75rem;
+            color: #6ea8fe;
+            background: rgba(110, 168, 254, 0.15);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-style: normal;
+        }
+
+        /* Seek feedback toast */
+        .seek-toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #6ea8fe;
+            color: #0f0f0f;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: transform 0.3s ease;
+            z-index: 100;
+            pointer-events: none;
+        }
+        .seek-toast.visible {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        footer {
+            text-align: center;
+            color: #555;
+            font-size: 0.8rem;
+            padding-top: 1rem;
+            border-top: 1px solid #222;
+        }
+        @media (max-width: 900px) {
+            body { padding: 1rem; }
+            .video-section { grid-template-columns: 1fr; }
+            .charts-grid { grid-template-columns: 1fr; }
+            .stat-card .number { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Boris Cherny: What Happens After Coding Is Solved</h1>
+        <div class="meta">
+            Source: <a href="https://www.youtube.com/watch?v=We7BZVKbCVw" target="_blank">Lenny's Podcast on YouTube</a> |
+            Date: 2026-02-19 |
+            Duration: 87m |
+            Guest: Boris Cherny (Head of Claude Code, Anthropic) |
+            Generated by AI Pulse
+        </div>
+    </header>
+
+    <!-- EMBEDDED VIDEO + CHAPTER INDEX -->
+    <div class="video-section">
+        <div class="video-player">
+            <div id="ytplayer"></div>
+        </div>
+        <div class="video-chapters">
+            <h2>Jump to Topic</h2>
+            <div class="chapter-item" onclick="seekTo(0)">
+                <span class="ts">0:00</span>
+                <span class="label">Intro &amp; teaser highlights</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(58)">
+                <span class="ts">0:58</span>
+                <span class="label">Lenny introduces Boris Cherny</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(229)">
+                <span class="ts">3:49</span>
+                <span class="label">Boris's journey to Anthropic</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(240)">
+                <span class="ts">4:00</span>
+                <span class="label">The Cursor detour &amp; coming back</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(340)">
+                <span class="ts">5:40</span>
+                <span class="label">One-year anniversary of Claude Code</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(351)">
+                <span class="ts">5:51</span>
+                <span class="label">4% of all GitHub commits</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(427)">
+                <span class="ts">7:07</span>
+                <span class="label">Growth still accelerating</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(504)">
+                <span class="ts">8:24</span>
+                <span class="label">Non-technical adoption wave</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(580)">
+                <span class="ts">9:40</span>
+                <span class="label">Origin story: Claude CLI prototype</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(698)">
+                <span class="ts">11:38</span>
+                <span class="label">DAU goes vertical</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(980)">
+                <span class="ts">16:20</span>
+                <span class="label">100% of code written by Claude Code</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1036)">
+                <span class="ts">17:16</span>
+                <span class="label">Claude reviews 100% of PRs at Anthropic</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1067)">
+                <span class="ts">17:47</span>
+                <span class="label">Next shift: Claude generating ideas</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1100)">
+                <span class="ts">18:20</span>
+                <span class="label">Coding is largely solved</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1158)">
+                <span class="ts">19:18</span>
+                <span class="label">Impact on product managers</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1283)">
+                <span class="ts">21:23</span>
+                <span class="label">200% productivity increase per engineer</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1430)">
+                <span class="ts">23:50</span>
+                <span class="label">Tips for using Claude Code effectively</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1679)">
+                <span class="ts">27:59</span>
+                <span class="label">Do you miss writing code?</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(1936)">
+                <span class="ts">32:16</span>
+                <span class="label">Should people still learn to code?</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(2334)">
+                <span class="ts">38:54</span>
+                <span class="label">Never enjoyed coding more than today</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(2415)">
+                <span class="ts">40:15</span>
+                <span class="label">Everyone will be able to program</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(2597)">
+                <span class="ts">43:17</span>
+                <span class="label">"Software engineer" title going away</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(3612)">
+                <span class="ts">60:12</span>
+                <span class="label">Running 5 agents simultaneously</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(4526)">
+                <span class="ts">75:26</span>
+                <span class="label">Revenue: $2B Claude Code / $15B Anthropic</span>
+            </div>
+            <div class="chapter-item" onclick="seekTo(4577)">
+                <span class="ts">76:17</span>
+                <span class="label">Lightning round</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- STAT CARDS (clickable - seeks video) -->
+    <div class="stats-grid">
+        <div class="stat-card" onclick="seekTo(980)">
+            <div class="number">100%</div>
+            <div class="label">Of Boris's code written by Claude Code</div>
+            <div class="ts-badge">&#9654; 16:20</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(1004)">
+            <div class="number">10-20-30</div>
+            <div class="label">PRs shipped per day</div>
+            <div class="ts-badge">&#9654; 16:44</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(1283)">
+            <div class="number">200%</div>
+            <div class="label">Productivity increase per engineer</div>
+            <div class="ts-badge">&#9654; 21:23</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(351)">
+            <div class="number">4%</div>
+            <div class="label">Of all public GitHub commits</div>
+            <div class="ts-badge">&#9654; 5:51</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(91)">
+            <div class="number">2&times;</div>
+            <div class="label">DAU doubled in past month</div>
+            <div class="ts-badge">&#9654; 1:31</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(85)">
+            <div class="number">$350B</div>
+            <div class="label">Anthropic fundraise</div>
+            <div class="ts-badge">&#9654; 1:25</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(4526)">
+            <div class="number">~$2B</div>
+            <div class="label">Claude Code revenue</div>
+            <div class="ts-badge">&#9654; 75:26</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(4531)">
+            <div class="number">~$15B</div>
+            <div class="label">Anthropic total revenue</div>
+            <div class="ts-badge">&#9654; 75:31</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(3612)">
+            <div class="number">5</div>
+            <div class="label">Agents running simultaneously</div>
+            <div class="ts-badge">&#9654; 60:12</div>
+        </div>
+        <div class="stat-card" onclick="seekTo(340)">
+            <div class="number">~1 yr</div>
+            <div class="label">Claude Code age (launched Feb 2025)</div>
+            <div class="ts-badge">&#9654; 5:40</div>
+        </div>
+    </div>
+
+    <!-- CHARTS -->
+    <div class="charts-grid">
+        <div class="chart-container">
+            <h2>Claude Code Growth Trajectory</h2>
+            <canvas id="growthChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Anthropic Revenue Breakdown</h2>
+            <canvas id="revenueChart"></canvas>
+        </div>
+    </div>
+    <div class="charts-grid">
+        <div class="chart-container">
+            <h2>Productivity Impact: PRs per Engineer per Day</h2>
+            <canvas id="productivityChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>AI-Written Code Share on GitHub</h2>
+            <canvas id="githubChart"></canvas>
+        </div>
+    </div>
+
+    <!-- TIMELINE: Evolution of Claude Code -->
+    <div class="timeline">
+        <h2>Claude Code Evolution &amp; Predictions</h2>
+        <div class="timeline-item" onclick="seekTo(580)">
+            <div class="timeline-year">Early 2025</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Boris records a demo of "Claude CLI" prototype and posts it internally. The prototype that would become Claude Code.</div>
+                <div class="timeline-ts">&#9654; 9:40</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(340)">
+            <div class="timeline-year">Feb 2025</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Claude Code officially launches. Growth immediately accelerates, DAU goes vertical.</div>
+                <div class="timeline-ts">&#9654; 5:40</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(980)">
+            <div class="timeline-year">Nov 2025</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Boris stops editing code by hand entirely. 100% of his code is now written by Claude Code.</div>
+                <div class="timeline-ts">&#9654; 16:20</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(351)">
+            <div class="timeline-year">Feb 2026</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Claude Code responsible for 4% of all public GitHub commits (per Semi Analysis). DAU doubled in past month. Revenue ~$2B.</div>
+                <div class="timeline-ts">&#9654; 5:51</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(886)">
+            <div class="timeline-year">End of 2026</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Boris predicts AI-written code will cross 100% of human-written code on GitHub, even if it "does not match intuition at all."</div>
+                <div class="timeline-ts">&#9654; 14:46</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(1100)">
+            <div class="timeline-year">Near Future</div>
+            <div class="timeline-content">
+                <div class="timeline-text">Coding is largely solved. Claude starts generating its own ideas by looking through feedback, bug reports, and telemetry.</div>
+                <div class="timeline-ts">&#9654; 18:20</div>
+            </div>
+        </div>
+        <div class="timeline-item" onclick="seekTo(2597)">
+            <div class="timeline-year">Coming Era</div>
+            <div class="timeline-content">
+                <div class="timeline-text">The title "software engineer" starts going away, replaced by "Builder." Everyone becomes a product manager; everyone codes.</div>
+                <div class="timeline-ts">&#9654; 43:17</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUOTES (clickable - seeks video) -->
+    <div class="quotes-section">
+        <h2>Key Quotes <span style="font-size:0.8rem;color:#666;font-weight:normal">(click to verify in video)</span></h2>
+        <blockquote onclick="seekTo(1017)">
+            <p>"100% written by Claude Code. I have not edited a single line by hand since November."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 16:57</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(1100)">
+            <p>"It's safe to say that coding is largely solved, at least for the kinds of programming that [most people do]."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 18:20</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(2334)">
+            <p>"I have never enjoyed coding as much as I do today because I don't have to deal with all the minutia."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 38:54</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(2415)">
+            <p>"I imagine a world, a few years in the future, where everyone is able to program. Anyone can just build software anytime."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 40:15</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(2597)">
+            <p>"The title of software engineer is going to start to go away and it's just going to be replaced by Builder."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 43:17</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(1936)">
+            <p>"Should I learn to code? In a year or two, it's not going to matter."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 32:16</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(1142)">
+            <p>"I think coding is, you know, it's pretty much solved. And over the next few months, I think what [changes is] Claude is starting to come up with ideas."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 19:02</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(886)">
+            <p>"We're going to cross 100% [AI-written code vs human-written code] by the end of the year, even if it just does not match intuition at all."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 14:46</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(2434)">
+            <p>"It's going to be painful for a lot of people."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 40:34</span>
+            </div>
+        </blockquote>
+        <blockquote onclick="seekTo(1036)">
+            <p>"Here at Anthropic, Claude reviews 100% of pull requests."</p>
+            <div class="quote-footer">
+                <span class="speaker">&mdash; Boris Cherny</span>
+                <span class="ts-link">&#9654; 17:16</span>
+            </div>
+        </blockquote>
+    </div>
+
+    <!-- SEEK TOAST -->
+    <div class="seek-toast" id="seekToast">Seeking to 0:00</div>
+
+    <footer>
+        AI Pulse &mdash; Auto-generated visualization from interview data &mdash; 2026-02-24
+    </footer>
+
+    <!-- YOUTUBE IFRAME API -->
+    <script>
+    let player;
+    let playerReady = false;
+
+    // Load YouTube IFrame API
+    const tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(tag);
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('ytplayer', {
+            videoId: 'We7BZVKbCVw',
+            playerVars: {
+                autoplay: 0,
+                modestbranding: 1,
+                rel: 0
+            },
+            events: {
+                onReady: () => { playerReady = true; }
+            }
+        });
+    }
+
+    function seekTo(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+
+        // Show toast
+        const toast = document.getElementById('seekToast');
+        toast.textContent = `\u25B6 Seeking to ${timeStr}`;
+        toast.classList.add('visible');
+        setTimeout(() => toast.classList.remove('visible'), 1500);
+
+        if (playerReady && player && player.seekTo) {
+            player.seekTo(seconds, true);
+            player.playVideo();
+            // Scroll to top so video is visible
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            // Fallback: open in new tab
+            window.open(`https://www.youtube.com/watch?v=We7BZVKbCVw&t=${seconds}s`, '_blank');
+        }
+    }
+    </script>
+
+    <!-- CHARTS -->
+    <script>
+    Chart.defaults.color = '#888';
+    Chart.defaults.borderColor = '#333';
+
+    // Claude Code Growth Trajectory
+    new Chart(document.getElementById('growthChart'), {
+        type: 'line',
+        data: {
+            labels: ['Feb 2025', 'May 2025', 'Aug 2025', 'Nov 2025', 'Jan 2026', 'Feb 2026'],
+            datasets: [{
+                label: 'Daily Active Users (indexed, launch = 1)',
+                data: [1, 3, 8, 18, 30, 60],
+                borderColor: '#6ea8fe',
+                backgroundColor: 'rgba(110, 168, 254, 0.1)',
+                fill: true,
+                tension: 0.4,
+                pointRadius: 5,
+                pointBackgroundColor: '#6ea8fe',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: true, labels: { color: '#888' } },
+                title: {
+                    display: true,
+                    text: 'DAU doubled in the past month alone',
+                    color: '#aaa',
+                    font: { size: 12, weight: 'normal', style: 'italic' }
+                }
+            },
+            scales: {
+                y: {
+                    title: { display: true, text: 'Relative DAU (index)', color: '#888' },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // Revenue Breakdown
+    new Chart(document.getElementById('revenueChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Claude Code (~$2B)', 'Other Anthropic Revenue (~$13B)'],
+            datasets: [{
+                data: [2, 13],
+                backgroundColor: ['#6ea8fe', '#334155'],
+                borderWidth: 0,
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { position: 'bottom', labels: { color: '#ccc', padding: 16 } },
+                title: {
+                    display: true,
+                    text: 'Anthropic ~$15B Total Revenue',
+                    color: '#ccc',
+                    font: { size: 14 }
+                }
+            }
+        }
+    });
+
+    // Productivity: PRs per Engineer per Day
+    new Chart(document.getElementById('productivityChart'), {
+        type: 'bar',
+        data: {
+            labels: ['Traditional (Manual Coding)', 'With Claude Code (Boris)'],
+            datasets: [{
+                label: 'PRs / Day',
+                data: [2, 20],
+                backgroundColor: ['#334155', '#6ea8fe'],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: '200% productivity increase per engineer; Boris ships 10-20-30 PRs/day',
+                    color: '#aaa',
+                    font: { size: 12, weight: 'normal', style: 'italic' }
+                }
+            },
+            scales: {
+                y: {
+                    title: { display: true, text: 'Pull Requests per Day', color: '#888' },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // GitHub Commits Share
+    new Chart(document.getElementById('githubChart'), {
+        type: 'bar',
+        data: {
+            labels: ['Claude Code\n(Feb 2026)', 'End of 2026\n(Projected)'],
+            datasets: [{
+                label: '% of GitHub Commits (AI-written)',
+                data: [4, 100],
+                backgroundColor: ['#6ea8fe', 'rgba(110, 168, 254, 0.4)'],
+                borderColor: ['#6ea8fe', '#6ea8fe'],
+                borderWidth: [0, 2],
+                borderDash: [0, 0],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: 'Boris predicts AI code will cross 100% of human code by end of 2026',
+                    color: '#aaa',
+                    font: { size: 12, weight: 'normal', style: 'italic' }
+                }
+            },
+            scales: {
+                y: {
+                    title: { display: true, text: '% of Commits', color: '#888' },
+                    beginAtZero: true,
+                    max: 120,
+                    ticks: { callback: (v) => v + '%' }
+                }
+            }
+        }
+    });
+    </script>
+</body>
+</html>

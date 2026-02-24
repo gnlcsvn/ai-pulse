@@ -1,0 +1,3043 @@
+{
+  "version": 1,
+  "last_updated": "2026-02-24",
+  "total_predictions": 92,
+  "predictions": [
+    {
+      "id": "pred-n1E9IZfvGMA-831",
+      "prediction": "AI systems will achieve 'country of geniuses in a data center' (Nobel-Prize-winner-level capabilities across domains) within 10 years",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "within 10 years",
+        "earliest_year": 2027,
+        "latest_year": 2036,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "I'm at like 90% on that",
+        "level": "high",
+        "percentage": 90
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 831,
+        "timestamp_display": "13:51",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=831s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-939",
+      "prediction": "It is crazy to say that the 'country of geniuses' won't happen by 2035",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "by 2035",
+        "earliest_year": 2027,
+        "latest_year": 2035,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "90%, which is about as certain as you can be",
+        "level": "high",
+        "percentage": 90
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 939,
+        "timestamp_display": "15:39",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=939s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-2759",
+      "prediction": "Country of geniuses in a data center will arrive in 1-3 years (personal hunch)",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "more like one to three",
+        "earliest_year": 2027,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "a hunch, this is more like a 50-50 thing",
+        "level": "medium",
+        "percentage": 50
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 2759,
+        "timestamp_display": "45:59",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=2759s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-2873",
+      "prediction": "Models that are a country of geniuses, 100% country of geniuses in the data center, could arrive in one to two years",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "in one to two years",
+        "earliest_year": 2027,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "I really do believe",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 2873,
+        "timestamp_display": "47:53",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=2873s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-1149",
+      "prediction": "90% less demand for software engineers will happen",
+      "category": "job displacement",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "further down the spectrum (implied near-term, within a few years)",
+        "earliest_year": 2027,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "which I think will happen",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 1149,
+        "timestamp_display": "19:09",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=1149s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-4035",
+      "prediction": "AI industry will generate trillions of dollars in annual revenue before 2030",
+      "category": "economic impact",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "before 2030",
+        "earliest_year": 2028,
+        "latest_year": 2030,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": "it is hard for me to see that there won't be trillions of dollars in revenue before 2030",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 4035,
+        "timestamp_display": "1:07:15",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=4035s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-4325",
+      "prediction": "AI-driven economic growth will reach 10-20% per year but not 300% growth",
+      "category": "economic impact",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "implied post-AGI era, within the decade",
+        "earliest_year": 2028,
+        "latest_year": 2035,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 4325,
+        "timestamp_display": "1:12:05",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=4325s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-3412",
+      "prediction": "Industry compute will reach ~100 GW by 2028 and ~300 GW by 2029, at ~$10-15B per GW per year",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "2028 might be 100, 2029 might be like 300 gigawatts",
+        "earliest_year": 2028,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 3412,
+        "timestamp_display": "56:52",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=3412s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-3403",
+      "prediction": "Industry compute growing ~3x per year, currently at 10-15 GW, next year 30-40 GW",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "this year 10-15 GW, next year 30-40 GW, ~3x a year",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 3403,
+        "timestamp_display": "56:43",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=3403s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-3526",
+      "prediction": "Anthropic will be profitable starting in 2028",
+      "category": "product/company",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "profitable starting in 28",
+        "earliest_year": 2028,
+        "latest_year": 2028,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "told investors",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 3526,
+        "timestamp_display": "58:46",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=3526s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-4677",
+      "prediction": "Robotics will be quickly solved once we have the country of geniuses, but add another year or two for diffusion beyond the AGI timeline",
+      "category": "robotics",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "another year or two (on top of country of geniuses timeline)",
+        "earliest_year": 2028,
+        "latest_year": 2031,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 4785,
+        "timestamp_display": "1:19:45",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=4785s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-n1E9IZfvGMA-6020",
+      "prediction": "AI bioterrorism risk will become serious enough to require federal action, possibly later in 2026",
+      "category": "AI safety incident",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "imagine a world where later this year we say hey this AI bioterrorism stuff is really serious",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "speculative",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "n1E9IZfvGMA",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "title": "Dario Amodei \u2014 We are near the end of the exponential",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-13",
+        "timestamp_seconds": 6020,
+        "timestamp_display": "1:40:20",
+        "timestamp_url": "https://www.youtube.com/watch?v=n1E9IZfvGMA&t=6020s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-186",
+      "prediction": "Space will be by far the cheapest place to put AI compute in 36 months or less",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "in 36 months or less",
+        "earliest_year": 2028,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "my prediction is",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 186,
+        "timestamp_display": "3:06",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=186s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-255",
+      "prediction": "In 30-36 months, the most economically compelling place to put AI will be space",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "In 36 months, but probably closer to 30 months",
+        "earliest_year": 2028,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 255,
+        "timestamp_display": "4:15",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=255s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-952",
+      "prediction": "Five years from now, SpaceX will launch and operate more AI in space each year than the cumulative total on Earth",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "five years from now",
+        "earliest_year": 2031,
+        "latest_year": 2031,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "my prediction is",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 952,
+        "timestamp_display": "15:52",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=952s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-966",
+      "prediction": "A few hundred gigawatts per year of AI compute will be deployed in space within 5 years",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "five years from now, a few hundred gigawatts per year of AI in space",
+        "earliest_year": 2031,
+        "latest_year": 2031,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "I would expect to be at least",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 966,
+        "timestamp_display": "16:06",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=966s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-1083",
+      "prediction": "SpaceX will scale to 10,000 Starship launches per year",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "gearing up to do 10,000 launches a year (implied within 5 years)",
+        "earliest_year": 2028,
+        "latest_year": 2031,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "gearing up to do",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 1083,
+        "timestamp_display": "18:03",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=1083s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-1841",
+      "prediction": "Chip production will outpace the ability to turn chips on (energy bottleneck) by end of 2026",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "towards the end of this year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I think probably",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 1841,
+        "timestamp_display": "30:41",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=1841s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-2313",
+      "prediction": "AI will exceed the sum of all human intelligence in 5-6 years",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "maybe in five or six years",
+        "earliest_year": 2031,
+        "latest_year": 2032,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "I think maybe",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 2313,
+        "timestamp_display": "38:33",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=2313s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-2325",
+      "prediction": "Human intelligence will eventually be less than 1% of all intelligence",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "if that continues at some point",
+        "earliest_year": 2032,
+        "latest_year": 2040,
+        "midpoint_year": 2036
+      },
+      "confidence": {
+        "raw": "if current trends continue",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 2325,
+        "timestamp_display": "38:45",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=2325s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-3637",
+      "prediction": "Digital human emulation (AI that can do anything a human at a computer can do) will be solved by end of 2026",
+      "category": "coding automation",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "by the end of this year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I'd be surprised if digital human emulation has not been solved",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 3637,
+        "timestamp_display": "1:00:37",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=3637s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-4018",
+      "prediction": "Unlocking digital human emulation will give access to trillions of dollars of revenue, starting with customer service (~$1T market)",
+      "category": "economic impact",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "as soon as you unlock digital human (implied 2026-2027)",
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 4018,
+        "timestamp_display": "1:06:58",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=4018s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-5168",
+      "prediction": "Optimus Gen 3 humanoid robot will be produced at roughly 1 million units per year; Gen 4 at 10 million units per year",
+      "category": "robotics",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "Optimus 3 for ~1M/year, Optimus 4 for 10M/year (implied late 2020s)",
+        "earliest_year": 2028,
+        "latest_year": 2032,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "I think",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 5168,
+        "timestamp_display": "1:26:08",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=5168s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-9692",
+      "prediction": "TerraFab will produce millions of advanced wafers per month by 2030, including memory, logic, and packaging",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "I want a million wafers a month in 2030",
+        "earliest_year": 2030,
+        "latest_year": 2030,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "that's the plan",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 9692,
+        "timestamp_display": "2:41:32",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=9692s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-8476",
+      "prediction": "The US will go bankrupt and fail as a country without AI and robots; nothing else will solve the national debt",
+      "category": "economic impact",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "we are 1000% going to go bankrupt (without AI/robots, implied within a decade)",
+        "earliest_year": 2026,
+        "latest_year": 2036,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "1000%",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 8476,
+        "timestamp_display": "2:21:16",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=8476s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-BYXbuik3dgA-10031",
+      "prediction": "xAI will be the leader in AI because whoever can scale hardware the fastest will be the leader",
+      "category": "product/company",
+      "person": {
+        "name": "Elon Musk",
+        "role": "CEO",
+        "company": "xAI / Tesla / SpaceX"
+      },
+      "timeframe": {
+        "raw": "xAI will be the leader (implied near-term)",
+        "earliest_year": 2027,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I think xAI will be able to scale hardware the fastest and therefore most likely will be the leader",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "BYXbuik3dgA",
+        "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
+        "title": "Elon Musk \u2013 In 36 months, the cheapest place to put AI will be space",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-02-05",
+        "timestamp_seconds": 10031,
+        "timestamp_display": "2:47:11",
+        "timestamp_url": "https://www.youtube.com/watch?v=BYXbuik3dgA&t=10031s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-1026",
+      "prediction": "Most white-collar professional tasks (lawyer, accountant, project manager, marketing) will be fully automated by AI within 12-18 months",
+      "category": "job displacement",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "within the next 12 to 18 months",
+        "earliest_year": 2027,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1026,
+        "timestamp_display": "17:06",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=1026s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-997",
+      "prediction": "AI models will pass the Modern Turing Test (take $100K, create a product, market it, turn it into $1M) in 2026",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "this year I think there are going to be models that can achieve that",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I think there are going to be models",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 997,
+        "timestamp_display": "16:37",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=997s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-1232",
+      "prediction": "A real AI safety incident (genuine, not like Maltbook) will happen in the next 2-3 years, and there is no mechanism to manage it",
+      "category": "AI safety incident",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "in the next two or three years",
+        "earliest_year": 2027,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "there is going to be a real one",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1232,
+        "timestamp_display": "20:32",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=1232s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-106",
+      "prediction": "Training compute will increase by a further 1,000x in the next 3 years",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "in the next three years or so",
+        "earliest_year": 2027,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "there will be",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 106,
+        "timestamp_display": "1:46",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=106s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-283",
+      "prediction": "Professional-grade AGI (teams of coordinated AGIs that can run large institutions) is coming into view in the next 2-3 years",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "coming into view in the next two or three years time",
+        "earliest_year": 2028,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I think that's coming into view",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 283,
+        "timestamp_display": "4:43",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=283s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-1014",
+      "prediction": "Human-level performance on most if not all professional tasks will arrive (implied imminent)",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "we're going to have human level performance on most, if not all, professional tasks",
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "I think that we're going to have",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1014,
+        "timestamp_display": "16:54",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=1014s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-YTrBz6Z5c0E-1097",
+      "prediction": "Microsoft AI will release its own frontier foundation model (independent of OpenAI) sometime in 2026",
+      "category": "product/company",
+      "person": {
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "company": "Microsoft"
+      },
+      "timeframe": {
+        "raw": "sometime this year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YTrBz6Z5c0E",
+        "url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E",
+        "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+        "channel": "Financial Times",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1097,
+        "timestamp_display": "18:17",
+        "timestamp_url": "https://www.youtube.com/watch?v=YTrBz6Z5c0E&t=1097s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md"
+    },
+    {
+      "id": "pred-Z19UEZHJzAg-373",
+      "prediction": "By 2050 the world will look as different from today as today does from the hunter-gatherer era -- roughly 10,000 years of progress compressed into 25 years",
+      "category": "economic impact",
+      "person": {
+        "name": "Ajeya Cotra",
+        "role": "Senior Advisor",
+        "company": "Open Philanthropy"
+      },
+      "timeframe": {
+        "raw": "by 2050",
+        "earliest_year": 2040,
+        "latest_year": 2050,
+        "midpoint_year": 2045
+      },
+      "confidence": {
+        "raw": "there's a pretty good chance",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "Z19UEZHJzAg",
+        "url": "https://www.youtube.com/watch?v=Z19UEZHJzAg",
+        "title": "By 2050 we could get 10,000 years of technological progress",
+        "channel": "80,000 Hours",
+        "upload_date": "2026-02-17",
+        "timestamp_seconds": 373,
+        "timestamp_display": "6:13",
+        "timestamp_url": "https://www.youtube.com/watch?v=Z19UEZHJzAg&t=373s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.md"
+    },
+    {
+      "id": "pred-Z19UEZHJzAg-637",
+      "prediction": "Top human expert dominating AI (systems better than any human expert at all remote computer tasks) will arrive in the early 2030s",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Ajeya Cotra",
+        "role": "Senior Advisor",
+        "company": "Open Philanthropy"
+      },
+      "timeframe": {
+        "raw": "probably in the early 2030s",
+        "earliest_year": 2030,
+        "latest_year": 2034,
+        "midpoint_year": 2032
+      },
+      "confidence": {
+        "raw": "I think that probably",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "Z19UEZHJzAg",
+        "url": "https://www.youtube.com/watch?v=Z19UEZHJzAg",
+        "title": "By 2050 we could get 10,000 years of technological progress",
+        "channel": "80,000 Hours",
+        "upload_date": "2026-02-17",
+        "timestamp_seconds": 637,
+        "timestamp_display": "10:37",
+        "timestamp_url": "https://www.youtube.com/watch?v=Z19UEZHJzAg&t=637s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.md"
+    },
+    {
+      "id": "pred-Z19UEZHJzAg-685",
+      "prediction": "Top human expert dominating AIs in the cognitive domain will use human physical labor to build robotic actuators, automating the physical supply chain shortly after cognitive AGI",
+      "category": "robotics",
+      "person": {
+        "name": "Ajeya Cotra",
+        "role": "Senior Advisor",
+        "company": "Open Philanthropy"
+      },
+      "timeframe": {
+        "raw": "shortly after top human expert dominating AI (early 2030s)",
+        "earliest_year": 2031,
+        "latest_year": 2036,
+        "midpoint_year": 2033
+      },
+      "confidence": {
+        "raw": "I think that would be a goal they would have",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "Z19UEZHJzAg",
+        "url": "https://www.youtube.com/watch?v=Z19UEZHJzAg",
+        "title": "By 2050 we could get 10,000 years of technological progress",
+        "channel": "80,000 Hours",
+        "upload_date": "2026-02-17",
+        "timestamp_seconds": 685,
+        "timestamp_display": "11:25",
+        "timestamp_url": "https://www.youtube.com/watch?v=Z19UEZHJzAg&t=685s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.md"
+    },
+    {
+      "id": "pred-Z19UEZHJzAg-4653",
+      "prediction": "If early warning signs trigger, the intelligence explosion transition should be stretched from ~1 year to 10-20 years",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Ajeya Cotra",
+        "role": "Senior Advisor",
+        "company": "Open Philanthropy"
+      },
+      "timeframe": {
+        "raw": "in 10 years instead of one year, or 20 years instead of one year",
+        "earliest_year": 2030,
+        "latest_year": 2055,
+        "midpoint_year": 2042
+      },
+      "confidence": {
+        "raw": "I would vote for",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "Z19UEZHJzAg",
+        "url": "https://www.youtube.com/watch?v=Z19UEZHJzAg",
+        "title": "By 2050 we could get 10,000 years of technological progress",
+        "channel": "80,000 Hours",
+        "upload_date": "2026-02-17",
+        "timestamp_seconds": 4653,
+        "timestamp_display": "1:17:33",
+        "timestamp_url": "https://www.youtube.com/watch?v=Z19UEZHJzAg&t=4653s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.md"
+    },
+    {
+      "id": "pred-Z19UEZHJzAg-4795",
+      "prediction": "Companies will fail to redirect enough AI labor from capabilities to safety during the intelligence explosion -- most likely failure mode for AI safety",
+      "category": "AI safety incident",
+      "person": {
+        "name": "Ajeya Cotra",
+        "role": "Senior Advisor",
+        "company": "Open Philanthropy"
+      },
+      "timeframe": {
+        "raw": "during the intelligence explosion (implied early-to-mid 2030s)",
+        "earliest_year": 2030,
+        "latest_year": 2036,
+        "midpoint_year": 2033
+      },
+      "confidence": {
+        "raw": "my guess is that unless they have much more robust commitments",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "Z19UEZHJzAg",
+        "url": "https://www.youtube.com/watch?v=Z19UEZHJzAg",
+        "title": "By 2050 we could get 10,000 years of technological progress",
+        "channel": "80,000 Hours",
+        "upload_date": "2026-02-17",
+        "timestamp_seconds": 4795,
+        "timestamp_display": "1:19:55",
+        "timestamp_url": "https://www.youtube.com/watch?v=Z19UEZHJzAg&t=4795s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-1957",
+      "prediction": "Learning to code will no longer matter -- understanding the layer below AI coding tools will become unnecessary",
+      "category": "coding automation",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "in a year or two, it's not going to matter",
+        "earliest_year": 2027,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 1957,
+        "timestamp_display": "32:37",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=1957s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-886",
+      "prediction": "100% of code at Anthropic will be written by Claude Code by end of 2026, following the exponential trend line",
+      "category": "coding automation",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "we're going to cross 100% by the end of the year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "it's pretty obvious we're going to cross 100%",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 886,
+        "timestamp_display": "14:46",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=886s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-2587",
+      "prediction": "The title 'software engineer' will start to go away and be replaced by 'builder'; everyone will be a product manager and everyone will code",
+      "category": "job displacement",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "by the end of the year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I do think that there is a future where",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 2587,
+        "timestamp_display": "43:07",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=2587s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-1142",
+      "prediction": "AI coding will become increasingly solved across the industry for every codebase and tech stack over the next few months",
+      "category": "coding automation",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "over the next few months",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I think coding is, you know, it's pretty much solved",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 1142,
+        "timestamp_display": "19:02",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=1142s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-2415",
+      "prediction": "Everyone will be able to program; anyone can just build software anytime",
+      "category": "coding automation",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "a few years in the future",
+        "earliest_year": 2028,
+        "latest_year": 2030,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": "I imagine a world",
+        "level": "speculative",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 2415,
+        "timestamp_display": "40:15",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=2415s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-2183",
+      "prediction": "AI will expand to impact roles adjacent to engineering -- product managers, designers, data scientists -- any work done on a computer",
+      "category": "job displacement",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": null,
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "It is going to expand to pretty much any kind of work that you can do on a computer",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 2183,
+        "timestamp_display": "36:23",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=2183s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-355",
+      "prediction": "Claude Code will author a fifth of all GitHub code commits by end of 2026 (citing Semi Analysis report)",
+      "category": "coding automation",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "by the end of the year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "they predicted",
+        "level": "unstated",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 355,
+        "timestamp_display": "5:55",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=355s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-We7BZVKbCVw-4067",
+      "prediction": "AI models will get better and better at using tools, using computers, and running for long periods of time",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Boris Cherny",
+        "role": "Head of Claude Code",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "build for the model six months out",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "This is a bet that I would make",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "We7BZVKbCVw",
+        "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+        "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 4067,
+        "timestamp_display": "1:07:47",
+        "timestamp_url": "https://www.youtube.com/watch?v=We7BZVKbCVw&t=4067s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md"
+    },
+    {
+      "id": "pred-S1rQngjpUdI-219",
+      "prediction": "There will be more engineers in five years, not fewer, even though the specific tasks they do will change",
+      "category": "job displacement",
+      "person": {
+        "name": "Alexander Emberikos",
+        "role": "Product Lead for Codex",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "in five years",
+        "earliest_year": 2031,
+        "latest_year": 2031,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "Yeah",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "S1rQngjpUdI",
+        "url": "https://www.youtube.com/watch?v=S1rQngjpUdI",
+        "title": "OpenAI's Codex Lead: Why Coding as We Know It is Over",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-21",
+        "timestamp_seconds": 219,
+        "timestamp_display": "3:39",
+        "timestamp_url": "https://www.youtube.com/watch?v=S1rQngjpUdI&t=219s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.md"
+    },
+    {
+      "id": "pred-S1rQngjpUdI-690",
+      "prediction": "OpenAI will speed run all three phases of AI agent evolution (coding agents, all-agents-are-coding-agents, productized features) in the next months",
+      "category": "product/company",
+      "person": {
+        "name": "Alexander Emberikos",
+        "role": "Product Lead for Codex",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "in the next months",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I think we're going to speed run",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "S1rQngjpUdI",
+        "url": "https://www.youtube.com/watch?v=S1rQngjpUdI",
+        "title": "OpenAI's Codex Lead: Why Coding as We Know It is Over",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-21",
+        "timestamp_seconds": 690,
+        "timestamp_display": "11:30",
+        "timestamp_url": "https://www.youtube.com/watch?v=S1rQngjpUdI&t=690s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.md"
+    },
+    {
+      "id": "pred-S1rQngjpUdI-3702",
+      "prediction": "AI will make everyone feel like a superhuman empowered by AI in much less than 10 years (closing the capability overhang gap between model power and product utility)",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Alexander Emberikos",
+        "role": "Product Lead for Codex",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "in much less than 10 years",
+        "earliest_year": 2028,
+        "latest_year": 2033,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "This is probably going to happen in much less than 10 years",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "S1rQngjpUdI",
+        "url": "https://www.youtube.com/watch?v=S1rQngjpUdI",
+        "title": "OpenAI's Codex Lead: Why Coding as We Know It is Over",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-21",
+        "timestamp_seconds": 3702,
+        "timestamp_display": "1:01:42",
+        "timestamp_url": "https://www.youtube.com/watch?v=S1rQngjpUdI&t=3702s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.md"
+    },
+    {
+      "id": "pred-S1rQngjpUdI-1886",
+      "prediction": "This year, AI agents will shift from just coding tasks to being delegated any task a user needs to do",
+      "category": "coding automation",
+      "person": {
+        "name": "Alexander Emberikos",
+        "role": "Product Lead for Codex",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "that we'll see this year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "S1rQngjpUdI",
+        "url": "https://www.youtube.com/watch?v=S1rQngjpUdI",
+        "title": "OpenAI's Codex Lead: Why Coding as We Know It is Over",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-21",
+        "timestamp_seconds": 1886,
+        "timestamp_display": "31:26",
+        "timestamp_url": "https://www.youtube.com/watch?v=S1rQngjpUdI&t=1886s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.md"
+    },
+    {
+      "id": "pred-S1rQngjpUdI-3352",
+      "prediction": "2026 will be the year agents are broadly deployed at work, and inference costs will come down significantly",
+      "category": "economic impact",
+      "person": {
+        "name": "Alexander Emberikos",
+        "role": "Product Lead for Codex",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "if this is the year of agents being deployed like broadly at work",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "S1rQngjpUdI",
+        "url": "https://www.youtube.com/watch?v=S1rQngjpUdI",
+        "title": "OpenAI's Codex Lead: Why Coding as We Know It is Over",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-21",
+        "timestamp_seconds": 3352,
+        "timestamp_display": "55:52",
+        "timestamp_url": "https://www.youtube.com/watch?v=S1rQngjpUdI&t=3352s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.md"
+    },
+    {
+      "id": "pred-efUt__S_AjY-1433",
+      "prediction": "Tech will represent 15-30% of US GDP by 2035, up from 12% today, as AI converts services into software spend",
+      "category": "economic impact",
+      "person": {
+        "name": "Elad Gil",
+        "role": "Investor and Entrepreneur",
+        "company": "No Priors / Independent"
+      },
+      "timeframe": {
+        "raw": "15-20% of GDP to, you know, 30% of GDP in 2035",
+        "earliest_year": 2035,
+        "latest_year": 2035,
+        "midpoint_year": 2035
+      },
+      "confidence": {
+        "raw": "you can end up with anywhere between",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "efUt__S_AjY",
+        "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+        "title": "The AI Code Slop: Risk or Opportunity?",
+        "channel": "No Priors",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 1433,
+        "timestamp_display": "23:53",
+        "timestamp_url": "https://www.youtube.com/watch?v=efUt__S_AjY&t=1433s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_the-ai-code-slop-risk-or-opportunity.md"
+    },
+    {
+      "id": "pred-efUt__S_AjY-1015",
+      "prediction": "AI labs will go from $10 billion to $100 billion in revenue in three to five years",
+      "category": "product/company",
+      "person": {
+        "name": "Elad Gil",
+        "role": "Investor and Entrepreneur",
+        "company": "No Priors / Independent"
+      },
+      "timeframe": {
+        "raw": "it's like three, four or five years",
+        "earliest_year": 2029,
+        "latest_year": 2031,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "public projections",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "efUt__S_AjY",
+        "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+        "title": "The AI Code Slop: Risk or Opportunity?",
+        "channel": "No Priors",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 1015,
+        "timestamp_display": "16:55",
+        "timestamp_url": "https://www.youtube.com/watch?v=efUt__S_AjY&t=1015s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_the-ai-code-slop-risk-or-opportunity.md"
+    },
+    {
+      "id": "pred-efUt__S_AjY-2321",
+      "prediction": "Technology displacement cycles that previously took a decade will now happen in one to two years due to AI velocity of change",
+      "category": "economic impact",
+      "person": {
+        "name": "Elad Gil",
+        "role": "Investor and Entrepreneur",
+        "company": "No Priors / Independent"
+      },
+      "timeframe": {
+        "raw": "what normally would have taken a decade... is now happening in a year or two",
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "efUt__S_AjY",
+        "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+        "title": "The AI Code Slop: Risk or Opportunity?",
+        "channel": "No Priors",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 2321,
+        "timestamp_display": "38:41",
+        "timestamp_url": "https://www.youtube.com/watch?v=efUt__S_AjY&t=2321s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_the-ai-code-slop-risk-or-opportunity.md"
+    },
+    {
+      "id": "pred-efUt__S_AjY-1729",
+      "prediction": "There will be significantly more $100 billion tech companies than exist today as tech's share of GDP grows",
+      "category": "economic impact",
+      "person": {
+        "name": "Elad Gil",
+        "role": "Investor and Entrepreneur",
+        "company": "No Priors / Independent"
+      },
+      "timeframe": {
+        "raw": "terminal values 10 years from now",
+        "earliest_year": 2033,
+        "latest_year": 2036,
+        "midpoint_year": 2035
+      },
+      "confidence": {
+        "raw": "I think there's a lot more",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "efUt__S_AjY",
+        "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+        "title": "The AI Code Slop: Risk or Opportunity?",
+        "channel": "No Priors",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 1729,
+        "timestamp_display": "28:49",
+        "timestamp_url": "https://www.youtube.com/watch?v=efUt__S_AjY&t=1729s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_the-ai-code-slop-risk-or-opportunity.md"
+    },
+    {
+      "id": "pred-efUt__S_AjY-2352",
+      "prediction": "Every two years of AI-era competition will be equivalent to ten years in the previous SaaS era -- founders must adopt a compressed-timeline mindset",
+      "category": "economic impact",
+      "person": {
+        "name": "Elad Gil",
+        "role": "Investor and Entrepreneur",
+        "company": "No Priors / Independent"
+      },
+      "timeframe": {
+        "raw": "if every two years is 10 years",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "efUt__S_AjY",
+        "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+        "title": "The AI Code Slop: Risk or Opportunity?",
+        "channel": "No Priors",
+        "upload_date": "2026-02-19",
+        "timestamp_seconds": 2352,
+        "timestamp_display": "39:12",
+        "timestamp_url": "https://www.youtube.com/watch?v=efUt__S_AjY&t=2352s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-19_the-ai-code-slop-risk-or-opportunity.md"
+    },
+    {
+      "id": "pred-B26CwKm5C1k-3103",
+      "prediction": "Within 12-18 months, frontier models will be able to coherently handle multi-hour and potentially day-long tasks",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Sherwin Wu",
+        "role": "Head of Engineering for API & Developer Platform",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "in the next 12 to 18 months",
+        "earliest_year": 2027,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "I think like in the next 12 to 18 months, we could see",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "B26CwKm5C1k",
+        "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+        "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 3103,
+        "timestamp_display": "51:43",
+        "timestamp_url": "https://www.youtube.com/watch?v=B26CwKm5C1k&t=3103s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md"
+    },
+    {
+      "id": "pred-B26CwKm5C1k-3149",
+      "prediction": "Audio/multimodal AI models will get significantly better in the next 6-12 months, creating major enterprise opportunities",
+      "category": "product/company",
+      "person": {
+        "name": "Sherwin Wu",
+        "role": "Head of Engineering for API & Developer Platform",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "over the next six to 12 months",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I think they're going to get a lot better",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "B26CwKm5C1k",
+        "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+        "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 3149,
+        "timestamp_display": "52:29",
+        "timestamp_url": "https://www.youtube.com/watch?v=B26CwKm5C1k&t=3149s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md"
+    },
+    {
+      "id": "pred-B26CwKm5C1k-1591",
+      "prediction": "A golden age of B2B SaaS will emerge with possibly tens of thousands of $10 million startups building bespoke vertical software to support one-person billion-dollar startups",
+      "category": "economic impact",
+      "person": {
+        "name": "Sherwin Wu",
+        "role": "Head of Engineering for API & Developer Platform",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": null,
+        "earliest_year": 2027,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I think we might actually enter into a golden age",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "B26CwKm5C1k",
+        "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+        "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1591,
+        "timestamp_display": "26:31",
+        "timestamp_url": "https://www.youtube.com/watch?v=B26CwKm5C1k&t=1591s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md"
+    },
+    {
+      "id": "pred-B26CwKm5C1k-1622",
+      "prediction": "There will be tens of thousands of $10 million startups as a second-order effect of AI enabling one-person billion-dollar companies",
+      "category": "economic impact",
+      "person": {
+        "name": "Sherwin Wu",
+        "role": "Head of Engineering for API & Developer Platform",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": null,
+        "earliest_year": 2027,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "There might be tens of thousands",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "B26CwKm5C1k",
+        "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+        "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1622,
+        "timestamp_display": "27:02",
+        "timestamp_url": "https://www.youtube.com/watch?v=B26CwKm5C1k&t=1622s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md"
+    },
+    {
+      "id": "pred-B26CwKm5C1k-1327",
+      "prediction": "Engineering managers will be able to manage much larger teams with AI tools providing organizational context",
+      "category": "job displacement",
+      "person": {
+        "name": "Sherwin Wu",
+        "role": "Head of Engineering for API & Developer Platform",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": null,
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "My sense is I think managers will be able to manage much larger teams in this world",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "B26CwKm5C1k",
+        "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+        "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 1327,
+        "timestamp_display": "22:07",
+        "timestamp_url": "https://www.youtube.com/watch?v=B26CwKm5C1k&t=1327s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md"
+    },
+    {
+      "id": "pred-B26CwKm5C1k-511",
+      "prediction": "Software engineers will evolve from writing code to managing fleets of AI agents, functioning as tech leads within 1-2 years",
+      "category": "job displacement",
+      "person": {
+        "name": "Sherwin Wu",
+        "role": "Head of Engineering for API & Developer Platform",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "In terms of where I think this will go one to two years from now",
+        "earliest_year": 2027,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "B26CwKm5C1k",
+        "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+        "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 511,
+        "timestamp_display": "8:31",
+        "timestamp_url": "https://www.youtube.com/watch?v=B26CwKm5C1k&t=511s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-90",
+      "prediction": "AI is a 10-15 year product cycle, and we are at the very beginning of it",
+      "category": "economic impact",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "10, 15 year cycles. And we're just at the very beginning of it right now.",
+        "earliest_year": 2036,
+        "latest_year": 2041,
+        "midpoint_year": 2038
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 90,
+        "timestamp_display": "1:30",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=90s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-560",
+      "prediction": "Entire product and engineering organizations will be restructured around AI-assisted coding tools within the next 12 months",
+      "category": "coding automation",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "I think it's going to happen within the next 12 months",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 560,
+        "timestamp_display": "9:20",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=560s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-577",
+      "prediction": "AI-assisted coding will either take hold in companies or those companies will move much slower than their peers within the next 12 months",
+      "category": "coding automation",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "the next 12 months, it's going to kind of hit. It's either going to hit and take hold in companies or those companies are going to be moving much slower than their peers.",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 577,
+        "timestamp_display": "9:37",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=577s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-903",
+      "prediction": "Shopify's AI transformation is just scratching the surface of what will happen in corporate AI adoption over the next five years",
+      "category": "economic impact",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "just probably scratching the surface of what's going to happen over the next five years",
+        "earliest_year": 2026,
+        "latest_year": 2031,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 903,
+        "timestamp_display": "15:03",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=903s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-1417",
+      "prediction": "A reckoning over the next five years will separate companies that embrace AI change management from those that do not, resulting in major productivity differences",
+      "category": "economic impact",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "there's going to be a sort of reckoning over the next five years",
+        "earliest_year": 2026,
+        "latest_year": 2031,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 1417,
+        "timestamp_display": "23:37",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=1417s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-1751",
+      "prediction": "AI will be the biggest 'model buster' in history -- companies will grow faster and longer than any spreadsheet model predicts, similar to iPhone's impact on Apple",
+      "category": "economic impact",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "the same thing is going to happen in many pockets of AI where the performance just massively exceeds what any expectations in a spreadsheet would show you",
+        "earliest_year": 2026,
+        "latest_year": 2036,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 1751,
+        "timestamp_display": "29:11",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=1751s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-1992",
+      "prediction": "AI revenue will surpass AI CapEx much faster than Azure revenue surpassed Azure CapEx (which took 10 years)",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "I think that sort of ratio or equation is going to happen much faster with AI",
+        "earliest_year": 2028,
+        "latest_year": 2033,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 1992,
+        "timestamp_display": "33:12",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=1992s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-2206",
+      "prediction": "In 2026, AI model companies (OpenAI, Anthropic, etc.) will generate net new revenue equal to 75-80% of the entire public software industry's net new revenue",
+      "category": "economic impact",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "if you were to do that same comparison for 2026... I think the AI companies, the model companies, will be something like 75% to 80% as much",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 2206,
+        "timestamp_display": "36:46",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=2206s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-2268",
+      "prediction": "Cumulative hyperscaler CapEx will reach approximately $5 trillion by 2030, requiring ~$1 trillion in annual AI revenue (~1% of global GDP) to achieve a 10% hurdle rate",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "current estimates put cumulative hyperscaler CapEx at a little less than $5 trillion by 2030... annual AI revenue would have to hit about $1 trillion by 2030",
+        "earliest_year": 2030,
+        "latest_year": 2030,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "It's possible that happens. It's also possible we could fall a little short of that.",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 2268,
+        "timestamp_display": "37:48",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=2268s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-2301",
+      "prediction": "The full AI CapEx payback will happen between 2030 and 2040, not just by 2030",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "I think the payback of this probably happens, you know, over a longer period of time, like, you know, between 2030 and 2040 as well.",
+        "earliest_year": 2030,
+        "latest_year": 2040,
+        "midpoint_year": 2035
+      },
+      "confidence": {
+        "raw": "probably happens",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 2301,
+        "timestamp_display": "38:21",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=2301s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-2380",
+      "prediction": "Current AI-enabled revenue is approximately $50 billion, growing way faster than 100% year over year",
+      "category": "economic impact",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "We're probably in the 50 billion range... it's growing way, way, way faster than 100% year over year",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": "I would probably guess",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 2380,
+        "timestamp_display": "39:40",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=2380s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-rSohMpT24SI-2656",
+      "prediction": "Major long-private tech companies will IPO within the next 18 months",
+      "category": "product/company",
+      "person": {
+        "name": "David George",
+        "role": "General Partner (Growth)",
+        "company": "Andreessen Horowitz (a16z)"
+      },
+      "timeframe": {
+        "raw": "I think we're going to have a really, really interesting 18 months where we're going to have some of the big kind of private for a very long time companies that go public.",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "rSohMpT24SI",
+        "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+        "title": "AI Markets: Deep Dive with a16z's David George",
+        "channel": "a16z",
+        "upload_date": "2026-02-09",
+        "timestamp_seconds": 2656,
+        "timestamp_display": "44:16",
+        "timestamp_url": "https://www.youtube.com/watch?v=rSohMpT24SI&t=2656s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md"
+    },
+    {
+      "id": "pred-3UyitfSbY6c-1577",
+      "prediction": "The number of companies formed will mushroom over the next 10 years relative to the last 10 years due to AI making it easier to start companies",
+      "category": "economic impact",
+      "person": {
+        "name": "Brian Halligan",
+        "role": "CEO Coach / Co-founder & former CEO of HubSpot",
+        "company": "Sequoia Capital"
+      },
+      "timeframe": {
+        "raw": "The number of companies formed is going to mushroom over the next 10 years relative to the last 10 years.",
+        "earliest_year": 2026,
+        "latest_year": 2036,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "3UyitfSbY6c",
+        "url": "https://www.youtube.com/watch?v=3UyitfSbY6c",
+        "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-15",
+        "timestamp_seconds": 1577,
+        "timestamp_display": "26:17",
+        "timestamp_url": "https://www.youtube.com/watch?v=3UyitfSbY6c&t=1577s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.md"
+    },
+    {
+      "id": "pred-3UyitfSbY6c-1708",
+      "prediction": "Enterprise sales (trust-based B2B selling between humans) will be one of the very last white-collar jobs to be replaced by AI",
+      "category": "job displacement",
+      "person": {
+        "name": "Brian Halligan",
+        "role": "CEO Coach / Co-founder & former CEO of HubSpot",
+        "company": "Sequoia Capital"
+      },
+      "timeframe": {
+        "raw": "I think ye olde enterprise sales where there's actual trust built up between two carbon-based lifeforms, I think will be very, very, very late to go in the white-collar world.",
+        "earliest_year": null,
+        "latest_year": null,
+        "midpoint_year": null
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "3UyitfSbY6c",
+        "url": "https://www.youtube.com/watch?v=3UyitfSbY6c",
+        "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-15",
+        "timestamp_seconds": 1708,
+        "timestamp_display": "28:28",
+        "timestamp_url": "https://www.youtube.com/watch?v=3UyitfSbY6c&t=1708s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.md"
+    },
+    {
+      "id": "pred-3UyitfSbY6c-1767",
+      "prediction": "Websites will shift to AI avatar-based conversational experiences instead of traditional page hierarchies, with an all-knowing avatar on the homepage",
+      "category": "product/company",
+      "person": {
+        "name": "Brian Halligan",
+        "role": "CEO Coach / Co-founder & former CEO of HubSpot",
+        "company": "Sequoia Capital"
+      },
+      "timeframe": {
+        "raw": "I think sites will change where you're going to have a really high-quality avatar",
+        "earliest_year": 2026,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "3UyitfSbY6c",
+        "url": "https://www.youtube.com/watch?v=3UyitfSbY6c",
+        "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-15",
+        "timestamp_seconds": 1767,
+        "timestamp_display": "29:27",
+        "timestamp_url": "https://www.youtube.com/watch?v=3UyitfSbY6c&t=1767s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.md"
+    },
+    {
+      "id": "pred-3UyitfSbY6c-2023",
+      "prediction": "The top of the marketing/sales funnel will change dramatically as buyers start research in LLMs (ChatGPT, Gemini, Claude) instead of Google; AEO (AI Engine Optimization) becomes the new SEO",
+      "category": "product/company",
+      "person": {
+        "name": "Brian Halligan",
+        "role": "CEO Coach / Co-founder & former CEO of HubSpot",
+        "company": "Sequoia Capital"
+      },
+      "timeframe": {
+        "raw": "the thing that will change first is the top of the funnel around getting found in instead of Google... the top of the funnel is about to change a lot",
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "3UyitfSbY6c",
+        "url": "https://www.youtube.com/watch?v=3UyitfSbY6c",
+        "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-15",
+        "timestamp_seconds": 2023,
+        "timestamp_display": "33:43",
+        "timestamp_url": "https://www.youtube.com/watch?v=3UyitfSbY6c&t=2023s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.md"
+    },
+    {
+      "id": "pred-3UyitfSbY6c-2143",
+      "prediction": "CEO planning cycles have compressed from annual to quarterly (three months) due to the pace of AI change",
+      "category": "economic impact",
+      "person": {
+        "name": "Brian Halligan",
+        "role": "CEO Coach / Co-founder & former CEO of HubSpot",
+        "company": "Sequoia Capital"
+      },
+      "timeframe": {
+        "raw": "The planning cycles used to be a year. I think the planning cycles now are three months long.",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "3UyitfSbY6c",
+        "url": "https://www.youtube.com/watch?v=3UyitfSbY6c",
+        "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+        "channel": "Lenny's Podcast",
+        "upload_date": "2026-02-15",
+        "timestamp_seconds": 2143,
+        "timestamp_display": "35:43",
+        "timestamp_url": "https://www.youtube.com/watch?v=3UyitfSbY6c&t=2143s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-92",
+      "prediction": "The cost of creating software is going down to zero",
+      "category": "coding automation",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "Cost of creating software is going down to zero.",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 92,
+        "timestamp_display": "1:32",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=92s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-129",
+      "prediction": "AI agents will eliminate the switching cost of data between SaaS providers, dramatically reducing friction of switching vendors",
+      "category": "product/company",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "The next thing that's going to hit everyone bad is the switching cost of data.",
+        "earliest_year": 2026,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 129,
+        "timestamp_display": "2:09",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=129s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-208",
+      "prediction": "SaaS company multiples will compress from historical 20-30x price-to-sales to potentially 1-2x (utility-level valuations) as AI erodes switching costs and moats",
+      "category": "product/company",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "historically, software could trade at a price to sales... they've been trading at 20, 30. And now they're down at 5, 10. But if you look at utilities... they may trade at 1 to 2.",
+        "earliest_year": 2027,
+        "latest_year": 2032,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "you would argue there is still some unfortunate potential to come down even further",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 208,
+        "timestamp_display": "3:28",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=208s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-2088",
+      "prediction": "Klarna will have fewer than 2,000 employees by 2030 (down from 7,000+), possibly even less",
+      "category": "job displacement",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "Is 2030, how many employees do you have then? 2,000? I think it may very well be even less than that.",
+        "earliest_year": 2030,
+        "latest_year": 2030,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "it may very well be even less than that",
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 2088,
+        "timestamp_display": "34:48",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=2088s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-3257",
+      "prediction": "Cursor will lose half of its revenue in 2026, outcompeted by Claude Code",
+      "category": "product/company",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "I think Cursor will lose half of its revenue in 2026.",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 3257,
+        "timestamp_display": "54:17",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=3257s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-3313",
+      "prediction": "Anthropic will outperform OpenAI as an investment -- OpenAI will become a consumer companion product optimizing for emotional connection while Anthropic focuses on being an intelligent advisor",
+      "category": "product/company",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "You can invest in Anthropic at 360 or OpenAI at 500... they're going in very different directions... ChatGPT is becoming a consumer company... optimize for emotional connection... Claude is my intelligent advisor",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 3313,
+        "timestamp_display": "55:13",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=3313s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-3515",
+      "prediction": "Data centers are the most underinvested category today (bullish on data center buildout)",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "I think data center is the one that's the most underinvested categories today.",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 3515,
+        "timestamp_display": "58:35",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=3515s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-3876",
+      "prediction": "Enterprise data will undergo massive compression as AI eliminates redundancy across siloed systems, naturally reducing data storage and compute needs",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "in enterprise data, there's going to be a massive compression that's going to come naturally through this technology",
+        "earliest_year": 2026,
+        "latest_year": 2032,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 3876,
+        "timestamp_display": "1:04:36",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=3876s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-P7vIRAFSXmk-3049",
+      "prediction": "In 10 years, fewer people will have credit cards and more people will use debit cards with occasional buy-now-pay-later",
+      "category": "product/company",
+      "person": {
+        "name": "Sebastian Siemiatkowski",
+        "role": "Co-founder & CEO",
+        "company": "Klarna"
+      },
+      "timeframe": {
+        "raw": "If 10 years from now, less people have credit cards and more people have debit cards and then use buy now, pay later occasionally, I would argue it's a better society.",
+        "earliest_year": 2036,
+        "latest_year": 2036,
+        "midpoint_year": 2036
+      },
+      "confidence": {
+        "raw": null,
+        "level": "speculative",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "P7vIRAFSXmk",
+        "url": "https://www.youtube.com/watch?v=P7vIRAFSXmk",
+        "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+        "channel": "20VC with Harry Stebbings",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 3049,
+        "timestamp_display": "50:49",
+        "timestamp_url": "https://www.youtube.com/watch?v=P7vIRAFSXmk&t=3049s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md"
+    },
+    {
+      "id": "pred-YFjfBk8HI5o-10439",
+      "prediction": "Personal AI agents will kill off 80% of apps, as every app is effectively just a slow API that agents can interact with directly via browser automation",
+      "category": "product/company",
+      "person": {
+        "name": "Peter Steinberger",
+        "role": "Creator of OpenClaw",
+        "company": "OpenClaw (independent)"
+      },
+      "timeframe": {
+        "raw": "it might kill off 80% of apps",
+        "earliest_year": 2027,
+        "latest_year": 2031,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YFjfBk8HI5o",
+        "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
+        "title": "OpenClaw: The Viral AI Agent that Broke the Internet",
+        "channel": "Lex Fridman",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 10439,
+        "timestamp_display": "2:53:59",
+        "timestamp_url": "https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10439s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md"
+    },
+    {
+      "id": "pred-YFjfBk8HI5o-8658",
+      "prediction": "2026 is the year of personal agents -- this is the future of computing",
+      "category": "product/company",
+      "person": {
+        "name": "Peter Steinberger",
+        "role": "Creator of OpenClaw",
+        "company": "OpenClaw (independent)"
+      },
+      "timeframe": {
+        "raw": "I think this is the year of personal agents and that's the future",
+        "earliest_year": 2026,
+        "latest_year": 2026,
+        "midpoint_year": 2026
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YFjfBk8HI5o",
+        "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
+        "title": "OpenClaw: The Viral AI Agent that Broke the Internet",
+        "channel": "Lex Fridman",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 8658,
+        "timestamp_display": "2:24:18",
+        "timestamp_url": "https://www.youtube.com/watch?v=YFjfBk8HI5o&t=8658s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md"
+    },
+    {
+      "id": "pred-YFjfBk8HI5o-10750",
+      "prediction": "Companies that resist becoming agent-friendly will become the next Blockbuster -- services should race to expose agent-friendly APIs",
+      "category": "product/company",
+      "person": {
+        "name": "Peter Steinberger",
+        "role": "Creator of OpenClaw",
+        "company": "OpenClaw (independent)"
+      },
+      "timeframe": {
+        "raw": "agent friendly... companies that resist become Blockbuster",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YFjfBk8HI5o",
+        "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
+        "title": "OpenClaw: The Viral AI Agent that Broke the Internet",
+        "channel": "Lex Fridman",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 10750,
+        "timestamp_display": "2:59:10",
+        "timestamp_url": "https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10750s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md"
+    },
+    {
+      "id": "pred-YFjfBk8HI5o-10902",
+      "prediction": "Programming as a manual activity will become like knitting -- done for love, not necessity -- while the builder mindset remains essential",
+      "category": "coding automation",
+      "person": {
+        "name": "Peter Steinberger",
+        "role": "Creator of OpenClaw",
+        "company": "OpenClaw (independent)"
+      },
+      "timeframe": {
+        "raw": "programming... it's gonna be like knitting, you know, like people do that because they love it",
+        "earliest_year": 2027,
+        "latest_year": 2033,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "YFjfBk8HI5o",
+        "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
+        "title": "OpenClaw: The Viral AI Agent that Broke the Internet",
+        "channel": "Lex Fridman",
+        "upload_date": "2026-02-12",
+        "timestamp_seconds": 10902,
+        "timestamp_display": "3:01:42",
+        "timestamp_url": "https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10902s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md"
+    }
+  ]
+}

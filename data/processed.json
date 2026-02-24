@@ -1,0 +1,138 @@
+{
+  "videos": [
+    {
+      "video_id": "YTrBz6Z5c0E",
+      "title": "Mustafa Suleyman sets out Microsoft AI's goal of 'humanist superintelligence' | FT Interview",
+      "channel": "Financial Times",
+      "upload_date": "2026-02-12",
+      "processed_date": "2026-02-23",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.md",
+      "transcript_path": "data/transcripts/2026-02-12_mustafa-suleyman-microsoft-ai-humanist-superintelligence.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "We7BZVKbCVw",
+      "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+      "channel": "Lenny's Podcast",
+      "upload_date": "2026-02-19",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-19_boris-cherny-head-of-claude-code.md",
+      "transcript_path": "data/transcripts/2026-02-19_boris-cherny-head-of-claude-code.json",
+      "predictions_count": 8
+    },
+    {
+      "video_id": "rSohMpT24SI",
+      "title": "AI Markets: Deep Dive with a16z's David George",
+      "channel": "a16z",
+      "upload_date": "2026-02-09",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.md",
+      "transcript_path": "data/transcripts/2026-02-09_ai-markets-deep-dive-with-a16zs-david-george.json",
+      "predictions_count": 12
+    },
+    {
+      "video_id": "efUt__S_AjY",
+      "title": "The AI Code Slop: Risk or Opportunity?",
+      "channel": "No Priors",
+      "upload_date": "2026-02-19",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-19_the-ai-code-slop-risk-or-opportunity.md",
+      "transcript_path": "data/transcripts/2026-02-19_the-ai-code-slop-risk-or-opportunity.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "S1rQngjpUdI",
+      "title": "OpenAI's Codex Lead: Why Coding as We Know It is Over",
+      "channel": "20VC with Harry Stebbings",
+      "upload_date": "2026-02-21",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.md",
+      "transcript_path": "data/transcripts/2026-02-21_openais-codex-lead-why-coding-as-we-know-it-is-over.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "3UyitfSbY6c",
+      "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+      "channel": "Lenny's Podcast",
+      "upload_date": "2026-02-15",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.md",
+      "transcript_path": "data/transcripts/2026-02-15_how-to-be-a-ceo-when-ai-breaks-all-the-old-playbooks-sequoia.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "B26CwKm5C1k",
+      "title": "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+      "channel": "Lenny's Podcast",
+      "upload_date": "2026-02-12",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.md",
+      "transcript_path": "data/transcripts/2026-02-12_openais-head-of-platform-engineering-on-the-next-12-24-month.json",
+      "predictions_count": 6
+    },
+    {
+      "video_id": "P7vIRAFSXmk",
+      "title": "Klarna CEO: SaaS is Dead: Why Systems of Record Will Die in an Agentic World",
+      "channel": "20VC with Harry Stebbings",
+      "upload_date": "2026-02-16",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.md",
+      "transcript_path": "data/transcripts/2026-02-16_klarna-ceo-saas-is-dead-why-systems-of-record-will-die-in-an.json",
+      "predictions_count": 9
+    },
+    {
+      "video_id": "n1E9IZfvGMA",
+      "title": "Dario Amodei \u2014 'We are near the end of the exponential'",
+      "channel": "Dwarkesh Patel",
+      "upload_date": "2026-02-13",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.md",
+      "transcript_path": "data/transcripts/2026-02-13_dario-amodei-we-are-near-the-end-of-the-exponential.json",
+      "predictions_count": 12
+    },
+    {
+      "video_id": "BYXbuik3dgA",
+      "title": "Elon Musk \u2013 'In 36 months, the cheapest place to put AI will be space'",
+      "channel": "Dwarkesh Patel",
+      "upload_date": "2026-02-05",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.md",
+      "transcript_path": "data/transcripts/2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be.json",
+      "predictions_count": 14
+    },
+    {
+      "video_id": "Z19UEZHJzAg",
+      "title": "By 2050 we could get '10,000 years of technological progress'",
+      "channel": "80,000 Hours",
+      "upload_date": "2026-02-17",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.md",
+      "transcript_path": "data/transcripts/2026-02-17_by-2050-we-could-get-10000-years-of-technological-progress.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "YFjfBk8HI5o",
+      "title": "OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491",
+      "channel": "Lex Fridman",
+      "upload_date": "2026-02-12",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md",
+      "transcript_path": "data/transcripts/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.json",
+      "predictions_count": 4
+    }
+  ],
+  "last_run": "2026-02-24",
+  "total_processed": 12
+}

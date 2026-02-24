@@ -1,0 +1,3964 @@
+{
+  "metadata": {
+    "video_id": "rSohMpT24SI",
+    "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+    "title": "AI Markets: Deep Dive with a16z's David George",
+    "channel": "a16z",
+    "upload_date": "2026-02-09",
+    "duration": "47m",
+    "transcribed_date": "2026-02-24",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "Let me just start with what I think the big takeaways are from this piece, because this is the first time we've ever done this style piece. We produce so much work and so much analysis. It's like exhaust inside of our team. And we thought, we have so many different thoughts and points of view. Why don't we put them on paper and share them out with the world? So that was the genesis of this. My big takeaways from doing this, one, AI demand side is crazy. The actual uptake growth quality of companies in AI is extremely encouraging from our standpoint. Companies are starting to run themselves better. I'm going to show you some stats on that, that there's been some sort of X buzz, including this morning, kind of debating what's going on there. But this crop of companies, I would say is more impressive than prior crops of companies, partially because the demand for their products is so high. That's demand side. Supply side is healthy right now. But we are starting to see some signs of things that are stretched a little bit. And I'll talk about what we see and what we're looking out for. We've been fortunate to be a part of a lot of these great companies. And the most exciting action that is happening in the private markets, it's AI and it's happening in the private markets. And we're going to show some slides about that. And then lastly, my big conclusion, what has me so excited about where we are now is just how early we are in this product cycle. Product cycles drive our business. And these are 10, 15 year cycles. And we're just at the very beginning of it right now. So let's dive in. We invest across all private stages. This is a chart that just shows our activity. We're very busy. It's across all verticals. We, on the growth side, have been most active in AI and infrared apps and then in AD, but also very active in our other verticals as well. And I'm going to zoom through some of these. I hate to do the A16Z commercial, but I really like this slide. You know, I think we have the chance to work with some of the best models and apps and infrared companies, obviously. I'm going to do that. On that slide. Gong it. I do like that slide a lot. The soundboard effect here. I'm going to be reserved. Yeah. We debated how early to put that slide on the deck. And I said, put it further back and I was overruled. So thankfully. Anyway, here's some data. So we collect tons and tons of data as a growth team because we're basically seeing every growth stage company in the market as a either portfolio company or as a prospect. And so we have a great data analysis team. We did some data analysis. I think this stuff is just super interesting. We geek out on it. To me, the big conclusion from this is 2025 was a year for accelerated revenue growth. You know, revenue obviously slowed, you know, in 2022, 23, 24, following the rate hikes and the pullback and some of the tech stuff. But 2025 reversed that trend and, you know, it accelerated across different, you know, types of companies as we rank them by decile and quartile. But especially among, you know, the outlier companies, you know, it really accelerated. And you've probably seen us put this slide on a page before, but the fastest growing AI companies are reaching 100 million bucks of revenue significantly faster than the fastest growing SaaS companies in their era. And there's a really important thing I want to call out about why that is the case. And that is because end customer demand is so strong and the products are so compelling. It's not because they spend more money on sales and marketing. It's actually the opposite. The best AI companies that are growing the fastest are not the ones spending the most amount of money on sales and marketing. And they're spending less money on sales and marketing than their SaaS counterparts. And yet they're growing much, much faster. So this was a slide showing just the growth of the AI companies versus the non-AI companies. Roughly speaking, the AI companies are growing two and a half times plus faster than the non-AI companies. And that shouldn't be a huge surprise. The best of the AI companies are growing very, very fast. We had to triple check this data when we saw the, you know, the AI top, you know, top performers growing 693% year over year. But it matches up our experience, you know, and anecdotes that we see from the portfolio companies. So that's growth. This is the margin profile that we're seeing in the data set. And again, these are internal data sets that we have of portfolio companies and companies that we look at as potential investments. Gross margins are a little bit worse for AI companies. You've probably heard us talk about this before. But in a way, we feel like low gross margins for AI companies are sort of a badge of honor in the sense that we want to see if low gross margins are a result of high inference costs. One, that means people are using AI features. And two, we have a belief that those inference costs over time are going to come down. So in an odd way, if we see an AI pitch and the gross margins are super high, we're a little bit skeptical because that may mean that the AI features are not actually what is being bought or used by the customers. We're going to talk about ARR per FTE, but this is a new thing that we've started focusing on. And this is one of the things that got a lot of pickup and discussion on X in the last few days. ARR per FTE is sort of a measure of the efficiency of how you run your company in general. So it encapsulates all of your costs. It encapsulates, you know, not just your sales and marketing, which is an efficiency measure that we've always kind of looked at when we do analysis in the past, but it also captures your overhead. It captures your R&D. And so for the best AI companies, they're running at like $500,000 to a million dollars per FTE. And the rule of thumb for previous software businesses in the SaaS era was like $400,000 in the last generation. Again, I'm going to talk about this a little bit more, but the reason why this is the case is mostly because demand is very, very strong for their products. You know, and so they need a less resource to go take it to market. David, maybe a quick clarifying just before we go to this slide here. So how do we, how do you define AI companies? Is that defined as post-Chat GPT versus historical AI ML companies founded by a certain time period? Yeah, it's sort of post-Chat GPT companies. And some of them were founded like right around that time. We give a little bit of grace. But if their first product in market was an AI, you know, native product, then that's how we divide it. Got it. And then maybe this is a good point, but where you can punt till later. But like one of the questions I think a lot of folks are trying to understand is the magnitude of change and expected revenue and growth from companies from the SaaS era to AI era companies. And you've talked a little bit about the magnitude of revenue, et cetera. But what happens to those that are not AI native? Will they have a hard time competing against AI native companies? Are they all shifting? Will we see more fallout? How should people be thinking about their historical portfolio? Yeah. So the way that we're approaching this with our portfolio is, you know, you need to adapt to the AI era or die. And so that's both on the front end and the back end. So on the front end, you need to think about how you can incorporate AI into your product natively. And not just, you know, attach a chatbot app into your existing workflow, but reimagine what it can mean with AI and be aggressive about disrupting yourself and changing. And then on the back end, you know, I shared some of the stats around the efficiency that the companies are running at. This is going to change too. And so you need to be fully rolled out with the latest coding models for all of your developers and all of the latest tools across every different function inside your organization. The biggest uptake has been in coding so far, and that's where we've seen the biggest leaps. There have been major, major changes, like in the last two months on this, like month and a half in this. You know, Andre Karpathy has written about this. I was on a catch up with one of our, you know, sort of pre-AI companies. And this is a founder who's very AI, like he's very AI deep. And so he's adapting his company. We were talking this week and he told me that he was frustrated with one of their products. And so he just took two engineers that are very deep in AI and assigned them to build it from scratch with quad code and codex and cursor. And just, they had unlimited budget on coding tools. And he said he thinks it's going somewhere between 10 and 20 X faster than progress that they had before. And the bills that they have associated with that is actually, they're high enough that it will cause him to rethink what his entire organization will look like. The conclusion was basically, I need my entire product and engineering organization working this way. And I think it's going to happen within the next 12 months. But what does that mean for what the team design actually is? And where does product start? And where does ing start? You know, and even where does design start in that process? So it feels like December was sort of a turning point on code. And, you know, the next 12 months, it's going to kind of hit. It's either going to hit and take hold in companies or those companies, I think, are going to be moving much slower than their peers. So, you know, as it relates to the pre-AI companies, you know, Adapt, we have another example of a company that is a pre-AI software company. And the CEO has gotten totally AI pilled. And he's like, we're going to become an AI product. Like, we're going to ship, you know, your employees are now your AI agents. How many agents do you have? Like, those are the things that he's talking about. But, you know, we have another one that was very extreme about it. And he said, I now ask the question for every task that we now need to complete. Can I do it with electricity or do I need to do it with blood? Like, this is like the extreme mindset shift that's happening, you know, with our companies. And so I'm happy to see that our pre-AI companies are moving very fast and trying to adapt. But they very much need to adapt to this new era, both front-end product-wise and back-end how they run their companies. Totally. Yeah, maybe tactically, almost every portfolio, you have to go line by line on the company to understand where the founder is on that journey and how much they're implementing from the ground up. And, you know, what you said in terms of blowing up existing operations, that's also happening in post-AI companies too. And increasingly, people are just looking every six months. It's like the things we built six months ago could be vastly improved by based on what is available today. So if that rate is continually happening, the pre-AI companies are needing to increasingly 10x catch up to that point. Yeah, the good news for the pre-AI companies is the business model evolution is still early days. So the most disruptive thing that can happen to you is a technology and product shift and also a business model shift at the same time. There's really one, I think of the business models as like a spectrum. And, you know, I'm talking about like enterprise, like B2B, just to keep it simple. But the spectrum is basically licenses. And this was like the pre-SaaS, you know, license and maintenance business models. Then you had SaaS and subscription, and that was typically seed based. And that was a big innovation, and it was very disruptive. Like the architecture and cloud delivery was disruptive, but the business model change was very disruptive. Like just go look at what happened to Adobe as they went through that transition. Then you have this transition to consumption based, so usage based. And this is how the clouds charge. And so many of the sort of volume based, like task based type businesses have already adapted that and shifted to that from, you know, seed based to consumption. And then the next iteration will be outcome based. So, you know, when you do a task, you know, and ideally when you successfully complete a task, you get paid based on the successful completion of that task. The only area where that's really possible today to pull off is probably customer support, customer success, because you can kind of objectively measure the resolution of something. But we'll see what happens with the capabilities of the models to the extent that other functions besides customer support can measure those kinds of outcomes. That would be a huge disruptive force for incumbents. And honestly, seats to consumption might be a big disruption if the composition of companies changes as well. But that next one is the is the really big one. For sure. Speaking of blood versus electricity, we should go to ARR over FTE. This next slide. Yeah, yeah, yeah. So the big the big debate that was going on on this one on the next slide was like, oh, my gosh, look at the AI efficiency gains that are happening in the market. Now, there's a little bit of that in this, like companies running themselves a little bit differently. And, you know, you take the example that I gave about, you know, the two engineers who are rebuilding the product. Like, sure. I would say my observation from our companies, even the AI native ones, is they run leaner partially because they've just grown so quickly and the demand is so strong. I wouldn't say yet we're at the point where companies have fully reimagined the way they run themselves. I think this is a little bit the result of our data set being the best of the best companies and demand signals for those being extremely high. So they, you know, they have less resources to serve that demand. And frankly, you know, efficiency, general efficiency gains that have happened in the technology market, you know, out of the kind of 2021 most, you know, most bloated era. So we're starting to see some early signs of that efficiency, but the wholesale run your company totally differently. I think, you know, we're kind of early in that journey. I'd say the coolest one that I've seen is in the public markets that anyone can go read about is probably Shopify, where they, you know, Toby's awesome. Like, he's a CEO that's close. He's in a bunch of our groups and stuff. And he does a great job and he, you know, he fully embraced this a couple of years ago. And then one of our staff writers actually wrote this whole big deep dive on how Shopify AI-ified itself, you know, in terms of, you know, employee direction, process, et cetera. And that's just probably scratching the surface of what's going to happen over the next five years. Awesome. Good segue to the next section on what are these companies actually doing? And our favorite topic, which is lawyers have only increased in this new world of AI's meeting lawyers. Not the opposite. I love the tweet. I don't know if you saw it earlier this week that a corporate lawyer was quoted saying, LLMs have actually increased my workload because every client thinks they're a lawyer now. It's a good segue to Harvey, which is an excellent. That's very good. That's very good. Harvey's doing great. So, okay, this is a real test for me because, you know, I love talking about our portfolio companies. And I'm supposed to go through this section quickly because, you know, I think people know these companies, hopefully. The takeaway on this one, you know, one of the big things that we look for and one of the questions I think that came in was, how do you know that revenue is going to be sustainable? Like, these companies, they all grew really, really fast. But is it fleeting? And the big thing that we push ourselves to do is make sure we go super, super deep on revenue retention, renewals, and product engagement, actually time spent. How often are people logging into the platform? When they're in the platform, what does their activity look like? And what you see on this page is with the onset of much better product that they've built over the last couple of years, plus the improvement of reasoning models, it turns out lawyering and reasoning go hand in hand. Users are spending about double the amount in the product as they had before. So it turns out that AI is really good at lawyering. Again, there's not fewer lawyers. But I think, you know, AI is very, very good at this. And I think lawyers are getting a lot more efficient. The most important thing as it relates to Harvey is they're just spending a lot of time in the product and getting a lot of value out of it, which is great. Let's go to a bridge. Oh, unless you want to keep talking about lawyers. Oh, I was just going to make a comment. In all the seven years that I've known you, I wouldn't have ever discerned that you're from Kentucky other than this moment now. By the way, you say lawyer. That was a tell. There's a couple of those words in my vocabulary that I don't. You know, my wife always jokes. She's like, you know, you go home, you have like one bourbon, and then you talk like you probably did when you were 18. The Kentucky came out when it came to lawyers. It's 1025 a.m. I have not had any bourbons today. Important distinction. Important distinctions. Yes, exactly. So a bridge. A bridge is another one that's super, super exciting. I mean, this is like the doctors rave about getting to have access to a bridge and how much time it saves them and how much better it makes their lives. So, you know, one of the customers that we talked to described it like a trusted deputy. The chart on the right shows something we look for, which is the blue line shows the growth in users and the green line shows the engagement of those users. And so as they have massively grown the number of users, you'd be a little worried if engagement of those incremental users that they were adding was going down. But instead, they have extremely high usage among the people who use the product. And that has actually held steady and grown a little bit, even as they've added tons and tons of more users. So these are just examples of the kind of data that we look for to make sure that we feel confident that the revenue these companies are generating is sustainable. And again, these companies are growing faster than, you know, any of the predecessor companies. But it's very sustainable. It's, you know, it's high engagement. It's high retention. And that's critically important for us. Same thing with 11 Labs. Voice is the centerpiece of so many of the new AI tools. You know, I talked about customer support on the B2B side. But, you know, so much, you know, other personal tools, business tools, you know, start with voice. The usage growth is the thing that I love to look at on this chart. It's just staggering. And this company is growing very fast. And it's a great example of one of these companies that runs extremely efficiently. So 11 Labs is really a great one. Navon is the next one. So this is another, this is a different example. So this is actually a good example of what I was describing earlier. So they were early to this, you know, AI shift. And they spent a lot of effort making sure that they could take the most of the AI capabilities and make their business better. And so the biggest way you can see it in their business today is in the handling of resolutions. So part of what they have is, you know, agents that have to handle travel bookings or travel changes. AI is now handling 50% of those user interactions. And this is hard stuff. Like this is travel bookings. This is changes to travel. So this is not, you know, complex, like tell me the balance of my bank. You know, this is like complex workflow that AI is now able to handle. The way you see that in the business is a 20 percentage point expansion of gross margins over the last three years. And that's just exceptional impact. And so, you know, you need to adapt or die. Well, their competitors are not adapting. They're very old school. And while, you know, they've been sitting still and doing things the old way, Nivan now has 20 percentage point higher gross margins than those incumbents. And then, you know, Flock. Flock is doing absolutely incredible work. I've talked about them so much. It's the most compelling customer value proposition that we see in our portfolio. Because what their ROI is, is solving crime. The 10% stat we've covered before. Each year, Flock is solving 700,000 crimes. The data point on the right also is a data point that just shows per officer that where there's Flock, they're clearing almost 10%, you know, more crimes. So, huge impact on the community. Obviously, they have a great, you know, they have a great business and financial model that goes along with it. But the impact on their product or from their product is exceptional. Okay. By the way, I don't know if you see the chat lighting up of people saying that they're three bourbons deep. Oh, okay. I didn't see it. For what it's worth. There is one question about how do you think about the benchmark? Like, if you were to think about traditional industries like finance, for example, and using J.P. Morgan as a benchmark, what would you calibrate the Fortune 500 in terms of AI adoption? And then maybe I'll overlay that question that Xavier mentioned as well. With, you know, there was that study about enterprise adoption from MIT at the early outset of last year, and they were measuring all sorts of wonky things. Maybe say a little bit more about how and what you're hearing from Fortune 500 CEOs. Yeah. Yeah. What we're hearing from Fortune 500 CEOs, I would say, is maybe this is the key sort of link between those two points. What we're hearing from Fortune 500 CEOs is we have to adapt. We're dying to understand what AI tools we need. You know, we're ready to change. We, you know, our businesses are going to fully roll things out. And, you know, we're ready. We're going to become AI companies. That's quite different than what is actually happening. And I think the biggest disconnect of sort of, you know, that mindset compared to actual change in the businesses is just change management is hard. You know, it's hard enough to get people to just use an AI assistant to help them do their jobs better. You know, coding is probably the easiest one to get people's minds wrapped around customer support. It's such a better, faster, cheaper, obvious thing. But in terms of actually, you know, general management of businesses, changing business processes, change management, it's extremely hard to do. And so I'm not surprised that there are anecdotes out there that suggest, oh, you know, things are moving slower than expected. But for the best companies that are fully embracing it and actually know what to do, it has tremendous business impact already. So, you know, I think there's going to be a sort of reckoning over the next five years of who can actually embrace change, push through change management, you know, adopt all the best products and those that don't. And I think there will be major differences in productivity. You know, we have some charts later in the slides, you know, which I can talk to, but, you know, the expectations around productivity enhancements and, you know, and growth and all that stuff. You know, the expectations are high. And I think a bunch of companies will achieve those. And the ones that don't are going to be at a huge disadvantage. Chime said they reduced their support costs by 60%. Rocket Mortgage said that they saved 1.1 million hours in underwriting up 6x year over year, and that was 40 million bucks at run rate annual savings. So we're seeing pockets of it in non-AI businesses. And I think this is going to be a really interesting year to watch over the next 12 months. I think you're going to see a ton more anecdotes, but there will be companies that can figure it out and there are going to be companies that don't. Totally. And also, a lot of these corporations have had to orient their business to be ready for AI as well. Like there's one version of just like using a chatbot, right, and how much productivity gains that actually gets you. Probably not a lot, right? But if you have to actually completely upend your system's information and backend to be ready for AI, a lot of that is probably latent and being built up now into actually seeing the outcomes associated with it. AI winners are driving the public markets. They account for almost 80% of the S&P 500's return. So this is sort of the major thing driving the economy in the stock market. Public markets are doing very well, but the fundamentals are sound. So the prices are going up or, you know, there's some blips like the last couple of days, but they're generally doing well. But the fundamentals are very sound. And I would say the evidence of froth is minimal. So recent performance is driven by UPS growth. Multiples have contracted slightly, maybe more than slightly if you're a SaaS company over the last few days or a couple of weeks. But I would say the market is priced on, in general, earnings and earnings growth. So the earnings multiples are higher than average, but nowhere near the dot com. And so you can just look at the charts and see where we are. And, you know, that gives me some comfort. And again, the earnings of the companies that are the biggest drivers of the market in general, I feel like are pretty sound. The companies are good. So, you know, the health of these companies, I would say, is pretty good. And the valuations are higher than average in the past, but they don't feel super alarming. I often say the leading tech companies that I was just talking about are the best businesses in the history of the world. If you just look over a long period of time, they have shown margin improvement that suggests that is probably true. And that's, you know, that's on the left side of the page. So investors are paying for profits, not loss making growth. And that's a big contrast from 21, 22 era, sort of 21 era. And obviously a big contrast from a dot com. Adjusted for margins, multiples are not that high. And so, again, I like summarize, you know, five slides worth of materials. The market's higher than it has been in the past. But I think, you know, there's high expectations for a reason and we're optimistic about the impact of AI flowing through to earnings, you know, overall in the public markets in the coming years. And maybe I'd focus your attention on the right side, which is, you know, if you just took a four box of like low growth, high growth, low margin, high margin, and paired up those types of companies, this is a chart that shows how they trade. There's a premium for the best companies. And what you see on the two columns on the right is high growth, high margin companies, and then high growth and low margin companies. Your bad box is obviously low growth, low margin. And those companies shouldn't be rewarded. They should trade low. And they do. But the companies that are high growth and high margin and, you know, the high growth and low margin, as long as they have good unit economics and they're scaling into their margins, they should be rewarded. And so I think this is good. If you're not high growth, even if you're high margin, it's tough out there. And that's not surprising. Again, I've talked about this in the past in many different forms. But ultimately, growth is the biggest thing that drives returns over five to 10 years. And so it's nice for me to see high growth is rewarded more than low growth. But if you have high growth and high margin, you're one of those great businesses, it's being very rewarded. This is just like we're going to talk about supply side of the CapEx buildout. So the buildout's massive. The size and the concentration of the investment is inherently risky, just given how big it is. While it has some bubbly features, the underlying fundamentals, I would say, bear little resemblance to previous bubbles. The investment is financed primarily by historically profitable companies, like very profitable companies that I had talked about. Debt has started to enter the picture. Cycle times have accelerated, which is good. But, you know, model, we're closely monitoring the sort of cost of training and the economics of that whole equation. Right now, it seems pretty good. The paybacks for the big model companies that spend money on training models is pretty good. But we're monitoring that closely. Most importantly, we think that AI is going to be, you know, the biggest model buster that I've seen in my career, certainly. I've written about model busters, so I won't spend too much time on them. But they're companies that grow faster and longer than anyone would have modeled in any scenario. Like iPhone is the classic case of this. You know, if you take consensus models from pre-iPhone to five years later, four years later, consensus models were off for Apple's performance by a factor of 3x over four years. And this is like the most covered company in the world at the time. So, you know, I think that the same thing is going to happen in many pockets of AI where the performance just massively exceeds, you know, what any expectations in a spreadsheet would show you. So, tech in general is itself a model buster. But since 2010, tech has delivered high margin revenue at unprecedented speed and scale. So, it often looks expensive early, but repeatedly surprises to the upside, I would say. And creates value, I would say, far in excess of the capital that's required to grow. And I have no reason to think it'll be different, you know, this time around. So, relative to the .com, CapEx is actually supported by cash flows. And CapEx as a percentage of revenue is considerably lower. So, that's a simple headline. We can zoom to the next slide. But, you know, I feel much better about this CapEx, you know, dynamic than .com, obviously. Hyperscalers are the ones who are bearing the biggest brunt of the CapEx. And this is a very good thing. You know, for our portfolio companies, this is great. Like, I am all for it. Get, you know, get as much capacity in the ground. Get as much supply as you possibly can on the ground for training and inference. This is a very good thing. And again, the companies that are bearing most of the brunt of this are the best businesses of all time that I had talked about before. So, one thing that we're starting to monitor is the introduction of debt into the equation. So, you can't finance all of the forecast CapEx that's to come with cash flow and we're starting to see some debt. So, we're following this closely. We're generally not invested heavily in companies with exposure to debt. Do I feel comfortable with a bunch of the companies on the page financing with cash flow, continuing to produce cash flow, and using debt even? You know, Meta, Microsoft, AWS, NVIDIA as counterparties? Of course, I feel great about that. I mentioned the ones I feel great about. I don't feel great about all of them. So, not all counterparties are the same. You know, we're starting to see private credit get a little bit more involved in the data center build out. And, you know, again, the company that's very well covered that is kind of making a bet the company move into becoming a cloud is Oracle. And they've, you know, they've been profitable forever and reducing their shares forever. But the amount of capital that they are committing is very large. It's a big bet. They're going to go cash flow negative for many years to come. And, you know, if you follow some of the buzz around it, like the cost of their credit default swaps has gone up, you know, to like 2% over the last three months. And so, we're watching stuff like this. Again, this is all generally good stuff for our portfolio companies. But we want to make sure that the market overall is healthy as well. So, this is just a slide that shows the magnitude of the pace of change of AI. So, comparing AI build out and AI revenue to what happened with Azure. So, the AI revenue is coming along relative to the cloud. It took Azure seven years to reach one year of AI revenue. So, this is just Microsoft reporting data, which I think is a cool way to frame how quickly this has happened. You know, the build's taken a very long time. Again, this AI build out is happening much faster. But it took 10 years for Azure revenue to surpass their CapEx. And I think that sort of ratio or equation is going to happen much faster with AI. We don't need to geek out too much on depreciation. But this is one of the topics that gets a lot of buzz in finance circles. You know, just what are your assumptions around depreciation of chips in particular? I would say the pricing for older GPUs is very solid. Early users stick with models a bit longer, but later users quickly switch to the new thing. So, that's the right side. That's like kind of the model side. On the chip side, seven to eight-year-old TPUs, Google actually disclosed this, seven to eight-year-old TPUs actually have 100% utilization. And we very closely monitor the price of chips in the secondary market. And the price to rent A100s and H100s has actually held up very, very well. So, older generations of chips are still getting fully utilized. So, this is not something I worry about yet, but it gets a lot of buzz, you know, sort of alarmists who like to talk about risk in the system. All right. Some positive stuff. So, the big thing that we talk about all the time is this paradox, right? Like, as tokens get cheaper, consumption goes up. All the hyperscalers report demand is well in excess of supply. I believe them when they say that. You know, I interviewed Gavin Baker, a friend of mine at our AI summit, and he was comparing the build-out of the internet and laying all the fiber to the build-out of data centers here. And, you know, his big line was there is, you know, there is no dark GPU. There are no dark GPUs. There was a dark fiber. You had to lay fiber and then, you know, laid there dark and it wasn't used. If you put a GPU in the system in a data center, it gets fully utilized immediately. And so, that's a very good sign, you know, in terms of, you know, demand meeting supply immediately. I mentioned this earlier. Ernie's growth should come for these companies. Like, this is our expectation. And if it doesn't, then they will probably be disrupted if they can't change. So, change management, again, is the biggest reason why we see things, you know, that haven't sort of dramatically shifted yet. Honestly, to me, it's not the readiness of the technology itself. It's probably, you know, product build-out that needs to get built around the technologies and then change management and putting it in production. So, revenue growth has scaled at a staggering clip relative to other categories. So, this is just, it shows how quickly generative AI in app revenue has grown from 23, where it was basically, you know, you can barely even see it on the page, to now. And this is a slide that we've showed before, but basically, this compares the clouds, public software companies, and then how much net new revenue gets added in 2025. So, the far right is what I like to look at, which is public software companies added $46 billion of revenue in 2025. If you just add up OpenAI and Anthropic on a run rate basis, they added almost half of that. And I think if you were to do that same comparison for 2026, all of the entire public software industry, I mean, SAP, this is not just SaaS, like, including SAP, and older software companies, I think the AI companies, the model companies, will be something like 75% to 80% as much. So, it's just staggering how quickly that has happened. These are pretty detailed slides, these next couple ones. These are sort of slides showing what is implicitly expected in AI performance, based on where stock prices are today in analyst models. So, Goldman Sachs estimates $9 trillion of revenue flowing from the buildout of AI. So, if you assume 20% margins and a 22 times PE, that translates into $35 trillion of new market cap. There's been about $24 trillion of new market cap that's been pulled forward. Now, we could debate if that's attributable all to AI or otherwise, you know, large tech performance. But there's still a lot of sort of market cap to go get, where you could have upside if, you know, if those assumptions are right. So, this is another sort of cut or few cuts on trying to address this sort of AI payback question. So, current estimates put cumulative hyperscaler CapEx at a little less than $5 trillion by 2030. So, if you do napkin math on that to achieve a 10% hurdle rate on that $4.8 trillion or almost $5 trillion of investment, annual AI revenue would have to hit about $1 trillion by 2030. So, to put that into context, a trillion dollars, that would be about 1% of global GDP to generate a 10% return. It's possible that happens. It's also possible we could fall a little short of that. But I think it's limiting just to look to 2030. I think the payback of this probably happens, you know, over a longer period of time, like, you know, between 2030 and 2040 as well. But, you know, framing it up, that's about, you know, 1%, you know, 1% GDP to get to the payback number of a 10% hurdle rate. All right. Heard it on the street. What we've started to do is we've sort of built software to track what all of the AI or what all of the public technology companies discuss in their earnings calls and mentions of AI, how relevant it is to our business at the early stage and, you know, the growth stage. And we package it all up and we share it out to our CEOs. So, you know, they can kind of have a simple digestible format of, like, what do I need to know about AI as it relates to the public technology companies? You know, how does it impact my business, et cetera? And so we shared a bunch of the, you know, the stuff that we track in here. Awesome. There was one question before we move to the private section, which a lot of folks, of course, on this call care about in this transition here. But before we get to that, so where are we calibrating to your trillion dollar in AI revenue, you know, thereabouts in 2030? Where are we today relative to your guesstimate of AI-enabled revenue? And how far off are we to that trillion dollar number? We're probably in the, I would probably guess in the 50 billion range. Yep. Just add it all up. And there's no perfect way to do it. I mean, I know some of the big inputs to it. The harder stuff to track is, honestly, the big tech companies, like how much real AI revenue do they have. The clouds can kind of, they will from time to time give percentage uplift from AI. But I think depending on how they want to paint the picture, they can play games with that a little bit. So, you know, I think it's, I think it's, that's a, that's a rough swag. But like, you know, trillion, we're probably at 50, but it's growing, you know, way, way, way faster than 100% year over year. Yep. And then arguably that revenue, I mean, ChatGPT launched three years ago, but substantially most of this traction happened in the last year and a half fish or so. If we're being really generous too. Is that a fair characterization? Yeah, that's right. Yeah. And look, you know, it's not just ChatGPT now on the consumer side, you know, Google has a business, XAI has a business. And then, you know, on the B2B side, you know, not only do the big model companies all have large API businesses, but the clouds have it too. And so a lot of the, you know, a lot of the sales that are model sales are also flowing through the clouds. Yep. Yep. Yep. Yep. Okay, cool. We have some questions on the private company side, but I'll let you get through this section and then I'll tee you up for it. Well, you, I, I'm happy to go into questions if you want on it. I mean, this, a lot of the stuff that we've talked about, you know, the big themes for me on the private market side, you know, companies are obviously staying private longer, but this is such a real asset class now. Over the last 20 years, the number of public companies has been cut in half. You know, the, the vast majority of companies that are a hundred million dollar plus revenue companies are private, something like 86%. So, you know, that's, that's a major shift. Um, we could go, you could skip a couple of slides forward. Uh, basically I'll talk a little bit about power laws because that's, I think that's interesting and maybe some new stuff that we haven't talked about as much, but value very much concentrates in the outlier companies. So the collective valuation of North American and European unicorns is about five and a half trillion dollars. The 10 largest ones, if you just take those, um, comprise almost 40% of the entire value. So, so, and that's actually doubled since 2020. So sort of value, you know, sort of value is being, uh, concentrated in the biggest and best winners. I'm trying to count real time. We have four, five, six, seven of the 10, our portfolio companies of that 10. Um, so, you know, we, we've got a reasonable amount of coverage on that. Power laws are happening in the public markets too. So large cap has tripled since 2019. So what, what constitutes a large cap company has actually tripled since 2019. And I think the chart on the right side is super interesting. This was new data analysis that we had done. Um, if you look at the lifespan of an average company on the S and P 500, that's what that chart shows. That's what the numbers represent the light, like once a company is on the S and P 500, how long is it on there? This is on average is actually, if you look over the last 50 years, that has declined by 40%. The amount of time it stays as part of the S and P 500. So disruption to companies happens faster and faster and faster, which I think is a very interesting dynamic. And, and sort of matches what we're seeing, you know, just in terms of like speed of change in, in, in the markets driven by technology. So we always like to talk about power laws in our business too. I didn't choose the title of this slide. Uh, I recognize all of the, you know, questions and concerns about it. Um, so the, the volatility laundering thing is, is a, is a big debate in our circles too. Um, mostly around founders who are trying to debate the merits of the private markets and the public markets. And, you know, the Collisons did an interview where, I think maybe it was John, uh, did an interview where he talked about, you know, managing your stock price and avoiding volatility. And you can kind of orderly fashion, bring your stock price up over time. And that makes it easier to retain employees, hire employees, manage morale, uh, et cetera, et cetera. Um, and so I get the merits of that. I also think there are really, really strong merits of being a public company as well. I think we're going to have a really, really interesting 18 months where we're going to have some of the big kind of private for a very long time companies that go public. Um, and that's a good thing in my opinion too. Um, some of the stuff that we show in this chart is just volatility and the observation that over time, volatility has gotten a little bit more extreme in the markets. To me, this is a little bit cycle driven too. I know it's short, short duration is sort of what we're measuring. Um, but there's merits to both companies can get much larger in the private side. We have embraced that new reality. I think it's, it's been a big benefit to our business in terms of getting content, getting to continue to invest in these companies over time. Uh, but obviously, you know, there's, there's a path of, of being a public company and getting liquidity, which we care a lot about too. Awesome. That note, um, there were two questions. Uh, I will queue up for you here. Uh, one on Databricks. Can you talk about their transition, uh, from being a pre AI company now to a fully embedded AI company and what that's been like? Yeah. Um, first of all, I think you need to, you know, I mentioned Toby, like the reason Shopify has embraced it is because Toby has led from the top and he runs the business, you know, with AI at the center. And, and he, he sort of performance manages everyone, uh, to, you know, to make sure that they do that. Ali is the same. Ali is this unique blend of, um, sort of commercial kind of terminator. I talk about him. He's called him the technical terminator. You need to have a commercial instinct and understand the importance of the value creation opportunity in AI. And then you need to actually be deep enough in the technology to know what to build. And so it just so happens that their, um, their sort of cloud data warehouse, or they call it the data lake, um, is actually a great way to have your data in a place to run AI workloads on top of it. So, you know, that was sort of a good place to be for them. And then they very aggressively iterated on new AI products. They have this, uh, new product called agent bricks, which we're super, super excited about. We think it's going to be really big and transformative for them. So, um, I would say that's a piece of it. And then they have the big AI native companies, all its customers. And so, you know, they have the technology, they have the low cost technology. Um, and so, you know, a big thing that we look for when we're making investments in companies is who are their customers. And I would far prefer the customers of our portfolio companies to be the modern thinking ones. You know, the door dashes of the world. Um, you know, the Instacarts of the world, the Ubers of the world. Um, and so, you know, the very, very old school stodgy companies, because that means that their technology is evaluated by smart technologists and they pick it. And so the cutting edge AI companies are all building on top of data bricks. Uh, and so, you know, they have the chance to grow with them as they scale. Uh, but it's also a really good, you know, validator that they have the right technology. We'll close out here. Thank you, David, for taking us through that. Thank you. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.7,
+      "text": "Let me just start with what I think the big takeaways are from this piece, because this"
+    },
+    {
+      "id": 1,
+      "start": 4.7,
+      "end": 7.2,
+      "text": "is the first time we've ever done this style piece."
+    },
+    {
+      "id": 2,
+      "start": 7.54,
+      "end": 10.02,
+      "text": "We produce so much work and so much analysis."
+    },
+    {
+      "id": 3,
+      "start": 10.02,
+      "end": 14.84,
+      "text": "It's like exhaust inside of our team."
+    },
+    {
+      "id": 4,
+      "start": 15.42,
+      "end": 19.94,
+      "text": "And we thought, we have so many different thoughts and points of view."
+    },
+    {
+      "id": 5,
+      "start": 20.02,
+      "end": 22.72,
+      "text": "Why don't we put them on paper and share them out with the world?"
+    },
+    {
+      "id": 6,
+      "start": 22.84,
+      "end": 24.44,
+      "text": "So that was the genesis of this."
+    },
+    {
+      "id": 7,
+      "start": 24.44,
+      "end": 31.3,
+      "text": "My big takeaways from doing this, one, AI demand side is crazy."
+    },
+    {
+      "id": 8,
+      "start": 31.62,
+      "end": 37.32,
+      "text": "The actual uptake growth quality of companies in AI is extremely encouraging from our standpoint."
+    },
+    {
+      "id": 9,
+      "start": 38.02,
+      "end": 39.54,
+      "text": "Companies are starting to run themselves better."
+    },
+    {
+      "id": 10,
+      "start": 39.64,
+      "end": 44.68000000000001,
+      "text": "I'm going to show you some stats on that, that there's been some sort of X buzz, including"
+    },
+    {
+      "id": 11,
+      "start": 44.68000000000001,
+      "end": 47.06,
+      "text": "this morning, kind of debating what's going on there."
+    },
+    {
+      "id": 12,
+      "start": 47.44,
+      "end": 51.980000000000004,
+      "text": "But this crop of companies, I would say is more impressive than prior crops of companies,"
+    },
+    {
+      "id": 13,
+      "start": 51.98,
+      "end": 54.64,
+      "text": "partially because the demand for their products is so high."
+    },
+    {
+      "id": 14,
+      "start": 55.9,
+      "end": 56.81999999999999,
+      "text": "That's demand side."
+    },
+    {
+      "id": 15,
+      "start": 56.919999999999995,
+      "end": 59.31999999999999,
+      "text": "Supply side is healthy right now."
+    },
+    {
+      "id": 16,
+      "start": 59.98,
+      "end": 64.34,
+      "text": "But we are starting to see some signs of things that are stretched a little bit."
+    },
+    {
+      "id": 17,
+      "start": 64.39999999999999,
+      "end": 66.64,
+      "text": "And I'll talk about what we see and what we're looking out for."
+    },
+    {
+      "id": 18,
+      "start": 67.02,
+      "end": 70.0,
+      "text": "We've been fortunate to be a part of a lot of these great companies."
+    },
+    {
+      "id": 19,
+      "start": 71.1,
+      "end": 77.16,
+      "text": "And the most exciting action that is happening in the private markets, it's AI and it's happening"
+    },
+    {
+      "id": 20,
+      "start": 77.16,
+      "end": 77.97999999999999,
+      "text": "in the private markets."
+    },
+    {
+      "id": 21,
+      "start": 78.32,
+      "end": 80.36,
+      "text": "And we're going to show some slides about that."
+    },
+    {
+      "id": 22,
+      "start": 80.36,
+      "end": 85.6,
+      "text": "And then lastly, my big conclusion, what has me so excited about where we are now is just"
+    },
+    {
+      "id": 23,
+      "start": 85.6,
+      "end": 87.32,
+      "text": "how early we are in this product cycle."
+    },
+    {
+      "id": 24,
+      "start": 88.32,
+      "end": 89.78,
+      "text": "Product cycles drive our business."
+    },
+    {
+      "id": 25,
+      "start": 90.3,
+      "end": 92.3,
+      "text": "And these are 10, 15 year cycles."
+    },
+    {
+      "id": 26,
+      "start": 92.72,
+      "end": 95.18,
+      "text": "And we're just at the very beginning of it right now."
+    },
+    {
+      "id": 27,
+      "start": 95.34,
+      "end": 96.88,
+      "text": "So let's dive in."
+    },
+    {
+      "id": 28,
+      "start": 97.34,
+      "end": 99.96000000000001,
+      "text": "We invest across all private stages."
+    },
+    {
+      "id": 29,
+      "start": 100.26,
+      "end": 102.03999999999999,
+      "text": "This is a chart that just shows our activity."
+    },
+    {
+      "id": 30,
+      "start": 102.3,
+      "end": 103.12,
+      "text": "We're very busy."
+    },
+    {
+      "id": 31,
+      "start": 103.26,
+      "end": 104.6,
+      "text": "It's across all verticals."
+    },
+    {
+      "id": 32,
+      "start": 104.6,
+      "end": 110.6,
+      "text": "We, on the growth side, have been most active in AI and infrared apps and then in AD, but"
+    },
+    {
+      "id": 33,
+      "start": 110.6,
+      "end": 113.72,
+      "text": "also very active in our other verticals as well."
+    },
+    {
+      "id": 34,
+      "start": 115.28,
+      "end": 117.88,
+      "text": "And I'm going to zoom through some of these."
+    },
+    {
+      "id": 35,
+      "start": 118.47999999999999,
+      "end": 121.89999999999999,
+      "text": "I hate to do the A16Z commercial, but I really like this slide."
+    },
+    {
+      "id": 36,
+      "start": 122.22,
+      "end": 125.38,
+      "text": "You know, I think we have the chance to work with some of the best models and apps and infrared"
+    },
+    {
+      "id": 37,
+      "start": 125.38,
+      "end": 126.58,
+      "text": "companies, obviously."
+    },
+    {
+      "id": 38,
+      "start": 126.58,
+      "end": 127.94,
+      "text": "I'm going to do that."
+    },
+    {
+      "id": 39,
+      "start": 129.16,
+      "end": 129.46,
+      "text": "On that slide."
+    },
+    {
+      "id": 40,
+      "start": 129.46,
+      "end": 130.26,
+      "text": "Gong it."
+    },
+    {
+      "id": 41,
+      "start": 131.88,
+      "end": 133.48,
+      "text": "I do like that slide a lot."
+    },
+    {
+      "id": 42,
+      "start": 133.5,
+      "end": 134.42,
+      "text": "The soundboard effect here."
+    },
+    {
+      "id": 43,
+      "start": 134.68,
+      "end": 135.54,
+      "text": "I'm going to be reserved."
+    },
+    {
+      "id": 44,
+      "start": 135.98,
+      "end": 136.12,
+      "text": "Yeah."
+    },
+    {
+      "id": 45,
+      "start": 136.24,
+      "end": 138.56,
+      "text": "We debated how early to put that slide on the deck."
+    },
+    {
+      "id": 46,
+      "start": 138.82,
+      "end": 142.04,
+      "text": "And I said, put it further back and I was overruled."
+    },
+    {
+      "id": 47,
+      "start": 142.14,
+      "end": 142.76,
+      "text": "So thankfully."
+    },
+    {
+      "id": 48,
+      "start": 144.12,
+      "end": 145.88,
+      "text": "Anyway, here's some data."
+    },
+    {
+      "id": 49,
+      "start": 146.12,
+      "end": 151.56,
+      "text": "So we collect tons and tons of data as a growth team because we're basically seeing every growth"
+    },
+    {
+      "id": 50,
+      "start": 151.56,
+      "end": 156.6,
+      "text": "stage company in the market as a either portfolio company or as a prospect."
+    },
+    {
+      "id": 51,
+      "start": 157.3,
+      "end": 159.32,
+      "text": "And so we have a great data analysis team."
+    },
+    {
+      "id": 52,
+      "start": 159.8,
+      "end": 160.92000000000002,
+      "text": "We did some data analysis."
+    },
+    {
+      "id": 53,
+      "start": 161.38,
+      "end": 163.42000000000002,
+      "text": "I think this stuff is just super interesting."
+    },
+    {
+      "id": 54,
+      "start": 163.58,
+      "end": 164.38,
+      "text": "We geek out on it."
+    },
+    {
+      "id": 55,
+      "start": 164.44,
+      "end": 169.5,
+      "text": "To me, the big conclusion from this is 2025 was a year for accelerated revenue growth."
+    },
+    {
+      "id": 56,
+      "start": 170.66,
+      "end": 176.0,
+      "text": "You know, revenue obviously slowed, you know, in 2022, 23, 24, following the rate hikes and"
+    },
+    {
+      "id": 57,
+      "start": 176.0,
+      "end": 177.56,
+      "text": "the pullback and some of the tech stuff."
+    },
+    {
+      "id": 58,
+      "start": 177.56,
+      "end": 184.08,
+      "text": "But 2025 reversed that trend and, you know, it accelerated across different, you know, types"
+    },
+    {
+      "id": 59,
+      "start": 184.08,
+      "end": 186.88,
+      "text": "of companies as we rank them by decile and quartile."
+    },
+    {
+      "id": 60,
+      "start": 187.28,
+      "end": 191.1,
+      "text": "But especially among, you know, the outlier companies, you know, it really accelerated."
+    },
+    {
+      "id": 61,
+      "start": 191.56,
+      "end": 196.9,
+      "text": "And you've probably seen us put this slide on a page before, but the fastest growing AI"
+    },
+    {
+      "id": 62,
+      "start": 196.9,
+      "end": 201.9,
+      "text": "companies are reaching 100 million bucks of revenue significantly faster than the fastest"
+    },
+    {
+      "id": 63,
+      "start": 201.9,
+      "end": 204.32,
+      "text": "growing SaaS companies in their era."
+    },
+    {
+      "id": 64,
+      "start": 204.32,
+      "end": 209.68,
+      "text": "And there's a really important thing I want to call out about why that is the case."
+    },
+    {
+      "id": 65,
+      "start": 209.92,
+      "end": 215.48,
+      "text": "And that is because end customer demand is so strong and the products are so compelling."
+    },
+    {
+      "id": 66,
+      "start": 215.78,
+      "end": 218.95999999999998,
+      "text": "It's not because they spend more money on sales and marketing."
+    },
+    {
+      "id": 67,
+      "start": 219.16,
+      "end": 220.35999999999999,
+      "text": "It's actually the opposite."
+    },
+    {
+      "id": 68,
+      "start": 221.2,
+      "end": 225.92,
+      "text": "The best AI companies that are growing the fastest are not the ones spending the most amount"
+    },
+    {
+      "id": 69,
+      "start": 225.92,
+      "end": 226.9,
+      "text": "of money on sales and marketing."
+    },
+    {
+      "id": 70,
+      "start": 226.9,
+      "end": 229.7,
+      "text": "And they're spending less money on sales and marketing than their SaaS counterparts."
+    },
+    {
+      "id": 71,
+      "start": 229.7,
+      "end": 231.76,
+      "text": "And yet they're growing much, much faster."
+    },
+    {
+      "id": 72,
+      "start": 232.66,
+      "end": 238.38,
+      "text": "So this was a slide showing just the growth of the AI companies versus the non-AI companies."
+    },
+    {
+      "id": 73,
+      "start": 239.79999999999998,
+      "end": 244.82,
+      "text": "Roughly speaking, the AI companies are growing two and a half times plus faster than the non-AI"
+    },
+    {
+      "id": 74,
+      "start": 244.82,
+      "end": 245.28,
+      "text": "companies."
+    },
+    {
+      "id": 75,
+      "start": 245.38,
+      "end": 247.07999999999998,
+      "text": "And that shouldn't be a huge surprise."
+    },
+    {
+      "id": 76,
+      "start": 247.56,
+      "end": 251.1,
+      "text": "The best of the AI companies are growing very, very fast."
+    },
+    {
+      "id": 77,
+      "start": 251.22,
+      "end": 256.24,
+      "text": "We had to triple check this data when we saw the, you know, the AI top, you know, top"
+    },
+    {
+      "id": 78,
+      "start": 256.24,
+      "end": 258.58,
+      "text": "performers growing 693% year over year."
+    },
+    {
+      "id": 79,
+      "start": 259.02,
+      "end": 263.06,
+      "text": "But it matches up our experience, you know, and anecdotes that we see from the portfolio"
+    },
+    {
+      "id": 80,
+      "start": 263.06,
+      "end": 263.52,
+      "text": "companies."
+    },
+    {
+      "id": 81,
+      "start": 264.36,
+      "end": 265.6,
+      "text": "So that's growth."
+    },
+    {
+      "id": 82,
+      "start": 265.90000000000003,
+      "end": 270.0,
+      "text": "This is the margin profile that we're seeing in the data set."
+    },
+    {
+      "id": 83,
+      "start": 270.04,
+      "end": 274.24,
+      "text": "And again, these are internal data sets that we have of portfolio companies and companies"
+    },
+    {
+      "id": 84,
+      "start": 274.24,
+      "end": 276.40000000000003,
+      "text": "that we look at as potential investments."
+    },
+    {
+      "id": 85,
+      "start": 277.0,
+      "end": 279.04,
+      "text": "Gross margins are a little bit worse for AI companies."
+    },
+    {
+      "id": 86,
+      "start": 280.34000000000003,
+      "end": 282.42,
+      "text": "You've probably heard us talk about this before."
+    },
+    {
+      "id": 87,
+      "start": 282.42,
+      "end": 288.48,
+      "text": "But in a way, we feel like low gross margins for AI companies are sort of a badge of honor"
+    },
+    {
+      "id": 88,
+      "start": 288.48,
+      "end": 295.56,
+      "text": "in the sense that we want to see if low gross margins are a result of high inference costs."
+    },
+    {
+      "id": 89,
+      "start": 295.98,
+      "end": 298.1,
+      "text": "One, that means people are using AI features."
+    },
+    {
+      "id": 90,
+      "start": 298.52000000000004,
+      "end": 302.38,
+      "text": "And two, we have a belief that those inference costs over time are going to come down."
+    },
+    {
+      "id": 91,
+      "start": 302.86,
+      "end": 308.1,
+      "text": "So in an odd way, if we see an AI pitch and the gross margins are super high, we're a little"
+    },
+    {
+      "id": 92,
+      "start": 308.1,
+      "end": 313.42,
+      "text": "bit skeptical because that may mean that the AI features are not actually what is being"
+    },
+    {
+      "id": 93,
+      "start": 313.42,
+      "end": 315.42,
+      "text": "bought or used by the customers."
+    },
+    {
+      "id": 94,
+      "start": 315.86,
+      "end": 320.52000000000004,
+      "text": "We're going to talk about ARR per FTE, but this is a new thing that we've started focusing"
+    },
+    {
+      "id": 95,
+      "start": 320.52000000000004,
+      "end": 320.84000000000003,
+      "text": "on."
+    },
+    {
+      "id": 96,
+      "start": 321.20000000000005,
+      "end": 325.98,
+      "text": "And this is one of the things that got a lot of pickup and discussion on X in the last"
+    },
+    {
+      "id": 97,
+      "start": 325.98,
+      "end": 326.56,
+      "text": "few days."
+    },
+    {
+      "id": 98,
+      "start": 327.3,
+      "end": 332.5,
+      "text": "ARR per FTE is sort of a measure of the efficiency of how you run your company in general."
+    },
+    {
+      "id": 99,
+      "start": 332.78000000000003,
+      "end": 334.52000000000004,
+      "text": "So it encapsulates all of your costs."
+    },
+    {
+      "id": 100,
+      "start": 334.52,
+      "end": 339.41999999999996,
+      "text": "It encapsulates, you know, not just your sales and marketing, which is an efficiency measure"
+    },
+    {
+      "id": 101,
+      "start": 339.41999999999996,
+      "end": 343.26,
+      "text": "that we've always kind of looked at when we do analysis in the past, but it also captures"
+    },
+    {
+      "id": 102,
+      "start": 343.26,
+      "end": 343.88,
+      "text": "your overhead."
+    },
+    {
+      "id": 103,
+      "start": 344.2,
+      "end": 345.2,
+      "text": "It captures your R&D."
+    },
+    {
+      "id": 104,
+      "start": 346.15999999999997,
+      "end": 351.35999999999996,
+      "text": "And so for the best AI companies, they're running at like $500,000 to a million dollars"
+    },
+    {
+      "id": 105,
+      "start": 351.35999999999996,
+      "end": 353.41999999999996,
+      "text": "per FTE."
+    },
+    {
+      "id": 106,
+      "start": 353.82,
+      "end": 359.09999999999997,
+      "text": "And the rule of thumb for previous software businesses in the SaaS era was like $400,000"
+    },
+    {
+      "id": 107,
+      "start": 359.09999999999997,
+      "end": 360.34,
+      "text": "in the last generation."
+    },
+    {
+      "id": 108,
+      "start": 360.34,
+      "end": 365.76,
+      "text": "Again, I'm going to talk about this a little bit more, but the reason why this is the case"
+    },
+    {
+      "id": 109,
+      "start": 365.76,
+      "end": 370.03999999999996,
+      "text": "is mostly because demand is very, very strong for their products."
+    },
+    {
+      "id": 110,
+      "start": 370.71999999999997,
+      "end": 374.59999999999997,
+      "text": "You know, and so they need a less resource to go take it to market."
+    },
+    {
+      "id": 111,
+      "start": 375.29999999999995,
+      "end": 379.76,
+      "text": "David, maybe a quick clarifying just before we go to this slide here."
+    },
+    {
+      "id": 112,
+      "start": 379.84,
+      "end": 382.38,
+      "text": "So how do we, how do you define AI companies?"
+    },
+    {
+      "id": 113,
+      "start": 382.41999999999996,
+      "end": 388.97999999999996,
+      "text": "Is that defined as post-Chat GPT versus historical AI ML companies founded by a certain time period?"
+    },
+    {
+      "id": 114,
+      "start": 388.98,
+      "end": 391.90000000000003,
+      "text": "Yeah, it's sort of post-Chat GPT companies."
+    },
+    {
+      "id": 115,
+      "start": 392.22,
+      "end": 394.46000000000004,
+      "text": "And some of them were founded like right around that time."
+    },
+    {
+      "id": 116,
+      "start": 394.54,
+      "end": 395.32,
+      "text": "We give a little bit of grace."
+    },
+    {
+      "id": 117,
+      "start": 395.5,
+      "end": 401.16,
+      "text": "But if their first product in market was an AI, you know, native product, then that's"
+    },
+    {
+      "id": 118,
+      "start": 401.16,
+      "end": 401.78000000000003,
+      "text": "how we divide it."
+    },
+    {
+      "id": 119,
+      "start": 402.48,
+      "end": 402.74,
+      "text": "Got it."
+    },
+    {
+      "id": 120,
+      "start": 403.0,
+      "end": 406.58000000000004,
+      "text": "And then maybe this is a good point, but where you can punt till later."
+    },
+    {
+      "id": 121,
+      "start": 406.68,
+      "end": 411.54,
+      "text": "But like one of the questions I think a lot of folks are trying to understand is the magnitude"
+    },
+    {
+      "id": 122,
+      "start": 411.54,
+      "end": 419.32,
+      "text": "of change and expected revenue and growth from companies from the SaaS era to AI era companies."
+    },
+    {
+      "id": 123,
+      "start": 419.32,
+      "end": 421.70000000000005,
+      "text": "And you've talked a little bit about the magnitude of revenue, et cetera."
+    },
+    {
+      "id": 124,
+      "start": 421.70000000000005,
+      "end": 424.64000000000004,
+      "text": "But what happens to those that are not AI native?"
+    },
+    {
+      "id": 125,
+      "start": 425.18,
+      "end": 427.48,
+      "text": "Will they have a hard time competing against AI native companies?"
+    },
+    {
+      "id": 126,
+      "start": 428.02000000000004,
+      "end": 429.06,
+      "text": "Are they all shifting?"
+    },
+    {
+      "id": 127,
+      "start": 429.98,
+      "end": 431.40000000000003,
+      "text": "Will we see more fallout?"
+    },
+    {
+      "id": 128,
+      "start": 431.52000000000004,
+      "end": 434.0,
+      "text": "How should people be thinking about their historical portfolio?"
+    },
+    {
+      "id": 129,
+      "start": 434.0,
+      "end": 434.4,
+      "text": "Yeah."
+    },
+    {
+      "id": 130,
+      "start": 435.78,
+      "end": 443.0,
+      "text": "So the way that we're approaching this with our portfolio is, you know, you need to adapt"
+    },
+    {
+      "id": 131,
+      "start": 443.0,
+      "end": 444.18,
+      "text": "to the AI era or die."
+    },
+    {
+      "id": 132,
+      "start": 444.74,
+      "end": 447.18,
+      "text": "And so that's both on the front end and the back end."
+    },
+    {
+      "id": 133,
+      "start": 447.5,
+      "end": 453.42,
+      "text": "So on the front end, you need to think about how you can incorporate AI into your product"
+    },
+    {
+      "id": 134,
+      "start": 453.42,
+      "end": 454.18,
+      "text": "natively."
+    },
+    {
+      "id": 135,
+      "start": 454.18,
+      "end": 460.26,
+      "text": "And not just, you know, attach a chatbot app into your existing workflow, but reimagine"
+    },
+    {
+      "id": 136,
+      "start": 460.26,
+      "end": 464.1,
+      "text": "what it can mean with AI and be aggressive about disrupting yourself and changing."
+    },
+    {
+      "id": 137,
+      "start": 464.98,
+      "end": 469.76,
+      "text": "And then on the back end, you know, I shared some of the stats around the efficiency that"
+    },
+    {
+      "id": 138,
+      "start": 469.76,
+      "end": 470.84000000000003,
+      "text": "the companies are running at."
+    },
+    {
+      "id": 139,
+      "start": 471.86,
+      "end": 473.14,
+      "text": "This is going to change too."
+    },
+    {
+      "id": 140,
+      "start": 473.4,
+      "end": 479.2,
+      "text": "And so you need to be fully rolled out with the latest coding models for all of your developers"
+    },
+    {
+      "id": 141,
+      "start": 479.2,
+      "end": 484.52,
+      "text": "and all of the latest tools across every different function inside your organization."
+    },
+    {
+      "id": 142,
+      "start": 485.44,
+      "end": 489.21999999999997,
+      "text": "The biggest uptake has been in coding so far, and that's where we've seen the biggest leaps."
+    },
+    {
+      "id": 143,
+      "start": 489.7,
+      "end": 494.58,
+      "text": "There have been major, major changes, like in the last two months on this, like month"
+    },
+    {
+      "id": 144,
+      "start": 494.58,
+      "end": 495.94,
+      "text": "and a half in this."
+    },
+    {
+      "id": 145,
+      "start": 496.98,
+      "end": 498.98,
+      "text": "You know, Andre Karpathy has written about this."
+    },
+    {
+      "id": 146,
+      "start": 499.28,
+      "end": 504.26,
+      "text": "I was on a catch up with one of our, you know, sort of pre-AI companies."
+    },
+    {
+      "id": 147,
+      "start": 505.02,
+      "end": 509.08,
+      "text": "And this is a founder who's very AI, like he's very AI deep."
+    },
+    {
+      "id": 148,
+      "start": 509.2,
+      "end": 511.06,
+      "text": "And so he's adapting his company."
+    },
+    {
+      "id": 149,
+      "start": 511.06,
+      "end": 518.4,
+      "text": "We were talking this week and he told me that he was frustrated with one of their products."
+    },
+    {
+      "id": 150,
+      "start": 519.06,
+      "end": 524.8199999999999,
+      "text": "And so he just took two engineers that are very deep in AI and assigned them to build it"
+    },
+    {
+      "id": 151,
+      "start": 524.8199999999999,
+      "end": 530.5,
+      "text": "from scratch with quad code and codex and cursor."
+    },
+    {
+      "id": 152,
+      "start": 530.76,
+      "end": 534.52,
+      "text": "And just, they had unlimited budget on coding tools."
+    },
+    {
+      "id": 153,
+      "start": 534.52,
+      "end": 541.5799999999999,
+      "text": "And he said he thinks it's going somewhere between 10 and 20 X faster than progress that they had before."
+    },
+    {
+      "id": 154,
+      "start": 542.38,
+      "end": 550.14,
+      "text": "And the bills that they have associated with that is actually, they're high enough that it will cause him to rethink"
+    },
+    {
+      "id": 155,
+      "start": 550.38,
+      "end": 553.18,
+      "text": "what his entire organization will look like."
+    },
+    {
+      "id": 156,
+      "start": 553.18,
+      "end": 560.14,
+      "text": "The conclusion was basically, I need my entire product and engineering organization working this way."
+    },
+    {
+      "id": 157,
+      "start": 560.4599999999999,
+      "end": 562.4399999999999,
+      "text": "And I think it's going to happen within the next 12 months."
+    },
+    {
+      "id": 158,
+      "start": 562.64,
+      "end": 565.28,
+      "text": "But what does that mean for what the team design actually is?"
+    },
+    {
+      "id": 159,
+      "start": 565.5999999999999,
+      "end": 567.2399999999999,
+      "text": "And where does product start?"
+    },
+    {
+      "id": 160,
+      "start": 567.3199999999999,
+      "end": 568.8199999999999,
+      "text": "And where does ing start?"
+    },
+    {
+      "id": 161,
+      "start": 569.04,
+      "end": 572.16,
+      "text": "You know, and even where does design start in that process?"
+    },
+    {
+      "id": 162,
+      "start": 572.16,
+      "end": 576.48,
+      "text": "So it feels like December was sort of a turning point on code."
+    },
+    {
+      "id": 163,
+      "start": 577.6,
+      "end": 580.92,
+      "text": "And, you know, the next 12 months, it's going to kind of hit."
+    },
+    {
+      "id": 164,
+      "start": 581.3399999999999,
+      "end": 587.3199999999999,
+      "text": "It's either going to hit and take hold in companies or those companies, I think, are going to be moving much slower than their peers."
+    },
+    {
+      "id": 165,
+      "start": 587.32,
+      "end": 597.5,
+      "text": "So, you know, as it relates to the pre-AI companies, you know, Adapt, we have another example of a company that is a pre-AI software company."
+    },
+    {
+      "id": 166,
+      "start": 598.1600000000001,
+      "end": 601.4000000000001,
+      "text": "And the CEO has gotten totally AI pilled."
+    },
+    {
+      "id": 167,
+      "start": 601.7600000000001,
+      "end": 603.9000000000001,
+      "text": "And he's like, we're going to become an AI product."
+    },
+    {
+      "id": 168,
+      "start": 604.1800000000001,
+      "end": 607.12,
+      "text": "Like, we're going to ship, you know, your employees are now your AI agents."
+    },
+    {
+      "id": 169,
+      "start": 607.1800000000001,
+      "end": 608.3000000000001,
+      "text": "How many agents do you have?"
+    },
+    {
+      "id": 170,
+      "start": 608.58,
+      "end": 610.48,
+      "text": "Like, those are the things that he's talking about."
+    },
+    {
+      "id": 171,
+      "start": 610.48,
+      "end": 615.34,
+      "text": "But, you know, we have another one that was very extreme about it."
+    },
+    {
+      "id": 172,
+      "start": 615.46,
+      "end": 622.38,
+      "text": "And he said, I now ask the question for every task that we now need to complete."
+    },
+    {
+      "id": 173,
+      "start": 623.04,
+      "end": 625.8000000000001,
+      "text": "Can I do it with electricity or do I need to do it with blood?"
+    },
+    {
+      "id": 174,
+      "start": 626.58,
+      "end": 633.2,
+      "text": "Like, this is like the extreme mindset shift that's happening, you know, with our companies."
+    },
+    {
+      "id": 175,
+      "start": 633.2,
+      "end": 638.5,
+      "text": "And so I'm happy to see that our pre-AI companies are moving very fast and trying to adapt."
+    },
+    {
+      "id": 176,
+      "start": 638.5,
+      "end": 644.4,
+      "text": "But they very much need to adapt to this new era, both front-end product-wise and back-end how they run their companies."
+    },
+    {
+      "id": 177,
+      "start": 645.02,
+      "end": 645.08,
+      "text": "Totally."
+    },
+    {
+      "id": 178,
+      "start": 645.5,
+      "end": 654.52,
+      "text": "Yeah, maybe tactically, almost every portfolio, you have to go line by line on the company to understand where the founder is on that journey and how much they're implementing from the ground up."
+    },
+    {
+      "id": 179,
+      "start": 654.6,
+      "end": 661.24,
+      "text": "And, you know, what you said in terms of blowing up existing operations, that's also happening in post-AI companies too."
+    },
+    {
+      "id": 180,
+      "start": 661.24,
+      "end": 664.96,
+      "text": "And increasingly, people are just looking every six months."
+    },
+    {
+      "id": 181,
+      "start": 665.0600000000001,
+      "end": 669.96,
+      "text": "It's like the things we built six months ago could be vastly improved by based on what is available today."
+    },
+    {
+      "id": 182,
+      "start": 670.08,
+      "end": 677.48,
+      "text": "So if that rate is continually happening, the pre-AI companies are needing to increasingly 10x catch up to that point."
+    },
+    {
+      "id": 183,
+      "start": 678.42,
+      "end": 684.4,
+      "text": "Yeah, the good news for the pre-AI companies is the business model evolution is still early days."
+    },
+    {
+      "id": 184,
+      "start": 684.4,
+      "end": 692.56,
+      "text": "So the most disruptive thing that can happen to you is a technology and product shift and also a business model shift at the same time."
+    },
+    {
+      "id": 185,
+      "start": 693.34,
+      "end": 697.74,
+      "text": "There's really one, I think of the business models as like a spectrum."
+    },
+    {
+      "id": 186,
+      "start": 698.26,
+      "end": 701.9599999999999,
+      "text": "And, you know, I'm talking about like enterprise, like B2B, just to keep it simple."
+    },
+    {
+      "id": 187,
+      "start": 702.18,
+      "end": 704.18,
+      "text": "But the spectrum is basically licenses."
+    },
+    {
+      "id": 188,
+      "start": 704.62,
+      "end": 708.18,
+      "text": "And this was like the pre-SaaS, you know, license and maintenance business models."
+    },
+    {
+      "id": 189,
+      "start": 708.18,
+      "end": 711.66,
+      "text": "Then you had SaaS and subscription, and that was typically seed based."
+    },
+    {
+      "id": 190,
+      "start": 711.88,
+      "end": 714.1999999999999,
+      "text": "And that was a big innovation, and it was very disruptive."
+    },
+    {
+      "id": 191,
+      "start": 714.52,
+      "end": 720.3,
+      "text": "Like the architecture and cloud delivery was disruptive, but the business model change was very disruptive."
+    },
+    {
+      "id": 192,
+      "start": 720.52,
+      "end": 724.06,
+      "text": "Like just go look at what happened to Adobe as they went through that transition."
+    },
+    {
+      "id": 193,
+      "start": 724.4399999999999,
+      "end": 728.56,
+      "text": "Then you have this transition to consumption based, so usage based."
+    },
+    {
+      "id": 194,
+      "start": 729.2199999999999,
+      "end": 731.16,
+      "text": "And this is how the clouds charge."
+    },
+    {
+      "id": 195,
+      "start": 731.16,
+      "end": 740.0799999999999,
+      "text": "And so many of the sort of volume based, like task based type businesses have already adapted that and shifted to that from, you know, seed based to consumption."
+    },
+    {
+      "id": 196,
+      "start": 740.86,
+      "end": 744.36,
+      "text": "And then the next iteration will be outcome based."
+    },
+    {
+      "id": 197,
+      "start": 744.88,
+      "end": 753.9,
+      "text": "So, you know, when you do a task, you know, and ideally when you successfully complete a task, you get paid based on the successful completion of that task."
+    },
+    {
+      "id": 198,
+      "start": 753.9,
+      "end": 764.9599999999999,
+      "text": "The only area where that's really possible today to pull off is probably customer support, customer success, because you can kind of objectively measure the resolution of something."
+    },
+    {
+      "id": 199,
+      "start": 765.9599999999999,
+      "end": 775.52,
+      "text": "But we'll see what happens with the capabilities of the models to the extent that other functions besides customer support can measure those kinds of outcomes."
+    },
+    {
+      "id": 200,
+      "start": 775.52,
+      "end": 779.3,
+      "text": "That would be a huge disruptive force for incumbents."
+    },
+    {
+      "id": 201,
+      "start": 779.3,
+      "end": 785.06,
+      "text": "And honestly, seats to consumption might be a big disruption if the composition of companies changes as well."
+    },
+    {
+      "id": 202,
+      "start": 785.4599999999999,
+      "end": 787.8,
+      "text": "But that next one is the is the really big one."
+    },
+    {
+      "id": 203,
+      "start": 788.66,
+      "end": 788.92,
+      "text": "For sure."
+    },
+    {
+      "id": 204,
+      "start": 789.4599999999999,
+      "end": 793.6999999999999,
+      "text": "Speaking of blood versus electricity, we should go to ARR over FTE."
+    },
+    {
+      "id": 205,
+      "start": 794.12,
+      "end": 794.9399999999999,
+      "text": "This next slide."
+    },
+    {
+      "id": 206,
+      "start": 795.14,
+      "end": 795.66,
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "id": 207,
+      "start": 795.66,
+      "end": 806.5,
+      "text": "So the big the big debate that was going on on this one on the next slide was like, oh, my gosh, look at the AI efficiency gains that are happening in the market."
+    },
+    {
+      "id": 208,
+      "start": 806.5,
+      "end": 813.06,
+      "text": "Now, there's a little bit of that in this, like companies running themselves a little bit differently."
+    },
+    {
+      "id": 209,
+      "start": 813.38,
+      "end": 818.06,
+      "text": "And, you know, you take the example that I gave about, you know, the two engineers who are rebuilding the product."
+    },
+    {
+      "id": 210,
+      "start": 818.24,
+      "end": 819.3,
+      "text": "Like, sure."
+    },
+    {
+      "id": 211,
+      "start": 819.3,
+      "end": 831.5799999999999,
+      "text": "I would say my observation from our companies, even the AI native ones, is they run leaner partially because they've just grown so quickly and the demand is so strong."
+    },
+    {
+      "id": 212,
+      "start": 831.9399999999999,
+      "end": 838.16,
+      "text": "I wouldn't say yet we're at the point where companies have fully reimagined the way they run themselves."
+    },
+    {
+      "id": 213,
+      "start": 838.16,
+      "end": 845.8,
+      "text": "I think this is a little bit the result of our data set being the best of the best companies and demand signals for those being extremely high."
+    },
+    {
+      "id": 214,
+      "start": 846.4,
+      "end": 849.48,
+      "text": "So they, you know, they have less resources to serve that demand."
+    },
+    {
+      "id": 215,
+      "start": 849.8399999999999,
+      "end": 860.1999999999999,
+      "text": "And frankly, you know, efficiency, general efficiency gains that have happened in the technology market, you know, out of the kind of 2021 most, you know, most bloated era."
+    },
+    {
+      "id": 216,
+      "start": 860.2,
+      "end": 868.2800000000001,
+      "text": "So we're starting to see some early signs of that efficiency, but the wholesale run your company totally differently."
+    },
+    {
+      "id": 217,
+      "start": 868.6800000000001,
+      "end": 871.7800000000001,
+      "text": "I think, you know, we're kind of early in that journey."
+    },
+    {
+      "id": 218,
+      "start": 872.1,
+      "end": 881.34,
+      "text": "I'd say the coolest one that I've seen is in the public markets that anyone can go read about is probably Shopify, where they, you know, Toby's awesome."
+    },
+    {
+      "id": 219,
+      "start": 881.6400000000001,
+      "end": 883.38,
+      "text": "Like, he's a CEO that's close."
+    },
+    {
+      "id": 220,
+      "start": 883.6800000000001,
+      "end": 884.96,
+      "text": "He's in a bunch of our groups and stuff."
+    },
+    {
+      "id": 221,
+      "start": 884.96,
+      "end": 889.12,
+      "text": "And he does a great job and he, you know, he fully embraced this a couple of years ago."
+    },
+    {
+      "id": 222,
+      "start": 889.3000000000001,
+      "end": 902.32,
+      "text": "And then one of our staff writers actually wrote this whole big deep dive on how Shopify AI-ified itself, you know, in terms of, you know, employee direction, process, et cetera."
+    },
+    {
+      "id": 223,
+      "start": 903.1800000000001,
+      "end": 907.02,
+      "text": "And that's just probably scratching the surface of what's going to happen over the next five years."
+    },
+    {
+      "id": 224,
+      "start": 909.38,
+      "end": 909.7800000000001,
+      "text": "Awesome."
+    },
+    {
+      "id": 225,
+      "start": 909.94,
+      "end": 913.34,
+      "text": "Good segue to the next section on what are these companies actually doing?"
+    },
+    {
+      "id": 226,
+      "start": 913.34,
+      "end": 918.6600000000001,
+      "text": "And our favorite topic, which is lawyers have only increased in this new world of AI's meeting lawyers."
+    },
+    {
+      "id": 227,
+      "start": 918.88,
+      "end": 919.72,
+      "text": "Not the opposite."
+    },
+    {
+      "id": 228,
+      "start": 920.0400000000001,
+      "end": 921.12,
+      "text": "I love the tweet."
+    },
+    {
+      "id": 229,
+      "start": 921.1800000000001,
+      "end": 928.8000000000001,
+      "text": "I don't know if you saw it earlier this week that a corporate lawyer was quoted saying, LLMs have actually increased my workload because every client thinks they're a lawyer now."
+    },
+    {
+      "id": 230,
+      "start": 929.22,
+      "end": 930.86,
+      "text": "It's a good segue to Harvey, which is an excellent."
+    },
+    {
+      "id": 231,
+      "start": 932.6,
+      "end": 933.82,
+      "text": "That's very good."
+    },
+    {
+      "id": 232,
+      "start": 934.1600000000001,
+      "end": 934.74,
+      "text": "That's very good."
+    },
+    {
+      "id": 233,
+      "start": 935.24,
+      "end": 935.86,
+      "text": "Harvey's doing great."
+    },
+    {
+      "id": 234,
+      "start": 936.1600000000001,
+      "end": 940.1600000000001,
+      "text": "So, okay, this is a real test for me because, you know, I love talking about our portfolio companies."
+    },
+    {
+      "id": 235,
+      "start": 940.16,
+      "end": 945.76,
+      "text": "And I'm supposed to go through this section quickly because, you know, I think people know these companies, hopefully."
+    },
+    {
+      "id": 236,
+      "start": 946.5,
+      "end": 957.4,
+      "text": "The takeaway on this one, you know, one of the big things that we look for and one of the questions I think that came in was, how do you know that revenue is going to be sustainable?"
+    },
+    {
+      "id": 237,
+      "start": 957.4,
+      "end": 960.6999999999999,
+      "text": "Like, these companies, they all grew really, really fast."
+    },
+    {
+      "id": 238,
+      "start": 960.9,
+      "end": 961.88,
+      "text": "But is it fleeting?"
+    },
+    {
+      "id": 239,
+      "start": 962.56,
+      "end": 973.4599999999999,
+      "text": "And the big thing that we push ourselves to do is make sure we go super, super deep on revenue retention, renewals, and product engagement, actually time spent."
+    },
+    {
+      "id": 240,
+      "start": 973.76,
+      "end": 975.8199999999999,
+      "text": "How often are people logging into the platform?"
+    },
+    {
+      "id": 241,
+      "start": 976.0799999999999,
+      "end": 978.56,
+      "text": "When they're in the platform, what does their activity look like?"
+    },
+    {
+      "id": 242,
+      "start": 978.56,
+      "end": 993.3599999999999,
+      "text": "And what you see on this page is with the onset of much better product that they've built over the last couple of years, plus the improvement of reasoning models, it turns out lawyering and reasoning go hand in hand."
+    },
+    {
+      "id": 243,
+      "start": 994.28,
+      "end": 999.14,
+      "text": "Users are spending about double the amount in the product as they had before."
+    },
+    {
+      "id": 244,
+      "start": 999.14,
+      "end": 1002.86,
+      "text": "So it turns out that AI is really good at lawyering."
+    },
+    {
+      "id": 245,
+      "start": 1003.56,
+      "end": 1005.26,
+      "text": "Again, there's not fewer lawyers."
+    },
+    {
+      "id": 246,
+      "start": 1006.24,
+      "end": 1008.8199999999999,
+      "text": "But I think, you know, AI is very, very good at this."
+    },
+    {
+      "id": 247,
+      "start": 1008.84,
+      "end": 1010.18,
+      "text": "And I think lawyers are getting a lot more efficient."
+    },
+    {
+      "id": 248,
+      "start": 1010.66,
+      "end": 1016.5,
+      "text": "The most important thing as it relates to Harvey is they're just spending a lot of time in the product and getting a lot of value out of it, which is great."
+    },
+    {
+      "id": 249,
+      "start": 1018.02,
+      "end": 1019.48,
+      "text": "Let's go to a bridge."
+    },
+    {
+      "id": 250,
+      "start": 1019.78,
+      "end": 1022.3199999999999,
+      "text": "Oh, unless you want to keep talking about lawyers."
+    },
+    {
+      "id": 251,
+      "start": 1022.38,
+      "end": 1023.3199999999999,
+      "text": "Oh, I was just going to make a comment."
+    },
+    {
+      "id": 252,
+      "start": 1023.32,
+      "end": 1030.2,
+      "text": "In all the seven years that I've known you, I wouldn't have ever discerned that you're from Kentucky other than this moment now."
+    },
+    {
+      "id": 253,
+      "start": 1030.3200000000002,
+      "end": 1031.38,
+      "text": "By the way, you say lawyer."
+    },
+    {
+      "id": 254,
+      "start": 1034.06,
+      "end": 1035.04,
+      "text": "That was a tell."
+    },
+    {
+      "id": 255,
+      "start": 1036.68,
+      "end": 1041.8,
+      "text": "There's a couple of those words in my vocabulary that I don't."
+    },
+    {
+      "id": 256,
+      "start": 1041.92,
+      "end": 1043.1200000000001,
+      "text": "You know, my wife always jokes."
+    },
+    {
+      "id": 257,
+      "start": 1043.18,
+      "end": 1048.5800000000002,
+      "text": "She's like, you know, you go home, you have like one bourbon, and then you talk like you probably did when you were 18."
+    },
+    {
+      "id": 258,
+      "start": 1048.92,
+      "end": 1051.72,
+      "text": "The Kentucky came out when it came to lawyers."
+    },
+    {
+      "id": 259,
+      "start": 1051.72,
+      "end": 1053.7,
+      "text": "It's 1025 a.m."
+    },
+    {
+      "id": 260,
+      "start": 1053.7,
+      "end": 1054.94,
+      "text": "I have not had any bourbons today."
+    },
+    {
+      "id": 261,
+      "start": 1056.26,
+      "end": 1057.16,
+      "text": "Important distinction."
+    },
+    {
+      "id": 262,
+      "start": 1057.5,
+      "end": 1058.46,
+      "text": "Important distinctions."
+    },
+    {
+      "id": 263,
+      "start": 1058.64,
+      "end": 1059.26,
+      "text": "Yes, exactly."
+    },
+    {
+      "id": 264,
+      "start": 1059.56,
+      "end": 1060.54,
+      "text": "So a bridge."
+    },
+    {
+      "id": 265,
+      "start": 1060.6200000000001,
+      "end": 1062.74,
+      "text": "A bridge is another one that's super, super exciting."
+    },
+    {
+      "id": 266,
+      "start": 1062.9,
+      "end": 1073.88,
+      "text": "I mean, this is like the doctors rave about getting to have access to a bridge and how much time it saves them and how much better it makes their lives."
+    },
+    {
+      "id": 267,
+      "start": 1073.88,
+      "end": 1079.0400000000002,
+      "text": "So, you know, one of the customers that we talked to described it like a trusted deputy."
+    },
+    {
+      "id": 268,
+      "start": 1079.04,
+      "end": 1090.42,
+      "text": "The chart on the right shows something we look for, which is the blue line shows the growth in users and the green line shows the engagement of those users."
+    },
+    {
+      "id": 269,
+      "start": 1090.42,
+      "end": 1100.26,
+      "text": "And so as they have massively grown the number of users, you'd be a little worried if engagement of those incremental users that they were adding was going down."
+    },
+    {
+      "id": 270,
+      "start": 1100.5,
+      "end": 1106.48,
+      "text": "But instead, they have extremely high usage among the people who use the product."
+    },
+    {
+      "id": 271,
+      "start": 1106.48,
+      "end": 1113.04,
+      "text": "And that has actually held steady and grown a little bit, even as they've added tons and tons of more users."
+    },
+    {
+      "id": 272,
+      "start": 1113.28,
+      "end": 1122.64,
+      "text": "So these are just examples of the kind of data that we look for to make sure that we feel confident that the revenue these companies are generating is sustainable."
+    },
+    {
+      "id": 273,
+      "start": 1122.92,
+      "end": 1126.06,
+      "text": "And again, these companies are growing faster than, you know, any of the predecessor companies."
+    },
+    {
+      "id": 274,
+      "start": 1126.32,
+      "end": 1127.34,
+      "text": "But it's very sustainable."
+    },
+    {
+      "id": 275,
+      "start": 1127.68,
+      "end": 1128.68,
+      "text": "It's, you know, it's high engagement."
+    },
+    {
+      "id": 276,
+      "start": 1128.82,
+      "end": 1129.32,
+      "text": "It's high retention."
+    },
+    {
+      "id": 277,
+      "start": 1129.8,
+      "end": 1131.54,
+      "text": "And that's critically important for us."
+    },
+    {
+      "id": 278,
+      "start": 1131.54,
+      "end": 1134.58,
+      "text": "Same thing with 11 Labs."
+    },
+    {
+      "id": 279,
+      "start": 1134.8799999999999,
+      "end": 1137.44,
+      "text": "Voice is the centerpiece of so many of the new AI tools."
+    },
+    {
+      "id": 280,
+      "start": 1137.8999999999999,
+      "end": 1139.8799999999999,
+      "text": "You know, I talked about customer support on the B2B side."
+    },
+    {
+      "id": 281,
+      "start": 1140.58,
+      "end": 1148.78,
+      "text": "But, you know, so much, you know, other personal tools, business tools, you know, start with voice."
+    },
+    {
+      "id": 282,
+      "start": 1149.52,
+      "end": 1152.56,
+      "text": "The usage growth is the thing that I love to look at on this chart."
+    },
+    {
+      "id": 283,
+      "start": 1152.68,
+      "end": 1153.52,
+      "text": "It's just staggering."
+    },
+    {
+      "id": 284,
+      "start": 1154.1,
+      "end": 1155.86,
+      "text": "And this company is growing very fast."
+    },
+    {
+      "id": 285,
+      "start": 1155.96,
+      "end": 1160.22,
+      "text": "And it's a great example of one of these companies that runs extremely efficiently."
+    },
+    {
+      "id": 286,
+      "start": 1160.22,
+      "end": 1163.64,
+      "text": "So 11 Labs is really a great one."
+    },
+    {
+      "id": 287,
+      "start": 1164.96,
+      "end": 1167.34,
+      "text": "Navon is the next one."
+    },
+    {
+      "id": 288,
+      "start": 1167.94,
+      "end": 1169.6200000000001,
+      "text": "So this is another, this is a different example."
+    },
+    {
+      "id": 289,
+      "start": 1169.76,
+      "end": 1172.3,
+      "text": "So this is actually a good example of what I was describing earlier."
+    },
+    {
+      "id": 290,
+      "start": 1172.6000000000001,
+      "end": 1175.72,
+      "text": "So they were early to this, you know, AI shift."
+    },
+    {
+      "id": 291,
+      "start": 1176.28,
+      "end": 1184.1200000000001,
+      "text": "And they spent a lot of effort making sure that they could take the most of the AI capabilities and make their business better."
+    },
+    {
+      "id": 292,
+      "start": 1184.12,
+      "end": 1191.3999999999999,
+      "text": "And so the biggest way you can see it in their business today is in the handling of resolutions."
+    },
+    {
+      "id": 293,
+      "start": 1191.3999999999999,
+      "end": 1196.6599999999999,
+      "text": "So part of what they have is, you know, agents that have to handle travel bookings or travel changes."
+    },
+    {
+      "id": 294,
+      "start": 1197.52,
+      "end": 1200.9199999999998,
+      "text": "AI is now handling 50% of those user interactions."
+    },
+    {
+      "id": 295,
+      "start": 1200.92,
+      "end": 1202.88,
+      "text": "And this is hard stuff."
+    },
+    {
+      "id": 296,
+      "start": 1202.98,
+      "end": 1204.3400000000001,
+      "text": "Like this is travel bookings."
+    },
+    {
+      "id": 297,
+      "start": 1204.52,
+      "end": 1206.0600000000002,
+      "text": "This is changes to travel."
+    },
+    {
+      "id": 298,
+      "start": 1206.7,
+      "end": 1211.04,
+      "text": "So this is not, you know, complex, like tell me the balance of my bank."
+    },
+    {
+      "id": 299,
+      "start": 1211.3600000000001,
+      "end": 1215.04,
+      "text": "You know, this is like complex workflow that AI is now able to handle."
+    },
+    {
+      "id": 300,
+      "start": 1215.42,
+      "end": 1223.16,
+      "text": "The way you see that in the business is a 20 percentage point expansion of gross margins over the last three years."
+    },
+    {
+      "id": 301,
+      "start": 1223.16,
+      "end": 1225.48,
+      "text": "And that's just exceptional impact."
+    },
+    {
+      "id": 302,
+      "start": 1225.6000000000001,
+      "end": 1227.9,
+      "text": "And so, you know, you need to adapt or die."
+    },
+    {
+      "id": 303,
+      "start": 1228.44,
+      "end": 1230.92,
+      "text": "Well, their competitors are not adapting."
+    },
+    {
+      "id": 304,
+      "start": 1231.0600000000002,
+      "end": 1231.94,
+      "text": "They're very old school."
+    },
+    {
+      "id": 305,
+      "start": 1232.68,
+      "end": 1237.24,
+      "text": "And while, you know, they've been sitting still and doing things the old way,"
+    },
+    {
+      "id": 306,
+      "start": 1237.74,
+      "end": 1241.94,
+      "text": "Nivan now has 20 percentage point higher gross margins than those incumbents."
+    },
+    {
+      "id": 307,
+      "start": 1242.5600000000002,
+      "end": 1243.52,
+      "text": "And then, you know, Flock."
+    },
+    {
+      "id": 308,
+      "start": 1244.42,
+      "end": 1247.46,
+      "text": "Flock is doing absolutely incredible work."
+    },
+    {
+      "id": 309,
+      "start": 1247.72,
+      "end": 1249.18,
+      "text": "I've talked about them so much."
+    },
+    {
+      "id": 310,
+      "start": 1249.18,
+      "end": 1254.4,
+      "text": "It's the most compelling customer value proposition that we see in our portfolio."
+    },
+    {
+      "id": 311,
+      "start": 1254.92,
+      "end": 1258.18,
+      "text": "Because what their ROI is, is solving crime."
+    },
+    {
+      "id": 312,
+      "start": 1259.04,
+      "end": 1261.54,
+      "text": "The 10% stat we've covered before."
+    },
+    {
+      "id": 313,
+      "start": 1262.3200000000002,
+      "end": 1266.1000000000001,
+      "text": "Each year, Flock is solving 700,000 crimes."
+    },
+    {
+      "id": 314,
+      "start": 1266.9,
+      "end": 1273.5600000000002,
+      "text": "The data point on the right also is a data point that just shows per officer that where there's Flock,"
+    },
+    {
+      "id": 315,
+      "start": 1273.68,
+      "end": 1277.14,
+      "text": "they're clearing almost 10%, you know, more crimes."
+    },
+    {
+      "id": 316,
+      "start": 1277.14,
+      "end": 1279.68,
+      "text": "So, huge impact on the community."
+    },
+    {
+      "id": 317,
+      "start": 1280.3200000000002,
+      "end": 1283.76,
+      "text": "Obviously, they have a great, you know, they have a great business and financial model that goes along with it."
+    },
+    {
+      "id": 318,
+      "start": 1283.8400000000001,
+      "end": 1287.8400000000001,
+      "text": "But the impact on their product or from their product is exceptional."
+    },
+    {
+      "id": 319,
+      "start": 1289.3400000000001,
+      "end": 1289.74,
+      "text": "Okay."
+    },
+    {
+      "id": 320,
+      "start": 1290.5,
+      "end": 1294.72,
+      "text": "By the way, I don't know if you see the chat lighting up of people saying that they're three bourbons deep."
+    },
+    {
+      "id": 321,
+      "start": 1295.5600000000002,
+      "end": 1296.48,
+      "text": "Oh, okay."
+    },
+    {
+      "id": 322,
+      "start": 1296.8400000000001,
+      "end": 1297.46,
+      "text": "I didn't see it."
+    },
+    {
+      "id": 323,
+      "start": 1297.5600000000002,
+      "end": 1298.44,
+      "text": "For what it's worth."
+    },
+    {
+      "id": 324,
+      "start": 1298.44,
+      "end": 1302.72,
+      "text": "There is one question about how do you think about the benchmark?"
+    },
+    {
+      "id": 325,
+      "start": 1302.8600000000001,
+      "end": 1308.24,
+      "text": "Like, if you were to think about traditional industries like finance, for example, and using J.P. Morgan as a benchmark,"
+    },
+    {
+      "id": 326,
+      "start": 1308.6000000000001,
+      "end": 1312.3600000000001,
+      "text": "what would you calibrate the Fortune 500 in terms of AI adoption?"
+    },
+    {
+      "id": 327,
+      "start": 1312.74,
+      "end": 1316.38,
+      "text": "And then maybe I'll overlay that question that Xavier mentioned as well."
+    },
+    {
+      "id": 328,
+      "start": 1316.38,
+      "end": 1323.64,
+      "text": "With, you know, there was that study about enterprise adoption from MIT at the early outset of last year,"
+    },
+    {
+      "id": 329,
+      "start": 1323.64,
+      "end": 1325.88,
+      "text": "and they were measuring all sorts of wonky things."
+    },
+    {
+      "id": 330,
+      "start": 1326.5400000000002,
+      "end": 1330.72,
+      "text": "Maybe say a little bit more about how and what you're hearing from Fortune 500 CEOs."
+    },
+    {
+      "id": 331,
+      "start": 1330.72,
+      "end": 1330.84,
+      "text": "Yeah."
+    },
+    {
+      "id": 332,
+      "start": 1332.04,
+      "end": 1332.52,
+      "text": "Yeah."
+    },
+    {
+      "id": 333,
+      "start": 1333.18,
+      "end": 1340.98,
+      "text": "What we're hearing from Fortune 500 CEOs, I would say, is maybe this is the key sort of link between those two points."
+    },
+    {
+      "id": 334,
+      "start": 1341.06,
+      "end": 1344.54,
+      "text": "What we're hearing from Fortune 500 CEOs is we have to adapt."
+    },
+    {
+      "id": 335,
+      "start": 1344.84,
+      "end": 1347.28,
+      "text": "We're dying to understand what AI tools we need."
+    },
+    {
+      "id": 336,
+      "start": 1348.18,
+      "end": 1349.5,
+      "text": "You know, we're ready to change."
+    },
+    {
+      "id": 337,
+      "start": 1350.1200000000001,
+      "end": 1353.48,
+      "text": "We, you know, our businesses are going to fully roll things out."
+    },
+    {
+      "id": 338,
+      "start": 1353.92,
+      "end": 1355.68,
+      "text": "And, you know, we're ready."
+    },
+    {
+      "id": 339,
+      "start": 1355.88,
+      "end": 1357.48,
+      "text": "We're going to become AI companies."
+    },
+    {
+      "id": 340,
+      "start": 1357.48,
+      "end": 1362.5,
+      "text": "That's quite different than what is actually happening."
+    },
+    {
+      "id": 341,
+      "start": 1362.88,
+      "end": 1373.28,
+      "text": "And I think the biggest disconnect of sort of, you know, that mindset compared to actual change in the businesses is just change management is hard."
+    },
+    {
+      "id": 342,
+      "start": 1374.6200000000001,
+      "end": 1381.52,
+      "text": "You know, it's hard enough to get people to just use an AI assistant to help them do their jobs better."
+    },
+    {
+      "id": 343,
+      "start": 1381.52,
+      "end": 1388.68,
+      "text": "You know, coding is probably the easiest one to get people's minds wrapped around customer support."
+    },
+    {
+      "id": 344,
+      "start": 1388.9,
+      "end": 1391.3,
+      "text": "It's such a better, faster, cheaper, obvious thing."
+    },
+    {
+      "id": 345,
+      "start": 1391.44,
+      "end": 1402.52,
+      "text": "But in terms of actually, you know, general management of businesses, changing business processes, change management, it's extremely hard to do."
+    },
+    {
+      "id": 346,
+      "start": 1402.52,
+      "end": 1410.34,
+      "text": "And so I'm not surprised that there are anecdotes out there that suggest, oh, you know, things are moving slower than expected."
+    },
+    {
+      "id": 347,
+      "start": 1411.18,
+      "end": 1417.44,
+      "text": "But for the best companies that are fully embracing it and actually know what to do, it has tremendous business impact already."
+    },
+    {
+      "id": 348,
+      "start": 1417.44,
+      "end": 1431.06,
+      "text": "So, you know, I think there's going to be a sort of reckoning over the next five years of who can actually embrace change, push through change management, you know, adopt all the best products and those that don't."
+    },
+    {
+      "id": 349,
+      "start": 1431.24,
+      "end": 1433.78,
+      "text": "And I think there will be major differences in productivity."
+    },
+    {
+      "id": 350,
+      "start": 1433.78,
+      "end": 1443.08,
+      "text": "You know, we have some charts later in the slides, you know, which I can talk to, but, you know, the expectations around productivity enhancements and, you know, and growth and all that stuff."
+    },
+    {
+      "id": 351,
+      "start": 1443.82,
+      "end": 1445.3799999999999,
+      "text": "You know, the expectations are high."
+    },
+    {
+      "id": 352,
+      "start": 1445.42,
+      "end": 1448.22,
+      "text": "And I think a bunch of companies will achieve those."
+    },
+    {
+      "id": 353,
+      "start": 1448.22,
+      "end": 1450.86,
+      "text": "And the ones that don't are going to be at a huge disadvantage."
+    },
+    {
+      "id": 354,
+      "start": 1451.6,
+      "end": 1454.28,
+      "text": "Chime said they reduced their support costs by 60%."
+    },
+    {
+      "id": 355,
+      "start": 1454.28,
+      "end": 1466.44,
+      "text": "Rocket Mortgage said that they saved 1.1 million hours in underwriting up 6x year over year, and that was 40 million bucks at run rate annual savings."
+    },
+    {
+      "id": 356,
+      "start": 1468.2,
+      "end": 1472.5,
+      "text": "So we're seeing pockets of it in non-AI businesses."
+    },
+    {
+      "id": 357,
+      "start": 1472.8999999999999,
+      "end": 1476.16,
+      "text": "And I think this is going to be a really interesting year to watch over the next 12 months."
+    },
+    {
+      "id": 358,
+      "start": 1476.52,
+      "end": 1482.52,
+      "text": "I think you're going to see a ton more anecdotes, but there will be companies that can figure it out and there are going to be companies that don't."
+    },
+    {
+      "id": 359,
+      "start": 1482.52,
+      "end": 1489.72,
+      "text": "Totally. And also, a lot of these corporations have had to orient their business to be ready for AI as well."
+    },
+    {
+      "id": 360,
+      "start": 1490.06,
+      "end": 1494.66,
+      "text": "Like there's one version of just like using a chatbot, right, and how much productivity gains that actually gets you."
+    },
+    {
+      "id": 361,
+      "start": 1494.76,
+      "end": 1496.0,
+      "text": "Probably not a lot, right?"
+    },
+    {
+      "id": 362,
+      "start": 1496.18,
+      "end": 1508.92,
+      "text": "But if you have to actually completely upend your system's information and backend to be ready for AI, a lot of that is probably latent and being built up now into actually seeing the outcomes associated with it."
+    },
+    {
+      "id": 363,
+      "start": 1509.48,
+      "end": 1511.04,
+      "text": "AI winners are driving the public markets."
+    },
+    {
+      "id": 364,
+      "start": 1511.04,
+      "end": 1515.82,
+      "text": "They account for almost 80% of the S&P 500's return."
+    },
+    {
+      "id": 365,
+      "start": 1515.96,
+      "end": 1520.2,
+      "text": "So this is sort of the major thing driving the economy in the stock market."
+    },
+    {
+      "id": 366,
+      "start": 1520.6599999999999,
+      "end": 1525.36,
+      "text": "Public markets are doing very well, but the fundamentals are sound."
+    },
+    {
+      "id": 367,
+      "start": 1525.46,
+      "end": 1532.04,
+      "text": "So the prices are going up or, you know, there's some blips like the last couple of days, but they're generally doing well."
+    },
+    {
+      "id": 368,
+      "start": 1532.42,
+      "end": 1534.26,
+      "text": "But the fundamentals are very sound."
+    },
+    {
+      "id": 369,
+      "start": 1534.26,
+      "end": 1537.1,
+      "text": "And I would say the evidence of froth is minimal."
+    },
+    {
+      "id": 370,
+      "start": 1537.8,
+      "end": 1540.1,
+      "text": "So recent performance is driven by UPS growth."
+    },
+    {
+      "id": 371,
+      "start": 1541.04,
+      "end": 1548.58,
+      "text": "Multiples have contracted slightly, maybe more than slightly if you're a SaaS company over the last few days or a couple of weeks."
+    },
+    {
+      "id": 372,
+      "start": 1548.58,
+      "end": 1554.9199999999998,
+      "text": "But I would say the market is priced on, in general, earnings and earnings growth."
+    },
+    {
+      "id": 373,
+      "start": 1554.92,
+      "end": 1561.18,
+      "text": "So the earnings multiples are higher than average, but nowhere near the dot com."
+    },
+    {
+      "id": 374,
+      "start": 1561.44,
+      "end": 1564.3600000000001,
+      "text": "And so you can just look at the charts and see where we are."
+    },
+    {
+      "id": 375,
+      "start": 1564.54,
+      "end": 1566.5,
+      "text": "And, you know, that gives me some comfort."
+    },
+    {
+      "id": 376,
+      "start": 1566.78,
+      "end": 1573.76,
+      "text": "And again, the earnings of the companies that are the biggest drivers of the market in general, I feel like are pretty sound."
+    },
+    {
+      "id": 377,
+      "start": 1573.9,
+      "end": 1574.76,
+      "text": "The companies are good."
+    },
+    {
+      "id": 378,
+      "start": 1574.76,
+      "end": 1578.66,
+      "text": "So, you know, the health of these companies, I would say, is pretty good."
+    },
+    {
+      "id": 379,
+      "start": 1578.9,
+      "end": 1584.16,
+      "text": "And the valuations are higher than average in the past, but they don't feel super alarming."
+    },
+    {
+      "id": 380,
+      "start": 1584.68,
+      "end": 1590.78,
+      "text": "I often say the leading tech companies that I was just talking about are the best businesses in the history of the world."
+    },
+    {
+      "id": 381,
+      "start": 1592.02,
+      "end": 1598.58,
+      "text": "If you just look over a long period of time, they have shown margin improvement that suggests that is probably true."
+    },
+    {
+      "id": 382,
+      "start": 1598.66,
+      "end": 1600.42,
+      "text": "And that's, you know, that's on the left side of the page."
+    },
+    {
+      "id": 383,
+      "start": 1600.42,
+      "end": 1604.48,
+      "text": "So investors are paying for profits, not loss making growth."
+    },
+    {
+      "id": 384,
+      "start": 1604.76,
+      "end": 1610.5,
+      "text": "And that's a big contrast from 21, 22 era, sort of 21 era."
+    },
+    {
+      "id": 385,
+      "start": 1610.96,
+      "end": 1613.46,
+      "text": "And obviously a big contrast from a dot com."
+    },
+    {
+      "id": 386,
+      "start": 1614.0,
+      "end": 1618.6200000000001,
+      "text": "Adjusted for margins, multiples are not that high."
+    },
+    {
+      "id": 387,
+      "start": 1618.96,
+      "end": 1623.5600000000002,
+      "text": "And so, again, I like summarize, you know, five slides worth of materials."
+    },
+    {
+      "id": 388,
+      "start": 1623.8600000000001,
+      "end": 1626.0,
+      "text": "The market's higher than it has been in the past."
+    },
+    {
+      "id": 389,
+      "start": 1626.0,
+      "end": 1634.8,
+      "text": "But I think, you know, there's high expectations for a reason and we're optimistic about the impact of AI flowing through to earnings, you know, overall in the public markets in the coming years."
+    },
+    {
+      "id": 390,
+      "start": 1635.8,
+      "end": 1649.72,
+      "text": "And maybe I'd focus your attention on the right side, which is, you know, if you just took a four box of like low growth, high growth, low margin, high margin, and paired up those types of companies, this is a chart that shows how they trade."
+    },
+    {
+      "id": 391,
+      "start": 1649.72,
+      "end": 1651.96,
+      "text": "There's a premium for the best companies."
+    },
+    {
+      "id": 392,
+      "start": 1652.42,
+      "end": 1658.98,
+      "text": "And what you see on the two columns on the right is high growth, high margin companies, and then high growth and low margin companies."
+    },
+    {
+      "id": 393,
+      "start": 1659.72,
+      "end": 1662.06,
+      "text": "Your bad box is obviously low growth, low margin."
+    },
+    {
+      "id": 394,
+      "start": 1662.32,
+      "end": 1663.6200000000001,
+      "text": "And those companies shouldn't be rewarded."
+    },
+    {
+      "id": 395,
+      "start": 1663.78,
+      "end": 1665.26,
+      "text": "They should trade low."
+    },
+    {
+      "id": 396,
+      "start": 1665.7,
+      "end": 1666.5,
+      "text": "And they do."
+    },
+    {
+      "id": 397,
+      "start": 1667.06,
+      "end": 1676.6000000000001,
+      "text": "But the companies that are high growth and high margin and, you know, the high growth and low margin, as long as they have good unit economics and they're scaling into their margins, they should be rewarded."
+    },
+    {
+      "id": 398,
+      "start": 1676.6,
+      "end": 1678.7199999999998,
+      "text": "And so I think this is good."
+    },
+    {
+      "id": 399,
+      "start": 1679.1999999999998,
+      "end": 1683.28,
+      "text": "If you're not high growth, even if you're high margin, it's tough out there."
+    },
+    {
+      "id": 400,
+      "start": 1683.4199999999998,
+      "end": 1684.4199999999998,
+      "text": "And that's not surprising."
+    },
+    {
+      "id": 401,
+      "start": 1684.7199999999998,
+      "end": 1687.26,
+      "text": "Again, I've talked about this in the past in many different forms."
+    },
+    {
+      "id": 402,
+      "start": 1687.54,
+      "end": 1692.98,
+      "text": "But ultimately, growth is the biggest thing that drives returns over five to 10 years."
+    },
+    {
+      "id": 403,
+      "start": 1693.52,
+      "end": 1697.78,
+      "text": "And so it's nice for me to see high growth is rewarded more than low growth."
+    },
+    {
+      "id": 404,
+      "start": 1698.3999999999999,
+      "end": 1703.36,
+      "text": "But if you have high growth and high margin, you're one of those great businesses, it's being very rewarded."
+    },
+    {
+      "id": 405,
+      "start": 1703.36,
+      "end": 1708.1,
+      "text": "This is just like we're going to talk about supply side of the CapEx buildout."
+    },
+    {
+      "id": 406,
+      "start": 1708.4799999999998,
+      "end": 1709.4399999999998,
+      "text": "So the buildout's massive."
+    },
+    {
+      "id": 407,
+      "start": 1709.8,
+      "end": 1716.04,
+      "text": "The size and the concentration of the investment is inherently risky, just given how big it is."
+    },
+    {
+      "id": 408,
+      "start": 1716.8,
+      "end": 1723.6399999999999,
+      "text": "While it has some bubbly features, the underlying fundamentals, I would say, bear little resemblance to previous bubbles."
+    },
+    {
+      "id": 409,
+      "start": 1723.64,
+      "end": 1730.6000000000001,
+      "text": "The investment is financed primarily by historically profitable companies, like very profitable companies that I had talked about."
+    },
+    {
+      "id": 410,
+      "start": 1731.44,
+      "end": 1733.16,
+      "text": "Debt has started to enter the picture."
+    },
+    {
+      "id": 411,
+      "start": 1734.26,
+      "end": 1736.3000000000002,
+      "text": "Cycle times have accelerated, which is good."
+    },
+    {
+      "id": 412,
+      "start": 1736.8600000000001,
+      "end": 1742.94,
+      "text": "But, you know, model, we're closely monitoring the sort of cost of training and the economics of that whole equation."
+    },
+    {
+      "id": 413,
+      "start": 1743.1200000000001,
+      "end": 1744.6200000000001,
+      "text": "Right now, it seems pretty good."
+    },
+    {
+      "id": 414,
+      "start": 1744.62,
+      "end": 1749.12,
+      "text": "The paybacks for the big model companies that spend money on training models is pretty good."
+    },
+    {
+      "id": 415,
+      "start": 1749.4199999999998,
+      "end": 1751.0,
+      "text": "But we're monitoring that closely."
+    },
+    {
+      "id": 416,
+      "start": 1751.6799999999998,
+      "end": 1757.82,
+      "text": "Most importantly, we think that AI is going to be, you know, the biggest model buster that I've seen in my career, certainly."
+    },
+    {
+      "id": 417,
+      "start": 1758.78,
+      "end": 1761.5,
+      "text": "I've written about model busters, so I won't spend too much time on them."
+    },
+    {
+      "id": 418,
+      "start": 1761.78,
+      "end": 1766.5,
+      "text": "But they're companies that grow faster and longer than anyone would have modeled in any scenario."
+    },
+    {
+      "id": 419,
+      "start": 1766.78,
+      "end": 1768.9199999999998,
+      "text": "Like iPhone is the classic case of this."
+    },
+    {
+      "id": 420,
+      "start": 1768.92,
+      "end": 1782.3600000000001,
+      "text": "You know, if you take consensus models from pre-iPhone to five years later, four years later, consensus models were off for Apple's performance by a factor of 3x over four years."
+    },
+    {
+      "id": 421,
+      "start": 1782.68,
+      "end": 1786.5600000000002,
+      "text": "And this is like the most covered company in the world at the time."
+    },
+    {
+      "id": 422,
+      "start": 1786.5600000000002,
+      "end": 1797.3600000000001,
+      "text": "So, you know, I think that the same thing is going to happen in many pockets of AI where the performance just massively exceeds, you know, what any expectations in a spreadsheet would show you."
+    },
+    {
+      "id": 423,
+      "start": 1797.36,
+      "end": 1802.24,
+      "text": "So, tech in general is itself a model buster."
+    },
+    {
+      "id": 424,
+      "start": 1802.52,
+      "end": 1808.62,
+      "text": "But since 2010, tech has delivered high margin revenue at unprecedented speed and scale."
+    },
+    {
+      "id": 425,
+      "start": 1808.82,
+      "end": 1814.6,
+      "text": "So, it often looks expensive early, but repeatedly surprises to the upside, I would say."
+    },
+    {
+      "id": 426,
+      "start": 1815.1799999999998,
+      "end": 1820.7199999999998,
+      "text": "And creates value, I would say, far in excess of the capital that's required to grow."
+    },
+    {
+      "id": 427,
+      "start": 1820.82,
+      "end": 1823.7199999999998,
+      "text": "And I have no reason to think it'll be different, you know, this time around."
+    },
+    {
+      "id": 428,
+      "start": 1823.72,
+      "end": 1828.42,
+      "text": "So, relative to the .com, CapEx is actually supported by cash flows."
+    },
+    {
+      "id": 429,
+      "start": 1828.74,
+      "end": 1832.9,
+      "text": "And CapEx as a percentage of revenue is considerably lower."
+    },
+    {
+      "id": 430,
+      "start": 1833.34,
+      "end": 1835.3,
+      "text": "So, that's a simple headline."
+    },
+    {
+      "id": 431,
+      "start": 1835.64,
+      "end": 1836.96,
+      "text": "We can zoom to the next slide."
+    },
+    {
+      "id": 432,
+      "start": 1837.1000000000001,
+      "end": 1843.3600000000001,
+      "text": "But, you know, I feel much better about this CapEx, you know, dynamic than .com, obviously."
+    },
+    {
+      "id": 433,
+      "start": 1844.46,
+      "end": 1848.78,
+      "text": "Hyperscalers are the ones who are bearing the biggest brunt of the CapEx."
+    },
+    {
+      "id": 434,
+      "start": 1848.78,
+      "end": 1851.3999999999999,
+      "text": "And this is a very good thing."
+    },
+    {
+      "id": 435,
+      "start": 1851.68,
+      "end": 1853.94,
+      "text": "You know, for our portfolio companies, this is great."
+    },
+    {
+      "id": 436,
+      "start": 1854.26,
+      "end": 1855.66,
+      "text": "Like, I am all for it."
+    },
+    {
+      "id": 437,
+      "start": 1855.86,
+      "end": 1858.82,
+      "text": "Get, you know, get as much capacity in the ground."
+    },
+    {
+      "id": 438,
+      "start": 1858.94,
+      "end": 1862.36,
+      "text": "Get as much supply as you possibly can on the ground for training and inference."
+    },
+    {
+      "id": 439,
+      "start": 1862.68,
+      "end": 1864.2,
+      "text": "This is a very good thing."
+    },
+    {
+      "id": 440,
+      "start": 1864.34,
+      "end": 1870.8799999999999,
+      "text": "And again, the companies that are bearing most of the brunt of this are the best businesses of all time that I had talked about before."
+    },
+    {
+      "id": 441,
+      "start": 1870.88,
+      "end": 1876.2600000000002,
+      "text": "So, one thing that we're starting to monitor is the introduction of debt into the equation."
+    },
+    {
+      "id": 442,
+      "start": 1876.7,
+      "end": 1883.38,
+      "text": "So, you can't finance all of the forecast CapEx that's to come with cash flow and we're starting to see some debt."
+    },
+    {
+      "id": 443,
+      "start": 1883.8000000000002,
+      "end": 1885.0400000000002,
+      "text": "So, we're following this closely."
+    },
+    {
+      "id": 444,
+      "start": 1886.3200000000002,
+      "end": 1889.7600000000002,
+      "text": "We're generally not invested heavily in companies with exposure to debt."
+    },
+    {
+      "id": 445,
+      "start": 1889.76,
+      "end": 1898.8799999999999,
+      "text": "Do I feel comfortable with a bunch of the companies on the page financing with cash flow, continuing to produce cash flow, and using debt even?"
+    },
+    {
+      "id": 446,
+      "start": 1899.56,
+      "end": 1902.62,
+      "text": "You know, Meta, Microsoft, AWS, NVIDIA as counterparties?"
+    },
+    {
+      "id": 447,
+      "start": 1902.74,
+      "end": 1904.58,
+      "text": "Of course, I feel great about that."
+    },
+    {
+      "id": 448,
+      "start": 1905.04,
+      "end": 1906.48,
+      "text": "I mentioned the ones I feel great about."
+    },
+    {
+      "id": 449,
+      "start": 1906.94,
+      "end": 1908.46,
+      "text": "I don't feel great about all of them."
+    },
+    {
+      "id": 450,
+      "start": 1908.92,
+      "end": 1911.54,
+      "text": "So, not all counterparties are the same."
+    },
+    {
+      "id": 451,
+      "start": 1912.08,
+      "end": 1917.0,
+      "text": "You know, we're starting to see private credit get a little bit more involved in the data center build out."
+    },
+    {
+      "id": 452,
+      "start": 1917.0,
+      "end": 1926.96,
+      "text": "And, you know, again, the company that's very well covered that is kind of making a bet the company move into becoming a cloud is Oracle."
+    },
+    {
+      "id": 453,
+      "start": 1927.22,
+      "end": 1931.28,
+      "text": "And they've, you know, they've been profitable forever and reducing their shares forever."
+    },
+    {
+      "id": 454,
+      "start": 1932.1,
+      "end": 1937.0,
+      "text": "But the amount of capital that they are committing is very large."
+    },
+    {
+      "id": 455,
+      "start": 1937.12,
+      "end": 1937.74,
+      "text": "It's a big bet."
+    },
+    {
+      "id": 456,
+      "start": 1937.82,
+      "end": 1940.06,
+      "text": "They're going to go cash flow negative for many years to come."
+    },
+    {
+      "id": 457,
+      "start": 1940.06,
+      "end": 1949.58,
+      "text": "And, you know, if you follow some of the buzz around it, like the cost of their credit default swaps has gone up, you know, to like 2% over the last three months."
+    },
+    {
+      "id": 458,
+      "start": 1949.7,
+      "end": 1951.58,
+      "text": "And so, we're watching stuff like this."
+    },
+    {
+      "id": 459,
+      "start": 1951.72,
+      "end": 1954.9199999999998,
+      "text": "Again, this is all generally good stuff for our portfolio companies."
+    },
+    {
+      "id": 460,
+      "start": 1954.9199999999998,
+      "end": 1957.1799999999998,
+      "text": "But we want to make sure that the market overall is healthy as well."
+    },
+    {
+      "id": 461,
+      "start": 1957.76,
+      "end": 1963.6,
+      "text": "So, this is just a slide that shows the magnitude of the pace of change of AI."
+    },
+    {
+      "id": 462,
+      "start": 1963.6,
+      "end": 1968.76,
+      "text": "So, comparing AI build out and AI revenue to what happened with Azure."
+    },
+    {
+      "id": 463,
+      "start": 1968.9599999999998,
+      "end": 1973.04,
+      "text": "So, the AI revenue is coming along relative to the cloud."
+    },
+    {
+      "id": 464,
+      "start": 1973.36,
+      "end": 1976.3,
+      "text": "It took Azure seven years to reach one year of AI revenue."
+    },
+    {
+      "id": 465,
+      "start": 1976.8999999999999,
+      "end": 1982.6999999999998,
+      "text": "So, this is just Microsoft reporting data, which I think is a cool way to frame how quickly this has happened."
+    },
+    {
+      "id": 466,
+      "start": 1983.6799999999998,
+      "end": 1985.28,
+      "text": "You know, the build's taken a very long time."
+    },
+    {
+      "id": 467,
+      "start": 1985.4599999999998,
+      "end": 1987.76,
+      "text": "Again, this AI build out is happening much faster."
+    },
+    {
+      "id": 468,
+      "start": 1987.76,
+      "end": 1991.68,
+      "text": "But it took 10 years for Azure revenue to surpass their CapEx."
+    },
+    {
+      "id": 469,
+      "start": 1992.4,
+      "end": 1996.46,
+      "text": "And I think that sort of ratio or equation is going to happen much faster with AI."
+    },
+    {
+      "id": 470,
+      "start": 2000.04,
+      "end": 2002.62,
+      "text": "We don't need to geek out too much on depreciation."
+    },
+    {
+      "id": 471,
+      "start": 2002.62,
+      "end": 2006.62,
+      "text": "But this is one of the topics that gets a lot of buzz in finance circles."
+    },
+    {
+      "id": 472,
+      "start": 2006.62,
+      "end": 2012.56,
+      "text": "You know, just what are your assumptions around depreciation of chips in particular?"
+    },
+    {
+      "id": 473,
+      "start": 2012.56,
+      "end": 2018.8799999999999,
+      "text": "I would say the pricing for older GPUs is very solid."
+    },
+    {
+      "id": 474,
+      "start": 2019.98,
+      "end": 2024.72,
+      "text": "Early users stick with models a bit longer, but later users quickly switch to the new thing."
+    },
+    {
+      "id": 475,
+      "start": 2024.78,
+      "end": 2025.6399999999999,
+      "text": "So, that's the right side."
+    },
+    {
+      "id": 476,
+      "start": 2025.72,
+      "end": 2027.0,
+      "text": "That's like kind of the model side."
+    },
+    {
+      "id": 477,
+      "start": 2027.2,
+      "end": 2033.28,
+      "text": "On the chip side, seven to eight-year-old TPUs, Google actually disclosed this,"
+    },
+    {
+      "id": 478,
+      "start": 2033.3999999999999,
+      "end": 2036.6,
+      "text": "seven to eight-year-old TPUs actually have 100% utilization."
+    },
+    {
+      "id": 479,
+      "start": 2036.6,
+      "end": 2041.6399999999999,
+      "text": "And we very closely monitor the price of chips in the secondary market."
+    },
+    {
+      "id": 480,
+      "start": 2042.02,
+      "end": 2047.24,
+      "text": "And the price to rent A100s and H100s has actually held up very, very well."
+    },
+    {
+      "id": 481,
+      "start": 2047.3799999999999,
+      "end": 2050.44,
+      "text": "So, older generations of chips are still getting fully utilized."
+    },
+    {
+      "id": 482,
+      "start": 2050.7,
+      "end": 2055.12,
+      "text": "So, this is not something I worry about yet, but it gets a lot of buzz, you know,"
+    },
+    {
+      "id": 483,
+      "start": 2055.5,
+      "end": 2058.64,
+      "text": "sort of alarmists who like to talk about risk in the system."
+    },
+    {
+      "id": 484,
+      "start": 2061.44,
+      "end": 2062.04,
+      "text": "All right."
+    },
+    {
+      "id": 485,
+      "start": 2062.2799999999997,
+      "end": 2063.22,
+      "text": "Some positive stuff."
+    },
+    {
+      "id": 486,
+      "start": 2063.22,
+      "end": 2070.7599999999998,
+      "text": "So, the big thing that we talk about all the time is this paradox, right?"
+    },
+    {
+      "id": 487,
+      "start": 2070.9399999999996,
+      "end": 2073.74,
+      "text": "Like, as tokens get cheaper, consumption goes up."
+    },
+    {
+      "id": 488,
+      "start": 2074.3199999999997,
+      "end": 2077.9399999999996,
+      "text": "All the hyperscalers report demand is well in excess of supply."
+    },
+    {
+      "id": 489,
+      "start": 2078.3799999999997,
+      "end": 2079.74,
+      "text": "I believe them when they say that."
+    },
+    {
+      "id": 490,
+      "start": 2080.72,
+      "end": 2084.8799999999997,
+      "text": "You know, I interviewed Gavin Baker, a friend of mine at our AI summit,"
+    },
+    {
+      "id": 491,
+      "start": 2085.1,
+      "end": 2090.22,
+      "text": "and he was comparing the build-out of the internet and laying all the fiber"
+    },
+    {
+      "id": 492,
+      "start": 2090.22,
+      "end": 2092.7799999999997,
+      "text": "to the build-out of data centers here."
+    },
+    {
+      "id": 493,
+      "start": 2092.78,
+      "end": 2098.1000000000004,
+      "text": "And, you know, his big line was there is, you know, there is no dark GPU."
+    },
+    {
+      "id": 494,
+      "start": 2098.36,
+      "end": 2099.82,
+      "text": "There are no dark GPUs."
+    },
+    {
+      "id": 495,
+      "start": 2099.88,
+      "end": 2100.84,
+      "text": "There was a dark fiber."
+    },
+    {
+      "id": 496,
+      "start": 2101.26,
+      "end": 2105.1400000000003,
+      "text": "You had to lay fiber and then, you know, laid there dark and it wasn't used."
+    },
+    {
+      "id": 497,
+      "start": 2105.34,
+      "end": 2109.88,
+      "text": "If you put a GPU in the system in a data center, it gets fully utilized immediately."
+    },
+    {
+      "id": 498,
+      "start": 2110.2000000000003,
+      "end": 2115.52,
+      "text": "And so, that's a very good sign, you know, in terms of, you know, demand meeting supply immediately."
+    },
+    {
+      "id": 499,
+      "start": 2116.26,
+      "end": 2117.4,
+      "text": "I mentioned this earlier."
+    },
+    {
+      "id": 500,
+      "start": 2117.6400000000003,
+      "end": 2119.1400000000003,
+      "text": "Ernie's growth should come for these companies."
+    },
+    {
+      "id": 501,
+      "start": 2119.14,
+      "end": 2120.42,
+      "text": "Like, this is our expectation."
+    },
+    {
+      "id": 502,
+      "start": 2121.5,
+      "end": 2126.64,
+      "text": "And if it doesn't, then they will probably be disrupted if they can't change."
+    },
+    {
+      "id": 503,
+      "start": 2126.74,
+      "end": 2131.66,
+      "text": "So, change management, again, is the biggest reason why we see things, you know,"
+    },
+    {
+      "id": 504,
+      "start": 2131.72,
+      "end": 2134.08,
+      "text": "that haven't sort of dramatically shifted yet."
+    },
+    {
+      "id": 505,
+      "start": 2135.44,
+      "end": 2138.7999999999997,
+      "text": "Honestly, to me, it's not the readiness of the technology itself."
+    },
+    {
+      "id": 506,
+      "start": 2138.8,
+      "end": 2144.02,
+      "text": "It's probably, you know, product build-out that needs to get built around the technologies"
+    },
+    {
+      "id": 507,
+      "start": 2144.02,
+      "end": 2147.36,
+      "text": "and then change management and putting it in production."
+    },
+    {
+      "id": 508,
+      "start": 2148.2200000000003,
+      "end": 2152.98,
+      "text": "So, revenue growth has scaled at a staggering clip relative to other categories."
+    },
+    {
+      "id": 509,
+      "start": 2153.42,
+      "end": 2161.1000000000004,
+      "text": "So, this is just, it shows how quickly generative AI in app revenue has grown from 23,"
+    },
+    {
+      "id": 510,
+      "start": 2161.28,
+      "end": 2164.6000000000004,
+      "text": "where it was basically, you know, you can barely even see it on the page, to now."
+    },
+    {
+      "id": 511,
+      "start": 2164.6,
+      "end": 2171.3199999999997,
+      "text": "And this is a slide that we've showed before, but basically, this compares the clouds,"
+    },
+    {
+      "id": 512,
+      "start": 2172.04,
+      "end": 2178.22,
+      "text": "public software companies, and then how much net new revenue gets added in 2025."
+    },
+    {
+      "id": 513,
+      "start": 2178.86,
+      "end": 2184.64,
+      "text": "So, the far right is what I like to look at, which is public software companies added $46"
+    },
+    {
+      "id": 514,
+      "start": 2184.64,
+      "end": 2187.92,
+      "text": "billion of revenue in 2025."
+    },
+    {
+      "id": 515,
+      "start": 2187.92,
+      "end": 2193.6800000000003,
+      "text": "If you just add up OpenAI and Anthropic on a run rate basis, they added almost half of that."
+    },
+    {
+      "id": 516,
+      "start": 2194.2000000000003,
+      "end": 2197.0,
+      "text": "And I think if you were to do that same comparison for 2026,"
+    },
+    {
+      "id": 517,
+      "start": 2197.78,
+      "end": 2201.84,
+      "text": "all of the entire public software industry, I mean, SAP, this is not just SaaS,"
+    },
+    {
+      "id": 518,
+      "start": 2201.94,
+      "end": 2205.38,
+      "text": "like, including SAP, and older software companies,"
+    },
+    {
+      "id": 519,
+      "start": 2206.16,
+      "end": 2211.44,
+      "text": "I think the AI companies, the model companies, will be something like 75% to 80% as much."
+    },
+    {
+      "id": 520,
+      "start": 2211.66,
+      "end": 2214.02,
+      "text": "So, it's just staggering how quickly that has happened."
+    },
+    {
+      "id": 521,
+      "start": 2214.02,
+      "end": 2217.44,
+      "text": "These are pretty detailed slides, these next couple ones."
+    },
+    {
+      "id": 522,
+      "start": 2218.2599999999998,
+      "end": 2224.06,
+      "text": "These are sort of slides showing what is implicitly expected in AI performance,"
+    },
+    {
+      "id": 523,
+      "start": 2224.06,
+      "end": 2227.64,
+      "text": "based on where stock prices are today in analyst models."
+    },
+    {
+      "id": 524,
+      "start": 2228.08,
+      "end": 2233.0,
+      "text": "So, Goldman Sachs estimates $9 trillion of revenue flowing from the buildout of AI."
+    },
+    {
+      "id": 525,
+      "start": 2233.54,
+      "end": 2236.1,
+      "text": "So, if you assume 20% margins and a 22 times PE,"
+    },
+    {
+      "id": 526,
+      "start": 2236.44,
+      "end": 2240.9,
+      "text": "that translates into $35 trillion of new market cap."
+    },
+    {
+      "id": 527,
+      "start": 2240.9,
+      "end": 2246.62,
+      "text": "There's been about $24 trillion of new market cap that's been pulled forward."
+    },
+    {
+      "id": 528,
+      "start": 2246.92,
+      "end": 2252.14,
+      "text": "Now, we could debate if that's attributable all to AI or otherwise, you know, large tech performance."
+    },
+    {
+      "id": 529,
+      "start": 2252.86,
+      "end": 2256.4,
+      "text": "But there's still a lot of sort of market cap to go get,"
+    },
+    {
+      "id": 530,
+      "start": 2256.88,
+      "end": 2260.4,
+      "text": "where you could have upside if, you know, if those assumptions are right."
+    },
+    {
+      "id": 531,
+      "start": 2260.4,
+      "end": 2268.46,
+      "text": "So, this is another sort of cut or few cuts on trying to address this sort of AI payback question."
+    },
+    {
+      "id": 532,
+      "start": 2268.62,
+      "end": 2275.26,
+      "text": "So, current estimates put cumulative hyperscaler CapEx at a little less than $5 trillion by 2030."
+    },
+    {
+      "id": 533,
+      "start": 2275.62,
+      "end": 2282.7400000000002,
+      "text": "So, if you do napkin math on that to achieve a 10% hurdle rate on that $4.8 trillion or almost $5 trillion of investment,"
+    },
+    {
+      "id": 534,
+      "start": 2283.34,
+      "end": 2286.58,
+      "text": "annual AI revenue would have to hit about $1 trillion by 2030."
+    },
+    {
+      "id": 535,
+      "start": 2286.58,
+      "end": 2294.86,
+      "text": "So, to put that into context, a trillion dollars, that would be about 1% of global GDP to generate a 10% return."
+    },
+    {
+      "id": 536,
+      "start": 2295.64,
+      "end": 2297.02,
+      "text": "It's possible that happens."
+    },
+    {
+      "id": 537,
+      "start": 2297.12,
+      "end": 2299.02,
+      "text": "It's also possible we could fall a little short of that."
+    },
+    {
+      "id": 538,
+      "start": 2299.34,
+      "end": 2301.46,
+      "text": "But I think it's limiting just to look to 2030."
+    },
+    {
+      "id": 539,
+      "start": 2301.72,
+      "end": 2306.74,
+      "text": "I think the payback of this probably happens, you know, over a longer period of time,"
+    },
+    {
+      "id": 540,
+      "start": 2306.98,
+      "end": 2309.36,
+      "text": "like, you know, between 2030 and 2040 as well."
+    },
+    {
+      "id": 541,
+      "start": 2309.36,
+      "end": 2317.52,
+      "text": "But, you know, framing it up, that's about, you know, 1%, you know, 1% GDP to get to the payback number of a 10% hurdle rate."
+    },
+    {
+      "id": 542,
+      "start": 2317.52,
+      "end": 2318.84,
+      "text": "All right."
+    },
+    {
+      "id": 543,
+      "start": 2319.8,
+      "end": 2320.78,
+      "text": "Heard it on the street."
+    },
+    {
+      "id": 544,
+      "start": 2320.98,
+      "end": 2330.18,
+      "text": "What we've started to do is we've sort of built software to track what all of the AI or what all of the public technology companies discuss in their earnings calls"
+    },
+    {
+      "id": 545,
+      "start": 2330.18,
+      "end": 2337.72,
+      "text": "and mentions of AI, how relevant it is to our business at the early stage and, you know, the growth stage."
+    },
+    {
+      "id": 546,
+      "start": 2338.0,
+      "end": 2340.96,
+      "text": "And we package it all up and we share it out to our CEOs."
+    },
+    {
+      "id": 547,
+      "start": 2342.2799999999997,
+      "end": 2350.2799999999997,
+      "text": "So, you know, they can kind of have a simple digestible format of, like, what do I need to know about AI as it relates to the public technology companies?"
+    },
+    {
+      "id": 548,
+      "start": 2350.58,
+      "end": 2352.68,
+      "text": "You know, how does it impact my business, et cetera?"
+    },
+    {
+      "id": 549,
+      "start": 2352.68,
+      "end": 2356.5,
+      "text": "And so we shared a bunch of the, you know, the stuff that we track in here."
+    },
+    {
+      "id": 550,
+      "start": 2357.18,
+      "end": 2357.5,
+      "text": "Awesome."
+    },
+    {
+      "id": 551,
+      "start": 2357.74,
+      "end": 2363.7,
+      "text": "There was one question before we move to the private section, which a lot of folks, of course, on this call care about in this transition here."
+    },
+    {
+      "id": 552,
+      "start": 2363.9199999999996,
+      "end": 2372.52,
+      "text": "But before we get to that, so where are we calibrating to your trillion dollar in AI revenue, you know, thereabouts in 2030?"
+    },
+    {
+      "id": 553,
+      "start": 2372.98,
+      "end": 2376.96,
+      "text": "Where are we today relative to your guesstimate of AI-enabled revenue?"
+    },
+    {
+      "id": 554,
+      "start": 2376.96,
+      "end": 2380.96,
+      "text": "And how far off are we to that trillion dollar number?"
+    },
+    {
+      "id": 555,
+      "start": 2380.96,
+      "end": 2393.44,
+      "text": "We're probably in the, I would probably guess in the 50 billion range."
+    },
+    {
+      "id": 556,
+      "start": 2393.76,
+      "end": 2394.16,
+      "text": "Yep."
+    },
+    {
+      "id": 557,
+      "start": 2394.38,
+      "end": 2395.2400000000002,
+      "text": "Just add it all up."
+    },
+    {
+      "id": 558,
+      "start": 2395.26,
+      "end": 2396.52,
+      "text": "And there's no perfect way to do it."
+    },
+    {
+      "id": 559,
+      "start": 2396.54,
+      "end": 2399.2400000000002,
+      "text": "I mean, I know some of the big inputs to it."
+    },
+    {
+      "id": 560,
+      "start": 2399.28,
+      "end": 2405.6,
+      "text": "The harder stuff to track is, honestly, the big tech companies, like how much real AI revenue do they have."
+    },
+    {
+      "id": 561,
+      "start": 2405.6,
+      "end": 2411.14,
+      "text": "The clouds can kind of, they will from time to time give percentage uplift from AI."
+    },
+    {
+      "id": 562,
+      "start": 2411.2999999999997,
+      "end": 2415.64,
+      "text": "But I think depending on how they want to paint the picture, they can play games with that a little bit."
+    },
+    {
+      "id": 563,
+      "start": 2416.02,
+      "end": 2420.08,
+      "text": "So, you know, I think it's, I think it's, that's a, that's a rough swag."
+    },
+    {
+      "id": 564,
+      "start": 2420.22,
+      "end": 2427.86,
+      "text": "But like, you know, trillion, we're probably at 50, but it's growing, you know, way, way, way faster than 100% year over year."
+    },
+    {
+      "id": 565,
+      "start": 2427.86,
+      "end": 2428.36,
+      "text": "Yep."
+    },
+    {
+      "id": 566,
+      "start": 2428.36,
+      "end": 2437.58,
+      "text": "And then arguably that revenue, I mean, ChatGPT launched three years ago, but substantially most of this traction happened in the last year and a half fish or so."
+    },
+    {
+      "id": 567,
+      "start": 2437.58,
+      "end": 2438.94,
+      "text": "If we're being really generous too."
+    },
+    {
+      "id": 568,
+      "start": 2439.1400000000003,
+      "end": 2440.3,
+      "text": "Is that a fair characterization?"
+    },
+    {
+      "id": 569,
+      "start": 2441.06,
+      "end": 2441.7000000000003,
+      "text": "Yeah, that's right."
+    },
+    {
+      "id": 570,
+      "start": 2441.96,
+      "end": 2442.1,
+      "text": "Yeah."
+    },
+    {
+      "id": 571,
+      "start": 2442.26,
+      "end": 2448.26,
+      "text": "And look, you know, it's not just ChatGPT now on the consumer side, you know, Google has a business, XAI has a business."
+    },
+    {
+      "id": 572,
+      "start": 2448.26,
+      "end": 2456.48,
+      "text": "And then, you know, on the B2B side, you know, not only do the big model companies all have large API businesses, but the clouds have it too."
+    },
+    {
+      "id": 573,
+      "start": 2457.0600000000004,
+      "end": 2461.7000000000003,
+      "text": "And so a lot of the, you know, a lot of the sales that are model sales are also flowing through the clouds."
+    },
+    {
+      "id": 574,
+      "start": 2462.2200000000003,
+      "end": 2462.32,
+      "text": "Yep."
+    },
+    {
+      "id": 575,
+      "start": 2462.6000000000004,
+      "end": 2462.8,
+      "text": "Yep."
+    },
+    {
+      "id": 576,
+      "start": 2462.84,
+      "end": 2462.94,
+      "text": "Yep."
+    },
+    {
+      "id": 577,
+      "start": 2462.94,
+      "end": 2463.0400000000004,
+      "text": "Yep."
+    },
+    {
+      "id": 578,
+      "start": 2463.36,
+      "end": 2463.88,
+      "text": "Okay, cool."
+    },
+    {
+      "id": 579,
+      "start": 2463.94,
+      "end": 2468.36,
+      "text": "We have some questions on the private company side, but I'll let you get through this section and then I'll tee you up for it."
+    },
+    {
+      "id": 580,
+      "start": 2468.7200000000003,
+      "end": 2471.82,
+      "text": "Well, you, I, I'm happy to go into questions if you want on it."
+    },
+    {
+      "id": 581,
+      "start": 2471.82,
+      "end": 2483.1800000000003,
+      "text": "I mean, this, a lot of the stuff that we've talked about, you know, the big themes for me on the private market side, you know, companies are obviously staying private longer, but this is such a real asset class now."
+    },
+    {
+      "id": 582,
+      "start": 2483.1800000000003,
+      "end": 2487.6000000000004,
+      "text": "Over the last 20 years, the number of public companies has been cut in half."
+    },
+    {
+      "id": 583,
+      "start": 2489.02,
+      "end": 2496.34,
+      "text": "You know, the, the vast majority of companies that are a hundred million dollar plus revenue companies are private, something like 86%."
+    },
+    {
+      "id": 584,
+      "start": 2496.34,
+      "end": 2499.92,
+      "text": "So, you know, that's, that's a major shift."
+    },
+    {
+      "id": 585,
+      "start": 2499.92,
+      "end": 2503.04,
+      "text": "Um, we could go, you could skip a couple of slides forward."
+    },
+    {
+      "id": 586,
+      "start": 2503.6,
+      "end": 2513.82,
+      "text": "Uh, basically I'll talk a little bit about power laws because that's, I think that's interesting and maybe some new stuff that we haven't talked about as much, but value very much concentrates in the outlier companies."
+    },
+    {
+      "id": 587,
+      "start": 2514.14,
+      "end": 2520.98,
+      "text": "So the collective valuation of North American and European unicorns is about five and a half trillion dollars."
+    },
+    {
+      "id": 588,
+      "start": 2521.2400000000002,
+      "end": 2527.46,
+      "text": "The 10 largest ones, if you just take those, um, comprise almost 40% of the entire value."
+    },
+    {
+      "id": 589,
+      "start": 2527.46,
+      "end": 2531.36,
+      "text": "So, so, and that's actually doubled since 2020."
+    },
+    {
+      "id": 590,
+      "start": 2531.36,
+      "end": 2537.86,
+      "text": "So sort of value, you know, sort of value is being, uh, concentrated in the biggest and best winners."
+    },
+    {
+      "id": 591,
+      "start": 2538.28,
+      "end": 2540.38,
+      "text": "I'm trying to count real time."
+    },
+    {
+      "id": 592,
+      "start": 2540.5,
+      "end": 2546.12,
+      "text": "We have four, five, six, seven of the 10, our portfolio companies of that 10."
+    },
+    {
+      "id": 593,
+      "start": 2546.88,
+      "end": 2551.7400000000002,
+      "text": "Um, so, you know, we, we've got a reasonable amount of coverage on that."
+    },
+    {
+      "id": 594,
+      "start": 2551.74,
+      "end": 2555.12,
+      "text": "Power laws are happening in the public markets too."
+    },
+    {
+      "id": 595,
+      "start": 2555.3199999999997,
+      "end": 2558.16,
+      "text": "So large cap has tripled since 2019."
+    },
+    {
+      "id": 596,
+      "start": 2558.16,
+      "end": 2562.54,
+      "text": "So what, what constitutes a large cap company has actually tripled since 2019."
+    },
+    {
+      "id": 597,
+      "start": 2563.2,
+      "end": 2566.5,
+      "text": "And I think the chart on the right side is super interesting."
+    },
+    {
+      "id": 598,
+      "start": 2566.74,
+      "end": 2568.8399999999997,
+      "text": "This was new data analysis that we had done."
+    },
+    {
+      "id": 599,
+      "start": 2569.4799999999996,
+      "end": 2576.52,
+      "text": "Um, if you look at the lifespan of an average company on the S and P 500, that's what that chart shows."
+    },
+    {
+      "id": 600,
+      "start": 2576.52,
+      "end": 2581.04,
+      "text": "That's what the numbers represent the light, like once a company is on the S and P 500, how long is it on there?"
+    },
+    {
+      "id": 601,
+      "start": 2581.74,
+      "end": 2588.58,
+      "text": "This is on average is actually, if you look over the last 50 years, that has declined by 40%."
+    },
+    {
+      "id": 602,
+      "start": 2588.58,
+      "end": 2591.96,
+      "text": "The amount of time it stays as part of the S and P 500."
+    },
+    {
+      "id": 603,
+      "start": 2592.12,
+      "end": 2597.66,
+      "text": "So disruption to companies happens faster and faster and faster, which I think is a very interesting dynamic."
+    },
+    {
+      "id": 604,
+      "start": 2597.66,
+      "end": 2604.44,
+      "text": "And, and sort of matches what we're seeing, you know, just in terms of like speed of change in, in, in the markets driven by technology."
+    },
+    {
+      "id": 605,
+      "start": 2604.7799999999997,
+      "end": 2607.46,
+      "text": "So we always like to talk about power laws in our business too."
+    },
+    {
+      "id": 606,
+      "start": 2607.7799999999997,
+      "end": 2609.3199999999997,
+      "text": "I didn't choose the title of this slide."
+    },
+    {
+      "id": 607,
+      "start": 2609.3199999999997,
+      "end": 2614.2599999999998,
+      "text": "Uh, I recognize all of the, you know, questions and concerns about it."
+    },
+    {
+      "id": 608,
+      "start": 2614.68,
+      "end": 2621.16,
+      "text": "Um, so the, the volatility laundering thing is, is a, is a big debate in our circles too."
+    },
+    {
+      "id": 609,
+      "start": 2621.66,
+      "end": 2626.8399999999997,
+      "text": "Um, mostly around founders who are trying to debate the merits of the private markets and the public markets."
+    },
+    {
+      "id": 610,
+      "start": 2626.84,
+      "end": 2637.98,
+      "text": "And, you know, the Collisons did an interview where, I think maybe it was John, uh, did an interview where he talked about, you know, managing your stock price and avoiding volatility."
+    },
+    {
+      "id": 611,
+      "start": 2637.98,
+      "end": 2642.1000000000004,
+      "text": "And you can kind of orderly fashion, bring your stock price up over time."
+    },
+    {
+      "id": 612,
+      "start": 2642.56,
+      "end": 2649.7400000000002,
+      "text": "And that makes it easier to retain employees, hire employees, manage morale, uh, et cetera, et cetera."
+    },
+    {
+      "id": 613,
+      "start": 2650.28,
+      "end": 2652.28,
+      "text": "Um, and so I get the merits of that."
+    },
+    {
+      "id": 614,
+      "start": 2652.28,
+      "end": 2656.28,
+      "text": "I also think there are really, really strong merits of being a public company as well."
+    },
+    {
+      "id": 615,
+      "start": 2656.84,
+      "end": 2665.7200000000003,
+      "text": "I think we're going to have a really, really interesting 18 months where we're going to have some of the big kind of private for a very long time companies that go public."
+    },
+    {
+      "id": 616,
+      "start": 2666.26,
+      "end": 2668.9,
+      "text": "Um, and that's a good thing in my opinion too."
+    },
+    {
+      "id": 617,
+      "start": 2669.28,
+      "end": 2678.1600000000003,
+      "text": "Um, some of the stuff that we show in this chart is just volatility and the observation that over time, volatility has gotten a little bit more extreme in the markets."
+    },
+    {
+      "id": 618,
+      "start": 2678.98,
+      "end": 2681.44,
+      "text": "To me, this is a little bit cycle driven too."
+    },
+    {
+      "id": 619,
+      "start": 2681.44,
+      "end": 2683.66,
+      "text": "I know it's short, short duration is sort of what we're measuring."
+    },
+    {
+      "id": 620,
+      "start": 2684.14,
+      "end": 2689.2000000000003,
+      "text": "Um, but there's merits to both companies can get much larger in the private side."
+    },
+    {
+      "id": 621,
+      "start": 2689.2000000000003,
+      "end": 2690.32,
+      "text": "We have embraced that new reality."
+    },
+    {
+      "id": 622,
+      "start": 2690.32,
+      "end": 2697.28,
+      "text": "I think it's, it's been a big benefit to our business in terms of getting content, getting to continue to invest in these companies over time."
+    },
+    {
+      "id": 623,
+      "start": 2697.28,
+      "end": 2704.6600000000003,
+      "text": "Uh, but obviously, you know, there's, there's a path of, of being a public company and getting liquidity, which we care a lot about too."
+    },
+    {
+      "id": 624,
+      "start": 2705.96,
+      "end": 2706.36,
+      "text": "Awesome."
+    },
+    {
+      "id": 625,
+      "start": 2706.36,
+      "end": 2709.34,
+      "text": "That note, um, there were two questions."
+    },
+    {
+      "id": 626,
+      "start": 2709.5600000000004,
+      "end": 2710.84,
+      "text": "Uh, I will queue up for you here."
+    },
+    {
+      "id": 627,
+      "start": 2711.1000000000004,
+      "end": 2712.1800000000003,
+      "text": "Uh, one on Databricks."
+    },
+    {
+      "id": 628,
+      "start": 2712.34,
+      "end": 2718.76,
+      "text": "Can you talk about their transition, uh, from being a pre AI company now to a fully embedded AI company and what that's been like?"
+    },
+    {
+      "id": 629,
+      "start": 2718.76,
+      "end": 2719.76,
+      "text": "Yeah."
+    },
+    {
+      "id": 630,
+      "start": 2719.76,
+      "end": 2731.48,
+      "text": "Um, first of all, I think you need to, you know, I mentioned Toby, like the reason Shopify has embraced it is because Toby has led from the top and he runs the business, you know, with AI at the center."
+    },
+    {
+      "id": 631,
+      "start": 2731.48,
+      "end": 2737.4,
+      "text": "And, and he, he sort of performance manages everyone, uh, to, you know, to make sure that they do that."
+    },
+    {
+      "id": 632,
+      "start": 2737.7400000000002,
+      "end": 2738.44,
+      "text": "Ali is the same."
+    },
+    {
+      "id": 633,
+      "start": 2739.0600000000004,
+      "end": 2743.5800000000004,
+      "text": "Ali is this unique blend of, um, sort of commercial kind of terminator."
+    },
+    {
+      "id": 634,
+      "start": 2743.6200000000003,
+      "end": 2744.1600000000003,
+      "text": "I talk about him."
+    },
+    {
+      "id": 635,
+      "start": 2744.2000000000003,
+      "end": 2745.34,
+      "text": "He's called him the technical terminator."
+    },
+    {
+      "id": 636,
+      "start": 2745.34,
+      "end": 2749.8,
+      "text": "You need to have a commercial instinct and understand the importance of the value creation opportunity in AI."
+    },
+    {
+      "id": 637,
+      "start": 2750.44,
+      "end": 2754.08,
+      "text": "And then you need to actually be deep enough in the technology to know what to build."
+    },
+    {
+      "id": 638,
+      "start": 2754.6800000000003,
+      "end": 2769.8,
+      "text": "And so it just so happens that their, um, their sort of cloud data warehouse, or they call it the data lake, um, is actually a great way to have your data in a place to run AI workloads on top of it."
+    },
+    {
+      "id": 639,
+      "start": 2770.1400000000003,
+      "end": 2773.1000000000004,
+      "text": "So, you know, that was sort of a good place to be for them."
+    },
+    {
+      "id": 640,
+      "start": 2773.1,
+      "end": 2776.9,
+      "text": "And then they very aggressively iterated on new AI products."
+    },
+    {
+      "id": 641,
+      "start": 2777.0,
+      "end": 2782.06,
+      "text": "They have this, uh, new product called agent bricks, which we're super, super excited about."
+    },
+    {
+      "id": 642,
+      "start": 2782.14,
+      "end": 2784.16,
+      "text": "We think it's going to be really big and transformative for them."
+    },
+    {
+      "id": 643,
+      "start": 2784.6,
+      "end": 2787.5,
+      "text": "So, um, I would say that's a piece of it."
+    },
+    {
+      "id": 644,
+      "start": 2787.8399999999997,
+      "end": 2792.4,
+      "text": "And then they have the big AI native companies, all its customers."
+    },
+    {
+      "id": 645,
+      "start": 2792.52,
+      "end": 2795.7599999999998,
+      "text": "And so, you know, they have the technology, they have the low cost technology."
+    },
+    {
+      "id": 646,
+      "start": 2795.76,
+      "end": 2801.96,
+      "text": "Um, and so, you know, a big thing that we look for when we're making investments in companies is who are their customers."
+    },
+    {
+      "id": 647,
+      "start": 2802.2000000000003,
+      "end": 2808.82,
+      "text": "And I would far prefer the customers of our portfolio companies to be the modern thinking ones."
+    },
+    {
+      "id": 648,
+      "start": 2808.96,
+      "end": 2810.86,
+      "text": "You know, the door dashes of the world."
+    },
+    {
+      "id": 649,
+      "start": 2811.32,
+      "end": 2814.4,
+      "text": "Um, you know, the Instacarts of the world, the Ubers of the world."
+    },
+    {
+      "id": 650,
+      "start": 2814.4,
+      "end": 2823.1800000000003,
+      "text": "Um, and so, you know, the very, very old school stodgy companies, because that means that their technology is evaluated by smart technologists and they pick it."
+    },
+    {
+      "id": 651,
+      "start": 2823.26,
+      "end": 2826.04,
+      "text": "And so the cutting edge AI companies are all building on top of data bricks."
+    },
+    {
+      "id": 652,
+      "start": 2826.04,
+      "end": 2829.7200000000003,
+      "text": "Uh, and so, you know, they have the chance to grow with them as they scale."
+    },
+    {
+      "id": 653,
+      "start": 2829.7200000000003,
+      "end": 2833.7200000000003,
+      "text": "Uh, but it's also a really good, you know, validator that they have the right technology."
+    },
+    {
+      "id": 654,
+      "start": 2834.34,
+      "end": 2835.54,
+      "text": "We'll close out here."
+    },
+    {
+      "id": 655,
+      "start": 2835.8,
+      "end": 2837.38,
+      "text": "Thank you, David, for taking us through that."
+    },
+    {
+      "id": 656,
+      "start": 2837.38,
+      "end": 2837.56,
+      "text": "Thank you."
+    },
+    {
+      "id": 657,
+      "start": 2844.4,
+      "end": 2874.38,
+      "text": "Thank you."
+    }
+  ]
+}

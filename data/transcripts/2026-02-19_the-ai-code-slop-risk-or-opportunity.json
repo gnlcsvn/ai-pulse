@@ -1,0 +1,2902 @@
+{
+  "metadata": {
+    "video_id": "efUt__S_AjY",
+    "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+    "title": "The AI Code Slop: Risk or Opportunity?",
+    "channel": "No Priors",
+    "upload_date": "2026-02-19",
+    "duration": "40m",
+    "transcribed_date": "2026-02-24",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "The anxiety that I see is if you can generate an enormous amount of code and no one is reading it, you don't know the quality of the code. Nobody deeply understands the code base and there's more fragility, right? It's like the slop problem, vibe coding slop in my actual production code base. But I think the broader problem that new company could go solve is like nobody knows how to manage that issue of human attention to engineering. I think it's like open season around this really, really big problem. Hi, listeners. Welcome back to No Priors. Markets are melting down about the end of software. Today, Alad and I are hanging out and asking, is SaaS actually dying or are people just projecting five-person startup behavior onto the Fortune 100? We'll talk about what's real, incredible revenue growth, collapsing token costs, and faster turnover of vendors. What's just hype and how to size the opportunity. We also discussed the changing bottlenecks in building a software company and some parallels to the internet and cloud errors. Let's get into it. It's good to hang. The market is freaking out around us. So in all that noise, what are you thinking about? Oh, you mean the SaaS-pocalypse? The SaaS-pocalypse. The end of software. Yeah. Yeah, that's kind of interesting. I feel like there's some meta trends that people are getting right and then a lot of specific companies that people are getting wrong. And so, you know, I think, I guess the basic premise is that SaaS software and proceed software will no longer exist and everything is going to be replaced by AI and everything's just going to get vibe-coded. So why would you pay X dollars for a Salesforce instance when you can just vibe-coded internally? And all that stuff strikes me as incredibly short-sighted in the near term. Over the long run, who knows what happens in 20 years or whatever, but there's lots and lots of companies that are quite durable. I think an interesting example of that where I'm still a shareholder is Sumsara, where, you know, nobody's going to vibe-code a fleet management app that will then be distributed through like what? Vibe sales? Vibe enterprise sales or something. And you're going to build a vibe like in-cab camera sensor that everybody will install in these fleets. And then you're going to support them using vibe agents or something. It's just, it's just very overstated. So I feel like it's one of those things where there's a massive market correction around something that in the long run has a lot of truth to it. And maybe in the short run for certain types of companies has a lot of truth, right? Ultimately, I think that Gagana and Sierra are examples of companies where you're moving from per-seat software to basically utilization-based customer support related agents, right? That is a real shift that may impact some of the prior wave of sort of per-seat software companies, but this isn't going to be every single SaaS company. So I view it as very short-term overstated in the long run. Who knows? How about you? How do you think about it? I mean, I think the idea of Vibe enterprise sales is hilarious because we have portfolio companies with, you know, hundreds of millions of dollars of revenue who are very committed to as much token usage as we can, as few great people as we can have. And today, you know, we have less than 50 engineers and they went from zero to like, let's say close to a hundred salespeople very quickly. Right. And so it's just a view from the growing AI natives that like Vibe sales is not happening, right? Like, oh yeah. Vibe sales is definitely never, it's not happening anytime soon. And so it's just, again, all this, it just seems like a very strong market reaction and market correction. And it seems like it's very overstated, especially relative to a handful of companies that you're just like, why? Like how will you displace this company with coding and, you know, in the fleet example, you're not going to have the fleet managers like writing their own apps to do all this giant surface area of stuff. It just doesn't, it's just not going to happen in the short run. I think a lot of it is actually driven by, um, some assumptions that, you know, persona close to my heart, but engineers and builders are making about like the rest of the world. Right. Because there's this, there's this implied belief that like everyone will want to make their own software. And I think it's like, software is eating the world. Is that what you're trying to say? I am not. I think like we're, we're still time to build Sarah. Time to build. I don't think that everybody wants to make their own software. I think some set of people will want to make it and others will want other people to do it for them. And like, like, sometimes like what's a, what's a, like, if you think about a good example of this engineers sometimes have a, like my personal labor focused picture of the world. So if you like, should you build JIRA in most engineering organizations? Like, is that a, Yeah, it's not, it's not the best use of your time if you're focused on product. I mean, the other piece of it is, um, the examples that people use, oh, my five person startup built her own CRM, vibe coded it, blah, blah, blah. Yeah, of course. I mean, before that, you just did it all on a spreadsheet and that was fine too. You'd have to vibe code anything. And so for very limited niche applications where it's a technical team doing something really quick, because it's useful and custom and bespoke amazing. Of course that's going to happen. Does that mean that a fortune 100 company is going to displace their CRM with some internal thing they got by coded over the weekend? Probably not. And so I think it's also extrapolating or projecting behavior of very small technical startups onto the world's biggest enterprises. And that's the second thing people are getting wrong is they're misunderstanding the, the moment. And I think the internal software stuff that people are building is amazing, right? It's not like, it isn't impressive that you can do that. It's incredibly impressive. It's just extrapolating that behavior so aggressively, so early, just doesn't make that much sense right now. I think to your point of like the five person company versus the very large enterprise, if you ask that same engineer who's like pissed about paying $10 a seat for Jira, like if you asked him or her, like, do you want to do the change management in Bank of America of getting everybody to do this the way you think is right? And then dealing with all the security considerations and managing other people's opinions about potential changes to the story management workflow and then maintaining the system, the answer is like, probably not, you know? Yeah. And so I think it's, it is focused on, I actually think the idea that actual production of code becomes not the bottleneck for, if you know what the spec is, not the bottleneck is like incredibly interesting, but I, I do think it overstates like how much of the overall software vendor problem that is. Yeah. I think people also misunderstand how much demand exists for software products and by software products, I mean, everything, I mean, AI, I mean, is software eating the world? You know, different tooling. Is AI eating the world? AI is, AI is eating the world. So I think that, that is actually true. And I think Mark's post on that was really, um, thoughtful and poor thinking on it all. I think that fundamentally, um, you know, there's, there's so much demand for software and there's so little supply of engineering in reality relative to that demand that as you add this enormous boost of productivity to software engineers, um, it just gets soaked up, right? Because there's so much more stuff to build and to do. And I don't see teams, you know, startup teams continue to hire engineers for a reason. You know, I think the nature of the work is shifting. And I think some people are going to have real issues with that shift because fundamentally you're shifting from, you know, in some cases, you know, there's the, there's a few different types of, of mindsets around engineers. And one of the mindsets is the really bespoke craftsmanship. You know, I'm going to make, I'm going to do the aesthetics of the thing that I'm doing really well. And I care about the code quality and, you know, and, um, the, the artisanal version of what I'm doing. And then there's people who write code because it's a utility that allows them to build product. There's some people who really like aspects of the math or, you know, there's lots of different motivators for people to write code. And I think a subset of those people are going to be less happy in the new world. It's kind of like the indie game developers who make these handcrafted individual games for themselves and then for their friends. And then they'd launch them on the Apple store or whatever, um, versus the people who'd work at EA and they each had their own version of craftsmanship, but it was just a different type of thing. I think we're going to see a lot of these really great engineers who care about the, the bespoke craftsmanship of everything they do. They're going to be unhappy working at larger companies as these coding tools get even more accelerant because it goes against their approach of, of how they like working and what they enjoy out of the work. And for other people who are really focused on the utility of just building product, it's going to be freeing in some ways. So I think there's also like a variance in terms of the reactions to this stuff, depending on the type of, uh, utility function that you have relative to the work you're doing. Yeah. I think related to that, the, um, one thing I've seen is that if you have an engineering identity, that's based on that, like a value-based ranking of difficulty or skill, like the, the specific types of engineering that are considered, you know, impressive or high status can actually be like less hard for agents. Right. So I think there's an enjoyability like element and then an identity element. Um, and actually one of your founders, um, from applied intuition wrote a good blog post where there is a, um, an essay where he says like, keep your identity small. I think that's like wonderful overall advice for this period of time. Right. You're like more adaptable if it's true. I see. But I think your overall view of there are a lot of unsolved problems and like making an abundance of software can better address that. I, I strongly agree with. And one thing that, um, actually is near and dear to the audience that is really unsolved is like, we've broadly been thinking about what happens if you have abundant code generation and in like, I think in all of our teams, agent first engineering management and thinking about code quality is an unsolved problem. Yeah. And we'll get there. It'll be your teamwork and we'll get there. What do you view as the major problems? Um, well, the, the anxiety that I see, um, is like, if you can generate an enormous amount of code and no one is reading it, you don't know the quality of the code. Nobody deeply understands the code base and there's more fragility, right? It's like the slot problem, but instead of it being like vibe coding, slop for random websites, for non-technical people, it's vibe coding, slop in my actual production code base for every lazy engineer, which is every engineer. I think people are like looking at some problems of actually do you think ticketing, ticketing systems are, are like at risk. But I think the broader problem that Jira could go solve or new company goods could go solve is like, nobody knows how to manage that issue of human attention to engineering. And there's a bunch of ideas like testing and like, you know, smart review, just let agents do it, formal verification. I think it's like open season around this really, really big problem. I think the one other thing people are bringing up that I don't quite buy is that, um, agents are already making like big decisions for vendor purchases and things like that. I think somebody near and dear to your heart posted about that. And, um, uh, I think that, uh, there the, the statement was, oh, agents are increasingly making decisions about what software people are using. And really what that is, is while you have a partnership, your cognition or your clod or whoever, and you have a partnership and as part of that partnership, you spin up a super base instance and you use very specific tools because you have a partnership to do that. And that's always happened, right? If you're using air table and they're on AWS, like you're spinning up in AWS instance without knowing about it right in the background. So I also think that whole notion that in the short run, agents were making these choices is also overstated. I think in the long run, it's true, but then you get into all sorts of agent and genic commerce decisions and do they understand your persona and what you actually want and need and all this stuff. So I just feel like we're in a little bit of a noisy moment where people are kind of potentially, and I'm somebody who's very pro AI progress and a believer in all the changes that have happened and are coming. But I think we're having a lot of overstatement now of what's actually happening in the world. And part of that is assess apocalypse and this giant recollection. And part of it is, um, you know, extrapolating that the future is here already when in many cases it's to say we did a BDDL or whatever. So I just think people kind of need to, or, you know, the mold book stuff where you're like, yeah, a lot of that seems human generated, you know, in terms of the emergent behavior. So I don't know, we're, we're, we're in this odd moment where I feel like this was the month of hype in a way that we haven't seen in a while where a bunch of stuff got overstated in all sorts of ways and people believed it. And by people, I mean like mainstream media and others are like, oh my gosh, look at this behavior of, you know, these agents trying to cut out humans from their forum where it's Reddit like involved and you're like, okay, like maybe you should see where the posts are coming from in some cases. And it's exciting by the way, don't get me wrong. I think it was very exciting behavior that's happening. I just think, you know, a subset of it was planted for marketing purposes. Yes, certainly. I think people are also figuring out like there, there are things that tap into, um, deep emotional reactions that people have to their view of like things that feel very human, right. Um, from a marketing perspective. And like, that's clearly one of the things that's happened around them, the Malt Book stuff. I also think that like, one of the things I actually think happened was like the idea that demos are different from the reality of the full software that you need, like has not quite arrived in many of the equity research people's desks. Right. And so like, I'm like, guys, like your whole job was to think about these, like the structural advantage of your businesses and what is going to compound and the theory of competitive advantage didn't just like poof disappear. Right. Like software markets have been a fight about how to do things and how to distribute to customers as well as a battle of how to produce code for a long time. So I, um, I feel like that has been missed a little bit, but I, I do think long run the, the fundamental thing that the bottleneck on production of, you know, expensive to produce software, uh, being loosened is really cool. Right. It just means like, if you think of, there's a lot of embedded points of view in software on how to solve a problem, right. You know, if it's engineering or, uh, enterprise sales, not a very software problem or, or general productivity, right? Like notion is a way to do things. It's a building block system, but it's definitely got a point of view. And so if you reduce the cost to express that point of view in software, I think it's cool that we're going to like see a lot more ideas. That's amazing. And again, I think it's a revolution. So don't get me wrong. And I'm, I've been involved with coding companies really early on and, um, I'm very excited about everything that's happening and I think it's transformational and I think it's revolutionary and I think it's really important. I just think we had a month of kind of hype. Okay. So if we ignore the noise of the last month where people got a little like frantic, what do you think is a signal that people are not paying attention to enough in such a noisy landscape? You were telling me that like growth, growth pace is like of the, of the biggest companies is, is still under underpriced. Yeah. One thing that, um, Jared on my team put together that I thought was super interesting was, um, he pulled data from, uh, Capital IQ where they just like predicted some projections on open AI and Anthropic and they looked at, um, and then he sort of graphed out and maybe we can share these graphs as part of this episode. He graphed out, um, how long it took different companies in years to go from a billion in revenue to $10 billion of revenue. So for example, ADP took 20 something years to grow from a billion to 10 billion in revenue. And then the next wave of companies like Adobe took about 20 years to go from one to 10. And then you fast forward in time and you have things like Salesforce or SAPs for an even more modern cohort. And they took eight or nine years. Microsoft took, you know, seven ish, eight years, Google and Meta and AWS took a couple of years, you know, three, four or five years, but the AI labs did it in roughly a year. Right. And then if you look at the projections, It's a wild chart. Yeah. It's a wild chart. And so we should, we should add it. Right. But you just see it go from like 20 something years with Adobe to like a year for the AI labs. And then if you look at the projections that are sort of the public projections, they aren't necessarily the company driven data, but the public projections on where the labs will end up or how long it'll take them to go from 10 to a hundred billion in revenue for Microsoft, that was something like 27 years for Google. It was over a decade, same with AWS, roughly the same for Meta. And then for the AI labs, it's like three, four or five years, you know, it's very fast. And so we're seeing the fastest time to real massive revenue that we've ever seen in the history of software. It's just these insane curves. And again, we should post them. Part of that I think is just the internet has created this global pool of liquidity and then suddenly every customer's online, it's much easier to distribute than it's ever been. So that's one piece of it. There's more people with access, there's higher GDP, there's lots of drivers for that. But then simultaneously, you're just creating enormous business and user value at massive scale simultaneously. And these capabilities are so rich that you're seeing this take off in terms of revenue. And so it's, it's, it's unprecedented. It's really impressive. And I think people are ignoring the revenue and usage side of the equation. The other thing that we actually put together was the collapse in token pricing for equivalent models. I think this was done initially by David who worked for me and then Shran. And so for example, we looked at the cost of a GPT-4 level or equivalent model. We looked at that a year or two ago. And basically in 21 months, it went from like 37 bucks for a million tokens to 25 cents. And so, you know, pricing dropped by 150 X in 21 months. And then we tried to accelerate that curve, but obviously people aren't really using GPT-4 level models anymore, even though, you know, they're two, three years old. And so we looked at O1 equivalent models and the cost of a million tokens on an O1 equivalent model in December of 24 was about 26 bucks. And then in November of 25, it was 30 cents. So we saw another 88X drop, not 88% or 88, you know, 88, 88 times cheaper in 11 months for that next generation of models. So we're having pricing collapse on the token side while we're having revenue ramp insanely on the usage side. And so that's insane. If you think about that, just this pace of shift of cost of revenue, of utilization of everything. And this is back to like, I'm incredibly bullish on everything that's happening. And so it's more just modulating it against this, you know, this odd over extrapolation of what's actually happening or actual capabilities or, you know, what these things are really doing. Yeah. I think one thing that people miss in the like bear case and all this stuff is, as you said, like revenue numbers, which is hard to miss. But, but it, and then just like actual like token inference count, right? If you look at one, if you look, where's the inference happening, it's either happening in inference clouds, right? Base 10, mold of fireworks, or it's happening at the, like the very large model providers. And it's happening in a lot of spraying, which is still much more, two magnitudes more efficient. In humans, in humanity in general. Right. In humanity in general. Yeah. Yeah, that's true. In terms of power utilization, human brain is really impressive. What is it like tens of watts, 20 watts, how much, like what's the power utilization of a human brain? Let's look at it right now. It is, it is two magnitudes. It's like 10 or 20 watts. I thought. I think to the point of like real data, the inference clouds are growing 1000x in terms of consumption, right? And then they're getting more efficient. So revenue grows at some lower rate than that, but it's wild. It's 12 to 20 watts of power, which is comparable to a dim light bulb or a computer monitor and sleep mode. It's not like a computer monitor. When your monitor is sleeping, that's the amount of energy that your brain is consuming as it does all these crazy calculations. It's one blade of one GPU fan in one of these data centers. Yeah, it's nuts. I feel like Noam Shazira's brain though is probably consuming like 1000 watts. Well, I think that's great. I think like we have a lot of efficiency work to go. I kind of meant the opposite. You know, he's so smart, he's probably consuming more energy, but to your point, maybe he's more energy efficient. Oh, maybe he's at like one watt and I'm like at 1000 watts. I meant for the computer. We're all stuck without the, you know, brain, computer interface work improving. But I'm just interested in how much efficiency we can get out of the models. Yeah, it's probably obviously just based on the human brain, there's a lot of room. You know, one thing I do think about, I was talking to a friend who leads a bunch of purchasing at a traditional large enterprise this morning. And he was like, Oh, well, the like, incumbents can this whole thing is overstated. We're so committed to all these big enterprise vendors, whatever. A lot of things that we've been talking about here. And his other view was that the incumbents have the money to buy and go like fight back on these dimensions. I one thing I immediately thought of was just like, like, reflexivity in markets is such a good concept. And here it's like, well, they do unless they don't have the market cap to do it. Right? With these companies that to your point, you know, first the labs, but then a series of the very best application companies, if they're growing to a billion of run rate rapidly, and valuations grow in concert with that, then I do think there's a there's a question on whether or not you you have the currency to compete to. Yeah, I'm already seeing that in the SF housing market, right? Where SF housing is starting to rise again, in part due to, I'm assuming outcomes from the lab tenders and things like that. Because suddenly you have these companies that are worth hundreds of billions of dollars out of nowhere in a few years. And as employees are selling into tenders, there's this new sort of influx of cash in the ecosystem. So and there's also Nvidia going from, you know, tens of billions or 100 billion to trillions in market cap, like there's just this shift happening right now. In terms of scale, there's an interesting question actually, where this is one other thing that we looked at as a team, and maybe I should just publish all these slides. We basically asked, what proportion of GDP is tech? Right? And just the US economy at least. And how has that grown over time? And also, like, what does that meant in terms of market caps, right? And so if you look back to 2005, Google is worth 100 billion dollars and Exxon was the world's most valuable company at 400 billion dollars market cap. And then it took until 2018, Apple was the first company with a trillion dollar market cap, right? Ever. And everybody was shocked that anything could get to a trillion. And at the time, tech represented about 30% of the S&P. Before that, it was say, you know, 10%-ish back in 2005. And now the top eight tech companies are about 23 trillion of market cap. And they make up well over 50% of the S&P in terms of value. At the same time, they went from basically 4% of GDP in 2005 to about 12% of GDP today. And so then the question is, how, what proportion of GDP eventually just becomes tech? And AI is a driver of this, right? Because you're taking services and you're taking certain types of jobs and you're augmenting them with AI and you're converting them into effectively software spend or tech spend. And you can make different assumptions about growth rates. And then based on that, you know, you can end up with anywhere between 15-20% of GDP to, you know, 30% of GDP in 2035. But that means that the market caps of these tech companies get even bigger. You know, it's kind of a metric for how big can these things actually get as they sort of aggregate up portions of GDP. So I think that's the other lens that people aren't really thinking enough about in terms of what are some of these terminal values 10 years from now? Like how much more can things grow? And what are your assumptions around that basis for growth? You know, and this is back to like that ramp up into revenue. So it's a very interesting kind of set of questions that we've been asking on my side, just in terms of like these meta things, you know, like what are the bigger trends that people may not be paying attention to that may be super interesting? Okay, well, then I have a set of structural questions about how to invest based on this for you because, you know, asking for a friend, my funds are small. I think there's like good implications and bad implications based on what you said. Like one might be if everything's going to get a lot bigger, a billion dollars is no longer late stage, right? That's like, just, you know, take a marker on valuation that it's like the beginning. Well, even now it's not late stage because people are raising at a billion dollar valuation with two million in revenue. Right? Well, you can decide that- I know of at least one company like that. You can decide whether that's like a smart idea or not, right? But, but the point we would absolutely agree on, I think is just, you know, the runway for some of these foundational companies is just much larger, right? Than the conventional wisdom. I think we've already believed that though. Like I think everybody shifted. I remember I wrote a blog post like 15 years ago or something, 10 years ago, that basically talked about how hard it is to get to a sustainable $5 billion market cap. Because at the time, there's a small, basically once every couple years, a company would actually get to that and stick with it. Because this is back to, you know, 10, 15 years ago, the biggest market caps were in the hundreds of billions at most and low hundreds of billions, right? And then we saw everything grow 10x over the last 15 years, right? You suddenly have trillion dollar market caps. And that means there's a lot more companies also worth a hundred billion than there used to be in tech. So I think in general, we've seen these shifts happening already. And the reason that we were asking the question internally about how much bigger can these things get is because that has further implications. How many more trillion dollar companies can be supported? Is it two? Is it three? Is it a dozen? Is it 50? You know, and relatedly, like if everything gets pulled up, how do you think about how you invest it with a lifetime company in general? Or how do you think about that as a founder in terms of the end state? And then also, there's a related question of what's the actual fail rate of startups? Should the fail rate go up or down in that world? And you could argue it either way. You could argue that the dollar rates should go up because more and more value is getting aggregated into platforms like traditionally has happened, right? Every single platform shift has seen a commiserate forward integration of that platform into the most important vertical application. So as an example, you know, Microsoft, very famously on its OS, forward integrated into the Office suite, Excel and PowerPoint and Word, right? They killed or bought companies in those market segments. And that became Office. And then they redistributed it alongside the OS. Or Google forwarded, degraded into vertical searches. They had a platform and then they built out travel and they built out local and they built out all these things. And so it's not surprising that the labs will forward integrate into the most interesting applications. On top of them, you're already seeing that partially with code. But what else is coming there? And then what implication does that have for people running startups, right? Like which of those verticals are durable and defensible and which of those are going to get eaten by the labs? And so, you know, you can make arguments in both directions in terms of, will more of overall GDP aggregate into a smaller number of companies, which is already what's happening, right? Just ignoring the labs even, right? That's kind of what happened with Amazon and with Google and all these things. Or do you end up with this broader tail effect as well, where things are kind of happen simultaneously? We also have a lot more startups that are worth more because there's just so much more market cap to go around, but also the internet continues to provide this global liquidity. To me, I think the tail dominates because the surface area of what you can address with technology is just increasing more rapidly. But maybe to add more nuance to like a billion dollars is... But is that true? So if you actually look at market cap, it's very much power law, right? It's the head and torso aggregate almost all the value. That's actually true of customers too, although people tend to misunderstand that. Even for things like Google where there was... I remember that book that was like the long tail or whatever of the internet and the claim was the long tail really matters. And then you'd add up Google's ad revenue and you're like, actually, it's all the head and torso, right? And so I feel like there are these head and torso effects that keep getting ignored. It's like Paul Graham's power law on startups, right? Most of the value of YC is probably five companies, like 80% of it. I'm making it up, right? But it's really concentrated. And so why would that change in this era? I don't think it changes in this era. I think that it depends what your measure was. If your measure is how many hundred billion dollar businesses are there, I think there's a lot more, right? Like it doesn't mean there are fewer hundred billion dollar businesses. Actually, there are more because the surface area is growing. And at the same time, like the distribution of how much is in the head is probably the same. Those are even bigger. Yeah, that's possible. Yeah, it's an interesting question. You think for investing, like there's a thing that's good for me and then perhaps like bad for me or just a question for the continued growth stage investors, the time to market leadership and to revenue scale, I think is compressing. I mean, it's not, I think like this is happening. We have a large handful of companies that have gone zero to 100 million plus run rate faster than SaaS companies that we'd seen 10 years ago. And so valuations have grown with that. I think some set of companies that look like this, they are durable and some like leadership can still flip, right? Like a question might be, you know, is it you or is it Ant or is it OpenAI over time to your point of like, actually, you could grow to a billion dollars of revenue and still face that question? And that is, I think, a risk that maybe some of the growth ecosystem would find as a new thing versus like category leadership at a certain scale felt unassailable like 10 years ago. Yeah. And I think there's two interesting historical precedents to this. One is the internet wave where, you know, 1999, 450 companies went public, 2000, another 450 went public. And so there was say one to 2000 companies that went public during the internet age and maybe a dozen to two dozen of them are still relevant, right? Everything else roughly died or got bought. And then you fast forward 10 years and you saw this assumption of things that people thought were unassailable, right? And social networking, people thought Friendster and then MySpace were unassailable and then Facebook won. And payments, I remember when I invested in Stripe, everybody said that, why are you doing this? You know, Braintree exists and PayPal exists and all these things exist. And so, you know, why would you ever invest in another payments company? And of course that ended up being the winner or one of the winners, right? And payments is so big, it's a fragmented oligopoly. But I just feel we've kind of seen this story before. And so as a founder, it's really useful to be asking about two things. One is what is the durability of your business? And number two is how should you think about when to exit if you're going to exit? Because often for companies, there's about a 12 month window where your company is the most valuable will ever be. And then it crashes out. For a very small handful of companies, the answer is you should never, ever, ever sell. For most companies, the answer is you should sell when the timing is right. And the question is, how do you know when the timing is right? Because ultimately you're going to hit a point of maximal value and then it has a real potential to die, even if it got enormous traction. And that was the internet wave of the nineties. And so I think too few people are thinking about this. And one tip for founders is from a hygiene perspective, but also just a way to make it a non-emotional discussion is pre-schedule once or twice a year, the board meeting where you talk about exits. And that way it becomes non-emotional. It's not about we're going to exit. It's not like we should exit. This has actually been Horace's advice, I think, from when he was running Opsware. You just set up a non-emotional meeting once or twice a year. You're like, nope, still not time to do it. Or you say, oh, you know what? Actually, the competitive dynamic has shifted dramatically. Somebody's come to us with an offer that's higher than anything we'll achieve over the next five years. Now's the time to do it. Right. And I think it's useful for you to be thoughtful about that. And again, the default for a small number of companies is never, ever do it. For almost everybody else is worth considering at one point or another, because you may otherwise get stuck with something that isn't working for a long time, or you may get crushed by a competitor. And many, many years of very hard work can just go down the drain. I think this is an interesting point about the comparison, especially to like the internet age versus the SaaS, I don't know what you call the cloud age from the last decade as being more similar because there were, I was not around for this era, but from my research and from working with a bunch of people in that period, you're not old enough for this era either. Like AOL was the internet for a moment, right? Yahoo was the web's front page. Netscape was the browser. Internet Explorer was the web runtime. eBay was the market. Like, I think there are a number of these. AOL exited at the exact right moment to time Warner. Right. At their peak, their peak valuation. Right. And I do, I think that people, founders and investors may over rotate on the SaaS era where like, it did feel like at a certain scale, like internet era, there's a period of time where like growth was the default, right? Growth at a wild speed that was not true in SaaS land. And so it was more like, you know, incremental and beyond a certain scale, it felt very protected. But I, I think that this probably does look more like the internet era where the question is like, does that growth, like, does it compound to a control point where you're a very special company or like, do you actually think about exits in a different way? Yeah. And if you even go back to the eighties, you know, you had Lotus. I don't know if you remember this company. I have implemented Lotus one, two, three at an enterprise business as an intern. Yeah. So, wow. So Lotus built one of the first spreadsheet products and it grew explosively. It got into the hundreds of millions of revenue, like really, really fast. And this was the eighties. Yeah. Right. And then a couple of years later, it basically collapses into the arms of IBM and Microsoft launches Excel and takes the whole market, roughly. Right. And so again, it looked like a very durable business. It was the, the killer app on, on computers, you know, for its era. And then it just died. It didn't die. It ended up with a great exit to IBM, but still it is, it no longer exists, right? In reality. And so I think the same thing is going to happen for a number of companies of this era. And the question is which companies, that's a really hard question, right? Who knows? But for some companies, you're starting to see cracks, right? And so the, for the companies with these cracks, as the market structure shifts, as you see shifts in what the labs are doing, as you see shift in usage, as you see shift in differentiation and defensibility and all the rest, it's a good time to ask, Hey, is this my moment? Are these next six months when I'm going to be the most valuable I'll ever be? And then I'm at real risk. And if so, you know, you should think seriously about what to do with that. And I view this not just, I mean, right now, I mean, every six months, there's going to be these shifts that are worth considering. And that's why it's like pre-scheduled a board meeting. So it's not emotional. You're not putting something on the agenda and everybody's like, Oh my God, do you want to exit? What's going on? Are you upset? Are you worried? It's more like, Oh yeah, we booked this six months ago, and we booked it a year ago, and we booked it two years ago, whatever it is. And this is just when we talk about this stuff. So we can just have a very logical, emotion drain conversation around this stuff. And maybe I think, you know, again, in comparison to internet era as to like, why think about it more now is... Well, people in the internet era should have thought about it too. Sure. Sure. I mean, Mark Cuban did this. Mark Cuban's claim to fame is he sold a company that, that, you know, let's, let's put it this way, it was early in terms of product. And he sold it to Yahoo for a few billion dollars, and then he collared Yahoo stock so that as the stock dropped, you didn't lose any money. It was one of the best all time financial engineering moments in tech history, right? That's what made Mark Cuban a billionaire. Was he sold at Yahoo's high watermark, and then he kept all the value as it collapsed in price. That was one of the few people who did that during that era, but people were thinking about it. I think what most people missed, right? And like, in retrospect, like thinking about the flips that made it happen where the ground was moving a lot is useful, right? Because you have to answer the question, am I that company or not? Or is my acquire that company or not? And like in the internet cycle, you had new distribution, new performance, new interfaces, changing user behavior. It was just like everything happening all at once and new exploration, not true in cloud land, right? Just more replacement market. And then like niches that you could cheaply distribute to new business model. SaaS is amazing. But in AI, it's like, okay, is, is the next major capability jump from the labs going to screw me and reset the leaderboard? Like that is an important question to ask yourself. And then also, yeah, like surface area questions, right? Like agents versus IDEs, voice as a default, like there, there are things that change in product experience that also could reallocate power. The best way to defend against this is to build a bundle. So it's to build a multi product surface area for your company, so that you cross all multiple things into the same organization, and you become a default part of the workflow. And that's, that's the best way to defend against this because then you're being used for five or 10 different aspects of that vertical that you're in or that application that you're in versus here's my singular thing that's easy to clone or copy or for people to kind of displace. So I think the sort of defensive advice on that is do that. Yeah. Bundles are often seen as offensive, but I actually think they're amazing for defense, you know? And so I think that's the other thing that people are underdoing a little bit for some of these vertical applications. And that's going to be the way to win long term or to defend. Well, I actually still think I, I, now I sound like I just hate like the SaaS era. I think it is a mistake that people like took as conventional wisdom from the SaaS era and like apply now without thinking about it. Whereas like, you know, do one thing well. Oh, the point product thing. Yeah. It was do one thing well and then people buy you and then, um, like, don't compete with a million things. But you know, we, we think. That was bad advice. That was always bad advice though. I mean, it, it, substantially in an okay size companies was bad advice because before that the power wave of companies were very acquisitive and very multi-product and it was just the SaaS era where it became this singular thing. I think the other piece of it is, um, the rate of change in velocity and the technology during the SaaS era was just slow. It's just like, let's just keep building out the internet. You know, that was kind of SaaS era. Right. And so the, the difference with AI is the velocity of change is so high that what normally would have taken a decade and you'd have a normal decade long displacement cycle is now happening in a year or two. And that's really the, the reason that these things are so turbulent. It's because the technology is shifting so, so dramatically so quickly. And that's just part of scaling laws and that's part of reasoning. And that's part of all these things that are, you know, all the post-training stuff that's been rolled out. So, um, there's just been so much innovation in such a compressed period of time that that's the reason things are turning over and things that normally would have taken a decade are happening in a year or two. And that's why we're seeing these displacement or potential for displacement cycles. But that also means as a founder, your mindset should shift into this new world framework. You should say, okay, if every two years is 10 years, I need to think really quickly on, uh, changes that are happening. I need to react to them in all sorts of ways. Yeah. And so it's just, it's just, uh, back to, you know, it's a, it's a fun and interesting and exciting time. I think it's going to be an amazing decade of transformation. Yeah. I, I do think, um, maybe one way to think about like a lot of the defenses that people did not in the software era or, uh, the last software era or like, okay, well, what does not depend on, you know, my little feature set just incrementally growing like platforms, ecosystems, networks, bundles, even hardware, like you described with Samsara, like that feels like non-trivial control points. And so maybe the takeaway for me and a lot of hanging out today is like, Hey, don't over rotate on the last month, but also you have to think about when, you know, what be intellectually honest about the position you have in market and in the speed of, uh, change era, actually think about what the control points are. Yeah, lots of comment. Lots of shifting. It's going to be fun. Okay. Have fun. Yeah. See you later. Find us on Twitter at no priors pod, subscribe to our YouTube channel. If you want to see our faces, follow the show on Apple podcasts, Spotify, or wherever you listen. That way you get a new episode every week and sign up for emails or find transcripts for every episode at no dash priors.com.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 7.94,
+      "text": "The anxiety that I see is if you can generate an enormous amount of code and no one is reading it,"
+    },
+    {
+      "id": 1,
+      "start": 8.14,
+      "end": 13.94,
+      "text": "you don't know the quality of the code. Nobody deeply understands the code base and there's more"
+    },
+    {
+      "id": 2,
+      "start": 13.94,
+      "end": 19.1,
+      "text": "fragility, right? It's like the slop problem, vibe coding slop in my actual production code base."
+    },
+    {
+      "id": 3,
+      "start": 19.240000000000002,
+      "end": 24.54,
+      "text": "But I think the broader problem that new company could go solve is like nobody knows how to manage"
+    },
+    {
+      "id": 4,
+      "start": 24.54,
+      "end": 31.9,
+      "text": "that issue of human attention to engineering. I think it's like open season around this really,"
+    },
+    {
+      "id": 5,
+      "start": 32.019999999999996,
+      "end": 33.08,
+      "text": "really big problem."
+    },
+    {
+      "id": 6,
+      "start": 38.5,
+      "end": 43.82,
+      "text": "Hi, listeners. Welcome back to No Priors. Markets are melting down about the end of software."
+    },
+    {
+      "id": 7,
+      "start": 44.34,
+      "end": 48.76,
+      "text": "Today, Alad and I are hanging out and asking, is SaaS actually dying or are people just projecting"
+    },
+    {
+      "id": 8,
+      "start": 48.76,
+      "end": 54.16,
+      "text": "five-person startup behavior onto the Fortune 100? We'll talk about what's real, incredible revenue"
+    },
+    {
+      "id": 9,
+      "start": 54.16,
+      "end": 59.62,
+      "text": "growth, collapsing token costs, and faster turnover of vendors. What's just hype and how to size the"
+    },
+    {
+      "id": 10,
+      "start": 59.62,
+      "end": 63.78,
+      "text": "opportunity. We also discussed the changing bottlenecks in building a software company"
+    },
+    {
+      "id": 11,
+      "start": 63.78,
+      "end": 67.38,
+      "text": "and some parallels to the internet and cloud errors. Let's get into it."
+    },
+    {
+      "id": 12,
+      "start": 67.62,
+      "end": 74.36,
+      "text": "It's good to hang. The market is freaking out around us. So in all that noise, what are you"
+    },
+    {
+      "id": 13,
+      "start": 74.36,
+      "end": 77.12,
+      "text": "thinking about? Oh, you mean the SaaS-pocalypse?"
+    },
+    {
+      "id": 14,
+      "start": 77.12,
+      "end": 79.64,
+      "text": "The SaaS-pocalypse. The end of software."
+    },
+    {
+      "id": 15,
+      "start": 79.64,
+      "end": 84.6,
+      "text": "Yeah. Yeah, that's kind of interesting. I feel like there's some meta trends that people are"
+    },
+    {
+      "id": 16,
+      "start": 84.6,
+      "end": 89.04,
+      "text": "getting right and then a lot of specific companies that people are getting wrong. And so, you know,"
+    },
+    {
+      "id": 17,
+      "start": 89.08,
+      "end": 94.26,
+      "text": "I think, I guess the basic premise is that SaaS software and proceed software will no longer exist"
+    },
+    {
+      "id": 18,
+      "start": 94.26,
+      "end": 98.3,
+      "text": "and everything is going to be replaced by AI and everything's just going to get vibe-coded. So why"
+    },
+    {
+      "id": 19,
+      "start": 98.3,
+      "end": 103.44,
+      "text": "would you pay X dollars for a Salesforce instance when you can just vibe-coded internally? And all that"
+    },
+    {
+      "id": 20,
+      "start": 103.44,
+      "end": 108.78,
+      "text": "stuff strikes me as incredibly short-sighted in the near term. Over the long run, who knows what happens in"
+    },
+    {
+      "id": 21,
+      "start": 108.78,
+      "end": 113.02,
+      "text": "20 years or whatever, but there's lots and lots of companies that are quite durable. I think an"
+    },
+    {
+      "id": 22,
+      "start": 113.02,
+      "end": 117.8,
+      "text": "interesting example of that where I'm still a shareholder is Sumsara, where, you know, nobody's"
+    },
+    {
+      "id": 23,
+      "start": 117.8,
+      "end": 121.62,
+      "text": "going to vibe-code a fleet management app that will then be distributed through like what?"
+    },
+    {
+      "id": 24,
+      "start": 121.74000000000001,
+      "end": 124.98,
+      "text": "Vibe sales? Vibe enterprise sales or something."
+    },
+    {
+      "id": 25,
+      "start": 127.06,
+      "end": 132.64,
+      "text": "And you're going to build a vibe like in-cab camera sensor that everybody will install in these"
+    },
+    {
+      "id": 26,
+      "start": 132.64,
+      "end": 136.62,
+      "text": "fleets. And then you're going to support them using vibe agents or something. It's just,"
+    },
+    {
+      "id": 27,
+      "start": 136.62,
+      "end": 140.16,
+      "text": "it's just very overstated. So I feel like it's one of those things where there's a massive market"
+    },
+    {
+      "id": 28,
+      "start": 140.16,
+      "end": 144.70000000000002,
+      "text": "correction around something that in the long run has a lot of truth to it. And maybe in the short"
+    },
+    {
+      "id": 29,
+      "start": 144.70000000000002,
+      "end": 148.44,
+      "text": "run for certain types of companies has a lot of truth, right? Ultimately, I think that Gagana and"
+    },
+    {
+      "id": 30,
+      "start": 148.44,
+      "end": 153.06,
+      "text": "Sierra are examples of companies where you're moving from per-seat software to basically utilization-based"
+    },
+    {
+      "id": 31,
+      "start": 153.06,
+      "end": 159.54000000000002,
+      "text": "customer support related agents, right? That is a real shift that may impact some of the prior wave"
+    },
+    {
+      "id": 32,
+      "start": 159.54,
+      "end": 163.78,
+      "text": "of sort of per-seat software companies, but this isn't going to be every single SaaS company. So"
+    },
+    {
+      "id": 33,
+      "start": 163.78,
+      "end": 169.1,
+      "text": "I view it as very short-term overstated in the long run. Who knows? How about you? How do you think"
+    },
+    {
+      "id": 34,
+      "start": 169.1,
+      "end": 174.7,
+      "text": "about it? I mean, I think the idea of Vibe enterprise sales is hilarious because we have portfolio"
+    },
+    {
+      "id": 35,
+      "start": 174.7,
+      "end": 181.01999999999998,
+      "text": "companies with, you know, hundreds of millions of dollars of revenue who are very committed to"
+    },
+    {
+      "id": 36,
+      "start": 181.01999999999998,
+      "end": 185.72,
+      "text": "as much token usage as we can, as few great people as we can have. And today, you know,"
+    },
+    {
+      "id": 37,
+      "start": 185.72,
+      "end": 191.4,
+      "text": "we have less than 50 engineers and they went from zero to like, let's say close to a hundred"
+    },
+    {
+      "id": 38,
+      "start": 191.4,
+      "end": 197.38,
+      "text": "salespeople very quickly. Right. And so it's just a view from the growing AI natives that"
+    },
+    {
+      "id": 39,
+      "start": 197.38,
+      "end": 200.48,
+      "text": "like Vibe sales is not happening, right? Like, oh yeah."
+    },
+    {
+      "id": 40,
+      "start": 200.48,
+      "end": 205.9,
+      "text": "Vibe sales is definitely never, it's not happening anytime soon. And so it's just, again, all this,"
+    },
+    {
+      "id": 41,
+      "start": 205.9,
+      "end": 211.62,
+      "text": "it just seems like a very strong market reaction and market correction. And it seems like it's"
+    },
+    {
+      "id": 42,
+      "start": 211.62,
+      "end": 215.6,
+      "text": "very overstated, especially relative to a handful of companies that you're just like, why?"
+    },
+    {
+      "id": 43,
+      "start": 215.6,
+      "end": 220.48,
+      "text": "Like how will you displace this company with coding and, you know, in the fleet example,"
+    },
+    {
+      "id": 44,
+      "start": 220.48,
+      "end": 223.54,
+      "text": "you're not going to have the fleet managers like writing their own apps to do all this"
+    },
+    {
+      "id": 45,
+      "start": 223.54,
+      "end": 228.07999999999998,
+      "text": "giant surface area of stuff. It just doesn't, it's just not going to happen in the short run."
+    },
+    {
+      "id": 46,
+      "start": 228.07999999999998,
+      "end": 234.0,
+      "text": "I think a lot of it is actually driven by, um, some assumptions that, you know, persona close"
+    },
+    {
+      "id": 47,
+      "start": 234.0,
+      "end": 239.1,
+      "text": "to my heart, but engineers and builders are making about like the rest of the world. Right."
+    },
+    {
+      "id": 48,
+      "start": 239.1,
+      "end": 242.98,
+      "text": "Because there's this, there's this implied belief that like everyone will want to make their"
+    },
+    {
+      "id": 49,
+      "start": 242.98,
+      "end": 247.85999999999999,
+      "text": "own software. And I think it's like, software is eating the world. Is that what you're trying"
+    },
+    {
+      "id": 50,
+      "start": 247.85999999999999,
+      "end": 253.06,
+      "text": "to say? I am not. I think like we're, we're still time to build Sarah. Time to build."
+    },
+    {
+      "id": 51,
+      "start": 253.06,
+      "end": 258.02,
+      "text": "I don't think that everybody wants to make their own software. I think some set of people"
+    },
+    {
+      "id": 52,
+      "start": 258.02,
+      "end": 261.86,
+      "text": "will want to make it and others will want other people to do it for them. And like,"
+    },
+    {
+      "id": 53,
+      "start": 261.86,
+      "end": 267.3,
+      "text": "like, sometimes like what's a, what's a, like, if you think about a good example of this engineers"
+    },
+    {
+      "id": 54,
+      "start": 267.3,
+      "end": 275.3,
+      "text": "sometimes have a, like my personal labor focused picture of the world. So if you like, should"
+    },
+    {
+      "id": 55,
+      "start": 275.3,
+      "end": 279.94,
+      "text": "you build JIRA in most engineering organizations? Like, is that a,"
+    },
+    {
+      "id": 56,
+      "start": 279.94,
+      "end": 283.62,
+      "text": "Yeah, it's not, it's not the best use of your time if you're focused on product. I mean, the other piece"
+    },
+    {
+      "id": 57,
+      "start": 283.62,
+      "end": 289.54,
+      "text": "of it is, um, the examples that people use, oh, my five person startup built her own CRM,"
+    },
+    {
+      "id": 58,
+      "start": 290.1,
+      "end": 293.46,
+      "text": "vibe coded it, blah, blah, blah. Yeah, of course. I mean, before that, you just did it all on a"
+    },
+    {
+      "id": 59,
+      "start": 293.46,
+      "end": 299.3,
+      "text": "spreadsheet and that was fine too. You'd have to vibe code anything. And so for very limited niche"
+    },
+    {
+      "id": 60,
+      "start": 299.3,
+      "end": 303.3,
+      "text": "applications where it's a technical team doing something really quick, because it's useful and"
+    },
+    {
+      "id": 61,
+      "start": 303.3,
+      "end": 309.38,
+      "text": "custom and bespoke amazing. Of course that's going to happen. Does that mean that a fortune 100 company is"
+    },
+    {
+      "id": 62,
+      "start": 309.38,
+      "end": 313.38,
+      "text": "going to displace their CRM with some internal thing they got by coded over the weekend? Probably"
+    },
+    {
+      "id": 63,
+      "start": 313.38,
+      "end": 319.46,
+      "text": "not. And so I think it's also extrapolating or projecting behavior of very small technical"
+    },
+    {
+      "id": 64,
+      "start": 319.46,
+      "end": 323.78,
+      "text": "startups onto the world's biggest enterprises. And that's the second thing people are getting"
+    },
+    {
+      "id": 65,
+      "start": 323.78,
+      "end": 328.9,
+      "text": "wrong is they're misunderstanding the, the moment. And I think the internal software stuff that people"
+    },
+    {
+      "id": 66,
+      "start": 328.9,
+      "end": 332.9,
+      "text": "are building is amazing, right? It's not like, it isn't impressive that you can do that. It's"
+    },
+    {
+      "id": 67,
+      "start": 332.9,
+      "end": 338.1,
+      "text": "incredibly impressive. It's just extrapolating that behavior so aggressively, so early, just doesn't"
+    },
+    {
+      "id": 68,
+      "start": 338.1,
+      "end": 342.66,
+      "text": "make that much sense right now. I think to your point of like the five person company versus the"
+    },
+    {
+      "id": 69,
+      "start": 342.66,
+      "end": 348.34000000000003,
+      "text": "very large enterprise, if you ask that same engineer who's like pissed about paying $10 a seat for Jira,"
+    },
+    {
+      "id": 70,
+      "start": 348.98,
+      "end": 353.62,
+      "text": "like if you asked him or her, like, do you want to do the change management in Bank of America of"
+    },
+    {
+      "id": 71,
+      "start": 353.62,
+      "end": 358.1,
+      "text": "getting everybody to do this the way you think is right? And then dealing with all the security"
+    },
+    {
+      "id": 72,
+      "start": 358.1,
+      "end": 363.70000000000005,
+      "text": "considerations and managing other people's opinions about potential changes to the story management"
+    },
+    {
+      "id": 73,
+      "start": 363.70000000000005,
+      "end": 367.54,
+      "text": "workflow and then maintaining the system, the answer is like, probably not, you know?"
+    },
+    {
+      "id": 74,
+      "start": 367.54,
+      "end": 375.62,
+      "text": "Yeah. And so I think it's, it is focused on, I actually think the idea that actual production"
+    },
+    {
+      "id": 75,
+      "start": 375.62,
+      "end": 382.42,
+      "text": "of code becomes not the bottleneck for, if you know what the spec is, not the bottleneck is like"
+    },
+    {
+      "id": 76,
+      "start": 382.42,
+      "end": 391.86,
+      "text": "incredibly interesting, but I, I do think it overstates like how much of the overall software vendor"
+    },
+    {
+      "id": 77,
+      "start": 391.86,
+      "end": 399.06,
+      "text": "problem that is. Yeah. I think people also misunderstand how much demand exists for software products and"
+    },
+    {
+      "id": 78,
+      "start": 399.06,
+      "end": 402.42,
+      "text": "by software products, I mean, everything, I mean, AI, I mean, is software eating the world?"
+    },
+    {
+      "id": 79,
+      "start": 402.42,
+      "end": 403.86,
+      "text": "You know, different tooling. Is AI eating the world?"
+    },
+    {
+      "id": 80,
+      "start": 404.5,
+      "end": 409.86,
+      "text": "AI is, AI is eating the world. So I think that, that is actually true. And I think Mark's post on that was"
+    },
+    {
+      "id": 81,
+      "start": 409.86,
+      "end": 417.3,
+      "text": "really, um, thoughtful and poor thinking on it all. I think that fundamentally, um, you know, there's, there's so much"
+    },
+    {
+      "id": 82,
+      "start": 417.3,
+      "end": 423.38,
+      "text": "demand for software and there's so little supply of engineering in reality relative to that demand"
+    },
+    {
+      "id": 83,
+      "start": 424.1,
+      "end": 430.1,
+      "text": "that as you add this enormous boost of productivity to software engineers, um, it just gets soaked up,"
+    },
+    {
+      "id": 84,
+      "start": 431.3,
+      "end": 437.06,
+      "text": "right? Because there's so much more stuff to build and to do. And I don't see teams, you know, startup"
+    },
+    {
+      "id": 85,
+      "start": 437.06,
+      "end": 441.06,
+      "text": "teams continue to hire engineers for a reason. You know, I think the nature of the work is shifting."
+    },
+    {
+      "id": 86,
+      "start": 441.06,
+      "end": 446.34,
+      "text": "And I think some people are going to have real issues with that shift because fundamentally you're"
+    },
+    {
+      "id": 87,
+      "start": 446.34,
+      "end": 451.38,
+      "text": "shifting from, you know, in some cases, you know, there's the, there's a few different types of,"
+    },
+    {
+      "id": 88,
+      "start": 451.38,
+      "end": 455.78000000000003,
+      "text": "of mindsets around engineers. And one of the mindsets is the really bespoke craftsmanship."
+    },
+    {
+      "id": 89,
+      "start": 456.58,
+      "end": 460.42,
+      "text": "You know, I'm going to make, I'm going to do the aesthetics of the thing that I'm doing really"
+    },
+    {
+      "id": 90,
+      "start": 460.42,
+      "end": 466.98,
+      "text": "well. And I care about the code quality and, you know, and, um, the, the artisanal version of what"
+    },
+    {
+      "id": 91,
+      "start": 466.98,
+      "end": 471.70000000000005,
+      "text": "I'm doing. And then there's people who write code because it's a utility that allows them to build"
+    },
+    {
+      "id": 92,
+      "start": 471.70000000000005,
+      "end": 476.26,
+      "text": "product. There's some people who really like aspects of the math or, you know, there's lots"
+    },
+    {
+      "id": 93,
+      "start": 476.26,
+      "end": 480.34000000000003,
+      "text": "of different motivators for people to write code. And I think a subset of those people are going to be"
+    },
+    {
+      "id": 94,
+      "start": 481.06,
+      "end": 486.02000000000004,
+      "text": "less happy in the new world. It's kind of like the indie game developers who make these handcrafted"
+    },
+    {
+      "id": 95,
+      "start": 486.02000000000004,
+      "end": 489.62,
+      "text": "individual games for themselves and then for their friends. And then they'd launch them on the"
+    },
+    {
+      "id": 96,
+      "start": 490.34000000000003,
+      "end": 494.90000000000003,
+      "text": "Apple store or whatever, um, versus the people who'd work at EA and they each had their own version of"
+    },
+    {
+      "id": 97,
+      "start": 494.9,
+      "end": 498.5,
+      "text": "craftsmanship, but it was just a different type of thing. I think we're going to see a lot of these"
+    },
+    {
+      "id": 98,
+      "start": 498.5,
+      "end": 504.02,
+      "text": "really great engineers who care about the, the bespoke craftsmanship of everything they do."
+    },
+    {
+      "id": 99,
+      "start": 504.58,
+      "end": 508.9,
+      "text": "They're going to be unhappy working at larger companies as these coding tools get even more"
+    },
+    {
+      "id": 100,
+      "start": 509.78,
+      "end": 514.18,
+      "text": "accelerant because it goes against their approach of, of how they like working and what they enjoy"
+    },
+    {
+      "id": 101,
+      "start": 514.18,
+      "end": 517.62,
+      "text": "out of the work. And for other people who are really focused on the utility of just building product,"
+    },
+    {
+      "id": 102,
+      "start": 517.62,
+      "end": 521.3,
+      "text": "it's going to be freeing in some ways. So I think there's also like a variance in terms of the"
+    },
+    {
+      "id": 103,
+      "start": 521.3,
+      "end": 527.9399999999999,
+      "text": "reactions to this stuff, depending on the type of, uh, utility function that you have relative to"
+    },
+    {
+      "id": 104,
+      "start": 527.9399999999999,
+      "end": 534.8199999999999,
+      "text": "the work you're doing. Yeah. I think related to that, the, um, one thing I've seen is that if you have"
+    },
+    {
+      "id": 105,
+      "start": 536.02,
+      "end": 541.06,
+      "text": "an engineering identity, that's based on that, like a value-based ranking of difficulty or skill,"
+    },
+    {
+      "id": 106,
+      "start": 541.78,
+      "end": 547.6999999999999,
+      "text": "like the, the specific types of engineering that are considered, you know, impressive"
+    },
+    {
+      "id": 107,
+      "start": 547.7,
+      "end": 552.9000000000001,
+      "text": "or high status can actually be like less hard for agents. Right. So I think there's an enjoyability"
+    },
+    {
+      "id": 108,
+      "start": 553.62,
+      "end": 559.7800000000001,
+      "text": "like element and then an identity element. Um, and actually one of your founders, um, from applied"
+    },
+    {
+      "id": 109,
+      "start": 559.7800000000001,
+      "end": 565.86,
+      "text": "intuition wrote a good blog post where there is a, um, an essay where he says like, keep your identity"
+    },
+    {
+      "id": 110,
+      "start": 565.86,
+      "end": 570.5,
+      "text": "small. I think that's like wonderful overall advice for this period of time. Right. You're like more"
+    },
+    {
+      "id": 111,
+      "start": 570.5,
+      "end": 577.22,
+      "text": "adaptable if it's true. I see. But I think your overall view of there are a lot of unsolved problems and"
+    },
+    {
+      "id": 112,
+      "start": 577.22,
+      "end": 582.98,
+      "text": "like making an abundance of software can better address that. I, I strongly agree with. And one"
+    },
+    {
+      "id": 113,
+      "start": 582.98,
+      "end": 588.82,
+      "text": "thing that, um, actually is near and dear to the audience that is really unsolved is like, we've"
+    },
+    {
+      "id": 114,
+      "start": 588.82,
+      "end": 596.74,
+      "text": "broadly been thinking about what happens if you have abundant code generation and in like, I think in"
+    },
+    {
+      "id": 115,
+      "start": 596.74,
+      "end": 602.5,
+      "text": "all of our teams, agent first engineering management and thinking about code quality is an unsolved problem."
+    },
+    {
+      "id": 116,
+      "start": 602.5,
+      "end": 606.9,
+      "text": "Yeah. And we'll get there. It'll be your teamwork and we'll get there. What do you view as the major"
+    },
+    {
+      "id": 117,
+      "start": 606.9,
+      "end": 616.9,
+      "text": "problems? Um, well, the, the anxiety that I see, um, is like, if you can generate an enormous amount"
+    },
+    {
+      "id": 118,
+      "start": 616.9,
+      "end": 623.62,
+      "text": "of code and no one is reading it, you don't know the quality of the code. Nobody deeply understands"
+    },
+    {
+      "id": 119,
+      "start": 623.62,
+      "end": 627.9399999999999,
+      "text": "the code base and there's more fragility, right? It's like the slot problem, but instead of it being"
+    },
+    {
+      "id": 120,
+      "start": 627.9399999999999,
+      "end": 633.9399999999999,
+      "text": "like vibe coding, slop for random websites, for non-technical people, it's vibe coding, slop in my"
+    },
+    {
+      "id": 121,
+      "start": 633.94,
+      "end": 639.46,
+      "text": "actual production code base for every lazy engineer, which is every engineer. I think people are like"
+    },
+    {
+      "id": 122,
+      "start": 639.46,
+      "end": 644.98,
+      "text": "looking at some problems of actually do you think ticketing, ticketing systems are, are like at risk. But"
+    },
+    {
+      "id": 123,
+      "start": 644.98,
+      "end": 650.82,
+      "text": "I think the broader problem that Jira could go solve or new company goods could go solve is like, nobody"
+    },
+    {
+      "id": 124,
+      "start": 650.82,
+      "end": 659.94,
+      "text": "knows how to manage that issue of human attention to engineering. And there's a bunch of ideas like testing and"
+    },
+    {
+      "id": 125,
+      "start": 659.94,
+      "end": 665.46,
+      "text": "like, you know, smart review, just let agents do it, formal verification. I think it's like open season"
+    },
+    {
+      "id": 126,
+      "start": 665.46,
+      "end": 669.5400000000001,
+      "text": "around this really, really big problem. I think the one other thing people are bringing up that I don't"
+    },
+    {
+      "id": 127,
+      "start": 669.5400000000001,
+      "end": 675.86,
+      "text": "quite buy is that, um, agents are already making like big decisions for vendor purchases and things"
+    },
+    {
+      "id": 128,
+      "start": 675.86,
+      "end": 681.22,
+      "text": "like that. I think somebody near and dear to your heart posted about that. And, um, uh, I think that,"
+    },
+    {
+      "id": 129,
+      "start": 681.22,
+      "end": 685.94,
+      "text": "uh, there the, the statement was, oh, agents are increasingly making decisions about what software people are"
+    },
+    {
+      "id": 130,
+      "start": 685.94,
+      "end": 692.0200000000001,
+      "text": "using. And really what that is, is while you have a partnership, your cognition or your clod or whoever,"
+    },
+    {
+      "id": 131,
+      "start": 692.0200000000001,
+      "end": 695.7800000000001,
+      "text": "and you have a partnership and as part of that partnership, you spin up a super base instance"
+    },
+    {
+      "id": 132,
+      "start": 695.7800000000001,
+      "end": 699.3800000000001,
+      "text": "and you use very specific tools because you have a partnership to do that. And that's always happened,"
+    },
+    {
+      "id": 133,
+      "start": 699.3800000000001,
+      "end": 704.82,
+      "text": "right? If you're using air table and they're on AWS, like you're spinning up in AWS instance without"
+    },
+    {
+      "id": 134,
+      "start": 704.82,
+      "end": 709.62,
+      "text": "knowing about it right in the background. So I also think that whole notion that in the short run,"
+    },
+    {
+      "id": 135,
+      "start": 709.62,
+      "end": 714.34,
+      "text": "agents were making these choices is also overstated. I think in the long run, it's true,"
+    },
+    {
+      "id": 136,
+      "start": 714.34,
+      "end": 718.74,
+      "text": "but then you get into all sorts of agent and genic commerce decisions and do they understand your"
+    },
+    {
+      "id": 137,
+      "start": 718.74,
+      "end": 723.14,
+      "text": "persona and what you actually want and need and all this stuff. So I just feel like we're in a little"
+    },
+    {
+      "id": 138,
+      "start": 723.14,
+      "end": 727.94,
+      "text": "bit of a noisy moment where people are kind of potentially, and I'm somebody who's very pro AI"
+    },
+    {
+      "id": 139,
+      "start": 727.94,
+      "end": 732.1,
+      "text": "progress and a believer in all the changes that have happened and are coming. But I think we're having"
+    },
+    {
+      "id": 140,
+      "start": 732.1,
+      "end": 736.26,
+      "text": "a lot of overstatement now of what's actually happening in the world. And part of that is assess"
+    },
+    {
+      "id": 141,
+      "start": 736.26,
+      "end": 741.3000000000001,
+      "text": "apocalypse and this giant recollection. And part of it is, um,"
+    },
+    {
+      "id": 142,
+      "start": 741.3,
+      "end": 746.9,
+      "text": "you know, extrapolating that the future is here already when in many cases it's to say we did a"
+    },
+    {
+      "id": 143,
+      "start": 746.9,
+      "end": 752.9,
+      "text": "BDDL or whatever. So I just think people kind of need to, or, you know, the mold book stuff where"
+    },
+    {
+      "id": 144,
+      "start": 752.9,
+      "end": 756.66,
+      "text": "you're like, yeah, a lot of that seems human generated, you know, in terms of the emergent"
+    },
+    {
+      "id": 145,
+      "start": 756.66,
+      "end": 761.78,
+      "text": "behavior. So I don't know, we're, we're, we're in this odd moment where I feel like this was the month"
+    },
+    {
+      "id": 146,
+      "start": 761.78,
+      "end": 766.66,
+      "text": "of hype in a way that we haven't seen in a while where a bunch of stuff got overstated in all sorts of"
+    },
+    {
+      "id": 147,
+      "start": 766.66,
+      "end": 769.9399999999999,
+      "text": "ways and people believed it. And by people, I mean like mainstream media and others are like, oh my gosh,"
+    },
+    {
+      "id": 148,
+      "start": 769.9399999999999,
+      "end": 774.74,
+      "text": "look at this behavior of, you know, these agents trying to cut out humans from their forum where"
+    },
+    {
+      "id": 149,
+      "start": 774.74,
+      "end": 778.66,
+      "text": "it's Reddit like involved and you're like, okay, like maybe you should see where the posts are coming"
+    },
+    {
+      "id": 150,
+      "start": 778.66,
+      "end": 782.26,
+      "text": "from in some cases. And it's exciting by the way, don't get me wrong. I think it was very exciting"
+    },
+    {
+      "id": 151,
+      "start": 782.26,
+      "end": 786.42,
+      "text": "behavior that's happening. I just think, you know, a subset of it was planted for marketing purposes."
+    },
+    {
+      "id": 152,
+      "start": 786.42,
+      "end": 792.02,
+      "text": "Yes, certainly. I think people are also figuring out like there, there are things that tap into, um,"
+    },
+    {
+      "id": 153,
+      "start": 792.02,
+      "end": 799.54,
+      "text": "deep emotional reactions that people have to their view of like things that feel very human,"
+    },
+    {
+      "id": 154,
+      "start": 799.54,
+      "end": 803.46,
+      "text": "right. Um, from a marketing perspective. And like, that's clearly one of the things that's happened"
+    },
+    {
+      "id": 155,
+      "start": 803.46,
+      "end": 807.54,
+      "text": "around them, the Malt Book stuff. I also think that like, one of the things I actually think happened"
+    },
+    {
+      "id": 156,
+      "start": 807.54,
+      "end": 812.98,
+      "text": "was like the idea that demos are different from the reality of the full software that you need,"
+    },
+    {
+      "id": 157,
+      "start": 813.62,
+      "end": 820.8199999999999,
+      "text": "like has not quite arrived in many of the equity research people's desks. Right. And so like,"
+    },
+    {
+      "id": 158,
+      "start": 820.82,
+      "end": 827.38,
+      "text": "I'm like, guys, like your whole job was to think about these, like the structural advantage of your"
+    },
+    {
+      "id": 159,
+      "start": 827.38,
+      "end": 830.98,
+      "text": "businesses and what is going to compound and the theory of competitive advantage didn't just like"
+    },
+    {
+      "id": 160,
+      "start": 830.98,
+      "end": 838.5,
+      "text": "poof disappear. Right. Like software markets have been a fight about how to do things and how to"
+    },
+    {
+      "id": 161,
+      "start": 838.5,
+      "end": 844.6600000000001,
+      "text": "distribute to customers as well as a battle of how to produce code for a long time. So I, um,"
+    },
+    {
+      "id": 162,
+      "start": 845.38,
+      "end": 852.1,
+      "text": "I feel like that has been missed a little bit, but I, I do think long run the, the fundamental thing that"
+    },
+    {
+      "id": 163,
+      "start": 852.1,
+      "end": 862.42,
+      "text": "the bottleneck on production of, you know, expensive to produce software, uh, being loosened is really"
+    },
+    {
+      "id": 164,
+      "start": 862.42,
+      "end": 866.98,
+      "text": "cool. Right. It just means like, if you think of, there's a lot of embedded points of view in software"
+    },
+    {
+      "id": 165,
+      "start": 866.98,
+      "end": 872.34,
+      "text": "on how to solve a problem, right. You know, if it's engineering or, uh, enterprise sales, not a very"
+    },
+    {
+      "id": 166,
+      "start": 872.34,
+      "end": 878.1800000000001,
+      "text": "software problem or, or general productivity, right? Like notion is a way to do things. It's a building"
+    },
+    {
+      "id": 167,
+      "start": 878.1800000000001,
+      "end": 883.86,
+      "text": "block system, but it's definitely got a point of view. And so if you reduce the cost to express"
+    },
+    {
+      "id": 168,
+      "start": 883.86,
+      "end": 887.46,
+      "text": "that point of view in software, I think it's cool that we're going to like see a lot more ideas."
+    },
+    {
+      "id": 169,
+      "start": 887.46,
+      "end": 891.46,
+      "text": "That's amazing. And again, I think it's a revolution. So don't get me wrong. And I'm,"
+    },
+    {
+      "id": 170,
+      "start": 892.02,
+      "end": 896.98,
+      "text": "I've been involved with coding companies really early on and, um, I'm very excited about everything"
+    },
+    {
+      "id": 171,
+      "start": 896.98,
+      "end": 901.14,
+      "text": "that's happening and I think it's transformational and I think it's revolutionary and I think it's"
+    },
+    {
+      "id": 172,
+      "start": 901.14,
+      "end": 904.58,
+      "text": "really important. I just think we had a month of kind of hype."
+    },
+    {
+      "id": 173,
+      "start": 905.3000000000001,
+      "end": 911.7,
+      "text": "Okay. So if we ignore the noise of the last month where people got a little like frantic,"
+    },
+    {
+      "id": 174,
+      "start": 911.7,
+      "end": 918.1800000000001,
+      "text": "what do you think is a signal that people are not paying attention to enough in such a noisy"
+    },
+    {
+      "id": 175,
+      "start": 918.18,
+      "end": 923.2199999999999,
+      "text": "landscape? You were telling me that like growth, growth pace is like of the, of the biggest"
+    },
+    {
+      "id": 176,
+      "start": 923.2199999999999,
+      "end": 929.4599999999999,
+      "text": "companies is, is still under underpriced. Yeah. One thing that, um, Jared on my team put together"
+    },
+    {
+      "id": 177,
+      "start": 929.4599999999999,
+      "end": 934.5799999999999,
+      "text": "that I thought was super interesting was, um, he pulled data from, uh, Capital IQ where they just"
+    },
+    {
+      "id": 178,
+      "start": 934.5799999999999,
+      "end": 941.4599999999999,
+      "text": "like predicted some projections on open AI and Anthropic and they looked at, um, and then he sort"
+    },
+    {
+      "id": 179,
+      "start": 941.46,
+      "end": 948.1800000000001,
+      "text": "of graphed out and maybe we can share these graphs as part of this episode. He graphed out, um, how"
+    },
+    {
+      "id": 180,
+      "start": 948.1800000000001,
+      "end": 952.58,
+      "text": "long it took different companies in years to go from a billion in revenue to $10 billion of revenue."
+    },
+    {
+      "id": 181,
+      "start": 952.58,
+      "end": 957.7800000000001,
+      "text": "So for example, ADP took 20 something years to grow from a billion to 10 billion in revenue."
+    },
+    {
+      "id": 182,
+      "start": 957.7800000000001,
+      "end": 963.14,
+      "text": "And then the next wave of companies like Adobe took about 20 years to go from one to 10. And then you"
+    },
+    {
+      "id": 183,
+      "start": 963.14,
+      "end": 967.7800000000001,
+      "text": "fast forward in time and you have things like Salesforce or SAPs for an even more modern cohort."
+    },
+    {
+      "id": 184,
+      "start": 967.78,
+      "end": 972.42,
+      "text": "And they took eight or nine years. Microsoft took, you know, seven ish, eight years,"
+    },
+    {
+      "id": 185,
+      "start": 973.22,
+      "end": 978.66,
+      "text": "Google and Meta and AWS took a couple of years, you know, three, four or five years,"
+    },
+    {
+      "id": 186,
+      "start": 978.66,
+      "end": 983.38,
+      "text": "but the AI labs did it in roughly a year. Right. And then if you look at the projections,"
+    },
+    {
+      "id": 187,
+      "start": 983.38,
+      "end": 987.9399999999999,
+      "text": "It's a wild chart. Yeah. It's a wild chart. And so we should, we should add it. Right. But you just"
+    },
+    {
+      "id": 188,
+      "start": 987.9399999999999,
+      "end": 993.86,
+      "text": "see it go from like 20 something years with Adobe to like a year for the AI labs. And then if you look"
+    },
+    {
+      "id": 189,
+      "start": 993.86,
+      "end": 997.38,
+      "text": "at the projections that are sort of the public projections, they aren't necessarily the company"
+    },
+    {
+      "id": 190,
+      "start": 997.38,
+      "end": 1002.5,
+      "text": "driven data, but the public projections on where the labs will end up or how long it'll take them"
+    },
+    {
+      "id": 191,
+      "start": 1002.5,
+      "end": 1008.58,
+      "text": "to go from 10 to a hundred billion in revenue for Microsoft, that was something like 27 years"
+    },
+    {
+      "id": 192,
+      "start": 1009.78,
+      "end": 1015.54,
+      "text": "for Google. It was over a decade, same with AWS, roughly the same for Meta. And then for the AI labs,"
+    },
+    {
+      "id": 193,
+      "start": 1015.54,
+      "end": 1020.9,
+      "text": "it's like three, four or five years, you know, it's very fast. And so we're seeing the fastest time to"
+    },
+    {
+      "id": 194,
+      "start": 1020.9,
+      "end": 1025.46,
+      "text": "real massive revenue that we've ever seen in the history of software. It's just these insane curves."
+    },
+    {
+      "id": 195,
+      "start": 1025.46,
+      "end": 1028.82,
+      "text": "And again, we should post them. Part of that I think is just the internet has created this global"
+    },
+    {
+      "id": 196,
+      "start": 1028.82,
+      "end": 1032.1000000000001,
+      "text": "pool of liquidity and then suddenly every customer's online, it's much easier to distribute"
+    },
+    {
+      "id": 197,
+      "start": 1032.1000000000001,
+      "end": 1036.02,
+      "text": "than it's ever been. So that's one piece of it. There's more people with access, there's higher"
+    },
+    {
+      "id": 198,
+      "start": 1036.02,
+      "end": 1040.5,
+      "text": "GDP, there's lots of drivers for that. But then simultaneously, you're just creating enormous"
+    },
+    {
+      "id": 199,
+      "start": 1041.3,
+      "end": 1046.02,
+      "text": "business and user value at massive scale simultaneously. And these capabilities are so rich"
+    },
+    {
+      "id": 200,
+      "start": 1046.74,
+      "end": 1050.5,
+      "text": "that you're seeing this take off in terms of revenue. And so it's, it's, it's unprecedented."
+    },
+    {
+      "id": 201,
+      "start": 1050.5,
+      "end": 1054.5,
+      "text": "It's really impressive. And I think people are ignoring the revenue and usage side of the"
+    },
+    {
+      "id": 202,
+      "start": 1054.5,
+      "end": 1059.62,
+      "text": "equation. The other thing that we actually put together was the collapse in token pricing for"
+    },
+    {
+      "id": 203,
+      "start": 1059.62,
+      "end": 1063.7,
+      "text": "equivalent models. I think this was done initially by David who worked for me and then Shran."
+    },
+    {
+      "id": 204,
+      "start": 1064.34,
+      "end": 1069.86,
+      "text": "And so for example, we looked at the cost of a GPT-4 level or equivalent model. We looked at that a"
+    },
+    {
+      "id": 205,
+      "start": 1069.86,
+      "end": 1076.34,
+      "text": "year or two ago. And basically in 21 months, it went from like 37 bucks for a million tokens to 25 cents."
+    },
+    {
+      "id": 206,
+      "start": 1076.34,
+      "end": 1083.86,
+      "text": "And so, you know, pricing dropped by 150 X in 21 months. And then we tried to accelerate that curve,"
+    },
+    {
+      "id": 207,
+      "start": 1083.86,
+      "end": 1088.34,
+      "text": "but obviously people aren't really using GPT-4 level models anymore, even though, you know,"
+    },
+    {
+      "id": 208,
+      "start": 1088.34,
+      "end": 1093.06,
+      "text": "they're two, three years old. And so we looked at O1 equivalent models and the cost of a million tokens"
+    },
+    {
+      "id": 209,
+      "start": 1093.06,
+      "end": 1098.82,
+      "text": "on an O1 equivalent model in December of 24 was about 26 bucks. And then in November of 25,"
+    },
+    {
+      "id": 210,
+      "start": 1098.82,
+      "end": 1108.1799999999998,
+      "text": "it was 30 cents. So we saw another 88X drop, not 88% or 88, you know, 88, 88 times cheaper in 11 months"
+    },
+    {
+      "id": 211,
+      "start": 1108.1799999999998,
+      "end": 1114.1,
+      "text": "for that next generation of models. So we're having pricing collapse on the token side while we're"
+    },
+    {
+      "id": 212,
+      "start": 1114.1,
+      "end": 1120.58,
+      "text": "having revenue ramp insanely on the usage side. And so that's insane. If you think about that,"
+    },
+    {
+      "id": 213,
+      "start": 1120.58,
+      "end": 1124.8999999999999,
+      "text": "just this pace of shift of cost of revenue, of utilization of everything."
+    },
+    {
+      "id": 214,
+      "start": 1124.9,
+      "end": 1129.0600000000002,
+      "text": "And this is back to like, I'm incredibly bullish on everything that's happening."
+    },
+    {
+      "id": 215,
+      "start": 1130.3400000000001,
+      "end": 1134.5800000000002,
+      "text": "And so it's more just modulating it against this, you know, this odd over extrapolation of what's"
+    },
+    {
+      "id": 216,
+      "start": 1134.5800000000002,
+      "end": 1138.26,
+      "text": "actually happening or actual capabilities or, you know, what these things are really doing."
+    },
+    {
+      "id": 217,
+      "start": 1138.26,
+      "end": 1142.66,
+      "text": "Yeah. I think one thing that people miss in the like bear case and all this stuff is,"
+    },
+    {
+      "id": 218,
+      "start": 1142.66,
+      "end": 1149.7,
+      "text": "as you said, like revenue numbers, which is hard to miss. But, but it, and then just like actual"
+    },
+    {
+      "id": 219,
+      "start": 1150.5,
+      "end": 1155.94,
+      "text": "like token inference count, right? If you look at one, if you look, where's the inference happening,"
+    },
+    {
+      "id": 220,
+      "start": 1155.94,
+      "end": 1161.38,
+      "text": "it's either happening in inference clouds, right? Base 10, mold of fireworks, or it's happening at the,"
+    },
+    {
+      "id": 221,
+      "start": 1161.38,
+      "end": 1165.8600000000001,
+      "text": "like the very large model providers. And it's happening in a lot of spraying,"
+    },
+    {
+      "id": 222,
+      "start": 1165.8600000000001,
+      "end": 1168.5800000000002,
+      "text": "which is still much more, two magnitudes more efficient."
+    },
+    {
+      "id": 223,
+      "start": 1168.5800000000002,
+      "end": 1169.46,
+      "text": "In humans, in humanity in general. Right."
+    },
+    {
+      "id": 224,
+      "start": 1169.46,
+      "end": 1173.14,
+      "text": "In humanity in general. Yeah. Yeah, that's true. In terms of power utilization,"
+    },
+    {
+      "id": 225,
+      "start": 1173.14,
+      "end": 1176.74,
+      "text": "human brain is really impressive. What is it like tens of watts, 20 watts, how much,"
+    },
+    {
+      "id": 226,
+      "start": 1176.74,
+      "end": 1180.1,
+      "text": "like what's the power utilization of a human brain? Let's look at it right now. It is,"
+    },
+    {
+      "id": 227,
+      "start": 1180.1,
+      "end": 1186.26,
+      "text": "it is two magnitudes. It's like 10 or 20 watts. I thought. I think to the point of like real data,"
+    },
+    {
+      "id": 228,
+      "start": 1187.22,
+      "end": 1192.42,
+      "text": "the inference clouds are growing 1000x in terms of consumption, right? And then they're getting"
+    },
+    {
+      "id": 229,
+      "start": 1192.42,
+      "end": 1198.98,
+      "text": "more efficient. So revenue grows at some lower rate than that, but it's wild. It's 12 to 20 watts of"
+    },
+    {
+      "id": 230,
+      "start": 1198.98,
+      "end": 1203.86,
+      "text": "power, which is comparable to a dim light bulb or a computer monitor and sleep mode. It's not like a"
+    },
+    {
+      "id": 231,
+      "start": 1203.86,
+      "end": 1208.82,
+      "text": "computer monitor. When your monitor is sleeping, that's the amount of energy that your brain is"
+    },
+    {
+      "id": 232,
+      "start": 1208.82,
+      "end": 1215.3,
+      "text": "consuming as it does all these crazy calculations. It's one blade of one GPU fan in one of these data"
+    },
+    {
+      "id": 233,
+      "start": 1215.3,
+      "end": 1220.02,
+      "text": "centers. Yeah, it's nuts. I feel like Noam Shazira's brain though is probably consuming like 1000 watts."
+    },
+    {
+      "id": 234,
+      "start": 1220.02,
+      "end": 1223.2199999999998,
+      "text": "Well, I think that's great. I think like we have a lot of efficiency work to go."
+    },
+    {
+      "id": 235,
+      "start": 1224.8999999999999,
+      "end": 1228.34,
+      "text": "I kind of meant the opposite. You know, he's so smart, he's probably consuming more energy,"
+    },
+    {
+      "id": 236,
+      "start": 1228.34,
+      "end": 1233.3,
+      "text": "but to your point, maybe he's more energy efficient. Oh, maybe he's at like one watt and I'm like at 1000 watts."
+    },
+    {
+      "id": 237,
+      "start": 1233.3,
+      "end": 1240.58,
+      "text": "I meant for the computer. We're all stuck without the, you know, brain, computer interface work"
+    },
+    {
+      "id": 238,
+      "start": 1240.58,
+      "end": 1244.98,
+      "text": "improving. But I'm just interested in how much efficiency we can get out of the models."
+    },
+    {
+      "id": 239,
+      "start": 1244.98,
+      "end": 1248.58,
+      "text": "Yeah, it's probably obviously just based on the human brain, there's a lot of room."
+    },
+    {
+      "id": 240,
+      "start": 1248.58,
+      "end": 1255.1399999999999,
+      "text": "You know, one thing I do think about, I was talking to a friend who leads a bunch of purchasing at a"
+    },
+    {
+      "id": 241,
+      "start": 1255.1399999999999,
+      "end": 1260.8999999999999,
+      "text": "traditional large enterprise this morning. And he was like, Oh, well, the like, incumbents can"
+    },
+    {
+      "id": 242,
+      "start": 1260.9,
+      "end": 1265.7800000000002,
+      "text": "this whole thing is overstated. We're so committed to all these big enterprise vendors, whatever."
+    },
+    {
+      "id": 243,
+      "start": 1266.5800000000002,
+      "end": 1271.6200000000001,
+      "text": "A lot of things that we've been talking about here. And his other view was that the incumbents"
+    },
+    {
+      "id": 244,
+      "start": 1271.6200000000001,
+      "end": 1278.18,
+      "text": "have the money to buy and go like fight back on these dimensions. I one thing I immediately thought of"
+    },
+    {
+      "id": 245,
+      "start": 1278.18,
+      "end": 1286.74,
+      "text": "was just like, like, reflexivity in markets is such a good concept. And here it's like, well, they do"
+    },
+    {
+      "id": 246,
+      "start": 1286.74,
+      "end": 1291.0600000000002,
+      "text": "unless they don't have the market cap to do it. Right? With these companies that to your point,"
+    },
+    {
+      "id": 247,
+      "start": 1291.0600000000002,
+      "end": 1296.74,
+      "text": "you know, first the labs, but then a series of the very best application companies, if they're growing to"
+    },
+    {
+      "id": 248,
+      "start": 1297.7,
+      "end": 1305.06,
+      "text": "a billion of run rate rapidly, and valuations grow in concert with that, then I do think there's a"
+    },
+    {
+      "id": 249,
+      "start": 1305.06,
+      "end": 1310.18,
+      "text": "there's a question on whether or not you you have the currency to compete to."
+    },
+    {
+      "id": 250,
+      "start": 1310.18,
+      "end": 1315.46,
+      "text": "Yeah, I'm already seeing that in the SF housing market, right? Where SF housing is starting to"
+    },
+    {
+      "id": 251,
+      "start": 1315.46,
+      "end": 1321.38,
+      "text": "rise again, in part due to, I'm assuming outcomes from the lab tenders and things like that. Because"
+    },
+    {
+      "id": 252,
+      "start": 1321.38,
+      "end": 1324.82,
+      "text": "suddenly you have these companies that are worth hundreds of billions of dollars out of nowhere in a"
+    },
+    {
+      "id": 253,
+      "start": 1324.82,
+      "end": 1330.4199999999998,
+      "text": "few years. And as employees are selling into tenders, there's this new sort of influx of cash"
+    },
+    {
+      "id": 254,
+      "start": 1330.4199999999998,
+      "end": 1337.22,
+      "text": "in the ecosystem. So and there's also Nvidia going from, you know, tens of billions or 100 billion to"
+    },
+    {
+      "id": 255,
+      "start": 1337.22,
+      "end": 1341.78,
+      "text": "trillions in market cap, like there's just this shift happening right now. In terms of scale,"
+    },
+    {
+      "id": 256,
+      "start": 1341.78,
+      "end": 1345.78,
+      "text": "there's an interesting question actually, where this is one other thing that we looked at as a team,"
+    },
+    {
+      "id": 257,
+      "start": 1345.78,
+      "end": 1352.98,
+      "text": "and maybe I should just publish all these slides. We basically asked, what proportion of GDP is tech?"
+    },
+    {
+      "id": 258,
+      "start": 1352.98,
+      "end": 1361.06,
+      "text": "Right? And just the US economy at least. And how has that grown over time? And also, like,"
+    },
+    {
+      "id": 259,
+      "start": 1361.06,
+      "end": 1368.58,
+      "text": "what does that meant in terms of market caps, right? And so if you look back to 2005, Google is worth"
+    },
+    {
+      "id": 260,
+      "start": 1368.58,
+      "end": 1373.22,
+      "text": "100 billion dollars and Exxon was the world's most valuable company at 400 billion dollars market cap."
+    },
+    {
+      "id": 261,
+      "start": 1373.22,
+      "end": 1380.18,
+      "text": "And then it took until 2018, Apple was the first company with a trillion dollar"
+    },
+    {
+      "id": 262,
+      "start": 1381.54,
+      "end": 1385.22,
+      "text": "market cap, right? Ever. And everybody was shocked that anything could get to a trillion."
+    },
+    {
+      "id": 263,
+      "start": 1385.22,
+      "end": 1390.18,
+      "text": "And at the time, tech represented about 30% of the S&P. Before that, it was say, you know,"
+    },
+    {
+      "id": 264,
+      "start": 1392.34,
+      "end": 1398.9,
+      "text": "10%-ish back in 2005. And now the top eight tech companies are about 23 trillion of market cap."
+    },
+    {
+      "id": 265,
+      "start": 1398.9,
+      "end": 1405.46,
+      "text": "And they make up well over 50% of the S&P in terms of value. At the same time,"
+    },
+    {
+      "id": 266,
+      "start": 1407.22,
+      "end": 1414.26,
+      "text": "they went from basically 4% of GDP in 2005 to about 12% of GDP today. And so then the question is,"
+    },
+    {
+      "id": 267,
+      "start": 1414.26,
+      "end": 1418.9,
+      "text": "how, what proportion of GDP eventually just becomes tech? And AI is a driver of this, right? Because"
+    },
+    {
+      "id": 268,
+      "start": 1418.9,
+      "end": 1423.3000000000002,
+      "text": "you're taking services and you're taking certain types of jobs and you're augmenting them with AI and"
+    },
+    {
+      "id": 269,
+      "start": 1423.3,
+      "end": 1428.02,
+      "text": "you're converting them into effectively software spend or tech spend. And you can make different"
+    },
+    {
+      "id": 270,
+      "start": 1428.02,
+      "end": 1432.1,
+      "text": "assumptions about growth rates. And then based on that, you know, you can end up with anywhere between"
+    },
+    {
+      "id": 271,
+      "start": 1433.22,
+      "end": 1440.34,
+      "text": "15-20% of GDP to, you know, 30% of GDP in 2035. But that means that the market caps of these tech"
+    },
+    {
+      "id": 272,
+      "start": 1440.34,
+      "end": 1444.18,
+      "text": "companies get even bigger. You know, it's kind of a metric for how big can these things actually get"
+    },
+    {
+      "id": 273,
+      "start": 1444.98,
+      "end": 1449.62,
+      "text": "as they sort of aggregate up portions of GDP. So I think that's the other lens that people aren't"
+    },
+    {
+      "id": 274,
+      "start": 1449.62,
+      "end": 1454.6599999999999,
+      "text": "really thinking enough about in terms of what are some of these terminal values 10 years from now?"
+    },
+    {
+      "id": 275,
+      "start": 1454.6599999999999,
+      "end": 1458.82,
+      "text": "Like how much more can things grow? And what are your assumptions around that basis for growth?"
+    },
+    {
+      "id": 276,
+      "start": 1458.82,
+      "end": 1463.4599999999998,
+      "text": "You know, and this is back to like that ramp up into revenue. So it's a very interesting kind of"
+    },
+    {
+      "id": 277,
+      "start": 1463.4599999999998,
+      "end": 1468.26,
+      "text": "set of questions that we've been asking on my side, just in terms of like these meta things, you know,"
+    },
+    {
+      "id": 278,
+      "start": 1468.26,
+      "end": 1472.26,
+      "text": "like what are the bigger trends that people may not be paying attention to that may be super"
+    },
+    {
+      "id": 279,
+      "start": 1472.26,
+      "end": 1478.4199999999998,
+      "text": "interesting? Okay, well, then I have a set of structural questions about how to invest based on this for"
+    },
+    {
+      "id": 280,
+      "start": 1478.42,
+      "end": 1483.38,
+      "text": "you because, you know, asking for a friend, my funds are small. I think there's like good implications"
+    },
+    {
+      "id": 281,
+      "start": 1483.38,
+      "end": 1487.46,
+      "text": "and bad implications based on what you said. Like one might be if everything's going to get a lot"
+    },
+    {
+      "id": 282,
+      "start": 1487.46,
+      "end": 1492.5800000000002,
+      "text": "bigger, a billion dollars is no longer late stage, right? That's like, just, you know, take a marker"
+    },
+    {
+      "id": 283,
+      "start": 1492.5800000000002,
+      "end": 1496.42,
+      "text": "on valuation that it's like the beginning. Well, even now it's not late stage because people are raising"
+    },
+    {
+      "id": 284,
+      "start": 1496.42,
+      "end": 1501.3000000000002,
+      "text": "at a billion dollar valuation with two million in revenue. Right? Well, you can decide that-"
+    },
+    {
+      "id": 285,
+      "start": 1501.3000000000002,
+      "end": 1505.54,
+      "text": "I know of at least one company like that. You can decide whether that's like a smart idea or not,"
+    },
+    {
+      "id": 286,
+      "start": 1505.54,
+      "end": 1512.18,
+      "text": "right? But, but the point we would absolutely agree on, I think is just, you know, the runway for"
+    },
+    {
+      "id": 287,
+      "start": 1512.18,
+      "end": 1518.34,
+      "text": "some of these foundational companies is just much larger, right? Than the conventional wisdom."
+    },
+    {
+      "id": 288,
+      "start": 1518.34,
+      "end": 1523.06,
+      "text": "I think we've already believed that though. Like I think everybody shifted. I remember I wrote a blog"
+    },
+    {
+      "id": 289,
+      "start": 1523.06,
+      "end": 1528.74,
+      "text": "post like 15 years ago or something, 10 years ago, that basically talked about how hard it is to get to"
+    },
+    {
+      "id": 290,
+      "start": 1528.74,
+      "end": 1534.18,
+      "text": "a sustainable $5 billion market cap. Because at the time, there's a small, basically once every couple"
+    },
+    {
+      "id": 291,
+      "start": 1534.18,
+      "end": 1537.7,
+      "text": "years, a company would actually get to that and stick with it. Because this is back to,"
+    },
+    {
+      "id": 292,
+      "start": 1538.74,
+      "end": 1542.1000000000001,
+      "text": "you know, 10, 15 years ago, the biggest market caps were in the hundreds of billions at most"
+    },
+    {
+      "id": 293,
+      "start": 1542.1000000000001,
+      "end": 1547.3,
+      "text": "and low hundreds of billions, right? And then we saw everything grow 10x over the last 15 years,"
+    },
+    {
+      "id": 294,
+      "start": 1547.3,
+      "end": 1551.22,
+      "text": "right? You suddenly have trillion dollar market caps. And that means there's a lot more companies"
+    },
+    {
+      "id": 295,
+      "start": 1551.22,
+      "end": 1555.38,
+      "text": "also worth a hundred billion than there used to be in tech. So I think in general, we've seen these"
+    },
+    {
+      "id": 296,
+      "start": 1555.38,
+      "end": 1559.38,
+      "text": "shifts happening already. And the reason that we were asking the question internally about how much"
+    },
+    {
+      "id": 297,
+      "start": 1559.38,
+      "end": 1563.0600000000002,
+      "text": "bigger can these things get is because that has further implications. How many more trillion dollar"
+    },
+    {
+      "id": 298,
+      "start": 1563.0600000000002,
+      "end": 1572.1000000000001,
+      "text": "companies can be supported? Is it two? Is it three? Is it a dozen? Is it 50? You know,"
+    },
+    {
+      "id": 299,
+      "start": 1573.94,
+      "end": 1578.2600000000002,
+      "text": "and relatedly, like if everything gets pulled up, how do you think about how you invest it with a lifetime"
+    },
+    {
+      "id": 300,
+      "start": 1578.2600000000002,
+      "end": 1583.46,
+      "text": "company in general? Or how do you think about that as a founder in terms of the end state? And then also,"
+    },
+    {
+      "id": 301,
+      "start": 1583.46,
+      "end": 1589.46,
+      "text": "there's a related question of what's the actual fail rate of startups? Should the fail rate go up or"
+    },
+    {
+      "id": 302,
+      "start": 1589.46,
+      "end": 1592.98,
+      "text": "down in that world? And you could argue it either way. You could argue that the dollar rates should"
+    },
+    {
+      "id": 303,
+      "start": 1592.98,
+      "end": 1596.58,
+      "text": "go up because more and more value is getting aggregated into platforms like traditionally has"
+    },
+    {
+      "id": 304,
+      "start": 1596.58,
+      "end": 1602.42,
+      "text": "happened, right? Every single platform shift has seen a commiserate forward integration of that"
+    },
+    {
+      "id": 305,
+      "start": 1602.42,
+      "end": 1607.38,
+      "text": "platform into the most important vertical application. So as an example, you know, Microsoft,"
+    },
+    {
+      "id": 306,
+      "start": 1608.1000000000001,
+      "end": 1612.9,
+      "text": "very famously on its OS, forward integrated into the Office suite, Excel and PowerPoint and Word,"
+    },
+    {
+      "id": 307,
+      "start": 1612.9,
+      "end": 1618.26,
+      "text": "right? They killed or bought companies in those market segments. And that became Office. And then"
+    },
+    {
+      "id": 308,
+      "start": 1618.26,
+      "end": 1624.1000000000001,
+      "text": "they redistributed it alongside the OS. Or Google forwarded, degraded into vertical searches. They"
+    },
+    {
+      "id": 309,
+      "start": 1624.1000000000001,
+      "end": 1627.5400000000002,
+      "text": "had a platform and then they built out travel and they built out local and they built out all these"
+    },
+    {
+      "id": 310,
+      "start": 1627.5400000000002,
+      "end": 1631.5400000000002,
+      "text": "things. And so it's not surprising that the labs will forward integrate into the most interesting"
+    },
+    {
+      "id": 311,
+      "start": 1631.5400000000002,
+      "end": 1636.02,
+      "text": "applications. On top of them, you're already seeing that partially with code. But what else is coming"
+    },
+    {
+      "id": 312,
+      "start": 1636.02,
+      "end": 1640.8200000000002,
+      "text": "there? And then what implication does that have for people running startups, right? Like which of those"
+    },
+    {
+      "id": 313,
+      "start": 1640.82,
+      "end": 1645.22,
+      "text": "verticals are durable and defensible and which of those are going to get eaten by the labs?"
+    },
+    {
+      "id": 314,
+      "start": 1646.34,
+      "end": 1649.78,
+      "text": "And so, you know, you can make arguments in both directions in terms of,"
+    },
+    {
+      "id": 315,
+      "start": 1651.22,
+      "end": 1656.1,
+      "text": "will more of overall GDP aggregate into a smaller number of companies, which is already what's"
+    },
+    {
+      "id": 316,
+      "start": 1656.1,
+      "end": 1660.58,
+      "text": "happening, right? Just ignoring the labs even, right? That's kind of what happened with Amazon and"
+    },
+    {
+      "id": 317,
+      "start": 1660.58,
+      "end": 1666.1799999999998,
+      "text": "with Google and all these things. Or do you end up with this broader tail effect as well, where things"
+    },
+    {
+      "id": 318,
+      "start": 1666.18,
+      "end": 1670.9,
+      "text": "are kind of happen simultaneously? We also have a lot more startups that are worth more because"
+    },
+    {
+      "id": 319,
+      "start": 1670.9,
+      "end": 1674.66,
+      "text": "there's just so much more market cap to go around, but also the internet continues to provide this global"
+    },
+    {
+      "id": 320,
+      "start": 1674.66,
+      "end": 1681.7,
+      "text": "liquidity. To me, I think the tail dominates because the surface area of what you can address with"
+    },
+    {
+      "id": 321,
+      "start": 1681.7,
+      "end": 1688.18,
+      "text": "technology is just increasing more rapidly. But maybe to add more nuance to like a billion dollars is..."
+    },
+    {
+      "id": 322,
+      "start": 1688.18,
+      "end": 1694.42,
+      "text": "But is that true? So if you actually look at market cap, it's very much power law, right? It's the head and"
+    },
+    {
+      "id": 323,
+      "start": 1694.42,
+      "end": 1697.8600000000001,
+      "text": "torso aggregate almost all the value. That's actually true of customers too, although people"
+    },
+    {
+      "id": 324,
+      "start": 1697.8600000000001,
+      "end": 1702.42,
+      "text": "tend to misunderstand that. Even for things like Google where there was... I remember that book"
+    },
+    {
+      "id": 325,
+      "start": 1702.42,
+      "end": 1705.94,
+      "text": "that was like the long tail or whatever of the internet and the claim was the long tail really"
+    },
+    {
+      "id": 326,
+      "start": 1705.94,
+      "end": 1708.66,
+      "text": "matters. And then you'd add up Google's ad revenue and you're like, actually, it's all the head and"
+    },
+    {
+      "id": 327,
+      "start": 1708.66,
+      "end": 1713.0600000000002,
+      "text": "torso, right? And so I feel like there are these head and torso effects that keep getting ignored."
+    },
+    {
+      "id": 328,
+      "start": 1713.0600000000002,
+      "end": 1718.5,
+      "text": "It's like Paul Graham's power law on startups, right? Most of the value of YC is probably five companies,"
+    },
+    {
+      "id": 329,
+      "start": 1718.5,
+      "end": 1723.54,
+      "text": "like 80% of it. I'm making it up, right? But it's really concentrated. And so why would that change in this era?"
+    },
+    {
+      "id": 330,
+      "start": 1723.54,
+      "end": 1729.3799999999999,
+      "text": "I don't think it changes in this era. I think that it depends what your measure was. If your measure"
+    },
+    {
+      "id": 331,
+      "start": 1729.3799999999999,
+      "end": 1734.6599999999999,
+      "text": "is how many hundred billion dollar businesses are there, I think there's a lot more, right? Like it"
+    },
+    {
+      "id": 332,
+      "start": 1734.6599999999999,
+      "end": 1738.6599999999999,
+      "text": "doesn't mean there are fewer hundred billion dollar businesses. Actually, there are more because the"
+    },
+    {
+      "id": 333,
+      "start": 1738.6599999999999,
+      "end": 1744.34,
+      "text": "surface area is growing. And at the same time, like the distribution of how much is in the head"
+    },
+    {
+      "id": 334,
+      "start": 1744.34,
+      "end": 1748.6599999999999,
+      "text": "is probably the same. Those are even bigger. Yeah, that's possible. Yeah, it's an interesting question."
+    },
+    {
+      "id": 335,
+      "start": 1748.66,
+      "end": 1753.8600000000001,
+      "text": "You think for investing, like there's a thing that's good for me and then perhaps like bad for"
+    },
+    {
+      "id": 336,
+      "start": 1753.8600000000001,
+      "end": 1760.9,
+      "text": "me or just a question for the continued growth stage investors, the time to market leadership"
+    },
+    {
+      "id": 337,
+      "start": 1761.78,
+      "end": 1766.74,
+      "text": "and to revenue scale, I think is compressing. I mean, it's not, I think like this is happening."
+    },
+    {
+      "id": 338,
+      "start": 1766.74,
+      "end": 1771.78,
+      "text": "We have a large handful of companies that have gone zero to 100 million plus run rate faster than"
+    },
+    {
+      "id": 339,
+      "start": 1771.78,
+      "end": 1780.18,
+      "text": "SaaS companies that we'd seen 10 years ago. And so valuations have grown with that. I think some set"
+    },
+    {
+      "id": 340,
+      "start": 1780.18,
+      "end": 1787.3,
+      "text": "of companies that look like this, they are durable and some like leadership can still flip, right? Like"
+    },
+    {
+      "id": 341,
+      "start": 1787.3,
+      "end": 1793.78,
+      "text": "a question might be, you know, is it you or is it Ant or is it OpenAI over time to your point of like,"
+    },
+    {
+      "id": 342,
+      "start": 1793.78,
+      "end": 1799.86,
+      "text": "actually, you could grow to a billion dollars of revenue and still face that question? And that is,"
+    },
+    {
+      "id": 343,
+      "start": 1799.86,
+      "end": 1805.62,
+      "text": "I think, a risk that maybe some of the growth ecosystem would find as a new thing versus like"
+    },
+    {
+      "id": 344,
+      "start": 1805.62,
+      "end": 1810.34,
+      "text": "category leadership at a certain scale felt unassailable like 10 years ago."
+    },
+    {
+      "id": 345,
+      "start": 1810.34,
+      "end": 1814.8999999999999,
+      "text": "Yeah. And I think there's two interesting historical precedents to this. One is the internet wave where,"
+    },
+    {
+      "id": 346,
+      "start": 1814.8999999999999,
+      "end": 1822.5,
+      "text": "you know, 1999, 450 companies went public, 2000, another 450 went public. And so there was say one to"
+    },
+    {
+      "id": 347,
+      "start": 1822.5,
+      "end": 1826.98,
+      "text": "2000 companies that went public during the internet age and maybe a dozen to two dozen of them are"
+    },
+    {
+      "id": 348,
+      "start": 1826.98,
+      "end": 1832.18,
+      "text": "still relevant, right? Everything else roughly died or got bought. And then you fast forward 10 years and"
+    },
+    {
+      "id": 349,
+      "start": 1832.18,
+      "end": 1836.58,
+      "text": "you saw this assumption of things that people thought were unassailable, right? And social networking,"
+    },
+    {
+      "id": 350,
+      "start": 1836.58,
+      "end": 1841.86,
+      "text": "people thought Friendster and then MySpace were unassailable and then Facebook won. And payments,"
+    },
+    {
+      "id": 351,
+      "start": 1841.86,
+      "end": 1845.46,
+      "text": "I remember when I invested in Stripe, everybody said that, why are you doing this? You know,"
+    },
+    {
+      "id": 352,
+      "start": 1846.74,
+      "end": 1851.86,
+      "text": "Braintree exists and PayPal exists and all these things exist. And so, you know,"
+    },
+    {
+      "id": 353,
+      "start": 1851.86,
+      "end": 1855.06,
+      "text": "why would you ever invest in another payments company? And of course that ended up being the winner"
+    },
+    {
+      "id": 354,
+      "start": 1856.1799999999998,
+      "end": 1859.4599999999998,
+      "text": "or one of the winners, right? And payments is so big, it's a fragmented oligopoly."
+    },
+    {
+      "id": 355,
+      "start": 1860.1799999999998,
+      "end": 1863.54,
+      "text": "But I just feel we've kind of seen this story before. And so as a founder,"
+    },
+    {
+      "id": 356,
+      "start": 1864.34,
+      "end": 1868.6599999999999,
+      "text": "it's really useful to be asking about two things. One is what is the durability of your business?"
+    },
+    {
+      "id": 357,
+      "start": 1869.54,
+      "end": 1874.6599999999999,
+      "text": "And number two is how should you think about when to exit if you're going to exit? Because often for"
+    },
+    {
+      "id": 358,
+      "start": 1874.6599999999999,
+      "end": 1878.26,
+      "text": "companies, there's about a 12 month window where your company is the most valuable will ever be."
+    },
+    {
+      "id": 359,
+      "start": 1878.26,
+      "end": 1882.42,
+      "text": "And then it crashes out. For a very small handful of companies, the answer is you should never,"
+    },
+    {
+      "id": 360,
+      "start": 1882.42,
+      "end": 1886.34,
+      "text": "ever, ever sell. For most companies, the answer is you should sell when the timing is right. And"
+    },
+    {
+      "id": 361,
+      "start": 1886.34,
+      "end": 1890.5,
+      "text": "the question is, how do you know when the timing is right? Because ultimately you're going to hit a"
+    },
+    {
+      "id": 362,
+      "start": 1890.5,
+      "end": 1896.42,
+      "text": "point of maximal value and then it has a real potential to die, even if it got enormous traction."
+    },
+    {
+      "id": 363,
+      "start": 1896.42,
+      "end": 1901.94,
+      "text": "And that was the internet wave of the nineties. And so I think too few people are thinking about this."
+    },
+    {
+      "id": 364,
+      "start": 1901.94,
+      "end": 1908.26,
+      "text": "And one tip for founders is from a hygiene perspective, but also just a way to make it a"
+    },
+    {
+      "id": 365,
+      "start": 1908.26,
+      "end": 1913.22,
+      "text": "non-emotional discussion is pre-schedule once or twice a year, the board meeting where you talk about"
+    },
+    {
+      "id": 366,
+      "start": 1913.22,
+      "end": 1917.7,
+      "text": "exits. And that way it becomes non-emotional. It's not about we're going to exit. It's not like we"
+    },
+    {
+      "id": 367,
+      "start": 1917.7,
+      "end": 1921.78,
+      "text": "should exit. This has actually been Horace's advice, I think, from when he was running Opsware."
+    },
+    {
+      "id": 368,
+      "start": 1922.42,
+      "end": 1926.42,
+      "text": "You just set up a non-emotional meeting once or twice a year. You're like, nope, still not time to do"
+    },
+    {
+      "id": 369,
+      "start": 1926.42,
+      "end": 1929.6200000000001,
+      "text": "it. Or you say, oh, you know what? Actually, the competitive dynamic has shifted dramatically."
+    },
+    {
+      "id": 370,
+      "start": 1930.34,
+      "end": 1933.6999999999998,
+      "text": "Somebody's come to us with an offer that's higher than anything we'll achieve over the next five"
+    },
+    {
+      "id": 371,
+      "start": 1933.6999999999998,
+      "end": 1937.62,
+      "text": "years. Now's the time to do it. Right. And I think it's useful for you to be thoughtful about that."
+    },
+    {
+      "id": 372,
+      "start": 1937.62,
+      "end": 1941.78,
+      "text": "And again, the default for a small number of companies is never, ever do it. For almost"
+    },
+    {
+      "id": 373,
+      "start": 1941.78,
+      "end": 1945.1399999999999,
+      "text": "everybody else is worth considering at one point or another, because you may otherwise get stuck"
+    },
+    {
+      "id": 374,
+      "start": 1945.1399999999999,
+      "end": 1948.1,
+      "text": "with something that isn't working for a long time, or you may get crushed by a competitor."
+    },
+    {
+      "id": 375,
+      "start": 1948.8999999999999,
+      "end": 1951.9399999999998,
+      "text": "And many, many years of very hard work can just go down the drain."
+    },
+    {
+      "id": 376,
+      "start": 1951.9399999999998,
+      "end": 1958.82,
+      "text": "I think this is an interesting point about the comparison, especially to like the internet age versus the"
+    },
+    {
+      "id": 377,
+      "start": 1958.82,
+      "end": 1964.4199999999998,
+      "text": "SaaS, I don't know what you call the cloud age from the last decade as being more similar because"
+    },
+    {
+      "id": 378,
+      "start": 1964.4199999999998,
+      "end": 1971.06,
+      "text": "there were, I was not around for this era, but from my research and from working with a bunch of"
+    },
+    {
+      "id": 379,
+      "start": 1971.06,
+      "end": 1976.4199999999998,
+      "text": "people in that period, you're not old enough for this era either. Like AOL was the internet for a"
+    },
+    {
+      "id": 380,
+      "start": 1976.4199999999998,
+      "end": 1981.54,
+      "text": "moment, right? Yahoo was the web's front page. Netscape was the browser. Internet Explorer was the"
+    },
+    {
+      "id": 381,
+      "start": 1981.54,
+      "end": 1985.54,
+      "text": "web runtime. eBay was the market. Like, I think there are a number of these."
+    },
+    {
+      "id": 382,
+      "start": 1985.54,
+      "end": 1989.3799999999999,
+      "text": "AOL exited at the exact right moment to time Warner. Right."
+    },
+    {
+      "id": 383,
+      "start": 1989.3799999999999,
+      "end": 1993.94,
+      "text": "At their peak, their peak valuation. Right. And I do, I think that people,"
+    },
+    {
+      "id": 384,
+      "start": 1994.82,
+      "end": 2002.18,
+      "text": "founders and investors may over rotate on the SaaS era where like, it did feel like at a certain"
+    },
+    {
+      "id": 385,
+      "start": 2002.18,
+      "end": 2007.7,
+      "text": "scale, like internet era, there's a period of time where like growth was the default, right? Growth at"
+    },
+    {
+      "id": 386,
+      "start": 2007.7,
+      "end": 2015.1399999999999,
+      "text": "a wild speed that was not true in SaaS land. And so it was more like, you know, incremental and beyond a"
+    },
+    {
+      "id": 387,
+      "start": 2015.14,
+      "end": 2021.46,
+      "text": "certain scale, it felt very protected. But I, I think that this probably does look more like the"
+    },
+    {
+      "id": 388,
+      "start": 2021.46,
+      "end": 2027.14,
+      "text": "internet era where the question is like, does that growth, like, does it compound to a control point"
+    },
+    {
+      "id": 389,
+      "start": 2027.14,
+      "end": 2032.42,
+      "text": "where you're a very special company or like, do you actually think about exits in a different way?"
+    },
+    {
+      "id": 390,
+      "start": 2032.42,
+      "end": 2036.66,
+      "text": "Yeah. And if you even go back to the eighties, you know, you had Lotus. I don't know if you remember"
+    },
+    {
+      "id": 391,
+      "start": 2036.66,
+      "end": 2041.0600000000002,
+      "text": "this company. I have implemented Lotus one, two, three at an enterprise business as an intern."
+    },
+    {
+      "id": 392,
+      "start": 2041.06,
+      "end": 2045.7,
+      "text": "Yeah. So, wow. So Lotus built one of the first spreadsheet products"
+    },
+    {
+      "id": 393,
+      "start": 2046.58,
+      "end": 2050.34,
+      "text": "and it grew explosively. It got into the hundreds of millions of revenue, like really,"
+    },
+    {
+      "id": 394,
+      "start": 2050.34,
+      "end": 2054.74,
+      "text": "really fast. And this was the eighties. Yeah. Right. And then a couple of years later,"
+    },
+    {
+      "id": 395,
+      "start": 2054.74,
+      "end": 2059.7,
+      "text": "it basically collapses into the arms of IBM and Microsoft launches Excel and takes the whole market,"
+    },
+    {
+      "id": 396,
+      "start": 2059.7,
+      "end": 2065.94,
+      "text": "roughly. Right. And so again, it looked like a very durable business. It was the, the killer app"
+    },
+    {
+      "id": 397,
+      "start": 2065.94,
+      "end": 2073.06,
+      "text": "on, on computers, you know, for its era. And then it just died. It didn't die. It ended up with a great"
+    },
+    {
+      "id": 398,
+      "start": 2073.06,
+      "end": 2078.82,
+      "text": "exit to IBM, but still it is, it no longer exists, right? In reality. And so I think the same thing is"
+    },
+    {
+      "id": 399,
+      "start": 2078.82,
+      "end": 2083.46,
+      "text": "going to happen for a number of companies of this era. And the question is which companies, that's a"
+    },
+    {
+      "id": 400,
+      "start": 2083.46,
+      "end": 2087.54,
+      "text": "really hard question, right? Who knows? But for some companies, you're starting to see cracks,"
+    },
+    {
+      "id": 401,
+      "start": 2088.66,
+      "end": 2093.14,
+      "text": "right? And so the, for the companies with these cracks, as the market structure shifts,"
+    },
+    {
+      "id": 402,
+      "start": 2094.1,
+      "end": 2097.62,
+      "text": "as you see shifts in what the labs are doing, as you see shift in usage, as you see shift in"
+    },
+    {
+      "id": 403,
+      "start": 2097.62,
+      "end": 2102.9,
+      "text": "differentiation and defensibility and all the rest, it's a good time to ask, Hey, is this my moment?"
+    },
+    {
+      "id": 404,
+      "start": 2103.94,
+      "end": 2107.7799999999997,
+      "text": "Are these next six months when I'm going to be the most valuable I'll ever be? And then I'm at real"
+    },
+    {
+      "id": 405,
+      "start": 2107.7799999999997,
+      "end": 2111.62,
+      "text": "risk. And if so, you know, you should think seriously about what to do with that. And I view"
+    },
+    {
+      "id": 406,
+      "start": 2111.62,
+      "end": 2115.2999999999997,
+      "text": "this not just, I mean, right now, I mean, every six months, there's going to be these shifts that are"
+    },
+    {
+      "id": 407,
+      "start": 2115.2999999999997,
+      "end": 2118.42,
+      "text": "worth considering. And that's why it's like pre-scheduled a board meeting. So it's not emotional."
+    },
+    {
+      "id": 408,
+      "start": 2118.42,
+      "end": 2121.62,
+      "text": "You're not putting something on the agenda and everybody's like, Oh my God, do you want to exit? What's"
+    },
+    {
+      "id": 409,
+      "start": 2121.62,
+      "end": 2125.14,
+      "text": "going on? Are you upset? Are you worried? It's more like, Oh yeah, we booked this six months ago,"
+    },
+    {
+      "id": 410,
+      "start": 2125.14,
+      "end": 2128.9,
+      "text": "and we booked it a year ago, and we booked it two years ago, whatever it is. And this is just when"
+    },
+    {
+      "id": 411,
+      "start": 2128.9,
+      "end": 2135.2999999999997,
+      "text": "we talk about this stuff. So we can just have a very logical, emotion drain conversation around this"
+    },
+    {
+      "id": 412,
+      "start": 2135.2999999999997,
+      "end": 2135.54,
+      "text": "stuff."
+    },
+    {
+      "id": 413,
+      "start": 2135.54,
+      "end": 2141.54,
+      "text": "And maybe I think, you know, again, in comparison to internet era as to like, why think about it more"
+    },
+    {
+      "id": 414,
+      "start": 2142.2599999999998,
+      "end": 2142.82,
+      "text": "now is..."
+    },
+    {
+      "id": 415,
+      "start": 2142.82,
+      "end": 2145.14,
+      "text": "Well, people in the internet era should have thought about it too."
+    },
+    {
+      "id": 416,
+      "start": 2145.14,
+      "end": 2145.38,
+      "text": "Sure."
+    },
+    {
+      "id": 417,
+      "start": 2145.38,
+      "end": 2145.86,
+      "text": "Sure."
+    },
+    {
+      "id": 418,
+      "start": 2145.86,
+      "end": 2150.1,
+      "text": "I mean, Mark Cuban did this. Mark Cuban's claim to fame is he sold a company that,"
+    },
+    {
+      "id": 419,
+      "start": 2150.1,
+      "end": 2154.18,
+      "text": "that, you know, let's, let's put it this way, it was early in terms of product."
+    },
+    {
+      "id": 420,
+      "start": 2155.3,
+      "end": 2159.46,
+      "text": "And he sold it to Yahoo for a few billion dollars, and then he collared Yahoo stock so that as the stock"
+    },
+    {
+      "id": 421,
+      "start": 2159.46,
+      "end": 2164.34,
+      "text": "dropped, you didn't lose any money. It was one of the best all time financial engineering moments in tech"
+    },
+    {
+      "id": 422,
+      "start": 2164.34,
+      "end": 2168.34,
+      "text": "history, right? That's what made Mark Cuban a billionaire. Was he sold at Yahoo's high watermark,"
+    },
+    {
+      "id": 423,
+      "start": 2168.34,
+      "end": 2172.9,
+      "text": "and then he kept all the value as it collapsed in price. That was one of the few people who did that"
+    },
+    {
+      "id": 424,
+      "start": 2172.9,
+      "end": 2175.06,
+      "text": "during that era, but people were thinking about it."
+    },
+    {
+      "id": 425,
+      "start": 2175.06,
+      "end": 2180.82,
+      "text": "I think what most people missed, right? And like, in retrospect, like thinking about the flips that"
+    },
+    {
+      "id": 426,
+      "start": 2180.82,
+      "end": 2186.02,
+      "text": "made it happen where the ground was moving a lot is useful, right? Because you have to answer the"
+    },
+    {
+      "id": 427,
+      "start": 2186.02,
+      "end": 2190.98,
+      "text": "question, am I that company or not? Or is my acquire that company or not? And like in the internet"
+    },
+    {
+      "id": 428,
+      "start": 2190.98,
+      "end": 2195.62,
+      "text": "cycle, you had new distribution, new performance, new interfaces, changing user behavior. It was just"
+    },
+    {
+      "id": 429,
+      "start": 2195.62,
+      "end": 2200.82,
+      "text": "like everything happening all at once and new exploration, not true in cloud land, right? Just"
+    },
+    {
+      "id": 430,
+      "start": 2200.82,
+      "end": 2205.78,
+      "text": "more replacement market. And then like niches that you could cheaply distribute to new business model."
+    },
+    {
+      "id": 431,
+      "start": 2205.78,
+      "end": 2212.9,
+      "text": "SaaS is amazing. But in AI, it's like, okay, is, is the next major capability jump from the labs going to"
+    },
+    {
+      "id": 432,
+      "start": 2212.9,
+      "end": 2217.22,
+      "text": "screw me and reset the leaderboard? Like that is an important question to ask yourself. And then also,"
+    },
+    {
+      "id": 433,
+      "start": 2217.22,
+      "end": 2224.3399999999997,
+      "text": "yeah, like surface area questions, right? Like agents versus IDEs, voice as a default, like there,"
+    },
+    {
+      "id": 434,
+      "start": 2224.3399999999997,
+      "end": 2228.2599999999998,
+      "text": "there are things that change in product experience that also could reallocate power."
+    },
+    {
+      "id": 435,
+      "start": 2228.2599999999998,
+      "end": 2234.5,
+      "text": "The best way to defend against this is to build a bundle. So it's to build a multi product surface"
+    },
+    {
+      "id": 436,
+      "start": 2234.5,
+      "end": 2239.22,
+      "text": "area for your company, so that you cross all multiple things into the same organization,"
+    },
+    {
+      "id": 437,
+      "start": 2239.22,
+      "end": 2242.98,
+      "text": "and you become a default part of the workflow. And that's, that's the best way to defend against"
+    },
+    {
+      "id": 438,
+      "start": 2242.98,
+      "end": 2247.3,
+      "text": "this because then you're being used for five or 10 different aspects of that vertical that you're"
+    },
+    {
+      "id": 439,
+      "start": 2247.3,
+      "end": 2251.78,
+      "text": "in or that application that you're in versus here's my singular thing that's easy to clone or copy or"
+    },
+    {
+      "id": 440,
+      "start": 2251.78,
+      "end": 2257.94,
+      "text": "for people to kind of displace. So I think the sort of defensive advice on that is do that."
+    },
+    {
+      "id": 441,
+      "start": 2257.94,
+      "end": 2258.5,
+      "text": "Yeah."
+    },
+    {
+      "id": 442,
+      "start": 2258.5,
+      "end": 2262.42,
+      "text": "Bundles are often seen as offensive, but I actually think they're amazing for defense, you know?"
+    },
+    {
+      "id": 443,
+      "start": 2262.42,
+      "end": 2265.46,
+      "text": "And so I think that's the other thing that people are underdoing a little bit for some of these"
+    },
+    {
+      "id": 444,
+      "start": 2265.46,
+      "end": 2268.26,
+      "text": "vertical applications. And that's going to be the way to win long term or to defend."
+    },
+    {
+      "id": 445,
+      "start": 2268.26,
+      "end": 2272.26,
+      "text": "Well, I actually still think I, I, now I sound like I just hate like the SaaS era. I think it"
+    },
+    {
+      "id": 446,
+      "start": 2272.26,
+      "end": 2278.6600000000003,
+      "text": "is a mistake that people like took as conventional wisdom from the SaaS era and like apply now without"
+    },
+    {
+      "id": 447,
+      "start": 2278.6600000000003,
+      "end": 2281.0600000000004,
+      "text": "thinking about it. Whereas like, you know, do one thing well."
+    },
+    {
+      "id": 448,
+      "start": 2281.0600000000004,
+      "end": 2281.78,
+      "text": "Oh, the point product thing."
+    },
+    {
+      "id": 449,
+      "start": 2281.78,
+      "end": 2285.86,
+      "text": "Yeah. It was do one thing well and then people buy you and then, um, like, don't"
+    },
+    {
+      "id": 450,
+      "start": 2285.86,
+      "end": 2288.7400000000002,
+      "text": "compete with a million things. But you know, we, we think."
+    },
+    {
+      "id": 451,
+      "start": 2288.7400000000002,
+      "end": 2293.1400000000003,
+      "text": "That was bad advice. That was always bad advice though. I mean, it, it, substantially in"
+    },
+    {
+      "id": 452,
+      "start": 2293.1400000000003,
+      "end": 2297.1400000000003,
+      "text": "an okay size companies was bad advice because before that the power wave of companies were very"
+    },
+    {
+      "id": 453,
+      "start": 2297.14,
+      "end": 2302.02,
+      "text": "acquisitive and very multi-product and it was just the SaaS era where it became this singular thing."
+    },
+    {
+      "id": 454,
+      "start": 2302.02,
+      "end": 2307.3799999999997,
+      "text": "I think the other piece of it is, um, the rate of change in velocity and the technology during the"
+    },
+    {
+      "id": 455,
+      "start": 2307.3799999999997,
+      "end": 2310.58,
+      "text": "SaaS era was just slow. It's just like, let's just keep building out the internet."
+    },
+    {
+      "id": 456,
+      "start": 2311.14,
+      "end": 2315.22,
+      "text": "You know, that was kind of SaaS era. Right. And so the, the difference with AI"
+    },
+    {
+      "id": 457,
+      "start": 2315.7799999999997,
+      "end": 2321.7,
+      "text": "is the velocity of change is so high that what normally would have taken a decade and you'd have a"
+    },
+    {
+      "id": 458,
+      "start": 2321.7,
+      "end": 2326.3399999999997,
+      "text": "normal decade long displacement cycle is now happening in a year or two. And that's really"
+    },
+    {
+      "id": 459,
+      "start": 2326.3399999999997,
+      "end": 2331.14,
+      "text": "the, the reason that these things are so turbulent. It's because the technology is shifting so, so"
+    },
+    {
+      "id": 460,
+      "start": 2331.14,
+      "end": 2334.3399999999997,
+      "text": "dramatically so quickly. And that's just part of scaling laws and that's part of reasoning."
+    },
+    {
+      "id": 461,
+      "start": 2334.3399999999997,
+      "end": 2336.8999999999996,
+      "text": "And that's part of all these things that are, you know, all the post-training stuff that's been"
+    },
+    {
+      "id": 462,
+      "start": 2336.8999999999996,
+      "end": 2341.54,
+      "text": "rolled out. So, um, there's just been so much innovation in such a compressed period of time"
+    },
+    {
+      "id": 463,
+      "start": 2341.54,
+      "end": 2344.8999999999996,
+      "text": "that that's the reason things are turning over and things that normally would have taken a decade"
+    },
+    {
+      "id": 464,
+      "start": 2344.8999999999996,
+      "end": 2348.3399999999997,
+      "text": "are happening in a year or two. And that's why we're seeing these displacement or potential"
+    },
+    {
+      "id": 465,
+      "start": 2348.34,
+      "end": 2352.9,
+      "text": "for displacement cycles. But that also means as a founder, your mindset should shift into this"
+    },
+    {
+      "id": 466,
+      "start": 2352.9,
+      "end": 2357.86,
+      "text": "new world framework. You should say, okay, if every two years is 10 years, I need to think really"
+    },
+    {
+      "id": 467,
+      "start": 2357.86,
+      "end": 2362.1000000000004,
+      "text": "quickly on, uh, changes that are happening. I need to react to them in all sorts of ways. Yeah."
+    },
+    {
+      "id": 468,
+      "start": 2362.1000000000004,
+      "end": 2366.6600000000003,
+      "text": "And so it's just, it's just, uh, back to, you know, it's a, it's a fun and interesting and exciting"
+    },
+    {
+      "id": 469,
+      "start": 2366.6600000000003,
+      "end": 2372.34,
+      "text": "time. I think it's going to be an amazing decade of transformation. Yeah. I, I do think, um, maybe"
+    },
+    {
+      "id": 470,
+      "start": 2373.2200000000003,
+      "end": 2379.94,
+      "text": "one way to think about like a lot of the defenses that people did not in the software era or, uh,"
+    },
+    {
+      "id": 471,
+      "start": 2379.94,
+      "end": 2385.38,
+      "text": "the last software era or like, okay, well, what does not depend on, you know, my little feature"
+    },
+    {
+      "id": 472,
+      "start": 2385.38,
+      "end": 2391.6200000000003,
+      "text": "set just incrementally growing like platforms, ecosystems, networks, bundles, even hardware,"
+    },
+    {
+      "id": 473,
+      "start": 2391.6200000000003,
+      "end": 2396.6600000000003,
+      "text": "like you described with Samsara, like that feels like non-trivial control points. And so maybe the"
+    },
+    {
+      "id": 474,
+      "start": 2396.66,
+      "end": 2401.7799999999997,
+      "text": "takeaway for me and a lot of hanging out today is like, Hey, don't over rotate on the last month,"
+    },
+    {
+      "id": 475,
+      "start": 2402.42,
+      "end": 2408.58,
+      "text": "but also you have to think about when, you know, what be intellectually honest about the position"
+    },
+    {
+      "id": 476,
+      "start": 2408.58,
+      "end": 2415.8599999999997,
+      "text": "you have in market and in the speed of, uh, change era, actually think about what the control points"
+    },
+    {
+      "id": 477,
+      "start": 2415.86,
+      "end": 2420.7400000000002,
+      "text": "are. Yeah, lots of comment. Lots of shifting. It's going to be fun. Okay. Have fun. Yeah. See you later."
+    },
+    {
+      "id": 478,
+      "start": 2423.78,
+      "end": 2429.38,
+      "text": "Find us on Twitter at no priors pod, subscribe to our YouTube channel. If you want to see our faces,"
+    },
+    {
+      "id": 479,
+      "start": 2429.38,
+      "end": 2434.26,
+      "text": "follow the show on Apple podcasts, Spotify, or wherever you listen. That way you get a new episode"
+    },
+    {
+      "id": 480,
+      "start": 2434.26,
+      "end": 2439.7000000000003,
+      "text": "every week and sign up for emails or find transcripts for every episode at no dash priors.com."
+    }
+  ]
+}
