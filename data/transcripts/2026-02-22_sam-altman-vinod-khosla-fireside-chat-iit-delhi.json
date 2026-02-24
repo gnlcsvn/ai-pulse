@@ -1,0 +1,4382 @@
+{
+  "metadata": {
+    "video_id": "IiV9q73YUxI",
+    "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+    "title": "Fireside Chat: Sam Altman × Vinod Khosla and AMA at IIT Delhi",
+    "channel": "IIT Delhi",
+    "upload_date": "2026-02-22",
+    "duration": "52m",
+    "guests": [
+      "Sam Altman",
+      "Vinod Khosla"
+    ],
+    "transcribed_date": "2026-02-24",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "What an amazing day this is to be a part of the IIT Delhi community. Let's have another huge round of applause for our guest guys. Come on. They say the best way to predict the future is by inventing it. And today we have two stalwarts from different generations who have each foreseen the future for the world by building it themselves. Our first guest is a name that resonates deeply within these worlds. He's not just a global icon, but he's also our very own alumni. In the early 80s, he co-founded Sun Microsystems, a company that fundamentally revamped the structure of Silicon Valley. At a time when computing was closed in proprietary, he championed open systems. His vision led to workstations that powered the early internet and the creation of Java. Later, he founded Khosla Ventures. He has consistently backed ideas that aim to solve the society's largest problems. From clean energy to digital tech, and as the first institutional investor in OpenAI, ladies and gentlemen, let's have another huge round of applause for Mr. Vinod Khosla. With him, we have arguably the most influential person in technology right now, steering the development of the most powerful AI models in history. As the CEO of OpenAI, he has kicked off the generative AI era, changing how the world interacts with the information, creativity and intelligence itself. A huge round of applause for Mr. Sam Altman. To formally welcome our distinguished guests and set the context for this historic event, I would now like to call upon the stage the director of AIIT Delhi, Professor Rangan Banerji. Rangan Banerji Good morning. So nice to see so many of you here. And when it was known that Mr. Sam Altman and Vinod Khosla are going to come here, we quickly realized that the Dogra Hall is not going to be enough. And all of you are actually privileged. We could have two Dogra Halls here if we wanted to fit in all those who had registered from IIT Delhi itself. We have the minor exams going on. I don't know how many of you have skipped the minor exams to come here. And I was told some people have finished the two hour exam in an hour and come down here. How many of you are from outside IIT? Please raise your hands. Excellent. So we hope that all of you would also come for our student tech event, Trist, on next week. I'd like to just take this opportunity to say that as a higher educational institute, IIT Delhi, AI provides an opportunity, but also a challenge. And we need to figure out how we train the future generation of people who are going into the workforce. Towards this, we created a committee of faculty members, students and staff to look at how do we integrate responsible AI and what is ethical use of AI by faculty, by students. And this is an ongoing conversation. We have again, we have a dedicated school of AI. We have a M tech program in machine intelligence and data sciences. We have a PhD program. We have also setting up this year, we will be starting the M tech program in machine intelligence and data sciences in our Abu Dhabi campus. We did a curriculum review last year. And in that curriculum review, we we ensure that every student of the institute has. We have a lot of exposure to exposure to AI in terms of courses, AI and sustainability. This was one of the features of the curriculum review. I'm not going to go on about this because I we want to hear Mr. Sam Altman and Mr. Vinod Khosla. I just like to say that just give you one example. We law with the Ministry of Tribal Affairs, we developed a tool called Adi Bani, which are in. For tribal languages, Santhali, Bani, Mungari and others where we are looking at AI for the community in communities which currently do not have access to this kind of content. We are looking at ways and we are delighted that we are entering into a partnership with OpenAI. We are looking at ways where our students and our faculty will engage with both companies like OpenAI as well as with sovereign AI models so that we can co-develop and create responsible AI which makes a difference in people's lives. I'd like to say that we are delighted to have Mr. Sam Altman here. He's a person who's been ahead of the curve in terms of thinking on AI and generative AI. We are also delighted to have with us one of our own, Mr. Vinod Khosla, who has always been ahead of the curve. And as a student here, I think 1971 to 1976, during that time, he set up one of the first computer laboratories in the IIT system. And so he was ahead of the curve at that time. And he was also ahead of the curve when he, in 2004, I think, he donated to our institute for setting up the school of IIT, which is named after his parents. And we at IIT Delhi are now a 65-year-old institution. And we are in the process of reimagining our future. We want to be ahead of the curve in education. We are looking at IIT Delhi 2035. We are looking at changing our infrastructure. We are going vertical. And we are hoping to have Mr. Khosla's support in form of ideas as we do this reimagination. So with these few words, I'd like to just say that, like all of you, I'm looking forward to this conversation. Thank you so much. Thank you. I'd like to call upon the stage Mr. Vinod Khosla and Mr. Sanat. Where should we start? Hopefully somebody will keep us honest on time. Sam, maybe, first, I'm always excited to see so many young people. So maybe you can talk about your observations here. Yeah. This has been a wonderful trip to India for me. And I have a lot more exciting stuff today. But this is the thing I've been most looking forward to of the entire trip. Watching what's happening with young people around the world, especially in India, though, building with incredible energy with AI, the new startups that are going to happen are already happening, the new products and services that are going to get created, the just total embrace of AI. And the excitement and the desire to bring all of this agency and energy and, you know, speed to the future is awesome. I don't know about you, Vinod, but I think this is the biggest shift that has happened in the landscape of what a young person can accomplish in my entire life. Yeah. It's totally amazing to see. And watching what people are doing is just incredible. India has its 100th anniversary of independence in 2047. And I can't imagine a larger shift by that date than anybody would imagine. So imagine 2047 and what India might be like by then. We haven't dropped our question. We just wanted to have a conversation. I mean, it's going to depend what all of these people do. You all will enter adulthood with super intelligence and that's going to change things a lot. But that is an incredible opportunity. I have a one-year-old kid and he is never going to know a world where he was smarter than a computer. Ever. He was born just at the right time to never outrun a computer in raw intelligence. And, you know, for him, it'll be totally normal life. For us, it's a big adaptation. For you all, it's like a little strange, but, you know, you're excited about it. What people can do with GPUs now will be the way that new value gets created in the world. So I don't know what that's going to look like. The node doesn't know what that's going to look like. We got a bunch of high-level guesses, but we're not going to be the ones that build that into all of these incredible new companies that people will do with that. Examples that we both like are education is clearly going to totally change. Healthcare is clearly totally going to change. What it means to do work is going to totally change. Companies may be a few people and a giant data center and build incredible new kinds of value. What it means to do physical work will change as robots can automate more and more manufacturing. Certainly what it means to discover science is going to change. The growth rate of economic value in the world, the increase in quality of life, a quote that someone from OpenAI said to me recently that has really stuck with me, is we built up a lot of instincts and institutions, policies, structure to deal with a world of scarcity. But almost none of that applies well to a world of abundance. And in addition to building all of these new kinds of companies and products and services, society is going to have to get reimagined for this world of incredible abundance. You've thought about this a lot. Yeah, I've spent a lot of time. Let's ask some practical questions. Do you think GDP rates, from whatever is projected by economists today, in every country has its 15 and 25 year forecasts, do you think they double, more than double what happens? I think GDP is going to turn out to be a terrible metric because AI is so deflationary. What we want to measure, and I think what GDP is meant to approximate, is sort of quality of life. Yeah. And quality of life. Technically, it's a definition of goods and services, but it's measured in dollars, which is money will be a whole different thing. Yeah. So I think a proper metric of what GDP is trying to approximate, growth rate will more than double for sure. GDP measured in nominal dollars, that probably gets kind of squirrely. Actually, to ask you a weird question, interest rates in five more years, negative 2% or 20%? I think by 2035, for sure, we will have a hugely deflationary economy that the world isn't thinking about. It's interesting because Google just issued 100-year bonds. And I said, by 2035, you should own all those bonds because the world will be so deflationary that it's hard to imagine anybody pretending. And this is sort of this notion of, you know, the world doesn't yet know how large the change is, and they're going on as business as usual. I think one of your engineers wrote a great manifesto. Can you talk about that a little bit? Which manifesto? People do a few of these. I'm getting the name. I just mentioned it earlier in the conversation. Essentially, that the world is clueless about what's going on and the magnitude of the change. It will come to me in just a second. I think even people who work in AI, we feel a little bit clueless about the magnitude of the change. Codex is an example. By the way, Codex is growing in India faster than anywhere in the world and mostly with young people. But Codex is an example of where everyone's intuitions, even though we knew this intellectually, emotionally, we were all hit by it. We have lots of Codex access inside of OpenAI and what it means to be an engineer, what it means to be a researcher. It changed so much so quickly. That is just going to happen again and again throughout the economy. And if you believe, which I do, that the top level driver of the economy and of life getting better and better every year is scientific discovery. And then the second most important thing is the economic engine around that that brings these new capabilities out into the world. And both of those are going to get automated at the same time. We're going to automate scientific progress. We're going to automate the whole economy. And you think about what that really would mean if these things can happen 10 times faster, 100 times faster than we've been able to do it on our own. We were not, we did not evolve to have intuitions about that kind of a growth rate and that kind of compounding. So I don't know. But if you were back here as a student, what would you do tomorrow? No, I've thought about it a lot. The way I frame the minimum level of change to imagine 15 years from now. So imagine 2040. I have to say, I imagine life, the delta being the same between now and 2014, or 2040, as it is between today and 1970. So look back at technology in 1970. That's my assumption about delta. And I think that's too conservative a notion. I think that's too conservative. Yeah. So that's the magnitude of change. And people ask me, so what should we do? I say, learn how to learn really, really fast. Like, your area of expertise doesn't matter. Whether you're an electrical engineer or a mechanical engineer is largely going to be irrelevant. In fact, I scared the director a little bit, saying, nothing you learn will be irrelevant, even in 2030. When the first year students graduate, you won't have learned anything that the AI doesn't know better. I don't know, Sam, if you agree with me, you're nice. You won't know any technical field better. You may understand better what people want. You may understand much better how to interact with people, motivate people, how to come up with creative ideas, how to sort of quickly create value. But yeah, any technical skill that you learn, the AI will be better at. It's still worth learning. You know, like someone asked me recently, do I ever regret learning to program? Because, you know, clearly the AI is a better programmer than I know. And the answer is not at all. I also don't regret learning math. You know, I never use math as an adult. Learning how to think, learning how to learn quickly. This was all a valuable skill, but it was all of the meta skills that matter. I mean, the one thing that I think we could say with confidence of a specific skill to learn is when I was in school, learning to program was the obvious thing. Now learning to use these tools is the obvious thing. And the fluency that people pick up with each new generation. If you sort of are pushing as much as possible on the edge, that seems very valuable. If you're a college student, what do you think matters the most? What will matter when the technical knowledge they have doesn't matter? An electrical engineer can do a structural engineer's job quite easily. And by the way, we're building both structural engineers, chip designers, and electrical engineers today. That'll be used pervasive everywhere. So what do you think matters? Well, I know I just said this, but I can't emphasize enough how important I think it is to stay on the forefront of the tools. I expect that to be a compounding accelerant. So building projects all the time to figure out what's going to be possible. And it's going to rapidly increase every couple of months from now on. That really matters. The class that I wish my college had offered, the motto of Y Combinator is make something people want. And it is, I think, for 21 years now, been like the best motto of any investor. And I wish my school had offered a class on that, because I think that is a learnable skill, figuring that out. And that's going to be ever more important in a world where you can sort of make anything happen, figuring out how to get good ideas, which, like anything else, deliberate practice seems to improve. That seems to matter a lot. Yeah. So my personal view, what's most important to learn is curiosity and agency. Can you tell me if you agree, disagree, elaborate on that? I totally agree. I think agency is also a learnable skill. The world kind of beats it out of you. So you have to resist and continue to believe that you can sort of figure out anything and make anything happen. And the more times you do it, the more self-belief you develop. Many people learn this late in their careers. It is super valuable to learn early. Like other things, you just have to start and you have to keep doing it and you'll develop confidence in it. But the returns on agency clearly have never been higher. You know, we've talked for a long time about what one person is going to be able to do with AI. We're finally seeing it now. A single person with drive and an idea and willpower can make incredible things happen. And in some sense, the most important learning of my entire career has been that if you are right on the idea, no matter how unpopular it is, in fact, it's often better to be unpopular because you have no one else you're competing with doing it. And you stick with unwavering conviction over a long time and you just knock down obstacle after obstacle with no loss of enthusiasm between each setback. You can accomplish amazing things. This was certainly the story of OpenAI. Now it obviously looks like a great thing. But when we started, it seemed totally crazy. And it was just like a bunch of us were in a room with force of will and sort of an attitude that we were going to do it no matter what. And then even the first like four or five years of OpenAI, it was sort of it seemed like a very bad idea. Thank you for believing in it, by the way. And the agency that we had all developed earlier in our careers, which I wish we had developed even earlier, was critical to making it happen. Yeah, I would say you heard a couple of quotes. I think one said the best way to predict the future is to invent it. I go on to add to it. That was Alan Kay who said that. And I say invent the future you want because now more than ever, that's possible. The key is agency. And it's always been available where you can make the world you want happen. The director said I was part of four students who started the first computer programming club at IIT Delhi, which was any programming in any IIT had never existed. We just wanted it. So we made it happen. I also with Professor Guha here in 1970s started the biomedical engineering program, which is the other side, which is I got curious as an electrical engineer about electrical phenomena in the body. And convinced Professor Guha to start the first biomedical program anywhere in India with the All India Institute of Medical Sciences. I give that as example of I was 16. I was 17. You can make anything happen if you want to. And that's what agency is about. And when technology and tools make almost anything possible, agency is what matters. Curiosity for learning and always staying at the leading edge and agency to make the world happen. There's never been an opportunity to do startups. I'm very excited by this little company we invested in. They approached me a few months ago. Emergent launched a product in July or August. Last week they called me and said they'd exceeded a hundred million dollar ARR rate in eight months. The fastest I've seen anybody grow, even Lovable or Replet or any of those companies. So that opportunity exists for all of you. I don't know if you want to do a finishing comment. I can't really say anything better than that. This is like a special time. This is, I think, the best time ever to be starting off careers. And yeah, the opportunity is incredible. Yeah. I'll finish my last quote I have. Most people, especially in India, are especially averse to risk. There's a Harvard Business School where the case that starts with a quote from me saying, my willingness to fail allows me to succeed. So I really encourage all of you to go be risk-taking. There's so much opportunity to take advantage of it, take advantage of tools, curiosity, agency, risk-taking, and then persistence because the path is never simple or smooth. So you have to persist through the hard times. Thank you. I think there's, we are at the end of our talk. Okay. What a wonderful conversation, guys. We had Ms. Sunita Williams a month back. And the idea that learning is such an important thing for such huge personas, for such huge solvers, I think that is one of the most humbling things we learn here today. Now we'd like to open up the floor for students to ask their own questions. For this, I'd like to invite on stage Mr. Raghav Gupta, the head of education for OpenAI in India. He's currently leading partnerships with academic institutions, ensuring that AI is integrated responsibly across all dimensions. Mr. Raghav. Good morning. It's incredible seeing a packed hall. Sam, I know you have a packed few days in India and many senior meetings. But to me, it seems like this is going to be the most exciting session. Would you agree? I do. And I'd love to ask the students as well, are you all excited for this conversation? I mean, come on. Now we can do better. Are you all excited for this conversation with Sam? So we have some of India's bright young minds here. And they're studying engineering. They're studying computer science. I think we have health sciences, management, design, and so on. I think you all sent us like 800 plus questions. We can't take all 800. But I've shortlisted the broad themes. And we'll invite you to ask them live. I'll kick us off a little bit. Sam, you wrote this article in Times of India earlier this week. And the headline kind of captured your message very nicely, where it said that AI will define India's future. And India will define AI's future as well. And I know at the AI summit, you've seen a lot of what's happening around development in AI. Would you like to talk a little bit about your impressions there? India is already our second largest market. There's 100 million ChatGPT users. A third of them are students. Fastest growing codex market in the world. India should be our largest market over time. More than just the usage of products like ChatGPT, the building energy in India seems like it is growing faster than anywhere else. The desire to really create new kinds of products and services, brand new companies that are all about AI. This is, yeah, it's just amazing. So it's been great to be here. Wonderful. So we're going to go to the students next and we'll open it up live. I think we have Mukund who's going to ask the first question. And Mukund is from IIT Delhi. Let's get started with Mukund then. Hi, Sam. I'm Mukund from the Department of Mathematics, IIT Delhi. I'm in my final year pursuing an integrated master's degree. So my question is, you have talked about intelligence becoming a cheap utility, but we are seeing specialized high reasoning models being gated by premium subscriptions. So how do you reconcile the concept of broad access with the economic viability of these frontier models? I think the most amazing thing, well, there's many amazing things. I can't say the most. One of the amazing things happening is the rate at which AI is getting cheaper at a given level of intelligence. We are, if you look at a hard reasoning problem, what it would have cost you to solve it using an open AI API a year and a half ago versus now, it's down about a thousand X. A thousand X in 18 months is just, that doesn't happen very often. I don't think we'll be able to sustain another thousand X over the next 18 months, but maybe we will. But there will be a significant decrease in cost. So our goal here is to relentlessly drive the cost of intelligence down as close to zero as we can and then make that available to the world as a very low cost asset. And for a bunch of reasons, accessibility being one of them, that's a critical part of our mission. There are going to be a bunch of societal disruptions around that. Like part of society has maybe, we talked earlier about this issue of abundance versus scarcity, but society has been used to intelligence being a relatively scarce resource. Um, also the ability to make things happen in the physical world, energy, robotics, whatever. If all of that changes, I don't think society yet has a consensus on how things are going to work and where the, the limits, the natural limits are going to be. But I do think the cost of intelligence is going to trend down and down. And in terms of empowering the entire world, that's very important. Uh, we'll go to, uh, Tejas next, who's also from IIT Delhi. And I know the director also spoke a little bit about, uh, safety. And I think, Tejas, your question is related to that. So go ahead, please. Yeah. Hi, Sam. I'm Tejas Raj Mangala. I'm currently a final year student here at IIT Delhi. I'm pursuing my bachelor's in computational mechanics. Uh, my question for you is how do we keep AI safe without blocking innovation from things like prompt injection that are happening recently? I think there's three things here. Um, one, we have to figure out how to technically align AI. Um, we have made better progress there than I thought we might have, but there's still things to do as we get to these systems that are truly much smarter than we are, how we supervise those systems requires new ideas. As we get to a world where AI is writing so much source code and doing so much research, we can't review all of it. There's a bunch of things that used to feel like sci-fi that are now clear alignment challenges that we have to, that we have to address. Um, we've been doing work here for a while. Other labs have been doing work here for a while. On the whole alignment has looked easier than I feared, but we're clearly not done. So bucket one is technical safety work around alignment. Two is there's a whole new kind of security infrastructure that needs to get built. You mentioned prompt injection. I think that's a great example. Open claw is an amazing thing. Codex is an amazing thing. I thought that I was going to be a very disciplined person and not let them run on my computer with root access. Uh, cause I thought that was an insane thing to do. And that lasted about two hours. And then I was like, Oh, it's really annoying to approve everything. It's so convenient. I want to just, I'm going to just like, let it rip. And if I'm willing to do that, a lot of other people will be willing to do that too. I should be one of the more conservative ones there. So I think we need to develop a new kind of security architecture, different from the model technical alignment to let people be able to use these agents without insane things happening. Like it is awesome that you can run something on your computer and it can get to know everything about your life and record your screen and use the web for you and everything else. Um, it will be significantly less awesome if it starts like randomly telling your secrets to people. It shouldn't. Um, and then third and most important, you mentioned non-blocking innovation. I super agree. Uh, the, the kind of like, these are caricatures because everybody is a little bit in the middle, but the kind of the two paths the world is looking at right now is either we accept, you know, an AI company or country or model having sort of effective totalitarian control over the world for no safety problems at all. You have one AI to rule them all. This has been people's vision over time. Um, the other is that we super democratize access and we put powerful AI in everyone's hands and we trust that if you, you know, out of a hundred people, 99 are going to be good. One person's not bad. The good people will stop the bad. Some things are going to go wrong in that world. People are for sure going to misuse AI, uh, in small and probably in big ways. Um, but for a long time, the world I think has shown that if people are basically, most people are good and the good people stop the bad people. As long as there's not a huge power imbalance, we can get to a world where we democratize AI, everybody lifts up and that kind of keeps the new powerful bad forces in check. This is the story of, of society for a long time. It will be messy. Things will go wrong. Um, but I think empowering everyone and having a wide distribution of power is the best, fairest and safest path forward. We call this resilience. So instead of just there's alignment, there's security. And then there's this newer idea of resilience where I think it no longer works for open AI to just say, we will block our models from telling people how to make a pathogen because some open source model is going to help some bad guy make a pathogen. And we have to have society ready to defend against that with rapid response vaccines, sort of new ways to block respiratory transmission, whatever else. Um, yeah, that's what I would say. So the next question is from Yash and he's not here. So I'll read it out on his behalf. Um, I read that, uh, a lot of research behind study mode in chat GPT happened in India last year. And so if opening, I were to build a product specifically for India, not adapted, but designed for India first, what problem would you want it to solve? I would rather one of you figure out the answer to that. Um, we way more innovation is going to happen outside of open AI than inside of open AI. And our strategy is to build the core model and the basic way to use it, chat GPT, the API agents like Codex and the general agent, and really empower everybody else to build it. Um, one of my learnings from open AI is that most innovation in the world, uh, comes from startups and we want to empower them. Wonderful. Um, I think we're going to shift gears a little bit to a health related question, which is, uh, going to come from Arnesh from Ames. Uh, and you have the microphone. Yeah. Go ahead Arnesh. Hello. Uh, my name is Arnesh. I'm a third year medical student at Ames, uh, New Delhi. And, uh, my question is about, uh, chat GPT health. So, uh, we know that chat GPT health connects to Apple health and medical records, but, uh, in India people, uh, most people have neither. They have, uh, mostly just a phone. So my question is, uh, how would you rethink, uh, health AI in a country like India? I love using chat GPT for health. I don't have it connected to anything. I type in lots of notes. Every time I got like a blood test or something, I upload it. If every time I have symptoms, I type it in. It works really well without medical records. Um, we'd love to connect to any platforms that emerge in India as important platforms. But one of a huge volume of chat GPT is health related queries. And with no connectors at all, we've worked to make it very good. Um, I think you'll like the next question, uh, which is going to come from Vijay, uh, who's from IIT Delhi. Uh, Vijay, you have the microphone. Uh, hi Sam. Uh, I'm Vijay. Uh, I'm a 30 year student at IIT Delhi in, uh, computer science department. So I would like to know, uh, how would IIT undergrads be able to join OpenAI directly? And what are the current and future objectives of OpenAI's offers in India? Uh, we would love to use on OpenAI. Um, we would love for you to join OpenAI either in our office in India or in the US. I think these next couple of years are going to be the most exciting years yet in the development of AI. Um, and the coolest, well, hopefully there's a lot of cool parts about being an OpenAI. But I think the coolest part is you get to see the future and use the tools like six months before everybody else. And the work that that enables in the development process is awesome. So we would love to hear from you. By the way, you can ask me like harder, more controversial questions. I won't be offended. Like, go for it. I like those. And I think you might have seen, uh, you know, we have an office in Delhi. We've just announced offices in Bangalore and Mumbai as well. So the team is growing rapidly. So we'd love to engage on this conversation. Um, okay. We're going to go to Sahaj next. Uh, so hi, sorry. Um, who's from Amity University and you have the microphone. Hi, Sam. I'm Sahaj. I'm from Amity University. I'm a 30 student pursuing artificial intelligence in AI in Amity University. So my question is in today's market where 18 year olds are competing for jobs with AI, what unfair advantage do we humans have? Um, a lot, uh, watching the very best people now work with AI is really incredible and so different than a year ago. But you watch these people that have like six monitors on their desk, three agents per monitor, like going session by session. One person can do what a team of, um, a lot of engineers used to take to do. And when you can keep a whole problem in one human head and manage a bunch of agents, you are able to bring things to life at a speed and quality level you just couldn't do before. Um, and there is still, this may change something in the future, but there's still something that humans are so good at that AI is so bad at about thinking through the sort of like high level strategy of a system or a product or whatever. Um, that people who are proficient at using AI have a huge advantage, uh, not just over AI, but over other people who are not doing that. Uh, in the long-term future, I don't know exactly what the advantage will look like will be, but, um, we seem so wired to care about other people and care so little about machines, uh, that somehow that feels like it's going to be part of whatever the answer is. So the next question is a little linked to what the prime minister said yesterday as well. And, you know, he said, uh, there are two kinds of people in the world. One who think that AI is fearful. The others who are really, you know, excited about the future of what AI can bring. And I think the next question is a little bit about jobs and you know, that comes up often, of course, uh, which is from, uh, Guru Dhanush. So go ahead, please. Hi, sir. My name is Guru Dhanush. I am a second year B. Tech student in mathematics and computing. My question is, what do you say to the workers who fear that their jobs will be outdated in next five years and what skills should they be focusing on now? Anyone who says they're only excited or only fearful about AI is I think not being very thoughtful. I don't think it's two camps. I think there's a continuum of people based on whether you're 90% excited and 10% fearful or 90% fearful and 10% excited. But as with any change of this magnitude happening this quickly, um, and with this much unknown, this much promise, this much obvious peril, um, it's, it, you have to be somewhere on that spectrum. You can't, it can't be sort of at, at either end. Um, a big part of that is what the impact on jobs is going to be. And I will caveat this with lots of other things by AI by saying that no one really knows, including us. There will be many surprises. Um, some jobs will totally go away. many jobs will not change as much as it seems like they should with AI because we have, you know, we want someone else to be doing that. We still go, want a human doctor to tell us things, even if the, we know the AI gives better advice or any, many other set of examples. Uh, or, you know, entrepreneurs will still start companies. They'll just grow faster and they'll do more and it'll be more disruptive to existing jobs. And then most of all, every time in history that there's been a major technological shift, we have underestimated how quickly the new jobs are going to come and how different they were going to be. It'd be very hard to think about my job, for example, before computers were invented, um, and impossible to think about my job before say the industrial revolution. Um, there are jobs now that are incredibly good jobs that didn't exist as a category 20 years ago. Even if someone from 500 years ago could look at the jobs of the world today, um, generally speaking, they would say about many of the jobs, um, certainly my job, you know, definitely not a real job. You're doing fine. You could, you don't have to be working. You're like, you've got plenty of food. You've got access to great shelter. Like this is, this is not a job they could have imagined and it wouldn't look like real work. I hope a hundred years from now, not even 500, we would all look at the jobs and be like, those people are impossibly rich. They have everything they could ever want. They are making up ways to spend their time to entertain themselves. It's a, you know, it's a player of game style existence. They don't really need this. Um, and that is sort of the history of society building up more collective welfare for each other. Uh, and I think that's great, but we never run out of things to do. We have never gotten to the sort of like thing that people have theorized for, for centuries now, which is technology is going to progress so much that we just sit around and do nothing. We find new things to do. We find new ways to express our creativity. Um, we find new ways to be useful to each other. We find new ways to, you know, gain status or whatever, whatever it is. Uh, many of you will eventually do jobs that don't exist today. Even really as a concept. Um, it doesn't mean that the transition is not painful. I expect for many people, it will be very painful. Um, as society gets richer quickly, I hope we find new socioeconomic models to make it less painful, but I'm less worried about the longterm future. And I think we'll find new things to do in not very long. So we've announced a partnership with the Tata group yesterday and you know, it's about compute, it's about data centers and so on. And I think the next question relates to that a little bit. Uh, and which is from Khaustub from IIT Delhi. Uh, go ahead, Khaustub. Hi, Sam. My name is Khaustub. I'm a second year PhD student here at the school of AI, IIT Delhi. I wanted to ask a question about what are the steps that open AI is taking towards building green AI solutions for the world? To building what solutions? Green AI solutions. Real? Green, green. Green, green. Oh, uh, I think the world is only a few years ago. I think the world is only a few years away from fusion and really reliable solar wind plus storage. And I further think that those will become the cheapest source of energy in the world. And when that happens, the economy will do its thing. And not just AI, but everybody else will use new forms of energy. Um, the, this is important for a ton of reasons. Uh, but one that gets talked about less is as part of this, if we can drive massive abundance of energy, um, in the same way with it, we can drive abundance of intelligence. I think that will do a huge amount to elevate people around the world. Um, so obviously we care about it environmentally, uh, and are committed to do that. We really care about it from a sort of duty to the world to make energy abundant and perspective. Uh, we're going to go, uh, change gears a little bit. And, uh, I was saying earlier, we have, uh, students from creative, uh, industries as well. Um, so the next question, uh, is around that. And I think it's from Parisha. Uh, if you have the microphone, go ahead, please. Uh, hi, Sam. I'm Parisha from Pearl Academy. I'm pursuing interior architectural design. So my question is, uh, like AI became the tool that that can generate, uh, images, space, and, uh, create entire concept. How designer can ensure and, uh, ensure the work still reflect the human emotions, cultural identity and originality, uh, rather than becoming too machine driven. Great question. Um, I used to be more worried about this and, you know, I, I wasn't sure totally how it was going to go when models could sort of create anything. Watching what's happened in practice though, and talking to creators, uh, not everyone, but generally speaking, people say, this is the best thing ever to happen as a tool in their creative process, if they can explore ideas and have a machine help them search the space and then pick at each layer, which direction they want to go. Um, and if we can make their creative ideation loop faster and faster and faster, where the time from idea to then seen in results, and then coming up with a new idea from that gets shorter and shorter. And talking to creators, whether they're visual artists or people making videos or music, um, they all care a lot, as do I, that the human spirit and the human direction and the human imprint is in this, but they all think they'll be able to create much better stuff than ever before. Another thing for optimism, back on this earlier point about people really are very hardwired to care about other people. We are seeing a, I think predictable, but still surprising to some people result, which is if you show someone an image, if you say, I'll, I'll sell you this piece of art and an AI made it and it's beautiful, but you know, an AI made it. The, the value that people put on that effectively rounds to zero. Um, if a human made it, even with AI tools and it's, you know, someone who you can connect to and has a story and put their creative energy into it and had something they were trying to express, uh, but AI helped them in their creative process. It's worth a lot, but without the person like effectively signing their name to it and saying like, this is my thing, we seem to not care. And I think that's another very positive sign for what it's going to be like for human creators. And I know you're on a discussion with Karan Johor later today. So some of this will come up a little bit more as well. Uh, and he's very popular movie director as you know, so I know this is going to be a conversation further up as well. Uh, I'm a little conscious we're, uh, maybe coming up a little bit on time. I'll take two more questions and then I want to do a little bit of rapid fire at the end as well, Sam, if you're open to that. Um, I think we have Paridi next, uh, Paridi, if you have the microphone. Yeah, go ahead. Hi, Sam. I'm Paridi from Amity University. I'm currently in third year of my artificial intelligence degree. My question to you is that, uh, recently there have been a lot of concerns regarding the use of water in cooling down the servers and that it's leading to water scarcity. So what is open EIA doing to, you know, uh, help people, help people, uh, dismiss these concerns? So the, the energy concern and the need to move to green energy, I think is very real. Uh, that, that's something that at the scale AI is developing can be a significant issue. The water concern I think is no longer real. Uh, there was a time when data centers were using evaporative cooling. Um, that is not something that people are doing much anymore. Um, the, there is, you know, obviously some water consumption in producing semiconductors, but if you look at AI data centers, they are not significant consumers of water. This has been an incredibly sticky meme. I don't totally understand why, you know, there's people who say, well, I don't use Chai GVT because each time you ask it a question, it uses up seven gallons of water or whatever. It's totally not true. We've tried to explain. It's not true. It's been very sticky for whatever reason. Um, but I think the focus on energy does make sense. All right. I, I know we have a lot more questions, uh, but I'm, I'm conscious we're coming up on time. So Ocean will come to you and, uh, please go ahead and ask your question. Yeah. Hi, Sam. My name is Oshin. I'm a PhD scholar at the transportation research and injury prevention center here. So my question is, what is the biggest mistake you see young people make right now when they apparently prepare for AI? Man, I'm going to answer this. I hope this talk is not recorded. Uh, I think listening to old people is the biggest mistake young people make. I, I think your, your parents obviously love you more than anyone. Um, they're extremely well-meaning, um, for advice about how to live a happy life or how to be a good person. There is no one you should listen to more than your parents. Um, but for a predictor of what the world is going to be like going forward. Um, I don't even think you should trust me for having a good intuition of the rate of change. Um, it, young people always figure this out the best. Um, but I think the traditional career advice is probably not going to work as well. Wonderful. Thank you for taking all those questions. Let's do a quick rapid fire. And you can choose to answer with one word or one sentence, but that's what you need to keep to. And I have four or five questions. The first one, so will the next trillion dollar AI company come from India? I hope so. Nice. Most overrated fear about AI? Like killer robots in the streets. Most underrated opportunity? Zero person companies. Bigger change in five years, education or health care? Education. And last, one skill every AI. Oh, I take it back, health care. That's close, though. OK. Last question, one skill every IIT student should build this year. Resilience. Resilience. Wonderful. Thank you all. Thank you. Thank you so much for interacting with our students. And this has indeed been a very memorable evening for all of us. And in order to ensure that you also remember us once you go out of this institute, we'd like to present a small token of gratitude for that I'd like to call Mr. Vinod Khosla, sir, back on stage, and also the director to present our guests. 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 app will read my mind and input directly into computers. We may succeed or fail at that, but we are trying. Oh, yes. I'd like to request Sam now to capture this moment with the audience, with a selfie, I'd like to call upon the stage the Associate Dean of Academic Outreach and New Initiatives, Professor Shilpi Sharma and Professor Deepak Jan for this. So we're doing a selfie, right, with everybody? Right.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 6.48,
+      "text": "What an amazing day this is to be a part of the IIT Delhi community."
+    },
+    {
+      "id": 1,
+      "start": 6.48,
+      "end": 11.16,
+      "text": "Let's have another huge round of applause for our guest guys. Come on."
+    },
+    {
+      "id": 2,
+      "start": 11.16,
+      "end": 24.84,
+      "text": "They say the best way to predict the future is by inventing it. And today we have two stalwarts"
+    },
+    {
+      "id": 3,
+      "start": 24.84,
+      "end": 32.16,
+      "text": "from different generations who have each foreseen the future for the world by building it themselves."
+    },
+    {
+      "id": 4,
+      "start": 32.16,
+      "end": 37.14,
+      "text": "Our first guest is a name that resonates deeply within these worlds. He's not just a global"
+    },
+    {
+      "id": 5,
+      "start": 37.14,
+      "end": 43.68,
+      "text": "icon, but he's also our very own alumni. In the early 80s, he co-founded Sun Microsystems,"
+    },
+    {
+      "id": 6,
+      "start": 43.68,
+      "end": 49.08,
+      "text": "a company that fundamentally revamped the structure of Silicon Valley. At a time when computing"
+    },
+    {
+      "id": 7,
+      "start": 49.08,
+      "end": 54.82,
+      "text": "was closed in proprietary, he championed open systems. His vision led to workstations that"
+    },
+    {
+      "id": 8,
+      "start": 54.82,
+      "end": 60.22,
+      "text": "powered the early internet and the creation of Java. Later, he founded Khosla Ventures."
+    },
+    {
+      "id": 9,
+      "start": 60.22,
+      "end": 65.5,
+      "text": "He has consistently backed ideas that aim to solve the society's largest problems. From"
+    },
+    {
+      "id": 10,
+      "start": 65.5,
+      "end": 71.7,
+      "text": "clean energy to digital tech, and as the first institutional investor in OpenAI, ladies and"
+    },
+    {
+      "id": 11,
+      "start": 71.7,
+      "end": 76.6,
+      "text": "gentlemen, let's have another huge round of applause for Mr. Vinod Khosla."
+    },
+    {
+      "id": 12,
+      "start": 76.6,
+      "end": 87.28,
+      "text": "With him, we have arguably the most influential person in technology right now, steering the development"
+    },
+    {
+      "id": 13,
+      "start": 87.28,
+      "end": 94.0,
+      "text": "of the most powerful AI models in history. As the CEO of OpenAI, he has kicked off the generative"
+    },
+    {
+      "id": 14,
+      "start": 94.0,
+      "end": 100.4,
+      "text": "AI era, changing how the world interacts with the information, creativity and intelligence"
+    },
+    {
+      "id": 15,
+      "start": 100.4,
+      "end": 104.68,
+      "text": "itself. A huge round of applause for Mr. Sam Altman."
+    },
+    {
+      "id": 16,
+      "start": 104.68,
+      "end": 113.4,
+      "text": "To formally welcome our distinguished guests and set the context for this historic event,"
+    },
+    {
+      "id": 17,
+      "start": 113.4,
+      "end": 118.80000000000001,
+      "text": "I would now like to call upon the stage the director of AIIT Delhi, Professor Rangan Banerji."
+    },
+    {
+      "id": 18,
+      "start": 118.80000000000001,
+      "end": 122.80000000000001,
+      "text": "Rangan Banerji"
+    },
+    {
+      "id": 19,
+      "start": 122.80000000000001,
+      "end": 132.3,
+      "text": "Good morning. So nice to see so many of you here. And when it was known that Mr. Sam Altman"
+    },
+    {
+      "id": 20,
+      "start": 132.3,
+      "end": 138.4,
+      "text": "and Vinod Khosla are going to come here, we quickly realized that the Dogra Hall is not going to be"
+    },
+    {
+      "id": 21,
+      "start": 138.4,
+      "end": 148.8,
+      "text": "enough. And all of you are actually privileged. We could have two Dogra Halls here if we wanted to fit in all those who"
+    },
+    {
+      "id": 22,
+      "start": 148.8,
+      "end": 156.76,
+      "text": "had registered from IIT Delhi itself. We have the minor exams going on. I don't know how many of you have"
+    },
+    {
+      "id": 23,
+      "start": 156.76,
+      "end": 165.84,
+      "text": "skipped the minor exams to come here. And I was told some people have finished the two hour exam in an hour and come down here."
+    },
+    {
+      "id": 24,
+      "start": 165.84,
+      "end": 176.24,
+      "text": "How many of you are from outside IIT? Please raise your hands. Excellent. So we hope that all of you would also come for our student"
+    },
+    {
+      "id": 25,
+      "start": 176.24,
+      "end": 179.84,
+      "text": "tech event, Trist, on next week."
+    },
+    {
+      "id": 26,
+      "start": 179.84,
+      "end": 206.84,
+      "text": "I'd like to just take this opportunity to say that as a higher educational institute, IIT Delhi, AI provides an opportunity, but also a challenge. And we need to figure out how we train the future generation of people who are going into the workforce."
+    },
+    {
+      "id": 27,
+      "start": 206.84,
+      "end": 225.84,
+      "text": "Towards this, we created a committee of faculty members, students and staff to look at how do we integrate responsible AI and what is ethical use of AI by faculty, by students."
+    },
+    {
+      "id": 28,
+      "start": 225.84,
+      "end": 242.84,
+      "text": "And this is an ongoing conversation. We have again, we have a dedicated school of AI. We have a M tech program in machine intelligence and data sciences."
+    },
+    {
+      "id": 29,
+      "start": 242.84,
+      "end": 255.84,
+      "text": "We have a PhD program. We have also setting up this year, we will be starting the M tech program in machine intelligence and data sciences in our Abu Dhabi campus."
+    },
+    {
+      "id": 30,
+      "start": 255.84,
+      "end": 266.84000000000003,
+      "text": "We did a curriculum review last year. And in that curriculum review, we we ensure that every student of the institute has."
+    },
+    {
+      "id": 31,
+      "start": 266.84,
+      "end": 273.84,
+      "text": "We have a lot of exposure to exposure to AI in terms of courses, AI and sustainability. This was one of the features of the curriculum review."
+    },
+    {
+      "id": 32,
+      "start": 273.84,
+      "end": 280.84,
+      "text": "I'm not going to go on about this because I we want to hear Mr. Sam Altman and Mr. Vinod Khosla."
+    },
+    {
+      "id": 33,
+      "start": 280.84,
+      "end": 294.84,
+      "text": "I just like to say that just give you one example. We law with the Ministry of Tribal Affairs, we developed a tool called Adi Bani, which are in."
+    },
+    {
+      "id": 34,
+      "start": 294.84,
+      "end": 309.84,
+      "text": "For tribal languages, Santhali, Bani, Mungari and others where we are looking at AI for the community in communities which currently do not have access to this kind of content."
+    },
+    {
+      "id": 35,
+      "start": 309.84,
+      "end": 318.88,
+      "text": "We are looking at ways and we are delighted that we are entering into a partnership with OpenAI."
+    },
+    {
+      "id": 36,
+      "start": 318.88,
+      "end": 333.65999999999997,
+      "text": "We are looking at ways where our students and our faculty will engage with both companies like OpenAI as well as with sovereign AI models"
+    },
+    {
+      "id": 37,
+      "start": 333.66,
+      "end": 341.76000000000005,
+      "text": "so that we can co-develop and create responsible AI which makes a difference in people's lives."
+    },
+    {
+      "id": 38,
+      "start": 341.76000000000005,
+      "end": 346.94000000000005,
+      "text": "I'd like to say that we are delighted to have Mr. Sam Altman here."
+    },
+    {
+      "id": 39,
+      "start": 346.94000000000005,
+      "end": 352.22,
+      "text": "He's a person who's been ahead of the curve in terms of thinking on AI and generative AI."
+    },
+    {
+      "id": 40,
+      "start": 352.22,
+      "end": 360.78000000000003,
+      "text": "We are also delighted to have with us one of our own, Mr. Vinod Khosla, who has always been ahead of the curve."
+    },
+    {
+      "id": 41,
+      "start": 360.78,
+      "end": 377.21999999999997,
+      "text": "And as a student here, I think 1971 to 1976, during that time, he set up one of the first computer laboratories in the IIT system."
+    },
+    {
+      "id": 42,
+      "start": 378.21999999999997,
+      "end": 381.28,
+      "text": "And so he was ahead of the curve at that time."
+    },
+    {
+      "id": 43,
+      "start": 381.28,
+      "end": 393.46,
+      "text": "And he was also ahead of the curve when he, in 2004, I think, he donated to our institute for setting up the school of IIT, which is named after his parents."
+    },
+    {
+      "id": 44,
+      "start": 394.79999999999995,
+      "end": 403.79999999999995,
+      "text": "And we at IIT Delhi are now a 65-year-old institution."
+    },
+    {
+      "id": 45,
+      "start": 403.8,
+      "end": 409.44,
+      "text": "And we are in the process of reimagining our future."
+    },
+    {
+      "id": 46,
+      "start": 409.94,
+      "end": 412.32,
+      "text": "We want to be ahead of the curve in education."
+    },
+    {
+      "id": 47,
+      "start": 413.18,
+      "end": 415.98,
+      "text": "We are looking at IIT Delhi 2035."
+    },
+    {
+      "id": 48,
+      "start": 416.94,
+      "end": 420.90000000000003,
+      "text": "We are looking at changing our infrastructure."
+    },
+    {
+      "id": 49,
+      "start": 420.90000000000003,
+      "end": 421.94,
+      "text": "We are going vertical."
+    },
+    {
+      "id": 50,
+      "start": 422.76,
+      "end": 430.16,
+      "text": "And we are hoping to have Mr. Khosla's support in form of ideas as we do this reimagination."
+    },
+    {
+      "id": 51,
+      "start": 430.16,
+      "end": 436.26000000000005,
+      "text": "So with these few words, I'd like to just say that, like all of you, I'm looking forward to this conversation."
+    },
+    {
+      "id": 52,
+      "start": 436.76000000000005,
+      "end": 437.40000000000003,
+      "text": "Thank you so much."
+    },
+    {
+      "id": 53,
+      "start": 439.0,
+      "end": 439.64000000000004,
+      "text": "Thank you."
+    },
+    {
+      "id": 54,
+      "start": 439.76000000000005,
+      "end": 442.98,
+      "text": "I'd like to call upon the stage Mr. Vinod Khosla and Mr. Sanat."
+    },
+    {
+      "id": 55,
+      "start": 452.52000000000004,
+      "end": 453.74,
+      "text": "Where should we start?"
+    },
+    {
+      "id": 56,
+      "start": 454.0,
+      "end": 457.14000000000004,
+      "text": "Hopefully somebody will keep us honest on time."
+    },
+    {
+      "id": 57,
+      "start": 457.14,
+      "end": 462.8,
+      "text": "Sam, maybe, first, I'm always excited to see so many young people."
+    },
+    {
+      "id": 58,
+      "start": 463.26,
+      "end": 465.97999999999996,
+      "text": "So maybe you can talk about your observations here."
+    },
+    {
+      "id": 59,
+      "start": 466.86,
+      "end": 467.09999999999997,
+      "text": "Yeah."
+    },
+    {
+      "id": 60,
+      "start": 468.96,
+      "end": 472.15999999999997,
+      "text": "This has been a wonderful trip to India for me."
+    },
+    {
+      "id": 61,
+      "start": 472.21999999999997,
+      "end": 473.62,
+      "text": "And I have a lot more exciting stuff today."
+    },
+    {
+      "id": 62,
+      "start": 473.68,
+      "end": 476.64,
+      "text": "But this is the thing I've been most looking forward to of the entire trip."
+    },
+    {
+      "id": 63,
+      "start": 477.88,
+      "end": 482.76,
+      "text": "Watching what's happening with young people around the world, especially in India, though,"
+    },
+    {
+      "id": 64,
+      "start": 482.76,
+      "end": 488.82,
+      "text": "building with incredible energy with AI, the new startups that are going to happen are already happening,"
+    },
+    {
+      "id": 65,
+      "start": 489.38,
+      "end": 494.08,
+      "text": "the new products and services that are going to get created, the just total embrace of AI."
+    },
+    {
+      "id": 66,
+      "start": 494.08,
+      "end": 504.85999999999996,
+      "text": "And the excitement and the desire to bring all of this agency and energy and, you know, speed to the future is awesome."
+    },
+    {
+      "id": 67,
+      "start": 505.78,
+      "end": 514.84,
+      "text": "I don't know about you, Vinod, but I think this is the biggest shift that has happened in the landscape of what a young person can accomplish in my entire life."
+    },
+    {
+      "id": 68,
+      "start": 514.84,
+      "end": 515.14,
+      "text": "Yeah."
+    },
+    {
+      "id": 69,
+      "start": 515.6,
+      "end": 517.26,
+      "text": "It's totally amazing to see."
+    },
+    {
+      "id": 70,
+      "start": 517.74,
+      "end": 519.9200000000001,
+      "text": "And watching what people are doing is just incredible."
+    },
+    {
+      "id": 71,
+      "start": 520.3000000000001,
+      "end": 524.8000000000001,
+      "text": "India has its 100th anniversary of independence in 2047."
+    },
+    {
+      "id": 72,
+      "start": 526.02,
+      "end": 534.12,
+      "text": "And I can't imagine a larger shift by that date than anybody would imagine."
+    },
+    {
+      "id": 73,
+      "start": 534.24,
+      "end": 540.0,
+      "text": "So imagine 2047 and what India might be like by then."
+    },
+    {
+      "id": 74,
+      "start": 540.48,
+      "end": 541.86,
+      "text": "We haven't dropped our question."
+    },
+    {
+      "id": 75,
+      "start": 541.96,
+      "end": 543.74,
+      "text": "We just wanted to have a conversation."
+    },
+    {
+      "id": 76,
+      "start": 543.74,
+      "end": 547.22,
+      "text": "I mean, it's going to depend what all of these people do."
+    },
+    {
+      "id": 77,
+      "start": 547.96,
+      "end": 557.02,
+      "text": "You all will enter adulthood with super intelligence and that's going to change things a lot."
+    },
+    {
+      "id": 78,
+      "start": 557.14,
+      "end": 558.98,
+      "text": "But that is an incredible opportunity."
+    },
+    {
+      "id": 79,
+      "start": 561.08,
+      "end": 568.7,
+      "text": "I have a one-year-old kid and he is never going to know a world where he was smarter than a computer."
+    },
+    {
+      "id": 80,
+      "start": 569.7,
+      "end": 570.1800000000001,
+      "text": "Ever."
+    },
+    {
+      "id": 81,
+      "start": 570.18,
+      "end": 574.9,
+      "text": "He was born just at the right time to never outrun a computer in raw intelligence."
+    },
+    {
+      "id": 82,
+      "start": 575.8599999999999,
+      "end": 579.42,
+      "text": "And, you know, for him, it'll be totally normal life."
+    },
+    {
+      "id": 83,
+      "start": 579.6999999999999,
+      "end": 581.78,
+      "text": "For us, it's a big adaptation."
+    },
+    {
+      "id": 84,
+      "start": 582.2399999999999,
+      "end": 585.76,
+      "text": "For you all, it's like a little strange, but, you know, you're excited about it."
+    },
+    {
+      "id": 85,
+      "start": 585.76,
+      "end": 593.56,
+      "text": "What people can do with GPUs now will be the way that new value gets created in the world."
+    },
+    {
+      "id": 86,
+      "start": 594.6,
+      "end": 597.3,
+      "text": "So I don't know what that's going to look like."
+    },
+    {
+      "id": 87,
+      "start": 598.04,
+      "end": 599.8,
+      "text": "The node doesn't know what that's going to look like."
+    },
+    {
+      "id": 88,
+      "start": 599.84,
+      "end": 608.66,
+      "text": "We got a bunch of high-level guesses, but we're not going to be the ones that build that into all of these incredible new companies that people will do with that."
+    },
+    {
+      "id": 89,
+      "start": 608.66,
+      "end": 613.8,
+      "text": "Examples that we both like are education is clearly going to totally change."
+    },
+    {
+      "id": 90,
+      "start": 613.92,
+      "end": 615.56,
+      "text": "Healthcare is clearly totally going to change."
+    },
+    {
+      "id": 91,
+      "start": 615.9599999999999,
+      "end": 618.1999999999999,
+      "text": "What it means to do work is going to totally change."
+    },
+    {
+      "id": 92,
+      "start": 618.7199999999999,
+      "end": 625.06,
+      "text": "Companies may be a few people and a giant data center and build incredible new kinds of value."
+    },
+    {
+      "id": 93,
+      "start": 625.6999999999999,
+      "end": 630.12,
+      "text": "What it means to do physical work will change as robots can automate more and more manufacturing."
+    },
+    {
+      "id": 94,
+      "start": 630.56,
+      "end": 633.06,
+      "text": "Certainly what it means to discover science is going to change."
+    },
+    {
+      "id": 95,
+      "start": 633.06,
+      "end": 642.8399999999999,
+      "text": "The growth rate of economic value in the world, the increase in quality of life, a quote that someone from OpenAI said to me recently that has really stuck with me,"
+    },
+    {
+      "id": 96,
+      "start": 643.8399999999999,
+      "end": 653.16,
+      "text": "is we built up a lot of instincts and institutions, policies, structure to deal with a world of scarcity."
+    },
+    {
+      "id": 97,
+      "start": 653.6999999999999,
+      "end": 656.9399999999999,
+      "text": "But almost none of that applies well to a world of abundance."
+    },
+    {
+      "id": 98,
+      "start": 656.94,
+      "end": 666.1600000000001,
+      "text": "And in addition to building all of these new kinds of companies and products and services, society is going to have to get reimagined for this world of incredible abundance."
+    },
+    {
+      "id": 99,
+      "start": 666.7600000000001,
+      "end": 667.7800000000001,
+      "text": "You've thought about this a lot."
+    },
+    {
+      "id": 100,
+      "start": 667.9000000000001,
+      "end": 669.5,
+      "text": "Yeah, I've spent a lot of time."
+    },
+    {
+      "id": 101,
+      "start": 669.8000000000001,
+      "end": 671.3800000000001,
+      "text": "Let's ask some practical questions."
+    },
+    {
+      "id": 102,
+      "start": 671.5400000000001,
+      "end": 679.72,
+      "text": "Do you think GDP rates, from whatever is projected by economists today, in every country has its 15 and 25 year forecasts,"
+    },
+    {
+      "id": 103,
+      "start": 679.72,
+      "end": 684.1,
+      "text": "do you think they double, more than double what happens?"
+    },
+    {
+      "id": 104,
+      "start": 684.86,
+      "end": 690.5600000000001,
+      "text": "I think GDP is going to turn out to be a terrible metric because AI is so deflationary."
+    },
+    {
+      "id": 105,
+      "start": 690.7,
+      "end": 696.14,
+      "text": "What we want to measure, and I think what GDP is meant to approximate, is sort of quality of life."
+    },
+    {
+      "id": 106,
+      "start": 696.38,
+      "end": 696.52,
+      "text": "Yeah."
+    },
+    {
+      "id": 107,
+      "start": 696.64,
+      "end": 698.0,
+      "text": "And quality of life."
+    },
+    {
+      "id": 108,
+      "start": 698.0,
+      "end": 706.1,
+      "text": "Technically, it's a definition of goods and services, but it's measured in dollars, which is money will be a whole different thing."
+    },
+    {
+      "id": 109,
+      "start": 706.1,
+      "end": 706.32,
+      "text": "Yeah."
+    },
+    {
+      "id": 110,
+      "start": 706.5400000000001,
+      "end": 713.14,
+      "text": "So I think a proper metric of what GDP is trying to approximate, growth rate will more than double for sure."
+    },
+    {
+      "id": 111,
+      "start": 715.14,
+      "end": 719.9,
+      "text": "GDP measured in nominal dollars, that probably gets kind of squirrely."
+    },
+    {
+      "id": 112,
+      "start": 720.26,
+      "end": 726.6,
+      "text": "Actually, to ask you a weird question, interest rates in five more years, negative 2% or 20%?"
+    },
+    {
+      "id": 113,
+      "start": 726.6,
+      "end": 735.9200000000001,
+      "text": "I think by 2035, for sure, we will have a hugely deflationary economy that the world isn't thinking about."
+    },
+    {
+      "id": 114,
+      "start": 736.58,
+      "end": 741.9,
+      "text": "It's interesting because Google just issued 100-year bonds."
+    },
+    {
+      "id": 115,
+      "start": 742.5600000000001,
+      "end": 753.4,
+      "text": "And I said, by 2035, you should own all those bonds because the world will be so deflationary that it's hard to imagine anybody pretending."
+    },
+    {
+      "id": 116,
+      "start": 753.4,
+      "end": 765.5,
+      "text": "And this is sort of this notion of, you know, the world doesn't yet know how large the change is, and they're going on as business as usual."
+    },
+    {
+      "id": 117,
+      "start": 766.24,
+      "end": 770.54,
+      "text": "I think one of your engineers wrote a great manifesto."
+    },
+    {
+      "id": 118,
+      "start": 771.9,
+      "end": 773.76,
+      "text": "Can you talk about that a little bit?"
+    },
+    {
+      "id": 119,
+      "start": 774.22,
+      "end": 774.92,
+      "text": "Which manifesto?"
+    },
+    {
+      "id": 120,
+      "start": 775.62,
+      "end": 776.6999999999999,
+      "text": "People do a few of these."
+    },
+    {
+      "id": 121,
+      "start": 776.7,
+      "end": 777.32,
+      "text": "I'm getting the name."
+    },
+    {
+      "id": 122,
+      "start": 777.38,
+      "end": 779.94,
+      "text": "I just mentioned it earlier in the conversation."
+    },
+    {
+      "id": 123,
+      "start": 782.46,
+      "end": 787.76,
+      "text": "Essentially, that the world is clueless about what's going on and the magnitude of the change."
+    },
+    {
+      "id": 124,
+      "start": 788.1800000000001,
+      "end": 789.86,
+      "text": "It will come to me in just a second."
+    },
+    {
+      "id": 125,
+      "start": 789.86,
+      "end": 796.2,
+      "text": "I think even people who work in AI, we feel a little bit clueless about the magnitude of the change."
+    },
+    {
+      "id": 126,
+      "start": 797.0,
+      "end": 798.78,
+      "text": "Codex is an example."
+    },
+    {
+      "id": 127,
+      "start": 799.42,
+      "end": 803.5600000000001,
+      "text": "By the way, Codex is growing in India faster than anywhere in the world and mostly with young people."
+    },
+    {
+      "id": 128,
+      "start": 804.0600000000001,
+      "end": 811.64,
+      "text": "But Codex is an example of where everyone's intuitions, even though we knew this intellectually, emotionally, we were all hit by it."
+    },
+    {
+      "id": 129,
+      "start": 811.64,
+      "end": 819.26,
+      "text": "We have lots of Codex access inside of OpenAI and what it means to be an engineer, what it means to be a researcher."
+    },
+    {
+      "id": 130,
+      "start": 819.52,
+      "end": 820.8,
+      "text": "It changed so much so quickly."
+    },
+    {
+      "id": 131,
+      "start": 822.04,
+      "end": 825.14,
+      "text": "That is just going to happen again and again throughout the economy."
+    },
+    {
+      "id": 132,
+      "start": 825.14,
+      "end": 840.3,
+      "text": "And if you believe, which I do, that the top level driver of the economy and of life getting better and better every year is scientific discovery."
+    },
+    {
+      "id": 133,
+      "start": 840.66,
+      "end": 847.08,
+      "text": "And then the second most important thing is the economic engine around that that brings these new capabilities out into the world."
+    },
+    {
+      "id": 134,
+      "start": 847.28,
+      "end": 850.2,
+      "text": "And both of those are going to get automated at the same time."
+    },
+    {
+      "id": 135,
+      "start": 850.26,
+      "end": 851.68,
+      "text": "We're going to automate scientific progress."
+    },
+    {
+      "id": 136,
+      "start": 852.0,
+      "end": 853.12,
+      "text": "We're going to automate the whole economy."
+    },
+    {
+      "id": 137,
+      "start": 853.12,
+      "end": 861.02,
+      "text": "And you think about what that really would mean if these things can happen 10 times faster, 100 times faster than we've been able to do it on our own."
+    },
+    {
+      "id": 138,
+      "start": 862.38,
+      "end": 868.96,
+      "text": "We were not, we did not evolve to have intuitions about that kind of a growth rate and that kind of compounding."
+    },
+    {
+      "id": 139,
+      "start": 869.04,
+      "end": 870.0600000000001,
+      "text": "So I don't know."
+    },
+    {
+      "id": 140,
+      "start": 870.2,
+      "end": 874.44,
+      "text": "But if you were back here as a student, what would you do tomorrow?"
+    },
+    {
+      "id": 141,
+      "start": 874.92,
+      "end": 876.6,
+      "text": "No, I've thought about it a lot."
+    },
+    {
+      "id": 142,
+      "start": 876.6,
+      "end": 884.2,
+      "text": "The way I frame the minimum level of change to imagine 15 years from now."
+    },
+    {
+      "id": 143,
+      "start": 884.84,
+      "end": 886.22,
+      "text": "So imagine 2040."
+    },
+    {
+      "id": 144,
+      "start": 886.22,
+      "end": 901.0400000000001,
+      "text": "I have to say, I imagine life, the delta being the same between now and 2014, or 2040, as it is between today and 1970."
+    },
+    {
+      "id": 145,
+      "start": 901.96,
+      "end": 905.2,
+      "text": "So look back at technology in 1970."
+    },
+    {
+      "id": 146,
+      "start": 905.76,
+      "end": 908.1800000000001,
+      "text": "That's my assumption about delta."
+    },
+    {
+      "id": 147,
+      "start": 908.18,
+      "end": 910.5999999999999,
+      "text": "And I think that's too conservative a notion."
+    },
+    {
+      "id": 148,
+      "start": 911.1999999999999,
+      "end": 912.8199999999999,
+      "text": "I think that's too conservative."
+    },
+    {
+      "id": 149,
+      "start": 913.28,
+      "end": 913.42,
+      "text": "Yeah."
+    },
+    {
+      "id": 150,
+      "start": 913.78,
+      "end": 916.9,
+      "text": "So that's the magnitude of change."
+    },
+    {
+      "id": 151,
+      "start": 916.9,
+      "end": 920.6999999999999,
+      "text": "And people ask me, so what should we do?"
+    },
+    {
+      "id": 152,
+      "start": 921.18,
+      "end": 924.28,
+      "text": "I say, learn how to learn really, really fast."
+    },
+    {
+      "id": 153,
+      "start": 924.98,
+      "end": 928.38,
+      "text": "Like, your area of expertise doesn't matter."
+    },
+    {
+      "id": 154,
+      "start": 929.38,
+      "end": 934.16,
+      "text": "Whether you're an electrical engineer or a mechanical engineer is largely going to be irrelevant."
+    },
+    {
+      "id": 155,
+      "start": 935.16,
+      "end": 941.22,
+      "text": "In fact, I scared the director a little bit, saying, nothing you learn will be irrelevant, even in 2030."
+    },
+    {
+      "id": 156,
+      "start": 941.22,
+      "end": 950.6800000000001,
+      "text": "When the first year students graduate, you won't have learned anything that the AI doesn't know better."
+    },
+    {
+      "id": 157,
+      "start": 950.98,
+      "end": 953.24,
+      "text": "I don't know, Sam, if you agree with me, you're nice."
+    },
+    {
+      "id": 158,
+      "start": 954.1,
+      "end": 957.34,
+      "text": "You won't know any technical field better."
+    },
+    {
+      "id": 159,
+      "start": 958.0400000000001,
+      "end": 961.64,
+      "text": "You may understand better what people want."
+    },
+    {
+      "id": 160,
+      "start": 961.64,
+      "end": 974.1999999999999,
+      "text": "You may understand much better how to interact with people, motivate people, how to come up with creative ideas, how to sort of quickly create value."
+    },
+    {
+      "id": 161,
+      "start": 975.26,
+      "end": 978.92,
+      "text": "But yeah, any technical skill that you learn, the AI will be better at."
+    },
+    {
+      "id": 162,
+      "start": 979.48,
+      "end": 980.68,
+      "text": "It's still worth learning."
+    },
+    {
+      "id": 163,
+      "start": 981.4399999999999,
+      "end": 984.54,
+      "text": "You know, like someone asked me recently, do I ever regret learning to program?"
+    },
+    {
+      "id": 164,
+      "start": 986.0,
+      "end": 988.7,
+      "text": "Because, you know, clearly the AI is a better programmer than I know."
+    },
+    {
+      "id": 165,
+      "start": 988.7,
+      "end": 992.5600000000001,
+      "text": "And the answer is not at all."
+    },
+    {
+      "id": 166,
+      "start": 992.6600000000001,
+      "end": 993.94,
+      "text": "I also don't regret learning math."
+    },
+    {
+      "id": 167,
+      "start": 994.12,
+      "end": 995.9000000000001,
+      "text": "You know, I never use math as an adult."
+    },
+    {
+      "id": 168,
+      "start": 996.4000000000001,
+      "end": 999.0,
+      "text": "Learning how to think, learning how to learn quickly."
+    },
+    {
+      "id": 169,
+      "start": 999.24,
+      "end": 1002.94,
+      "text": "This was all a valuable skill, but it was all of the meta skills that matter."
+    },
+    {
+      "id": 170,
+      "start": 1004.4200000000001,
+      "end": 1013.76,
+      "text": "I mean, the one thing that I think we could say with confidence of a specific skill to learn is when I was in school, learning to program was the obvious thing."
+    },
+    {
+      "id": 171,
+      "start": 1013.76,
+      "end": 1016.0600000000001,
+      "text": "Now learning to use these tools is the obvious thing."
+    },
+    {
+      "id": 172,
+      "start": 1016.06,
+      "end": 1020.0,
+      "text": "And the fluency that people pick up with each new generation."
+    },
+    {
+      "id": 173,
+      "start": 1020.64,
+      "end": 1025.12,
+      "text": "If you sort of are pushing as much as possible on the edge, that seems very valuable."
+    },
+    {
+      "id": 174,
+      "start": 1025.8,
+      "end": 1029.02,
+      "text": "If you're a college student, what do you think matters the most?"
+    },
+    {
+      "id": 175,
+      "start": 1030.3,
+      "end": 1035.0,
+      "text": "What will matter when the technical knowledge they have doesn't matter?"
+    },
+    {
+      "id": 176,
+      "start": 1035.0,
+      "end": 1040.16,
+      "text": "An electrical engineer can do a structural engineer's job quite easily."
+    },
+    {
+      "id": 177,
+      "start": 1040.96,
+      "end": 1048.0,
+      "text": "And by the way, we're building both structural engineers, chip designers, and electrical engineers today."
+    },
+    {
+      "id": 178,
+      "start": 1048.36,
+      "end": 1052.4,
+      "text": "That'll be used pervasive everywhere."
+    },
+    {
+      "id": 179,
+      "start": 1052.74,
+      "end": 1054.48,
+      "text": "So what do you think matters?"
+    },
+    {
+      "id": 180,
+      "start": 1054.48,
+      "end": 1062.4,
+      "text": "Well, I know I just said this, but I can't emphasize enough how important I think it is to stay on the forefront of the tools."
+    },
+    {
+      "id": 181,
+      "start": 1062.6,
+      "end": 1065.84,
+      "text": "I expect that to be a compounding accelerant."
+    },
+    {
+      "id": 182,
+      "start": 1065.84,
+      "end": 1073.62,
+      "text": "So building projects all the time to figure out what's going to be possible."
+    },
+    {
+      "id": 183,
+      "start": 1073.62,
+      "end": 1077.86,
+      "text": "And it's going to rapidly increase every couple of months from now on."
+    },
+    {
+      "id": 184,
+      "start": 1078.34,
+      "end": 1079.4399999999998,
+      "text": "That really matters."
+    },
+    {
+      "id": 185,
+      "start": 1079.44,
+      "end": 1089.0800000000002,
+      "text": "The class that I wish my college had offered, the motto of Y Combinator is make something people want."
+    },
+    {
+      "id": 186,
+      "start": 1089.72,
+      "end": 1095.78,
+      "text": "And it is, I think, for 21 years now, been like the best motto of any investor."
+    },
+    {
+      "id": 187,
+      "start": 1095.78,
+      "end": 1105.06,
+      "text": "And I wish my school had offered a class on that, because I think that is a learnable skill, figuring that out."
+    },
+    {
+      "id": 188,
+      "start": 1105.36,
+      "end": 1114.56,
+      "text": "And that's going to be ever more important in a world where you can sort of make anything happen, figuring out how to get good ideas,"
+    },
+    {
+      "id": 189,
+      "start": 1114.82,
+      "end": 1117.54,
+      "text": "which, like anything else, deliberate practice seems to improve."
+    },
+    {
+      "id": 190,
+      "start": 1118.36,
+      "end": 1119.62,
+      "text": "That seems to matter a lot."
+    },
+    {
+      "id": 191,
+      "start": 1119.62,
+      "end": 1120.12,
+      "text": "Yeah."
+    },
+    {
+      "id": 192,
+      "start": 1120.12,
+      "end": 1127.34,
+      "text": "So my personal view, what's most important to learn is curiosity and agency."
+    },
+    {
+      "id": 193,
+      "start": 1127.56,
+      "end": 1132.04,
+      "text": "Can you tell me if you agree, disagree, elaborate on that?"
+    },
+    {
+      "id": 194,
+      "start": 1133.04,
+      "end": 1134.2199999999998,
+      "text": "I totally agree."
+    },
+    {
+      "id": 195,
+      "start": 1134.9799999999998,
+      "end": 1138.36,
+      "text": "I think agency is also a learnable skill."
+    },
+    {
+      "id": 196,
+      "start": 1138.84,
+      "end": 1140.6799999999998,
+      "text": "The world kind of beats it out of you."
+    },
+    {
+      "id": 197,
+      "start": 1140.76,
+      "end": 1146.9399999999998,
+      "text": "So you have to resist and continue to believe that you can sort of figure out anything and make anything happen."
+    },
+    {
+      "id": 198,
+      "start": 1146.94,
+      "end": 1150.0800000000002,
+      "text": "And the more times you do it, the more self-belief you develop."
+    },
+    {
+      "id": 199,
+      "start": 1151.8400000000001,
+      "end": 1154.1200000000001,
+      "text": "Many people learn this late in their careers."
+    },
+    {
+      "id": 200,
+      "start": 1154.5,
+      "end": 1156.3600000000001,
+      "text": "It is super valuable to learn early."
+    },
+    {
+      "id": 201,
+      "start": 1156.94,
+      "end": 1163.52,
+      "text": "Like other things, you just have to start and you have to keep doing it and you'll develop confidence in it."
+    },
+    {
+      "id": 202,
+      "start": 1163.98,
+      "end": 1169.1000000000001,
+      "text": "But the returns on agency clearly have never been higher."
+    },
+    {
+      "id": 203,
+      "start": 1169.44,
+      "end": 1172.8400000000001,
+      "text": "You know, we've talked for a long time about what one person is going to be able to do with AI."
+    },
+    {
+      "id": 204,
+      "start": 1172.98,
+      "end": 1174.16,
+      "text": "We're finally seeing it now."
+    },
+    {
+      "id": 205,
+      "start": 1174.16,
+      "end": 1180.48,
+      "text": "A single person with drive and an idea and willpower can make incredible things happen."
+    },
+    {
+      "id": 206,
+      "start": 1181.3000000000002,
+      "end": 1194.64,
+      "text": "And in some sense, the most important learning of my entire career has been that if you are right on the idea, no matter how unpopular it is, in fact, it's often better to be unpopular because you have no one else you're competing with doing it."
+    },
+    {
+      "id": 207,
+      "start": 1194.64,
+      "end": 1203.98,
+      "text": "And you stick with unwavering conviction over a long time and you just knock down obstacle after obstacle with no loss of enthusiasm between each setback."
+    },
+    {
+      "id": 208,
+      "start": 1203.98,
+      "end": 1206.02,
+      "text": "You can accomplish amazing things."
+    },
+    {
+      "id": 209,
+      "start": 1206.08,
+      "end": 1207.78,
+      "text": "This was certainly the story of OpenAI."
+    },
+    {
+      "id": 210,
+      "start": 1208.56,
+      "end": 1210.56,
+      "text": "Now it obviously looks like a great thing."
+    },
+    {
+      "id": 211,
+      "start": 1210.7,
+      "end": 1214.68,
+      "text": "But when we started, it seemed totally crazy."
+    },
+    {
+      "id": 212,
+      "start": 1214.88,
+      "end": 1221.38,
+      "text": "And it was just like a bunch of us were in a room with force of will and sort of an attitude that we were going to do it no matter what."
+    },
+    {
+      "id": 213,
+      "start": 1221.38,
+      "end": 1226.3600000000001,
+      "text": "And then even the first like four or five years of OpenAI, it was sort of it seemed like a very bad idea."
+    },
+    {
+      "id": 214,
+      "start": 1226.8400000000001,
+      "end": 1228.0400000000002,
+      "text": "Thank you for believing in it, by the way."
+    },
+    {
+      "id": 215,
+      "start": 1229.66,
+      "end": 1237.46,
+      "text": "And the agency that we had all developed earlier in our careers, which I wish we had developed even earlier, was critical to making it happen."
+    },
+    {
+      "id": 216,
+      "start": 1237.46,
+      "end": 1242.4,
+      "text": "Yeah, I would say you heard a couple of quotes."
+    },
+    {
+      "id": 217,
+      "start": 1242.94,
+      "end": 1250.14,
+      "text": "I think one said the best way to predict the future is to invent it."
+    },
+    {
+      "id": 218,
+      "start": 1250.48,
+      "end": 1252.6200000000001,
+      "text": "I go on to add to it."
+    },
+    {
+      "id": 219,
+      "start": 1252.74,
+      "end": 1254.5,
+      "text": "That was Alan Kay who said that."
+    },
+    {
+      "id": 220,
+      "start": 1254.58,
+      "end": 1260.44,
+      "text": "And I say invent the future you want because now more than ever, that's possible."
+    },
+    {
+      "id": 221,
+      "start": 1260.98,
+      "end": 1262.22,
+      "text": "The key is agency."
+    },
+    {
+      "id": 222,
+      "start": 1262.22,
+      "end": 1266.06,
+      "text": "And it's always been available where you can make the world you want happen."
+    },
+    {
+      "id": 223,
+      "start": 1266.06,
+      "end": 1278.58,
+      "text": "The director said I was part of four students who started the first computer programming club at IIT Delhi, which was any programming in any IIT had never existed."
+    },
+    {
+      "id": 224,
+      "start": 1279.02,
+      "end": 1280.34,
+      "text": "We just wanted it."
+    },
+    {
+      "id": 225,
+      "start": 1280.3999999999999,
+      "end": 1281.5,
+      "text": "So we made it happen."
+    },
+    {
+      "id": 226,
+      "start": 1282.32,
+      "end": 1296.04,
+      "text": "I also with Professor Guha here in 1970s started the biomedical engineering program, which is the other side, which is I got curious as an electrical engineer about electrical phenomena in the body."
+    },
+    {
+      "id": 227,
+      "start": 1296.06,
+      "end": 1306.24,
+      "text": "And convinced Professor Guha to start the first biomedical program anywhere in India with the All India Institute of Medical Sciences."
+    },
+    {
+      "id": 228,
+      "start": 1306.24,
+      "end": 1309.4199999999998,
+      "text": "I give that as example of I was 16."
+    },
+    {
+      "id": 229,
+      "start": 1309.6399999999999,
+      "end": 1310.34,
+      "text": "I was 17."
+    },
+    {
+      "id": 230,
+      "start": 1311.08,
+      "end": 1313.8,
+      "text": "You can make anything happen if you want to."
+    },
+    {
+      "id": 231,
+      "start": 1313.94,
+      "end": 1315.6,
+      "text": "And that's what agency is about."
+    },
+    {
+      "id": 232,
+      "start": 1315.6,
+      "end": 1322.1,
+      "text": "And when technology and tools make almost anything possible, agency is what matters."
+    },
+    {
+      "id": 233,
+      "start": 1322.26,
+      "end": 1328.9399999999998,
+      "text": "Curiosity for learning and always staying at the leading edge and agency to make the world happen."
+    },
+    {
+      "id": 234,
+      "start": 1329.4399999999998,
+      "end": 1332.08,
+      "text": "There's never been an opportunity to do startups."
+    },
+    {
+      "id": 235,
+      "start": 1332.52,
+      "end": 1335.28,
+      "text": "I'm very excited by this little company we invested in."
+    },
+    {
+      "id": 236,
+      "start": 1335.34,
+      "end": 1336.6599999999999,
+      "text": "They approached me a few months ago."
+    },
+    {
+      "id": 237,
+      "start": 1336.66,
+      "end": 1340.46,
+      "text": "Emergent launched a product in July or August."
+    },
+    {
+      "id": 238,
+      "start": 1340.46,
+      "end": 1347.22,
+      "text": "Last week they called me and said they'd exceeded a hundred million dollar ARR rate in eight months."
+    },
+    {
+      "id": 239,
+      "start": 1347.64,
+      "end": 1353.38,
+      "text": "The fastest I've seen anybody grow, even Lovable or Replet or any of those companies."
+    },
+    {
+      "id": 240,
+      "start": 1354.3000000000002,
+      "end": 1357.94,
+      "text": "So that opportunity exists for all of you."
+    },
+    {
+      "id": 241,
+      "start": 1358.16,
+      "end": 1360.4,
+      "text": "I don't know if you want to do a finishing comment."
+    },
+    {
+      "id": 242,
+      "start": 1361.3200000000002,
+      "end": 1363.74,
+      "text": "I can't really say anything better than that."
+    },
+    {
+      "id": 243,
+      "start": 1363.74,
+      "end": 1365.84,
+      "text": "This is like a special time."
+    },
+    {
+      "id": 244,
+      "start": 1366.02,
+      "end": 1370.72,
+      "text": "This is, I think, the best time ever to be starting off careers."
+    },
+    {
+      "id": 245,
+      "start": 1372.22,
+      "end": 1373.84,
+      "text": "And yeah, the opportunity is incredible."
+    },
+    {
+      "id": 246,
+      "start": 1374.4,
+      "end": 1374.54,
+      "text": "Yeah."
+    },
+    {
+      "id": 247,
+      "start": 1374.84,
+      "end": 1378.06,
+      "text": "I'll finish my last quote I have."
+    },
+    {
+      "id": 248,
+      "start": 1378.78,
+      "end": 1383.14,
+      "text": "Most people, especially in India, are especially averse to risk."
+    },
+    {
+      "id": 249,
+      "start": 1384.2,
+      "end": 1389.64,
+      "text": "There's a Harvard Business School where the case that starts with a quote from me saying,"
+    },
+    {
+      "id": 250,
+      "start": 1389.64,
+      "end": 1393.5,
+      "text": "my willingness to fail allows me to succeed."
+    },
+    {
+      "id": 251,
+      "start": 1393.8600000000001,
+      "end": 1397.66,
+      "text": "So I really encourage all of you to go be risk-taking."
+    },
+    {
+      "id": 252,
+      "start": 1398.38,
+      "end": 1408.0600000000002,
+      "text": "There's so much opportunity to take advantage of it, take advantage of tools, curiosity, agency, risk-taking,"
+    },
+    {
+      "id": 253,
+      "start": 1408.06,
+      "end": 1413.4199999999998,
+      "text": "and then persistence because the path is never simple or smooth."
+    },
+    {
+      "id": 254,
+      "start": 1413.62,
+      "end": 1415.72,
+      "text": "So you have to persist through the hard times."
+    },
+    {
+      "id": 255,
+      "start": 1416.3,
+      "end": 1416.8,
+      "text": "Thank you."
+    },
+    {
+      "id": 256,
+      "start": 1417.04,
+      "end": 1420.24,
+      "text": "I think there's, we are at the end of our talk."
+    },
+    {
+      "id": 257,
+      "start": 1420.24,
+      "end": 1420.44,
+      "text": "Okay."
+    },
+    {
+      "id": 258,
+      "start": 1420.44,
+      "end": 1425.8,
+      "text": "What a wonderful conversation, guys."
+    },
+    {
+      "id": 259,
+      "start": 1426.0,
+      "end": 1428.18,
+      "text": "We had Ms. Sunita Williams a month back."
+    },
+    {
+      "id": 260,
+      "start": 1428.38,
+      "end": 1434.38,
+      "text": "And the idea that learning is such an important thing for such huge personas, for such huge"
+    },
+    {
+      "id": 261,
+      "start": 1434.38,
+      "end": 1438.6000000000001,
+      "text": "solvers, I think that is one of the most humbling things we learn here today."
+    },
+    {
+      "id": 262,
+      "start": 1438.6,
+      "end": 1444.3999999999999,
+      "text": "Now we'd like to open up the floor for students to ask their own questions."
+    },
+    {
+      "id": 263,
+      "start": 1444.62,
+      "end": 1450.54,
+      "text": "For this, I'd like to invite on stage Mr. Raghav Gupta, the head of education for OpenAI in India."
+    },
+    {
+      "id": 264,
+      "start": 1451.1799999999998,
+      "end": 1456.78,
+      "text": "He's currently leading partnerships with academic institutions, ensuring that AI is integrated"
+    },
+    {
+      "id": 265,
+      "start": 1456.78,
+      "end": 1459.06,
+      "text": "responsibly across all dimensions."
+    },
+    {
+      "id": 266,
+      "start": 1460.02,
+      "end": 1460.4599999999998,
+      "text": "Mr. Raghav."
+    },
+    {
+      "id": 267,
+      "start": 1464.24,
+      "end": 1465.1,
+      "text": "Good morning."
+    },
+    {
+      "id": 268,
+      "start": 1465.4199999999998,
+      "end": 1467.36,
+      "text": "It's incredible seeing a packed hall."
+    },
+    {
+      "id": 269,
+      "start": 1468.6,
+      "end": 1473.58,
+      "text": "Sam, I know you have a packed few days in India and many senior meetings."
+    },
+    {
+      "id": 270,
+      "start": 1474.3,
+      "end": 1477.24,
+      "text": "But to me, it seems like this is going to be the most exciting session."
+    },
+    {
+      "id": 271,
+      "start": 1477.36,
+      "end": 1478.1799999999998,
+      "text": "Would you agree?"
+    },
+    {
+      "id": 272,
+      "start": 1478.36,
+      "end": 1478.62,
+      "text": "I do."
+    },
+    {
+      "id": 273,
+      "start": 1479.62,
+      "end": 1483.28,
+      "text": "And I'd love to ask the students as well, are you all excited for this conversation?"
+    },
+    {
+      "id": 274,
+      "start": 1484.76,
+      "end": 1485.6999999999998,
+      "text": "I mean, come on."
+    },
+    {
+      "id": 275,
+      "start": 1487.08,
+      "end": 1488.26,
+      "text": "Now we can do better."
+    },
+    {
+      "id": 276,
+      "start": 1490.12,
+      "end": 1492.2199999999998,
+      "text": "Are you all excited for this conversation with Sam?"
+    },
+    {
+      "id": 277,
+      "start": 1492.22,
+      "end": 1499.32,
+      "text": "So we have some of India's bright young minds here."
+    },
+    {
+      "id": 278,
+      "start": 1499.48,
+      "end": 1500.74,
+      "text": "And they're studying engineering."
+    },
+    {
+      "id": 279,
+      "start": 1500.74,
+      "end": 1502.38,
+      "text": "They're studying computer science."
+    },
+    {
+      "id": 280,
+      "start": 1502.82,
+      "end": 1506.34,
+      "text": "I think we have health sciences, management, design, and so on."
+    },
+    {
+      "id": 281,
+      "start": 1506.34,
+      "end": 1510.48,
+      "text": "I think you all sent us like 800 plus questions."
+    },
+    {
+      "id": 282,
+      "start": 1510.84,
+      "end": 1512.0,
+      "text": "We can't take all 800."
+    },
+    {
+      "id": 283,
+      "start": 1512.0,
+      "end": 1514.46,
+      "text": "But I've shortlisted the broad themes."
+    },
+    {
+      "id": 284,
+      "start": 1515.06,
+      "end": 1517.02,
+      "text": "And we'll invite you to ask them live."
+    },
+    {
+      "id": 285,
+      "start": 1518.7,
+      "end": 1520.08,
+      "text": "I'll kick us off a little bit."
+    },
+    {
+      "id": 286,
+      "start": 1520.58,
+      "end": 1523.88,
+      "text": "Sam, you wrote this article in Times of India earlier this week."
+    },
+    {
+      "id": 287,
+      "start": 1523.88,
+      "end": 1529.66,
+      "text": "And the headline kind of captured your message very nicely, where it said that AI will define"
+    },
+    {
+      "id": 288,
+      "start": 1529.66,
+      "end": 1530.42,
+      "text": "India's future."
+    },
+    {
+      "id": 289,
+      "start": 1531.0800000000002,
+      "end": 1534.96,
+      "text": "And India will define AI's future as well."
+    },
+    {
+      "id": 290,
+      "start": 1535.1200000000001,
+      "end": 1539.1200000000001,
+      "text": "And I know at the AI summit, you've seen a lot of what's happening around development"
+    },
+    {
+      "id": 291,
+      "start": 1539.1200000000001,
+      "end": 1539.6000000000001,
+      "text": "in AI."
+    },
+    {
+      "id": 292,
+      "start": 1539.72,
+      "end": 1542.6200000000001,
+      "text": "Would you like to talk a little bit about your impressions there?"
+    },
+    {
+      "id": 293,
+      "start": 1543.4,
+      "end": 1545.3600000000001,
+      "text": "India is already our second largest market."
+    },
+    {
+      "id": 294,
+      "start": 1545.92,
+      "end": 1548.66,
+      "text": "There's 100 million ChatGPT users."
+    },
+    {
+      "id": 295,
+      "start": 1548.96,
+      "end": 1549.8400000000001,
+      "text": "A third of them are students."
+    },
+    {
+      "id": 296,
+      "start": 1550.3000000000002,
+      "end": 1551.64,
+      "text": "Fastest growing codex market in the world."
+    },
+    {
+      "id": 297,
+      "start": 1551.64,
+      "end": 1554.0,
+      "text": "India should be our largest market over time."
+    },
+    {
+      "id": 298,
+      "start": 1554.4,
+      "end": 1561.26,
+      "text": "More than just the usage of products like ChatGPT, the building energy in India seems like"
+    },
+    {
+      "id": 299,
+      "start": 1561.26,
+      "end": 1563.44,
+      "text": "it is growing faster than anywhere else."
+    },
+    {
+      "id": 300,
+      "start": 1563.5200000000002,
+      "end": 1568.8600000000001,
+      "text": "The desire to really create new kinds of products and services, brand new companies that are all"
+    },
+    {
+      "id": 301,
+      "start": 1568.8600000000001,
+      "end": 1569.3000000000002,
+      "text": "about AI."
+    },
+    {
+      "id": 302,
+      "start": 1570.0600000000002,
+      "end": 1572.2,
+      "text": "This is, yeah, it's just amazing."
+    },
+    {
+      "id": 303,
+      "start": 1572.38,
+      "end": 1573.6200000000001,
+      "text": "So it's been great to be here."
+    },
+    {
+      "id": 304,
+      "start": 1574.3200000000002,
+      "end": 1574.46,
+      "text": "Wonderful."
+    },
+    {
+      "id": 305,
+      "start": 1575.1200000000001,
+      "end": 1579.2,
+      "text": "So we're going to go to the students next and we'll open it up live."
+    },
+    {
+      "id": 306,
+      "start": 1579.2,
+      "end": 1582.98,
+      "text": "I think we have Mukund who's going to ask the first question."
+    },
+    {
+      "id": 307,
+      "start": 1583.5,
+      "end": 1584.8600000000001,
+      "text": "And Mukund is from IIT Delhi."
+    },
+    {
+      "id": 308,
+      "start": 1585.72,
+      "end": 1587.64,
+      "text": "Let's get started with Mukund then."
+    },
+    {
+      "id": 309,
+      "start": 1588.3600000000001,
+      "end": 1588.98,
+      "text": "Hi, Sam."
+    },
+    {
+      "id": 310,
+      "start": 1589.14,
+      "end": 1592.4,
+      "text": "I'm Mukund from the Department of Mathematics, IIT Delhi."
+    },
+    {
+      "id": 311,
+      "start": 1592.5,
+      "end": 1595.66,
+      "text": "I'm in my final year pursuing an integrated master's degree."
+    },
+    {
+      "id": 312,
+      "start": 1595.66,
+      "end": 1601.0400000000002,
+      "text": "So my question is, you have talked about intelligence becoming a cheap utility, but we are seeing"
+    },
+    {
+      "id": 313,
+      "start": 1601.0400000000002,
+      "end": 1605.1200000000001,
+      "text": "specialized high reasoning models being gated by premium subscriptions."
+    },
+    {
+      "id": 314,
+      "start": 1605.6000000000001,
+      "end": 1610.74,
+      "text": "So how do you reconcile the concept of broad access with the economic viability of these"
+    },
+    {
+      "id": 315,
+      "start": 1610.74,
+      "end": 1611.46,
+      "text": "frontier models?"
+    },
+    {
+      "id": 316,
+      "start": 1611.46,
+      "end": 1618.06,
+      "text": "I think the most amazing thing, well, there's many amazing things."
+    },
+    {
+      "id": 317,
+      "start": 1618.14,
+      "end": 1618.72,
+      "text": "I can't say the most."
+    },
+    {
+      "id": 318,
+      "start": 1618.9,
+      "end": 1623.6200000000001,
+      "text": "One of the amazing things happening is the rate at which AI is getting cheaper at a given"
+    },
+    {
+      "id": 319,
+      "start": 1623.6200000000001,
+      "end": 1624.6200000000001,
+      "text": "level of intelligence."
+    },
+    {
+      "id": 320,
+      "start": 1625.88,
+      "end": 1631.64,
+      "text": "We are, if you look at a hard reasoning problem, what it would have cost you to solve it using"
+    },
+    {
+      "id": 321,
+      "start": 1631.64,
+      "end": 1637.58,
+      "text": "an open AI API a year and a half ago versus now, it's down about a thousand X."
+    },
+    {
+      "id": 322,
+      "start": 1637.58,
+      "end": 1642.22,
+      "text": "A thousand X in 18 months is just, that doesn't happen very often."
+    },
+    {
+      "id": 323,
+      "start": 1643.12,
+      "end": 1648.1999999999998,
+      "text": "I don't think we'll be able to sustain another thousand X over the next 18 months, but maybe"
+    },
+    {
+      "id": 324,
+      "start": 1648.1999999999998,
+      "end": 1648.6399999999999,
+      "text": "we will."
+    },
+    {
+      "id": 325,
+      "start": 1649.1,
+      "end": 1652.4399999999998,
+      "text": "But there will be a significant decrease in cost."
+    },
+    {
+      "id": 326,
+      "start": 1653.1999999999998,
+      "end": 1659.48,
+      "text": "So our goal here is to relentlessly drive the cost of intelligence down as close to zero"
+    },
+    {
+      "id": 327,
+      "start": 1659.48,
+      "end": 1665.8999999999999,
+      "text": "as we can and then make that available to the world as a very low cost asset."
+    },
+    {
+      "id": 328,
+      "start": 1665.9,
+      "end": 1672.44,
+      "text": "And for a bunch of reasons, accessibility being one of them, that's a critical part of our"
+    },
+    {
+      "id": 329,
+      "start": 1672.44,
+      "end": 1672.66,
+      "text": "mission."
+    },
+    {
+      "id": 330,
+      "start": 1674.0,
+      "end": 1678.14,
+      "text": "There are going to be a bunch of societal disruptions around that."
+    },
+    {
+      "id": 331,
+      "start": 1678.38,
+      "end": 1687.2800000000002,
+      "text": "Like part of society has maybe, we talked earlier about this issue of abundance versus"
+    },
+    {
+      "id": 332,
+      "start": 1687.2800000000002,
+      "end": 1691.3400000000001,
+      "text": "scarcity, but society has been used to intelligence being a relatively scarce resource."
+    },
+    {
+      "id": 333,
+      "start": 1691.34,
+      "end": 1696.3799999999999,
+      "text": "Um, also the ability to make things happen in the physical world, energy, robotics, whatever."
+    },
+    {
+      "id": 334,
+      "start": 1696.6,
+      "end": 1703.24,
+      "text": "If all of that changes, I don't think society yet has a consensus on how things are going to work"
+    },
+    {
+      "id": 335,
+      "start": 1703.24,
+      "end": 1706.78,
+      "text": "and where the, the limits, the natural limits are going to be."
+    },
+    {
+      "id": 336,
+      "start": 1706.98,
+      "end": 1710.78,
+      "text": "But I do think the cost of intelligence is going to trend down and down."
+    },
+    {
+      "id": 337,
+      "start": 1710.78,
+      "end": 1714.68,
+      "text": "And in terms of empowering the entire world, that's very important."
+    },
+    {
+      "id": 338,
+      "start": 1715.82,
+      "end": 1720.1399999999999,
+      "text": "Uh, we'll go to, uh, Tejas next, who's also from IIT Delhi."
+    },
+    {
+      "id": 339,
+      "start": 1720.3999999999999,
+      "end": 1723.42,
+      "text": "And I know the director also spoke a little bit about, uh, safety."
+    },
+    {
+      "id": 340,
+      "start": 1723.56,
+      "end": 1725.3999999999999,
+      "text": "And I think, Tejas, your question is related to that."
+    },
+    {
+      "id": 341,
+      "start": 1725.46,
+      "end": 1726.12,
+      "text": "So go ahead, please."
+    },
+    {
+      "id": 342,
+      "start": 1726.22,
+      "end": 1726.3799999999999,
+      "text": "Yeah."
+    },
+    {
+      "id": 343,
+      "start": 1726.46,
+      "end": 1727.06,
+      "text": "Hi, Sam."
+    },
+    {
+      "id": 344,
+      "start": 1727.1399999999999,
+      "end": 1728.26,
+      "text": "I'm Tejas Raj Mangala."
+    },
+    {
+      "id": 345,
+      "start": 1728.34,
+      "end": 1730.7,
+      "text": "I'm currently a final year student here at IIT Delhi."
+    },
+    {
+      "id": 346,
+      "start": 1730.92,
+      "end": 1733.54,
+      "text": "I'm pursuing my bachelor's in computational mechanics."
+    },
+    {
+      "id": 347,
+      "start": 1733.54,
+      "end": 1740.58,
+      "text": "Uh, my question for you is how do we keep AI safe without blocking innovation from things"
+    },
+    {
+      "id": 348,
+      "start": 1740.58,
+      "end": 1743.06,
+      "text": "like prompt injection that are happening recently?"
+    },
+    {
+      "id": 349,
+      "start": 1744.02,
+      "end": 1746.0,
+      "text": "I think there's three things here."
+    },
+    {
+      "id": 350,
+      "start": 1746.0,
+      "end": 1751.6599999999999,
+      "text": "Um, one, we have to figure out how to technically align AI."
+    },
+    {
+      "id": 351,
+      "start": 1752.46,
+      "end": 1757.12,
+      "text": "Um, we have made better progress there than I thought we might have, but there's still things"
+    },
+    {
+      "id": 352,
+      "start": 1757.12,
+      "end": 1762.32,
+      "text": "to do as we get to these systems that are truly much smarter than we are, how we supervise"
+    },
+    {
+      "id": 353,
+      "start": 1762.32,
+      "end": 1765.3,
+      "text": "those systems requires new ideas."
+    },
+    {
+      "id": 354,
+      "start": 1765.3,
+      "end": 1770.8,
+      "text": "As we get to a world where AI is writing so much source code and doing so much research,"
+    },
+    {
+      "id": 355,
+      "start": 1770.8,
+      "end": 1772.08,
+      "text": "we can't review all of it."
+    },
+    {
+      "id": 356,
+      "start": 1772.1599999999999,
+      "end": 1776.82,
+      "text": "There's a bunch of things that used to feel like sci-fi that are now clear alignment challenges"
+    },
+    {
+      "id": 357,
+      "start": 1776.82,
+      "end": 1780.28,
+      "text": "that we have to, that we have to address."
+    },
+    {
+      "id": 358,
+      "start": 1780.9399999999998,
+      "end": 1782.58,
+      "text": "Um, we've been doing work here for a while."
+    },
+    {
+      "id": 359,
+      "start": 1782.7,
+      "end": 1784.36,
+      "text": "Other labs have been doing work here for a while."
+    },
+    {
+      "id": 360,
+      "start": 1785.26,
+      "end": 1791.04,
+      "text": "On the whole alignment has looked easier than I feared, but we're clearly not done."
+    },
+    {
+      "id": 361,
+      "start": 1791.04,
+      "end": 1794.96,
+      "text": "So bucket one is technical safety work around alignment."
+    },
+    {
+      "id": 362,
+      "start": 1795.84,
+      "end": 1800.84,
+      "text": "Two is there's a whole new kind of security infrastructure that needs to get built."
+    },
+    {
+      "id": 363,
+      "start": 1800.84,
+      "end": 1801.98,
+      "text": "You mentioned prompt injection."
+    },
+    {
+      "id": 364,
+      "start": 1802.22,
+      "end": 1803.32,
+      "text": "I think that's a great example."
+    },
+    {
+      "id": 365,
+      "start": 1804.08,
+      "end": 1806.26,
+      "text": "Open claw is an amazing thing."
+    },
+    {
+      "id": 366,
+      "start": 1806.56,
+      "end": 1807.8999999999999,
+      "text": "Codex is an amazing thing."
+    },
+    {
+      "id": 367,
+      "start": 1808.3999999999999,
+      "end": 1814.48,
+      "text": "I thought that I was going to be a very disciplined person and not let them run on my computer with"
+    },
+    {
+      "id": 368,
+      "start": 1814.48,
+      "end": 1815.1,
+      "text": "root access."
+    },
+    {
+      "id": 369,
+      "start": 1815.6399999999999,
+      "end": 1817.52,
+      "text": "Uh, cause I thought that was an insane thing to do."
+    },
+    {
+      "id": 370,
+      "start": 1817.52,
+      "end": 1819.28,
+      "text": "And that lasted about two hours."
+    },
+    {
+      "id": 371,
+      "start": 1819.7,
+      "end": 1822.24,
+      "text": "And then I was like, Oh, it's really annoying to approve everything."
+    },
+    {
+      "id": 372,
+      "start": 1822.36,
+      "end": 1823.1,
+      "text": "It's so convenient."
+    },
+    {
+      "id": 373,
+      "start": 1823.1,
+      "end": 1824.94,
+      "text": "I want to just, I'm going to just like, let it rip."
+    },
+    {
+      "id": 374,
+      "start": 1825.1399999999999,
+      "end": 1828.06,
+      "text": "And if I'm willing to do that, a lot of other people will be willing to do that too."
+    },
+    {
+      "id": 375,
+      "start": 1828.12,
+      "end": 1829.74,
+      "text": "I should be one of the more conservative ones there."
+    },
+    {
+      "id": 376,
+      "start": 1829.96,
+      "end": 1836.92,
+      "text": "So I think we need to develop a new kind of security architecture, different from the"
+    },
+    {
+      "id": 377,
+      "start": 1836.92,
+      "end": 1842.8799999999999,
+      "text": "model technical alignment to let people be able to use these agents without insane"
+    },
+    {
+      "id": 378,
+      "start": 1842.8799999999999,
+      "end": 1843.44,
+      "text": "things happening."
+    },
+    {
+      "id": 379,
+      "start": 1843.44,
+      "end": 1848.1200000000001,
+      "text": "Like it is awesome that you can run something on your computer and it can get to know everything"
+    },
+    {
+      "id": 380,
+      "start": 1848.1200000000001,
+      "end": 1851.68,
+      "text": "about your life and record your screen and use the web for you and everything else."
+    },
+    {
+      "id": 381,
+      "start": 1852.1000000000001,
+      "end": 1856.7,
+      "text": "Um, it will be significantly less awesome if it starts like randomly telling your secrets"
+    },
+    {
+      "id": 382,
+      "start": 1856.7,
+      "end": 1857.14,
+      "text": "to people."
+    },
+    {
+      "id": 383,
+      "start": 1857.24,
+      "end": 1857.66,
+      "text": "It shouldn't."
+    },
+    {
+      "id": 384,
+      "start": 1858.5,
+      "end": 1863.18,
+      "text": "Um, and then third and most important, you mentioned non-blocking innovation."
+    },
+    {
+      "id": 385,
+      "start": 1863.3200000000002,
+      "end": 1863.94,
+      "text": "I super agree."
+    },
+    {
+      "id": 386,
+      "start": 1864.44,
+      "end": 1870.0,
+      "text": "Uh, the, the kind of like, these are caricatures because everybody is a little bit in the middle,"
+    },
+    {
+      "id": 387,
+      "start": 1870.0,
+      "end": 1876.4,
+      "text": "but the kind of the two paths the world is looking at right now is either we accept, you"
+    },
+    {
+      "id": 388,
+      "start": 1876.4,
+      "end": 1881.98,
+      "text": "know, an AI company or country or model having sort of effective totalitarian control over the"
+    },
+    {
+      "id": 389,
+      "start": 1881.98,
+      "end": 1885.32,
+      "text": "world for no safety problems at all."
+    },
+    {
+      "id": 390,
+      "start": 1885.52,
+      "end": 1886.9,
+      "text": "You have one AI to rule them all."
+    },
+    {
+      "id": 391,
+      "start": 1886.98,
+      "end": 1888.56,
+      "text": "This has been people's vision over time."
+    },
+    {
+      "id": 392,
+      "start": 1889.02,
+      "end": 1895.44,
+      "text": "Um, the other is that we super democratize access and we put powerful AI in everyone's"
+    },
+    {
+      "id": 393,
+      "start": 1895.44,
+      "end": 1899.8200000000002,
+      "text": "hands and we trust that if you, you know, out of a hundred people, 99 are going to be good."
+    },
+    {
+      "id": 394,
+      "start": 1899.92,
+      "end": 1900.9,
+      "text": "One person's not bad."
+    },
+    {
+      "id": 395,
+      "start": 1901.0,
+      "end": 1902.14,
+      "text": "The good people will stop the bad."
+    },
+    {
+      "id": 396,
+      "start": 1902.66,
+      "end": 1904.5800000000002,
+      "text": "Some things are going to go wrong in that world."
+    },
+    {
+      "id": 397,
+      "start": 1904.7,
+      "end": 1908.76,
+      "text": "People are for sure going to misuse AI, uh, in small and probably in big ways."
+    },
+    {
+      "id": 398,
+      "start": 1909.4,
+      "end": 1915.74,
+      "text": "Um, but for a long time, the world I think has shown that if people are basically, most"
+    },
+    {
+      "id": 399,
+      "start": 1915.74,
+      "end": 1917.96,
+      "text": "people are good and the good people stop the bad people."
+    },
+    {
+      "id": 400,
+      "start": 1917.96,
+      "end": 1922.38,
+      "text": "As long as there's not a huge power imbalance, we can get to a world where we democratize"
+    },
+    {
+      "id": 401,
+      "start": 1922.38,
+      "end": 1928.4,
+      "text": "AI, everybody lifts up and that kind of keeps the new powerful bad forces in check."
+    },
+    {
+      "id": 402,
+      "start": 1928.6200000000001,
+      "end": 1933.1000000000001,
+      "text": "This is the story of, of society for a long time."
+    },
+    {
+      "id": 403,
+      "start": 1933.2,
+      "end": 1934.46,
+      "text": "It will be messy."
+    },
+    {
+      "id": 404,
+      "start": 1934.6200000000001,
+      "end": 1935.48,
+      "text": "Things will go wrong."
+    },
+    {
+      "id": 405,
+      "start": 1935.48,
+      "end": 1943.14,
+      "text": "Um, but I think empowering everyone and having a wide distribution of power is the best,"
+    },
+    {
+      "id": 406,
+      "start": 1943.3,
+      "end": 1945.1000000000001,
+      "text": "fairest and safest path forward."
+    },
+    {
+      "id": 407,
+      "start": 1945.1,
+      "end": 1946.4599999999998,
+      "text": "We call this resilience."
+    },
+    {
+      "id": 408,
+      "start": 1947.24,
+      "end": 1950.1799999999998,
+      "text": "So instead of just there's alignment, there's security."
+    },
+    {
+      "id": 409,
+      "start": 1950.3999999999999,
+      "end": 1955.28,
+      "text": "And then there's this newer idea of resilience where I think it no longer works for open"
+    },
+    {
+      "id": 410,
+      "start": 1955.28,
+      "end": 1959.32,
+      "text": "AI to just say, we will block our models from telling people how to make a pathogen because"
+    },
+    {
+      "id": 411,
+      "start": 1959.32,
+      "end": 1962.5,
+      "text": "some open source model is going to help some bad guy make a pathogen."
+    },
+    {
+      "id": 412,
+      "start": 1962.62,
+      "end": 1967.54,
+      "text": "And we have to have society ready to defend against that with rapid response vaccines, sort"
+    },
+    {
+      "id": 413,
+      "start": 1967.54,
+      "end": 1970.34,
+      "text": "of new ways to block respiratory transmission, whatever else."
+    },
+    {
+      "id": 414,
+      "start": 1971.36,
+      "end": 1973.24,
+      "text": "Um, yeah, that's what I would say."
+    },
+    {
+      "id": 415,
+      "start": 1973.24,
+      "end": 1976.38,
+      "text": "So the next question is from Yash and he's not here."
+    },
+    {
+      "id": 416,
+      "start": 1976.38,
+      "end": 1977.98,
+      "text": "So I'll read it out on his behalf."
+    },
+    {
+      "id": 417,
+      "start": 1978.64,
+      "end": 1984.44,
+      "text": "Um, I read that, uh, a lot of research behind study mode in chat GPT happened in India last"
+    },
+    {
+      "id": 418,
+      "start": 1984.44,
+      "end": 1984.7,
+      "text": "year."
+    },
+    {
+      "id": 419,
+      "start": 1985.72,
+      "end": 1990.28,
+      "text": "And so if opening, I were to build a product specifically for India, not adapted, but"
+    },
+    {
+      "id": 420,
+      "start": 1990.28,
+      "end": 1994.02,
+      "text": "designed for India first, what problem would you want it to solve?"
+    },
+    {
+      "id": 421,
+      "start": 1994.02,
+      "end": 1997.22,
+      "text": "I would rather one of you figure out the answer to that."
+    },
+    {
+      "id": 422,
+      "start": 1997.92,
+      "end": 2004.48,
+      "text": "Um, we way more innovation is going to happen outside of open AI than inside of open AI."
+    },
+    {
+      "id": 423,
+      "start": 2004.7,
+      "end": 2012.42,
+      "text": "And our strategy is to build the core model and the basic way to use it, chat GPT, the API"
+    },
+    {
+      "id": 424,
+      "start": 2012.42,
+      "end": 2016.74,
+      "text": "agents like Codex and the general agent, and really empower everybody else to build it."
+    },
+    {
+      "id": 425,
+      "start": 2016.74,
+      "end": 2023.88,
+      "text": "Um, one of my learnings from open AI is that most innovation in the world, uh, comes from startups"
+    },
+    {
+      "id": 426,
+      "start": 2023.88,
+      "end": 2025.02,
+      "text": "and we want to empower them."
+    },
+    {
+      "id": 427,
+      "start": 2026.82,
+      "end": 2027.24,
+      "text": "Wonderful."
+    },
+    {
+      "id": 428,
+      "start": 2027.74,
+      "end": 2031.74,
+      "text": "Um, I think we're going to shift gears a little bit to a health related question, which is,"
+    },
+    {
+      "id": 429,
+      "start": 2031.8,
+      "end": 2034.8,
+      "text": "uh, going to come from Arnesh from Ames."
+    },
+    {
+      "id": 430,
+      "start": 2035.4,
+      "end": 2036.52,
+      "text": "Uh, and you have the microphone."
+    },
+    {
+      "id": 431,
+      "start": 2036.6200000000001,
+      "end": 2036.86,
+      "text": "Yeah."
+    },
+    {
+      "id": 432,
+      "start": 2036.92,
+      "end": 2037.58,
+      "text": "Go ahead Arnesh."
+    },
+    {
+      "id": 433,
+      "start": 2037.7,
+      "end": 2038.08,
+      "text": "Hello."
+    },
+    {
+      "id": 434,
+      "start": 2038.08,
+      "end": 2039.4,
+      "text": "Uh, my name is Arnesh."
+    },
+    {
+      "id": 435,
+      "start": 2039.4,
+      "end": 2042.48,
+      "text": "I'm a third year medical student at Ames, uh, New Delhi."
+    },
+    {
+      "id": 436,
+      "start": 2043.18,
+      "end": 2046.46,
+      "text": "And, uh, my question is about, uh, chat GPT health."
+    },
+    {
+      "id": 437,
+      "start": 2047.0800000000002,
+      "end": 2053.82,
+      "text": "So, uh, we know that chat GPT health connects to Apple health and medical records, but, uh,"
+    },
+    {
+      "id": 438,
+      "start": 2054.2200000000003,
+      "end": 2057.64,
+      "text": "in India people, uh, most people have neither."
+    },
+    {
+      "id": 439,
+      "start": 2058.3,
+      "end": 2060.14,
+      "text": "They have, uh, mostly just a phone."
+    },
+    {
+      "id": 440,
+      "start": 2060.62,
+      "end": 2066.84,
+      "text": "So my question is, uh, how would you rethink, uh, health AI in a country like India?"
+    },
+    {
+      "id": 441,
+      "start": 2066.84,
+      "end": 2069.42,
+      "text": "I love using chat GPT for health."
+    },
+    {
+      "id": 442,
+      "start": 2069.54,
+      "end": 2070.8,
+      "text": "I don't have it connected to anything."
+    },
+    {
+      "id": 443,
+      "start": 2071.1800000000003,
+      "end": 2072.9,
+      "text": "I type in lots of notes."
+    },
+    {
+      "id": 444,
+      "start": 2073.2000000000003,
+      "end": 2075.82,
+      "text": "Every time I got like a blood test or something, I upload it."
+    },
+    {
+      "id": 445,
+      "start": 2075.96,
+      "end": 2078.0,
+      "text": "If every time I have symptoms, I type it in."
+    },
+    {
+      "id": 446,
+      "start": 2078.32,
+      "end": 2080.76,
+      "text": "It works really well without medical records."
+    },
+    {
+      "id": 447,
+      "start": 2081.2200000000003,
+      "end": 2086.1600000000003,
+      "text": "Um, we'd love to connect to any platforms that emerge in India as important platforms."
+    },
+    {
+      "id": 448,
+      "start": 2086.5,
+      "end": 2092.1400000000003,
+      "text": "But one of a huge volume of chat GPT is health related queries."
+    },
+    {
+      "id": 449,
+      "start": 2092.34,
+      "end": 2095.6400000000003,
+      "text": "And with no connectors at all, we've worked to make it very good."
+    },
+    {
+      "id": 450,
+      "start": 2095.64,
+      "end": 2101.8799999999997,
+      "text": "Um, I think you'll like the next question, uh, which is going to come from Vijay, uh, who's from IIT Delhi."
+    },
+    {
+      "id": 451,
+      "start": 2101.8799999999997,
+      "end": 2103.5,
+      "text": "Uh, Vijay, you have the microphone."
+    },
+    {
+      "id": 452,
+      "start": 2103.5,
+      "end": 2104.8199999999997,
+      "text": "Uh, hi Sam."
+    },
+    {
+      "id": 453,
+      "start": 2104.92,
+      "end": 2105.5,
+      "text": "Uh, I'm Vijay."
+    },
+    {
+      "id": 454,
+      "start": 2105.66,
+      "end": 2108.8399999999997,
+      "text": "Uh, I'm a 30 year student at IIT Delhi in, uh, computer science department."
+    },
+    {
+      "id": 455,
+      "start": 2109.04,
+      "end": 2114.3599999999997,
+      "text": "So I would like to know, uh, how would IIT undergrads be able to join OpenAI directly?"
+    },
+    {
+      "id": 456,
+      "start": 2114.56,
+      "end": 2119.02,
+      "text": "And what are the current and future objectives of OpenAI's offers in India?"
+    },
+    {
+      "id": 457,
+      "start": 2120.02,
+      "end": 2121.74,
+      "text": "Uh, we would love to use on OpenAI."
+    },
+    {
+      "id": 458,
+      "start": 2121.74,
+      "end": 2133.52,
+      "text": "Um, we would love for you to join OpenAI either in our office in India or in the US."
+    },
+    {
+      "id": 459,
+      "start": 2133.52,
+      "end": 2139.94,
+      "text": "I think these next couple of years are going to be the most exciting years yet in the development of AI."
+    },
+    {
+      "id": 460,
+      "start": 2140.66,
+      "end": 2144.84,
+      "text": "Um, and the coolest, well, hopefully there's a lot of cool parts about being an OpenAI."
+    },
+    {
+      "id": 461,
+      "start": 2144.94,
+      "end": 2150.04,
+      "text": "But I think the coolest part is you get to see the future and use the tools like six months before everybody else."
+    },
+    {
+      "id": 462,
+      "start": 2150.04,
+      "end": 2153.92,
+      "text": "And the work that that enables in the development process is awesome."
+    },
+    {
+      "id": 463,
+      "start": 2154.24,
+      "end": 2155.36,
+      "text": "So we would love to hear from you."
+    },
+    {
+      "id": 464,
+      "start": 2155.58,
+      "end": 2158.38,
+      "text": "By the way, you can ask me like harder, more controversial questions."
+    },
+    {
+      "id": 465,
+      "start": 2158.5,
+      "end": 2159.12,
+      "text": "I won't be offended."
+    },
+    {
+      "id": 466,
+      "start": 2159.42,
+      "end": 2160.48,
+      "text": "Like, go for it."
+    },
+    {
+      "id": 467,
+      "start": 2162.34,
+      "end": 2163.14,
+      "text": "I like those."
+    },
+    {
+      "id": 468,
+      "start": 2163.86,
+      "end": 2166.66,
+      "text": "And I think you might have seen, uh, you know, we have an office in Delhi."
+    },
+    {
+      "id": 469,
+      "start": 2166.8,
+      "end": 2169.82,
+      "text": "We've just announced offices in Bangalore and Mumbai as well."
+    },
+    {
+      "id": 470,
+      "start": 2169.92,
+      "end": 2171.74,
+      "text": "So the team is growing rapidly."
+    },
+    {
+      "id": 471,
+      "start": 2171.74,
+      "end": 2174.2,
+      "text": "So we'd love to engage on this conversation."
+    },
+    {
+      "id": 472,
+      "start": 2174.9799999999996,
+      "end": 2176.5,
+      "text": "Um, okay."
+    },
+    {
+      "id": 473,
+      "start": 2176.5,
+      "end": 2178.3599999999997,
+      "text": "We're going to go to Sahaj next."
+    },
+    {
+      "id": 474,
+      "start": 2178.3599999999997,
+      "end": 2180.3599999999997,
+      "text": "Uh, so hi, sorry."
+    },
+    {
+      "id": 475,
+      "start": 2180.6,
+      "end": 2184.24,
+      "text": "Um, who's from Amity University and you have the microphone."
+    },
+    {
+      "id": 476,
+      "start": 2184.3999999999996,
+      "end": 2184.8599999999997,
+      "text": "Hi, Sam."
+    },
+    {
+      "id": 477,
+      "start": 2184.9399999999996,
+      "end": 2185.4799999999996,
+      "text": "I'm Sahaj."
+    },
+    {
+      "id": 478,
+      "start": 2185.56,
+      "end": 2186.52,
+      "text": "I'm from Amity University."
+    },
+    {
+      "id": 479,
+      "start": 2186.64,
+      "end": 2191.14,
+      "text": "I'm a 30 student pursuing artificial intelligence in AI in Amity University."
+    },
+    {
+      "id": 480,
+      "start": 2191.14,
+      "end": 2196.54,
+      "text": "So my question is in today's market where 18 year olds are competing for jobs with AI,"
+    },
+    {
+      "id": 481,
+      "start": 2197.12,
+      "end": 2199.1,
+      "text": "what unfair advantage do we humans have?"
+    },
+    {
+      "id": 482,
+      "start": 2199.1,
+      "end": 2207.8399999999997,
+      "text": "Um, a lot, uh, watching the very best people now work with AI is really incredible and so"
+    },
+    {
+      "id": 483,
+      "start": 2207.8399999999997,
+      "end": 2208.64,
+      "text": "different than a year ago."
+    },
+    {
+      "id": 484,
+      "start": 2208.7599999999998,
+      "end": 2212.72,
+      "text": "But you watch these people that have like six monitors on their desk, three agents per monitor,"
+    },
+    {
+      "id": 485,
+      "start": 2212.86,
+      "end": 2214.06,
+      "text": "like going session by session."
+    },
+    {
+      "id": 486,
+      "start": 2214.3199999999997,
+      "end": 2222.1,
+      "text": "One person can do what a team of, um, a lot of engineers used to take to do."
+    },
+    {
+      "id": 487,
+      "start": 2222.46,
+      "end": 2228.9,
+      "text": "And when you can keep a whole problem in one human head and manage a bunch of agents,"
+    },
+    {
+      "id": 488,
+      "start": 2229.1,
+      "end": 2233.7,
+      "text": "you are able to bring things to life at a speed and quality level you just couldn't do before."
+    },
+    {
+      "id": 489,
+      "start": 2234.3399999999997,
+      "end": 2239.64,
+      "text": "Um, and there is still, this may change something in the future, but there's still something that"
+    },
+    {
+      "id": 490,
+      "start": 2239.64,
+      "end": 2244.52,
+      "text": "humans are so good at that AI is so bad at about thinking through the sort of like high level"
+    },
+    {
+      "id": 491,
+      "start": 2244.52,
+      "end": 2246.8399999999997,
+      "text": "strategy of a system or a product or whatever."
+    },
+    {
+      "id": 492,
+      "start": 2246.84,
+      "end": 2254.48,
+      "text": "Um, that people who are proficient at using AI have a huge advantage, uh, not just over AI,"
+    },
+    {
+      "id": 493,
+      "start": 2254.48,
+      "end": 2256.2400000000002,
+      "text": "but over other people who are not doing that."
+    },
+    {
+      "id": 494,
+      "start": 2256.2400000000002,
+      "end": 2261.48,
+      "text": "Uh, in the long-term future, I don't know exactly what the advantage will look like will be,"
+    },
+    {
+      "id": 495,
+      "start": 2261.48,
+      "end": 2269.0,
+      "text": "but, um, we seem so wired to care about other people and care so little about machines,"
+    },
+    {
+      "id": 496,
+      "start": 2269.0,
+      "end": 2276.06,
+      "text": "uh, that somehow that feels like it's going to be part of whatever the answer is."
+    },
+    {
+      "id": 497,
+      "start": 2277.5,
+      "end": 2281.38,
+      "text": "So the next question is a little linked to what the prime minister said yesterday as well."
+    },
+    {
+      "id": 498,
+      "start": 2281.38,
+      "end": 2284.46,
+      "text": "And, you know, he said, uh, there are two kinds of people in the world."
+    },
+    {
+      "id": 499,
+      "start": 2284.84,
+      "end": 2288.02,
+      "text": "One who think that AI is fearful."
+    },
+    {
+      "id": 500,
+      "start": 2288.22,
+      "end": 2291.94,
+      "text": "The others who are really, you know, excited about the future of what AI can bring."
+    },
+    {
+      "id": 501,
+      "start": 2291.94,
+      "end": 2297.0,
+      "text": "And I think the next question is a little bit about jobs and you know, that comes up often,"
+    },
+    {
+      "id": 502,
+      "start": 2297.0,
+      "end": 2300.16,
+      "text": "of course, uh, which is from, uh, Guru Dhanush."
+    },
+    {
+      "id": 503,
+      "start": 2300.16,
+      "end": 2301.12,
+      "text": "So go ahead, please."
+    },
+    {
+      "id": 504,
+      "start": 2302.0,
+      "end": 2302.5,
+      "text": "Hi, sir."
+    },
+    {
+      "id": 505,
+      "start": 2302.7000000000003,
+      "end": 2303.62,
+      "text": "My name is Guru Dhanush."
+    },
+    {
+      "id": 506,
+      "start": 2303.76,
+      "end": 2306.28,
+      "text": "I am a second year B. Tech student in mathematics and computing."
+    },
+    {
+      "id": 507,
+      "start": 2306.7400000000002,
+      "end": 2311.78,
+      "text": "My question is, what do you say to the workers who fear that their jobs will be outdated in"
+    },
+    {
+      "id": 508,
+      "start": 2311.78,
+      "end": 2314.86,
+      "text": "next five years and what skills should they be focusing on now?"
+    },
+    {
+      "id": 509,
+      "start": 2316.12,
+      "end": 2321.76,
+      "text": "Anyone who says they're only excited or only fearful about AI is I think not being"
+    },
+    {
+      "id": 510,
+      "start": 2321.76,
+      "end": 2322.42,
+      "text": "very thoughtful."
+    },
+    {
+      "id": 511,
+      "start": 2322.86,
+      "end": 2324.1200000000003,
+      "text": "I don't think it's two camps."
+    },
+    {
+      "id": 512,
+      "start": 2324.32,
+      "end": 2329.34,
+      "text": "I think there's a continuum of people based on whether you're 90% excited and 10% fearful"
+    },
+    {
+      "id": 513,
+      "start": 2329.34,
+      "end": 2332.0200000000004,
+      "text": "or 90% fearful and 10% excited."
+    },
+    {
+      "id": 514,
+      "start": 2332.5600000000004,
+      "end": 2339.6400000000003,
+      "text": "But as with any change of this magnitude happening this quickly, um, and with this much unknown,"
+    },
+    {
+      "id": 515,
+      "start": 2339.82,
+      "end": 2345.36,
+      "text": "this much promise, this much obvious peril, um, it's, it, you have to be somewhere on that"
+    },
+    {
+      "id": 516,
+      "start": 2345.36,
+      "end": 2345.6400000000003,
+      "text": "spectrum."
+    },
+    {
+      "id": 517,
+      "start": 2345.7400000000002,
+      "end": 2348.5,
+      "text": "You can't, it can't be sort of at, at either end."
+    },
+    {
+      "id": 518,
+      "start": 2348.5,
+      "end": 2354.52,
+      "text": "Um, a big part of that is what the impact on jobs is going to be."
+    },
+    {
+      "id": 519,
+      "start": 2355.08,
+      "end": 2361.26,
+      "text": "And I will caveat this with lots of other things by AI by saying that no one really knows,"
+    },
+    {
+      "id": 520,
+      "start": 2361.32,
+      "end": 2362.06,
+      "text": "including us."
+    },
+    {
+      "id": 521,
+      "start": 2362.28,
+      "end": 2363.7,
+      "text": "There will be many surprises."
+    },
+    {
+      "id": 522,
+      "start": 2364.48,
+      "end": 2367.0,
+      "text": "Um, some jobs will totally go away."
+    },
+    {
+      "id": 523,
+      "start": 2367.0,
+      "end": 2376.28,
+      "text": "many jobs will not change as much as it seems like they should with AI because we have, you"
+    },
+    {
+      "id": 524,
+      "start": 2376.28,
+      "end": 2377.88,
+      "text": "know, we want someone else to be doing that."
+    },
+    {
+      "id": 525,
+      "start": 2377.88,
+      "end": 2383.0,
+      "text": "We still go, want a human doctor to tell us things, even if the, we know the AI gives better"
+    },
+    {
+      "id": 526,
+      "start": 2383.0,
+      "end": 2385.6,
+      "text": "advice or any, many other set of examples."
+    },
+    {
+      "id": 527,
+      "start": 2385.6,
+      "end": 2390.94,
+      "text": "Uh, or, you know, entrepreneurs will still start companies."
+    },
+    {
+      "id": 528,
+      "start": 2390.94,
+      "end": 2394.44,
+      "text": "They'll just grow faster and they'll do more and it'll be more disruptive to existing jobs."
+    },
+    {
+      "id": 529,
+      "start": 2395.6,
+      "end": 2402.6,
+      "text": "And then most of all, every time in history that there's been a major technological shift,"
+    },
+    {
+      "id": 530,
+      "start": 2402.8399999999997,
+      "end": 2407.4,
+      "text": "we have underestimated how quickly the new jobs are going to come and how different they"
+    },
+    {
+      "id": 531,
+      "start": 2407.4,
+      "end": 2408.04,
+      "text": "were going to be."
+    },
+    {
+      "id": 532,
+      "start": 2408.6600000000003,
+      "end": 2415.2200000000003,
+      "text": "It'd be very hard to think about my job, for example, before computers were invented, um,"
+    },
+    {
+      "id": 533,
+      "start": 2415.2200000000003,
+      "end": 2418.32,
+      "text": "and impossible to think about my job before say the industrial revolution."
+    },
+    {
+      "id": 534,
+      "start": 2418.86,
+      "end": 2426.7400000000002,
+      "text": "Um, there are jobs now that are incredibly good jobs that didn't exist as a category 20 years"
+    },
+    {
+      "id": 535,
+      "start": 2426.7400000000002,
+      "end": 2426.94,
+      "text": "ago."
+    },
+    {
+      "id": 536,
+      "start": 2426.94,
+      "end": 2435.34,
+      "text": "Even if someone from 500 years ago could look at the jobs of the world today, um, generally"
+    },
+    {
+      "id": 537,
+      "start": 2435.34,
+      "end": 2441.34,
+      "text": "speaking, they would say about many of the jobs, um, certainly my job, you know, definitely"
+    },
+    {
+      "id": 538,
+      "start": 2441.34,
+      "end": 2442.0,
+      "text": "not a real job."
+    },
+    {
+      "id": 539,
+      "start": 2443.02,
+      "end": 2443.88,
+      "text": "You're doing fine."
+    },
+    {
+      "id": 540,
+      "start": 2443.88,
+      "end": 2445.38,
+      "text": "You could, you don't have to be working."
+    },
+    {
+      "id": 541,
+      "start": 2445.38,
+      "end": 2447.2400000000002,
+      "text": "You're like, you've got plenty of food."
+    },
+    {
+      "id": 542,
+      "start": 2447.2400000000002,
+      "end": 2449.0,
+      "text": "You've got access to great shelter."
+    },
+    {
+      "id": 543,
+      "start": 2449.0,
+      "end": 2453.34,
+      "text": "Like this is, this is not a job they could have imagined and it wouldn't look like real"
+    },
+    {
+      "id": 544,
+      "start": 2453.34,
+      "end": 2453.64,
+      "text": "work."
+    },
+    {
+      "id": 545,
+      "start": 2453.64,
+      "end": 2460.12,
+      "text": "I hope a hundred years from now, not even 500, we would all look at the jobs and be like,"
+    },
+    {
+      "id": 546,
+      "start": 2460.2999999999997,
+      "end": 2462.42,
+      "text": "those people are impossibly rich."
+    },
+    {
+      "id": 547,
+      "start": 2462.42,
+      "end": 2463.9,
+      "text": "They have everything they could ever want."
+    },
+    {
+      "id": 548,
+      "start": 2464.2,
+      "end": 2467.4,
+      "text": "They are making up ways to spend their time to entertain themselves."
+    },
+    {
+      "id": 549,
+      "start": 2467.92,
+      "end": 2470.68,
+      "text": "It's a, you know, it's a player of game style existence."
+    },
+    {
+      "id": 550,
+      "start": 2470.68,
+      "end": 2471.74,
+      "text": "They don't really need this."
+    },
+    {
+      "id": 551,
+      "start": 2471.74,
+      "end": 2481.7999999999997,
+      "text": "Um, and that is sort of the history of society building up more collective welfare for each"
+    },
+    {
+      "id": 552,
+      "start": 2481.8,
+      "end": 2487.2000000000003,
+      "text": "other. Uh, and I think that's great, but we never run out of things to do."
+    },
+    {
+      "id": 553,
+      "start": 2487.6800000000003,
+      "end": 2491.5800000000004,
+      "text": "We have never gotten to the sort of like thing that people have theorized for, for centuries"
+    },
+    {
+      "id": 554,
+      "start": 2491.5800000000004,
+      "end": 2495.6000000000004,
+      "text": "now, which is technology is going to progress so much that we just sit around and do nothing."
+    },
+    {
+      "id": 555,
+      "start": 2495.84,
+      "end": 2496.8,
+      "text": "We find new things to do."
+    },
+    {
+      "id": 556,
+      "start": 2496.8,
+      "end": 2498.6600000000003,
+      "text": "We find new ways to express our creativity."
+    },
+    {
+      "id": 557,
+      "start": 2499.02,
+      "end": 2501.0,
+      "text": "Um, we find new ways to be useful to each other."
+    },
+    {
+      "id": 558,
+      "start": 2501.0,
+      "end": 2504.96,
+      "text": "We find new ways to, you know, gain status or whatever, whatever it is."
+    },
+    {
+      "id": 559,
+      "start": 2505.32,
+      "end": 2510.84,
+      "text": "Uh, many of you will eventually do jobs that don't exist today."
+    },
+    {
+      "id": 560,
+      "start": 2511.38,
+      "end": 2512.54,
+      "text": "Even really as a concept."
+    },
+    {
+      "id": 561,
+      "start": 2512.54,
+      "end": 2516.2599999999998,
+      "text": "Um, it doesn't mean that the transition is not painful."
+    },
+    {
+      "id": 562,
+      "start": 2516.68,
+      "end": 2518.72,
+      "text": "I expect for many people, it will be very painful."
+    },
+    {
+      "id": 563,
+      "start": 2519.2599999999998,
+      "end": 2527.12,
+      "text": "Um, as society gets richer quickly, I hope we find new socioeconomic models to make it"
+    },
+    {
+      "id": 564,
+      "start": 2527.12,
+      "end": 2530.36,
+      "text": "less painful, but I'm less worried about the longterm future."
+    },
+    {
+      "id": 565,
+      "start": 2530.36,
+      "end": 2533.2799999999997,
+      "text": "And I think we'll find new things to do in not very long."
+    },
+    {
+      "id": 566,
+      "start": 2533.98,
+      "end": 2538.04,
+      "text": "So we've announced a partnership with the Tata group yesterday and you know, it's about"
+    },
+    {
+      "id": 567,
+      "start": 2538.04,
+      "end": 2540.38,
+      "text": "compute, it's about data centers and so on."
+    },
+    {
+      "id": 568,
+      "start": 2540.38,
+      "end": 2543.08,
+      "text": "And I think the next question relates to that a little bit."
+    },
+    {
+      "id": 569,
+      "start": 2543.08,
+      "end": 2545.9,
+      "text": "Uh, and which is from Khaustub from IIT Delhi."
+    },
+    {
+      "id": 570,
+      "start": 2545.9,
+      "end": 2547.52,
+      "text": "Uh, go ahead, Khaustub."
+    },
+    {
+      "id": 571,
+      "start": 2547.52,
+      "end": 2548.36,
+      "text": "Hi, Sam."
+    },
+    {
+      "id": 572,
+      "start": 2548.36,
+      "end": 2549.36,
+      "text": "My name is Khaustub."
+    },
+    {
+      "id": 573,
+      "start": 2549.36,
+      "end": 2552.5,
+      "text": "I'm a second year PhD student here at the school of AI, IIT Delhi."
+    },
+    {
+      "id": 574,
+      "start": 2552.5,
+      "end": 2557.6600000000003,
+      "text": "I wanted to ask a question about what are the steps that open AI is taking towards building"
+    },
+    {
+      "id": 575,
+      "start": 2557.6600000000003,
+      "end": 2559.46,
+      "text": "green AI solutions for the world?"
+    },
+    {
+      "id": 576,
+      "start": 2559.46,
+      "end": 2560.7000000000003,
+      "text": "To building what solutions?"
+    },
+    {
+      "id": 577,
+      "start": 2560.7000000000003,
+      "end": 2561.7000000000003,
+      "text": "Green AI solutions."
+    },
+    {
+      "id": 578,
+      "start": 2561.7000000000003,
+      "end": 2562.02,
+      "text": "Real?"
+    },
+    {
+      "id": 579,
+      "start": 2562.02,
+      "end": 2563.02,
+      "text": "Green, green."
+    },
+    {
+      "id": 580,
+      "start": 2563.02,
+      "end": 2564.02,
+      "text": "Green, green."
+    },
+    {
+      "id": 581,
+      "start": 2564.02,
+      "end": 2570.36,
+      "text": "Oh, uh, I think the world is only a few years ago."
+    },
+    {
+      "id": 582,
+      "start": 2570.38,
+      "end": 2574.54,
+      "text": "I think the world is only a few years away from fusion and really reliable solar wind plus"
+    },
+    {
+      "id": 583,
+      "start": 2574.54,
+      "end": 2576.1400000000003,
+      "text": "storage."
+    },
+    {
+      "id": 584,
+      "start": 2576.1400000000003,
+      "end": 2584.2400000000002,
+      "text": "And I further think that those will become the cheapest source of energy in the world."
+    },
+    {
+      "id": 585,
+      "start": 2584.2400000000002,
+      "end": 2586.08,
+      "text": "And when that happens, the economy will do its thing."
+    },
+    {
+      "id": 586,
+      "start": 2586.08,
+      "end": 2591.42,
+      "text": "And not just AI, but everybody else will use new forms of energy."
+    },
+    {
+      "id": 587,
+      "start": 2591.42,
+      "end": 2595.08,
+      "text": "Um, the, this is important for a ton of reasons."
+    },
+    {
+      "id": 588,
+      "start": 2595.08,
+      "end": 2600.8199999999997,
+      "text": "Uh, but one that gets talked about less is as part of this, if we can drive massive abundance"
+    },
+    {
+      "id": 589,
+      "start": 2600.8199999999997,
+      "end": 2605.7,
+      "text": "of energy, um, in the same way with it, we can drive abundance of intelligence."
+    },
+    {
+      "id": 590,
+      "start": 2605.7,
+      "end": 2609.8599999999997,
+      "text": "I think that will do a huge amount to elevate people around the world."
+    },
+    {
+      "id": 591,
+      "start": 2609.8599999999997,
+      "end": 2616.46,
+      "text": "Um, so obviously we care about it environmentally, uh, and are committed to do that."
+    },
+    {
+      "id": 592,
+      "start": 2616.46,
+      "end": 2623.8599999999997,
+      "text": "We really care about it from a sort of duty to the world to make energy abundant and perspective."
+    },
+    {
+      "id": 593,
+      "start": 2623.86,
+      "end": 2627.48,
+      "text": "Uh, we're going to go, uh, change gears a little bit."
+    },
+    {
+      "id": 594,
+      "start": 2627.48,
+      "end": 2632.86,
+      "text": "And, uh, I was saying earlier, we have, uh, students from creative, uh, industries as well."
+    },
+    {
+      "id": 595,
+      "start": 2632.86,
+      "end": 2636.06,
+      "text": "Um, so the next question, uh, is around that."
+    },
+    {
+      "id": 596,
+      "start": 2636.06,
+      "end": 2637.94,
+      "text": "And I think it's from Parisha."
+    },
+    {
+      "id": 597,
+      "start": 2637.94,
+      "end": 2640.54,
+      "text": "Uh, if you have the microphone, go ahead, please."
+    },
+    {
+      "id": 598,
+      "start": 2640.54,
+      "end": 2641.96,
+      "text": "Uh, hi, Sam."
+    },
+    {
+      "id": 599,
+      "start": 2641.96,
+      "end": 2644.16,
+      "text": "I'm Parisha from Pearl Academy."
+    },
+    {
+      "id": 600,
+      "start": 2644.16,
+      "end": 2647.04,
+      "text": "I'm pursuing interior architectural design."
+    },
+    {
+      "id": 601,
+      "start": 2647.04,
+      "end": 2654.88,
+      "text": "So my question is, uh, like AI became the tool that that can generate, uh, images, space,"
+    },
+    {
+      "id": 602,
+      "start": 2654.88,
+      "end": 2658.54,
+      "text": "and, uh, create entire concept."
+    },
+    {
+      "id": 603,
+      "start": 2658.54,
+      "end": 2668.14,
+      "text": "How designer can ensure and, uh, ensure the work still reflect the human emotions, cultural"
+    },
+    {
+      "id": 604,
+      "start": 2668.14,
+      "end": 2674.7599999999998,
+      "text": "identity and originality, uh, rather than becoming too machine driven."
+    },
+    {
+      "id": 605,
+      "start": 2674.7599999999998,
+      "end": 2676.3799999999997,
+      "text": "Great question."
+    },
+    {
+      "id": 606,
+      "start": 2676.48,
+      "end": 2682.9,
+      "text": "Um, I used to be more worried about this and, you know, I, I wasn't sure totally how it was"
+    },
+    {
+      "id": 607,
+      "start": 2682.9,
+      "end": 2686.3799999999997,
+      "text": "going to go when models could sort of create anything."
+    },
+    {
+      "id": 608,
+      "start": 2686.74,
+      "end": 2692.02,
+      "text": "Watching what's happened in practice though, and talking to creators, uh, not everyone, but"
+    },
+    {
+      "id": 609,
+      "start": 2692.02,
+      "end": 2696.3399999999997,
+      "text": "generally speaking, people say, this is the best thing ever to happen as a tool in their"
+    },
+    {
+      "id": 610,
+      "start": 2696.34,
+      "end": 2703.92,
+      "text": "creative process, if they can explore ideas and have a machine help them search the space"
+    },
+    {
+      "id": 611,
+      "start": 2703.92,
+      "end": 2706.46,
+      "text": "and then pick at each layer, which direction they want to go."
+    },
+    {
+      "id": 612,
+      "start": 2706.98,
+      "end": 2714.4,
+      "text": "Um, and if we can make their creative ideation loop faster and faster and faster, where the"
+    },
+    {
+      "id": 613,
+      "start": 2714.4,
+      "end": 2719.56,
+      "text": "time from idea to then seen in results, and then coming up with a new idea from that gets"
+    },
+    {
+      "id": 614,
+      "start": 2719.56,
+      "end": 2720.5,
+      "text": "shorter and shorter."
+    },
+    {
+      "id": 615,
+      "start": 2720.5,
+      "end": 2727.04,
+      "text": "And talking to creators, whether they're visual artists or people making videos or music, um,"
+    },
+    {
+      "id": 616,
+      "start": 2727.76,
+      "end": 2732.14,
+      "text": "they all care a lot, as do I, that the human spirit and the human direction and the human"
+    },
+    {
+      "id": 617,
+      "start": 2732.14,
+      "end": 2736.26,
+      "text": "imprint is in this, but they all think they'll be able to create much better stuff than ever"
+    },
+    {
+      "id": 618,
+      "start": 2736.26,
+      "end": 2736.68,
+      "text": "before."
+    },
+    {
+      "id": 619,
+      "start": 2737.0,
+      "end": 2742.34,
+      "text": "Another thing for optimism, back on this earlier point about people really are very hardwired"
+    },
+    {
+      "id": 620,
+      "start": 2742.34,
+      "end": 2743.48,
+      "text": "to care about other people."
+    },
+    {
+      "id": 621,
+      "start": 2744.32,
+      "end": 2753.06,
+      "text": "We are seeing a, I think predictable, but still surprising to some people result, which is"
+    },
+    {
+      "id": 622,
+      "start": 2753.94,
+      "end": 2758.6800000000003,
+      "text": "if you show someone an image, if you say, I'll, I'll sell you this piece of art and an AI made"
+    },
+    {
+      "id": 623,
+      "start": 2758.6800000000003,
+      "end": 2760.94,
+      "text": "it and it's beautiful, but you know, an AI made it."
+    },
+    {
+      "id": 624,
+      "start": 2761.5,
+      "end": 2765.54,
+      "text": "The, the value that people put on that effectively rounds to zero."
+    },
+    {
+      "id": 625,
+      "start": 2765.54,
+      "end": 2771.84,
+      "text": "Um, if a human made it, even with AI tools and it's, you know, someone who you can connect"
+    },
+    {
+      "id": 626,
+      "start": 2771.84,
+      "end": 2774.84,
+      "text": "to and has a story and put their creative energy into it and had something they were trying"
+    },
+    {
+      "id": 627,
+      "start": 2774.84,
+      "end": 2778.68,
+      "text": "to express, uh, but AI helped them in their creative process."
+    },
+    {
+      "id": 628,
+      "start": 2779.06,
+      "end": 2783.12,
+      "text": "It's worth a lot, but without the person like effectively signing their name to it and saying"
+    },
+    {
+      "id": 629,
+      "start": 2783.12,
+      "end": 2785.22,
+      "text": "like, this is my thing, we seem to not care."
+    },
+    {
+      "id": 630,
+      "start": 2785.22,
+      "end": 2790.8,
+      "text": "And I think that's another very positive sign for what it's going to be like for human creators."
+    },
+    {
+      "id": 631,
+      "start": 2790.8,
+      "end": 2794.04,
+      "text": "And I know you're on a discussion with Karan Johor later today."
+    },
+    {
+      "id": 632,
+      "start": 2794.04,
+      "end": 2796.54,
+      "text": "So some of this will come up a little bit more as well."
+    },
+    {
+      "id": 633,
+      "start": 2796.92,
+      "end": 2801.6200000000003,
+      "text": "Uh, and he's very popular movie director as you know, so I know this is going to be a conversation"
+    },
+    {
+      "id": 634,
+      "start": 2801.84,
+      "end": 2802.8,
+      "text": "further up as well."
+    },
+    {
+      "id": 635,
+      "start": 2803.34,
+      "end": 2806.98,
+      "text": "Uh, I'm a little conscious we're, uh, maybe coming up a little bit on time."
+    },
+    {
+      "id": 636,
+      "start": 2806.98,
+      "end": 2811.36,
+      "text": "I'll take two more questions and then I want to do a little bit of rapid fire at the end as well,"
+    },
+    {
+      "id": 637,
+      "start": 2811.36,
+      "end": 2812.6400000000003,
+      "text": "Sam, if you're open to that."
+    },
+    {
+      "id": 638,
+      "start": 2813.1200000000003,
+      "end": 2817.38,
+      "text": "Um, I think we have Paridi next, uh, Paridi, if you have the microphone."
+    },
+    {
+      "id": 639,
+      "start": 2817.48,
+      "end": 2818.0800000000004,
+      "text": "Yeah, go ahead."
+    },
+    {
+      "id": 640,
+      "start": 2818.0800000000004,
+      "end": 2818.7000000000003,
+      "text": "Hi, Sam."
+    },
+    {
+      "id": 641,
+      "start": 2818.7,
+      "end": 2820.9199999999996,
+      "text": "I'm Paridi from Amity University."
+    },
+    {
+      "id": 642,
+      "start": 2820.9199999999996,
+      "end": 2825.2999999999997,
+      "text": "I'm currently in third year of my artificial intelligence degree."
+    },
+    {
+      "id": 643,
+      "start": 2825.8999999999996,
+      "end": 2831.08,
+      "text": "My question to you is that, uh, recently there have been a lot of concerns regarding the use"
+    },
+    {
+      "id": 644,
+      "start": 2831.08,
+      "end": 2835.98,
+      "text": "of water in cooling down the servers and that it's leading to water scarcity."
+    },
+    {
+      "id": 645,
+      "start": 2836.2599999999998,
+      "end": 2844.02,
+      "text": "So what is open EIA doing to, you know, uh, help people, help people, uh, dismiss these concerns?"
+    },
+    {
+      "id": 646,
+      "start": 2844.02,
+      "end": 2849.72,
+      "text": "So the, the energy concern and the need to move to green energy, I think is very real."
+    },
+    {
+      "id": 647,
+      "start": 2850.0,
+      "end": 2855.9,
+      "text": "Uh, that, that's something that at the scale AI is developing can be a significant issue."
+    },
+    {
+      "id": 648,
+      "start": 2856.24,
+      "end": 2858.64,
+      "text": "The water concern I think is no longer real."
+    },
+    {
+      "id": 649,
+      "start": 2859.12,
+      "end": 2863.42,
+      "text": "Uh, there was a time when data centers were using evaporative cooling."
+    },
+    {
+      "id": 650,
+      "start": 2863.42,
+      "end": 2867.14,
+      "text": "Um, that is not something that people are doing much anymore."
+    },
+    {
+      "id": 651,
+      "start": 2867.14,
+      "end": 2872.8,
+      "text": "Um, the, there is, you know, obviously some water consumption in producing semiconductors,"
+    },
+    {
+      "id": 652,
+      "start": 2872.8,
+      "end": 2878.1,
+      "text": "but if you look at AI data centers, they are not significant consumers of water."
+    },
+    {
+      "id": 653,
+      "start": 2878.1,
+      "end": 2880.7,
+      "text": "This has been an incredibly sticky meme."
+    },
+    {
+      "id": 654,
+      "start": 2881.36,
+      "end": 2884.7599999999998,
+      "text": "I don't totally understand why, you know, there's people who say, well, I don't use Chai GVT"
+    },
+    {
+      "id": 655,
+      "start": 2884.7599999999998,
+      "end": 2888.22,
+      "text": "because each time you ask it a question, it uses up seven gallons of water or whatever."
+    },
+    {
+      "id": 656,
+      "start": 2888.94,
+      "end": 2890.12,
+      "text": "It's totally not true."
+    },
+    {
+      "id": 657,
+      "start": 2890.2,
+      "end": 2890.96,
+      "text": "We've tried to explain."
+    },
+    {
+      "id": 658,
+      "start": 2891.04,
+      "end": 2891.48,
+      "text": "It's not true."
+    },
+    {
+      "id": 659,
+      "start": 2891.56,
+      "end": 2893.1,
+      "text": "It's been very sticky for whatever reason."
+    },
+    {
+      "id": 660,
+      "start": 2893.44,
+      "end": 2896.12,
+      "text": "Um, but I think the focus on energy does make sense."
+    },
+    {
+      "id": 661,
+      "start": 2898.58,
+      "end": 2899.08,
+      "text": "All right."
+    },
+    {
+      "id": 662,
+      "start": 2899.12,
+      "end": 2903.02,
+      "text": "I, I know we have a lot more questions, uh, but I'm, I'm conscious we're coming up on time."
+    },
+    {
+      "id": 663,
+      "start": 2903.02,
+      "end": 2906.52,
+      "text": "So Ocean will come to you and, uh, please go ahead and ask your question."
+    },
+    {
+      "id": 664,
+      "start": 2906.62,
+      "end": 2906.74,
+      "text": "Yeah."
+    },
+    {
+      "id": 665,
+      "start": 2906.74,
+      "end": 2907.2599999999998,
+      "text": "Hi, Sam."
+    },
+    {
+      "id": 666,
+      "start": 2907.26,
+      "end": 2908.34,
+      "text": "My name is Oshin."
+    },
+    {
+      "id": 667,
+      "start": 2908.34,
+      "end": 2912.2400000000002,
+      "text": "I'm a PhD scholar at the transportation research and injury prevention center here."
+    },
+    {
+      "id": 668,
+      "start": 2912.6800000000003,
+      "end": 2917.1000000000004,
+      "text": "So my question is, what is the biggest mistake you see young people make right now when they"
+    },
+    {
+      "id": 669,
+      "start": 2917.1000000000004,
+      "end": 2918.5600000000004,
+      "text": "apparently prepare for AI?"
+    },
+    {
+      "id": 670,
+      "start": 2920.76,
+      "end": 2922.0200000000004,
+      "text": "Man, I'm going to answer this."
+    },
+    {
+      "id": 671,
+      "start": 2922.0800000000004,
+      "end": 2923.2200000000003,
+      "text": "I hope this talk is not recorded."
+    },
+    {
+      "id": 672,
+      "start": 2923.88,
+      "end": 2929.6200000000003,
+      "text": "Uh, I think listening to old people is the biggest mistake young people make."
+    },
+    {
+      "id": 673,
+      "start": 2933.1400000000003,
+      "end": 2936.9,
+      "text": "I, I think your, your parents obviously love you more than anyone."
+    },
+    {
+      "id": 674,
+      "start": 2936.9,
+      "end": 2942.84,
+      "text": "Um, they're extremely well-meaning, um, for advice about how to live a happy life or how"
+    },
+    {
+      "id": 675,
+      "start": 2942.84,
+      "end": 2944.04,
+      "text": "to be a good person."
+    },
+    {
+      "id": 676,
+      "start": 2944.12,
+      "end": 2947.64,
+      "text": "There is no one you should listen to more than your parents."
+    },
+    {
+      "id": 677,
+      "start": 2947.88,
+      "end": 2954.12,
+      "text": "Um, but for a predictor of what the world is going to be like going forward."
+    },
+    {
+      "id": 678,
+      "start": 2954.12,
+      "end": 2958.94,
+      "text": "Um, I don't even think you should trust me for having a good intuition of the rate of change."
+    },
+    {
+      "id": 679,
+      "start": 2958.94,
+      "end": 2964.58,
+      "text": "Um, it, young people always figure this out the best."
+    },
+    {
+      "id": 680,
+      "start": 2964.58,
+      "end": 2980.2999999999997,
+      "text": "Um, but I think the traditional career advice is probably not going to work as well."
+    },
+    {
+      "id": 681,
+      "start": 2980.3,
+      "end": 2981.34,
+      "text": "Wonderful."
+    },
+    {
+      "id": 682,
+      "start": 2981.34,
+      "end": 2983.52,
+      "text": "Thank you for taking all those questions."
+    },
+    {
+      "id": 683,
+      "start": 2983.52,
+      "end": 2985.4,
+      "text": "Let's do a quick rapid fire."
+    },
+    {
+      "id": 684,
+      "start": 2985.4,
+      "end": 2988.2000000000003,
+      "text": "And you can choose to answer with one word or one sentence,"
+    },
+    {
+      "id": 685,
+      "start": 2988.2000000000003,
+      "end": 2991.98,
+      "text": "but that's what you need to keep to."
+    },
+    {
+      "id": 686,
+      "start": 2991.98,
+      "end": 2995.2400000000002,
+      "text": "And I have four or five questions."
+    },
+    {
+      "id": 687,
+      "start": 2995.2400000000002,
+      "end": 2997.94,
+      "text": "The first one, so will the next trillion dollar AI company"
+    },
+    {
+      "id": 688,
+      "start": 2997.94,
+      "end": 2999.44,
+      "text": "come from India?"
+    },
+    {
+      "id": 689,
+      "start": 2999.44,
+      "end": 3001.5,
+      "text": "I hope so."
+    },
+    {
+      "id": 690,
+      "start": 3001.5,
+      "end": 3003.02,
+      "text": "Nice."
+    },
+    {
+      "id": 691,
+      "start": 3003.02,
+      "end": 3005.1400000000003,
+      "text": "Most overrated fear about AI?"
+    },
+    {
+      "id": 692,
+      "start": 3005.14,
+      "end": 3012.64,
+      "text": "Like killer robots in the streets."
+    },
+    {
+      "id": 693,
+      "start": 3012.64,
+      "end": 3016.42,
+      "text": "Most underrated opportunity?"
+    },
+    {
+      "id": 694,
+      "start": 3016.42,
+      "end": 3019.3799999999997,
+      "text": "Zero person companies."
+    },
+    {
+      "id": 695,
+      "start": 3019.3799999999997,
+      "end": 3022.08,
+      "text": "Bigger change in five years, education or health care?"
+    },
+    {
+      "id": 696,
+      "start": 3026.46,
+      "end": 3028.42,
+      "text": "Education."
+    },
+    {
+      "id": 697,
+      "start": 3028.42,
+      "end": 3030.2,
+      "text": "And last, one skill every AI."
+    },
+    {
+      "id": 698,
+      "start": 3030.2,
+      "end": 3031.62,
+      "text": "Oh, I take it back, health care."
+    },
+    {
+      "id": 699,
+      "start": 3031.62,
+      "end": 3032.5,
+      "text": "That's close, though."
+    },
+    {
+      "id": 700,
+      "start": 3032.5,
+      "end": 3034.08,
+      "text": "OK."
+    },
+    {
+      "id": 701,
+      "start": 3034.08,
+      "end": 3036.68,
+      "text": "Last question, one skill every IIT student"
+    },
+    {
+      "id": 702,
+      "start": 3036.68,
+      "end": 3039.2599999999998,
+      "text": "should build this year."
+    },
+    {
+      "id": 703,
+      "start": 3039.2599999999998,
+      "end": 3040.18,
+      "text": "Resilience."
+    },
+    {
+      "id": 704,
+      "start": 3040.18,
+      "end": 3041.04,
+      "text": "Resilience."
+    },
+    {
+      "id": 705,
+      "start": 3041.04,
+      "end": 3042.64,
+      "text": "Wonderful."
+    },
+    {
+      "id": 706,
+      "start": 3042.64,
+      "end": 3043.92,
+      "text": "Thank you all."
+    },
+    {
+      "id": 707,
+      "start": 3043.92,
+      "end": 3044.42,
+      "text": "Thank you."
+    },
+    {
+      "id": 708,
+      "start": 3046.9,
+      "end": 3049.18,
+      "text": "Thank you so much for interacting with our students."
+    },
+    {
+      "id": 709,
+      "start": 3049.18,
+      "end": 3052.92,
+      "text": "And this has indeed been a very memorable evening"
+    },
+    {
+      "id": 710,
+      "start": 3052.92,
+      "end": 3054.06,
+      "text": "for all of us."
+    },
+    {
+      "id": 711,
+      "start": 3054.06,
+      "end": 3058.08,
+      "text": "And in order to ensure that you also remember us"
+    },
+    {
+      "id": 712,
+      "start": 3058.08,
+      "end": 3061.16,
+      "text": "once you go out of this institute,"
+    },
+    {
+      "id": 713,
+      "start": 3061.16,
+      "end": 3063.68,
+      "text": "we'd like to present a small token of gratitude"
+    },
+    {
+      "id": 714,
+      "start": 3063.68,
+      "end": 3066.3599999999997,
+      "text": "for that I'd like to call Mr. Vinod Khosla, sir,"
+    },
+    {
+      "id": 715,
+      "start": 3066.3599999999997,
+      "end": 3068.8599999999997,
+      "text": "back on stage, and also the director"
+    },
+    {
+      "id": 716,
+      "start": 3068.8599999999997,
+      "end": 3071.2799999999997,
+      "text": "to present our guests."
+    },
+    {
+      "id": 717,
+      "start": 3093.68,
+      "end": 3123.68,
+      "text": "팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀 팀"
+    },
+    {
+      "id": 718,
+      "start": 3123.68,
+      "end": 3128.18,
+      "text": "app will read my mind and input directly into computers."
+    },
+    {
+      "id": 719,
+      "start": 3128.18,
+      "end": 3131.46,
+      "text": "We may succeed or fail at that, but we are trying."
+    },
+    {
+      "id": 720,
+      "start": 3134.3399999999997,
+      "end": 3135.18,
+      "text": "Oh, yes."
+    },
+    {
+      "id": 721,
+      "start": 3136.3999999999996,
+      "end": 3140.8199999999997,
+      "text": "I'd like to request Sam now to capture this moment with the audience,"
+    },
+    {
+      "id": 722,
+      "start": 3140.8199999999997,
+      "end": 3145.18,
+      "text": "with a selfie, I'd like to call upon the stage the Associate Dean of Academic"
+    },
+    {
+      "id": 723,
+      "start": 3145.18,
+      "end": 3149.1,
+      "text": "Outreach and New Initiatives, Professor Shilpi Sharma and Professor Deepak Jan for"
+    },
+    {
+      "id": 724,
+      "start": 3149.1,
+      "end": 3151.06,
+      "text": "this."
+    },
+    {
+      "id": 725,
+      "start": 3151.06,
+      "end": 3153.06,
+      "text": "So we're doing a selfie, right, with everybody?"
+    },
+    {
+      "id": 726,
+      "start": 3153.06,
+      "end": 3154.06,
+      "text": "Right."
+    }
+  ]
+}

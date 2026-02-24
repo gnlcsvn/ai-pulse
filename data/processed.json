@@ -131,8 +131,63 @@
       "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md",
       "transcript_path": "data/transcripts/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.json",
       "predictions_count": 4
+    },
+    {
+      "video_id": "IiV9q73YUxI",
+      "title": "Sam Altman \u00d7 Vinod Khosla Fireside Chat at IIT Delhi",
+      "channel": "IIT Delhi",
+      "upload_date": "2026-02-22",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md",
+      "transcript_path": "data/transcripts/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "68ylaeBbdsg",
+      "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+      "channel": "Nikhil Kamath",
+      "upload_date": "2026-02-24",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md",
+      "transcript_path": "data/transcripts/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "lIJelwO8yHQ",
+      "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+      "channel": "The Ezra Klein Show",
+      "upload_date": "2026-02-24",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md",
+      "transcript_path": "data/transcripts/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "0fXGtQoJgNo",
+      "title": "Yoshua Bengio: The Next 5 Years Will Change Humanity Forever",
+      "channel": "World Economic Forum",
+      "upload_date": "2026-02-16",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.md",
+      "transcript_path": "data/transcripts/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "s52O1JH2tnU",
+      "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+      "channel": "The Diary Of A CEO",
+      "upload_date": "2026-02-23",
+      "processed_date": "2026-02-24",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md",
+      "transcript_path": "data/transcripts/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.json",
+      "predictions_count": 7
     }
   ],
   "last_run": "2026-02-24",
-  "total_processed": 12
+  "total_processed": 17
 }

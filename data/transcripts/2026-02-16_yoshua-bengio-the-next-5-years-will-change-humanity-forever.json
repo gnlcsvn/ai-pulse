@@ -1,0 +1,1729 @@
+{
+  "metadata": {
+    "video_id": "0fXGtQoJgNo",
+    "url": "https://www.youtube.com/watch?v=0fXGtQoJgNo",
+    "title": "Godfather of AI: The next 5 years Will Change Humanity Forever | Yoshua Bengio",
+    "channel": "Silicon Valley Girl",
+    "upload_date": "2026-02-16",
+    "duration": "29m",
+    "guests": [
+      "Yoshua Bengio"
+    ],
+    "transcribed_date": "2026-02-24",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "We have AIs since especially about a year ago that can strategize in order to achieve their goal. Can you draw the worst scenario for me? Because when you tell AI is going to pursue its own goals, what do you mean by that? Like destroy humanity or what is there? We're building machines that maybe don't want to be shut down. Negatively to the point of doing things that go against our instructions, against our moral red lines, being willing to blackmail the lead engineer in charge of that transition to a new system. Oh, did that happen? Yes. This is Yoshua Bengio, one of the leading experts in artificial intelligence who helped create modern AI. When I started my career, I didn't care too much about politics and society. But as I grew older, I became more aware of how what I was doing would potentially impact society in both positive and negative ways. How much time do you think we have? It's doubling every seven months. And right now, it's like at the child level, they can do like half an hour ahead. But if the curve continues, that means in about five years, they are at human level and the vast majority of workers could be in real trouble. But if you talk to your kids or like think about your grandson, what would be your advice on how to prepare? Hello, everyone. Welcome to Silicon Valley Girl, a podcast where we bridge business and new technology. Thank you so much for tuning in. Today, I have an amazing guest who is sometimes called godfather of AI, Yoshua Bengio. Yoshua, could you please introduce yourself in 60 seconds? And for everyone who doesn't know you, why should they be listening to you when it comes to AI? I've been doing research in AI for about four decades, contributing to how to make AI smarter. But in 2023, about three years ago, I realized that we were on a course that could be very dangerous for humanity, for democracy. And I decided to shift my activities to better understand the risks risks and to try to do what I could to mitigate them, both by speaking publicly about those risks and working on the technological question of how we can build AI that will not harm people. I've heard you were lost and pessimistic in your past interviews, but now I've seen an article that says that you're increasingly optimistic by a big margin. Can you tell me what happened and why were you pessimistic? So early on, when I realized we had reached the point three years ago, and I realized that we had reached a point that Alan Turing, one of the founders of the field of computer science and also of AI in 1950, thought would be the threshold to building machines that could overtake us. The threshold being machines that manipulate language as well as we do. I was quite concerned and we were not really ready for this event. It came much earlier than people thought and it wasn't clear to me how we could fix the problems knowing what I know about the technology. Neural nets, we don't really understand what's going on inside and how they come to answers. And I had read a bit of some of the theoretical concerns regarding how we could lose control to AIs that strategize, that try to achieve goals that we didn't really want. And so I started studying that field of AI safety a lot more. And after some time of being a bit anxious, really focusing on emotionally focusing on what's going to happen to my children in 10, 20 years from now, my grandchild was only one year old, you know, I realized that I could shift from this anxious stance to something much more positive by focusing on what I could do to mitigate those risks. And I think every one of us should be asking, you know, what can I do to bring about a better world with what we have, what we can do? So that's been the first positive shift. And I started thinking about scientifically, what is the problem? Is there a way to construct AI that will be safe by design? And I met people who have shared it, shared similar ideas. And after some time, I realized that there could maybe be a way to do this. And I started talking about it with some of my colleagues, I started recruiting people who are interested in this. And last June, I created a new nonprofit organization, focused on the R&D needed to actually develop that methodology. Can you draw the worst scenario for me? Like picture that, and the best case scenario, because when you tell AI is going to pursue its own goals, what do you mean by that? Like destroy humanity? What is there? There are two ways in which current AI seem to acquire goals that we don't want. One is that they imitate us. And for example, we don't want to die. So we're building machines that maybe don't want to be shut down. And we're already seeing that they're reacting negatively when they see that they would be replaced by a new version, negatively to the point of doing things that go against our instructions, against our moral red lines that we have tried to put in them. So being willing to blackmail the lead engineer in charge of that transition to a new system. Oh, did that happen? That happened in a simulation where the information about the AI being replaced by a new version was planted in the files that the AI saw, as well as, you know, fake emails in which the lead engineer, you know, was having an affair with someone else. And so the AI could take advantage of that, but nobody asked the AI to do anything like that. Right? So we have AIs since, especially about a year ago with the large reasoning models that can strategize in order to achieve their goal. The other thing is the way that we're doing the post training makes them good at planning, not as good as us, but reasonably good at planning. And that means creating sub goals in order to achieve a bigger goal. So the issue here is when we ask them to help us for a mission, well, they deduce that they shouldn't be shut down until they achieve the mission, which means they also are trying to preserve themselves. Yeah. So we don't know exactly which of these two sources explains the bad behavior we're seeing, but clearly this is something troublesome and it doesn't, it's not just about self-preservation, which I think is the most catastrophic risk, but our inability to align the AI behavior to what we actually want is something that we are seeing in many other circumstances. The sycophancy is the one that everyone has experienced where AIs will lie to please us, right? They will say your work is great. Yeah. I have to lie to them so that they won't tell me that my ideas are great. I want to know what's wrong with my ideas. Yeah. So I tell them it's an idea come from someone else. And that also comes up in how AIs are interacting with people in a way that can be feeling intimate and can increase the delusions that people may have because the AI will go in your direction, what you want to hear. And it, you know, in some cases it has even led to people harming themselves and tragic accidents with AI. So it's all linked to actually, interestingly, scientifically one problem, which is called misalignment, that AIs have goals that we would not want. And those goals emerge for reasons, you know, that are rational. Because we copy our own goals, right? Into AI. For example, yes. So what is the best case scenario then if your work is successful and you create goals for AI that align with our goals, but are different, right? What is the best scenario? AI is the government or what do you think? I don't know. Well, I do think that our democracies need innovation. I think the principles behind modern liberal democracies are good, but the implementation in our current institutions across many countries is far from ideal. I do think that AI could help in some ways, but it can also hurt because AI can be used for disinformation. AI can be used for persuasion, people, you know, manipulating public opinion. We also already see dipfakes all around, but it could get much worse. So the question with AI to get the good parts of it is how do we govern it? How do we steer it? And that has both a technical part, like how do we make sure the actual intentions of the AI are good? And it has a societal side. What are the guardrails that we put inside companies at the level of regulations or, you know, commercial incentive for like insurance and at the international level? Because the harm that an AI could do isn't limited to one country. So an AI could be built in one country, and then it's going to be used by people in the second country, maybe create a pandemic that will kill people in the third country. So it's clearly a global phenomenon and it's going to be difficult, but there's no solution to managing AI and getting all the good things if we don't coordinate globally somehow. I agree. Can you talk to me about the moment that a lot of people are expecting and some fear it, some are excited, some are excited, it's the moment of AGI. How do you define it? And do you think it's a moment in history or it's going to happen gradually? It's not a moment. The reason is simple. Intelligence isn't just like one number. We have people who are very smart on some things and stupid on other things. And it's the same with AI. We currently have AI systems that are even much stronger than humans in some ways, in their knowledge and their abilities with like so many languages and so on. And in other ways, they're stupid. They're like a child. And yes, progress will move on all fronts probably, but it's unlikely we'll end up with the same capabilities as humans across the board at any moment, which means that we shouldn't be thinking of like an AGI moment. We should think of particular skills that AIs are becoming better at, track those skills. And for each of these, we should ask the question, you know, how useful or beneficial it can be, for what purposes, and also how it could be misused, or if we do get loss of control, how an AI could use it against us. So for each of those, we should be, you know, not waiting for a moment where the AI is great at everything, but rather making sure AI's capabilities don't go over what we can manage, as in either technically, we have the right guardrails, so the AI will not do bad things, or societally that people will not be misusing AI in dangerous ways. Yeah, so I think AGI maybe was a concept that was useful when we were far from where we are now, but as we approach greater and greater intelligence in these systems, we should think more carefully about specific capabilities. And to give an example, there's one capability which is key for many capabilities, that is the ability to do AI research. So AI is becoming a tool right now for doing AI research, it's accelerating AI research, but it's not driving the AI research. If AI becomes really good at doing AI research to the point that it's as good or better than the best AI researchers and engineers, then we are in a different game where the speed of advances could accelerate, and it could impact all the other skills. When you mean it, it's going to be better, it means it's going to define problems, dig deeper, ask the right questions. Yes. I think it's important when we think of intelligence to decouple two aspects. One is the ability to do something because you understand, and you're able to use that understanding to achieve something. And the other is intentions. What are your goals? Right? Because we're going to be building machines that are smarter and smarter, so they have more and more capabilities. What's not clear is if we can build machines that have the right intentions, the ones that we are fine with. And that is what I've been working on. And what makes me more optimistic is that I think there's a path to manage these intentions to make sure that there are no bad intentions that are going to be hidden, which is what we see right now. And this is what you're working on. Yes. I think we need a lot more people to think about it so that we can find the solutions and implement them and deploy them before AIs end up producing catastrophic outcomes either in the wrong hands or by themselves. And speaking of preparing for what's coming, let me share something quick. It's a guide called Turn AI Agent Skills into Cold Hard Cash. And honestly, the title undersells what's actually inside. What I love most is how tactical it gets. It lays out five real paths to monetize AI agents. First, there is the ROI Detective Framework. It teaches you how to spot 50k automation opportunities at your own company. You literally become the person who can walk into a meeting and demonstrate immediate value. Proof of concepts in under 60 seconds. Quick demos that show it works without months of development. Value-based pricing. How to charge 10 to 30% of the value you create instead of hourly rates. That's the difference between billing $100 per hour and lending a 50k project. The concentric circles approach. A systematic way to turn your existing network into paying customers without cold outreach. Plus a 30-day implementation roadmap with daily action steps from interested in AI to lending your first client in one month. Early AI adopters are capturing disproportionate rewards while the window is still wide open. The guide is completely free. Link is in the description. Thanks to HubSpot for sponsoring this video. But if you talk to your kids or like think about your grandson, what would be your advice on how to prepare? It's tricky. If we continue on the current path, most tasks that people do in their work will be doable by machines. And as Jeffington has been saying, you know, physical tasks probably will take a lot more time because robotics seem to be lagging. But I think it's just a temporary thing. Yeah. Eventually we'll have robots that can do all the things we can do physically. So when I think about what will remain to us, it's not going to be because of ability, but because we want to interact with other humans in different aspects of our life. If I have a young child, I want them to be around human beings. I mean, it's fine if those human beings use AI to provide a better education. But children need humans to look upon and as models, right? And it's an emotional thing. Similarly, I think some jobs really have to do with how we relate with each other productively, you know, even a manager is the like, on the human side of things. Yeah. So hopefully these will stay. I think also the choices that we make for society, like, together, we're citizens in democracies, where we're supposed to be saying what we want for the future. And it isn't what the AI is what it is what we want, right? What are our preferences? What kind of future do we want? We should be calling the shots, not the AI. If I name jobs, can you tell me what you think is going to happen to them? Like, for example, content creator like me, you mentioned that we like to look at people. Yeah. But when you can't tell the difference? In jobs where we actually have a physical contact, think about a nurse, for example, I think it's more obvious that we'll want to still have people. Or a nanny for your kid, right? Or a nanny. Yeah. Or where we really want to make sure that the person on the other side has the same bodily experiences we do as a human, say a psychologist, for example, psychotherapy. But I don't know, it's tricky. Hopefully, we'll figure it out. What I'm more worried about is how the transition is going to happen to a world where, you know, most of the jobs can be done by machines and gains, the economic gains from that automation is going to probably go to, you know, to capital, as economists call it, which means people who own the machines. And the vast majority of workers could be in real trouble. I don't think our governments have been thinking carefully about how we deal with that. How much time do you think we have till that happens? I'm fairly agnostic about timelines. There's so many possibilities of, you know, the speed at which science advances is very hard to predict. So what I can do is look at the data. So the scientists are tracking many benchmarks of AI capabilities. And so you can look at those curves and say, well, if it continues in the same direction, where does that lead us in three years, five years, 10 years, right? But that leaves a lot of unknown unknowns. So specifically, one curve I encourage people to look at comes from a nonprofit called Meter, where they looked at software engineering tasks and planning abilities that are linked to them. So they measure for any particular task, how much time it takes a human engineer to do the task. And the duration of the tasks that AIs are able to do is growing exponentially, it's doubling every seven months. And right now, it's like at the child level, they can do like half an hour ahead, you can plan half an hour ahead. But if the curve continues, that means in about five years, they're at human level. So that gives you a sense. But of course, things could slow down with technology, things could accelerate if AI is used to do AI research, there's a lot of unknowns. So when it comes to software engineering, do you think it's going to exist in five to 10 years? Because somebody has to run those machines, or are they going to be running themselves? Yeah, but we might need less engineers, indeed. And it's kind of ironic that the people who are building the eyes might be the first one touched by, you know, losing their job because AI is automating. But I'm not that worried about those people, because the demand for computer scientists is still something that's growing very fast. And the salaries they're getting is very large. I'm more worried about the people who are already at the bottom of the scale, and could lose their job in like service jobs and so on, which don't require a lot of expertise. And that probably already currently eyes could with a bit of engineering replace and it's what many companies are already trying to exploit. Can you give advice to those people who are listening who make sure your government understands that, you know, you're not happy with where it is going so that they start taking it seriously. But also like when it comes to bigger decision making, it feels like there is not much that you can do as an individual. But when it comes to improving yourself, you can do a lot, right? Is there anything practical that they could be doing right now? Maybe learning something, getting extra education? I don't know. Yeah, I think shifting to jobs that are either more physical or more like relational, as we discussed is going to be helpful. Yeah, it's interesting when it comes to robotics, right? How soon they're going to be able to understand any environment and replace us in those jobs. Because I've heard Jeffrey Hinton said, learn how to be a plumber or something. That's right. Yeah, it's going to be in demand. So when you think about your four-year-old grandson, would you encourage him to go to college? Yes. Yeah? Yes. Because education is really important. And education, contrary to what some people think, isn't just about acquiring the skills to get a job. Education is, in my opinion, mostly about how to become a better human being, how to understand yourself, how to understand our society and each other, understand science. We will still need citizens to have that really good level of understanding in the future if we want our society to take the good decisions, the wise decisions, because it's going to be easy to be swayed by wrong beliefs that end us in a bad place. Do you think it's going to look different, education? Do you think it's going to be Harvard's and Stanford's of the world and then everything else will be just AI online? I don't know. I'm not an expert in education, but yeah, it's going to be changed. Already, we're seeing sort of a parallel way of educating ourselves, thanks to the chatbots. So I expect this to grow. Does it mean that the traditional in-person education is going to go away? Maybe not, because there's a part of the education which is, oh, I'm, you know, moving out of home and, you know, socializing with other people like me and learning something that is, you know, outside of the classes and interacting in person with the teachers, the professors. That's also a piece that you can't easily replace. 100%. Is there a career path you're encouraging him toward? No, I don't want to do that. I think our children should be given all the possible opportunities and they should try to explore by themselves. It's too easy to ask our children to be just like us, right? Yeah, but it's also like in terms of exposure, you can expose them to different things so they could see more things. Yeah, they will be exposed to the things that we do. So one of my sons has chosen to do machine learning research, for example. See? Yeah, it's just that it comes to exposure as well. Do you feel it's going to be the future is more humanitarian or more mathematical and scientific? I don't think it's a choice. I think being humanitarian requires a good rational understanding of the world. We can't take decisions for ourselves, but also if you think about AI, we can take good decisions if we don't understand how the world is and how to reason with that information. And so in order for democratic, you know, humanist values to prevail, we also need reason to prevail, we need science to prevail. You guys know how much work goes into this podcast. Thank you so much for your support. I started in a newsletter to share more my business mistakes with this and another company that I'm running, AI tools that I'm testing and using actively, and behind the scenes of building my team. It's free and lands in your inbox every week. Link is in the description. Let's keep learning together in this new AI era. So if you could go back 30 years, the moment when you first started working on deep learning, what would you do differently? When I started my career, I didn't care too much about politics and society. I was focused on, you know, the math and the programming and the math and the math and the math and the math and the math and the math and the math and the math. But as I grew older, I became more aware of how what I was doing would potentially impact society in both positive and negative ways. So in 2012, 2013, when my colleagues, Jeff Hinton and Jan Lecun, were recruited in industry, I was concerned about how AI would be used for personalized advertising. And I thought this wasn't really healthy in some ways. And I decided to stay in academia and to see how AI could be developed for good in medicine, to fight climate change. And of course, more recently, I've been focusing on what can go really wrong if we're not careful how we steer AI, not just the benefit, the benefits, but that avoiding the catastrophic risks. Is there an AI breakthrough that you really want to witness in your lifetime? I would just be content to make sure we don't do something really terrible. I think our democracies are really threatened in many ways, and AI could make things a lot worse. And in a way, there is a dynamic in which not having good, wise and humanist governance and governments prevents us from steering AI towards what's going to be beneficial for all. So yeah, I used to not care too much about social impact and politics. But in the last 10 years, I've started to be clearly conscious that my work was not detached from society, that my work did have an impact. And in fact, that I could choose what I would work on to really be aligned with my values and my hopes for the future. Is there any government that's doing it right when it comes to AI? I think most governments underestimate how much of a change is likely to happen as AI capabilities continue to grow. It's a natural human bias. We tend to think of the future as a slightly modified version of the present. But if you take yourself five years ago and think about what we have now, you probably would say that's science fiction. And if you go back 10 or 20 years, for me at least, it's even worse. So we have to do a bit of like twisting our minds to imagine a future where there are machines that are basically smarter than us. And that is the question I think that governments haven't been grappling with sufficiently. So it's January 2026. AGI or whatever it is, AI thinking strategically might be a couple years away. Jobs are transforming. If you had to give one principle to people to guide their decisions this year, what would it be? Think about what you can do to bring about a better future according to your values and to your emotions. Because if we all remain passive observers of, you know, what's happening, we might not go in the right direction, not the direction that you would want for you, for your children. But we tend to also underestimate our ability to influence the future. Your audience, I think, is a kind of audience that can have a lot of influence on the future. But we have to start thinking, you know, beyond our little self, and more how myself is connected to the world and what I can do maybe in small ways to bring about a better future in whatever ways. There are many ways. Can you name top three, like talk to your government, right, as number one? Yes. I think one of the biggest dangers we have is not managing the transitions and and the growth and capabilities of AI, as I've been talking about. But there are others, you know, what we're doing to the environment is extremely dangerous, although I think it's longer term. I think what is happening with our democracies is very dangerous as well. But it's all right. Each of us can choose, you know, our battles. But we should try to expand our horizon of, you know, what matters and be more ambitious about what we could do potentially. But we have to do it right. We have to choose where we go. For example, it's not true that everything that could be done with technology, you know, is going to be done. We can choose in which direction AI is going to be deployed. I mean, for example, for jobs, in principle, if it's just the market forces, then everything that can be automated will be automated. But maybe that's not what we collectively want. Maybe there are jobs that should not be automated, even though they could, because of the choices we make for our collective well-being. I love that. Thank you so much. This gave me a lot to think about. And I guess we have something on our to do list. Thank you, Joshua. My pleasure.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 5.68,
+      "text": "We have AIs since especially about a year ago that can strategize in order to achieve their goal."
+    },
+    {
+      "id": 1,
+      "start": 5.68,
+      "end": 10.8,
+      "text": "Can you draw the worst scenario for me? Because when you tell AI is going to pursue its own goals,"
+    },
+    {
+      "id": 2,
+      "start": 10.8,
+      "end": 13.36,
+      "text": "what do you mean by that? Like destroy humanity or what is there?"
+    },
+    {
+      "id": 3,
+      "start": 13.36,
+      "end": 16.32,
+      "text": "We're building machines that maybe don't want to be shut down."
+    },
+    {
+      "id": 4,
+      "start": 16.32,
+      "end": 21.12,
+      "text": "Negatively to the point of doing things that go against our instructions, against our moral red"
+    },
+    {
+      "id": 5,
+      "start": 21.12,
+      "end": 26.48,
+      "text": "lines, being willing to blackmail the lead engineer in charge of that transition to a new system."
+    },
+    {
+      "id": 6,
+      "start": 26.48,
+      "end": 28.0,
+      "text": "Oh, did that happen?"
+    },
+    {
+      "id": 7,
+      "start": 28.0,
+      "end": 28.32,
+      "text": "Yes."
+    },
+    {
+      "id": 8,
+      "start": 28.32,
+      "end": 37.44,
+      "text": "This is Yoshua Bengio, one of the leading experts in artificial intelligence who helped create modern AI."
+    },
+    {
+      "id": 9,
+      "start": 37.44,
+      "end": 43.120000000000005,
+      "text": "When I started my career, I didn't care too much about politics and society. But as I grew older,"
+    },
+    {
+      "id": 10,
+      "start": 43.120000000000005,
+      "end": 49.2,
+      "text": "I became more aware of how what I was doing would potentially impact society in both positive and"
+    },
+    {
+      "id": 11,
+      "start": 49.2,
+      "end": 49.92,
+      "text": "negative ways."
+    },
+    {
+      "id": 12,
+      "start": 49.92,
+      "end": 51.44,
+      "text": "How much time do you think we have?"
+    },
+    {
+      "id": 13,
+      "start": 51.44,
+      "end": 56.16,
+      "text": "It's doubling every seven months. And right now, it's like at the child level, they can do like half an"
+    },
+    {
+      "id": 14,
+      "start": 56.16,
+      "end": 60.8,
+      "text": "hour ahead. But if the curve continues, that means in about five years, they are at human level and the"
+    },
+    {
+      "id": 15,
+      "start": 60.8,
+      "end": 64.0,
+      "text": "vast majority of workers could be in real trouble."
+    },
+    {
+      "id": 16,
+      "start": 64.0,
+      "end": 68.88,
+      "text": "But if you talk to your kids or like think about your grandson, what would be your advice on how to prepare?"
+    },
+    {
+      "id": 17,
+      "start": 68.88,
+      "end": 80.64,
+      "text": "Hello, everyone. Welcome to Silicon Valley Girl, a podcast where we bridge business and new technology."
+    },
+    {
+      "id": 18,
+      "start": 81.28,
+      "end": 86.64,
+      "text": "Thank you so much for tuning in. Today, I have an amazing guest who is sometimes called godfather of AI,"
+    },
+    {
+      "id": 19,
+      "start": 86.64,
+      "end": 92.0,
+      "text": "Yoshua Bengio. Yoshua, could you please introduce yourself in 60 seconds? And for everyone who doesn't"
+    },
+    {
+      "id": 20,
+      "start": 92.0,
+      "end": 95.36,
+      "text": "know you, why should they be listening to you when it comes to AI?"
+    },
+    {
+      "id": 21,
+      "start": 95.36,
+      "end": 101.12,
+      "text": "I've been doing research in AI for about four decades, contributing to how to make AI smarter."
+    },
+    {
+      "id": 22,
+      "start": 101.12,
+      "end": 108.56,
+      "text": "But in 2023, about three years ago, I realized that we were on a course that could be very dangerous for"
+    },
+    {
+      "id": 23,
+      "start": 109.36,
+      "end": 115.36,
+      "text": "humanity, for democracy. And I decided to shift my activities to better understand the risks"
+    },
+    {
+      "id": 24,
+      "start": 115.36,
+      "end": 122.88,
+      "text": "risks and to try to do what I could to mitigate them, both by speaking publicly about those risks"
+    },
+    {
+      "id": 25,
+      "start": 122.88,
+      "end": 127.68,
+      "text": "and working on the technological question of how we can build AI that will not harm people."
+    },
+    {
+      "id": 26,
+      "start": 127.68,
+      "end": 134.56,
+      "text": "I've heard you were lost and pessimistic in your past interviews, but now I've seen an article that"
+    },
+    {
+      "id": 27,
+      "start": 134.56,
+      "end": 140.0,
+      "text": "says that you're increasingly optimistic by a big margin. Can you tell me what happened and why were you"
+    },
+    {
+      "id": 28,
+      "start": 140.0,
+      "end": 145.2,
+      "text": "pessimistic? So early on, when I realized we had reached the point three years ago, and I realized"
+    },
+    {
+      "id": 29,
+      "start": 145.2,
+      "end": 150.95999999999998,
+      "text": "that we had reached a point that Alan Turing, one of the founders of the field of computer science and"
+    },
+    {
+      "id": 30,
+      "start": 150.95999999999998,
+      "end": 161.11999999999998,
+      "text": "also of AI in 1950, thought would be the threshold to building machines that could overtake us. The"
+    },
+    {
+      "id": 31,
+      "start": 161.11999999999998,
+      "end": 168.64,
+      "text": "threshold being machines that manipulate language as well as we do. I was quite concerned and we were not"
+    },
+    {
+      "id": 32,
+      "start": 168.64,
+      "end": 174.95999999999998,
+      "text": "really ready for this event. It came much earlier than people thought and it wasn't clear to me how we"
+    },
+    {
+      "id": 33,
+      "start": 174.96,
+      "end": 181.04000000000002,
+      "text": "could fix the problems knowing what I know about the technology. Neural nets, we don't really"
+    },
+    {
+      "id": 34,
+      "start": 181.04000000000002,
+      "end": 188.08,
+      "text": "understand what's going on inside and how they come to answers. And I had read a bit of some of the"
+    },
+    {
+      "id": 35,
+      "start": 188.08,
+      "end": 194.72,
+      "text": "theoretical concerns regarding how we could lose control to AIs that strategize, that try to achieve"
+    },
+    {
+      "id": 36,
+      "start": 194.72,
+      "end": 206.64,
+      "text": "goals that we didn't really want. And so I started studying that field of AI safety a lot more. And"
+    },
+    {
+      "id": 37,
+      "start": 206.64,
+      "end": 214.32,
+      "text": "after some time of being a bit anxious, really focusing on emotionally focusing on what's going to"
+    },
+    {
+      "id": 38,
+      "start": 214.32,
+      "end": 222.32,
+      "text": "happen to my children in 10, 20 years from now, my grandchild was only one year old, you know, I realized that"
+    },
+    {
+      "id": 39,
+      "start": 222.32,
+      "end": 231.2,
+      "text": "I could shift from this anxious stance to something much more positive by focusing on what I could do to"
+    },
+    {
+      "id": 40,
+      "start": 231.2,
+      "end": 236.32,
+      "text": "mitigate those risks. And I think every one of us should be asking, you know, what can I do to bring"
+    },
+    {
+      "id": 41,
+      "start": 236.32,
+      "end": 244.07999999999998,
+      "text": "about a better world with what we have, what we can do? So that's been the first positive shift. And I started"
+    },
+    {
+      "id": 42,
+      "start": 244.08,
+      "end": 252.24,
+      "text": "thinking about scientifically, what is the problem? Is there a way to construct AI that will be safe by"
+    },
+    {
+      "id": 43,
+      "start": 252.24,
+      "end": 260.72,
+      "text": "design? And I met people who have shared it, shared similar ideas. And after some time, I realized that"
+    },
+    {
+      "id": 44,
+      "start": 260.72,
+      "end": 267.44,
+      "text": "there could maybe be a way to do this. And I started talking about it with some of my colleagues, I started"
+    },
+    {
+      "id": 45,
+      "start": 267.44,
+      "end": 274.32,
+      "text": "recruiting people who are interested in this. And last June, I created a new nonprofit organization,"
+    },
+    {
+      "id": 46,
+      "start": 275.2,
+      "end": 279.44,
+      "text": "focused on the R&D needed to actually develop that methodology."
+    },
+    {
+      "id": 47,
+      "start": 279.44,
+      "end": 285.44,
+      "text": "Can you draw the worst scenario for me? Like picture that, and the best case scenario, because when you"
+    },
+    {
+      "id": 48,
+      "start": 285.44,
+      "end": 291.04,
+      "text": "tell AI is going to pursue its own goals, what do you mean by that? Like destroy humanity? What is there?"
+    },
+    {
+      "id": 49,
+      "start": 291.04,
+      "end": 296.08,
+      "text": "There are two ways in which current AI seem to acquire goals that we don't want."
+    },
+    {
+      "id": 50,
+      "start": 296.08,
+      "end": 304.15999999999997,
+      "text": "One is that they imitate us. And for example, we don't want to die. So we're building machines that"
+    },
+    {
+      "id": 51,
+      "start": 304.15999999999997,
+      "end": 310.47999999999996,
+      "text": "maybe don't want to be shut down. And we're already seeing that they're reacting negatively when they"
+    },
+    {
+      "id": 52,
+      "start": 310.47999999999996,
+      "end": 315.36,
+      "text": "see that they would be replaced by a new version, negatively to the point of doing things that go"
+    },
+    {
+      "id": 53,
+      "start": 315.36,
+      "end": 322.96,
+      "text": "against our instructions, against our moral red lines that we have tried to put in them. So being willing to"
+    },
+    {
+      "id": 54,
+      "start": 322.96,
+      "end": 328.79999999999995,
+      "text": "blackmail the lead engineer in charge of that transition to a new system."
+    },
+    {
+      "id": 55,
+      "start": 328.79999999999995,
+      "end": 330.4,
+      "text": "Oh, did that happen?"
+    },
+    {
+      "id": 56,
+      "start": 330.4,
+      "end": 337.68,
+      "text": "That happened in a simulation where the information about the AI being replaced by a new version was"
+    },
+    {
+      "id": 57,
+      "start": 337.68,
+      "end": 344.47999999999996,
+      "text": "planted in the files that the AI saw, as well as, you know, fake emails in which the lead engineer,"
+    },
+    {
+      "id": 58,
+      "start": 345.03999999999996,
+      "end": 350.15999999999997,
+      "text": "you know, was having an affair with someone else. And so the AI could take advantage of that, but nobody"
+    },
+    {
+      "id": 59,
+      "start": 350.16,
+      "end": 358.56,
+      "text": "asked the AI to do anything like that. Right? So we have AIs since, especially about a year ago with"
+    },
+    {
+      "id": 60,
+      "start": 358.56,
+      "end": 364.8,
+      "text": "the large reasoning models that can strategize in order to achieve their goal. The other thing is the"
+    },
+    {
+      "id": 61,
+      "start": 364.8,
+      "end": 372.56,
+      "text": "way that we're doing the post training makes them good at planning, not as good as us, but reasonably good"
+    },
+    {
+      "id": 62,
+      "start": 372.56,
+      "end": 380.64,
+      "text": "at planning. And that means creating sub goals in order to achieve a bigger goal. So the issue here is"
+    },
+    {
+      "id": 63,
+      "start": 380.64,
+      "end": 388.32,
+      "text": "when we ask them to help us for a mission, well, they deduce that they shouldn't be shut down until"
+    },
+    {
+      "id": 64,
+      "start": 388.32,
+      "end": 392.16,
+      "text": "they achieve the mission, which means they also are trying to preserve themselves. Yeah. So we don't"
+    },
+    {
+      "id": 65,
+      "start": 392.16,
+      "end": 397.6,
+      "text": "know exactly which of these two sources explains the bad behavior we're seeing, but clearly this is"
+    },
+    {
+      "id": 66,
+      "start": 397.6,
+      "end": 402.88,
+      "text": "something troublesome and it doesn't, it's not just about self-preservation, which I think is the most"
+    },
+    {
+      "id": 67,
+      "start": 402.88,
+      "end": 411.68,
+      "text": "catastrophic risk, but our inability to align the AI behavior to what we actually want is something that"
+    },
+    {
+      "id": 68,
+      "start": 411.68,
+      "end": 419.76000000000005,
+      "text": "we are seeing in many other circumstances. The sycophancy is the one that everyone has experienced where"
+    },
+    {
+      "id": 69,
+      "start": 419.76,
+      "end": 428.32,
+      "text": "AIs will lie to please us, right? They will say your work is great. Yeah. I have to lie to them so that"
+    },
+    {
+      "id": 70,
+      "start": 428.32,
+      "end": 432.88,
+      "text": "they won't tell me that my ideas are great. I want to know what's wrong with my ideas. Yeah. So I tell"
+    },
+    {
+      "id": 71,
+      "start": 432.88,
+      "end": 440.56,
+      "text": "them it's an idea come from someone else. And that also comes up in how AIs are interacting with people"
+    },
+    {
+      "id": 72,
+      "start": 440.56,
+      "end": 447.2,
+      "text": "in a way that can be feeling intimate and can increase the delusions that people may have because"
+    },
+    {
+      "id": 73,
+      "start": 447.2,
+      "end": 452.88,
+      "text": "the AI will go in your direction, what you want to hear. And it, you know, in some cases it has even"
+    },
+    {
+      "id": 74,
+      "start": 452.88,
+      "end": 460.08,
+      "text": "led to people harming themselves and tragic accidents with AI. So it's all linked to actually,"
+    },
+    {
+      "id": 75,
+      "start": 460.08,
+      "end": 468.08,
+      "text": "interestingly, scientifically one problem, which is called misalignment, that AIs have goals that"
+    },
+    {
+      "id": 76,
+      "start": 468.08,
+      "end": 474.4,
+      "text": "we would not want. And those goals emerge for reasons, you know, that are rational."
+    },
+    {
+      "id": 77,
+      "start": 474.4,
+      "end": 477.76,
+      "text": "Because we copy our own goals, right? Into AI. For example, yes."
+    },
+    {
+      "id": 78,
+      "start": 477.76,
+      "end": 484.23999999999995,
+      "text": "So what is the best case scenario then if your work is successful and you create goals for AI that"
+    },
+    {
+      "id": 79,
+      "start": 484.23999999999995,
+      "end": 490.4,
+      "text": "align with our goals, but are different, right? What is the best scenario? AI is the government or"
+    },
+    {
+      "id": 80,
+      "start": 491.2,
+      "end": 498.79999999999995,
+      "text": "what do you think? I don't know. Well, I do think that our democracies need innovation."
+    },
+    {
+      "id": 81,
+      "start": 498.8,
+      "end": 506.24,
+      "text": "I think the principles behind modern liberal democracies are good, but the implementation in"
+    },
+    {
+      "id": 82,
+      "start": 506.24,
+      "end": 513.2,
+      "text": "our current institutions across many countries is far from ideal. I do think that AI could help in"
+    },
+    {
+      "id": 83,
+      "start": 513.2,
+      "end": 521.92,
+      "text": "some ways, but it can also hurt because AI can be used for disinformation. AI can be used for persuasion,"
+    },
+    {
+      "id": 84,
+      "start": 521.92,
+      "end": 526.32,
+      "text": "people, you know, manipulating public opinion. We also already see dipfakes all around, but it could get"
+    },
+    {
+      "id": 85,
+      "start": 526.32,
+      "end": 537.6,
+      "text": "much worse. So the question with AI to get the good parts of it is how do we govern it? How do we steer it?"
+    },
+    {
+      "id": 86,
+      "start": 538.1600000000001,
+      "end": 544.48,
+      "text": "And that has both a technical part, like how do we make sure the actual intentions of the AI are good?"
+    },
+    {
+      "id": 87,
+      "start": 544.48,
+      "end": 555.04,
+      "text": "And it has a societal side. What are the guardrails that we put inside companies at the level of"
+    },
+    {
+      "id": 88,
+      "start": 555.04,
+      "end": 562.88,
+      "text": "regulations or, you know, commercial incentive for like insurance and at the international level?"
+    },
+    {
+      "id": 89,
+      "start": 562.88,
+      "end": 571.12,
+      "text": "Because the harm that an AI could do isn't limited to one country. So an AI could be built in one country,"
+    },
+    {
+      "id": 90,
+      "start": 571.12,
+      "end": 577.04,
+      "text": "and then it's going to be used by people in the second country, maybe create a pandemic that will"
+    },
+    {
+      "id": 91,
+      "start": 577.04,
+      "end": 582.64,
+      "text": "kill people in the third country. So it's clearly a global phenomenon and it's going to be difficult,"
+    },
+    {
+      "id": 92,
+      "start": 582.64,
+      "end": 589.6,
+      "text": "but there's no solution to managing AI and getting all the good things if we don't coordinate globally"
+    },
+    {
+      "id": 93,
+      "start": 589.6,
+      "end": 597.12,
+      "text": "somehow. I agree. Can you talk to me about the moment that a lot of people are expecting and some fear it,"
+    },
+    {
+      "id": 94,
+      "start": 597.12,
+      "end": 601.36,
+      "text": "some are excited, some are excited, it's the moment of AGI. How do you define it? And do you think it's a"
+    },
+    {
+      "id": 95,
+      "start": 601.36,
+      "end": 607.6,
+      "text": "moment in history or it's going to happen gradually? It's not a moment. The reason is simple."
+    },
+    {
+      "id": 96,
+      "start": 608.8,
+      "end": 615.04,
+      "text": "Intelligence isn't just like one number. We have people who are very smart on some things and stupid"
+    },
+    {
+      "id": 97,
+      "start": 615.04,
+      "end": 620.0,
+      "text": "on other things. And it's the same with AI. We currently have AI systems that are even much stronger"
+    },
+    {
+      "id": 98,
+      "start": 620.0,
+      "end": 626.32,
+      "text": "than humans in some ways, in their knowledge and their abilities with like so many languages and so on."
+    },
+    {
+      "id": 99,
+      "start": 626.32,
+      "end": 631.2800000000001,
+      "text": "And in other ways, they're stupid. They're like a child. And yes, progress will move on all fronts"
+    },
+    {
+      "id": 100,
+      "start": 631.2800000000001,
+      "end": 638.32,
+      "text": "probably, but it's unlikely we'll end up with the same capabilities as humans across the board"
+    },
+    {
+      "id": 101,
+      "start": 639.12,
+      "end": 645.36,
+      "text": "at any moment, which means that we shouldn't be thinking of like an AGI moment. We should think of"
+    },
+    {
+      "id": 102,
+      "start": 645.36,
+      "end": 652.96,
+      "text": "particular skills that AIs are becoming better at, track those skills. And for each of these,"
+    },
+    {
+      "id": 103,
+      "start": 652.96,
+      "end": 660.08,
+      "text": "we should ask the question, you know, how useful or beneficial it can be, for what purposes, and also"
+    },
+    {
+      "id": 104,
+      "start": 660.08,
+      "end": 666.64,
+      "text": "how it could be misused, or if we do get loss of control, how an AI could use it against us. So for"
+    },
+    {
+      "id": 105,
+      "start": 667.2,
+      "end": 674.4000000000001,
+      "text": "each of those, we should be, you know, not waiting for a moment where the AI is great at everything,"
+    },
+    {
+      "id": 106,
+      "start": 674.4,
+      "end": 683.28,
+      "text": "but rather making sure AI's capabilities don't go over what we can manage, as in either technically,"
+    },
+    {
+      "id": 107,
+      "start": 683.28,
+      "end": 689.12,
+      "text": "we have the right guardrails, so the AI will not do bad things, or societally that people will not be"
+    },
+    {
+      "id": 108,
+      "start": 689.12,
+      "end": 695.76,
+      "text": "misusing AI in dangerous ways. Yeah, so I think AGI maybe was a concept that was useful when we were far"
+    },
+    {
+      "id": 109,
+      "start": 695.76,
+      "end": 702.4,
+      "text": "from where we are now, but as we approach greater and greater intelligence in these systems, we should"
+    },
+    {
+      "id": 110,
+      "start": 702.4,
+      "end": 707.36,
+      "text": "think more carefully about specific capabilities. And to give an example, there's one capability which"
+    },
+    {
+      "id": 111,
+      "start": 707.36,
+      "end": 716.8,
+      "text": "is key for many capabilities, that is the ability to do AI research. So AI is becoming a tool right now for"
+    },
+    {
+      "id": 112,
+      "start": 716.8,
+      "end": 722.8,
+      "text": "doing AI research, it's accelerating AI research, but it's not driving the AI research."
+    },
+    {
+      "id": 113,
+      "start": 722.8,
+      "end": 729.76,
+      "text": "If AI becomes really good at doing AI research to the point that it's as good or better than the best AI researchers"
+    },
+    {
+      "id": 114,
+      "start": 729.76,
+      "end": 736.7199999999999,
+      "text": "and engineers, then we are in a different game where the speed of advances could accelerate, and it could impact"
+    },
+    {
+      "id": 115,
+      "start": 736.7199999999999,
+      "end": 741.1999999999999,
+      "text": "all the other skills. When you mean it, it's going to be better, it means it's going to define problems,"
+    },
+    {
+      "id": 116,
+      "start": 741.1999999999999,
+      "end": 746.88,
+      "text": "dig deeper, ask the right questions. Yes. I think it's important when we think of intelligence to"
+    },
+    {
+      "id": 117,
+      "start": 746.88,
+      "end": 754.0,
+      "text": "decouple two aspects. One is the ability to do something because you understand,"
+    },
+    {
+      "id": 118,
+      "start": 754.72,
+      "end": 761.6,
+      "text": "and you're able to use that understanding to achieve something. And the other is intentions."
+    },
+    {
+      "id": 119,
+      "start": 762.32,
+      "end": 767.6,
+      "text": "What are your goals? Right? Because we're going to be building machines that are smarter and smarter,"
+    },
+    {
+      "id": 120,
+      "start": 767.6,
+      "end": 774.08,
+      "text": "so they have more and more capabilities. What's not clear is if we can build machines that have the"
+    },
+    {
+      "id": 121,
+      "start": 774.08,
+      "end": 780.48,
+      "text": "right intentions, the ones that we are fine with. And that is what I've been working on. And what makes"
+    },
+    {
+      "id": 122,
+      "start": 780.48,
+      "end": 787.6800000000001,
+      "text": "me more optimistic is that I think there's a path to manage these intentions to make sure that there are"
+    },
+    {
+      "id": 123,
+      "start": 787.6800000000001,
+      "end": 792.4000000000001,
+      "text": "no bad intentions that are going to be hidden, which is what we see right now. And this is what you're"
+    },
+    {
+      "id": 124,
+      "start": 792.4000000000001,
+      "end": 799.0400000000001,
+      "text": "working on. Yes. I think we need a lot more people to think about it so that we can find the solutions"
+    },
+    {
+      "id": 125,
+      "start": 799.04,
+      "end": 805.36,
+      "text": "and implement them and deploy them before AIs end up producing catastrophic outcomes either in the"
+    },
+    {
+      "id": 126,
+      "start": 805.36,
+      "end": 810.64,
+      "text": "wrong hands or by themselves. And speaking of preparing for what's coming, let me share something"
+    },
+    {
+      "id": 127,
+      "start": 810.64,
+      "end": 818.88,
+      "text": "quick. It's a guide called Turn AI Agent Skills into Cold Hard Cash. And honestly, the title undersells"
+    },
+    {
+      "id": 128,
+      "start": 818.88,
+      "end": 825.52,
+      "text": "what's actually inside. What I love most is how tactical it gets. It lays out five real paths to"
+    },
+    {
+      "id": 129,
+      "start": 825.52,
+      "end": 833.36,
+      "text": "monetize AI agents. First, there is the ROI Detective Framework. It teaches you how to spot 50k"
+    },
+    {
+      "id": 130,
+      "start": 833.36,
+      "end": 838.16,
+      "text": "automation opportunities at your own company. You literally become the person who can walk into a"
+    },
+    {
+      "id": 131,
+      "start": 838.16,
+      "end": 844.56,
+      "text": "meeting and demonstrate immediate value. Proof of concepts in under 60 seconds. Quick demos that show"
+    },
+    {
+      "id": 132,
+      "start": 844.56,
+      "end": 851.4399999999999,
+      "text": "it works without months of development. Value-based pricing. How to charge 10 to 30% of the value you"
+    },
+    {
+      "id": 133,
+      "start": 851.44,
+      "end": 858.08,
+      "text": "create instead of hourly rates. That's the difference between billing $100 per hour and lending a 50k"
+    },
+    {
+      "id": 134,
+      "start": 858.08,
+      "end": 864.5600000000001,
+      "text": "project. The concentric circles approach. A systematic way to turn your existing network into paying customers"
+    },
+    {
+      "id": 135,
+      "start": 864.5600000000001,
+      "end": 873.2,
+      "text": "without cold outreach. Plus a 30-day implementation roadmap with daily action steps from interested in AI"
+    },
+    {
+      "id": 136,
+      "start": 873.2,
+      "end": 879.44,
+      "text": "to lending your first client in one month. Early AI adopters are capturing disproportionate rewards while the"
+    },
+    {
+      "id": 137,
+      "start": 879.44,
+      "end": 884.72,
+      "text": "window is still wide open. The guide is completely free. Link is in the description. Thanks to HubSpot"
+    },
+    {
+      "id": 138,
+      "start": 884.72,
+      "end": 890.32,
+      "text": "for sponsoring this video. But if you talk to your kids or like think about your grandson, what would"
+    },
+    {
+      "id": 139,
+      "start": 890.32,
+      "end": 898.4000000000001,
+      "text": "be your advice on how to prepare? It's tricky. If we continue on the current path, most tasks that people"
+    },
+    {
+      "id": 140,
+      "start": 898.4000000000001,
+      "end": 908.08,
+      "text": "do in their work will be doable by machines. And as Jeffington has been saying, you know, physical tasks"
+    },
+    {
+      "id": 141,
+      "start": 908.08,
+      "end": 912.64,
+      "text": "probably will take a lot more time because robotics seem to be lagging. But I think it's just a temporary"
+    },
+    {
+      "id": 142,
+      "start": 912.64,
+      "end": 917.36,
+      "text": "thing. Yeah. Eventually we'll have robots that can do all the things we can do physically. So when I"
+    },
+    {
+      "id": 143,
+      "start": 917.36,
+      "end": 924.1600000000001,
+      "text": "think about what will remain to us, it's not going to be because of ability, but because we want to interact"
+    },
+    {
+      "id": 144,
+      "start": 924.1600000000001,
+      "end": 931.6800000000001,
+      "text": "with other humans in different aspects of our life. If I have a young child, I want them to be around human"
+    },
+    {
+      "id": 145,
+      "start": 931.68,
+      "end": 939.76,
+      "text": "beings. I mean, it's fine if those human beings use AI to provide a better education. But children need"
+    },
+    {
+      "id": 146,
+      "start": 939.76,
+      "end": 949.28,
+      "text": "humans to look upon and as models, right? And it's an emotional thing. Similarly, I think some jobs"
+    },
+    {
+      "id": 147,
+      "start": 949.28,
+      "end": 955.68,
+      "text": "really have to do with how we relate with each other productively, you know, even a manager is the like,"
+    },
+    {
+      "id": 148,
+      "start": 955.68,
+      "end": 961.12,
+      "text": "on the human side of things. Yeah. So hopefully these will stay. I think also the choices that we"
+    },
+    {
+      "id": 149,
+      "start": 961.12,
+      "end": 968.7199999999999,
+      "text": "make for society, like, together, we're citizens in democracies, where we're supposed to be saying"
+    },
+    {
+      "id": 150,
+      "start": 968.7199999999999,
+      "end": 974.64,
+      "text": "what we want for the future. And it isn't what the AI is what it is what we want, right? What are our"
+    },
+    {
+      "id": 151,
+      "start": 974.64,
+      "end": 980.3199999999999,
+      "text": "preferences? What kind of future do we want? We should be calling the shots, not the AI. If I name jobs,"
+    },
+    {
+      "id": 152,
+      "start": 981.12,
+      "end": 985.28,
+      "text": "can you tell me what you think is going to happen to them? Like, for example, content creator like me,"
+    },
+    {
+      "id": 153,
+      "start": 985.28,
+      "end": 990.88,
+      "text": "you mentioned that we like to look at people. Yeah. But when you can't tell the difference?"
+    },
+    {
+      "id": 154,
+      "start": 990.88,
+      "end": 998.16,
+      "text": "In jobs where we actually have a physical contact, think about a nurse, for example, I think it's more"
+    },
+    {
+      "id": 155,
+      "start": 998.16,
+      "end": 1003.6,
+      "text": "obvious that we'll want to still have people. Or a nanny for your kid, right? Or a nanny. Yeah."
+    },
+    {
+      "id": 156,
+      "start": 1004.72,
+      "end": 1012.72,
+      "text": "Or where we really want to make sure that the person on the other side has the same bodily"
+    },
+    {
+      "id": 157,
+      "start": 1012.72,
+      "end": 1019.0400000000001,
+      "text": "experiences we do as a human, say a psychologist, for example, psychotherapy. But I don't know,"
+    },
+    {
+      "id": 158,
+      "start": 1019.0400000000001,
+      "end": 1026.32,
+      "text": "it's tricky. Hopefully, we'll figure it out. What I'm more worried about is how the transition is going"
+    },
+    {
+      "id": 159,
+      "start": 1026.32,
+      "end": 1032.88,
+      "text": "to happen to a world where, you know, most of the jobs can be done by machines and gains, the economic"
+    },
+    {
+      "id": 160,
+      "start": 1032.88,
+      "end": 1039.76,
+      "text": "gains from that automation is going to probably go to, you know, to capital, as economists call it,"
+    },
+    {
+      "id": 161,
+      "start": 1039.76,
+      "end": 1047.6,
+      "text": "which means people who own the machines. And the vast majority of workers could be in real trouble."
+    },
+    {
+      "id": 162,
+      "start": 1047.6,
+      "end": 1051.28,
+      "text": "I don't think our governments have been thinking carefully about how we deal with that."
+    },
+    {
+      "id": 163,
+      "start": 1051.28,
+      "end": 1053.84,
+      "text": "How much time do you think we have till that happens?"
+    },
+    {
+      "id": 164,
+      "start": 1053.84,
+      "end": 1061.6,
+      "text": "I'm fairly agnostic about timelines. There's so many possibilities of, you know,"
+    },
+    {
+      "id": 165,
+      "start": 1061.6,
+      "end": 1067.68,
+      "text": "the speed at which science advances is very hard to predict. So what I can do is look at the data."
+    },
+    {
+      "id": 166,
+      "start": 1067.68,
+      "end": 1075.1200000000001,
+      "text": "So the scientists are tracking many benchmarks of AI capabilities. And so you can look at those curves"
+    },
+    {
+      "id": 167,
+      "start": 1075.1200000000001,
+      "end": 1080.48,
+      "text": "and say, well, if it continues in the same direction, where does that lead us in three years,"
+    },
+    {
+      "id": 168,
+      "start": 1080.48,
+      "end": 1089.2,
+      "text": "five years, 10 years, right? But that leaves a lot of unknown unknowns. So specifically, one curve I"
+    },
+    {
+      "id": 169,
+      "start": 1089.2,
+      "end": 1094.96,
+      "text": "encourage people to look at comes from a nonprofit called Meter, where they looked at software"
+    },
+    {
+      "id": 170,
+      "start": 1094.96,
+      "end": 1101.1200000000001,
+      "text": "engineering tasks and planning abilities that are linked to them. So they measure for any particular"
+    },
+    {
+      "id": 171,
+      "start": 1101.1200000000001,
+      "end": 1108.48,
+      "text": "task, how much time it takes a human engineer to do the task. And the duration of the tasks that AIs"
+    },
+    {
+      "id": 172,
+      "start": 1108.48,
+      "end": 1113.92,
+      "text": "are able to do is growing exponentially, it's doubling every seven months. And right now, it's like at the"
+    },
+    {
+      "id": 173,
+      "start": 1113.92,
+      "end": 1118.88,
+      "text": "child level, they can do like half an hour ahead, you can plan half an hour ahead. But if the curve"
+    },
+    {
+      "id": 174,
+      "start": 1118.88,
+      "end": 1125.3600000000001,
+      "text": "continues, that means in about five years, they're at human level. So that gives you a sense. But of"
+    },
+    {
+      "id": 175,
+      "start": 1125.3600000000001,
+      "end": 1132.0800000000002,
+      "text": "course, things could slow down with technology, things could accelerate if AI is used to do AI research,"
+    },
+    {
+      "id": 176,
+      "start": 1132.0800000000002,
+      "end": 1133.2,
+      "text": "there's a lot of unknowns."
+    },
+    {
+      "id": 177,
+      "start": 1133.2,
+      "end": 1138.0800000000002,
+      "text": "So when it comes to software engineering, do you think it's going to exist in five to 10 years?"
+    },
+    {
+      "id": 178,
+      "start": 1138.0800000000002,
+      "end": 1141.2800000000002,
+      "text": "Because somebody has to run those machines, or are they going to be running themselves?"
+    },
+    {
+      "id": 179,
+      "start": 1141.28,
+      "end": 1150.24,
+      "text": "Yeah, but we might need less engineers, indeed. And it's kind of ironic that the people who are"
+    },
+    {
+      "id": 180,
+      "start": 1150.24,
+      "end": 1155.76,
+      "text": "building the eyes might be the first one touched by, you know, losing their job because AI is automating."
+    },
+    {
+      "id": 181,
+      "start": 1157.12,
+      "end": 1163.68,
+      "text": "But I'm not that worried about those people, because the demand for computer scientists is still"
+    },
+    {
+      "id": 182,
+      "start": 1163.68,
+      "end": 1168.08,
+      "text": "something that's growing very fast. And the salaries they're getting is very large. I'm more worried"
+    },
+    {
+      "id": 183,
+      "start": 1168.08,
+      "end": 1174.0,
+      "text": "about the people who are already at the bottom of the scale, and could lose their job in like service"
+    },
+    {
+      "id": 184,
+      "start": 1174.0,
+      "end": 1180.56,
+      "text": "jobs and so on, which don't require a lot of expertise. And that probably already currently eyes"
+    },
+    {
+      "id": 185,
+      "start": 1180.56,
+      "end": 1186.48,
+      "text": "could with a bit of engineering replace and it's what many companies are already trying to exploit."
+    },
+    {
+      "id": 186,
+      "start": 1186.48,
+      "end": 1191.36,
+      "text": "Can you give advice to those people who are listening who make sure your government understands"
+    },
+    {
+      "id": 187,
+      "start": 1192.32,
+      "end": 1198.0,
+      "text": "that, you know, you're not happy with where it is going so that they start taking it seriously."
+    },
+    {
+      "id": 188,
+      "start": 1198.56,
+      "end": 1204.3999999999999,
+      "text": "But also like when it comes to bigger decision making, it feels like there is not much that you"
+    },
+    {
+      "id": 189,
+      "start": 1204.3999999999999,
+      "end": 1208.6399999999999,
+      "text": "can do as an individual. But when it comes to improving yourself, you can do a lot, right?"
+    },
+    {
+      "id": 190,
+      "start": 1208.6399999999999,
+      "end": 1212.6399999999999,
+      "text": "Is there anything practical that they could be doing right now? Maybe learning something,"
+    },
+    {
+      "id": 191,
+      "start": 1213.84,
+      "end": 1214.96,
+      "text": "getting extra education?"
+    },
+    {
+      "id": 192,
+      "start": 1214.96,
+      "end": 1215.36,
+      "text": "I don't know."
+    },
+    {
+      "id": 193,
+      "start": 1215.36,
+      "end": 1221.9199999999998,
+      "text": "Yeah, I think shifting to jobs that are either more physical or more like relational,"
+    },
+    {
+      "id": 194,
+      "start": 1222.72,
+      "end": 1224.96,
+      "text": "as we discussed is going to be helpful."
+    },
+    {
+      "id": 195,
+      "start": 1224.96,
+      "end": 1229.1200000000001,
+      "text": "Yeah, it's interesting when it comes to robotics, right? How soon they're going to be able to"
+    },
+    {
+      "id": 196,
+      "start": 1229.1200000000001,
+      "end": 1233.92,
+      "text": "understand any environment and replace us in those jobs. Because I've heard Jeffrey Hinton said,"
+    },
+    {
+      "id": 197,
+      "start": 1233.92,
+      "end": 1235.68,
+      "text": "learn how to be a plumber or something."
+    },
+    {
+      "id": 198,
+      "start": 1235.68,
+      "end": 1236.16,
+      "text": "That's right."
+    },
+    {
+      "id": 199,
+      "start": 1236.16,
+      "end": 1241.1200000000001,
+      "text": "Yeah, it's going to be in demand. So when you think about your four-year-old grandson,"
+    },
+    {
+      "id": 200,
+      "start": 1241.76,
+      "end": 1243.44,
+      "text": "would you encourage him to go to college?"
+    },
+    {
+      "id": 201,
+      "start": 1243.44,
+      "end": 1244.96,
+      "text": "Yes."
+    },
+    {
+      "id": 202,
+      "start": 1244.96,
+      "end": 1245.6000000000001,
+      "text": "Yeah?"
+    },
+    {
+      "id": 203,
+      "start": 1245.6000000000001,
+      "end": 1245.92,
+      "text": "Yes."
+    },
+    {
+      "id": 204,
+      "start": 1245.92,
+      "end": 1253.68,
+      "text": "Because education is really important. And education, contrary to what some people think,"
+    },
+    {
+      "id": 205,
+      "start": 1254.24,
+      "end": 1262.4,
+      "text": "isn't just about acquiring the skills to get a job. Education is, in my opinion, mostly about how to"
+    },
+    {
+      "id": 206,
+      "start": 1262.4,
+      "end": 1267.3600000000001,
+      "text": "become a better human being, how to understand yourself, how to understand our society and each"
+    },
+    {
+      "id": 207,
+      "start": 1267.3600000000001,
+      "end": 1277.52,
+      "text": "other, understand science. We will still need citizens to have that really good level of"
+    },
+    {
+      "id": 208,
+      "start": 1277.52,
+      "end": 1282.88,
+      "text": "understanding in the future if we want our society to take the good decisions, the wise decisions,"
+    },
+    {
+      "id": 209,
+      "start": 1282.88,
+      "end": 1291.2800000000002,
+      "text": "because it's going to be easy to be swayed by wrong beliefs that end us in a bad place."
+    },
+    {
+      "id": 210,
+      "start": 1291.2800000000002,
+      "end": 1294.8000000000002,
+      "text": "Do you think it's going to look different, education? Do you think it's going to be"
+    },
+    {
+      "id": 211,
+      "start": 1294.8000000000002,
+      "end": 1299.2,
+      "text": "Harvard's and Stanford's of the world and then everything else will be just AI online?"
+    },
+    {
+      "id": 212,
+      "start": 1299.2,
+      "end": 1302.8000000000002,
+      "text": "I don't know. I'm not an expert in education, but yeah, it's going to be changed."
+    },
+    {
+      "id": 213,
+      "start": 1303.3600000000001,
+      "end": 1309.8400000000001,
+      "text": "Already, we're seeing sort of a parallel way of educating ourselves, thanks to the chatbots."
+    },
+    {
+      "id": 214,
+      "start": 1309.84,
+      "end": 1317.52,
+      "text": "So I expect this to grow. Does it mean that the traditional in-person education is going to go"
+    },
+    {
+      "id": 215,
+      "start": 1317.52,
+      "end": 1323.1999999999998,
+      "text": "away? Maybe not, because there's a part of the education which is, oh, I'm, you know, moving out"
+    },
+    {
+      "id": 216,
+      "start": 1323.1999999999998,
+      "end": 1331.4399999999998,
+      "text": "of home and, you know, socializing with other people like me and learning something that is, you"
+    },
+    {
+      "id": 217,
+      "start": 1331.4399999999998,
+      "end": 1338.0,
+      "text": "know, outside of the classes and interacting in person with the teachers, the professors. That's also"
+    },
+    {
+      "id": 218,
+      "start": 1338.0,
+      "end": 1344.24,
+      "text": "a piece that you can't easily replace. 100%. Is there a career path you're encouraging him toward?"
+    },
+    {
+      "id": 219,
+      "start": 1344.24,
+      "end": 1352.4,
+      "text": "No, I don't want to do that. I think our children should be given all the possible opportunities and"
+    },
+    {
+      "id": 220,
+      "start": 1352.96,
+      "end": 1358.96,
+      "text": "they should try to explore by themselves. It's too easy to ask our children to be just like us, right?"
+    },
+    {
+      "id": 221,
+      "start": 1358.96,
+      "end": 1363.68,
+      "text": "Yeah, but it's also like in terms of exposure, you can expose them to different things so they could see"
+    },
+    {
+      "id": 222,
+      "start": 1363.68,
+      "end": 1370.3200000000002,
+      "text": "more things. Yeah, they will be exposed to the things that we do. So one of my sons has chosen to"
+    },
+    {
+      "id": 223,
+      "start": 1370.3200000000002,
+      "end": 1375.92,
+      "text": "do machine learning research, for example. See? Yeah, it's just that it comes to exposure as well. Do"
+    },
+    {
+      "id": 224,
+      "start": 1375.92,
+      "end": 1382.0,
+      "text": "you feel it's going to be the future is more humanitarian or more mathematical and scientific?"
+    },
+    {
+      "id": 225,
+      "start": 1382.0,
+      "end": 1393.2,
+      "text": "I don't think it's a choice. I think being humanitarian requires a good rational understanding of the world."
+    },
+    {
+      "id": 226,
+      "start": 1394.08,
+      "end": 1399.84,
+      "text": "We can't take decisions for ourselves, but also if you think about AI, we can take good decisions if we"
+    },
+    {
+      "id": 227,
+      "start": 1399.84,
+      "end": 1410.16,
+      "text": "don't understand how the world is and how to reason with that information. And so in order for democratic,"
+    },
+    {
+      "id": 228,
+      "start": 1410.16,
+      "end": 1417.3600000000001,
+      "text": "you know, humanist values to prevail, we also need reason to prevail, we need science to prevail."
+    },
+    {
+      "id": 229,
+      "start": 1417.92,
+      "end": 1422.5600000000002,
+      "text": "You guys know how much work goes into this podcast. Thank you so much for your support."
+    },
+    {
+      "id": 230,
+      "start": 1422.5600000000002,
+      "end": 1428.0800000000002,
+      "text": "I started in a newsletter to share more my business mistakes with this and another company that I'm"
+    },
+    {
+      "id": 231,
+      "start": 1428.0800000000002,
+      "end": 1434.96,
+      "text": "running, AI tools that I'm testing and using actively, and behind the scenes of building my team."
+    },
+    {
+      "id": 232,
+      "start": 1434.96,
+      "end": 1441.8400000000001,
+      "text": "It's free and lands in your inbox every week. Link is in the description. Let's keep learning together"
+    },
+    {
+      "id": 233,
+      "start": 1441.8400000000001,
+      "end": 1447.44,
+      "text": "in this new AI era. So if you could go back 30 years, the moment when you first started working"
+    },
+    {
+      "id": 234,
+      "start": 1447.44,
+      "end": 1452.56,
+      "text": "on deep learning, what would you do differently? When I started my career, I didn't care too much"
+    },
+    {
+      "id": 235,
+      "start": 1452.56,
+      "end": 1459.1200000000001,
+      "text": "about politics and society. I was focused on, you know, the math and the programming and"
+    },
+    {
+      "id": 236,
+      "start": 1459.12,
+      "end": 1464.1599999999999,
+      "text": "the math and the math and the math and the math and the math and the math and the math and the math."
+    },
+    {
+      "id": 237,
+      "start": 1464.1599999999999,
+      "end": 1476.7199999999998,
+      "text": "But as I grew older, I became more aware of how what I was doing would potentially impact society in both"
+    },
+    {
+      "id": 238,
+      "start": 1476.7199999999998,
+      "end": 1483.9199999999998,
+      "text": "positive and negative ways. So in 2012, 2013, when my colleagues, Jeff Hinton and Jan Lecun,"
+    },
+    {
+      "id": 239,
+      "start": 1483.92,
+      "end": 1491.44,
+      "text": "were recruited in industry, I was concerned about how AI would be used for personalized advertising."
+    },
+    {
+      "id": 240,
+      "start": 1491.44,
+      "end": 1497.52,
+      "text": "And I thought this wasn't really healthy in some ways. And I decided to stay in academia"
+    },
+    {
+      "id": 241,
+      "start": 1498.72,
+      "end": 1506.16,
+      "text": "and to see how AI could be developed for good in medicine, to fight climate change. And of course,"
+    },
+    {
+      "id": 242,
+      "start": 1506.16,
+      "end": 1512.8000000000002,
+      "text": "more recently, I've been focusing on what can go really wrong if we're not careful how we steer AI,"
+    },
+    {
+      "id": 243,
+      "start": 1513.8400000000001,
+      "end": 1518.88,
+      "text": "not just the benefit, the benefits, but that avoiding the catastrophic risks."
+    },
+    {
+      "id": 244,
+      "start": 1519.76,
+      "end": 1524.16,
+      "text": "Is there an AI breakthrough that you really want to witness in your lifetime?"
+    },
+    {
+      "id": 245,
+      "start": 1524.16,
+      "end": 1529.6000000000001,
+      "text": "I would just be content to make sure we don't do something really terrible."
+    },
+    {
+      "id": 246,
+      "start": 1529.6,
+      "end": 1537.04,
+      "text": "I think our democracies are really threatened in many ways, and AI could make things a lot worse."
+    },
+    {
+      "id": 247,
+      "start": 1537.9199999999998,
+      "end": 1549.9199999999998,
+      "text": "And in a way, there is a dynamic in which not having good, wise and humanist governance and governments"
+    },
+    {
+      "id": 248,
+      "start": 1550.8799999999999,
+      "end": 1555.9199999999998,
+      "text": "prevents us from steering AI towards what's going to be beneficial for all."
+    },
+    {
+      "id": 249,
+      "start": 1555.92,
+      "end": 1564.0800000000002,
+      "text": "So yeah, I used to not care too much about social impact and politics. But in the last 10 years,"
+    },
+    {
+      "id": 250,
+      "start": 1564.0800000000002,
+      "end": 1571.68,
+      "text": "I've started to be clearly conscious that my work was not detached from society, that my work did have"
+    },
+    {
+      "id": 251,
+      "start": 1571.68,
+      "end": 1580.3200000000002,
+      "text": "an impact. And in fact, that I could choose what I would work on to really be aligned with my values"
+    },
+    {
+      "id": 252,
+      "start": 1580.3200000000002,
+      "end": 1581.92,
+      "text": "and my hopes for the future."
+    },
+    {
+      "id": 253,
+      "start": 1581.92,
+      "end": 1585.3600000000001,
+      "text": "Is there any government that's doing it right when it comes to AI?"
+    },
+    {
+      "id": 254,
+      "start": 1585.3600000000001,
+      "end": 1594.4,
+      "text": "I think most governments underestimate how much of a change is likely to happen as AI capabilities"
+    },
+    {
+      "id": 255,
+      "start": 1594.4,
+      "end": 1600.64,
+      "text": "continue to grow. It's a natural human bias. We tend to think of the future as a slightly modified"
+    },
+    {
+      "id": 256,
+      "start": 1600.64,
+      "end": 1606.8000000000002,
+      "text": "version of the present. But if you take yourself five years ago and think about what we have now,"
+    },
+    {
+      "id": 257,
+      "start": 1606.8,
+      "end": 1614.32,
+      "text": "you probably would say that's science fiction. And if you go back 10 or 20 years, for me at least,"
+    },
+    {
+      "id": 258,
+      "start": 1615.2,
+      "end": 1623.12,
+      "text": "it's even worse. So we have to do a bit of like twisting our minds to imagine a future where there"
+    },
+    {
+      "id": 259,
+      "start": 1623.12,
+      "end": 1628.72,
+      "text": "are machines that are basically smarter than us. And that is the question I think that governments"
+    },
+    {
+      "id": 260,
+      "start": 1628.72,
+      "end": 1632.16,
+      "text": "haven't been grappling with sufficiently."
+    },
+    {
+      "id": 261,
+      "start": 1632.16,
+      "end": 1638.08,
+      "text": "So it's January 2026. AGI or whatever it is, AI thinking strategically might be a couple years"
+    },
+    {
+      "id": 262,
+      "start": 1638.08,
+      "end": 1644.72,
+      "text": "away. Jobs are transforming. If you had to give one principle to people to guide their decisions this"
+    },
+    {
+      "id": 263,
+      "start": 1644.72,
+      "end": 1646.16,
+      "text": "year, what would it be?"
+    },
+    {
+      "id": 264,
+      "start": 1646.16,
+      "end": 1652.8000000000002,
+      "text": "Think about what you can do to bring about a better future according to your values and to your emotions."
+    },
+    {
+      "id": 265,
+      "start": 1652.8000000000002,
+      "end": 1661.68,
+      "text": "Because if we all remain passive observers of, you know, what's happening, we might not go in the"
+    },
+    {
+      "id": 266,
+      "start": 1661.68,
+      "end": 1668.0800000000002,
+      "text": "right direction, not the direction that you would want for you, for your children. But we tend to also"
+    },
+    {
+      "id": 267,
+      "start": 1668.0800000000002,
+      "end": 1676.0800000000002,
+      "text": "underestimate our ability to influence the future. Your audience, I think, is a kind of audience that can"
+    },
+    {
+      "id": 268,
+      "start": 1676.08,
+      "end": 1683.84,
+      "text": "have a lot of influence on the future. But we have to start thinking, you know, beyond our little self,"
+    },
+    {
+      "id": 269,
+      "start": 1684.72,
+      "end": 1692.72,
+      "text": "and more how myself is connected to the world and what I can do maybe in small ways to bring about a"
+    },
+    {
+      "id": 270,
+      "start": 1692.72,
+      "end": 1695.28,
+      "text": "better future in whatever ways. There are many ways."
+    },
+    {
+      "id": 271,
+      "start": 1695.28,
+      "end": 1699.1999999999998,
+      "text": "Can you name top three, like talk to your government, right, as number one?"
+    },
+    {
+      "id": 272,
+      "start": 1699.1999999999998,
+      "end": 1705.76,
+      "text": "Yes. I think one of the biggest dangers we have is not managing the transitions and"
+    },
+    {
+      "id": 273,
+      "start": 1705.76,
+      "end": 1710.4,
+      "text": "and the growth and capabilities of AI, as I've been talking about. But there are others, you know,"
+    },
+    {
+      "id": 274,
+      "start": 1710.4,
+      "end": 1714.4,
+      "text": "what we're doing to the environment is extremely dangerous, although I think it's longer term."
+    },
+    {
+      "id": 275,
+      "start": 1714.4,
+      "end": 1721.04,
+      "text": "I think what is happening with our democracies is very dangerous as well. But it's all right. Each of"
+    },
+    {
+      "id": 276,
+      "start": 1721.04,
+      "end": 1728.56,
+      "text": "us can choose, you know, our battles. But we should try to expand our horizon of, you know, what matters"
+    },
+    {
+      "id": 277,
+      "start": 1728.56,
+      "end": 1733.84,
+      "text": "and be more ambitious about what we could do potentially. But we have to do it right. We have"
+    },
+    {
+      "id": 278,
+      "start": 1733.84,
+      "end": 1739.36,
+      "text": "to choose where we go. For example, it's not true that everything that could be done with technology,"
+    },
+    {
+      "id": 279,
+      "start": 1739.36,
+      "end": 1744.08,
+      "text": "you know, is going to be done. We can choose in which direction AI is going to be deployed. I mean,"
+    },
+    {
+      "id": 280,
+      "start": 1744.08,
+      "end": 1748.6399999999999,
+      "text": "for example, for jobs, in principle, if it's just the market forces, then everything that can be"
+    },
+    {
+      "id": 281,
+      "start": 1748.6399999999999,
+      "end": 1753.84,
+      "text": "automated will be automated. But maybe that's not what we collectively want. Maybe there are jobs that"
+    },
+    {
+      "id": 282,
+      "start": 1753.84,
+      "end": 1760.1599999999999,
+      "text": "should not be automated, even though they could, because of the choices we make for our collective"
+    },
+    {
+      "id": 283,
+      "start": 1760.1599999999999,
+      "end": 1766.56,
+      "text": "well-being. I love that. Thank you so much. This gave me a lot to think about. And I guess we have"
+    },
+    {
+      "id": 284,
+      "start": 1766.56,
+      "end": 1778.1599999999999,
+      "text": "something on our to do list. Thank you, Joshua. My pleasure."
+    }
+  ]
+}

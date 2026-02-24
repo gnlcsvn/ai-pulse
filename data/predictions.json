@@ -1,7 +1,7 @@
 {
   "version": 1,
   "last_updated": "2026-02-24",
-  "total_predictions": 92,
+  "total_predictions": 125,
   "predictions": [
     {
       "id": "pred-n1E9IZfvGMA-831",
@@ -3038,6 +3038,1095 @@
       },
       "extracted_date": "2026-02-24",
       "note_path": "vault/interviews/2026-02-12_openclaw-the-viral-ai-agent-that-broke-the-internet-peter-st.md"
+    },
+    {
+      "id": "pred-0fXGtQoJgNo-1118",
+      "prediction": "AI software engineering capabilities will reach human level within approximately 5 years, based on the current doubling rate of every 7 months on planning/SE benchmarks tracked by the nonprofit Meter",
+      "category": "coding automation",
+      "person": {
+        "name": "Yoshua Bengio",
+        "role": "Turing Award Winner, Professor",
+        "company": "Mila / CIFAR"
+      },
+      "timeframe": {
+        "raw": "in about five years, they're at human level",
+        "earliest_year": 2030,
+        "latest_year": 2031,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "if the curve continues",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "0fXGtQoJgNo",
+        "url": "https://www.youtube.com/watch?v=0fXGtQoJgNo",
+        "title": "Godfather of AI: The next 5 years Will Change Humanity Forever | Yoshua Bengio",
+        "channel": "Silicon Valley Girl",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 1118,
+        "timestamp_display": "18:38",
+        "timestamp_url": "https://www.youtube.com/watch?v=0fXGtQoJgNo&t=1118s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.md"
+    },
+    {
+      "id": "pred-0fXGtQoJgNo-890",
+      "prediction": "Most tasks that people do in their work will be doable by machines if we continue on the current path",
+      "category": "job displacement",
+      "person": {
+        "name": "Yoshua Bengio",
+        "role": "Turing Award Winner, Professor",
+        "company": "Mila / CIFAR"
+      },
+      "timeframe": {
+        "raw": "if we continue on the current path",
+        "earliest_year": 2028,
+        "latest_year": 2036,
+        "midpoint_year": 2032
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "0fXGtQoJgNo",
+        "url": "https://www.youtube.com/watch?v=0fXGtQoJgNo",
+        "title": "Godfather of AI: The next 5 years Will Change Humanity Forever | Yoshua Bengio",
+        "channel": "Silicon Valley Girl",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 890,
+        "timestamp_display": "14:50",
+        "timestamp_url": "https://www.youtube.com/watch?v=0fXGtQoJgNo&t=890s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.md"
+    },
+    {
+      "id": "pred-0fXGtQoJgNo-912",
+      "prediction": "Robots will eventually be able to do all the things humans can do physically; the current lag in robotics is temporary",
+      "category": "robotics",
+      "person": {
+        "name": "Yoshua Bengio",
+        "role": "Turing Award Winner, Professor",
+        "company": "Mila / CIFAR"
+      },
+      "timeframe": {
+        "raw": "Eventually we'll have robots that can do all the things we can do physically",
+        "earliest_year": 2030,
+        "latest_year": 2040,
+        "midpoint_year": 2035
+      },
+      "confidence": {
+        "raw": "I think it's just a temporary thing",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "0fXGtQoJgNo",
+        "url": "https://www.youtube.com/watch?v=0fXGtQoJgNo",
+        "title": "Godfather of AI: The next 5 years Will Change Humanity Forever | Yoshua Bengio",
+        "channel": "Silicon Valley Girl",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 912,
+        "timestamp_display": "15:12",
+        "timestamp_url": "https://www.youtube.com/watch?v=0fXGtQoJgNo&t=912s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.md"
+    },
+    {
+      "id": "pred-0fXGtQoJgNo-1039",
+      "prediction": "Economic gains from AI automation will flow primarily to capital owners (people who own the machines), putting the vast majority of workers in real trouble",
+      "category": "economic impact",
+      "person": {
+        "name": "Yoshua Bengio",
+        "role": "Turing Award Winner, Professor",
+        "company": "Mila / CIFAR"
+      },
+      "timeframe": {
+        "raw": "the economic gains from that automation is going to probably go to capital",
+        "earliest_year": 2027,
+        "latest_year": 2035,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "probably",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "0fXGtQoJgNo",
+        "url": "https://www.youtube.com/watch?v=0fXGtQoJgNo",
+        "title": "Godfather of AI: The next 5 years Will Change Humanity Forever | Yoshua Bengio",
+        "channel": "Silicon Valley Girl",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 1039,
+        "timestamp_display": "17:19",
+        "timestamp_url": "https://www.youtube.com/watch?v=0fXGtQoJgNo&t=1039s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.md"
+    },
+    {
+      "id": "pred-0fXGtQoJgNo-729",
+      "prediction": "AI will become as good or better than the best human AI researchers and engineers at doing AI research, at which point the speed of all AI advances could accelerate and impact all other capabilities",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Yoshua Bengio",
+        "role": "Turing Award Winner, Professor",
+        "company": "Mila / CIFAR"
+      },
+      "timeframe": {
+        "raw": "If AI becomes really good at doing AI research to the point that it's as good or better than the best AI researchers and engineers, then we are in a different game",
+        "earliest_year": 2027,
+        "latest_year": 2035,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "0fXGtQoJgNo",
+        "url": "https://www.youtube.com/watch?v=0fXGtQoJgNo",
+        "title": "Godfather of AI: The next 5 years Will Change Humanity Forever | Yoshua Bengio",
+        "channel": "Silicon Valley Girl",
+        "upload_date": "2026-02-16",
+        "timestamp_seconds": 729,
+        "timestamp_display": "12:09",
+        "timestamp_url": "https://www.youtube.com/watch?v=0fXGtQoJgNo&t=729s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-16_yoshua-bengio-the-next-5-years-will-change-humanity-forever.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-3074",
+      "prediction": "Coding tasks (writing code) will be fully automated by AI models before broader software engineering tasks are automated",
+      "category": "coding automation",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "coding is going away first or coding is being done by the AI models first",
+        "earliest_year": 2026,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "I think coding is going away first",
+        "level": "high",
+        "percentage": 80
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3074,
+        "timestamp_display": "51:14",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=3074s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-3080",
+      "prediction": "End-to-end software engineering (architecture, design, full project management) will also be automated by AI, though it will take longer than pure coding automation",
+      "category": "coding automation",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "the broader task of software engineering will take longer. But I think that is going to happen as well",
+        "earliest_year": 2027,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I think that is going to happen as well, I would say",
+        "level": "high",
+        "percentage": 75
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3080,
+        "timestamp_display": "51:20",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=3080s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-3753",
+      "prediction": "Biotech is about to have a renaissance driven by AI",
+      "category": "other",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "biotech is about to have a renaissance",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I'm positive on, like, I think biotech is about to have a renaissance",
+        "level": "high",
+        "percentage": 80
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3753,
+        "timestamp_display": "62:33",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=3753s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-3776",
+      "prediction": "AI will enable curing a lot of diseases in the near future",
+      "category": "other",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "my instinct is we're about to cure a lot of diseases",
+        "earliest_year": 2026,
+        "latest_year": 2032,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": "my instinct is",
+        "level": "high",
+        "percentage": 75
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3776,
+        "timestamp_display": "62:56",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=3776s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-3869",
+      "prediction": "Peptide-based therapies will 'blow up' as a biotech category, enabled by their digital-like property allowing continuous optimization via amino acid substitution",
+      "category": "other",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "peptides, I think, will blow up",
+        "earliest_year": 2026,
+        "latest_year": 2032,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": "I think, will blow up",
+        "level": "high",
+        "percentage": 75
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3869,
+        "timestamp_display": "64:29",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=3869s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-2655",
+      "prediction": "AI will eventually be better than most humans at basically everything, including the physical world, robotics, and the human touch",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "in the long run, will AI be better than us at basically everything... I think that is possible, maybe even likely",
+        "earliest_year": 2028,
+        "latest_year": 2040,
+        "midpoint_year": 2034
+      },
+      "confidence": {
+        "raw": "possible, maybe even likely",
+        "level": "medium",
+        "percentage": 60
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 2655,
+        "timestamp_display": "44:15",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=2655s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-68ylaeBbdsg-2011",
+      "prediction": "AI models will eventually develop something resembling consciousness or moral significance as they become sufficiently advanced",
+      "category": "other",
+      "person": {
+        "name": "Dario Amodei",
+        "role": "CEO & Co-founder",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "at some point the models will, we would indeed say under most definitions that we would endorse that the models will be conscious",
+        "earliest_year": 2028,
+        "latest_year": 2040,
+        "midpoint_year": 2034
+      },
+      "confidence": {
+        "raw": "I suspect that at some point",
+        "level": "medium",
+        "percentage": 60
+      },
+      "source": {
+        "video_id": "68ylaeBbdsg",
+        "url": "https://www.youtube.com/watch?v=68ylaeBbdsg",
+        "title": "The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil Kamath",
+        "channel": "Nikhil Kamath",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 2011,
+        "timestamp_display": "33:31",
+        "timestamp_url": "https://www.youtube.com/watch?v=68ylaeBbdsg&t=2011s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_dario-amodei-the-ai-tsunami-is-here-society-isnt-ready.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-726",
+      "prediction": "The economy will be hugely deflationary by 2035, in ways the world is not currently thinking about",
+      "category": "economic impact",
+      "person": {
+        "name": "Sam Altman",
+        "role": "CEO",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "I think by 2035, for sure, we will have a hugely deflationary economy that the world isn't thinking about",
+        "earliest_year": 2030,
+        "latest_year": 2035,
+        "midpoint_year": 2033
+      },
+      "confidence": {
+        "raw": "for sure",
+        "level": "high",
+        "percentage": 85
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 726,
+        "timestamp_display": "12:06",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=726s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-706",
+      "prediction": "Quality-of-life growth rate (what GDP is trying to approximate) will more than double from current projections",
+      "category": "economic impact",
+      "person": {
+        "name": "Sam Altman",
+        "role": "CEO",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "growth rate will more than double for sure",
+        "earliest_year": 2026,
+        "latest_year": 2035,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": "for sure",
+        "level": "high",
+        "percentage": 85
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 706,
+        "timestamp_display": "11:46",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=706s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-2570",
+      "prediction": "The world is only a few years away from fusion energy and reliable solar/wind plus storage, which will become the cheapest energy sources",
+      "category": "compute infrastructure",
+      "person": {
+        "name": "Sam Altman",
+        "role": "CEO",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "the world is only a few years away from fusion and really reliable solar wind plus storage",
+        "earliest_year": 2028,
+        "latest_year": 2032,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": 65
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 2570,
+        "timestamp_display": "42:50",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=2570s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-3016",
+      "prediction": "Zero-person companies will emerge as the most underrated and transformative AI opportunity",
+      "category": "product/company",
+      "person": {
+        "name": "Sam Altman",
+        "role": "CEO",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "Most underrated opportunity? Zero person companies.",
+        "earliest_year": 2026,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": null,
+        "level": "unstated",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 3016,
+        "timestamp_display": "50:16",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=3016s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-3030",
+      "prediction": "Healthcare will see bigger change than education in the next five years",
+      "category": "other",
+      "person": {
+        "name": "Sam Altman",
+        "role": "CEO",
+        "company": "OpenAI"
+      },
+      "timeframe": {
+        "raw": "Bigger change in five years, education or health care? ... Oh, I take it back, health care.",
+        "earliest_year": 2026,
+        "latest_year": 2031,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": "That's close, though",
+        "level": "low",
+        "percentage": 55
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 3030,
+        "timestamp_display": "50:30",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=3030s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-935",
+      "prediction": "By 2030, graduating students will not know any technical field better than AI does -- any technical skill learned will be surpassed by AI",
+      "category": "coding automation",
+      "person": {
+        "name": "Vinod Khosla",
+        "role": "Founder",
+        "company": "Khosla Ventures"
+      },
+      "timeframe": {
+        "raw": "nothing you learn will be irrelevant, even in 2030. When the first year students graduate, you won't have learned anything that the AI doesn't know better",
+        "earliest_year": 2029,
+        "latest_year": 2030,
+        "midpoint_year": 2030
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": 80
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 935,
+        "timestamp_display": "15:35",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=935s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-IiV9q73YUxI-884",
+      "prediction": "The technology delta between now and 2040 will be at least as large as the delta between today and 1970, and likely much larger",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Vinod Khosla",
+        "role": "Founder",
+        "company": "Khosla Ventures"
+      },
+      "timeframe": {
+        "raw": "imagine 2040. I have to say, I imagine life, the delta being the same between now and 2014, or 2040, as it is between today and 1970. ... I think that's too conservative.",
+        "earliest_year": 2026,
+        "latest_year": 2040,
+        "midpoint_year": 2033
+      },
+      "confidence": {
+        "raw": "I think that's too conservative",
+        "level": "high",
+        "percentage": 80
+      },
+      "source": {
+        "video_id": "IiV9q73YUxI",
+        "url": "https://www.youtube.com/watch?v=IiV9q73YUxI",
+        "title": "Fireside Chat: Sam Altman \u00d7 Vinod Khosla and AMA at IIT Delhi",
+        "channel": "IIT Delhi",
+        "upload_date": "2026-02-22",
+        "timestamp_seconds": 884,
+        "timestamp_display": "14:44",
+        "timestamp_url": "https://www.youtube.com/watch?v=IiV9q73YUxI&t=884s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-22_sam-altman-vinod-khosla-fireside-chat-iit-delhi.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-3110",
+      "prediction": "Unemployment rate for college graduates will be slightly higher in 3 years, but not by much, as AI drives tremendous economic growth and creates new job types",
+      "category": "job displacement",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "three years from now",
+        "earliest_year": 2028,
+        "latest_year": 2029,
+        "midpoint_year": 2029
+      },
+      "confidence": {
+        "raw": "I would guess",
+        "level": "medium",
+        "percentage": 60
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3110,
+        "timestamp_display": "51:50",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=3110s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-2819",
+      "prediction": "AI will touch the majority of entry-level white-collar jobs, changing all of them and potentially reducing the number of job openings for entry-level positions",
+      "category": "job displacement",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "in the next couple of years",
+        "earliest_year": 2027,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "I believe that this technology is going to make its way into the broad knowledge economy",
+        "level": "high",
+        "percentage": 80
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 2819,
+        "timestamp_display": "46:59",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=2819s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-3190",
+      "prediction": "Emergence of an AI-to-AI economy where AI agents and AI businesses do business with one another, with new organizations specializing in things like AI-to-AI legal contracts",
+      "category": "economic impact",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "I also expect that we're going to see the emergence of",
+        "earliest_year": 2026,
+        "latest_year": 2029,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I also expect",
+        "level": "medium",
+        "percentage": 60
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3190,
+        "timestamp_display": "53:10",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=3190s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-3820",
+      "prediction": "AI will cause the economy to run 'extremely hot' with GDP getting substantially larger, not staying the same or shrinking",
+      "category": "economic impact",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "under most scenarios where this is happening",
+        "earliest_year": 2027,
+        "latest_year": 2030,
+        "midpoint_year": 2028
+      },
+      "confidence": {
+        "raw": "I don't think you're going to be seeing GDP stay the same or shrink",
+        "level": "medium",
+        "percentage": 70
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 3820,
+        "timestamp_display": "63:40",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=3820s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-4858",
+      "prediction": "Concrete AI-accelerated science results via the Genesis Project (DOE collaboration) will be demonstrable to elected officials",
+      "category": "other",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "in a year or two years",
+        "earliest_year": 2027,
+        "latest_year": 2028,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "My guess is",
+        "level": "medium",
+        "percentage": 65
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 4858,
+        "timestamp_display": "80:58",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=4858s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-5184",
+      "prediction": "AI will be able to read vast tracts of human knowledge, synthesize things, and produce creative insights on an almost daily basis, giving individuals access to information that is currently wildly expensive or difficult to know",
+      "category": "other",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "how quickly AI is going to be able to start doing that on an almost daily basis",
+        "earliest_year": 2026,
+        "latest_year": 2027,
+        "midpoint_year": 2027
+      },
+      "confidence": {
+        "raw": "I think we underestimate just how quickly",
+        "level": "medium",
+        "percentage": 70
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 5184,
+        "timestamp_display": "86:24",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=5184s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-lIJelwO8yHQ-5436",
+      "prediction": "Two types of people will emerge: those who co-created their personality through back-and-forth with AI (who will seem 'a little different') and those who developed self-knowledge independently outside the bubble of technology",
+      "category": "other",
+      "person": {
+        "name": "Jack Clark",
+        "role": "Co-founder & Head of Policy",
+        "company": "Anthropic"
+      },
+      "timeframe": {
+        "raw": "in the future",
+        "earliest_year": 2028,
+        "latest_year": 2035,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "my bet is for in the future",
+        "level": "speculative",
+        "percentage": 50
+      },
+      "source": {
+        "video_id": "lIJelwO8yHQ",
+        "url": "https://www.youtube.com/watch?v=lIJelwO8yHQ",
+        "title": "How Fast Will A.I. Agents Rip Through the Economy?",
+        "channel": "The Ezra Klein Show",
+        "upload_date": "2026-02-24",
+        "timestamp_seconds": 5436,
+        "timestamp_display": "90:36",
+        "timestamp_url": "https://www.youtube.com/watch?v=lIJelwO8yHQ&t=5436s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-24_how-fast-will-ai-agents-rip-through-the-economy.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-4596",
+      "prediction": "AI will be able to replace the work that 70-80% of humans can do in intellectual jobs",
+      "category": "job displacement",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "over the next 10 years",
+        "earliest_year": 2033,
+        "latest_year": 2036,
+        "midpoint_year": 2035
+      },
+      "confidence": {
+        "raw": null,
+        "level": "high",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 4596,
+        "timestamp_display": "76:36",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=4596s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-4621",
+      "prediction": "Physical AI jobs (driving, robotics, cars) will be replaceable, lagging intellectual AI by 5-10 years",
+      "category": "job displacement",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "probably call it 15 years for physical, 15, 20 years for physical jobs because physical AI is harder",
+        "earliest_year": 2041,
+        "latest_year": 2046,
+        "midpoint_year": 2043
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 4621,
+        "timestamp_display": "77:01",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=4621s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-5177",
+      "prediction": "Majority of Uber trips will be fulfilled by autonomous robots, not 10 years from now but 15-20 years out",
+      "category": "robotics",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "probably not 10 years from now. But you go 15, 20 years from now, you're going to start getting there",
+        "earliest_year": 2041,
+        "latest_year": 2046,
+        "midpoint_year": 2043
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 5177,
+        "timestamp_display": "86:17",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=5177s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-5153",
+      "prediction": "Uber's 9 million human drivers will be replaced by approximately 20 million autonomous vehicles",
+      "category": "robotics",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "20 years from now, you can imagine that those nine million will be 20 million AVs maybe",
+        "earliest_year": 2044,
+        "latest_year": 2048,
+        "midpoint_year": 2046
+      },
+      "confidence": {
+        "raw": "maybe",
+        "level": "speculative",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 5153,
+        "timestamp_display": "85:53",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=5153s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-5010",
+      "prediction": "The moment AI models can learn in real time (not through version retraining) is when all humans become replaceable",
+      "category": "AGI timeline",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "when the models can learn real time",
+        "earliest_year": null,
+        "latest_year": null,
+        "midpoint_year": null
+      },
+      "confidence": {
+        "raw": null,
+        "level": "unstated",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 5010,
+        "timestamp_display": "83:30",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=5010s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-5290",
+      "prediction": "AI job displacement will not be a big issue in the next 5 years, but will become a significant societal issue beyond 5 years",
+      "category": "job displacement",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "I don't think it's going to be a big issue, big issue, in the next five years. But when you go five-plus years, it's going to become more of an issue for society at large.",
+        "earliest_year": 2031,
+        "latest_year": 2036,
+        "midpoint_year": 2033
+      },
+      "confidence": {
+        "raw": null,
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 5290,
+        "timestamp_display": "88:10",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=5290s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
+    },
+    {
+      "id": "pred-s52O1JH2tnU-4835",
+      "prediction": "Within 5 years, Uber may stop adding human engineers and instead invest in AI agents and GPUs from NVIDIA",
+      "category": "coding automation",
+      "person": {
+        "name": "Dara Khosrowshahi",
+        "role": "CEO",
+        "company": "Uber"
+      },
+      "timeframe": {
+        "raw": "maybe five years from now, as the engineers get more and more productive, I may not decide to add engineering account because at that point, instead of adding an engineer, I should add agents and buy some more GPUs from NVIDIA",
+        "earliest_year": 2030,
+        "latest_year": 2032,
+        "midpoint_year": 2031
+      },
+      "confidence": {
+        "raw": "I can imagine",
+        "level": "medium",
+        "percentage": null
+      },
+      "source": {
+        "video_id": "s52O1JH2tnU",
+        "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+        "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber",
+        "channel": "The Diary Of A CEO",
+        "upload_date": "2026-02-23",
+        "timestamp_seconds": 4835,
+        "timestamp_display": "80:35",
+        "timestamp_url": "https://www.youtube.com/watch?v=s52O1JH2tnU&t=4835s"
+      },
+      "extracted_date": "2026-02-24",
+      "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md"
     }
   ]
 }
