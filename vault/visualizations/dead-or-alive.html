@@ -6,42 +6,45 @@
     <title>Dead or Alive — What AI Builders Say About Existential Risk</title>
 
     <!-- Open Graph / Twitter Card meta tags -->
-    <meta property="og:title" content="Dead or Alive: What AI Builders Say About Existential Risk" />
-    <meta property="og:description" content="Verbatim quotes from the people building frontier AI about whether it could destroy humanity. Every quote linked to source video." />
+    <meta property="og:title" content="Dead or Alive: The People Building AI Warn It Could Destroy Humanity" />
+    <meta property="og:description" content="283 verbatim quotes from the people building frontier AI. Every one linked to the exact YouTube timestamp." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Dead or Alive: What AI Builders Say About Existential Risk" />
-    <meta name="twitter:description" content="Verbatim quotes from the people building frontier AI about whether it could destroy humanity. Every quote linked to source video." />
+    <meta name="twitter:title" content="Dead or Alive: The People Building AI Warn It Could Destroy Humanity" />
+    <meta name="twitter:description" content="283 verbatim quotes from the people building frontier AI. Every one linked to the exact YouTube timestamp." />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
     <style>
         :root {
-            --color-bg: #faf9f6;
-            --color-surface: #f5f4f0;
-            --color-surface-alt: #f0eee9;
-            --color-border: #e2dfd8;
-            --color-border-strong: #c4c0b8;
-            --color-text: #131314;
-            --color-text-secondary: #5c5850;
-            --color-text-muted: #8a857d;
-            --color-accent: #c4704e;
-            --color-accent-light: rgba(196, 112, 78, 0.1);
+            --color-bg: #0a0a0c;
+            --color-surface: #141418;
+            --color-surface-alt: #18181e;
+            --color-border: #2a2a32;
+            --color-border-strong: #3a3a44;
+            --color-text: #f0f0f2;
+            --color-text-secondary: #a0a0a8;
+            --color-text-muted: #6a6a74;
+            --color-accent: #e8845c;
+            --color-accent-light: rgba(232, 132, 92, 0.1);
 
-            --risk-alarm: #8B2500;
-            --risk-concern: #c97e6e;
-            --risk-neutral: #c4c0b8;
-            --risk-optimism: #7bab8a;
-            --risk-dismissal: #4a7d5e;
+            --risk-alarm: #ff4444;
+            --risk-concern: #ff8a65;
+            --risk-neutral: #8a8a94;
+            --risk-optimism: #66bb6a;
+            --risk-dismissal: #4caf50;
 
             --font-heading: 'Libre Baskerville', Georgia, serif;
-            --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
             --font-body: 'JetBrains Mono', monospace;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
 
         body {
             font-family: var(--font-body);
@@ -49,46 +52,65 @@
             font-weight: 400;
             background: var(--color-bg);
             color: var(--color-text);
-            padding: 3rem 2rem;
-            max-width: 1600px;
-            margin: 0 auto;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
         }
 
-        ::selection { background: rgba(196, 112, 78, 0.2); }
+        ::selection { background: rgba(232, 132, 92, 0.3); }
 
-        /* Hero Section */
-        header {
-            margin-bottom: 2.5rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid var(--color-border);
+        /* ═══════════════════════════════════
+           SECTION 1: HERO
+           ═══════════════════════════════════ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
         }
-        header h1 {
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(255, 68, 68, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero h1 {
             font-family: var(--font-heading);
-            font-size: 2.5rem;
-            font-weight: 400;
+            font-size: clamp(3rem, 8vw, 7rem);
+            font-weight: 700;
             color: var(--color-text);
-            margin-bottom: 0.5rem;
-            letter-spacing: 0.05em;
-            line-height: 1.15;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
+            line-height: 1.05;
+            margin-bottom: 1.2rem;
         }
-        header .subtitle {
+        .hero .subtitle {
             font-family: var(--font-heading);
-            font-size: 1.05rem;
+            font-size: clamp(0.9rem, 2vw, 1.2rem);
             font-weight: 400;
             font-style: italic;
             color: var(--color-text-secondary);
-            margin-bottom: 1.5rem;
-            line-height: 1.5;
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
         }
         .hero-stat {
             font-family: var(--font-heading);
-            font-size: 1.2rem;
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
             color: var(--color-text);
-            margin-bottom: 1rem;
             line-height: 1.6;
+            margin-bottom: 1rem;
+            max-width: 700px;
         }
         .hero-stat strong {
             color: var(--risk-alarm);
@@ -98,76 +120,317 @@
             font-size: 0.72rem;
             color: var(--color-text-muted);
             font-weight: 300;
+            margin-bottom: 3rem;
         }
-
-        /* Spectrum bar */
-        .spectrum-container {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-        }
-        .spectrum-container h2 {
-            font-family: var(--font-heading);
-            font-size: 1.15rem;
-            font-weight: 400;
-            color: var(--color-text);
-            margin-bottom: 1rem;
-        }
-        .spectrum-bar-wrapper {
-            position: relative;
-            height: 60px;
-            margin: 1rem 0;
-        }
-        .spectrum-labels {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.65rem;
+        .hero-cta {
+            display: inline-block;
+            font-family: var(--font-body);
+            font-size: 0.75rem;
+            font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--color-text-muted);
-            margin-top: 0.5rem;
+            letter-spacing: 0.12em;
+            color: var(--color-text);
+            border: 1px solid var(--color-text-muted);
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            background: transparent;
+        }
+        .hero-cta:hover {
+            border-color: var(--risk-alarm);
+            color: var(--risk-alarm);
+            box-shadow: 0 0 20px rgba(255, 68, 68, 0.15);
         }
 
-        /* Stats grid */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2.5rem;
+        /* Hero Gauge Card */
+        .hero-viz-wrapper {
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto 2.5rem;
         }
-        .stat-card {
+        .hero-viz-card {
             background: var(--color-surface);
             border: 1px solid var(--color-border);
-            padding: 1.2rem;
+            padding: 2rem 2rem 1.2rem;
+            position: relative;
             text-align: center;
         }
-        .stat-card .value {
-            font-family: var(--font-heading);
-            font-size: 1.8rem;
-            font-weight: 400;
-            color: var(--color-text);
-        }
-        .stat-card .label {
-            font-family: var(--font-body);
-            font-size: 0.65rem;
-            color: var(--color-text-muted);
-            margin-top: 0.35rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            font-weight: 500;
+        @media (max-width: 700px) {
+            .hero-viz-card { padding: 1.5rem 1rem 1rem; }
         }
 
-        /* Filter bar */
+        .gauge-container {
+            position: relative;
+            width: 100%;
+            max-width: 380px;
+            margin: 0 auto;
+        }
+        .gauge-container svg {
+            width: 100%;
+            height: auto;
+            display: block;
+            overflow: visible;
+        }
+
+        .gauge-sublabel {
+            font-family: var(--font-body);
+            font-size: 0.62rem;
+            color: var(--color-text-muted);
+            margin-top: 0.4rem;
+            line-height: 1.5;
+        }
+
+        .viz-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            padding-top: 0.8rem;
+            border-top: 1px solid var(--color-border);
+        }
+        .viz-card-source {
+            font-size: 0.55rem;
+            color: var(--color-text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .viz-share-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        /* ═══════════════════════════════════
+           SECTION 2: FEATURED QUOTES
+           ═══════════════════════════════════ */
+        .featured-section {
+            padding: 4rem 2rem;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .section-label {
+            font-family: var(--font-body);
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--color-text-muted);
+            margin-bottom: 0.5rem;
+        }
+        .section-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: var(--color-text);
+            margin-bottom: 2rem;
+        }
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 900px) { .featured-grid { grid-template-columns: 1fr; } }
+
+        /* Quote card (used in featured + feed) */
+        .quote-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .quote-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        .quote-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+        }
+        .quote-card.sentiment-alarm::before { background: var(--risk-alarm); box-shadow: 0 0 12px rgba(255, 68, 68, 0.3); }
+        .quote-card.sentiment-concern::before { background: var(--risk-concern); box-shadow: 0 0 12px rgba(255, 138, 101, 0.2); }
+        .quote-card.sentiment-cautious_optimism::before { background: var(--risk-neutral); }
+        .quote-card.sentiment-optimism::before { background: var(--risk-optimism); box-shadow: 0 0 12px rgba(102, 187, 106, 0.2); }
+        .quote-card.sentiment-dismissal::before { background: var(--risk-dismissal); box-shadow: 0 0 12px rgba(76, 175, 80, 0.2); }
+
+        .featured-grid .quote-card {
+            aspect-ratio: 1200 / 630;
+        }
+        @media (max-width: 900px) { .featured-grid .quote-card { aspect-ratio: auto; } }
+
+        .quote-card .decorative-quote {
+            font-family: var(--font-heading);
+            font-size: 4rem;
+            line-height: 1;
+            color: var(--color-border-strong);
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .quote-card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 1.5rem;
+        }
+
+        .quote-card-text {
+            font-family: var(--font-heading);
+            font-style: italic;
+            font-size: clamp(0.9rem, 1.3vw, 1.15rem);
+            color: var(--color-text);
+            line-height: 1.6;
+            margin-bottom: 1.2rem;
+        }
+
+        .quote-card-attribution {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.15rem;
+        }
+        .quote-card-role {
+            font-size: 0.68rem;
+            color: var(--color-text-muted);
+            margin-bottom: 0.8rem;
+        }
+
+        .quote-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 0.8rem;
+            border-top: 1px solid var(--color-border);
+        }
+        .quote-card-footer a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+        .quote-card-footer a:hover { text-decoration: underline; }
+
+        .card-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .action-btn {
+            background: transparent;
+            border: 1px solid var(--color-border);
+            color: var(--color-text-muted);
+            padding: 0.3rem 0.6rem;
+            cursor: pointer;
+            font-family: var(--font-body);
+            font-size: 0.65rem;
+            transition: all 0.15s;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .action-btn:hover {
+            border-color: var(--color-accent);
+            color: var(--color-accent);
+        }
+        .action-btn.copied {
+            border-color: var(--risk-optimism);
+            color: var(--risk-optimism);
+        }
+        .action-btn svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        /* ═══════════════════════════════════
+           SECTION 3: SPEAKER LINEUP
+           ═══════════════════════════════════ */
+        .speakers-section {
+            padding: 3rem 2rem;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .speaker-scroller {
+            display: flex;
+            gap: 0.75rem;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            padding-bottom: 1rem;
+            -ms-overflow-style: none;
+            scrollbar-width: thin;
+            scrollbar-color: var(--color-border) transparent;
+        }
+        .speaker-scroller::-webkit-scrollbar { height: 4px; }
+        .speaker-scroller::-webkit-scrollbar-track { background: transparent; }
+        .speaker-scroller::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }
+
+        .speaker-chip {
+            scroll-snap-align: start;
+            flex-shrink: 0;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            padding: 0.8rem 1.2rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            min-width: 180px;
+        }
+        .speaker-chip:hover {
+            border-color: var(--color-accent);
+        }
+        .speaker-chip.active {
+            border-color: var(--color-accent);
+            background: var(--color-accent-light);
+        }
+        .speaker-chip-name {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.2rem;
+        }
+        .speaker-chip-meta {
+            font-size: 0.65rem;
+            color: var(--color-text-muted);
+        }
+        .speaker-chip-score {
+            font-weight: 600;
+            font-size: 0.68rem;
+        }
+
+        /* ═══════════════════════════════════
+           SECTION 4: FULL QUOTE FEED
+           ═══════════════════════════════════ */
+        .feed-section {
+            padding: 3rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
         .filter-bar {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(10, 10, 12, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 1rem 0;
+            margin-bottom: 1.5rem;
             display: flex;
             gap: 0.4rem;
             flex-wrap: wrap;
-            margin-bottom: 2rem;
             align-items: center;
+            border-bottom: 1px solid var(--color-border);
         }
         .filter-bar label {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             color: var(--color-text-muted);
             margin-right: 0.25rem;
             text-transform: uppercase;
@@ -181,7 +444,7 @@
             padding: 0.3rem 0.7rem;
             cursor: pointer;
             font-family: var(--font-body);
-            font-size: 0.7rem;
+            font-size: 0.68rem;
             transition: all 0.15s;
             font-weight: 400;
         }
@@ -201,405 +464,70 @@
             background: var(--color-border);
             margin: 0 0.5rem;
         }
+        .sort-select {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            color: var(--color-text-secondary);
+            padding: 0.3rem 0.5rem;
+            font-family: var(--font-body);
+            font-size: 0.68rem;
+            cursor: pointer;
+            margin-left: auto;
+        }
 
-        /* Person Cards */
-        .cards-section {
-            margin-bottom: 2.5rem;
-        }
-        .cards-section h2 {
-            font-family: var(--font-heading);
-            font-size: 1.15rem;
-            font-weight: 400;
-            color: var(--color-text);
-            margin-bottom: 1rem;
-        }
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+        .feed-list {
+            display: flex;
+            flex-direction: column;
             gap: 1.2rem;
         }
-        @media (max-width: 600px) { .cards-grid { grid-template-columns: 1fr; } }
 
-        .person-card {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            padding: 1.5rem;
-            position: relative;
-            overflow: hidden;
+        .feed-list .quote-card {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.4s ease, transform 0.4s ease, box-shadow 0.2s;
         }
-        .person-card::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 4px;
+        .feed-list .quote-card.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
-        .person-card.sentiment-alarm::before { background: var(--risk-alarm); }
-        .person-card.sentiment-concern::before { background: var(--risk-concern); }
-        .person-card.sentiment-cautious_optimism::before { background: var(--risk-neutral); }
-        .person-card.sentiment-optimism::before { background: var(--risk-optimism); }
-        .person-card.sentiment-dismissal::before { background: var(--risk-dismissal); }
 
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
+        .feed-count {
+            font-size: 0.68rem;
+            color: var(--color-text-muted);
             margin-bottom: 1rem;
         }
-        .card-name {
+
+        /* ═══════════════════════════════════
+           SECTION 5: METHODOLOGY FOOTER
+           ═══════════════════════════════════ */
+        .methodology {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            border-top: 1px solid var(--color-border);
+        }
+        .methodology-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        @media (max-width: 700px) { .methodology-grid { grid-template-columns: 1fr; } }
+        .methodology-item h3 {
             font-family: var(--font-heading);
-            font-size: 1.05rem;
+            font-size: 0.9rem;
             font-weight: 700;
             color: var(--color-text);
+            margin-bottom: 0.6rem;
         }
-        .card-role {
-            font-size: 0.72rem;
+        .methodology-item p {
+            font-size: 0.75rem;
             color: var(--color-text-muted);
-            margin-top: 0.15rem;
-        }
-        .card-sentiment-label {
-            font-size: 0.65rem;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            font-weight: 600;
-            padding: 0.2rem 0.6rem;
-            border: 1px solid;
-        }
-        .card-sentiment-label.alarm { color: var(--risk-alarm); border-color: var(--risk-alarm); }
-        .card-sentiment-label.concern { color: var(--risk-concern); border-color: var(--risk-concern); }
-        .card-sentiment-label.cautious_optimism { color: #8a857d; border-color: var(--risk-neutral); }
-        .card-sentiment-label.optimism { color: var(--risk-optimism); border-color: var(--risk-optimism); }
-        .card-sentiment-label.dismissal { color: var(--risk-dismissal); border-color: var(--risk-dismissal); }
-
-        .card-score-bar {
-            height: 4px;
-            background: var(--color-border);
-            margin-bottom: 1rem;
-            position: relative;
-        }
-        .card-score-marker {
-            position: absolute;
-            top: -4px;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            transform: translateX(-50%);
+            line-height: 1.6;
         }
 
-        .card-quotes {
-            list-style: none;
-        }
-        .card-quote {
-            margin-bottom: 0.8rem;
-            padding-left: 0.8rem;
-            border-left: 2px solid var(--color-border);
-        }
-        .card-quote-text {
-            font-family: var(--font-heading);
-            font-style: italic;
-            font-size: 0.85rem;
-            color: var(--color-text);
-            line-height: 1.5;
-            margin-bottom: 0.3rem;
-        }
-        .card-quote-meta {
-            font-size: 0.68rem;
-            color: var(--color-text-muted);
-        }
-        .card-quote-meta a {
-            color: var(--color-accent);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .card-quote-meta a:hover { text-decoration: underline; }
-
-        .card-themes {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.3rem;
-            margin-top: 0.8rem;
-        }
-        .theme-tag {
-            font-size: 0.6rem;
-            padding: 0.15rem 0.4rem;
-            background: var(--color-surface-alt);
-            border: 1px solid var(--color-border);
-            color: var(--color-text-muted);
-            text-transform: lowercase;
-        }
-
-        .card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 1rem;
-            padding-top: 0.8rem;
-            border-top: 1px solid var(--color-border);
-        }
-        .builder-badge {
-            font-size: 0.6rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            font-weight: 600;
-            color: var(--color-accent);
-        }
-        .share-btn {
-            background: transparent;
-            border: 1px solid var(--color-border);
-            color: var(--color-text-muted);
-            padding: 0.25rem 0.6rem;
-            cursor: pointer;
-            font-family: var(--font-body);
-            font-size: 0.65rem;
-            transition: all 0.15s;
-        }
-        .share-btn:hover {
-            border-color: var(--color-accent);
-            color: var(--color-accent);
-        }
-        .share-btn.copied {
-            border-color: var(--risk-optimism);
-            color: var(--risk-optimism);
-        }
-
-        /* Spectrum Dot Plot */
-        .dot-plot-container {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            overflow-x: auto;
-        }
-        .dot-plot-container h2 {
-            font-family: var(--font-heading);
-            font-size: 1.15rem;
-            font-weight: 400;
-            color: var(--color-text);
-            margin-bottom: 1rem;
-        }
-        .dot-plot-svg text {
-            font-family: var(--font-body);
-        }
-
-        /* Tooltip */
-        .tooltip {
-            position: absolute;
-            background: var(--color-bg);
-            border: 1px solid var(--color-border-strong);
-            padding: 1rem 1.2rem;
-            max-width: 420px;
-            font-size: 0.78rem;
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 0.15s;
-            z-index: 100;
-            box-shadow: 0 4px 16px rgba(19, 19, 20, 0.08);
-        }
-        .tooltip .tt-quote {
-            font-family: var(--font-heading);
-            font-style: italic;
-            color: var(--color-text);
-            font-weight: 400;
-            font-size: 0.85rem;
-            margin-bottom: 0.5rem;
-            line-height: 1.4;
-        }
-        .tooltip .tt-meta {
-            color: var(--color-text-muted);
-            font-size: 0.72rem;
-            line-height: 1.7;
-        }
-        .tooltip .tt-meta span {
-            color: var(--color-text-secondary);
-            font-weight: 500;
-        }
-        .tooltip .tt-link {
-            color: var(--color-accent);
-            font-size: 0.72rem;
-            margin-top: 0.5rem;
-            display: block;
-            font-weight: 500;
-        }
-
-        /* Quote Wall */
-        .quote-wall-section {
-            margin-bottom: 2.5rem;
-        }
-        .quote-wall-section h2 {
-            font-family: var(--font-heading);
-            font-size: 1.15rem;
-            font-weight: 400;
-            color: var(--color-text);
-            margin-bottom: 1rem;
-        }
-        .quote-wall {
-            columns: 3;
-            column-gap: 1.2rem;
-        }
-        @media (max-width: 1100px) { .quote-wall { columns: 2; } }
-        @media (max-width: 700px) { .quote-wall { columns: 1; } }
-
-        .quote-card {
-            break-inside: avoid;
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            padding: 1.2rem;
-            margin-bottom: 1.2rem;
-            position: relative;
-            overflow: hidden;
-        }
-        .quote-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-        }
-        .quote-card.sentiment-alarm::before { background: var(--risk-alarm); }
-        .quote-card.sentiment-concern::before { background: var(--risk-concern); }
-        .quote-card.sentiment-cautious_optimism::before { background: var(--risk-neutral); }
-        .quote-card.sentiment-optimism::before { background: var(--risk-optimism); }
-        .quote-card.sentiment-dismissal::before { background: var(--risk-dismissal); }
-
-        .quote-card-text {
-            font-family: var(--font-heading);
-            font-style: italic;
-            font-size: 0.9rem;
-            color: var(--color-text);
-            line-height: 1.55;
-            margin-bottom: 0.8rem;
-        }
-        .quote-card-attribution {
-            font-size: 0.72rem;
-            color: var(--color-text-secondary);
-            font-weight: 500;
-            margin-bottom: 0.15rem;
-        }
-        .quote-card-meta {
-            font-size: 0.65rem;
-            color: var(--color-text-muted);
-        }
-        .quote-card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 0.8rem;
-            padding-top: 0.6rem;
-            border-top: 1px solid var(--color-border);
-        }
-        .quote-card-footer a {
-            color: var(--color-accent);
-            text-decoration: none;
-            font-size: 0.68rem;
-            font-weight: 500;
-        }
-        .quote-card-footer a:hover { text-decoration: underline; }
-        .quote-share-btn {
-            background: transparent;
-            border: none;
-            color: var(--color-text-muted);
-            cursor: pointer;
-            font-family: var(--font-body);
-            font-size: 0.65rem;
-            padding: 0.2rem 0.4rem;
-            transition: color 0.15s;
-        }
-        .quote-share-btn:hover { color: var(--color-accent); }
-
-        /* Charts row */
-        .charts-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        @media (max-width: 900px) { .charts-row { grid-template-columns: 1fr; } }
-        .chart-card {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            padding: 1.5rem;
-        }
-        .chart-card h2 {
-            font-family: var(--font-heading);
-            font-size: 1.15rem;
-            font-weight: 400;
-            color: var(--color-text);
-            margin-bottom: 1rem;
-        }
-
-        /* Table */
-        .table-container {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            padding: 1.5rem;
-            overflow-x: auto;
-        }
-        .table-container h2 {
-            font-family: var(--font-heading);
-            font-size: 1.15rem;
-            font-weight: 400;
-            color: var(--color-text);
-            margin-bottom: 1rem;
-        }
-        table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
-        th {
-            text-align: left;
-            padding: 0.6rem 0.8rem;
-            border-bottom: 2px solid var(--color-text);
-            color: var(--color-text);
-            cursor: pointer;
-            user-select: none;
-            white-space: nowrap;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 0.65rem;
-            letter-spacing: 0.08em;
-        }
-        th:hover { color: var(--color-accent); }
-        th .sort-arrow { margin-left: 4px; font-size: 0.6rem; }
-        td {
-            padding: 0.55rem 0.8rem;
-            border-bottom: 1px solid var(--color-border);
-            color: var(--color-text-secondary);
-            vertical-align: top;
-            line-height: 1.45;
-        }
-        tr:hover td { background: var(--color-accent-light); }
-        td a {
-            color: var(--color-accent);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        td a:hover { text-decoration: underline; }
-        .sentiment-badge {
-            display: inline-block;
-            padding: 0.15rem 0.5rem;
-            font-size: 0.68rem;
-            font-weight: 500;
-            white-space: nowrap;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 4rem 2rem;
-            color: var(--color-text-muted);
-            font-family: var(--font-body);
-        }
-        .empty-state h2 {
-            font-family: var(--font-heading);
-            font-size: 1.5rem;
-            color: var(--color-text-secondary);
-            margin-bottom: 1rem;
-        }
-        .empty-state p { max-width: 500px; margin: 0 auto; line-height: 1.6; }
-
-        /* Footer */
         .site-footer {
-            margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--color-border);
+            padding: 2rem;
+            text-align: center;
             font-size: 0.65rem;
             color: var(--color-text-muted);
             text-transform: uppercase;
@@ -625,101 +553,108 @@
             opacity: 1;
             transform: translateX(-50%) translateY(0);
         }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--color-text-muted);
+        }
+        .empty-state h2 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--color-text-secondary);
+            margin-bottom: 1rem;
+        }
+        .empty-state p { max-width: 500px; margin: 0 auto; line-height: 1.6; }
+
+        /* Builder badge */
+        .builder-badge {
+            font-size: 0.58rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: var(--color-accent);
+            margin-left: 0.5rem;
+        }
+
+        /* Sentiment indicator in cards */
+        .sentiment-tag {
+            display: inline-block;
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border: 1px solid;
+        }
+        .sentiment-tag.alarm { color: var(--risk-alarm); border-color: var(--risk-alarm); }
+        .sentiment-tag.concern { color: var(--risk-concern); border-color: var(--risk-concern); }
+        .sentiment-tag.cautious_optimism { color: var(--risk-neutral); border-color: var(--risk-neutral); }
+        .sentiment-tag.optimism { color: var(--risk-optimism); border-color: var(--risk-optimism); }
+        .sentiment-tag.dismissal { color: var(--risk-dismissal); border-color: var(--risk-dismissal); }
     </style>
 </head>
 <body>
 
-    <header>
+    <!-- SECTION 1: HERO -->
+    <section class="hero">
         <h1>Dead or Alive</h1>
         <p class="subtitle">What the people building AI say about whether it will destroy humanity</p>
         <div class="hero-stat" id="hero-stat">Loading...</div>
         <div class="hero-credibility" id="hero-credibility"></div>
-    </header>
+        <div class="hero-viz-wrapper" id="hero-viz-wrapper"></div>
+        <a href="#featured" class="hero-cta">See the quotes</a>
+    </section>
 
-    <!-- Spectrum Overview -->
-    <div class="spectrum-container" id="spectrum-section">
-        <h2>The Spectrum</h2>
-        <div class="spectrum-bar-wrapper" id="spectrum-bar"></div>
-        <div class="spectrum-labels">
-            <span style="color: var(--risk-alarm);">Alarm</span>
-            <span style="color: var(--risk-concern);">Concern</span>
-            <span>Cautious Optimism</span>
-            <span style="color: var(--risk-optimism);">Optimism</span>
-            <span style="color: var(--risk-dismissal);">Dismissal</span>
+    <!-- SECTION 2: FEATURED QUOTES -->
+    <section class="featured-section" id="featured">
+        <div class="section-label">Most striking</div>
+        <h2 class="section-title">Featured Quotes</h2>
+        <div class="featured-grid" id="featured-grid"></div>
+    </section>
+
+    <!-- SECTION 3: SPEAKER LINEUP -->
+    <section class="speakers-section" id="speakers">
+        <div class="section-label">24 speakers</div>
+        <h2 class="section-title">Speaker Lineup</h2>
+        <div class="speaker-scroller" id="speaker-scroller"></div>
+    </section>
+
+    <!-- SECTION 4: FULL QUOTE FEED -->
+    <section class="feed-section" id="feed">
+        <div class="section-label">All signals</div>
+        <h2 class="section-title">Quote Feed</h2>
+        <div class="filter-bar" id="filter-bar"></div>
+        <div class="feed-count" id="feed-count"></div>
+        <div class="feed-list" id="feed-list"></div>
+    </section>
+
+    <!-- SECTION 5: METHODOLOGY -->
+    <section class="methodology">
+        <div class="section-label">How this works</div>
+        <h2 class="section-title" style="margin-bottom: 2rem;">Methodology</h2>
+        <div class="methodology-grid">
+            <div class="methodology-item">
+                <h3>Source</h3>
+                <p>Every quote is extracted from publicly available YouTube interviews, podcasts, and talks. Audio is transcribed using Whisper large-v3-turbo.</p>
+            </div>
+            <div class="methodology-item">
+                <h3>Verify</h3>
+                <p>Every quote is verbatim from the transcript. Click any timestamp link to hear the speaker say the words themselves. Nothing is paraphrased.</p>
+            </div>
+            <div class="methodology-item">
+                <h3>Score</h3>
+                <p>Sentiment scores range from &minus;1.0 (alarm) to +1.0 (dismissal). Scores are assigned based on the language used, not editorial judgement.</p>
+            </div>
         </div>
-    </div>
-
-    <div class="stats-grid" id="stats-grid"></div>
-
-    <!-- Filters -->
-    <div class="filter-bar" id="filter-bar"></div>
-
-    <!-- Person Cards -->
-    <div class="cards-section" id="cards-section">
-        <h2>By Speaker</h2>
-        <div class="cards-grid" id="cards-grid"></div>
-    </div>
-
-    <!-- Spectrum Dot Plot -->
-    <div class="dot-plot-container" id="dot-plot-section">
-        <h2>Sentiment Spectrum</h2>
-        <div id="dot-plot"></div>
-    </div>
-
-    <!-- Quote Wall -->
-    <div class="quote-wall-section" id="quote-wall-section">
-        <h2>Quote Wall</h2>
-        <div class="quote-wall" id="quote-wall"></div>
-    </div>
-
-    <!-- Charts -->
-    <div class="charts-row" id="charts-row">
-        <div class="chart-card" id="sentiment-chart-card">
-            <h2>Sentiment Distribution</h2>
-            <div id="sentiment-chart"></div>
-        </div>
-        <div class="chart-card" id="theme-chart-card">
-            <h2>Theme Frequency</h2>
-            <div id="theme-chart"></div>
-        </div>
-    </div>
-
-    <div class="charts-row">
-        <div class="chart-card" id="builder-chart-card">
-            <h2>Builder vs. Commentator</h2>
-            <div id="builder-chart"></div>
-        </div>
-        <div class="chart-card" id="time-chart-card">
-            <h2>Rhetoric Over Time</h2>
-            <div id="time-chart"></div>
-        </div>
-    </div>
-
-    <!-- Data Table -->
-    <div class="table-container" id="table-container">
-        <h2>All Signals</h2>
-        <table id="signals-table">
-            <thead>
-                <tr>
-                    <th data-sort="person">Person <span class="sort-arrow"></span></th>
-                    <th data-sort="quote">Quote <span class="sort-arrow"></span></th>
-                    <th data-sort="sentiment">Sentiment <span class="sort-arrow"></span></th>
-                    <th data-sort="score">Score <span class="sort-arrow"></span></th>
-                    <th data-sort="themes">Themes <span class="sort-arrow"></span></th>
-                    <th data-sort="date">Date <span class="sort-arrow"></span></th>
-                    <th data-sort="source">Source <span class="sort-arrow"></span></th>
-                </tr>
-            </thead>
-            <tbody id="table-body"></tbody>
-        </table>
-    </div>
-
-    <div class="tooltip" id="tooltip"></div>
-    <div class="toast" id="toast">Copied to clipboard</div>
+    </section>
 
     <footer class="site-footer">
-        AI Pulse — Risk Signals · Every quote is verbatim and linked to its source video
+        AI Pulse &mdash; Risk Signals &middot; Every quote is verbatim and linked to its source video
     </footer>
+
+    <div class="toast" id="toast">Copied to clipboard</div>
 
     <script>
     // ── DATA ──
@@ -727,11 +662,11 @@
 
     // ── COLORS ──
     const sentimentColor = {
-        alarm: '#8B2500',
-        concern: '#c97e6e',
-        cautious_optimism: '#c4c0b8',
-        optimism: '#7bab8a',
-        dismissal: '#4a7d5e'
+        alarm: '#ff4444',
+        concern: '#ff8a65',
+        cautious_optimism: '#8a8a94',
+        optimism: '#66bb6a',
+        dismissal: '#4caf50'
     };
 
     const sentimentLabel = {
@@ -757,17 +692,19 @@
         precautionary_principle: 'Precautionary Principle'
     };
 
+    // X logo SVG path
+    const X_SVG = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+
     // ── STATE ──
-    let activeFilters = { sentiment: 'all', theme: 'all', builder: 'all' };
-    let sortState = { key: 'score', dir: 'asc' };
+    let activeFilters = { sentiment: 'all' };
+    let activeSpeaker = null;
+    let sortMode = 'extreme'; // extreme | recent | speaker
 
     // ── HELPERS ──
     function getFiltered() {
         return SIGNALS_DATA.signals.filter(s => {
             if (activeFilters.sentiment !== 'all' && s.sentiment !== activeFilters.sentiment) return false;
-            if (activeFilters.theme !== 'all' && !s.themes.includes(activeFilters.theme)) return false;
-            if (activeFilters.builder === 'builder' && !s.person.is_builder) return false;
-            if (activeFilters.builder === 'commentator' && s.person.is_builder) return false;
+            if (activeSpeaker && s.person.name !== activeSpeaker) return false;
             return true;
         });
     }
@@ -813,25 +750,116 @@
     }
 
     function tweetQuote(signal) {
-        const text = encodeURIComponent(`"${signal.quote}" — ${signal.person.name}\n${signal.source.timestamp_url}`);
+        const maxQuoteLen = 200;
+        let quote = signal.quote;
+        if (quote.length > maxQuoteLen) {
+            quote = quote.substring(0, maxQuoteLen - 1) + '…';
+        }
+        const text = encodeURIComponent(`"${quote}" — ${signal.person.name}\n${signal.source.timestamp_url}`);
         window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+    }
+
+    async function copyCardAsImage(cardEl, signal) {
+        const btn = cardEl.querySelector('.copy-img-btn');
+        // Hide action buttons during capture
+        const footer = cardEl.querySelector('.quote-card-footer');
+        footer.style.visibility = 'hidden';
+
+        try {
+            const canvas = await html2canvas(cardEl, {
+                backgroundColor: '#141418',
+                scale: 2,
+                useCORS: true,
+                logging: false
+            });
+            footer.style.visibility = '';
+
+            canvas.toBlob(async (blob) => {
+                if (blob && navigator.clipboard && window.ClipboardItem) {
+                    try {
+                        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+                        showToast('Card copied as image');
+                        if (btn) { btn.classList.add('copied'); setTimeout(() => btn.classList.remove('copied'), 2000); }
+                    } catch {
+                        // Fallback: download
+                        downloadBlob(blob, signal);
+                    }
+                } else if (blob) {
+                    downloadBlob(blob, signal);
+                }
+            }, 'image/png');
+        } catch {
+            footer.style.visibility = '';
+            showToast('Could not capture card');
+        }
+    }
+
+    function downloadBlob(blob, signal) {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `dead-or-alive-${signal.person.name.replace(/\s+/g, '-').toLowerCase()}.png`;
+        a.click();
+        URL.revokeObjectURL(url);
+        showToast('Card downloaded as image');
+    }
+
+    function makeCardHTML(signal, extraClass) {
+        const sent = signal.sentiment;
+        const cls = extraClass ? ` ${extraClass}` : '';
+        return `
+        <div class="quote-card sentiment-${sent}${cls}" data-person="${signal.person.name}">
+            <span class="decorative-quote">&ldquo;</span>
+            <div class="quote-card-body">
+                <p class="quote-card-text">&ldquo;${signal.quote}&rdquo;</p>
+                <div class="quote-card-attribution">
+                    ${signal.person.name}${signal.person.is_builder ? '<span class="builder-badge">Builder</span>' : ''}
+                </div>
+                <div class="quote-card-role">${signal.person.role}, ${signal.person.company}</div>
+            </div>
+            <div class="quote-card-footer">
+                <a href="${signal.source.timestamp_url}" target="_blank" rel="noopener">&#9654; ${signal.source.timestamp_display} &middot; ${signal.source.channel}</a>
+                <div class="card-actions">
+                    <button class="action-btn tweet-btn" title="Share on X">${X_SVG} Post</button>
+                    <button class="action-btn copy-img-btn" title="Copy as image">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                        Copy
+                    </button>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function bindCardActions(container, signalLookup) {
+        container.querySelectorAll('.quote-card').forEach(card => {
+            const personName = card.dataset.person;
+            const quoteText = card.querySelector('.quote-card-text').textContent;
+            // Find the matching signal
+            const signal = signalLookup.find(s =>
+                s.person.name === personName && quoteText.includes(s.quote.substring(0, 30))
+            );
+            if (!signal) return;
+
+            const tweetBtn = card.querySelector('.tweet-btn');
+            const copyBtn = card.querySelector('.copy-img-btn');
+            if (tweetBtn) tweetBtn.addEventListener('click', () => tweetQuote(signal));
+            if (copyBtn) copyBtn.addEventListener('click', () => copyCardAsImage(card, signal));
+        });
     }
 
     // ── RENDER: EMPTY STATE ──
     function renderEmptyState() {
         document.getElementById('hero-stat').textContent = 'No risk signals extracted yet.';
         document.getElementById('hero-credibility').textContent = 'Run scripts/extract-risk-signals.sh to extract signals from all transcripts.';
-        document.getElementById('cards-section').innerHTML = `
+        document.getElementById('featured-grid').innerHTML = `
             <div class="empty-state">
                 <h2>No Data Yet</h2>
-                <p>Run the extraction script to scan all 38 interview transcripts for existential risk signals. Expected yield: 150-250 signals.</p>
+                <p>Run the extraction script to scan interview transcripts for existential risk signals.</p>
             </div>`;
-        // Hide sections that need data
-        ['spectrum-section', 'filter-bar', 'dot-plot-section', 'quote-wall-section', 'table-container'].forEach(id => {
+        ['speakers', 'feed'].forEach(id => {
             const el = document.getElementById(id);
             if (el) el.style.display = 'none';
         });
-        document.querySelectorAll('.charts-row').forEach(el => el.style.display = 'none');
     }
 
     // ── RENDER: HERO ──
@@ -846,667 +874,372 @@
         const totalInterviews = [...new Set(signals.map(s => s.source.video_id))].length;
 
         document.getElementById('hero-stat').innerHTML =
-            `<strong>${warnBuilders.length} of ${builders.length}</strong> AI builders in our dataset have publicly warned their technology could cause catastrophic harm`;
+            `<strong>${warnBuilders.length} of ${builders.length}</strong> AI builders have publicly warned their technology could cause catastrophic harm`;
         document.getElementById('hero-credibility').textContent =
-            `Based on ${signals.length} verbatim quotes from ${totalInterviews} interviews with ${totalPeople} speakers, each linked to its source video`;
+            `${signals.length} verbatim quotes. ${totalPeople} speakers. Every one linked to source video.`;
     }
 
-    // ── RENDER: SPECTRUM BAR ──
-    function renderSpectrumBar() {
-        const container = document.getElementById('spectrum-bar');
-        const w = container.clientWidth;
-        const h = 60;
-
-        const svg = d3.select(container).append('svg')
-            .attr('width', w).attr('height', h);
-
-        // Gradient bar
-        const defs = svg.append('defs');
-        const gradient = defs.append('linearGradient').attr('id', 'spectrum-gradient');
-        gradient.append('stop').attr('offset', '0%').attr('stop-color', sentimentColor.alarm);
-        gradient.append('stop').attr('offset', '25%').attr('stop-color', sentimentColor.concern);
-        gradient.append('stop').attr('offset', '50%').attr('stop-color', sentimentColor.cautious_optimism);
-        gradient.append('stop').attr('offset', '75%').attr('stop-color', sentimentColor.optimism);
-        gradient.append('stop').attr('offset', '100%').attr('stop-color', sentimentColor.dismissal);
-
-        svg.append('rect')
-            .attr('x', 40).attr('y', 20)
-            .attr('width', w - 80).attr('height', 6)
-            .attr('rx', 3)
-            .attr('fill', 'url(#spectrum-gradient)')
-            .attr('opacity', 0.4);
-
-        // Person dots
-        const people = groupByPerson(SIGNALS_DATA.signals);
-        const x = d3.scaleLinear().domain([-1, 1]).range([40, w - 40]);
-
-        const tooltip = d3.select('#tooltip');
-
-        svg.selectAll('.person-dot')
-            .data(people)
-            .join('circle')
-            .attr('class', 'person-dot')
-            .attr('cx', d => x(d.avgScore))
-            .attr('cy', 23)
-            .attr('r', d => Math.max(5, Math.min(14, d.signals.length * 1.5)))
-            .attr('fill', d => sentimentColor[d.dominantSentiment])
-            .attr('stroke', '#faf9f6')
-            .attr('stroke-width', 1.5)
-            .attr('opacity', 0.85)
-            .style('cursor', 'pointer')
-            .on('mouseover', (event, d) => {
-                tooltip.style('opacity', 1).html(`
-                    <div class="tt-quote">${d.person.name}</div>
-                    <div class="tt-meta">
-                        <span>${d.person.role}</span>, ${d.person.company}<br>
-                        Avg. score: <span>${d.avgScore.toFixed(2)}</span> · ${d.signals.length} quotes
-                    </div>
-                `);
-            })
-            .on('mousemove', event => {
-                tooltip.style('left', (event.pageX + 12) + 'px').style('top', (event.pageY - 10) + 'px');
-            })
-            .on('mouseout', () => tooltip.style('opacity', 0));
-
-        // Labels under dots for key people (top 8 by signal count)
-        const topPeople = [...people].sort((a, b) => b.signals.length - a.signals.length).slice(0, 8);
-        svg.selectAll('.person-label')
-            .data(topPeople)
-            .join('text')
-            .attr('class', 'person-label')
-            .attr('x', d => x(d.avgScore))
-            .attr('y', 48)
-            .attr('text-anchor', 'middle')
-            .attr('font-size', '0.55rem')
-            .attr('fill', '#8a857d')
-            .text(d => d.person.name.split(' ').pop());
-    }
-
-    // ── RENDER: STATS ──
-    function renderStats() {
+    // ── RENDER: HERO VISUALIZATION (Doom Index Gauge) ──
+    function renderHeroViz() {
         const signals = SIGNALS_DATA.signals;
-        const grid = document.getElementById('stats-grid');
-        const sentimentCounts = {};
-        signals.forEach(s => { sentimentCounts[s.sentiment] = (sentimentCounts[s.sentiment] || 0) + 1; });
+        const totalPeople = [...new Set(signals.map(s => s.person.name))].length;
+        const totalInterviews = [...new Set(signals.map(s => s.source.video_id))].length;
 
-        const stats = [
-            { value: signals.length, label: 'Total Signals' },
-            { value: [...new Set(signals.map(s => s.person.name))].length, label: 'Speakers' },
-            { value: [...new Set(signals.map(s => s.source.video_id))].length, label: 'Interviews' },
-            { value: sentimentCounts.alarm || 0, label: 'Alarm Signals' },
-            { value: sentimentCounts.concern || 0, label: 'Concern Signals' },
-            { value: (sentimentCounts.optimism || 0) + (sentimentCounts.dismissal || 0), label: 'Optimism/Dismissal' }
+        // Compute the index: weighted average of sentiment scores
+        // Builders get 2x weight — they're the ones actually building it
+        let weightedSum = 0, weightTotal = 0;
+        signals.forEach(s => {
+            const w = s.person.is_builder ? 2 : 1;
+            weightedSum += s.sentiment_score * w;
+            weightTotal += w;
+        });
+        const avgScore = weightTotal > 0 ? weightedSum / weightTotal : 0;
+        // Map [-1, 1] → [0, 100] where 0 = total optimism, 100 = total doom
+        const indexScore = Math.round((1 - avgScore) * 50);
+        const clampedScore = Math.max(0, Math.min(100, indexScore));
+
+        // Label + color bands
+        let label, labelColor;
+        if (clampedScore >= 80)      { label = 'Extreme Fear'; labelColor = '#ff4444'; }
+        else if (clampedScore >= 60) { label = 'Fear';         labelColor = '#ff8a65'; }
+        else if (clampedScore >= 40) { label = 'Neutral';      labelColor = '#a0a0a8'; }
+        else if (clampedScore >= 20) { label = 'Optimism';     labelColor = '#66bb6a'; }
+        else                         { label = 'Extreme Optimism'; labelColor = '#4caf50'; }
+
+        // ── SVG gauge geometry ──
+        // Layout: left = 0 (optimism/green), right = 100 (doom/red)
+        // Angles: π (180°) = left endpoint, 0 (0°) = right endpoint
+        // In SVG y-down coords: x = cx + r*cos(θ), y = cy - r*sin(θ)
+        const cx = 200, cy = 180, r = 150, strokeW = 26;
+
+        function arcPath(fromAngle, toAngle) {
+            const x1 = cx + r * Math.cos(fromAngle);
+            const y1 = cy - r * Math.sin(fromAngle);
+            const x2 = cx + r * Math.cos(toAngle);
+            const y2 = cy - r * Math.sin(toAngle);
+            const sweep = fromAngle - toAngle;
+            const largeArc = sweep > Math.PI ? 1 : 0;
+            // sweep-flag 0 = counterclockwise in SVG screen coords = through the top
+            return `M ${x1.toFixed(1)} ${y1.toFixed(1)} A ${r} ${r} 0 ${largeArc} 0 ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+        }
+
+        // Needle: score 0 → angle π (left), score 100 → angle 0 (right)
+        const needleAngle = Math.PI * (1 - clampedScore / 100);
+        const needleLen = r - 30;
+        const nx = cx + needleLen * Math.cos(needleAngle);
+        const ny = cy - needleLen * Math.sin(needleAngle);
+
+        // 5 segments: left (green/optimism) → right (red/doom)
+        const segments = [
+            { from: Math.PI,        to: Math.PI * 0.8, color: '#4caf50' },
+            { from: Math.PI * 0.8,  to: Math.PI * 0.6, color: '#66bb6a' },
+            { from: Math.PI * 0.6,  to: Math.PI * 0.4, color: '#a0a0a8' },
+            { from: Math.PI * 0.4,  to: Math.PI * 0.2, color: '#ff8a65' },
+            { from: Math.PI * 0.2,  to: 0.001,         color: '#ff4444' },
         ];
 
-        grid.innerHTML = stats.map(s => `
-            <div class="stat-card">
-                <div class="value">${s.value}</div>
-                <div class="label">${s.label}</div>
+        // Background arc segments (muted)
+        const bgArcs = segments.map(s =>
+            `<path d="${arcPath(s.from, s.to)}" fill="none" stroke="${s.color}" stroke-width="${strokeW}" stroke-linecap="butt" opacity="0.18"/>`
+        ).join('\n            ');
+
+        // Active fill: from LEFT (π) sweeping right toward the needle
+        // This fills proportionally to the score
+        const activeEnd = Math.max(needleAngle, 0.002);
+        const activeArc = clampedScore > 1 ?
+            `<path d="${arcPath(Math.PI, activeEnd)}" fill="none" stroke="url(#activeGrad)" stroke-width="${strokeW}" stroke-linecap="round" opacity="0.9"/>` : '';
+
+        // Glow behind active arc
+        const glowArc = clampedScore > 1 ?
+            `<path d="${arcPath(Math.PI, activeEnd)}" fill="none" stroke="${labelColor}" stroke-width="${strokeW + 14}" stroke-linecap="round" opacity="0.08" filter="url(#glow)"/>` : '';
+
+        // Tick marks at 0, 25, 50, 75, 100
+        const ticks = [0, 25, 50, 75, 100].map(val => {
+            const angle = Math.PI * (1 - val / 100);
+            const outerR = r + strokeW / 2 + 3;
+            const innerR = r + strokeW / 2 - 3;
+            const ox = cx + outerR * Math.cos(angle);
+            const oy = cy - outerR * Math.sin(angle);
+            const ix = cx + innerR * Math.cos(angle);
+            const iy = cy - innerR * Math.sin(angle);
+            return `<line x1="${ix.toFixed(1)}" y1="${iy.toFixed(1)}" x2="${ox.toFixed(1)}" y2="${oy.toFixed(1)}" stroke="#3a3a44" stroke-width="1.5"/>`;
+        }).join('\n            ');
+
+        // Tick labels
+        const tickLabels = [
+            { val: 0,   label: '0' },
+            { val: 50,  label: '50' },
+            { val: 100, label: '100' },
+        ].map(t => {
+            const angle = Math.PI * (1 - t.val / 100);
+            const labelR = r + strokeW / 2 + 14;
+            const lx = cx + labelR * Math.cos(angle);
+            const ly = cy - labelR * Math.sin(angle);
+            return `<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="middle" dominant-baseline="middle" fill="#6a6a74" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="500">${t.label}</text>`;
+        }).join('\n            ');
+
+        // Axis endpoint labels
+        const axisLabelR = r + strokeW / 2 + 30;
+        const leftLabelX = cx + axisLabelR * Math.cos(Math.PI);
+        const rightLabelX = cx + axisLabelR * Math.cos(0);
+
+        const svgMarkup = `
+        <svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="glow">
+                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+                <filter id="needleShadow">
+                    <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="${labelColor}" flood-opacity="0.5"/>
+                </filter>
+                <linearGradient id="activeGrad" gradientUnits="userSpaceOnUse" x1="${cx - r}" y1="${cy}" x2="${cx + r}" y2="${cy}">
+                    <stop offset="0%" stop-color="#4caf50"/>
+                    <stop offset="50%" stop-color="#a0a0a8"/>
+                    <stop offset="100%" stop-color="#ff4444"/>
+                </linearGradient>
+            </defs>
+
+            <!-- Background arcs -->
+            ${bgArcs}
+
+            <!-- Glow behind active -->
+            ${glowArc}
+
+            <!-- Active fill -->
+            ${activeArc}
+
+            <!-- Tick marks -->
+            ${ticks}
+
+            <!-- Tick labels -->
+            ${tickLabels}
+
+            <!-- Endpoint labels -->
+            <text x="${leftLabelX.toFixed(1)}" y="${(cy + 6).toFixed(1)}" text-anchor="middle" fill="#4caf50" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" letter-spacing="0.08em">SAFE</text>
+            <text x="${rightLabelX.toFixed(1)}" y="${(cy + 6).toFixed(1)}" text-anchor="middle" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" letter-spacing="0.08em">DOOM</text>
+
+            <!-- Needle -->
+            <line x1="${cx}" y1="${cy}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}" stroke="${labelColor}" stroke-width="2.5" stroke-linecap="round" filter="url(#needleShadow)"/>
+            <!-- Pivot -->
+            <circle cx="${cx}" cy="${cy}" r="8" fill="#18181e" stroke="${labelColor}" stroke-width="2"/>
+            <circle cx="${cx}" cy="${cy}" r="3" fill="${labelColor}"/>
+
+            <!-- Score inside the semicircle -->
+            <text x="${cx}" y="${cy - 55}" text-anchor="middle" fill="${labelColor}" font-family="'Libre Baskerville', Georgia, serif" font-size="56" font-weight="700">${clampedScore}</text>
+            <!-- Label -->
+            <text x="${cx}" y="${cy - 25}" text-anchor="middle" fill="${labelColor}" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" letter-spacing="0.15em" text-transform="uppercase">${label.toUpperCase()}</text>
+        </svg>`;
+
+        const wrapper = document.getElementById('hero-viz-wrapper');
+        wrapper.innerHTML = `
+        <div class="hero-viz-card" id="hero-viz-card">
+            <div class="gauge-container">${svgMarkup}</div>
+            <div class="gauge-sublabel">Based on ${signals.length} verbatim quotes from ${totalPeople} AI leaders across ${totalInterviews} interviews</div>
+            <div class="viz-card-footer">
+                <span class="viz-card-source">AI Pulse &middot; Doom Index</span>
+                <div class="viz-share-actions">
+                    <button class="action-btn" id="viz-tweet-btn" title="Share on X">${X_SVG} Post</button>
+                    <button class="action-btn" id="viz-copy-btn" title="Copy as image">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                        Copy
+                    </button>
+                </div>
             </div>
-        `).join('');
+        </div>`;
+
+        // Bind share buttons
+        document.getElementById('viz-tweet-btn').addEventListener('click', () => {
+            const text = encodeURIComponent(`The AI Doom Index is at ${clampedScore}/100: ${label}\n\nBased on ${signals.length} verbatim quotes from ${totalPeople} AI leaders. Every quote linked to source video.`);
+            window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+        });
+
+        document.getElementById('viz-copy-btn').addEventListener('click', async () => {
+            const card = document.getElementById('hero-viz-card');
+            const actions = card.querySelector('.viz-share-actions');
+            actions.style.visibility = 'hidden';
+            try {
+                const canvas = await html2canvas(card, {
+                    backgroundColor: '#141418',
+                    scale: 2,
+                    useCORS: true,
+                    logging: false
+                });
+                actions.style.visibility = '';
+                canvas.toBlob(async (blob) => {
+                    if (blob && navigator.clipboard && window.ClipboardItem) {
+                        try {
+                            await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+                            showToast('Doom Index copied as image');
+                        } catch {
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = 'ai-doom-index.png';
+                            a.click();
+                            URL.revokeObjectURL(url);
+                            showToast('Doom Index downloaded as image');
+                        }
+                    }
+                }, 'image/png');
+            } catch {
+                actions.style.visibility = '';
+                showToast('Could not capture image');
+            }
+        });
     }
 
-    // ── RENDER: FILTERS ──
+    // ── RENDER: FEATURED QUOTES ──
+    function renderFeatured() {
+        const signals = SIGNALS_DATA.signals;
+        // Viral score: |sentiment_score| + builder bonus + short quote bonus
+        const scored = signals.map(s => {
+            let score = Math.abs(s.sentiment_score);
+            if (s.person.is_builder) score += 0.3;
+            if (s.quote.length < 100) score += 0.2;
+            else if (s.quote.length < 150) score += 0.1;
+            return { signal: s, viralScore: score };
+        });
+        scored.sort((a, b) => b.viralScore - a.viralScore);
+
+        // Deduplicate by person — max 1 per speaker
+        const seen = new Set();
+        const featured = [];
+        for (const item of scored) {
+            if (seen.has(item.signal.person.name)) continue;
+            seen.add(item.signal.person.name);
+            featured.push(item.signal);
+            if (featured.length >= 8) break;
+        }
+
+        const grid = document.getElementById('featured-grid');
+        grid.innerHTML = featured.map(s => makeCardHTML(s)).join('');
+        bindCardActions(grid, featured);
+    }
+
+    // ── RENDER: SPEAKER LINEUP ──
+    function renderSpeakers() {
+        const people = groupByPerson(SIGNALS_DATA.signals);
+        const scroller = document.getElementById('speaker-scroller');
+
+        scroller.innerHTML = people.map(g => {
+            const scoreColor = sentimentColor[g.dominantSentiment];
+            return `
+            <div class="speaker-chip" data-speaker="${g.person.name}">
+                <div class="speaker-chip-name">${g.person.name}</div>
+                <div class="speaker-chip-meta">
+                    ${g.person.company} &middot;
+                    <span class="speaker-chip-score" style="color:${scoreColor}">${g.avgScore.toFixed(2)}</span>
+                    &middot; ${g.signals.length} quotes
+                </div>
+            </div>`;
+        }).join('');
+
+        // Click handlers
+        scroller.querySelectorAll('.speaker-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                const name = chip.dataset.speaker;
+                if (activeSpeaker === name) {
+                    activeSpeaker = null;
+                    chip.classList.remove('active');
+                } else {
+                    activeSpeaker = name;
+                    scroller.querySelectorAll('.speaker-chip').forEach(c => c.classList.remove('active'));
+                    chip.classList.add('active');
+                }
+                renderFeed();
+                document.getElementById('feed').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    }
+
+    // ── RENDER: FILTER BAR ──
     function renderFilters() {
         const bar = document.getElementById('filter-bar');
         const sentiments = ['all', 'alarm', 'concern', 'cautious_optimism', 'optimism', 'dismissal'];
-        const themes = ['all', ...new Set(SIGNALS_DATA.signals.flatMap(s => s.themes))].sort();
 
         bar.innerHTML = '';
 
-        // Sentiment filters
         const sLabel = document.createElement('label');
-        sLabel.textContent = 'Sentiment:';
+        sLabel.textContent = 'Filter:';
         bar.appendChild(sLabel);
 
         sentiments.forEach(s => {
             const btn = document.createElement('button');
             btn.className = 'filter-btn' + (activeFilters.sentiment === s ? ' active' : '');
             btn.textContent = s === 'all' ? 'All' : sentimentLabel[s] || s;
-            btn.onclick = () => { activeFilters.sentiment = s; refresh(); };
+            btn.onclick = () => {
+                activeFilters.sentiment = s;
+                renderFilters();
+                renderFeed();
+            };
             bar.appendChild(btn);
         });
 
-        // Separator
-        const sep1 = document.createElement('div');
-        sep1.className = 'filter-separator';
-        bar.appendChild(sep1);
+        // Sort dropdown
+        const sep = document.createElement('div');
+        sep.className = 'filter-separator';
+        bar.appendChild(sep);
 
-        // Builder filter
-        const bLabel = document.createElement('label');
-        bLabel.textContent = 'Role:';
-        bar.appendChild(bLabel);
+        const sortLabel = document.createElement('label');
+        sortLabel.textContent = 'Sort:';
+        bar.appendChild(sortLabel);
 
-        ['all', 'builder', 'commentator'].forEach(b => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-btn' + (activeFilters.builder === b ? ' active' : '');
-            btn.textContent = b === 'all' ? 'All' : b === 'builder' ? 'Builders' : 'Commentators';
-            btn.onclick = () => { activeFilters.builder = b; refresh(); };
-            bar.appendChild(btn);
+        const select = document.createElement('select');
+        select.className = 'sort-select';
+        [
+            { value: 'extreme', label: 'Most extreme' },
+            { value: 'recent', label: 'Most recent' },
+            { value: 'speaker', label: 'By speaker' }
+        ].forEach(opt => {
+            const o = document.createElement('option');
+            o.value = opt.value;
+            o.textContent = opt.label;
+            if (sortMode === opt.value) o.selected = true;
+            select.appendChild(o);
         });
-
-        // Separator
-        const sep2 = document.createElement('div');
-        sep2.className = 'filter-separator';
-        bar.appendChild(sep2);
-
-        // Theme filter
-        const tLabel = document.createElement('label');
-        tLabel.textContent = 'Theme:';
-        bar.appendChild(tLabel);
-
-        themes.slice(0, 10).forEach(t => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-btn' + (activeFilters.theme === t ? ' active' : '');
-            btn.textContent = t === 'all' ? 'All' : (themeLabels[t] || t).replace(/_/g, ' ');
-            btn.onclick = () => { activeFilters.theme = t; refresh(); };
-            bar.appendChild(btn);
-        });
+        select.onchange = () => { sortMode = select.value; renderFeed(); };
+        bar.appendChild(select);
     }
 
-    // ── RENDER: PERSON CARDS ──
-    function renderCards() {
+    // ── RENDER: QUOTE FEED ──
+    function renderFeed() {
         const filtered = getFiltered();
-        const groups = groupByPerson(filtered);
-        const grid = document.getElementById('cards-grid');
+        let sorted;
 
-        grid.innerHTML = groups.map(g => {
-            const topQuotes = g.signals
-                .sort((a, b) => a.sentiment_score - b.sentiment_score)
-                .slice(0, 3);
-            const allThemes = [...new Set(g.signals.flatMap(s => s.themes))];
-
-            return `
-            <div class="person-card sentiment-${g.dominantSentiment}" id="card-${g.person.name.replace(/\s/g, '-')}">
-                <div class="card-header">
-                    <div>
-                        <div class="card-name">${g.person.name}</div>
-                        <div class="card-role">${g.person.role}, ${g.person.company}</div>
-                    </div>
-                    <span class="card-sentiment-label ${g.dominantSentiment}">
-                        ${sentimentLabel[g.dominantSentiment]}
-                    </span>
-                </div>
-                <div class="card-score-bar">
-                    <div class="card-score-marker" style="left: ${((g.avgScore + 1) / 2 * 100)}%; background: ${sentimentColor[g.dominantSentiment]};"></div>
-                </div>
-                <ul class="card-quotes">
-                    ${topQuotes.map(s => `
-                    <li class="card-quote">
-                        <div class="card-quote-text">"${s.quote}"</div>
-                        <div class="card-quote-meta">
-                            <a href="${s.source.timestamp_url}" target="_blank" rel="noopener">&#9654; ${s.source.timestamp_display}</a>
-                            · ${s.source.title.substring(0, 50)}${s.source.title.length > 50 ? '...' : ''}
-                        </div>
-                    </li>
-                    `).join('')}
-                </ul>
-                <div class="card-themes">
-                    ${allThemes.map(t => `<span class="theme-tag">${(themeLabels[t] || t).replace(/_/g, ' ')}</span>`).join('')}
-                </div>
-                <div class="card-footer">
-                    ${g.person.is_builder ? '<span class="builder-badge">AI Builder</span>' : '<span class="builder-badge" style="color: var(--color-text-muted)">Commentator</span>'}
-                    <button class="share-btn" onclick='shareQuote(${JSON.stringify(topQuotes[0]).replace(/'/g, "&#39;")})'>Share</button>
-                </div>
-            </div>`;
-        }).join('');
-    }
-
-    // ── RENDER: DOT PLOT ──
-    function renderDotPlot() {
-        const container = document.getElementById('dot-plot');
-        container.innerHTML = '';
-        const filtered = getFiltered();
-        const people = groupByPerson(filtered).sort((a, b) => a.avgScore - b.avgScore);
-
-        if (people.length === 0) return;
-
-        const margin = { top: 20, right: 30, bottom: 40, left: 160 };
-        const w = Math.max(800, container.clientWidth);
-        const rowH = 28;
-        const h = margin.top + margin.bottom + people.length * rowH;
-
-        const svg = d3.select(container).append('svg')
-            .attr('class', 'dot-plot-svg')
-            .attr('width', w).attr('height', h);
-
-        const x = d3.scaleLinear().domain([-1, 1]).range([margin.left, w - margin.right]);
-        const y = d3.scaleBand()
-            .domain(people.map(g => g.person.name))
-            .range([margin.top, h - margin.bottom])
-            .padding(0.3);
-
-        // Background zones
-        svg.append('rect')
-            .attr('x', x(-1)).attr('y', margin.top)
-            .attr('width', x(0) - x(-1)).attr('height', h - margin.top - margin.bottom)
-            .attr('fill', sentimentColor.alarm).attr('opacity', 0.04);
-        svg.append('rect')
-            .attr('x', x(0)).attr('y', margin.top)
-            .attr('width', x(1) - x(0)).attr('height', h - margin.top - margin.bottom)
-            .attr('fill', sentimentColor.dismissal).attr('opacity', 0.04);
-
-        // Center line
-        svg.append('line')
-            .attr('x1', x(0)).attr('x2', x(0))
-            .attr('y1', margin.top).attr('y2', h - margin.bottom)
-            .attr('stroke', '#c4c0b8').attr('stroke-dasharray', '3,3');
-
-        // Range bars per person
-        people.forEach(g => {
-            const scores = g.signals.map(s => s.sentiment_score);
-            const minS = d3.min(scores);
-            const maxS = d3.max(scores);
-            const cy = y(g.person.name) + y.bandwidth() / 2;
-
-            svg.append('line')
-                .attr('x1', x(minS)).attr('x2', x(maxS))
-                .attr('y1', cy).attr('y2', cy)
-                .attr('stroke', sentimentColor[g.dominantSentiment])
-                .attr('stroke-width', 2)
-                .attr('opacity', 0.4);
-        });
-
-        // Dots
-        const tooltip = d3.select('#tooltip');
-        const allDots = filtered.map(s => ({
-            ...s,
-            personGroup: people.find(g => g.person.name === s.person.name)
-        })).filter(s => s.personGroup);
-
-        svg.selectAll('.signal-dot')
-            .data(allDots)
-            .join('circle')
-            .attr('class', 'signal-dot')
-            .attr('cx', d => x(d.sentiment_score))
-            .attr('cy', d => y(d.person.name) + y.bandwidth() / 2)
-            .attr('r', 4.5)
-            .attr('fill', d => sentimentColor[d.sentiment])
-            .attr('stroke', '#faf9f6')
-            .attr('stroke-width', 1)
-            .attr('opacity', 0.8)
-            .style('cursor', 'pointer')
-            .on('mouseover', (event, d) => {
-                tooltip.style('opacity', 1).html(`
-                    <div class="tt-quote">"${d.quote}"</div>
-                    <div class="tt-meta">
-                        <span>${d.person.name}</span> · ${sentimentLabel[d.sentiment]} (${d.sentiment_score.toFixed(2)})<br>
-                        ${d.source.title}
-                    </div>
-                    <span class="tt-link">&#9654; ${d.source.timestamp_display} · Click dot to open video</span>
-                `);
-            })
-            .on('mousemove', event => {
-                tooltip.style('left', (event.pageX + 12) + 'px').style('top', (event.pageY - 10) + 'px');
-            })
-            .on('mouseout', () => tooltip.style('opacity', 0))
-            .on('click', (event, d) => window.open(d.source.timestamp_url, '_blank'));
-
-        // Y-axis labels
-        svg.selectAll('.y-label')
-            .data(people)
-            .join('text')
-            .attr('class', 'y-label')
-            .attr('x', margin.left - 8)
-            .attr('y', d => y(d.person.name) + y.bandwidth() / 2)
-            .attr('text-anchor', 'end')
-            .attr('dominant-baseline', 'central')
-            .attr('font-size', '0.7rem')
-            .attr('fill', d => d.person.is_builder ? '#131314' : '#8a857d')
-            .attr('font-weight', d => d.person.is_builder ? 500 : 400)
-            .text(d => d.person.name);
-
-        // X-axis
-        const xAxis = d3.axisBottom(x).ticks(5).tickFormat(d => d.toFixed(1));
-        svg.append('g')
-            .attr('transform', `translate(0,${h - margin.bottom})`)
-            .call(xAxis)
-            .selectAll('text')
-            .attr('font-size', '0.65rem')
-            .attr('fill', '#8a857d');
-
-        // X-axis label
-        svg.append('text')
-            .attr('x', x(-0.5)).attr('y', h - 5)
-            .attr('font-size', '0.6rem').attr('fill', sentimentColor.alarm)
-            .text('← More alarmed');
-        svg.append('text')
-            .attr('x', x(0.5)).attr('y', h - 5)
-            .attr('text-anchor', 'end')
-            .attr('font-size', '0.6rem').attr('fill', sentimentColor.dismissal)
-            .text('More dismissive →');
-    }
-
-    // ── RENDER: QUOTE WALL ──
-    function renderQuoteWall() {
-        const filtered = getFiltered();
-        // Sort alarm first, then by absolute score
-        const sorted = [...filtered].sort((a, b) => a.sentiment_score - b.sentiment_score);
-        const wall = document.getElementById('quote-wall');
-
-        wall.innerHTML = sorted.slice(0, 60).map((s, i) => `
-            <div class="quote-card sentiment-${s.sentiment}" id="quote-${i}">
-                <div class="quote-card-text">"${s.quote}"</div>
-                <div class="quote-card-attribution">${s.person.name}</div>
-                <div class="quote-card-meta">${s.person.role}, ${s.person.company} · ${s.source.upload_date}</div>
-                <div class="quote-card-footer">
-                    <a href="${s.source.timestamp_url}" target="_blank" rel="noopener">&#9654; ${s.source.timestamp_display}</a>
-                    <button class="quote-share-btn" onclick='shareQuote(${JSON.stringify(s).replace(/'/g, "&#39;").replace(/</g, "&lt;")})'>Share</button>
-                </div>
-            </div>
-        `).join('');
-    }
-
-    // ── RENDER: SENTIMENT DONUT ──
-    function renderSentimentChart() {
-        const container = document.getElementById('sentiment-chart');
-        container.innerHTML = '';
-        const filtered = getFiltered();
-
-        const counts = {};
-        filtered.forEach(s => { counts[s.sentiment] = (counts[s.sentiment] || 0) + 1; });
-        const data = Object.entries(counts).map(([k, v]) => ({ sentiment: k, count: v }));
-
-        const w = 300, h = 250, radius = Math.min(w, h) / 2 - 20;
-
-        const svg = d3.select(container).append('svg')
-            .attr('width', w).attr('height', h)
-            .append('g')
-            .attr('transform', `translate(${w/2},${h/2})`);
-
-        const pie = d3.pie().value(d => d.count).sort(null);
-        const arc = d3.arc().innerRadius(radius * 0.5).outerRadius(radius);
-        const labelArc = d3.arc().innerRadius(radius * 0.75).outerRadius(radius * 0.75);
-
-        svg.selectAll('.arc')
-            .data(pie(data))
-            .join('path')
-            .attr('d', arc)
-            .attr('fill', d => sentimentColor[d.data.sentiment])
-            .attr('stroke', '#faf9f6')
-            .attr('stroke-width', 2)
-            .attr('opacity', 0.85);
-
-        svg.selectAll('.arc-label')
-            .data(pie(data))
-            .join('text')
-            .attr('transform', d => `translate(${labelArc.centroid(d)})`)
-            .attr('text-anchor', 'middle')
-            .attr('font-size', '0.6rem')
-            .attr('fill', '#131314')
-            .attr('font-weight', 500)
-            .text(d => d.data.count > 0 ? `${sentimentLabel[d.data.sentiment]} (${d.data.count})` : '');
-    }
-
-    // ── RENDER: THEME BARS ──
-    function renderThemeChart() {
-        const container = document.getElementById('theme-chart');
-        container.innerHTML = '';
-        const filtered = getFiltered();
-
-        const counts = {};
-        filtered.forEach(s => s.themes.forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
-        const data = Object.entries(counts)
-            .map(([k, v]) => ({ theme: k, count: v }))
-            .sort((a, b) => b.count - a.count);
-
-        if (data.length === 0) return;
-
-        const margin = { top: 5, right: 20, bottom: 5, left: 140 };
-        const barH = 20;
-        const w = 350;
-        const h = margin.top + margin.bottom + data.length * barH;
-
-        const svg = d3.select(container).append('svg').attr('width', w).attr('height', h);
-        const x = d3.scaleLinear().domain([0, d3.max(data, d => d.count)]).range([margin.left, w - margin.right]);
-        const y = d3.scaleBand().domain(data.map(d => d.theme)).range([margin.top, h - margin.bottom]).padding(0.2);
-
-        svg.selectAll('.bar')
-            .data(data)
-            .join('rect')
-            .attr('x', margin.left)
-            .attr('y', d => y(d.theme))
-            .attr('width', d => x(d.count) - margin.left)
-            .attr('height', y.bandwidth())
-            .attr('fill', '#c97e6e')
-            .attr('opacity', 0.7);
-
-        svg.selectAll('.bar-label')
-            .data(data)
-            .join('text')
-            .attr('x', margin.left - 5)
-            .attr('y', d => y(d.theme) + y.bandwidth() / 2)
-            .attr('text-anchor', 'end')
-            .attr('dominant-baseline', 'central')
-            .attr('font-size', '0.65rem')
-            .attr('fill', '#5c5850')
-            .text(d => (themeLabels[d.theme] || d.theme).replace(/_/g, ' '));
-
-        svg.selectAll('.bar-count')
-            .data(data)
-            .join('text')
-            .attr('x', d => x(d.count) + 4)
-            .attr('y', d => y(d.theme) + y.bandwidth() / 2)
-            .attr('dominant-baseline', 'central')
-            .attr('font-size', '0.65rem')
-            .attr('fill', '#8a857d')
-            .text(d => d.count);
-    }
-
-    // ── RENDER: BUILDER vs COMMENTATOR ──
-    function renderBuilderChart() {
-        const container = document.getElementById('builder-chart');
-        container.innerHTML = '';
-        const filtered = getFiltered();
-
-        const groups = { builder: {}, commentator: {} };
-        filtered.forEach(s => {
-            const key = s.person.is_builder ? 'builder' : 'commentator';
-            groups[key][s.sentiment] = (groups[key][s.sentiment] || 0) + 1;
-        });
-
-        const sentiments = ['alarm', 'concern', 'cautious_optimism', 'optimism', 'dismissal'];
-        const data = ['builder', 'commentator'].map(g => ({
-            group: g,
-            ...Object.fromEntries(sentiments.map(s => [s, groups[g][s] || 0]))
-        }));
-
-        const margin = { top: 20, right: 20, bottom: 30, left: 100 };
-        const w = 350, h = 160;
-
-        const svg = d3.select(container).append('svg').attr('width', w).attr('height', h);
-
-        const y = d3.scaleBand()
-            .domain(['builder', 'commentator'])
-            .range([margin.top, h - margin.bottom])
-            .padding(0.4);
-
-        const x = d3.scaleLinear()
-            .domain([0, d3.max(data, d => sentiments.reduce((sum, s) => sum + d[s], 0))])
-            .range([margin.left, w - margin.right]);
-
-        const stack = d3.stack().keys(sentiments);
-        const series = stack(data);
-
-        series.forEach(s => {
-            svg.selectAll(`.bar-${s.key}`)
-                .data(s)
-                .join('rect')
-                .attr('x', d => x(d[0]))
-                .attr('y', d => y(d.data.group))
-                .attr('width', d => x(d[1]) - x(d[0]))
-                .attr('height', y.bandwidth())
-                .attr('fill', sentimentColor[s.key])
-                .attr('opacity', 0.8);
-        });
-
-        svg.selectAll('.group-label')
-            .data(data)
-            .join('text')
-            .attr('x', margin.left - 5)
-            .attr('y', d => y(d.group) + y.bandwidth() / 2)
-            .attr('text-anchor', 'end')
-            .attr('dominant-baseline', 'central')
-            .attr('font-size', '0.7rem')
-            .attr('fill', '#5c5850')
-            .attr('font-weight', 500)
-            .text(d => d.group === 'builder' ? 'AI Builders' : 'Commentators');
-
-        // Legend
-        const legend = svg.append('g').attr('transform', `translate(${margin.left}, ${h - 8})`);
-        sentiments.forEach((s, i) => {
-            legend.append('rect')
-                .attr('x', i * 65).attr('y', 0).attr('width', 8).attr('height', 8)
-                .attr('fill', sentimentColor[s]);
-            legend.append('text')
-                .attr('x', i * 65 + 11).attr('y', 7)
-                .attr('font-size', '0.5rem').attr('fill', '#8a857d')
-                .text(sentimentLabel[s].substring(0, 7));
-        });
-    }
-
-    // ── RENDER: RHETORIC OVER TIME ──
-    function renderTimeChart() {
-        const container = document.getElementById('time-chart');
-        container.innerHTML = '';
-        const filtered = getFiltered();
-
-        // Group by month
-        const byMonth = {};
-        filtered.forEach(s => {
-            const month = s.source.upload_date.substring(0, 7);
-            if (!byMonth[month]) byMonth[month] = [];
-            byMonth[month].push(s.sentiment_score);
-        });
-
-        const data = Object.entries(byMonth)
-            .map(([month, scores]) => ({ month, avg: d3.mean(scores), count: scores.length }))
-            .sort((a, b) => a.month.localeCompare(b.month));
-
-        if (data.length < 2) {
-            container.innerHTML = '<p style="font-size:0.75rem; color:#8a857d;">Not enough data points for time trend.</p>';
-            return;
+        switch (sortMode) {
+            case 'recent':
+                sorted = [...filtered].sort((a, b) => (b.source.upload_date || '').localeCompare(a.source.upload_date || ''));
+                break;
+            case 'speaker':
+                sorted = [...filtered].sort((a, b) => a.person.name.localeCompare(b.person.name));
+                break;
+            case 'extreme':
+            default:
+                sorted = [...filtered].sort((a, b) => Math.abs(b.sentiment_score) - Math.abs(a.sentiment_score));
+                break;
         }
 
-        const margin = { top: 20, right: 20, bottom: 40, left: 50 };
-        const w = 350, h = 200;
+        const countEl = document.getElementById('feed-count');
+        countEl.textContent = `Showing ${sorted.length} of ${SIGNALS_DATA.signals.length} signals`;
 
-        const svg = d3.select(container).append('svg').attr('width', w).attr('height', h);
+        const list = document.getElementById('feed-list');
+        list.innerHTML = sorted.map(s => makeCardHTML(s)).join('');
+        bindCardActions(list, sorted);
 
-        const x = d3.scalePoint().domain(data.map(d => d.month)).range([margin.left, w - margin.right]);
-        const y = d3.scaleLinear().domain([-1, 1]).range([h - margin.bottom, margin.top]);
+        // Scroll-triggered fade-in
+        requestAnimationFrame(() => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-        // Zero line
-        svg.append('line')
-            .attr('x1', margin.left).attr('x2', w - margin.right)
-            .attr('y1', y(0)).attr('y2', y(0))
-            .attr('stroke', '#c4c0b8').attr('stroke-dasharray', '3,3');
-
-        // Line
-        const line = d3.line().x(d => x(d.month)).y(d => y(d.avg)).curve(d3.curveMonotoneX);
-        svg.append('path')
-            .datum(data)
-            .attr('d', line)
-            .attr('fill', 'none')
-            .attr('stroke', '#c4704e')
-            .attr('stroke-width', 2);
-
-        // Dots
-        svg.selectAll('.time-dot')
-            .data(data)
-            .join('circle')
-            .attr('cx', d => x(d.month))
-            .attr('cy', d => y(d.avg))
-            .attr('r', d => Math.max(3, Math.min(8, d.count * 0.5)))
-            .attr('fill', d => sentimentColor[getDominantSentiment(d.avg)])
-            .attr('stroke', '#faf9f6')
-            .attr('stroke-width', 1);
-
-        // X-axis
-        svg.append('g')
-            .attr('transform', `translate(0,${h - margin.bottom})`)
-            .call(d3.axisBottom(x).tickSize(0))
-            .selectAll('text')
-            .attr('font-size', '0.6rem')
-            .attr('fill', '#8a857d')
-            .attr('transform', 'rotate(-30)')
-            .attr('text-anchor', 'end');
-
-        // Y-axis labels
-        svg.append('text')
-            .attr('x', margin.left - 5).attr('y', y(-0.8))
-            .attr('text-anchor', 'end').attr('font-size', '0.55rem').attr('fill', sentimentColor.alarm)
-            .text('Alarmed');
-        svg.append('text')
-            .attr('x', margin.left - 5).attr('y', y(0.8))
-            .attr('text-anchor', 'end').attr('font-size', '0.55rem').attr('fill', sentimentColor.dismissal)
-            .text('Dismissive');
-    }
-
-    // ── RENDER: TABLE ──
-    function renderTable() {
-        const filtered = getFiltered();
-        const sorted = [...filtered].sort((a, b) => {
-            let va, vb;
-            switch (sortState.key) {
-                case 'person': va = a.person.name; vb = b.person.name; break;
-                case 'quote': va = a.quote; vb = b.quote; break;
-                case 'sentiment': va = a.sentiment; vb = b.sentiment; break;
-                case 'score': va = a.sentiment_score; vb = b.sentiment_score; break;
-                case 'themes': va = a.themes.join(','); vb = b.themes.join(','); break;
-                case 'date': va = a.source.upload_date; vb = b.source.upload_date; break;
-                case 'source': va = a.source.title; vb = b.source.title; break;
-                default: va = a.sentiment_score; vb = b.sentiment_score;
-            }
-            if (typeof va === 'number') return sortState.dir === 'asc' ? va - vb : vb - va;
-            return sortState.dir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+            list.querySelectorAll('.quote-card').forEach(card => observer.observe(card));
         });
-
-        const tbody = document.getElementById('table-body');
-        tbody.innerHTML = sorted.map(s => `
-            <tr>
-                <td><strong>${s.person.name}</strong><br><span style="font-size:0.65rem;color:#8a857d">${s.person.role}</span></td>
-                <td style="max-width:300px;"><em>${s.quote.substring(0, 120)}${s.quote.length > 120 ? '...' : ''}</em></td>
-                <td><span class="sentiment-badge" style="background:${sentimentColor[s.sentiment]}22;color:${sentimentColor[s.sentiment]}">${sentimentLabel[s.sentiment]}</span></td>
-                <td>${s.sentiment_score.toFixed(2)}</td>
-                <td style="font-size:0.68rem;">${s.themes.map(t => (themeLabels[t] || t).replace(/_/g, ' ')).join(', ')}</td>
-                <td>${s.source.upload_date}</td>
-                <td><a href="${s.source.timestamp_url}" target="_blank" rel="noopener">&#9654; ${s.source.timestamp_display}</a></td>
-            </tr>
-        `).join('');
-
-        // Update sort arrows
-        document.querySelectorAll('#signals-table th').forEach(th => {
-            const key = th.dataset.sort;
-            th.querySelector('.sort-arrow').textContent = key === sortState.key ? (sortState.dir === 'asc' ? '▲' : '▼') : '';
-        });
-    }
-
-    // ── SORTING ──
-    document.querySelectorAll('#signals-table th').forEach(th => {
-        th.addEventListener('click', () => {
-            const key = th.dataset.sort;
-            if (sortState.key === key) {
-                sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
-            } else {
-                sortState.key = key;
-                sortState.dir = 'asc';
-            }
-            renderTable();
-        });
-    });
-
-    // ── REFRESH ──
-    function refresh() {
-        renderFilters();
-        renderCards();
-        renderDotPlot();
-        renderQuoteWall();
-        renderSentimentChart();
-        renderThemeChart();
-        renderBuilderChart();
-        renderTimeChart();
-        renderTable();
     }
 
     // ── INIT ──
@@ -1514,9 +1247,11 @@
         renderEmptyState();
     } else {
         renderHero();
-        renderSpectrumBar();
-        renderStats();
-        refresh();
+        renderHeroViz();
+        renderFeatured();
+        renderSpeakers();
+        renderFilters();
+        renderFeed();
     }
     </script>
 </body>
