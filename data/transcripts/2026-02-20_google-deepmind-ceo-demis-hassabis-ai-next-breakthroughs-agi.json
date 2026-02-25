@@ -1,0 +1,2689 @@
+{
+  "metadata": {
+    "video_id": "bgBfobN2A7A",
+    "url": "https://www.youtube.com/watch?v=bgBfobN2A7A",
+    "title": "Google DeepMind CEO Demis Hassabis: AI Next Breakthroughs AGI Timeline",
+    "channel": "Alex Kantrowitz",
+    "upload_date": "2026-02-20",
+    "duration": "33m",
+    "guests": [
+      "Demis Hassabis"
+    ],
+    "transcribed_date": "2026-02-25",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "Google DeepMind CEO, Demis Asabas, joins us to talk about the path from here to AGI, when Google's AI glasses are coming, and whether the pace of AI progress can keep up at this rate. That's coming up right after this. Welcome to a special edition of Big Technology Podcast from Davos. I'm Alex Kantrowicz, and I'm joined today by a special guest, Demis Asabas, the CEO of Google DeepMind. Demis, welcome back to the show. Great to be here. A year ago, there were real questions about whether AI progress was tailing off. It was in fashion to ask whether LLMs were going to hit a wall. And those questions seem like they've been settled. There's been a tremendous amount of progress over the past year. Could you tell us what specifically has happened that's gotten the AI industry from that moment of question last year to the point that it is today? Well, for us internally, we were never questioning that. Just to be clear, I think we've always been seeing great improvements. So we were a bit puzzled by why there was this question in the air. I mean, some of it was to do, we were people worried about data running out. And there is, you know, some truth in that is all the data had been used. Can we create synthetic data that's gonna be useful to learn from? But actually it turns out you can wring more juice out of the existing architectures and data. So there was plenty of room I think, and we're still seeing that in both the pre-training, the post-training and the thinking paradigms, and also the way that they all kind of fit together. So I think there's still plenty of headroom there just with the techniques we already know about and tweaking and kind of innovating on top of that. All right, here's what a skeptic would say. That there have been a lot of tricks that have been put on top of LLMs. I hear often about scaffolding and orchestration and AI that can use a tool to search the web, but it won't remember what it learns. As soon as you close that session, it forgets. Yeah. Is that just a limitation of the large language model paradigm? Well, look, I think there is, and I'm definitely a subscriber to the idea that maybe we need one or two more big breakthroughs before we'll get to AGI. And I think there are along the lines of things like continual learning, better memory, longer context windows, or perhaps more efficient context windows would be the right way to say it. So don't store everything, just store the important things. That would be a lot more efficient. That's what the brain does. And better long-term reasoning and planning. Now, it remains to be seen whether just sort of scaling up existing ideas and technologies will be enough to do that, or we need one or two more really big insightful innovations. I'm probably, if you were to push me, I would be in the latter camp. But I think no matter what camp you're in, we're gonna need large foundation models as the key component of the final AGI systems, of that I'm sure. So I'm not a subscriber to someone like Jan LeCun who thinks that there's sort of some kind of dead end. I think the only debate in my mind is, are they a key component or the only component? So I think it's between those two options. And for me, this is one advantage we have of having such a deep and rich research bench. We can go after both of those things at maximum, with maximum force. Both scaling up the current paradigms and ideas. And when I say scaling up, that also involves innovation, by the way. Pre-training especially, I think we're very strong on. And then really new blue sky ideas for new architectures and things. You know, the kinds of things we've invented over the last 10 years as Google and DeepMind, you know, of course, including Transformers. Can something with a lot of hard-coded stuff ever be considered AGI? No, I think, well, depends what you mean by a lot. I think that I'm very interested in hybrid systems, is what I would call them, or neurosymbolics. Sometimes people call them, you know, AlphaFold, AlphaGo are examples of that. So some of our most important work combines neural networks and deep learning with things like Monte Carlo Tree Search. So I think that could be possible. And there's some very interesting work we're doing, building, using the LLMs with things like evolutionary methods, AlphaEvolve to actually go and discover new knowledge. You may need something beyond what the existing methods do. But I think learning is a critical part of AGI. It's actually almost the defining feature. When we say general, we mean general learning. Can it learn new knowledge and can it learn across any domain? That's the general part. So for me, learning is synonymous with intelligence and always has been. Okay, so if learning is synonymous with intelligence and these models still don't have the ability to continually learn. No. Like I said earlier, it has goldfish brain. It can search the internet and it can be like, I figured this out. Yeah. But it doesn't change the model. Yes. It's just, forget it after the session. Right. Do you have a theory as to how the continual learning problem can be solved? And do you want to share it with us all? I can give you some clues. We are working very hard on it. We've done some work on, you know, I think the best work on this in the past with things like AlphaZero, you know, that learn from scratch. Versions of AlphaGo, AlphaGo Zero also learnt on top of the knowledge it already had. So we've done it in much narrower domains. You know, games are obviously a lot easier than the messy real world. So it remains to be seen if those kinds of techniques will really scale and generalize to the real world and actual real world problems. But at least the methods we know can do some pretty impressive things. And so now the question is, can we blend that, at least in my mind, with the these big foundation models? And so, of course, the foundation models are learning during training, but we would love them to learn, you know, out in the wild and including things like personalization. I think that's going to happen. And I feel like that's a critical part of building a great assistant is that it understands you and it works for you as technology that works for you. And we've released our first versions of that just last week. Personal intelligence is the sort of first baby steps towards that. But I think to have it, you want to do it more than just having your data in the context window. That's you want to have something a bit deeper than that, which is, as you say, actually changes the model over time. That's what ideally you would have. And that technique has not been cracked here. We've brought up AGI a couple of times. So let me let me put this to you because I was speaking with Sam Altman towards the end of the year and I asked him, I was like, you know, you seem to be saying two things. We're not at AGI yet, but every time he talks about what GPT models can do, it seems like it fits his definition. And he said that AGI is underdefined. And what he wishes everybody could agree to was that we've sort of whooshed by AGI and we move towards super intelligence. Do you agree with that? I'm sure he does wish that. But it's no, absolutely not. I don't think AGI should be sort of turned into a marketing term or for commercial gain. I think there is always been a scientific definition of that. My definition of that is a system that can exhibit all the cognitive capabilities humans can. And I mean all. So that means, you know, the kind of highest levels of human creativity that we always celebrate, the scientists and the artists that we admire. So it means, you know, not just solving a maths equation or a conjecture, but coming up with a breakthrough conjecture. That's much harder. You know, not solving something in physics or some bit of chemistry, some problem, even like alpha folds, you know, protein folding, but actually coming up with a new theory of physics. Something like, you know, like Einstein did with general relativity, right? Can a system come up with that? Because of course we can do that. The smartest humans with their brain architect, our human brain architectures have been able to do that in history. And the same on the art side, you know, not just create a pastiche of what's known, but actually be Picasso or Mozart and create a completely new genre of art that we'd never seen before. Right. And today's systems, in my opinion, are nowhere near that. Doesn't matter how many, you know, Erdos problems you solve, which for some reason, you know, I mean, you know, that it's good that we're doing those things. But I think it's far, far from what, you know, a true invention or someone like a Ramanujan would have been able to do. And you need to have a system that can potentially do that across all these domains. And then on top of that, I'd add in physical intelligence because, of course, you know, we can play sports and control our bodies and to amazing levels. The elite sports people that are walking around, you know, here today in Davos. And we're still way off of that on robotics as another example. So I think an AGI system would have to be able to do all of those things to really fulfill the original sort of goal of the AI field. And I think, you know, we're five to ten years away from that. I think the argument would be that if something can do all those things, it would be considered super intelligence. But you think AGI is a good. No, of course not. Because those individual humans could, we can come up with new theories that Einstein did, Feynman did, all the greats, all my scientific heroes, they were able to do that. It's rare, but it's possible with the human brain architecture. So super intelligence is another concept that's worth talking about. But that would be things that can really go beyond what human intelligence can do. We can't think in 14 dimensions or, you know, plug in weather satellites into our brains. Not yet anyway. But and so that that those are truly beyond human or superhuman and that, you know, that's a whole nother debate to have. But once we get to AGI, I was listening to you recently and something you said really surprised me. You were asked on the Google DeepMind podcast, which is a great listen, if you have a system today that is close to AGI, I thought it might be Gemini 3. You named Nano Banana. Yes. The image generator. Yes. What? Well, you know, sometimes you have to have these fun names and have fun with those and, you know, how is the image generator close to AGI? Oh, well, of course. Look, let's take image generators, but also let's talk about our video generator, VO, which is the state of the art and video generation. I think that's even more interesting and from an AGI perspective, you know, you can think of a video model that can generate you 10 seconds, 20 seconds of a realistic scene. It's sort of a model of the physical world. Intuitive physics, we'd sometimes call it in physics land. And it's sort of intuitively understood how liquids and objects behave in the world. And that's, and obviously one way to exhibit understanding is to be able to generate it, at least to the human eye being accurate enough to be satisfying to the human eye. Obviously, it's not completely accurate from a physics point of view, and we're getting, we're going to improve that. But it's, it's, it's, it's steps towards having this idea of a world model, a system that can understand the world and the mechanics and the causality of the world. And then of course, that would be, I think, essential for AGI because that would allow these systems to plan long-term plan in the real world over perhaps very long time horizons, which of course we as humans can do. You know, I'll spend four years getting a degree so that I have more qualifications so that in 10 years, I'll have a better job. You know, these are very long-term plans that we, we all do quite effortlessly. And at the moment, without these systems, we still don't know how to do, we can do short-term plans over one time scale. But I think you need these kind of world models. And I think you imagine robotics. That's exactly what you want for robotics is robots planning in the real world, being able to imagine many trajectories from the current situation they're in. In order to complete some task. That's exactly what you'd want. And then finally, from our point of view, and why this is why we worked with Gemini as being multimodal from the beginning, able to deal with, you know, video image and eventually converge that all into one model. That's our plan is that it would be very useful for a universal assistant as well. So let's talk product a little bit. I watched the documentary, The Thinking Game, along with 300 million other people. There was something kind of interesting that happened there throughout the documentary yourself and some colleagues kept pointing your phone at things and asking an assistant alpha what was going on. And I was yelling at the computer, as I usually do, and said, this guy needs glasses. Like he needs smart glasses to be able to do it. The phone is the wrong form factor. What is your vision for AI glasses? And when is the rollout happening? I think you're exactly right. And that was our conclusion. It's very obvious when you sort of dog food these things and internally that as you saw from the film, we were holding up, you know, you're holding up your phone to get it to tell you about the real world. And it's amazing it works, but it's clearly not the right form factor for a lot of things you want to do. You know, cooking or you're roaming around the city and asking for directions or recommendations or even helping the partially sighted. There's a huge, I think, use case there to help with those types of situations. And for that, I think you need something that's hands free. And the obvious thing is for those of us anyway that wear glasses like me is to put it on glasses. But there may well be other devices, too. I'm not sure that glasses is the final form factor, but it's definitely it's obviously a clear next form factor. And of course, at Google and an alphabet, we have a long history with glasses and maybe we're a bit too early in the past. But I think my analysis of it and talking to the people working on that project was a couple of things that the form factor was a bit too chunky and clunky in the battery life and these kind of things, which are now more or less solved. But I think the thing it was missing was a killer app. And I think the killer app is universal digital assistant that's with you, helping you in your everyday life. And they're available to you on any surface, on your computer, on your browser, on your phone, but also on, you know, devices like glasses when you're, you know, walking around the city. And I think it needs to be kind of seamless and kind of knows each of those contexts and understands each of those contexts around you. And I think we're close now, especially with Gemini 3, I feel we finally got AI that is maybe powerful enough to make that a reality. And we're, you know, it's one of the most exciting projects we're working on, I would say. And it's one of the things I'm personally working on is making smart glasses really work. And we hope to, we've done some great partnerships with Warby Parker and Gentle Monster and Samsung to build these next generation glasses. And you should start seeing that, you know, maybe by the summer. Yeah, Warby Parker did have a filing that said that these glasses are coming out pretty soon this year. Yeah, yeah. And the prototype design, it depends how, you know, when prototype phase, it depends how quickly that advances. But I think it's going to happen very soon. And I think it will be, you know, a category, a new category defining technology. Given your personal involvement, is it safe to say that this is a pretty important initiative? Yeah, it's one. Well, yes, but it's, I mean, I, you know, I like to, it's not just as important. Obviously, I like spending my own time on important things, but I like to be at the push the most cutting edge thing. And that's often the hardest thing and picking interim goals and giving confidence to the team. And also just sort of understanding if the timing's right. And over the years, I've been doing this, the many, you know, the decades now, you know, I've got quite good at doing that. So I try to be at the most cutting edge parts of, I feel I can make the most difference there. So things like glasses, robotics, I'm spending time on and world models. Right. Okay. So timing's right for glasses. Let's talk about ads. Sure. Is the timing right for ads? Let me instead of this. Yes. Okay. There's been some news that Jim and I might include ads. There's been some news that some of your competitors might include ads. The funniest thing I saw about that on social media was someone who said, these people are nowhere close to AGI. It's not going to be this world disrupting technology if the business model is advertising. Yeah. Well, it's interesting. I think those are tells on, you know, I think actions speak louder than words going back to the original conversation we were having with, you know, Sam and others claiming AGI is around the corner. Why would you bother with ads then? So that is, I think, a reasonable question to ask. But I think, look, from our point of view, we have no plans at the moment to do ads. If you're talking about the Gemini app, right, specifically, I think we are going, obviously, we're going to watch very carefully what, you know, the outcome of what ChatGPT is saying they're going to do. I think it has to be handled very carefully because the dichotomy I see is that if you want an assistant that works for you, what is the most important thing? Trust. Okay. So trust and security and privacy, because you want to share potentially your life with that assistant, and you want to be confident that it's working on your, you know, behalf and with your best interests. And so, you know, you've got to be careful. I think there are ways one could do it, but you'll be careful that it doesn't, the advertising model doesn't bleed into that and confuse the user as to what, you know, what is this? Assistant recommending you. And I think, you know, that's going to be interesting challenge in that space. And that's what's not to do. And Sundar in a recent earnings call said there are some ideas within Google of the right way to approach this. Sure. How do you approach advertising? Well, you know, that's still, we're still brainstorming that. But I think it's, I think it's, there are also, you know, very interesting ways when you, if you think about glasses devices, there are other revenue models out there. Okay. So, you know, it's going to be interesting to see. I don't think we've made any strong conclusions on that, but it's an area that needs very careful thought. Just to get a definitive answer from you. I think you've given it, but I'm just going to do it one more time. Sure. I read before we met Google has told advertisers in recent days from last year that it plans to bring ads to its AI chatbot Gemini in 2026. Nope. We have no current plans. That's all I can say. All right. That's pretty definitive. Yep. All right. Let's, let's just, you know, keep going through some of your competitors. Anthropic. Claude Code. Yeah. Claude Code and Claude Cowork have caused a tremendous amount of buzz. Yeah. It is amazing to see what some people have done. I saw a post from an ex Amazon executive who said that he built a custom CRM in a weekend, or actually a day and a half. Mm-hmm. Let's call it a weekend. Mm-hmm. What do you think about it? Yeah. And do you, do you plan to have an answer to it? It's very exciting. And I think that, you know, kudos to, to, to Anthropic. I think they built a very good model there with Claude Code. We're very happy with the, the current coding capabilities of Gemini 3. It's very good at certain things like front end work. I've been using it over the Christmas to prototype games. So it's amazing. It's getting me back into programming. I, I love the whole vibe coding wave that's happening. I think it will open up, uh, the whole productivity space to designers, creatives, artists that maybe would have had to work with teams about access to teams of programmers. Now they can probably do, you know, a lot more just on their own. I think that's going to be amazing. Uh, once that's sort of, um, out in the world in a more general way to, you know, create, uh, lots of new creative opportunities. Um, we, we're, we're working on, we're very happy with our work on code. We got a lot, you know, we got more to do there. We've just released anti-gravity, our own, uh, IDE, um, which is very, very popular. We can't actually serve all the demand that we're seeing there. Um, and we're pushing very hard on coding and tool use performance of Gemini. Um, but it's one thing that I think Anthropic have fully focused on. You know, they don't make image models, multimodal models, world models. They just do, you know, coding and language models. And, um, they're very, very good at that. And, um, you know, we're pleased to be partnering on that on, on the one hand, and also it gives us something to push for, uh, to improve with our own models. Let's just talk broadly about the AI industry business. Um, I have a theory for how this could all fall apart. Um, and I want to run it by you. So it's three step, a three step process. Uh, the first is that large language model training runs produce limited returns. Uh, the second is that there are flash models like Gemini flash that run AI computing as cheap as search. And then step three is that the massive infrastructure commitments, uh, that have been made become somewhat useless given those two factors. And there is a cascading collapse that happens. Is that a legitimate worry? Um, I think it's a plausible possible scenario. I don't think it's the, I don't think it's the likely one in my opinion. Um, I mean, in my mind, there's no doubt AI has gone already proved out enough. I would say. And, and our work, I think in things like science and our, and alpha fold and drug discovery that it's here to stay. It's not like tomorrow, like, Oh, we found that AI doesn't work. We've gone way. We blasted way past that. So I think that's, it's clearly going to be the most transformative technology in human history. There's maybe a question mark about timelines. Is it two years or five years? I mean, either way, it's very soon for something this transformative. And I think we're still in the nascent era of actually figuring out how to make use of it and deploy it because the technology is improving so fast. I think there's a huge capability overhang actually of what even today's models can do that maybe even us as building those things don't fully know. Um, so I think there's just a vast amount of product opportunities that we see. And I think we're as Google only just started to scratch the surface now of actually, uh, natively sort of plugging these things in to our amazing existing products, let alone building the new ones, you know, AI inbox. We've just started trialing. I mean, who wants to do email admin? I mean, wouldn't we all love that to just go away? That's my number one pain point for my work King day. And, um, there's so many examples like that. Just, just waiting to be addressed. I think, you know, agents in browsers, um, helping out with YouTube. Obviously we're now powering search with it. So I think there's enormous opportunities. And if you're talking about the AI bubble, if that's the question, you know, I think it's fine. Well, I mean, it seems like that's the question. I'm very happy to answer it because I think, um, look, my view is it's not binary. When are we in a bubble, not in a bubble, I think parts of the AI industry probably are and other parts, I think it remains to be seen. So I think some of the things are, you know, when you see seed rounds of tens of billions of dollars of companies that basically have no product or research, it's just some people coming together. That seems a bit unsustainable to me in a normal market, a bit frothy. Um, on the other hand, you know, we're, uh, businesses like us, we have massive underlying businesses that, and products that it's very obvious how it's going to be. It's very obvious how AI would, uh, increase the efficiency or the productivity of using those products. And then it remains to be seen how popular the monetization of these new AI native products like chatbots, glasses, all of these things. Um, we'll have to see, I think there will be enormous markets, but they're yet to be proven out. But from my perspective, you know, running Google DeepMind is, um, my job is to make sure that whatever happens with an AI bubble, if it, if it, if it bursts or if there isn't one and it continues, we win either way. And I think we're incredibly well positioned as alphabet, uh, in either case, um, and, you know, doubling down on existing businesses in the one case or being at the forefront and the frontier, uh, in, in the, in the bull case. Going back to thinking game, speaking of the way that this will impact the economy. I started to feel bad for the opponents of your technology. Um, Lee Seedal. Okay. Uh, demoralized. Sure. Uh, this guy, mana who played Starcraft beat your bot, but realize that it's basically over for humans versus machines. Um, now we're all up against this in some way as this stuff makes its way into knowledge work. Um, I thought you were meaning our AI competitors. Them I'm okay with. I don't feel sad about that. No, no. Sorry. Relentless progress of AI. You mean the gamers. Yeah. Uh, you made me feel bad for gamers. Um, you know, but, but I, I want to ask about this, you know, we're going to have the same situation, uh, with knowledge work that these, these models that, you know, performed admirably against the world's best Starcraft and go players are now starting to do our work. And are we going to end up in the same position? Well, look, let me list. Given you brought up games as an example, let's, let's look at what's happened in games. So chess, we've had chess computers that are better since I was a teenager than Gary Kasparov in the nineties. Right. Well, they weren't general AI systems, but they were, you know, deep blue chess is more popular than ever. No one's interested in seeing computers playing computers. We're interested in Magnus Carlsen playing, you know, the top, that's other top chess players in the world. Uh, interestingly in go, um, the, the best South go play in the world is a South Korean. And he was about 15, I think when alpha go match happened. He's in his mid twenties now, and he's by far the strongest player there's ever been by the ELO ratings. Cause he's learned natively, uh, young enough. He was, you know, he's the first generation. You could say that's learned with alpha go knowledge in the knowledge pool. And, um, you know, he may actually be stronger than alpha go was back then. So I think, and we all still enjoy Starcraft and all the other, all the other computer games. We enjoy human endeavor. I think it's a bit more, a bit similar to like, we still love the hundred meters, uh, uh, Olympic race. Um, even though we have vehicles that can go way faster than Usain Bolt, but we, you know, we, we don't, you know, that's, that's a different thing. Right. And so I think we have infinite capacity to adapt and, um, and, uh, and, and sort of evolve, uh, with our technologies. I, because why is that? Because we have, we are general intelligences. Um, that's the thing about it is we are AGI systems. We are obviously we're not artificial. We're general systems and it's, and, and we are capable of inventing science and, uh, we're tool making, uh, uh, animals. That's what separates us humans from, from the other animals is we're able to make tools all around modern civilization, including computers. And of course, AI being the ultimate expression of computers that all has come from our human minds, which were evolved for, you know, hunter gathering lifestyle. So it's kind of amazing. We were able, and it shows how general we are, that we're able to get to the modern civilization we see around us today. And we're talking about things like AI and, you know, science and physics and all these things. Right. And I think we'll adapt again, but there is an important question actually beyond the economics one about jobs and those things is purpose and meaning. Right. Because we all get a lot of our purpose and meaning from the jobs we do. I certainly do from the science I do. So how does, what happens when a lot of that is automated? Um, I think, you know, that that's why I've been calling for, you know, I think we knew new great philosophers actually, and it will be a change to the human condition. But I don't think it necessarily has to be worse. I think we've, it's like the industrial revolution, maybe 10 X of that, but we'll have to adapt again. And I think we'll find new, um, uh, meaning and things. And we do a lot of things already today that are not just for economic gain, you know, art, extreme sports, ex polar exploration, many of these things. Um, and maybe we'll have much more sophisticated esoteric versions of those things in the future. Okay. Two minutes left. I have two questions. I don't know if we're going to get to both of them. Sure. Um, let me ask the one that I want to know the answer most about. Uh, in a recent interview, you said that you have a theory that information is the most fundamental unit of the universe. Mm-hmm. Not energy, not matter. Mm-hmm. Information. Yeah. How? I think if you look at energy, I mean, I don't know if we're going to cover this in two minutes, but in, in, in, in, energy, energy, energy and, and, and matter, you can definitely, I think a lot of people sort of think of them as isomorphic with, uh, information. But I think information is really the right way to understand the universe. So, um, if you think of biology and living systems, we're information systems that are resisting entropy, right? We're trying to retain our structure, retain our information in the face of, you know, a randomness that's happening around us. And I think you can look at that, uh, uh, you know, in a larger physics scale. So almost at, not just biology, but things like, you know, mountains and, and planets and asteroids, they've all been subject to some kind of selection pressure. Not, not Darwinian evolution, but some kind of external pressure. And the fact that they've been stable over a long amount of time means that, that, that information is kind of stable and meaningful. So I think one could view the world in terms of its complexity, information complexity. And I think a lot of what we're doing with our, the reason I'm thinking about all of that is because of things like AlphaGo and AlphaFold, especially AlphaFold, where, you know, we solved all the protein structures that are kind of known to science. And how we've done that, well, because only a certain number of those in the kind of almost infinite possibilities of protein structures are stable. And, and those are the ones you've got to find. So you've got to understand that topology, uh, that information topology and follow it. And then suddenly these problems that seem to be intractable, because, you know, how can you find the needle in the haystack actually become very tractable if you understand the energy landscape or the information landscape around that. And that's how I think eventually we'll solve, uh, most diseases come up with new drugs, new materials, new superconductors with the help of AI, helping us navigate that information landscape. Dennis, before we go, I just want to wrap with this, uh, or maybe, maybe quickly this first one and then a big question at the end in the thinking game. Speaking of, um, health and AI, there's this moment where there's a discussion in the lab about whether to release the results of AlphaFold and you kind of sit there admittedly and you're like, why are we going through a process? Release it, release it now. Talk a little bit about, um, the lesson from there. Yeah. Yeah. Well, look, we, we started AlphaFold to crack a unbelievably tough scientific challenge, 50 year grand challenge, uh, of protein folding and protein structure prediction. And the reason we worked on that and the reason we put so much effort into it is we sort of thought it was a root node problem. If we could solve it and put that out in the world, it could be, it could do amazing untold impact on things like human health and understanding of biology. But we, as a team, no matter how talented or hard, hard working we are, we would only be able to scratch a surf, a small, tiny amount of that potential on our own. It's clear. So, um, in that case and in this case, it was obviously the right thing to do to maximize the benefit to the world here, to put it out there to the scientific, massive scientific community, uh, to build on top of and use AlphaFold. And it's been incredibly gratifying to see, you know, 3 million researchers around the world using it in their important research. I think in future, um, almost every single drug that's discovered from now on will probably have used AlphaFold at some point in that process, which is, you know, amazing for us. And, you know, really this, what we do, all the work we do for. I also read that moment, you tell me if I'm wrong, as something of a, of a metaphor, small, uh, passionate AI division, kind of yelling in a big company, get this out, cut the red tape. Yeah, potentially. But look, I mean, we've had amazing support from the beginning from Google. And they, the reason that we, you know, we, we joined forces with Google back in 2014 is Google itself is a scientific research, engineering, technical led company, always has been, and has that at its core. And that's why, you know, I think that we have the scientific method and the scientific approach, that thoughtful approach, that rigorous approach in everything we do. So of course, they're going to love something like AlphaFold. Okay. Here's, here's the big question at the end. Um, you built AlphaGo, uh, trained, um, the computer to play Go on human knowledge. And then once it mastered the human level playing, you kind of like let it loose with a program called AlphaZero. Yeah. And it started doing things that you could never even imagine and making new circuits in ways that surprised you. Sure. Um, eventually, maybe there will come a time where LLMs or some version of them, um, reach a mastery of human knowledge in the same way. Uh, what is going to happen when you then let that loose and it does the same, potentially does the same thing as AlphaZero. Yeah, I think it's very exciting. I mean, that's, that's what to me is, it would be the AGI moment is, you know, then it will discover a new superconductor, room temperature superconductor that's possible in the laws of physics, but we just haven't found that needle in the haystack. Or a new source of energy, a new way to build optimal batteries. I think all of those things will become possible and indeed not just possible. I think they will happen. Uh, once we get to a system that's first of all, uh, got to, you know, human level knowledge, and then there'll be some techniques. Maybe it will have to help invent some of those techniques, but kind of like AlphaZero that will allow it to go beyond into new uncharted territory. That, that idea of it, like plugging weather system into its brain, like it's going to be on that, that way. Yeah, exactly. All right. Exciting times. Demis, thanks for coming on the show. Thank you. Thanks everybody. Thank you so much. Thank you so much. Great. Thank you. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.48,
+      "text": "Google DeepMind CEO, Demis Asabas,"
+    },
+    {
+      "id": 1,
+      "start": 2.48,
+      "end": 5.88,
+      "text": "joins us to talk about the path from here to AGI,"
+    },
+    {
+      "id": 2,
+      "start": 5.88,
+      "end": 8.08,
+      "text": "when Google's AI glasses are coming,"
+    },
+    {
+      "id": 3,
+      "start": 8.08,
+      "end": 10.040000000000001,
+      "text": "and whether the pace of AI progress"
+    },
+    {
+      "id": 4,
+      "start": 10.040000000000001,
+      "end": 11.56,
+      "text": "can keep up at this rate."
+    },
+    {
+      "id": 5,
+      "start": 11.56,
+      "end": 13.64,
+      "text": "That's coming up right after this."
+    },
+    {
+      "id": 6,
+      "start": 13.64,
+      "end": 15.040000000000001,
+      "text": "Welcome to a special edition"
+    },
+    {
+      "id": 7,
+      "start": 15.040000000000001,
+      "end": 17.400000000000002,
+      "text": "of Big Technology Podcast from Davos."
+    },
+    {
+      "id": 8,
+      "start": 17.400000000000002,
+      "end": 19.38,
+      "text": "I'm Alex Kantrowicz, and I'm joined today"
+    },
+    {
+      "id": 9,
+      "start": 19.38,
+      "end": 21.04,
+      "text": "by a special guest, Demis Asabas,"
+    },
+    {
+      "id": 10,
+      "start": 21.04,
+      "end": 23.16,
+      "text": "the CEO of Google DeepMind."
+    },
+    {
+      "id": 11,
+      "start": 23.16,
+      "end": 24.64,
+      "text": "Demis, welcome back to the show."
+    },
+    {
+      "id": 12,
+      "start": 24.64,
+      "end": 25.52,
+      "text": "Great to be here."
+    },
+    {
+      "id": 13,
+      "start": 25.52,
+      "end": 27.400000000000002,
+      "text": "A year ago, there were real questions"
+    },
+    {
+      "id": 14,
+      "start": 27.4,
+      "end": 30.56,
+      "text": "about whether AI progress was tailing off."
+    },
+    {
+      "id": 15,
+      "start": 30.56,
+      "end": 33.5,
+      "text": "It was in fashion to ask whether LLMs"
+    },
+    {
+      "id": 16,
+      "start": 33.5,
+      "end": 35.1,
+      "text": "were going to hit a wall."
+    },
+    {
+      "id": 17,
+      "start": 35.1,
+      "end": 37.62,
+      "text": "And those questions seem like they've been settled."
+    },
+    {
+      "id": 18,
+      "start": 37.62,
+      "end": 39.44,
+      "text": "There's been a tremendous amount of progress"
+    },
+    {
+      "id": 19,
+      "start": 39.44,
+      "end": 41.08,
+      "text": "over the past year."
+    },
+    {
+      "id": 20,
+      "start": 41.08,
+      "end": 43.84,
+      "text": "Could you tell us what specifically has happened"
+    },
+    {
+      "id": 21,
+      "start": 43.84,
+      "end": 45.64,
+      "text": "that's gotten the AI industry"
+    },
+    {
+      "id": 22,
+      "start": 45.64,
+      "end": 48.0,
+      "text": "from that moment of question last year"
+    },
+    {
+      "id": 23,
+      "start": 48.0,
+      "end": 50.16,
+      "text": "to the point that it is today?"
+    },
+    {
+      "id": 24,
+      "start": 50.16,
+      "end": 51.9,
+      "text": "Well, for us internally,"
+    },
+    {
+      "id": 25,
+      "start": 51.9,
+      "end": 53.08,
+      "text": "we were never questioning that."
+    },
+    {
+      "id": 26,
+      "start": 53.08,
+      "end": 53.92,
+      "text": "Just to be clear,"
+    },
+    {
+      "id": 27,
+      "start": 53.92,
+      "end": 58.58,
+      "text": "I think we've always been seeing great improvements."
+    },
+    {
+      "id": 28,
+      "start": 58.58,
+      "end": 59.96,
+      "text": "So we were a bit puzzled"
+    },
+    {
+      "id": 29,
+      "start": 59.96,
+      "end": 62.88,
+      "text": "by why there was this question in the air."
+    },
+    {
+      "id": 30,
+      "start": 62.88,
+      "end": 64.08,
+      "text": "I mean, some of it was to do,"
+    },
+    {
+      "id": 31,
+      "start": 64.08,
+      "end": 67.16,
+      "text": "we were people worried about data running out."
+    },
+    {
+      "id": 32,
+      "start": 67.16,
+      "end": 68.18,
+      "text": "And there is, you know,"
+    },
+    {
+      "id": 33,
+      "start": 68.18,
+      "end": 71.42,
+      "text": "some truth in that is all the data had been used."
+    },
+    {
+      "id": 34,
+      "start": 71.42,
+      "end": 72.96000000000001,
+      "text": "Can we create synthetic data"
+    },
+    {
+      "id": 35,
+      "start": 72.96000000000001,
+      "end": 74.92,
+      "text": "that's gonna be useful to learn from?"
+    },
+    {
+      "id": 36,
+      "start": 74.92,
+      "end": 78.66,
+      "text": "But actually it turns out you can wring more juice"
+    },
+    {
+      "id": 37,
+      "start": 78.66,
+      "end": 80.86,
+      "text": "out of the existing architectures and data."
+    },
+    {
+      "id": 38,
+      "start": 80.86,
+      "end": 82.7,
+      "text": "So there was plenty of room I think,"
+    },
+    {
+      "id": 39,
+      "start": 82.7,
+      "end": 85.1,
+      "text": "and we're still seeing that in both the pre-training,"
+    },
+    {
+      "id": 40,
+      "start": 85.1,
+      "end": 87.58,
+      "text": "the post-training and the thinking paradigms,"
+    },
+    {
+      "id": 41,
+      "start": 87.58,
+      "end": 91.1,
+      "text": "and also the way that they all kind of fit together."
+    },
+    {
+      "id": 42,
+      "start": 91.1,
+      "end": 93.06,
+      "text": "So I think there's still plenty of headroom there"
+    },
+    {
+      "id": 43,
+      "start": 93.06,
+      "end": 95.44,
+      "text": "just with the techniques we already know about"
+    },
+    {
+      "id": 44,
+      "start": 95.44,
+      "end": 99.3,
+      "text": "and tweaking and kind of innovating on top of that."
+    },
+    {
+      "id": 45,
+      "start": 99.3,
+      "end": 101.3,
+      "text": "All right, here's what a skeptic would say."
+    },
+    {
+      "id": 46,
+      "start": 101.3,
+      "end": 102.66,
+      "text": "That there have been a lot of tricks"
+    },
+    {
+      "id": 47,
+      "start": 102.66,
+      "end": 105.11999999999999,
+      "text": "that have been put on top of LLMs."
+    },
+    {
+      "id": 48,
+      "start": 105.11999999999999,
+      "end": 109.74,
+      "text": "I hear often about scaffolding and orchestration"
+    },
+    {
+      "id": 49,
+      "start": 109.74,
+      "end": 113.1,
+      "text": "and AI that can use a tool to search the web,"
+    },
+    {
+      "id": 50,
+      "start": 113.1,
+      "end": 114.42,
+      "text": "but it won't remember what it learns."
+    },
+    {
+      "id": 51,
+      "start": 114.42,
+      "end": 117.2,
+      "text": "As soon as you close that session, it forgets."
+    },
+    {
+      "id": 52,
+      "start": 117.2,
+      "end": 118.12,
+      "text": "Yeah."
+    },
+    {
+      "id": 53,
+      "start": 118.12,
+      "end": 119.6,
+      "text": "Is that just a limitation"
+    },
+    {
+      "id": 54,
+      "start": 119.6,
+      "end": 122.56,
+      "text": "of the large language model paradigm?"
+    },
+    {
+      "id": 55,
+      "start": 122.56,
+      "end": 124.38,
+      "text": "Well, look, I think there is,"
+    },
+    {
+      "id": 56,
+      "start": 124.38,
+      "end": 126.28,
+      "text": "and I'm definitely a subscriber to the idea"
+    },
+    {
+      "id": 57,
+      "start": 126.28,
+      "end": 128.66,
+      "text": "that maybe we need one or two more big breakthroughs"
+    },
+    {
+      "id": 58,
+      "start": 128.66,
+      "end": 130.28,
+      "text": "before we'll get to AGI."
+    },
+    {
+      "id": 59,
+      "start": 130.28,
+      "end": 131.96,
+      "text": "And I think there are along the lines of things"
+    },
+    {
+      "id": 60,
+      "start": 131.96,
+      "end": 134.6,
+      "text": "like continual learning, better memory,"
+    },
+    {
+      "id": 61,
+      "start": 134.6,
+      "end": 135.8,
+      "text": "longer context windows,"
+    },
+    {
+      "id": 62,
+      "start": 135.8,
+      "end": 137.9,
+      "text": "or perhaps more efficient context windows"
+    },
+    {
+      "id": 63,
+      "start": 137.9,
+      "end": 138.98,
+      "text": "would be the right way to say it."
+    },
+    {
+      "id": 64,
+      "start": 138.98,
+      "end": 140.32,
+      "text": "So don't store everything,"
+    },
+    {
+      "id": 65,
+      "start": 140.32,
+      "end": 141.9,
+      "text": "just store the important things."
+    },
+    {
+      "id": 66,
+      "start": 141.9,
+      "end": 142.94,
+      "text": "That would be a lot more efficient."
+    },
+    {
+      "id": 67,
+      "start": 142.94,
+      "end": 144.58,
+      "text": "That's what the brain does."
+    },
+    {
+      "id": 68,
+      "start": 144.58,
+      "end": 146.8,
+      "text": "And better long-term reasoning and planning."
+    },
+    {
+      "id": 69,
+      "start": 146.8,
+      "end": 147.98,
+      "text": "Now, it remains to be seen"
+    },
+    {
+      "id": 70,
+      "start": 147.98,
+      "end": 151.14,
+      "text": "whether just sort of scaling up existing ideas"
+    },
+    {
+      "id": 71,
+      "start": 151.14,
+      "end": 153.78,
+      "text": "and technologies will be enough to do that,"
+    },
+    {
+      "id": 72,
+      "start": 153.78,
+      "end": 156.18,
+      "text": "or we need one or two more"
+    },
+    {
+      "id": 73,
+      "start": 156.18,
+      "end": 158.54,
+      "text": "really big insightful innovations."
+    },
+    {
+      "id": 74,
+      "start": 158.54,
+      "end": 159.84,
+      "text": "I'm probably, if you were to push me,"
+    },
+    {
+      "id": 75,
+      "start": 159.84,
+      "end": 161.84,
+      "text": "I would be in the latter camp."
+    },
+    {
+      "id": 76,
+      "start": 161.84,
+      "end": 164.82,
+      "text": "But I think no matter what camp you're in,"
+    },
+    {
+      "id": 77,
+      "start": 164.82,
+      "end": 167.76,
+      "text": "we're gonna need large foundation models"
+    },
+    {
+      "id": 78,
+      "start": 167.76,
+      "end": 171.38,
+      "text": "as the key component of the final AGI systems,"
+    },
+    {
+      "id": 79,
+      "start": 171.38,
+      "end": 172.42000000000002,
+      "text": "of that I'm sure."
+    },
+    {
+      "id": 80,
+      "start": 172.42000000000002,
+      "end": 175.36,
+      "text": "So I'm not a subscriber to someone like Jan LeCun"
+    },
+    {
+      "id": 81,
+      "start": 175.36,
+      "end": 178.32,
+      "text": "who thinks that there's sort of some kind of dead end."
+    },
+    {
+      "id": 82,
+      "start": 178.32,
+      "end": 180.52,
+      "text": "I think the only debate in my mind is,"
+    },
+    {
+      "id": 83,
+      "start": 180.52,
+      "end": 184.42000000000002,
+      "text": "are they a key component or the only component?"
+    },
+    {
+      "id": 84,
+      "start": 184.42,
+      "end": 187.22,
+      "text": "So I think it's between those two options."
+    },
+    {
+      "id": 85,
+      "start": 187.22,
+      "end": 192.33999999999997,
+      "text": "And for me, this is one advantage we have of having such a deep and rich research bench."
+    },
+    {
+      "id": 86,
+      "start": 192.34,
+      "end": 197.32,
+      "text": "We can go after both of those things at maximum, with maximum force."
+    },
+    {
+      "id": 87,
+      "start": 197.32,
+      "end": 201.26,
+      "text": "Both scaling up the current paradigms and ideas."
+    },
+    {
+      "id": 88,
+      "start": 201.26,
+      "end": 204.72,
+      "text": "And when I say scaling up, that also involves innovation, by the way."
+    },
+    {
+      "id": 89,
+      "start": 204.72,
+      "end": 207.32,
+      "text": "Pre-training especially, I think we're very strong on."
+    },
+    {
+      "id": 90,
+      "start": 207.32,
+      "end": 212.32,
+      "text": "And then really new blue sky ideas for new architectures and things."
+    },
+    {
+      "id": 91,
+      "start": 212.32,
+      "end": 215.12,
+      "text": "You know, the kinds of things we've invented over the last 10 years"
+    },
+    {
+      "id": 92,
+      "start": 215.12,
+      "end": 217.92,
+      "text": "as Google and DeepMind, you know, of course, including Transformers."
+    },
+    {
+      "id": 93,
+      "start": 217.92,
+      "end": 223.62,
+      "text": "Can something with a lot of hard-coded stuff ever be considered AGI?"
+    },
+    {
+      "id": 94,
+      "start": 223.62,
+      "end": 227.54,
+      "text": "No, I think, well, depends what you mean by a lot."
+    },
+    {
+      "id": 95,
+      "start": 227.54,
+      "end": 230.62,
+      "text": "I think that I'm very interested in hybrid systems,"
+    },
+    {
+      "id": 96,
+      "start": 230.62,
+      "end": 232.62,
+      "text": "is what I would call them, or neurosymbolics."
+    },
+    {
+      "id": 97,
+      "start": 232.62,
+      "end": 236.96,
+      "text": "Sometimes people call them, you know, AlphaFold, AlphaGo are examples of that."
+    },
+    {
+      "id": 98,
+      "start": 236.96,
+      "end": 242.26,
+      "text": "So some of our most important work combines neural networks and deep learning"
+    },
+    {
+      "id": 99,
+      "start": 242.26,
+      "end": 244.0,
+      "text": "with things like Monte Carlo Tree Search."
+    },
+    {
+      "id": 100,
+      "start": 244.0,
+      "end": 246.56,
+      "text": "So I think that could be possible."
+    },
+    {
+      "id": 101,
+      "start": 246.56,
+      "end": 248.48000000000002,
+      "text": "And there's some very interesting work we're doing,"
+    },
+    {
+      "id": 102,
+      "start": 248.78,
+      "end": 252.88,
+      "text": "building, using the LLMs with things like evolutionary methods,"
+    },
+    {
+      "id": 103,
+      "start": 252.88,
+      "end": 257.18,
+      "text": "AlphaEvolve to actually go and discover new knowledge."
+    },
+    {
+      "id": 104,
+      "start": 257.18,
+      "end": 260.3,
+      "text": "You may need something beyond what the existing methods do."
+    },
+    {
+      "id": 105,
+      "start": 260.3,
+      "end": 265.18,
+      "text": "But I think learning is a critical part of AGI."
+    },
+    {
+      "id": 106,
+      "start": 265.18,
+      "end": 267.18,
+      "text": "It's actually almost the defining feature."
+    },
+    {
+      "id": 107,
+      "start": 267.18,
+      "end": 270.06,
+      "text": "When we say general, we mean general learning."
+    },
+    {
+      "id": 108,
+      "start": 270.06,
+      "end": 275.1,
+      "text": "Can it learn new knowledge and can it learn across any domain?"
+    },
+    {
+      "id": 109,
+      "start": 275.1,
+      "end": 276.52,
+      "text": "That's the general part."
+    },
+    {
+      "id": 110,
+      "start": 276.52,
+      "end": 280.21999999999997,
+      "text": "So for me, learning is synonymous with intelligence and always has been."
+    },
+    {
+      "id": 111,
+      "start": 280.22,
+      "end": 287.52000000000004,
+      "text": "Okay, so if learning is synonymous with intelligence and these models still don't have the ability to continually learn."
+    },
+    {
+      "id": 112,
+      "start": 287.52000000000004,
+      "end": 288.02000000000004,
+      "text": "No."
+    },
+    {
+      "id": 113,
+      "start": 288.02000000000004,
+      "end": 290.52000000000004,
+      "text": "Like I said earlier, it has goldfish brain."
+    },
+    {
+      "id": 114,
+      "start": 290.52000000000004,
+      "end": 290.52000000000004,
+      "text": ""
+    },
+    {
+      "id": 115,
+      "start": 290.52000000000004,
+      "end": 293.52000000000004,
+      "text": "It can search the internet and it can be like, I figured this out."
+    },
+    {
+      "id": 116,
+      "start": 293.52000000000004,
+      "end": 294.02000000000004,
+      "text": "Yeah."
+    },
+    {
+      "id": 117,
+      "start": 294.02000000000004,
+      "end": 295.22,
+      "text": "But it doesn't change the model."
+    },
+    {
+      "id": 118,
+      "start": 295.22,
+      "end": 295.52000000000004,
+      "text": "Yes."
+    },
+    {
+      "id": 119,
+      "start": 295.52000000000004,
+      "end": 297.02000000000004,
+      "text": "It's just, forget it after the session."
+    },
+    {
+      "id": 120,
+      "start": 297.02000000000004,
+      "end": 297.52000000000004,
+      "text": "Right."
+    },
+    {
+      "id": 121,
+      "start": 297.52,
+      "end": 303.82,
+      "text": "Do you have a theory as to how the continual learning problem can be solved?"
+    },
+    {
+      "id": 122,
+      "start": 303.82,
+      "end": 304.82,
+      "text": "And do you want to share it with us all?"
+    },
+    {
+      "id": 123,
+      "start": 304.82,
+      "end": 306.82,
+      "text": "I can give you some clues."
+    },
+    {
+      "id": 124,
+      "start": 306.82,
+      "end": 308.82,
+      "text": "We are working very hard on it."
+    },
+    {
+      "id": 125,
+      "start": 308.82,
+      "end": 315.82,
+      "text": "We've done some work on, you know, I think the best work on this in the past with things like AlphaZero, you know, that learn from scratch."
+    },
+    {
+      "id": 126,
+      "start": 315.82,
+      "end": 321.62,
+      "text": "Versions of AlphaGo, AlphaGo Zero also learnt on top of the knowledge it already had."
+    },
+    {
+      "id": 127,
+      "start": 321.62,
+      "end": 324.92,
+      "text": "So we've done it in much narrower domains."
+    },
+    {
+      "id": 128,
+      "start": 324.92,
+      "end": 327.62,
+      "text": "You know, games are obviously a lot easier than the messy real world."
+    },
+    {
+      "id": 129,
+      "start": 327.62,
+      "end": 335.12,
+      "text": "So it remains to be seen if those kinds of techniques will really scale and generalize to the real world and actual real world problems."
+    },
+    {
+      "id": 130,
+      "start": 335.12,
+      "end": 340.42,
+      "text": "But at least the methods we know can do some pretty impressive things."
+    },
+    {
+      "id": 131,
+      "start": 340.42,
+      "end": 346.72,
+      "text": "And so now the question is, can we blend that, at least in my mind, with the these big foundation models?"
+    },
+    {
+      "id": 132,
+      "start": 346.72,
+      "end": 355.32,
+      "text": "And so, of course, the foundation models are learning during training, but we would love them to learn, you know, out in the wild and including things like personalization."
+    },
+    {
+      "id": 133,
+      "start": 355.32,
+      "end": 356.52,
+      "text": "I think that's going to happen."
+    },
+    {
+      "id": 134,
+      "start": 356.52,
+      "end": 365.82,
+      "text": "And I feel like that's a critical part of building a great assistant is that it understands you and it works for you as technology that works for you."
+    },
+    {
+      "id": 135,
+      "start": 365.82,
+      "end": 368.12,
+      "text": "And we've released our first versions of that just last week."
+    },
+    {
+      "id": 136,
+      "start": 368.12,
+      "end": 371.62,
+      "text": "Personal intelligence is the sort of first baby steps towards that."
+    },
+    {
+      "id": 137,
+      "start": 371.62,
+      "end": 376.91999999999996,
+      "text": "But I think to have it, you want to do it more than just having your data in the context window."
+    },
+    {
+      "id": 138,
+      "start": 376.91999999999996,
+      "end": 381.91999999999996,
+      "text": "That's you want to have something a bit deeper than that, which is, as you say, actually changes the model over time."
+    },
+    {
+      "id": 139,
+      "start": 381.91999999999996,
+      "end": 383.82,
+      "text": "That's what ideally you would have."
+    },
+    {
+      "id": 140,
+      "start": 383.82,
+      "end": 386.32,
+      "text": "And that technique has not been cracked here."
+    },
+    {
+      "id": 141,
+      "start": 386.32,
+      "end": 388.92,
+      "text": "We've brought up AGI a couple of times."
+    },
+    {
+      "id": 142,
+      "start": 388.92,
+      "end": 397.12,
+      "text": "So let me let me put this to you because I was speaking with Sam Altman towards the end of the year and I asked him, I was like, you know, you seem to be saying two things."
+    },
+    {
+      "id": 143,
+      "start": 397.12,
+      "end": 403.71999999999997,
+      "text": "We're not at AGI yet, but every time he talks about what GPT models can do, it seems like it fits his definition."
+    },
+    {
+      "id": 144,
+      "start": 403.71999999999997,
+      "end": 408.52,
+      "text": "And he said that AGI is underdefined."
+    },
+    {
+      "id": 145,
+      "start": 408.52,
+      "end": 415.71999999999997,
+      "text": "And what he wishes everybody could agree to was that we've sort of whooshed by AGI and we move towards super intelligence."
+    },
+    {
+      "id": 146,
+      "start": 415.72,
+      "end": 416.32000000000005,
+      "text": "Do you agree with that?"
+    },
+    {
+      "id": 147,
+      "start": 416.32000000000005,
+      "end": 417.32000000000005,
+      "text": "I'm sure he does wish that."
+    },
+    {
+      "id": 148,
+      "start": 417.32000000000005,
+      "end": 419.32000000000005,
+      "text": "But it's no, absolutely not."
+    },
+    {
+      "id": 149,
+      "start": 419.32,
+      "end": 424.92,
+      "text": "I don't think AGI should be sort of turned into a marketing term or for commercial gain."
+    },
+    {
+      "id": 150,
+      "start": 424.92,
+      "end": 428.92,
+      "text": "I think there is always been a scientific definition of that."
+    },
+    {
+      "id": 151,
+      "start": 428.92,
+      "end": 434.92,
+      "text": "My definition of that is a system that can exhibit all the cognitive capabilities humans can."
+    },
+    {
+      "id": 152,
+      "start": 434.92,
+      "end": 435.52000000000004,
+      "text": "And I mean all."
+    },
+    {
+      "id": 153,
+      "start": 435.52000000000004,
+      "end": 444.52000000000004,
+      "text": "So that means, you know, the kind of highest levels of human creativity that we always celebrate, the scientists and the artists that we admire."
+    },
+    {
+      "id": 154,
+      "start": 444.52000000000004,
+      "end": 451.52000000000004,
+      "text": "So it means, you know, not just solving a maths equation or a conjecture, but coming up with a breakthrough conjecture."
+    },
+    {
+      "id": 155,
+      "start": 451.52000000000004,
+      "end": 452.52000000000004,
+      "text": "That's much harder."
+    },
+    {
+      "id": 156,
+      "start": 452.52,
+      "end": 461.12,
+      "text": "You know, not solving something in physics or some bit of chemistry, some problem, even like alpha folds, you know, protein folding, but actually coming up with a new theory of physics."
+    },
+    {
+      "id": 157,
+      "start": 461.12,
+      "end": 465.12,
+      "text": "Something like, you know, like Einstein did with general relativity, right?"
+    },
+    {
+      "id": 158,
+      "start": 465.12,
+      "end": 466.91999999999996,
+      "text": "Can a system come up with that?"
+    },
+    {
+      "id": 159,
+      "start": 466.91999999999996,
+      "end": 468.52,
+      "text": "Because of course we can do that."
+    },
+    {
+      "id": 160,
+      "start": 468.52,
+      "end": 474.52,
+      "text": "The smartest humans with their brain architect, our human brain architectures have been able to do that in history."
+    },
+    {
+      "id": 161,
+      "start": 474.52,
+      "end": 485.71999999999997,
+      "text": "And the same on the art side, you know, not just create a pastiche of what's known, but actually be Picasso or Mozart and create a completely new genre of art that we'd never seen before."
+    },
+    {
+      "id": 162,
+      "start": 485.71999999999997,
+      "end": 486.12,
+      "text": "Right."
+    },
+    {
+      "id": 163,
+      "start": 486.12,
+      "end": 489.52,
+      "text": "And today's systems, in my opinion, are nowhere near that."
+    },
+    {
+      "id": 164,
+      "start": 489.52,
+      "end": 496.71999999999997,
+      "text": "Doesn't matter how many, you know, Erdos problems you solve, which for some reason, you know, I mean, you know, that it's good that we're doing those things."
+    },
+    {
+      "id": 165,
+      "start": 496.71999999999997,
+      "end": 502.91999999999996,
+      "text": "But I think it's far, far from what, you know, a true invention or someone like a Ramanujan would have been able to do."
+    },
+    {
+      "id": 166,
+      "start": 502.92,
+      "end": 507.52000000000004,
+      "text": "And you need to have a system that can potentially do that across all these domains."
+    },
+    {
+      "id": 167,
+      "start": 507.52000000000004,
+      "end": 514.9200000000001,
+      "text": "And then on top of that, I'd add in physical intelligence because, of course, you know, we can play sports and control our bodies and to amazing levels."
+    },
+    {
+      "id": 168,
+      "start": 514.9200000000001,
+      "end": 518.52,
+      "text": "The elite sports people that are walking around, you know, here today in Davos."
+    },
+    {
+      "id": 169,
+      "start": 518.52,
+      "end": 523.52,
+      "text": "And we're still way off of that on robotics as another example."
+    },
+    {
+      "id": 170,
+      "start": 523.52,
+      "end": 531.72,
+      "text": "So I think an AGI system would have to be able to do all of those things to really fulfill the original sort of goal of the AI field."
+    },
+    {
+      "id": 171,
+      "start": 531.72,
+      "end": 534.32,
+      "text": "And I think, you know, we're five to ten years away from that."
+    },
+    {
+      "id": 172,
+      "start": 534.32,
+      "end": 538.9200000000001,
+      "text": "I think the argument would be that if something can do all those things, it would be considered super intelligence."
+    },
+    {
+      "id": 173,
+      "start": 538.9200000000001,
+      "end": 540.72,
+      "text": "But you think AGI is a good."
+    },
+    {
+      "id": 174,
+      "start": 540.72,
+      "end": 541.52,
+      "text": "No, of course not."
+    },
+    {
+      "id": 175,
+      "start": 541.52,
+      "end": 550.72,
+      "text": "Because those individual humans could, we can come up with new theories that Einstein did, Feynman did, all the greats, all my scientific heroes, they were able to do that."
+    },
+    {
+      "id": 176,
+      "start": 550.72,
+      "end": 554.32,
+      "text": "It's rare, but it's possible with the human brain architecture."
+    },
+    {
+      "id": 177,
+      "start": 554.32,
+      "end": 557.52,
+      "text": "So super intelligence is another concept that's worth talking about."
+    },
+    {
+      "id": 178,
+      "start": 557.52,
+      "end": 561.72,
+      "text": "But that would be things that can really go beyond what human intelligence can do."
+    },
+    {
+      "id": 179,
+      "start": 561.72,
+      "end": 567.32,
+      "text": "We can't think in 14 dimensions or, you know, plug in weather satellites into our brains."
+    },
+    {
+      "id": 180,
+      "start": 567.32,
+      "end": 568.32,
+      "text": "Not yet anyway."
+    },
+    {
+      "id": 181,
+      "start": 568.32,
+      "end": 576.12,
+      "text": "But and so that that those are truly beyond human or superhuman and that, you know, that's a whole nother debate to have."
+    },
+    {
+      "id": 182,
+      "start": 576.12,
+      "end": 581.5200000000001,
+      "text": "But once we get to AGI, I was listening to you recently and something you said really surprised me."
+    },
+    {
+      "id": 183,
+      "start": 581.52,
+      "end": 592.72,
+      "text": "You were asked on the Google DeepMind podcast, which is a great listen, if you have a system today that is close to AGI, I thought it might be Gemini 3."
+    },
+    {
+      "id": 184,
+      "start": 592.72,
+      "end": 594.52,
+      "text": "You named Nano Banana."
+    },
+    {
+      "id": 185,
+      "start": 594.52,
+      "end": 595.12,
+      "text": "Yes."
+    },
+    {
+      "id": 186,
+      "start": 595.12,
+      "end": 596.12,
+      "text": "The image generator."
+    },
+    {
+      "id": 187,
+      "start": 596.12,
+      "end": 596.62,
+      "text": "Yes."
+    },
+    {
+      "id": 188,
+      "start": 596.62,
+      "end": 597.62,
+      "text": "What?"
+    },
+    {
+      "id": 189,
+      "start": 597.62,
+      "end": 604.72,
+      "text": "Well, you know, sometimes you have to have these fun names and have fun with those and, you know, how is the image generator close to AGI?"
+    },
+    {
+      "id": 190,
+      "start": 604.72,
+      "end": 605.62,
+      "text": "Oh, well, of course."
+    },
+    {
+      "id": 191,
+      "start": 605.62,
+      "end": 611.5,
+      "text": "Look, let's take image generators, but also let's talk about our video generator, VO, which is the state of"
+    },
+    {
+      "id": 192,
+      "start": 611.5,
+      "end": 612.5,
+      "text": "the art and video generation."
+    },
+    {
+      "id": 193,
+      "start": 612.5,
+      "end": 621.7,
+      "text": "I think that's even more interesting and from an AGI perspective, you know, you can think of a video model that can generate you 10 seconds, 20 seconds of a realistic scene."
+    },
+    {
+      "id": 194,
+      "start": 621.7,
+      "end": 624.3,
+      "text": "It's sort of a model of the physical world."
+    },
+    {
+      "id": 195,
+      "start": 624.3,
+      "end": 627.3,
+      "text": "Intuitive physics, we'd sometimes call it in physics land."
+    },
+    {
+      "id": 196,
+      "start": 627.3,
+      "end": 635.1,
+      "text": "And it's sort of intuitively understood how liquids and objects behave in the world."
+    },
+    {
+      "id": 197,
+      "start": 635.1,
+      "end": 645.3000000000001,
+      "text": "And that's, and obviously one way to exhibit understanding is to be able to generate it, at least to the human eye being accurate enough to be satisfying to the human eye."
+    },
+    {
+      "id": 198,
+      "start": 645.3000000000001,
+      "end": 649.5,
+      "text": "Obviously, it's not completely accurate from a physics point of view, and we're getting, we're going to improve that."
+    },
+    {
+      "id": 199,
+      "start": 649.5,
+      "end": 658.5,
+      "text": "But it's, it's, it's, it's steps towards having this idea of a world model, a system that can understand the world and the mechanics and the causality of the world."
+    },
+    {
+      "id": 200,
+      "start": 658.5,
+      "end": 670.5,
+      "text": "And then of course, that would be, I think, essential for AGI because that would allow these systems to plan long-term plan in the real world over perhaps very long time horizons, which of course we as humans can do."
+    },
+    {
+      "id": 201,
+      "start": 670.5,
+      "end": 676.5,
+      "text": "You know, I'll spend four years getting a degree so that I have more qualifications so that in 10 years, I'll have a better job."
+    },
+    {
+      "id": 202,
+      "start": 676.5,
+      "end": 680.5,
+      "text": "You know, these are very long-term plans that we, we all do quite effortlessly."
+    },
+    {
+      "id": 203,
+      "start": 680.5,
+      "end": 686.5,
+      "text": "And at the moment, without these systems, we still don't know how to do, we can do short-term plans over one time scale."
+    },
+    {
+      "id": 204,
+      "start": 686.5,
+      "end": 689.5,
+      "text": "But I think you need these kind of world models."
+    },
+    {
+      "id": 205,
+      "start": 689.5,
+      "end": 691.5,
+      "text": "And I think you imagine robotics."
+    },
+    {
+      "id": 206,
+      "start": 691.5,
+      "end": 699.5,
+      "text": "That's exactly what you want for robotics is robots planning in the real world, being able to imagine many trajectories from the current situation they're in."
+    },
+    {
+      "id": 207,
+      "start": 699.5,
+      "end": 702.5,
+      "text": "In order to complete some task."
+    },
+    {
+      "id": 208,
+      "start": 702.5,
+      "end": 703.5,
+      "text": "That's exactly what you'd want."
+    },
+    {
+      "id": 209,
+      "start": 703.5,
+      "end": 714.5,
+      "text": "And then finally, from our point of view, and why this is why we worked with Gemini as being multimodal from the beginning, able to deal with, you know, video image and eventually converge that all into one model."
+    },
+    {
+      "id": 210,
+      "start": 714.5,
+      "end": 719.5,
+      "text": "That's our plan is that it would be very useful for a universal assistant as well."
+    },
+    {
+      "id": 211,
+      "start": 719.5,
+      "end": 721.5,
+      "text": "So let's talk product a little bit."
+    },
+    {
+      "id": 212,
+      "start": 721.5,
+      "end": 726.5,
+      "text": "I watched the documentary, The Thinking Game, along with 300 million other people."
+    },
+    {
+      "id": 213,
+      "start": 726.5,
+      "end": 738.5,
+      "text": "There was something kind of interesting that happened there throughout the documentary yourself and some colleagues kept pointing your phone at things and asking an assistant alpha what was going on."
+    },
+    {
+      "id": 214,
+      "start": 738.5,
+      "end": 743.5,
+      "text": "And I was yelling at the computer, as I usually do, and said, this guy needs glasses."
+    },
+    {
+      "id": 215,
+      "start": 743.5,
+      "end": 746.5,
+      "text": "Like he needs smart glasses to be able to do it."
+    },
+    {
+      "id": 216,
+      "start": 746.5,
+      "end": 747.5,
+      "text": "The phone is the wrong form factor."
+    },
+    {
+      "id": 217,
+      "start": 747.5,
+      "end": 750.5,
+      "text": "What is your vision for AI glasses?"
+    },
+    {
+      "id": 218,
+      "start": 750.5,
+      "end": 753.5,
+      "text": "And when is the rollout happening?"
+    },
+    {
+      "id": 219,
+      "start": 753.5,
+      "end": 755.5,
+      "text": "I think you're exactly right."
+    },
+    {
+      "id": 220,
+      "start": 755.5,
+      "end": 756.5,
+      "text": "And that was our conclusion."
+    },
+    {
+      "id": 221,
+      "start": 756.5,
+      "end": 767.5,
+      "text": "It's very obvious when you sort of dog food these things and internally that as you saw from the film, we were holding up, you know, you're holding up your phone to get it to tell you about the real world."
+    },
+    {
+      "id": 222,
+      "start": 767.5,
+      "end": 774.5,
+      "text": "And it's amazing it works, but it's clearly not the right form factor for a lot of things you want to do."
+    },
+    {
+      "id": 223,
+      "start": 774.5,
+      "end": 783.5,
+      "text": "You know, cooking or you're roaming around the city and asking for directions or recommendations or even helping the partially sighted."
+    },
+    {
+      "id": 224,
+      "start": 783.5,
+      "end": 789.5,
+      "text": "There's a huge, I think, use case there to help with those types of situations."
+    },
+    {
+      "id": 225,
+      "start": 789.5,
+      "end": 792.5,
+      "text": "And for that, I think you need something that's hands free."
+    },
+    {
+      "id": 226,
+      "start": 792.5,
+      "end": 798.5,
+      "text": "And the obvious thing is for those of us anyway that wear glasses like me is to put it on glasses."
+    },
+    {
+      "id": 227,
+      "start": 798.5,
+      "end": 800.5,
+      "text": "But there may well be other devices, too."
+    },
+    {
+      "id": 228,
+      "start": 800.5,
+      "end": 806.5,
+      "text": "I'm not sure that glasses is the final form factor, but it's definitely it's obviously a clear next form factor."
+    },
+    {
+      "id": 229,
+      "start": 806.5,
+      "end": 813.5,
+      "text": "And of course, at Google and an alphabet, we have a long history with glasses and maybe we're a bit too early in the past."
+    },
+    {
+      "id": 230,
+      "start": 813.5,
+      "end": 824.5,
+      "text": "But I think my analysis of it and talking to the people working on that project was a couple of things that the form factor was a bit too chunky and clunky in the battery life and these kind of things, which are now more or less solved."
+    },
+    {
+      "id": 231,
+      "start": 824.5,
+      "end": 827.5,
+      "text": "But I think the thing it was missing was a killer app."
+    },
+    {
+      "id": 232,
+      "start": 827.5,
+      "end": 834.5,
+      "text": "And I think the killer app is universal digital assistant that's with you, helping you in your everyday life."
+    },
+    {
+      "id": 233,
+      "start": 834.5,
+      "end": 846.5,
+      "text": "And they're available to you on any surface, on your computer, on your browser, on your phone, but also on, you know, devices like glasses when you're, you know, walking around the city."
+    },
+    {
+      "id": 234,
+      "start": 846.5,
+      "end": 855.5,
+      "text": "And I think it needs to be kind of seamless and kind of knows each of those contexts and understands each of those contexts around you."
+    },
+    {
+      "id": 235,
+      "start": 855.5,
+      "end": 864.5,
+      "text": "And I think we're close now, especially with Gemini 3, I feel we finally got AI that is maybe powerful enough to make that a reality."
+    },
+    {
+      "id": 236,
+      "start": 864.5,
+      "end": 867.5,
+      "text": "And we're, you know, it's one of the most exciting projects we're working on, I would say."
+    },
+    {
+      "id": 237,
+      "start": 867.5,
+      "end": 872.5,
+      "text": "And it's one of the things I'm personally working on is making smart glasses really work."
+    },
+    {
+      "id": 238,
+      "start": 872.5,
+      "end": 881.5,
+      "text": "And we hope to, we've done some great partnerships with Warby Parker and Gentle Monster and Samsung to build these next generation glasses."
+    },
+    {
+      "id": 239,
+      "start": 881.5,
+      "end": 885.5,
+      "text": "And you should start seeing that, you know, maybe by the summer."
+    },
+    {
+      "id": 240,
+      "start": 885.5,
+      "end": 891.5,
+      "text": "Yeah, Warby Parker did have a filing that said that these glasses are coming out pretty soon this year."
+    },
+    {
+      "id": 241,
+      "start": 891.5,
+      "end": 897.5,
+      "text": "Yeah, yeah. And the prototype design, it depends how, you know, when prototype phase, it depends how quickly that advances."
+    },
+    {
+      "id": 242,
+      "start": 897.5,
+      "end": 904.5,
+      "text": "But I think it's going to happen very soon. And I think it will be, you know, a category, a new category defining technology."
+    },
+    {
+      "id": 243,
+      "start": 904.5,
+      "end": 908.5,
+      "text": "Given your personal involvement, is it safe to say that this is a pretty important initiative?"
+    },
+    {
+      "id": 244,
+      "start": 908.5,
+      "end": 913.5,
+      "text": "Yeah, it's one. Well, yes, but it's, I mean, I, you know, I like to, it's not just as important."
+    },
+    {
+      "id": 245,
+      "start": 913.5,
+      "end": 918.5,
+      "text": "Obviously, I like spending my own time on important things, but I like to be at the push the most cutting edge thing."
+    },
+    {
+      "id": 246,
+      "start": 918.5,
+      "end": 924.5,
+      "text": "And that's often the hardest thing and picking interim goals and giving confidence to the team."
+    },
+    {
+      "id": 247,
+      "start": 924.5,
+      "end": 932.5,
+      "text": "And also just sort of understanding if the timing's right. And over the years, I've been doing this, the many, you know, the decades now, you know, I've got quite good at doing that."
+    },
+    {
+      "id": 248,
+      "start": 932.5,
+      "end": 939.5,
+      "text": "So I try to be at the most cutting edge parts of, I feel I can make the most difference there."
+    },
+    {
+      "id": 249,
+      "start": 939.5,
+      "end": 943.5,
+      "text": "So things like glasses, robotics, I'm spending time on and world models."
+    },
+    {
+      "id": 250,
+      "start": 943.5,
+      "end": 947.5,
+      "text": "Right. Okay. So timing's right for glasses. Let's talk about ads."
+    },
+    {
+      "id": 251,
+      "start": 947.5,
+      "end": 951.5,
+      "text": "Sure. Is the timing right for ads? Let me instead of this."
+    },
+    {
+      "id": 252,
+      "start": 951.5,
+      "end": 961.5,
+      "text": "Yes. Okay. There's been some news that Jim and I might include ads. There's been some news that some of your competitors might include ads."
+    },
+    {
+      "id": 253,
+      "start": 961.5,
+      "end": 969.5,
+      "text": "The funniest thing I saw about that on social media was someone who said, these people are nowhere close to AGI."
+    },
+    {
+      "id": 254,
+      "start": 969.5,
+      "end": 975.5,
+      "text": "It's not going to be this world disrupting technology if the business model is advertising."
+    },
+    {
+      "id": 255,
+      "start": 975.5,
+      "end": 986.5,
+      "text": "Yeah. Well, it's interesting. I think those are tells on, you know, I think actions speak louder than words going back to the original conversation we were having with, you know, Sam and others claiming AGI is around the corner."
+    },
+    {
+      "id": 256,
+      "start": 986.5,
+      "end": 990.5,
+      "text": "Why would you bother with ads then? So that is, I think, a reasonable question to ask."
+    },
+    {
+      "id": 257,
+      "start": 990.5,
+      "end": 997.5,
+      "text": "But I think, look, from our point of view, we have no plans at the moment to do ads."
+    },
+    {
+      "id": 258,
+      "start": 997.5,
+      "end": 1010.5,
+      "text": "If you're talking about the Gemini app, right, specifically, I think we are going, obviously, we're going to watch very carefully what, you know, the outcome of what ChatGPT is saying they're going to do."
+    },
+    {
+      "id": 259,
+      "start": 1010.5,
+      "end": 1019.5,
+      "text": "I think it has to be handled very carefully because the dichotomy I see is that if you want an assistant that works for you,"
+    },
+    {
+      "id": 260,
+      "start": 1019.5,
+      "end": 1029.5,
+      "text": "what is the most important thing? Trust. Okay. So trust and security and privacy, because you want to share potentially your life with that assistant,"
+    },
+    {
+      "id": 261,
+      "start": 1029.5,
+      "end": 1037.5,
+      "text": "and you want to be confident that it's working on your, you know, behalf and with your best interests."
+    },
+    {
+      "id": 262,
+      "start": 1037.5,
+      "end": 1048.5,
+      "text": "And so, you know, you've got to be careful. I think there are ways one could do it, but you'll be careful that it doesn't, the advertising model doesn't bleed into that and confuse the user as to what, you know, what is this?"
+    },
+    {
+      "id": 263,
+      "start": 1048.5,
+      "end": 1054.5,
+      "text": "Assistant recommending you. And I think, you know, that's going to be interesting challenge in that space."
+    },
+    {
+      "id": 264,
+      "start": 1054.5,
+      "end": 1060.5,
+      "text": "And that's what's not to do. And Sundar in a recent earnings call said there are some ideas within Google of the right way to approach this."
+    },
+    {
+      "id": 265,
+      "start": 1060.5,
+      "end": 1073.5,
+      "text": "Sure. How do you approach advertising? Well, you know, that's still, we're still brainstorming that. But I think it's, I think it's, there are also, you know, very interesting ways when you, if you think about glasses devices, there are other revenue models out there."
+    },
+    {
+      "id": 266,
+      "start": 1073.5,
+      "end": 1081.5,
+      "text": "Okay. So, you know, it's going to be interesting to see. I don't think we've made any strong conclusions on that, but it's an area that needs very careful thought."
+    },
+    {
+      "id": 267,
+      "start": 1081.5,
+      "end": 1085.5,
+      "text": "Just to get a definitive answer from you. I think you've given it, but I'm just going to do it one more time."
+    },
+    {
+      "id": 268,
+      "start": 1085.5,
+      "end": 1095.5,
+      "text": "Sure. I read before we met Google has told advertisers in recent days from last year that it plans to bring ads to its AI chatbot Gemini in 2026. Nope."
+    },
+    {
+      "id": 269,
+      "start": 1095.5,
+      "end": 1100.5,
+      "text": "We have no current plans. That's all I can say. All right. That's pretty definitive. Yep."
+    },
+    {
+      "id": 270,
+      "start": 1100.5,
+      "end": 1105.5,
+      "text": "All right. Let's, let's just, you know, keep going through some of your competitors. Anthropic."
+    },
+    {
+      "id": 271,
+      "start": 1105.5,
+      "end": 1110.5,
+      "text": "Claude Code. Yeah. Claude Code and Claude Cowork have caused a tremendous amount of buzz."
+    },
+    {
+      "id": 272,
+      "start": 1110.5,
+      "end": 1122.5,
+      "text": "Yeah. It is amazing to see what some people have done. I saw a post from an ex Amazon executive who said that he built a custom CRM in a weekend, or actually a day and a half."
+    },
+    {
+      "id": 273,
+      "start": 1122.5,
+      "end": 1128.5,
+      "text": "Mm-hmm. Let's call it a weekend. Mm-hmm. What do you think about it? Yeah. And do you, do you plan to have an answer to it?"
+    },
+    {
+      "id": 274,
+      "start": 1128.5,
+      "end": 1135.5,
+      "text": "It's very exciting. And I think that, you know, kudos to, to, to Anthropic. I think they built a very good model there with Claude Code."
+    },
+    {
+      "id": 275,
+      "start": 1135.5,
+      "end": 1141.5,
+      "text": "We're very happy with the, the current coding capabilities of Gemini 3. It's very good at certain things like front end work."
+    },
+    {
+      "id": 276,
+      "start": 1141.5,
+      "end": 1147.5,
+      "text": "I've been using it over the Christmas to prototype games. So it's amazing. It's getting me back into programming."
+    },
+    {
+      "id": 277,
+      "start": 1147.5,
+      "end": 1160.5,
+      "text": "I, I love the whole vibe coding wave that's happening. I think it will open up, uh, the whole productivity space to designers, creatives, artists that maybe would have had to work with teams about access to teams of programmers."
+    },
+    {
+      "id": 278,
+      "start": 1160.5,
+      "end": 1173.5,
+      "text": "Now they can probably do, you know, a lot more just on their own. I think that's going to be amazing. Uh, once that's sort of, um, out in the world in a more general way to, you know, create, uh, lots of new creative opportunities."
+    },
+    {
+      "id": 279,
+      "start": 1173.5,
+      "end": 1179.5,
+      "text": "Um, we, we're, we're working on, we're very happy with our work on code. We got a lot, you know, we got more to do there."
+    },
+    {
+      "id": 280,
+      "start": 1179.5,
+      "end": 1187.5,
+      "text": "We've just released anti-gravity, our own, uh, IDE, um, which is very, very popular. We can't actually serve all the demand that we're seeing there."
+    },
+    {
+      "id": 281,
+      "start": 1187.5,
+      "end": 1194.5,
+      "text": "Um, and we're pushing very hard on coding and tool use performance of Gemini. Um, but it's one thing that I think Anthropic have fully focused on."
+    },
+    {
+      "id": 282,
+      "start": 1194.5,
+      "end": 1200.5,
+      "text": "You know, they don't make image models, multimodal models, world models. They just do, you know, coding and language models."
+    },
+    {
+      "id": 283,
+      "start": 1200.5,
+      "end": 1210.5,
+      "text": "And, um, they're very, very good at that. And, um, you know, we're pleased to be partnering on that on, on the one hand, and also it gives us something to push for, uh, to improve with our own models."
+    },
+    {
+      "id": 284,
+      "start": 1210.5,
+      "end": 1220.5,
+      "text": "Let's just talk broadly about the AI industry business. Um, I have a theory for how this could all fall apart. Um, and I want to run it by you."
+    },
+    {
+      "id": 285,
+      "start": 1220.5,
+      "end": 1227.5,
+      "text": "So it's three step, a three step process. Uh, the first is that large language model training runs produce limited returns."
+    },
+    {
+      "id": 286,
+      "start": 1227.5,
+      "end": 1234.5,
+      "text": "Uh, the second is that there are flash models like Gemini flash that run AI computing as cheap as search."
+    },
+    {
+      "id": 287,
+      "start": 1234.5,
+      "end": 1243.5,
+      "text": "And then step three is that the massive infrastructure commitments, uh, that have been made become somewhat useless given those two factors."
+    },
+    {
+      "id": 288,
+      "start": 1243.5,
+      "end": 1248.5,
+      "text": "And there is a cascading collapse that happens. Is that a legitimate worry?"
+    },
+    {
+      "id": 289,
+      "start": 1248.5,
+      "end": 1254.5,
+      "text": "Um, I think it's a plausible possible scenario. I don't think it's the, I don't think it's the likely one in my opinion."
+    },
+    {
+      "id": 290,
+      "start": 1254.5,
+      "end": 1264.5,
+      "text": "Um, I mean, in my mind, there's no doubt AI has gone already proved out enough. I would say. And, and our work, I think in things like science and our, and alpha fold and drug discovery that it's here to stay."
+    },
+    {
+      "id": 291,
+      "start": 1264.5,
+      "end": 1273.5,
+      "text": "It's not like tomorrow, like, Oh, we found that AI doesn't work. We've gone way. We blasted way past that. So I think that's, it's clearly going to be the most transformative technology in human history."
+    },
+    {
+      "id": 292,
+      "start": 1273.5,
+      "end": 1281.5,
+      "text": "There's maybe a question mark about timelines. Is it two years or five years? I mean, either way, it's very soon for something this transformative."
+    },
+    {
+      "id": 293,
+      "start": 1281.5,
+      "end": 1290.5,
+      "text": "And I think we're still in the nascent era of actually figuring out how to make use of it and deploy it because the technology is improving so fast."
+    },
+    {
+      "id": 294,
+      "start": 1290.5,
+      "end": 1297.5,
+      "text": "I think there's a huge capability overhang actually of what even today's models can do that maybe even us as building those things don't fully know."
+    },
+    {
+      "id": 295,
+      "start": 1297.5,
+      "end": 1302.5,
+      "text": "Um, so I think there's just a vast amount of product opportunities that we see."
+    },
+    {
+      "id": 296,
+      "start": 1302.5,
+      "end": 1316.5,
+      "text": "And I think we're as Google only just started to scratch the surface now of actually, uh, natively sort of plugging these things in to our amazing existing products, let alone building the new ones, you know, AI inbox."
+    },
+    {
+      "id": 297,
+      "start": 1316.5,
+      "end": 1321.5,
+      "text": "We've just started trialing. I mean, who wants to do email admin? I mean, wouldn't we all love that to just go away?"
+    },
+    {
+      "id": 298,
+      "start": 1321.5,
+      "end": 1326.5,
+      "text": "That's my number one pain point for my work King day. And, um, there's so many examples like that."
+    },
+    {
+      "id": 299,
+      "start": 1326.5,
+      "end": 1335.5,
+      "text": "Just, just waiting to be addressed. I think, you know, agents in browsers, um, helping out with YouTube. Obviously we're now powering search with it."
+    },
+    {
+      "id": 300,
+      "start": 1335.5,
+      "end": 1342.5,
+      "text": "So I think there's enormous opportunities. And if you're talking about the AI bubble, if that's the question, you know, I think it's fine."
+    },
+    {
+      "id": 301,
+      "start": 1342.5,
+      "end": 1349.5,
+      "text": "Well, I mean, it seems like that's the question. I'm very happy to answer it because I think, um, look, my view is it's not binary."
+    },
+    {
+      "id": 302,
+      "start": 1349.5,
+      "end": 1356.5,
+      "text": "When are we in a bubble, not in a bubble, I think parts of the AI industry probably are and other parts, I think it remains to be seen."
+    },
+    {
+      "id": 303,
+      "start": 1356.5,
+      "end": 1366.5,
+      "text": "So I think some of the things are, you know, when you see seed rounds of tens of billions of dollars of companies that basically have no product or research, it's just some people coming together."
+    },
+    {
+      "id": 304,
+      "start": 1366.5,
+      "end": 1378.5,
+      "text": "That seems a bit unsustainable to me in a normal market, a bit frothy. Um, on the other hand, you know, we're, uh, businesses like us, we have massive underlying businesses that, and products that it's very obvious how it's going to be."
+    },
+    {
+      "id": 305,
+      "start": 1378.5,
+      "end": 1384.5,
+      "text": "It's very obvious how AI would, uh, increase the efficiency or the productivity of using those products."
+    },
+    {
+      "id": 306,
+      "start": 1384.5,
+      "end": 1392.5,
+      "text": "And then it remains to be seen how popular the monetization of these new AI native products like chatbots, glasses, all of these things."
+    },
+    {
+      "id": 307,
+      "start": 1392.5,
+      "end": 1397.5,
+      "text": "Um, we'll have to see, I think there will be enormous markets, but they're yet to be proven out."
+    },
+    {
+      "id": 308,
+      "start": 1397.5,
+      "end": 1407.5,
+      "text": "But from my perspective, you know, running Google DeepMind is, um, my job is to make sure that whatever happens with an AI bubble, if it, if it, if it bursts or if there isn't one and it continues,"
+    },
+    {
+      "id": 309,
+      "start": 1407.5,
+      "end": 1408.5,
+      "text": "we win either way."
+    },
+    {
+      "id": 310,
+      "start": 1408.5,
+      "end": 1408.5,
+      "text": ""
+    },
+    {
+      "id": 311,
+      "start": 1408.5,
+      "end": 1420.5,
+      "text": "And I think we're incredibly well positioned as alphabet, uh, in either case, um, and, you know, doubling down on existing businesses in the one case or being at the forefront and the frontier, uh, in, in the, in the bull case."
+    },
+    {
+      "id": 312,
+      "start": 1420.5,
+      "end": 1424.5,
+      "text": "Going back to thinking game, speaking of the way that this will impact the economy."
+    },
+    {
+      "id": 313,
+      "start": 1424.5,
+      "end": 1428.5,
+      "text": "I started to feel bad for the opponents of your technology."
+    },
+    {
+      "id": 314,
+      "start": 1428.5,
+      "end": 1430.5,
+      "text": "Um, Lee Seedal."
+    },
+    {
+      "id": 315,
+      "start": 1430.5,
+      "end": 1431.5,
+      "text": "Okay."
+    },
+    {
+      "id": 316,
+      "start": 1431.5,
+      "end": 1432.5,
+      "text": "Uh, demoralized."
+    },
+    {
+      "id": 317,
+      "start": 1432.5,
+      "end": 1433.5,
+      "text": "Sure."
+    },
+    {
+      "id": 318,
+      "start": 1433.5,
+      "end": 1441.5,
+      "text": "Uh, this guy, mana who played Starcraft beat your bot, but realize that it's basically over for humans versus machines."
+    },
+    {
+      "id": 319,
+      "start": 1441.5,
+      "end": 1447.5,
+      "text": "Um, now we're all up against this in some way as this stuff makes its way into knowledge work."
+    },
+    {
+      "id": 320,
+      "start": 1447.5,
+      "end": 1450.5,
+      "text": "Um, I thought you were meaning our AI competitors."
+    },
+    {
+      "id": 321,
+      "start": 1450.5,
+      "end": 1451.5,
+      "text": "Them I'm okay with."
+    },
+    {
+      "id": 322,
+      "start": 1451.5,
+      "end": 1452.5,
+      "text": "I don't feel sad about that."
+    },
+    {
+      "id": 323,
+      "start": 1452.5,
+      "end": 1453.5,
+      "text": "No, no."
+    },
+    {
+      "id": 324,
+      "start": 1453.5,
+      "end": 1454.5,
+      "text": "Sorry."
+    },
+    {
+      "id": 325,
+      "start": 1454.5,
+      "end": 1455.5,
+      "text": "Relentless progress of AI."
+    },
+    {
+      "id": 326,
+      "start": 1455.5,
+      "end": 1456.5,
+      "text": "You mean the gamers."
+    },
+    {
+      "id": 327,
+      "start": 1456.5,
+      "end": 1457.5,
+      "text": "Yeah."
+    },
+    {
+      "id": 328,
+      "start": 1457.5,
+      "end": 1458.5,
+      "text": "Uh, you made me feel bad for gamers."
+    },
+    {
+      "id": 329,
+      "start": 1458.5,
+      "end": 1472.5,
+      "text": "Um, you know, but, but I, I want to ask about this, you know, we're going to have the same situation, uh, with knowledge work that these, these models that, you know, performed admirably against the world's best Starcraft and go players are now starting to do our work."
+    },
+    {
+      "id": 330,
+      "start": 1472.5,
+      "end": 1475.5,
+      "text": "And are we going to end up in the same position?"
+    },
+    {
+      "id": 331,
+      "start": 1475.5,
+      "end": 1476.5,
+      "text": "Well, look, let me list."
+    },
+    {
+      "id": 332,
+      "start": 1476.5,
+      "end": 1481.5,
+      "text": "Given you brought up games as an example, let's, let's look at what's happened in games."
+    },
+    {
+      "id": 333,
+      "start": 1481.5,
+      "end": 1486.5,
+      "text": "So chess, we've had chess computers that are better since I was a teenager than Gary Kasparov in the nineties."
+    },
+    {
+      "id": 334,
+      "start": 1486.5,
+      "end": 1487.5,
+      "text": "Right."
+    },
+    {
+      "id": 335,
+      "start": 1487.5,
+      "end": 1492.5,
+      "text": "Well, they weren't general AI systems, but they were, you know, deep blue chess is more popular than ever."
+    },
+    {
+      "id": 336,
+      "start": 1492.5,
+      "end": 1494.5,
+      "text": "No one's interested in seeing computers playing computers."
+    },
+    {
+      "id": 337,
+      "start": 1494.5,
+      "end": 1499.5,
+      "text": "We're interested in Magnus Carlsen playing, you know, the top, that's other top chess players in the world."
+    },
+    {
+      "id": 338,
+      "start": 1499.5,
+      "end": 1504.5,
+      "text": "Uh, interestingly in go, um, the, the best South go play in the world is a South Korean."
+    },
+    {
+      "id": 339,
+      "start": 1504.5,
+      "end": 1508.5,
+      "text": "And he was about 15, I think when alpha go match happened."
+    },
+    {
+      "id": 340,
+      "start": 1508.5,
+      "end": 1513.5,
+      "text": "He's in his mid twenties now, and he's by far the strongest player there's ever been by the ELO ratings."
+    },
+    {
+      "id": 341,
+      "start": 1513.5,
+      "end": 1515.5,
+      "text": "Cause he's learned natively, uh, young enough."
+    },
+    {
+      "id": 342,
+      "start": 1515.5,
+      "end": 1517.5,
+      "text": "He was, you know, he's the first generation."
+    },
+    {
+      "id": 343,
+      "start": 1517.5,
+      "end": 1521.5,
+      "text": "You could say that's learned with alpha go knowledge in the knowledge pool."
+    },
+    {
+      "id": 344,
+      "start": 1521.5,
+      "end": 1526.5,
+      "text": "And, um, you know, he may actually be stronger than alpha go was back then."
+    },
+    {
+      "id": 345,
+      "start": 1526.5,
+      "end": 1531.5,
+      "text": "So I think, and we all still enjoy Starcraft and all the other, all the other computer games."
+    },
+    {
+      "id": 346,
+      "start": 1531.5,
+      "end": 1532.5,
+      "text": "We enjoy human endeavor."
+    },
+    {
+      "id": 347,
+      "start": 1532.5,
+      "end": 1538.5,
+      "text": "I think it's a bit more, a bit similar to like, we still love the hundred meters, uh, uh, Olympic race."
+    },
+    {
+      "id": 348,
+      "start": 1538.5,
+      "end": 1545.5,
+      "text": "Um, even though we have vehicles that can go way faster than Usain Bolt, but we, you know, we, we don't, you know, that's, that's a different thing."
+    },
+    {
+      "id": 349,
+      "start": 1545.5,
+      "end": 1546.5,
+      "text": "Right."
+    },
+    {
+      "id": 350,
+      "start": 1546.5,
+      "end": 1556.5,
+      "text": "And so I think we have infinite capacity to adapt and, um, and, uh, and, and sort of evolve, uh, with our technologies."
+    },
+    {
+      "id": 351,
+      "start": 1556.5,
+      "end": 1557.5,
+      "text": "I, because why is that?"
+    },
+    {
+      "id": 352,
+      "start": 1557.5,
+      "end": 1560.5,
+      "text": "Because we have, we are general intelligences."
+    },
+    {
+      "id": 353,
+      "start": 1560.5,
+      "end": 1563.5,
+      "text": "Um, that's the thing about it is we are AGI systems."
+    },
+    {
+      "id": 354,
+      "start": 1563.5,
+      "end": 1564.5,
+      "text": "We are obviously we're not artificial."
+    },
+    {
+      "id": 355,
+      "start": 1564.5,
+      "end": 1572.5,
+      "text": "We're general systems and it's, and, and we are capable of inventing science and, uh, we're tool making, uh, uh, animals."
+    },
+    {
+      "id": 356,
+      "start": 1572.5,
+      "end": 1579.5,
+      "text": "That's what separates us humans from, from the other animals is we're able to make tools all around modern civilization, including computers."
+    },
+    {
+      "id": 357,
+      "start": 1579.5,
+      "end": 1588.5,
+      "text": "And of course, AI being the ultimate expression of computers that all has come from our human minds, which were evolved for, you know, hunter gathering lifestyle."
+    },
+    {
+      "id": 358,
+      "start": 1588.5,
+      "end": 1589.5,
+      "text": "So it's kind of amazing."
+    },
+    {
+      "id": 359,
+      "start": 1589.5,
+      "end": 1595.5,
+      "text": "We were able, and it shows how general we are, that we're able to get to the modern civilization we see around us today."
+    },
+    {
+      "id": 360,
+      "start": 1595.5,
+      "end": 1599.5,
+      "text": "And we're talking about things like AI and, you know, science and physics and all these things."
+    },
+    {
+      "id": 361,
+      "start": 1599.5,
+      "end": 1600.5,
+      "text": "Right."
+    },
+    {
+      "id": 362,
+      "start": 1600.5,
+      "end": 1607.5,
+      "text": "And I think we'll adapt again, but there is an important question actually beyond the economics one about jobs and those things is purpose and meaning."
+    },
+    {
+      "id": 363,
+      "start": 1607.5,
+      "end": 1608.5,
+      "text": "Right."
+    },
+    {
+      "id": 364,
+      "start": 1608.5,
+      "end": 1611.5,
+      "text": "Because we all get a lot of our purpose and meaning from the jobs we do."
+    },
+    {
+      "id": 365,
+      "start": 1611.5,
+      "end": 1613.5,
+      "text": "I certainly do from the science I do."
+    },
+    {
+      "id": 366,
+      "start": 1613.5,
+      "end": 1616.5,
+      "text": "So how does, what happens when a lot of that is automated?"
+    },
+    {
+      "id": 367,
+      "start": 1616.5,
+      "end": 1625.5,
+      "text": "Um, I think, you know, that that's why I've been calling for, you know, I think we knew new great philosophers actually, and it will be a change to the human condition."
+    },
+    {
+      "id": 368,
+      "start": 1625.5,
+      "end": 1627.5,
+      "text": "But I don't think it necessarily has to be worse."
+    },
+    {
+      "id": 369,
+      "start": 1627.5,
+      "end": 1632.5,
+      "text": "I think we've, it's like the industrial revolution, maybe 10 X of that, but we'll have to adapt again."
+    },
+    {
+      "id": 370,
+      "start": 1632.5,
+      "end": 1636.5,
+      "text": "And I think we'll find new, um, uh, meaning and things."
+    },
+    {
+      "id": 371,
+      "start": 1636.5,
+      "end": 1646.5,
+      "text": "And we do a lot of things already today that are not just for economic gain, you know, art, extreme sports, ex polar exploration, many of these things."
+    },
+    {
+      "id": 372,
+      "start": 1646.5,
+      "end": 1652.5,
+      "text": "Um, and maybe we'll have much more sophisticated esoteric versions of those things in the future."
+    },
+    {
+      "id": 373,
+      "start": 1652.5,
+      "end": 1653.5,
+      "text": "Okay."
+    },
+    {
+      "id": 374,
+      "start": 1653.5,
+      "end": 1654.5,
+      "text": "Two minutes left."
+    },
+    {
+      "id": 375,
+      "start": 1654.5,
+      "end": 1655.5,
+      "text": "I have two questions."
+    },
+    {
+      "id": 376,
+      "start": 1655.5,
+      "end": 1656.5,
+      "text": "I don't know if we're going to get to both of them."
+    },
+    {
+      "id": 377,
+      "start": 1656.5,
+      "end": 1657.5,
+      "text": "Sure."
+    },
+    {
+      "id": 378,
+      "start": 1657.5,
+      "end": 1659.5,
+      "text": "Um, let me ask the one that I want to know the answer most about."
+    },
+    {
+      "id": 379,
+      "start": 1659.5,
+      "end": 1666.5,
+      "text": "Uh, in a recent interview, you said that you have a theory that information is the most fundamental unit of the universe."
+    },
+    {
+      "id": 380,
+      "start": 1666.5,
+      "end": 1667.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 381,
+      "start": 1667.5,
+      "end": 1669.5,
+      "text": "Not energy, not matter."
+    },
+    {
+      "id": 382,
+      "start": 1669.5,
+      "end": 1670.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 383,
+      "start": 1670.5,
+      "end": 1671.5,
+      "text": "Information."
+    },
+    {
+      "id": 384,
+      "start": 1671.5,
+      "end": 1672.5,
+      "text": "Yeah."
+    },
+    {
+      "id": 385,
+      "start": 1672.5,
+      "end": 1673.5,
+      "text": "How?"
+    },
+    {
+      "id": 386,
+      "start": 1673.5,
+      "end": 1686.5,
+      "text": "I think if you look at energy, I mean, I don't know if we're going to cover this in two minutes, but in, in, in, in, energy, energy, energy and, and, and matter, you can definitely, I think a lot of people sort of think of them as isomorphic with, uh, information."
+    },
+    {
+      "id": 387,
+      "start": 1686.5,
+      "end": 1689.5,
+      "text": "But I think information is really the right way to understand the universe."
+    },
+    {
+      "id": 388,
+      "start": 1689.5,
+      "end": 1695.5,
+      "text": "So, um, if you think of biology and living systems, we're information systems that are resisting entropy, right?"
+    },
+    {
+      "id": 389,
+      "start": 1695.5,
+      "end": 1701.5,
+      "text": "We're trying to retain our structure, retain our information in the face of, you know, a randomness that's happening around us."
+    },
+    {
+      "id": 390,
+      "start": 1701.5,
+      "end": 1706.5,
+      "text": "And I think you can look at that, uh, uh, you know, in a larger physics scale."
+    },
+    {
+      "id": 391,
+      "start": 1706.5,
+      "end": 1715.5,
+      "text": "So almost at, not just biology, but things like, you know, mountains and, and planets and asteroids, they've all been subject to some kind of selection pressure."
+    },
+    {
+      "id": 392,
+      "start": 1715.5,
+      "end": 1720.5,
+      "text": "Not, not Darwinian evolution, but some kind of external pressure."
+    },
+    {
+      "id": 393,
+      "start": 1720.5,
+      "end": 1726.5,
+      "text": "And the fact that they've been stable over a long amount of time means that, that, that information is kind of stable and meaningful."
+    },
+    {
+      "id": 394,
+      "start": 1726.5,
+      "end": 1732.5,
+      "text": "So I think one could view the world in terms of its complexity, information complexity."
+    },
+    {
+      "id": 395,
+      "start": 1732.5,
+      "end": 1744.5,
+      "text": "And I think a lot of what we're doing with our, the reason I'm thinking about all of that is because of things like AlphaGo and AlphaFold, especially AlphaFold, where, you know, we solved all the protein structures that are kind of known to science."
+    },
+    {
+      "id": 396,
+      "start": 1744.5,
+      "end": 1751.5,
+      "text": "And how we've done that, well, because only a certain number of those in the kind of almost infinite possibilities of protein structures are stable."
+    },
+    {
+      "id": 397,
+      "start": 1751.5,
+      "end": 1753.5,
+      "text": "And, and those are the ones you've got to find."
+    },
+    {
+      "id": 398,
+      "start": 1753.5,
+      "end": 1758.5,
+      "text": "So you've got to understand that topology, uh, that information topology and follow it."
+    },
+    {
+      "id": 399,
+      "start": 1758.5,
+      "end": 1770.5,
+      "text": "And then suddenly these problems that seem to be intractable, because, you know, how can you find the needle in the haystack actually become very tractable if you understand the energy landscape or the information landscape around that."
+    },
+    {
+      "id": 400,
+      "start": 1770.5,
+      "end": 1780.5,
+      "text": "And that's how I think eventually we'll solve, uh, most diseases come up with new drugs, new materials, new superconductors with the help of AI, helping us navigate that information landscape."
+    },
+    {
+      "id": 401,
+      "start": 1780.5,
+      "end": 1788.5,
+      "text": "Dennis, before we go, I just want to wrap with this, uh, or maybe, maybe quickly this first one and then a big question at the end in the thinking game."
+    },
+    {
+      "id": 402,
+      "start": 1788.5,
+      "end": 1799.5,
+      "text": "Speaking of, um, health and AI, there's this moment where there's a discussion in the lab about whether to release the results of AlphaFold and you kind of sit there admittedly and you're like, why are we going through a process?"
+    },
+    {
+      "id": 403,
+      "start": 1799.5,
+      "end": 1801.5,
+      "text": "Release it, release it now."
+    },
+    {
+      "id": 404,
+      "start": 1801.5,
+      "end": 1804.5,
+      "text": "Talk a little bit about, um, the lesson from there."
+    },
+    {
+      "id": 405,
+      "start": 1804.5,
+      "end": 1805.5,
+      "text": "Yeah."
+    },
+    {
+      "id": 406,
+      "start": 1805.5,
+      "end": 1815.5,
+      "text": "Yeah. Well, look, we, we started AlphaFold to crack a unbelievably tough scientific challenge, 50 year grand challenge, uh, of protein folding and protein structure prediction."
+    },
+    {
+      "id": 407,
+      "start": 1815.5,
+      "end": 1820.5,
+      "text": "And the reason we worked on that and the reason we put so much effort into it is we sort of thought it was a root node problem."
+    },
+    {
+      "id": 408,
+      "start": 1820.5,
+      "end": 1829.5,
+      "text": "If we could solve it and put that out in the world, it could be, it could do amazing untold impact on things like human health and understanding of biology."
+    },
+    {
+      "id": 409,
+      "start": 1829.5,
+      "end": 1837.5,
+      "text": "But we, as a team, no matter how talented or hard, hard working we are, we would only be able to scratch a surf, a small, tiny amount of that potential on our own."
+    },
+    {
+      "id": 410,
+      "start": 1837.5,
+      "end": 1838.5,
+      "text": "It's clear."
+    },
+    {
+      "id": 411,
+      "start": 1838.5,
+      "end": 1851.5,
+      "text": "So, um, in that case and in this case, it was obviously the right thing to do to maximize the benefit to the world here, to put it out there to the scientific, massive scientific community, uh, to build on top of and use AlphaFold."
+    },
+    {
+      "id": 412,
+      "start": 1851.5,
+      "end": 1857.5,
+      "text": "And it's been incredibly gratifying to see, you know, 3 million researchers around the world using it in their important research."
+    },
+    {
+      "id": 413,
+      "start": 1857.5,
+      "end": 1866.5,
+      "text": "I think in future, um, almost every single drug that's discovered from now on will probably have used AlphaFold at some point in that process, which is, you know, amazing for us."
+    },
+    {
+      "id": 414,
+      "start": 1866.5,
+      "end": 1870.5,
+      "text": "And, you know, really this, what we do, all the work we do for."
+    },
+    {
+      "id": 415,
+      "start": 1870.5,
+      "end": 1881.5,
+      "text": "I also read that moment, you tell me if I'm wrong, as something of a, of a metaphor, small, uh, passionate AI division, kind of yelling in a big company, get this out, cut the red tape."
+    },
+    {
+      "id": 416,
+      "start": 1881.5,
+      "end": 1882.5,
+      "text": "Yeah, potentially."
+    },
+    {
+      "id": 417,
+      "start": 1882.5,
+      "end": 1885.5,
+      "text": "But look, I mean, we've had amazing support from the beginning from Google."
+    },
+    {
+      "id": 418,
+      "start": 1885.5,
+      "end": 1898.5,
+      "text": "And they, the reason that we, you know, we, we joined forces with Google back in 2014 is Google itself is a scientific research, engineering, technical led company, always has been, and has that at its core."
+    },
+    {
+      "id": 419,
+      "start": 1898.5,
+      "end": 1905.5,
+      "text": "And that's why, you know, I think that we have the scientific method and the scientific approach, that thoughtful approach, that rigorous approach in everything we do."
+    },
+    {
+      "id": 420,
+      "start": 1905.5,
+      "end": 1908.5,
+      "text": "So of course, they're going to love something like AlphaFold."
+    },
+    {
+      "id": 421,
+      "start": 1908.5,
+      "end": 1910.5,
+      "text": "Okay. Here's, here's the big question at the end."
+    },
+    {
+      "id": 422,
+      "start": 1910.5,
+      "end": 1917.5,
+      "text": "Um, you built AlphaGo, uh, trained, um, the computer to play Go on human knowledge."
+    },
+    {
+      "id": 423,
+      "start": 1917.5,
+      "end": 1924.5,
+      "text": "And then once it mastered the human level playing, you kind of like let it loose with a program called AlphaZero."
+    },
+    {
+      "id": 424,
+      "start": 1924.5,
+      "end": 1925.5,
+      "text": "Yeah."
+    },
+    {
+      "id": 425,
+      "start": 1925.5,
+      "end": 1930.5,
+      "text": "And it started doing things that you could never even imagine and making new circuits in ways that surprised you."
+    },
+    {
+      "id": 426,
+      "start": 1930.5,
+      "end": 1931.5,
+      "text": "Sure."
+    },
+    {
+      "id": 427,
+      "start": 1931.5,
+      "end": 1941.5,
+      "text": "Um, eventually, maybe there will come a time where LLMs or some version of them, um, reach a mastery of human knowledge in the same way."
+    },
+    {
+      "id": 428,
+      "start": 1941.5,
+      "end": 1949.5,
+      "text": "Uh, what is going to happen when you then let that loose and it does the same, potentially does the same thing as AlphaZero."
+    },
+    {
+      "id": 429,
+      "start": 1949.5,
+      "end": 1964.5,
+      "text": "Yeah, I think it's very exciting. I mean, that's, that's what to me is, it would be the AGI moment is, you know, then it will discover a new superconductor, room temperature superconductor that's possible in the laws of physics, but we just haven't found that needle in the haystack."
+    },
+    {
+      "id": 430,
+      "start": 1964.5,
+      "end": 1971.5,
+      "text": "Or a new source of energy, a new way to build optimal batteries. I think all of those things will become possible and indeed not just possible. I think they will happen."
+    },
+    {
+      "id": 431,
+      "start": 1971.5,
+      "end": 1979.5,
+      "text": "Uh, once we get to a system that's first of all, uh, got to, you know, human level knowledge, and then there'll be some techniques."
+    },
+    {
+      "id": 432,
+      "start": 1979.5,
+      "end": 1986.5,
+      "text": "Maybe it will have to help invent some of those techniques, but kind of like AlphaZero that will allow it to go beyond into new uncharted territory."
+    },
+    {
+      "id": 433,
+      "start": 1986.5,
+      "end": 1991.5,
+      "text": "That, that idea of it, like plugging weather system into its brain, like it's going to be on that, that way."
+    },
+    {
+      "id": 434,
+      "start": 1991.5,
+      "end": 1992.5,
+      "text": "Yeah, exactly."
+    },
+    {
+      "id": 435,
+      "start": 1992.5,
+      "end": 1993.5,
+      "text": "All right."
+    },
+    {
+      "id": 436,
+      "start": 1993.5,
+      "end": 1994.5,
+      "text": "Exciting times."
+    },
+    {
+      "id": 437,
+      "start": 1994.5,
+      "end": 1995.5,
+      "text": "Demis, thanks for coming on the show."
+    },
+    {
+      "id": 438,
+      "start": 1995.5,
+      "end": 1996.5,
+      "text": "Thank you."
+    },
+    {
+      "id": 439,
+      "start": 1996.5,
+      "end": 1997.5,
+      "text": "Thanks everybody."
+    },
+    {
+      "id": 440,
+      "start": 1997.5,
+      "end": 1998.5,
+      "text": "Thank you so much."
+    },
+    {
+      "id": 441,
+      "start": 1998.5,
+      "end": 2000.5,
+      "text": "Thank you so much."
+    },
+    {
+      "id": 442,
+      "start": 2000.5,
+      "end": 2001.5,
+      "text": "Great."
+    },
+    {
+      "id": 443,
+      "start": 2001.5,
+      "end": 2002.5,
+      "text": "Thank you."
+    },
+    {
+      "id": 444,
+      "start": 2002.5,
+      "end": 2003.5,
+      "text": "Thank you."
+    }
+  ]
+}

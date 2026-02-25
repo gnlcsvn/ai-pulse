@@ -186,8 +186,239 @@
       "note_path": "vault/interviews/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.md",
       "transcript_path": "data/transcripts/2026-02-23_uber-ceo-ai-will-replace-jobs-at-uber.json",
       "predictions_count": 7
+    },
+    {
+      "video_id": "aR20FWCCjAs",
+      "title": "Ilya Sutskever \u2013 We're moving from the age of scaling to the age of research",
+      "channel": "Dwarkesh Patel",
+      "upload_date": "2025-11-25",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2025-11-25_ilya-sutskever-age-of-scaling-to-age-of-research.md",
+      "transcript_path": "data/transcripts/2025-11-25_ilya-sutskever-were-moving-from-the-age-of-scaling-to-the-ag.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "8-boBsWcr5A",
+      "title": "Satya Nadella \u2013 How Microsoft thinks about AGI",
+      "channel": "Dwarkesh Patel",
+      "upload_date": "2026-02-04",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-04_satya-nadella-how-microsoft-thinks-about-agi.md",
+      "transcript_path": "data/transcripts/2026-02-04_satya-nadella-how-microsoft-thinks-about-agi.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "NnVW9epLlTM",
+      "title": "The Day After AGI | World Economic Forum Annual Meeting 2026",
+      "channel": "World Economic Forum",
+      "upload_date": "2026-01-22",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-22_the-day-after-agi-wef-2026.md",
+      "transcript_path": "data/transcripts/2026-01-22_the-day-after-agi-world-economic-forum-annual-meeting-2026.json",
+      "predictions_count": 11
+    },
+    {
+      "video_id": "k-xtmISBCNE",
+      "title": "NVIDIA's Jensen Huang on Reasoning Models, Robotics, and Refuting the AI Bubble Narrative",
+      "channel": "No Priors",
+      "upload_date": "2026-02-14",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-14_nvidias-jensen-huang-reasoning-models-robotics.md",
+      "transcript_path": "data/transcripts/2026-02-14_nvidias-jensen-huang-on-reasoning-models-robotics-and-refuti.json",
+      "predictions_count": 8
+    },
+    {
+      "video_id": "TOsNrV3bXtQ",
+      "title": "No Priors Ep. 144 | The 2026 AI Forecast with Sarah & Elad",
+      "channel": "No Priors",
+      "upload_date": "2026-02-07",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-07_no-priors-2026-ai-forecast-sarah-elad.md",
+      "transcript_path": "data/transcripts/2026-02-07_no-priors-ep-144-the-2026-ai-forecast-with-sarah-elad.json",
+      "predictions_count": 17
+    },
+    {
+      "video_id": "IgifEgm1-e0",
+      "title": "Conversation with Elon Musk | World Economic Forum Annual Meeting 2026",
+      "channel": "World Economic Forum",
+      "upload_date": "2026-01-21",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-21_conversation-with-elon-musk-wef-2026.md",
+      "transcript_path": "data/transcripts/2026-01-21_conversation-with-elon-musk-world-economic-forum-annual-meet.json",
+      "predictions_count": 9
+    },
+    {
+      "video_id": "bgBfobN2A7A",
+      "title": "Google DeepMind CEO Demis Hassabis: AI Next Breakthroughs, AGI Timeline, Google AI Glasses",
+      "channel": "Alex Kantrowitz",
+      "upload_date": "2026-02-20",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-20_demis-hassabis-ai-next-breakthroughs-agi-timeline.md",
+      "transcript_path": "data/transcripts/2026-02-20_google-deepmind-ceo-demis-hassabis-ai-next-breakthroughs-agi.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "VoRbPxyo2uU",
+      "title": "An Honest Conversation on AI and Humanity | WEF Annual Meeting 2026",
+      "channel": "World Economic Forum",
+      "upload_date": "2026-01-23",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-23_an-honest-conversation-on-ai-and-humanity-wef-2026.md",
+      "transcript_path": "data/transcripts/2026-01-23_an-honest-conversation-on-ai-and-humanity-world-economic-for.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "l3u_FAv33G0",
+      "title": "The arrival of AGI | Shane Legg (co-founder of DeepMind)",
+      "channel": "Google DeepMind",
+      "upload_date": "2026-02-10",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-10_the-arrival-of-agi-shane-legg.md",
+      "transcript_path": "data/transcripts/2026-02-10_the-arrival-of-agi-shane-legg.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "mYDSSRS-B5U",
+      "title": "Anthropic CEO Dario Amodei: AI Potential, OpenAI Rivalry, GenAI Business, Doomerism",
+      "channel": "Alex Kantrowitz",
+      "upload_date": "2026-02-06",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-06_dario-amodei-ai-potential-openai-rivalry-genai-business.md",
+      "transcript_path": "data/transcripts/2026-02-06_anthropic-ceo-dario-amodei-ai-potential-openai-rivalry-genai.json",
+      "predictions_count": 6
+    },
+    {
+      "video_id": "zQ1POHiR8m8",
+      "title": "Godfather of AI: We Have 2 Years Before Everything Changes\\! (Geoffrey Hinton)",
+      "channel": "The Diary Of A CEO",
+      "upload_date": "2026-02-06",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-06_godfather-of-ai-geoffrey-hinton-2-years-before-everything-changes.md",
+      "transcript_path": "data/transcripts/2026-02-06_godfather-of-ai-we-have-2-years-before-everything-changes.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "xRh2sVcNXQ8",
+      "title": "Marc Andreessen 2026 Outlook: AI Timelines, US vs. China, and The Price of AI",
+      "channel": "a16z",
+      "upload_date": "2026-01-29",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-29_marc-andreessen-2026-outlook-ai-timelines-us-vs-china.md",
+      "transcript_path": "data/transcripts/2026-01-29_marc-andreessen-2026-outlook-ai-timelines-us-vs-china-and-th.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "87Pm0SGTtN8",
+      "title": "Marc Andreessen: The real AI boom hasnt even started yet",
+      "channel": "Lenny's Podcast",
+      "upload_date": "2026-02-18",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-18_marc-andreessen-the-real-ai-boom-hasnt-even-started-yet.md",
+      "transcript_path": "data/transcripts/2026-02-18_marc-andreessen-the-real-ai-boom-hasnt-even-started-yet.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "C1TGh6zqigg",
+      "title": "The day after AGI: Two rock stars of AI on what it will mean for humanity",
+      "channel": "World Economic Forum",
+      "upload_date": "2026-02-12",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-12_day-after-agi-two-rock-stars-radio-davos.md",
+      "transcript_path": "data/transcripts/2026-02-12_the-day-after-agi-two-rock-stars-of-ai-on-what-it-will-mean.json",
+      "predictions_count": 11
+    },
+    {
+      "video_id": "rGAA59JTBtg",
+      "title": "Harari and Tegmark on Humanity and AI",
+      "channel": "Bloomberg Live",
+      "upload_date": "2026-01-22",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-22_harari-and-tegmark-on-humanity-and-ai.md",
+      "transcript_path": "data/transcripts/2026-01-22_harari-and-tegmark-on-humanity-and-ai.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "5MWT_doo68k",
+      "title": "Sam Altman Talks ChatGPT AI Agents and Superintelligence TED2025",
+      "channel": "TED",
+      "upload_date": "2025-04-12",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2025-04-12_sam-altman-chatgpt-ai-agents-superintelligence-ted2025.md",
+      "transcript_path": "data/transcripts/2025-04-12_openai-sam-altman-talks-chatgpt-ai-agents-and-superintellige.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "_fqxZKdb3J0",
+      "title": "Conversation with Alex Karp CEO Palantir WEF 2026",
+      "channel": "World Economic Forum",
+      "upload_date": "2026-01-20",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-20_alex-karp-palantir-wef-2026.md",
+      "transcript_path": "data/transcripts/2026-01-20_conversation-with-alex-karp-ceo-and-co-founder-palantir-tech.json",
+      "predictions_count": 3
+    },
+    {
+      "video_id": "N5JDzS9MQYI",
+      "title": "Anthropic CEO We Dont Know if the Models Are Conscious",
+      "channel": "Interesting Times with Ross Douthat",
+      "upload_date": "2026-02-12",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-02-12_dario-amodei-models-conscious-ross-douthat.md",
+      "transcript_path": "data/transcripts/2026-02-12_anthropic-ceo-we-dont-know-if-the-models-are-conscious.json",
+      "predictions_count": 5
+    },
+    {
+      "video_id": "K7F6ohcBJus",
+      "title": "Anthropic CEO Dario Amodei From World Economic Forum WSJ",
+      "channel": "The Wall Street Journal",
+      "upload_date": "2026-01-20",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-20_dario-amodei-wef-wsj.md",
+      "transcript_path": "data/transcripts/2026-01-20_anthropic-ceo-dario-amodei-from-world-economic-forum-wsj.json",
+      "predictions_count": 7
+    },
+    {
+      "video_id": "hmtuvNfytjM",
+      "title": "Sam Altman Shows Me GPT 5 And Whats Next",
+      "channel": "Cleo Abram",
+      "upload_date": "2025-08-08",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2025-08-08_sam-altman-gpt5-and-whats-next.md",
+      "transcript_path": "data/transcripts/2025-08-08_sam-altman-shows-me-gpt-5-and-whats-next.json",
+      "predictions_count": 8
+    },
+    {
+      "video_id": "Kdql4I-NJ0M",
+      "title": "Ben and Marc: Why Everything Is About to Get 10x Bigger",
+      "channel": "a16z",
+      "upload_date": "2026-01-15",
+      "processed_date": "2026-02-25",
+      "status": "success",
+      "note_path": "vault/interviews/2026-01-15_ben-marc-why-everything-is-about-to-get-10x-bigger.md",
+      "transcript_path": "data/transcripts/2026-01-15_ben-and-marc-why-everything-is-about-to-get-10x-bigger.json",
+      "predictions_count": 5
     }
   ],
-  "last_run": "2026-02-24",
-  "total_processed": 17
+  "last_run": "2026-02-25",
+  "total_processed": 38
 }

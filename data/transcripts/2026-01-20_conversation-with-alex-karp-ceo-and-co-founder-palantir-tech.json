@@ -1,0 +1,3487 @@
+{
+  "metadata": {
+    "video_id": "_fqxZKdb3J0",
+    "url": "https://www.youtube.com/watch?v=_fqxZKdb3J0",
+    "title": "Conversation with Alex Karp CEO and Co-Founder Palantir Technologies",
+    "channel": "World Economic Forum",
+    "upload_date": "2026-01-20",
+    "duration": "34m",
+    "guests": [
+      "Alex Karp"
+    ],
+    "transcribed_date": "2026-02-25",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": ". Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. I want to just start off on something more intimate between he and I. I'm pretty proud of what I created at BlackRock. But my total return since I've been a CEO is only compounded at 21%. Since Alex and Palantir went public, his compounded return is 73%. So congratulations, Alec. But more importantly, we're in the middle of a profound technological shift. I think we all are hearing about it, reading about it, feeling it, being a part of it. And everybody's asking the question, you know, what can AI do for me or how can I translate it? What can it do for growth? What can it do for workers? What can it do for countries and national security? We are talking about it that it has the potential to grow capacity, to modernize industries, expand opportunity. It also will transform how we worked and where we work and how we work. And the question is, are governments prepared for that real transformation of a society? So we need to make sure that as it's deployed, it deploys in a way that empowers people, empowers institutions and builds a more resilient global economy. Few leaders are truly at this intersection, though. I am certainly not that leader. But in that intersection of technology, national security and the real economy, the way Alex Karp is. As co-founder and CEO of Palantir, Alex has closely worked with defense and government, private organizations to apply how AI can be used and more in the critical areas. And it's really important. And I must say, my conversations that I've had with Alex over the last year has really enlightened me. So I'm looking forward to this, Alex. So let me just start off. Sovereign states have often been early adapters of advanced technology. And I think we're seeing that really very, very intimately in the United States. But from your perspective, how is AI supporting decision making in defense and security? Well, first of all, delighted to be here. And with that introduction, maybe I should just stop. It's a good downhill from here. Would you like to talk about our return some more? And I'll just... It's just time. It's just... I've been in public 26 years, so... So, yeah, no, I think one of the things to remember, like the background, backdrop of your question, I think, is though you have... In America, and I would say also in Europe, historically, industrial development and military technology were obviously co-linked. And it is a generalization, but more true than not. You developed a product for the military that then was dual-functioned and raised the standard of living of the country. And then for lots of reasons, I'll just leave aside for now, that that's not the way at least technology was built until now there's all these defense tech startups and Palantir. And it was that you had this thing where you were going to create something that had to work under the harshest conditions that was presumably significantly better than anyone else's to the point where it would give you more than a slight advantage on a battlefield, especially if combined with your way of fighting. And you saw this... There was a very famous socialist German historian who said, well, one of the problems Germany had was the war-fighting machine was so good that they just said, well, we'll decide on the battlefield who's right. And that led to, obviously, lots of disjunctions and real problems. In the American context, and I would say there you have a dislocation between what has happened recently in America and what is happening in Europe and what I think... So I think America and China are kind of very successful. And I spent most of my adult life in Europe and I'm very pro-European. But I think any honest assessment is that's not gone very well. You built things that were... could be used in adverse conditions, so rough, dirty, morally gray conditions. So how do you change the morality to fit with how we fight in the West is also a big vector. So the morality is difficult. The conditions under which you use the technology are difficult. In software context, you're not directly connected to the network in many cases. You have constraints under which you have to fight, even though that's not the optimal way to fight. And you have very specialized ways of fighting in each country. But the positive side of that was that you also were building something that could be deployed that had an obvious value to the average citizen. Right. And so now you have this... The AI thing is many things that are really interesting about it. But if you start with the banality that I think until very, very recently, all kind of adversaries of broadly defined the West assumed that investments in software-based defense were some kind of crazy thing Americans do for marketing. Get rich, company blows up, you're on your beach in the Bahamas, but shareholders are happy and it's gone kind of thing. And what you've seen... So first of all, you could say, well, that's changed. But Jermaine, to your question, their learning process in building how do you build this for sovereign governments is also a learning process for how do they adopt these technologies. So it's not just the technology, because if you're building a tank like, you know, the British and then the French and then the Germans kind of optimized tank technology, it's easy to see how you would deploy it. But how do you deploy a system that's primary value is organizing parts on the battlefield without seeing the parts on the battlefield and seeing does it work? How much does it work? Is it much better than what we had? Can we do things we couldn't do in the past? And then there's a hidden thing about software, AI, that a lot of the value, interestingly, people always assume the value is from where you are to where you should be. And that's obvious. But in most sovereign nations in the world, and we deal with almost all in one form or another that are broadly defined as... And that could be, you know, it could deal with a company that's, you know, American. The actual technological rigor of the enterprises has significant holes in it. So it's like, you know, it's like it's very, I'm dyslexic, it's very dyslexic. There are like whole pieces of the enterprise that exist on a PowerPoint that when you go to battle, you will find out do not exist. And this, whatever country you're in, in this room, if you are in the West, this is a problem you have. A day of battlefield, you will find out this is one of the advantages that Ukrainians had. They essentially started from nothing. And so there wasn't, you didn't have to rediscover that your enterprise didn't work after you're in fighting. And one of the huge advantages America has is just for, you know, better or worse, I believe it or not, think mostly for worse. I was always against interventions. I'm not a neocon. We had just all this experience on the battlefield so you could see what worked and what didn't work. But pulling it back to, so the first thing that sovereign nations really struggle with is can I identify which tech is better objectively? Can I even rate it? Can I rate, I'm looking at, I can just say, yeah. But don't you need to know where you want to go to ask the right question? You know, that's, that's, that's, actually let me reframe it. You have to know where you are to know where you want to go. Okay. So like the point I'm making with this exegesis is one of the most important things Palantir has done on the battlefield is be able to make up for the fact that half your enterprise doesn't even work on the battlefield. It does work in a lab, on a PowerPoint, only built by country. It doesn't work because of machinery or human, or humans. Well, because the conditions of a battlefield are rough and ageous and, and like, for example, like the modern, if you just take Ukraine as an example, just to make it empirical, you know, as everyone like reads this and they're like, okay, well, how hard could it be to move a drone from A to B? Well, actually, first of all, you're going to need to know where you want to put the drone. That's going to require synchronizing all your data. You're going to need to do that without transferring that data to your adversary, which means you're going to have to know every single person who touched it. You're going to have to obfuscate it to the final thing. Then you're going to want to do it, presumably either within the accordance of your strategy or with your ethics. So where does it, where does it not go? You're going to want to be able to correlate. Do you want to put the drone on your asset? No one, only two people in Ukraine may know that one of the generals is your asset. You can't tell people that's your asset. How do you, how do you make it look like to your soldiers that you actually were taking people out and you just missed your asset? Then, and then the war advances. So the Russians, which are off, they're often very underestimated for reasons I don't understand, but like they're mathematically arguably the best in the world and things they may not have in the beginning, they can kind of cobble together. And so they began jamming electronics. So now you have a completely different problem, but you're presumably your enterprise has to be the same or developed because now it's not a question of going from A to B. It's a question of going through a completely jammed environment where you have no connectivity while actually collecting data while you go through that environment. And every one of those things is like a dynamic challenge, none of which were foreseen even before the Ukraine. Every single battle zone in the world has a, by the way, the other thing is then people fight differently. So like if you look at the big battlefields, I'm sure some people love our work here and some people hate it. By the way, we welcome all opinions at Palantir. Even inside Palantir, we have people who love our work and people who are unhappy with the work. We welcome all. That's a spirit of dialogue. It's a spirit of dialogue with a somewhat of a leader. But if you look at how the Ukrainians, it's a small team of people and very courageous soldiers that are very technical. They have highly technical people that have built on top of our product, things that we don't understand and proprietary ways of using the product. In Israel, they, according to rumors, use their intelligence. So most people fight military to military. This was intelligence in Iran, from what I can tell from the papers. And then in America, you just have massive forces that no other country has, but they had to be integrated. And the integration capacity, so every one of those things is different. And so the twofold role of enterprise software on a battlefield is one, to make sure all the underlying things actually works. And then two, to raise the level to a level no one else has in the world. Let me translate this now. I mean, there's so much technology that was created from defense, whether it was the internet, GPS. How do you envision this translating from defense and military to corporations, to businesses, to society? Well, first of all, the fact that it's basically a purely raw, naked environment means that you actually know the ground truth of what could work, independent of what enterprises think can work. And the general is, the thing at a high level, it's almost one-to-one translatable. But precisely because, as just to take enterprises in general, not all enterprises, tend to want to, over time, become like every other enterprise. So if you take five, you know, A enterprise and B enterprise and C enterprise, they're in the same market. Their tech infrastructure is trying to make them into the same enterprise. They have the same Orca chart. They have presumably roughly the same, they don't have the same data infrastructure. And what you learn on the battlefield is that, and in life is, that's not particularly valuable. What is very valuable is an enterprise can do something no enterprise in the world can do. And so that is the goal of every single military intelligence service. In fact, all these intelligence service and militaries have their own specialization. And so when we went to commerce, like what we're saying is, how can we make your insurance, the way you underwrite? How can we make that to your tribal knowledge about underwriting? How can we transform this to knowledge everyone has to a knowledge only you have and with efficiencies that no one else has? So, as an example, on the battlefield, one of the most important issues is how do you acquire data, process it, and then put it into a framework where it can be actioned, either from an intelligence perspective. Yeah. So, it's obviously, what does a business do? In the end of the day, what is a business doing? I mean, it is so, for example, especially in anything underwriting, banking, hospital intakes, it's information. It's information. It's sorting the information in a way that you have a distinct advantage over other people who are similarly situated. And that that advantage can't be eviscerated easily. And so, de facto, for what you can't, what you're doing on the battlefield with our products, without getting, I'm happy to, is like, what you're doing with ontology and foundry, in some cases on the battlefield, but definitely in like commercial organizations across the world, but especially in America, is when you approach the underwriter or the hospital, we power tons and tons of hospitals. Right. They have an intake problem. They all have an intake problem. They all have a shortage of doctors and nurses. They are working in a low margin environment. But every single one has a different way of processing their patients according to what their specialty is and the kind of patients they don't do well with and how do you manage that. And so the intake flow and into your enterprise in a way that you can actually process these things 10, 15 times faster than you could before. And then the other... That saves lives, then. It saves a lot of lives. It also, interestingly, because you're processing the LLM in an ontology, you have a structure. Despite what people may want to believe, it also bolsters civil liberties. Because now you can say, well, I mean, just simple questions. Was someone processed based on economic considerations? Or were they processed based on their background? Those things are impossible to see unless you have... Like there's a huge civil liberties betterment side of this that typically people don't believe we care about, but it's actually exactly the opposite. We do care. And, you know, showing is caring. And it's like we can granularly show why someone came in, why they were taken, why they were rejected. And we can do it in a way that makes business sense for the business itself. And then it leads to safety efficiencies. And probably brings down costs. Well, if you want to do a shorter kind of financial version, you basically, in the past, to do what we can do in the full light of a public market, you need to take the company private. So, and then you would take out the cost structure and you... that you'd probably resell it. Well, now you can take out the cost structure, make the workers more important. So, the actual workers, not the fat kind of in the middle. And then you can change the way they go to market. So, the... But in hospitals, you can process this information faster. Presumably, you'll have... Much faster and then the nurses... the nurses... the... one of the... the nurses and doctors are also happier. And, yeah. So, you... you... you suggested that for companies to rapidly adopt that they have to... The best way to do it is go in private, then they could restructure, but... No, no. What I'm suggesting is they don't have to do that anymore. They don't have to do that anymore. So, what is the basic... what is the basic hindrance in the adaption of the... of AI? Is it just legacy systems, legacy issues? What... How do you... Well... How do we accelerate the adoption that it's good for humanity? Well, I mean, our adoption accelerates beyond our capacity. So, it... it... the... I think if you just buy large language models off the shelf and try to do any of this, it won't work. It's a commodity. It's... and... Well, also, it's not precise enough. It... like... you can't do underwriting with... No. You can't... you couldn't do any of these things that are regulated. No. So, moving to, like, everybody... there's not... like... the... the problem with adoption at this point is people have tried things that just can never work. Like buying... you borrow a large language model, you put it on your stack, and you wonder why, you know, it's, like, not working. And so, what you're going to see, especially in America, is people trying to do something like what we do with ontology maybe by hand, because once you build a software layer to orchestrate and manage the large language models in a language that your enterprise understands, you actually can create value. I don't... I... I think, like, there's... like, there's a lot of discussions, like, are we in the AI bubble? What is the meaning of the bubble? Well, it's, like... I... I think what... if anything, we're just in a lag where there's a lot of AI, some of it works. Again, if you go back to the battlefield context, like, it... most people... everybody in the world assumed this would not work. But now it does work. And so, now the question isn't, does it work, but how can we get it to work for my country? And this is exactly what's happening... In companies. In companies. It's, like, oh, this company, it worked. Mine didn't. What are you doing? Like, for example, I mean, if you want to just make it, like, parochial to us, Palantir barely has a sales force. In fact, it seems to be getting smaller every time I go see them. And it's, like... and it's simply because you're laughing because you know it's Palantirians here, but it's getting smaller and smaller and smaller. And it's not because we're trying to save on the internet economics. It's actually because it is a low-trust environment in AI. People have tried lots of stuff. A lot of it hasn't worked. But if you've delivered stuff that does work, why do you need a sales force? Like, you just... It sells itself. Well, you have to say, hey, don't talk to us. And then that's on commercial. In government, at this point, it's really... We don't... Like, we don't... It's very hard to export simply because we have to train the people. And we have limited bandwidth. I was going to say, that's your limited bandwidth, the training. And then somebody takes on your software. Well, in the government context, every country, like, obviously has the equivalent of a security clearance. Right? So, to use our... To build Project Maven or Maven into your architecture, you're going to need somebody with the highest level of clearance that also is technical. And most technical people, unfortunately, are not going after the highest level of clearance. So, there are very, very few people like that. So, that resource is super scarce. And then they have to be trained. And that takes... That can take a while. And then you also have to have, like anything, you really have to believe in this and really think it's important. And you know, not everybody fits in that category. How many people need to be trained to do this? I mean, does it... In a corporate level, does it have to be from the CEO down? How does this work? As you add... Well... You're talking about, like, insurance underwriting. Well, like, you know, yeah. So, insurance underwriting... The way it works is the best case scenario. You have the best and worst case scenario. Best case scenario, CEO is mathematically inclined. Even though they may not know nothing about product, but you can... They can impute a product working by looking at the math. And has... And then we probably need to train five or six people on there. And in the beginning, we do all of it. And then we transfer that as much as we can to them. Or we're trying to partner with people who can do that with us. But you need a small number of people. But we still need more than we have. You suggested repeatedly about how AI could strengthen foundations for an economy. Especially, we're seeing that in the United States. How rapidly can AI change the growth trajectory? Because you mentioned that earlier about how it could improve the economies, the well-being of companies. Well, in a lot of these things, there's a speed question. But I think, like, with a lot of our companies, it's like we can take out... In the area we go in, up to 80% of your cost and improve your top line dramatically. But it really depends on the use case and what we're doing. And then there's a speed function, which is we can... In the past, five years ago, that would take us a year. Sure. Now it could take a week. Yeah. Let me further that question, though. I'm sure it's on the minds of some people here. Is AI going to create jobs or destroy jobs overall? Yeah. I think one of the unfortunate things of the narrative in the West is it will destroy humanity's jobs of, like, you know, you went to an elite school and you studied philosophy. I'll use myself as an example. I did, too. Yeah. Hopefully, you have some other skill. That one is going to be hard to market. It was always hard to market. It was hard to market. Very hard. It was a good education. A very, very strong education. If you can get a job, you might keep it. At the heart, that's what I always thought. It was like, if I finally get a job, I'll probably keep it and do well, but I'm not sure who's going to give me my first job. But, like, technicians. If you're a vocational technician or, like, we're building batteries for a battery company, and the people who are doing it in America are doing roughly the same job that Japanese engineers are doing, and they went to high school. And now they're very valuable, if not irreplaceable, because we can make them into something different than what they were very rapidly. And those jobs are going to become more valuable. I mean, you know, not to divert some of my usual political screeds, but there will be more than enough jobs for the citizens of your nation, especially those with vocational training. I do think these trends really do make it hard to imagine why we should have large scale immigration unless you have a very specialized skill. Because. What about the foundation for white collar work in Europe and the United States has been through the universities. But I just heard you say we're going to need more vocational men and women, and they may, they're going to be, but are you also insinuating we're probably going to need less white collar? I think, like, I think what we need to do is, yes, but I think we need different ways of testing aptitude. You know, it's like, you know, there are a lot of people doing X that should be doing Y. Like if you could manage one of our, just like, just the person managing our MAVEN system in the U.S. Army is a former police officer who I think went to a junior college. And they're doing very, very high end, very complicated targeting globally. And that person actually is irreplaceable. And I think in the past, the way we tested for aptitude would not have fully exposed how irreplaceable that person's talents are. And would they have been as talented if they had not gone to their college? And, but I think the, the, I tend to, even inside Palantir, if you look at inside Palantir, what am I really doing all day? I'm walking around figuring out what is someone's outlier aptitude. And then I'm putting them on that thing and trying to get them to stay on that thing and not on the five other things they think they're great at. Like, you know. Keeping their. Yeah, it's like, well, you know, everyone at Palantir, every, every engineer at Palantir, it's the most, wherever I go in the world, like for, for, as you know, maybe for 18 years, everyone thought we were like a business joke. And now lots of business people want my advice. You know, the only people who don't want my advice at Palantir about business are Palantir engineers. They're like, hey, Alex, I have an idea about how we could just be in a much better company. And it's, it's always like, yeah, it's like, it's like literally McDonald's, but it's like, we should have some titles and you should stop speaking in public. And, yeah, and then, I mean, there's probably right about speaking in public sometimes. I certainly admit that. I don't think you, I don't think you did anything wrong today. Yeah, so, yeah, thank you for that high praise. One of the keys to success is setting the bar very low. Yes. No, I don't believe that's how you operate Palantir. One last question. Where, where is this, where will the curve of AI go in the utilization? In the United States? In other developed economies? But what about the developing economies? How, can they participate in this? I mean, I read a research report yesterday that said the application of AI has been so dominant by societies of high education or companies of high education. And they're seeing a very big divergence that is occurring already. And it's so much based on the application of education and how that is being utilized. So, is AI going to create more, a greater imbalance in our world in terms of growth? Well, I think the obvious first imbalance is it seems like America and China understand versions of making this work and they're different. Yes. But they both work and they work at scale. And I think that is very likely to accelerate way beyond what most people believe is possible. Like the discount rate, I think, not in the short term, but in the long term, is way too high on what will be done and how this will impact every aspect of our society. And I would say, especially on military, and then I tend to be a realist in that. I think, you know, you have wide divergences. It's going to be hard to have the kind of discussions people want to have where two countries are. And with maybe a third following of Russia on the like, because they're so good at fighting. But, and then, and then I, I look, I spent, and I'll get to the developing world. I spent a lot of my life, my most important years, and my father's family came from a part of Germany. And I, I really care about Europe and especially the German parts of Europe, where I had many of my best years. I still fantasize of going back to grad school for not for the learning reasons. And, and, and, I had so much fun. Oh, we won't go into that. But it's like endless. I sometimes when I'm traveling across the country, I just think of grad school. But, it's, but, I, the, the tech adoption in, in, in Europe is a serious and very, very structural problem. And, what scares me the most is I haven't seen any political leader just stand up and say, we have a serious and structural problem that we are going to fix. So, that, then you get to the developing world. I would imagine, it also depends what you mean by the developing world. I would imagine with not enough knowledge, you're just going to find pockets that go very well and pockets that go very poorly. As a generalization, like, again, if you go back to this somewhat non-successful solopsy I had about the underlying architecture, one way to look at the unfairness of AI is it pen tests, meaning it load bears on things. So, societies that can, and organizations and companies that can bear that load have a huge advantage. The problem is if you can't, if you've been pretending you're bearing a load you're not, it collapses and that's where you have to start. And so, if you go around and just say, okay, what societies and microcultures are going to be load bearing here? I think you would find that parts of the developing world, certain communities in that are going to do very well. You do need a realistic assessment of the load bearing. And there's a certain honesty that is painful for all of us in this technology, large language models, however, implemented in software. You just cannot obfuscate what can bear the load and what can't. And then political structures are built to do just that. Like, yeah, I can't fix anything, but I can give you some bullshit line that you want to hear that's going to make you not care about how bad your life is and how much worse it's going to be tomorrow. I can give you that for free. And that stuff is harder to get away with in this culture. And, you know, I still view myself as a card-carrying progressive. And I think it's the single most important thing a progressive could do is go around and say, yeah, but the revolution that's coming is going to expose the actual market value of what you're doing. Whether we want it or not. Like, it's like I don't even want to know the market value of some of this stuff. But it is over and over a relative rapid period of time. So next three years, you're just going to get market value, honesty in all sorts of communities and micro communities. And the best thing you can do if you are in a community, whether that is a large community like Germany or a large community larger like America is, and you really care for the people you're representing, is to say, yeah, but let's, we have to kind of look closely at what load we can bear. Thank you, Alex. Thank you. Thank you, everyone. Thank you. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.0,
+      "text": "."
+    },
+    {
+      "id": 1,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 2,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 3,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 4,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 5,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 6,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 7,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 8,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 9,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 10,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 11,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 12,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 13,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 14,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 15,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 16,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 17,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 18,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 19,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 20,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 21,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 22,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 23,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 24,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 25,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 26,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 27,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 28,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 29,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 30,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 31,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 32,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 33,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 34,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 35,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 36,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 37,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 38,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 39,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 40,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 41,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 42,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 43,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 44,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 45,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 46,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 47,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 48,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 49,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 50,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 51,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 52,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 53,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 54,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 55,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 56,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 57,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 58,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 59,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 60,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 61,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 62,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 63,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 64,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 65,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 66,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 67,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 68,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 69,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 70,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 71,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 72,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 73,
+      "start": 3.0,
+      "end": 3.0,
+      "text": ""
+    },
+    {
+      "id": 74,
+      "start": 3.0,
+      "end": 32.980000000000004,
+      "text": "Thank you."
+    },
+    {
+      "id": 75,
+      "start": 33.0,
+      "end": 62.980000000000004,
+      "text": "Thank you."
+    },
+    {
+      "id": 76,
+      "start": 63.0,
+      "end": 92.98,
+      "text": "Thank you."
+    },
+    {
+      "id": 77,
+      "start": 93.0,
+      "end": 122.98,
+      "text": "Thank you."
+    },
+    {
+      "id": 78,
+      "start": 122.98,
+      "end": 124.98,
+      "text": "Thank you."
+    },
+    {
+      "id": 79,
+      "start": 124.98,
+      "end": 125.98,
+      "text": "Thank you."
+    },
+    {
+      "id": 80,
+      "start": 125.98,
+      "end": 126.98,
+      "text": "Thank you."
+    },
+    {
+      "id": 81,
+      "start": 126.98,
+      "end": 127.98,
+      "text": "Thank you."
+    },
+    {
+      "id": 82,
+      "start": 127.98,
+      "end": 128.98000000000002,
+      "text": "Thank you."
+    },
+    {
+      "id": 83,
+      "start": 128.98000000000002,
+      "end": 129.98000000000002,
+      "text": "Thank you."
+    },
+    {
+      "id": 84,
+      "start": 129.98,
+      "end": 154.98,
+      "text": "I want to just start off on something more intimate between he and I. I'm pretty proud of what I created at BlackRock. But my total return since I've been a CEO is only compounded at 21%. Since Alex and Palantir went public, his compounded return is 73%. So congratulations, Alec."
+    },
+    {
+      "id": 85,
+      "start": 154.98,
+      "end": 162.89999999999998,
+      "text": "But more importantly, we're in the middle of a profound technological shift."
+    },
+    {
+      "id": 86,
+      "start": 162.89999999999998,
+      "end": 168.1,
+      "text": "I think we all are hearing about it, reading about it, feeling it, being a part of it."
+    },
+    {
+      "id": 87,
+      "start": 168.1,
+      "end": 173.42,
+      "text": "And everybody's asking the question, you know, what can AI do for me or how can I translate"
+    },
+    {
+      "id": 88,
+      "start": 173.42,
+      "end": 174.42,
+      "text": "it?"
+    },
+    {
+      "id": 89,
+      "start": 174.42,
+      "end": 175.42,
+      "text": "What can it do for growth?"
+    },
+    {
+      "id": 90,
+      "start": 175.42,
+      "end": 176.72,
+      "text": "What can it do for workers?"
+    },
+    {
+      "id": 91,
+      "start": 176.72,
+      "end": 181.38,
+      "text": "What can it do for countries and national security?"
+    },
+    {
+      "id": 92,
+      "start": 181.38,
+      "end": 188.1,
+      "text": "We are talking about it that it has the potential to grow capacity, to modernize industries,"
+    },
+    {
+      "id": 93,
+      "start": 188.1,
+      "end": 190.28,
+      "text": "expand opportunity."
+    },
+    {
+      "id": 94,
+      "start": 190.28,
+      "end": 194.98,
+      "text": "It also will transform how we worked and where we work and how we work."
+    },
+    {
+      "id": 95,
+      "start": 194.98,
+      "end": 202.76,
+      "text": "And the question is, are governments prepared for that real transformation of a society?"
+    },
+    {
+      "id": 96,
+      "start": 202.76,
+      "end": 208.78,
+      "text": "So we need to make sure that as it's deployed, it deploys in a way that empowers people, empowers"
+    },
+    {
+      "id": 97,
+      "start": 208.78,
+      "end": 214.0,
+      "text": "institutions and builds a more resilient global economy."
+    },
+    {
+      "id": 98,
+      "start": 214.0,
+      "end": 218.54,
+      "text": "Few leaders are truly at this intersection, though."
+    },
+    {
+      "id": 99,
+      "start": 218.54,
+      "end": 220.62,
+      "text": "I am certainly not that leader."
+    },
+    {
+      "id": 100,
+      "start": 220.62,
+      "end": 226.98,
+      "text": "But in that intersection of technology, national security and the real economy, the way Alex"
+    },
+    {
+      "id": 101,
+      "start": 226.98,
+      "end": 229.52,
+      "text": "Karp is."
+    },
+    {
+      "id": 102,
+      "start": 229.52,
+      "end": 236.70000000000002,
+      "text": "As co-founder and CEO of Palantir, Alex has closely worked with defense and government,"
+    },
+    {
+      "id": 103,
+      "start": 236.70000000000002,
+      "end": 245.32000000000002,
+      "text": "private organizations to apply how AI can be used and more in the critical areas."
+    },
+    {
+      "id": 104,
+      "start": 245.32000000000002,
+      "end": 247.42000000000002,
+      "text": "And it's really important."
+    },
+    {
+      "id": 105,
+      "start": 247.42000000000002,
+      "end": 252.76000000000002,
+      "text": "And I must say, my conversations that I've had with Alex over the last year has really"
+    },
+    {
+      "id": 106,
+      "start": 252.76000000000002,
+      "end": 254.82000000000002,
+      "text": "enlightened me."
+    },
+    {
+      "id": 107,
+      "start": 254.82,
+      "end": 257.38,
+      "text": "So I'm looking forward to this, Alex."
+    },
+    {
+      "id": 108,
+      "start": 257.38,
+      "end": 258.65999999999997,
+      "text": "So let me just start off."
+    },
+    {
+      "id": 109,
+      "start": 258.65999999999997,
+      "end": 263.14,
+      "text": "Sovereign states have often been early adapters of advanced technology."
+    },
+    {
+      "id": 110,
+      "start": 263.14,
+      "end": 267.56,
+      "text": "And I think we're seeing that really very, very intimately in the United States."
+    },
+    {
+      "id": 111,
+      "start": 267.56,
+      "end": 273.58,
+      "text": "But from your perspective, how is AI supporting decision making in defense and security?"
+    },
+    {
+      "id": 112,
+      "start": 273.58,
+      "end": 276.2,
+      "text": "Well, first of all, delighted to be here."
+    },
+    {
+      "id": 113,
+      "start": 276.2,
+      "end": 278.58,
+      "text": "And with that introduction, maybe I should just stop."
+    },
+    {
+      "id": 114,
+      "start": 278.58,
+      "end": 280.62,
+      "text": "It's a good downhill from here."
+    },
+    {
+      "id": 115,
+      "start": 280.62,
+      "end": 283.18,
+      "text": "Would you like to talk about our return some more?"
+    },
+    {
+      "id": 116,
+      "start": 283.18,
+      "end": 284.18,
+      "text": "And I'll just..."
+    },
+    {
+      "id": 117,
+      "start": 284.18,
+      "end": 285.18,
+      "text": "It's just time."
+    },
+    {
+      "id": 118,
+      "start": 285.18,
+      "end": 286.18,
+      "text": "It's just..."
+    },
+    {
+      "id": 119,
+      "start": 286.18,
+      "end": 289.18,
+      "text": "I've been in public 26 years, so..."
+    },
+    {
+      "id": 120,
+      "start": 289.18,
+      "end": 296.24,
+      "text": "So, yeah, no, I think one of the things to remember, like the background, backdrop of"
+    },
+    {
+      "id": 121,
+      "start": 296.24,
+      "end": 301.24,
+      "text": "your question, I think, is though you have..."
+    },
+    {
+      "id": 122,
+      "start": 301.24,
+      "end": 311.3,
+      "text": "In America, and I would say also in Europe, historically, industrial development and military technology"
+    },
+    {
+      "id": 123,
+      "start": 311.3,
+      "end": 314.3,
+      "text": "were obviously co-linked."
+    },
+    {
+      "id": 124,
+      "start": 314.3,
+      "end": 318.8,
+      "text": "And it is a generalization, but more true than not."
+    },
+    {
+      "id": 125,
+      "start": 318.8,
+      "end": 326.76,
+      "text": "You developed a product for the military that then was dual-functioned and raised the standard"
+    },
+    {
+      "id": 126,
+      "start": 326.76,
+      "end": 331.02,
+      "text": "of living of the country."
+    },
+    {
+      "id": 127,
+      "start": 331.02,
+      "end": 338.02,
+      "text": "And then for lots of reasons, I'll just leave aside for now, that that's not the way at least"
+    },
+    {
+      "id": 128,
+      "start": 338.02,
+      "end": 344.02,
+      "text": "technology was built until now there's all these defense tech startups and Palantir."
+    },
+    {
+      "id": 129,
+      "start": 344.02,
+      "end": 352.06,
+      "text": "And it was that you had this thing where you were going to create something that had to work"
+    },
+    {
+      "id": 130,
+      "start": 352.06,
+      "end": 360.24,
+      "text": "under the harshest conditions that was presumably significantly better than anyone else's to the"
+    },
+    {
+      "id": 131,
+      "start": 360.24,
+      "end": 366.41999999999996,
+      "text": "point where it would give you more than a slight advantage on a battlefield, especially if combined"
+    },
+    {
+      "id": 132,
+      "start": 366.42,
+      "end": 369.92,
+      "text": "with your way of fighting."
+    },
+    {
+      "id": 133,
+      "start": 369.92,
+      "end": 371.18,
+      "text": "And you saw this..."
+    },
+    {
+      "id": 134,
+      "start": 371.18,
+      "end": 381.3,
+      "text": "There was a very famous socialist German historian who said, well, one of the problems Germany"
+    },
+    {
+      "id": 135,
+      "start": 381.3,
+      "end": 385.62,
+      "text": "had was the war-fighting machine was so good that they just said, well, we'll decide on the"
+    },
+    {
+      "id": 136,
+      "start": 385.62,
+      "end": 387.34000000000003,
+      "text": "battlefield who's right."
+    },
+    {
+      "id": 137,
+      "start": 387.34000000000003,
+      "end": 392.70000000000005,
+      "text": "And that led to, obviously, lots of disjunctions and real problems."
+    },
+    {
+      "id": 138,
+      "start": 392.7,
+      "end": 400.21999999999997,
+      "text": "In the American context, and I would say there you have a dislocation between what has happened"
+    },
+    {
+      "id": 139,
+      "start": 400.21999999999997,
+      "end": 404.76,
+      "text": "recently in America and what is happening in Europe and what I think..."
+    },
+    {
+      "id": 140,
+      "start": 404.76,
+      "end": 408.3,
+      "text": "So I think America and China are kind of very successful."
+    },
+    {
+      "id": 141,
+      "start": 408.3,
+      "end": 412.46,
+      "text": "And I spent most of my adult life in Europe and I'm very pro-European."
+    },
+    {
+      "id": 142,
+      "start": 412.46,
+      "end": 417.48,
+      "text": "But I think any honest assessment is that's not gone very well."
+    },
+    {
+      "id": 143,
+      "start": 417.48,
+      "end": 427.22,
+      "text": "You built things that were... could be used in adverse conditions, so rough, dirty, morally"
+    },
+    {
+      "id": 144,
+      "start": 427.22,
+      "end": 428.22,
+      "text": "gray conditions."
+    },
+    {
+      "id": 145,
+      "start": 428.22,
+      "end": 432.88,
+      "text": "So how do you change the morality to fit with how we fight in the West is also a big vector."
+    },
+    {
+      "id": 146,
+      "start": 432.88,
+      "end": 435.88,
+      "text": "So the morality is difficult."
+    },
+    {
+      "id": 147,
+      "start": 435.88,
+      "end": 439.0,
+      "text": "The conditions under which you use the technology are difficult."
+    },
+    {
+      "id": 148,
+      "start": 439.0,
+      "end": 445.72,
+      "text": "In software context, you're not directly connected to the network in many cases."
+    },
+    {
+      "id": 149,
+      "start": 445.72,
+      "end": 449.76000000000005,
+      "text": "You have constraints under which you have to fight, even though that's not the optimal"
+    },
+    {
+      "id": 150,
+      "start": 449.76000000000005,
+      "end": 450.8,
+      "text": "way to fight."
+    },
+    {
+      "id": 151,
+      "start": 450.8,
+      "end": 454.86,
+      "text": "And you have very specialized ways of fighting in each country."
+    },
+    {
+      "id": 152,
+      "start": 454.86,
+      "end": 461.62,
+      "text": "But the positive side of that was that you also were building something that could be deployed"
+    },
+    {
+      "id": 153,
+      "start": 461.62,
+      "end": 464.90000000000003,
+      "text": "that had an obvious value to the average citizen."
+    },
+    {
+      "id": 154,
+      "start": 464.90000000000003,
+      "end": 465.90000000000003,
+      "text": "Right."
+    },
+    {
+      "id": 155,
+      "start": 465.9,
+      "end": 467.9,
+      "text": "And so now you have this..."
+    },
+    {
+      "id": 156,
+      "start": 467.9,
+      "end": 471.91999999999996,
+      "text": "The AI thing is many things that are really interesting about it."
+    },
+    {
+      "id": 157,
+      "start": 471.91999999999996,
+      "end": 481.79999999999995,
+      "text": "But if you start with the banality that I think until very, very recently, all kind of adversaries"
+    },
+    {
+      "id": 158,
+      "start": 481.79999999999995,
+      "end": 491.79999999999995,
+      "text": "of broadly defined the West assumed that investments in software-based defense were some kind of crazy"
+    },
+    {
+      "id": 159,
+      "start": 491.8,
+      "end": 494.88,
+      "text": "thing Americans do for marketing."
+    },
+    {
+      "id": 160,
+      "start": 494.88,
+      "end": 500.36,
+      "text": "Get rich, company blows up, you're on your beach in the Bahamas, but shareholders are happy and"
+    },
+    {
+      "id": 161,
+      "start": 500.36,
+      "end": 502.52000000000004,
+      "text": "it's gone kind of thing."
+    },
+    {
+      "id": 162,
+      "start": 502.52000000000004,
+      "end": 507.90000000000003,
+      "text": "And what you've seen..."
+    },
+    {
+      "id": 163,
+      "start": 507.90000000000003,
+      "end": 511.2,
+      "text": "So first of all, you could say, well, that's changed."
+    },
+    {
+      "id": 164,
+      "start": 511.2,
+      "end": 517.34,
+      "text": "But Jermaine, to your question, their learning process in building how do you build this for"
+    },
+    {
+      "id": 165,
+      "start": 517.34,
+      "end": 521.84,
+      "text": "sovereign governments is also a learning process for how do they adopt these technologies."
+    },
+    {
+      "id": 166,
+      "start": 521.84,
+      "end": 526.22,
+      "text": "So it's not just the technology, because if you're building a tank like, you know, the"
+    },
+    {
+      "id": 167,
+      "start": 526.22,
+      "end": 530.86,
+      "text": "British and then the French and then the Germans kind of optimized tank technology, it's easy"
+    },
+    {
+      "id": 168,
+      "start": 530.86,
+      "end": 532.82,
+      "text": "to see how you would deploy it."
+    },
+    {
+      "id": 169,
+      "start": 532.82,
+      "end": 538.32,
+      "text": "But how do you deploy a system that's primary value is organizing parts on the battlefield"
+    },
+    {
+      "id": 170,
+      "start": 538.32,
+      "end": 542.2,
+      "text": "without seeing the parts on the battlefield and seeing does it work?"
+    },
+    {
+      "id": 171,
+      "start": 542.2,
+      "end": 543.3000000000001,
+      "text": "How much does it work?"
+    },
+    {
+      "id": 172,
+      "start": 543.3000000000001,
+      "end": 544.8000000000001,
+      "text": "Is it much better than what we had?"
+    },
+    {
+      "id": 173,
+      "start": 544.8,
+      "end": 547.5,
+      "text": "Can we do things we couldn't do in the past?"
+    },
+    {
+      "id": 174,
+      "start": 547.5,
+      "end": 554.52,
+      "text": "And then there's a hidden thing about software, AI, that a lot of the value, interestingly,"
+    },
+    {
+      "id": 175,
+      "start": 554.52,
+      "end": 559.64,
+      "text": "people always assume the value is from where you are to where you should be."
+    },
+    {
+      "id": 176,
+      "start": 559.64,
+      "end": 560.64,
+      "text": "And that's obvious."
+    },
+    {
+      "id": 177,
+      "start": 560.64,
+      "end": 565.8599999999999,
+      "text": "But in most sovereign nations in the world, and we deal with almost all in one form or another"
+    },
+    {
+      "id": 178,
+      "start": 565.8599999999999,
+      "end": 568.4599999999999,
+      "text": "that are broadly defined as..."
+    },
+    {
+      "id": 179,
+      "start": 568.46,
+      "end": 574.84,
+      "text": "And that could be, you know, it could deal with a company that's, you know, American."
+    },
+    {
+      "id": 180,
+      "start": 574.84,
+      "end": 583.1800000000001,
+      "text": "The actual technological rigor of the enterprises has significant holes in it."
+    },
+    {
+      "id": 181,
+      "start": 583.1800000000001,
+      "end": 587.74,
+      "text": "So it's like, you know, it's like it's very, I'm dyslexic, it's very dyslexic."
+    },
+    {
+      "id": 182,
+      "start": 587.74,
+      "end": 593.32,
+      "text": "There are like whole pieces of the enterprise that exist on a PowerPoint that when you go to"
+    },
+    {
+      "id": 183,
+      "start": 593.32,
+      "end": 596.0200000000001,
+      "text": "battle, you will find out do not exist."
+    },
+    {
+      "id": 184,
+      "start": 596.0200000000001,
+      "end": 600.9000000000001,
+      "text": "And this, whatever country you're in, in this room, if you are in the West, this is a problem"
+    },
+    {
+      "id": 185,
+      "start": 600.9000000000001,
+      "end": 601.9000000000001,
+      "text": "you have."
+    },
+    {
+      "id": 186,
+      "start": 601.9000000000001,
+      "end": 607.1,
+      "text": "A day of battlefield, you will find out this is one of the advantages that Ukrainians had."
+    },
+    {
+      "id": 187,
+      "start": 607.1,
+      "end": 609.12,
+      "text": "They essentially started from nothing."
+    },
+    {
+      "id": 188,
+      "start": 609.12,
+      "end": 614.7,
+      "text": "And so there wasn't, you didn't have to rediscover that your enterprise didn't work after you're"
+    },
+    {
+      "id": 189,
+      "start": 614.7,
+      "end": 615.7,
+      "text": "in fighting."
+    },
+    {
+      "id": 190,
+      "start": 615.7,
+      "end": 620.2,
+      "text": "And one of the huge advantages America has is just for, you know, better or worse, I believe"
+    },
+    {
+      "id": 191,
+      "start": 620.2,
+      "end": 621.76,
+      "text": "it or not, think mostly for worse."
+    },
+    {
+      "id": 192,
+      "start": 621.76,
+      "end": 623.9,
+      "text": "I was always against interventions."
+    },
+    {
+      "id": 193,
+      "start": 623.9,
+      "end": 629.24,
+      "text": "I'm not a neocon."
+    },
+    {
+      "id": 194,
+      "start": 629.24,
+      "end": 633.1800000000001,
+      "text": "We had just all this experience on the battlefield so you could see what worked and what didn't"
+    },
+    {
+      "id": 195,
+      "start": 633.1800000000001,
+      "end": 634.1800000000001,
+      "text": "work."
+    },
+    {
+      "id": 196,
+      "start": 634.18,
+      "end": 640.52,
+      "text": "But pulling it back to, so the first thing that sovereign nations really struggle with"
+    },
+    {
+      "id": 197,
+      "start": 640.52,
+      "end": 644.2399999999999,
+      "text": "is can I identify which tech is better objectively?"
+    },
+    {
+      "id": 198,
+      "start": 644.2399999999999,
+      "end": 645.52,
+      "text": "Can I even rate it?"
+    },
+    {
+      "id": 199,
+      "start": 645.52,
+      "end": 648.68,
+      "text": "Can I rate, I'm looking at, I can just say, yeah."
+    },
+    {
+      "id": 200,
+      "start": 648.68,
+      "end": 652.92,
+      "text": "But don't you need to know where you want to go to ask the right question?"
+    },
+    {
+      "id": 201,
+      "start": 652.92,
+      "end": 657.9,
+      "text": "You know, that's, that's, that's, actually let me reframe it."
+    },
+    {
+      "id": 202,
+      "start": 657.9,
+      "end": 660.78,
+      "text": "You have to know where you are to know where you want to go."
+    },
+    {
+      "id": 203,
+      "start": 660.78,
+      "end": 661.78,
+      "text": "Okay."
+    },
+    {
+      "id": 204,
+      "start": 661.78,
+      "end": 666.66,
+      "text": "So like the point I'm making with this exegesis is one of the most important things Palantir"
+    },
+    {
+      "id": 205,
+      "start": 666.66,
+      "end": 671.12,
+      "text": "has done on the battlefield is be able to make up for the fact that half your enterprise"
+    },
+    {
+      "id": 206,
+      "start": 671.12,
+      "end": 673.54,
+      "text": "doesn't even work on the battlefield."
+    },
+    {
+      "id": 207,
+      "start": 673.54,
+      "end": 677.62,
+      "text": "It does work in a lab, on a PowerPoint, only built by country."
+    },
+    {
+      "id": 208,
+      "start": 677.62,
+      "end": 682.12,
+      "text": "It doesn't work because of machinery or human, or humans."
+    },
+    {
+      "id": 209,
+      "start": 682.12,
+      "end": 687.84,
+      "text": "Well, because the conditions of a battlefield are rough and ageous and, and like, for example,"
+    },
+    {
+      "id": 210,
+      "start": 687.84,
+      "end": 691.72,
+      "text": "like the modern, if you just take Ukraine as an example, just to make it empirical, you"
+    },
+    {
+      "id": 211,
+      "start": 691.72,
+      "end": 696.0,
+      "text": "know, as everyone like reads this and they're like, okay, well, how hard could it be to move"
+    },
+    {
+      "id": 212,
+      "start": 696.0,
+      "end": 698.46,
+      "text": "a drone from A to B?"
+    },
+    {
+      "id": 213,
+      "start": 698.46,
+      "end": 703.34,
+      "text": "Well, actually, first of all, you're going to need to know where you want to put the drone."
+    },
+    {
+      "id": 214,
+      "start": 703.34,
+      "end": 706.46,
+      "text": "That's going to require synchronizing all your data."
+    },
+    {
+      "id": 215,
+      "start": 706.46,
+      "end": 709.84,
+      "text": "You're going to need to do that without transferring that data to your adversary, which means you're"
+    },
+    {
+      "id": 216,
+      "start": 709.84,
+      "end": 711.96,
+      "text": "going to have to know every single person who touched it."
+    },
+    {
+      "id": 217,
+      "start": 711.96,
+      "end": 714.58,
+      "text": "You're going to have to obfuscate it to the final thing."
+    },
+    {
+      "id": 218,
+      "start": 714.58,
+      "end": 718.34,
+      "text": "Then you're going to want to do it, presumably either within the accordance of your strategy"
+    },
+    {
+      "id": 219,
+      "start": 718.34,
+      "end": 719.86,
+      "text": "or with your ethics."
+    },
+    {
+      "id": 220,
+      "start": 719.86,
+      "end": 722.52,
+      "text": "So where does it, where does it not go?"
+    },
+    {
+      "id": 221,
+      "start": 722.52,
+      "end": 724.3000000000001,
+      "text": "You're going to want to be able to correlate."
+    },
+    {
+      "id": 222,
+      "start": 724.3,
+      "end": 727.24,
+      "text": "Do you want to put the drone on your asset?"
+    },
+    {
+      "id": 223,
+      "start": 727.24,
+      "end": 731.5999999999999,
+      "text": "No one, only two people in Ukraine may know that one of the generals is your asset."
+    },
+    {
+      "id": 224,
+      "start": 731.5999999999999,
+      "end": 733.3,
+      "text": "You can't tell people that's your asset."
+    },
+    {
+      "id": 225,
+      "start": 733.3,
+      "end": 737.3,
+      "text": "How do you, how do you make it look like to your soldiers that you actually were taking"
+    },
+    {
+      "id": 226,
+      "start": 737.3,
+      "end": 740.02,
+      "text": "people out and you just missed your asset?"
+    },
+    {
+      "id": 227,
+      "start": 740.02,
+      "end": 741.9399999999999,
+      "text": "Then, and then the war advances."
+    },
+    {
+      "id": 228,
+      "start": 741.9399999999999,
+      "end": 747.9399999999999,
+      "text": "So the Russians, which are off, they're often very underestimated for reasons I don't understand,"
+    },
+    {
+      "id": 229,
+      "start": 747.9399999999999,
+      "end": 752.74,
+      "text": "but like they're mathematically arguably the best in the world and things they may not"
+    },
+    {
+      "id": 230,
+      "start": 752.74,
+      "end": 755.88,
+      "text": "have in the beginning, they can kind of cobble together."
+    },
+    {
+      "id": 231,
+      "start": 755.88,
+      "end": 758.16,
+      "text": "And so they began jamming electronics."
+    },
+    {
+      "id": 232,
+      "start": 758.16,
+      "end": 762.36,
+      "text": "So now you have a completely different problem, but you're presumably your enterprise has to"
+    },
+    {
+      "id": 233,
+      "start": 762.36,
+      "end": 766.4,
+      "text": "be the same or developed because now it's not a question of going from A to B. It's a question"
+    },
+    {
+      "id": 234,
+      "start": 766.4,
+      "end": 772.26,
+      "text": "of going through a completely jammed environment where you have no connectivity while actually"
+    },
+    {
+      "id": 235,
+      "start": 772.26,
+      "end": 775.0,
+      "text": "collecting data while you go through that environment."
+    },
+    {
+      "id": 236,
+      "start": 775.0,
+      "end": 781.18,
+      "text": "And every one of those things is like a dynamic challenge, none of which were foreseen even"
+    },
+    {
+      "id": 237,
+      "start": 781.18,
+      "end": 782.46,
+      "text": "before the Ukraine."
+    },
+    {
+      "id": 238,
+      "start": 782.46,
+      "end": 788.52,
+      "text": "Every single battle zone in the world has a, by the way, the other thing is then people"
+    },
+    {
+      "id": 239,
+      "start": 788.52,
+      "end": 789.76,
+      "text": "fight differently."
+    },
+    {
+      "id": 240,
+      "start": 789.76,
+      "end": 794.56,
+      "text": "So like if you look at the big battlefields, I'm sure some people love our work here and"
+    },
+    {
+      "id": 241,
+      "start": 794.56,
+      "end": 795.56,
+      "text": "some people hate it."
+    },
+    {
+      "id": 242,
+      "start": 795.56,
+      "end": 798.66,
+      "text": "By the way, we welcome all opinions at Palantir."
+    },
+    {
+      "id": 243,
+      "start": 798.66,
+      "end": 802.46,
+      "text": "Even inside Palantir, we have people who love our work and people who are unhappy with the"
+    },
+    {
+      "id": 244,
+      "start": 802.46,
+      "end": 803.46,
+      "text": "work."
+    },
+    {
+      "id": 245,
+      "start": 803.46,
+      "end": 804.46,
+      "text": "We welcome all."
+    },
+    {
+      "id": 246,
+      "start": 804.46,
+      "end": 805.46,
+      "text": "That's a spirit of dialogue."
+    },
+    {
+      "id": 247,
+      "start": 805.46,
+      "end": 812.52,
+      "text": "It's a spirit of dialogue with a somewhat of a leader."
+    },
+    {
+      "id": 248,
+      "start": 812.52,
+      "end": 822.0600000000001,
+      "text": "But if you look at how the Ukrainians, it's a small team of people and very courageous soldiers"
+    },
+    {
+      "id": 249,
+      "start": 822.0600000000001,
+      "end": 823.46,
+      "text": "that are very technical."
+    },
+    {
+      "id": 250,
+      "start": 823.46,
+      "end": 828.6600000000001,
+      "text": "They have highly technical people that have built on top of our product, things that we"
+    },
+    {
+      "id": 251,
+      "start": 828.66,
+      "end": 832.4599999999999,
+      "text": "don't understand and proprietary ways of using the product."
+    },
+    {
+      "id": 252,
+      "start": 832.4599999999999,
+      "end": 836.14,
+      "text": "In Israel, they, according to rumors, use their intelligence."
+    },
+    {
+      "id": 253,
+      "start": 836.14,
+      "end": 838.68,
+      "text": "So most people fight military to military."
+    },
+    {
+      "id": 254,
+      "start": 838.68,
+      "end": 842.9,
+      "text": "This was intelligence in Iran, from what I can tell from the papers."
+    },
+    {
+      "id": 255,
+      "start": 842.9,
+      "end": 848.6,
+      "text": "And then in America, you just have massive forces that no other country has, but they"
+    },
+    {
+      "id": 256,
+      "start": 848.6,
+      "end": 850.0,
+      "text": "had to be integrated."
+    },
+    {
+      "id": 257,
+      "start": 850.0,
+      "end": 853.5,
+      "text": "And the integration capacity, so every one of those things is different."
+    },
+    {
+      "id": 258,
+      "start": 853.5,
+      "end": 859.8,
+      "text": "And so the twofold role of enterprise software on a battlefield is one, to make sure all"
+    },
+    {
+      "id": 259,
+      "start": 859.8,
+      "end": 861.6,
+      "text": "the underlying things actually works."
+    },
+    {
+      "id": 260,
+      "start": 861.6,
+      "end": 865.1,
+      "text": "And then two, to raise the level to a level no one else has in the world."
+    },
+    {
+      "id": 261,
+      "start": 865.1,
+      "end": 866.5,
+      "text": "Let me translate this now."
+    },
+    {
+      "id": 262,
+      "start": 866.5,
+      "end": 872.5,
+      "text": "I mean, there's so much technology that was created from defense, whether it was the internet,"
+    },
+    {
+      "id": 263,
+      "start": 872.5,
+      "end": 875.04,
+      "text": "GPS."
+    },
+    {
+      "id": 264,
+      "start": 875.04,
+      "end": 883.26,
+      "text": "How do you envision this translating from defense and military to corporations, to businesses,"
+    },
+    {
+      "id": 265,
+      "start": 883.26,
+      "end": 884.26,
+      "text": "to society?"
+    },
+    {
+      "id": 266,
+      "start": 884.26,
+      "end": 892.3199999999999,
+      "text": "Well, first of all, the fact that it's basically a purely raw, naked environment means that you"
+    },
+    {
+      "id": 267,
+      "start": 892.3199999999999,
+      "end": 897.28,
+      "text": "actually know the ground truth of what could work, independent of what enterprises think"
+    },
+    {
+      "id": 268,
+      "start": 897.28,
+      "end": 898.28,
+      "text": "can work."
+    },
+    {
+      "id": 269,
+      "start": 898.28,
+      "end": 903.5799999999999,
+      "text": "And the general is, the thing at a high level, it's almost one-to-one translatable."
+    },
+    {
+      "id": 270,
+      "start": 903.58,
+      "end": 909.46,
+      "text": "But precisely because, as just to take enterprises in general, not all enterprises, tend to want"
+    },
+    {
+      "id": 271,
+      "start": 909.46,
+      "end": 912.62,
+      "text": "to, over time, become like every other enterprise."
+    },
+    {
+      "id": 272,
+      "start": 912.62,
+      "end": 917.5400000000001,
+      "text": "So if you take five, you know, A enterprise and B enterprise and C enterprise, they're in"
+    },
+    {
+      "id": 273,
+      "start": 917.5400000000001,
+      "end": 918.82,
+      "text": "the same market."
+    },
+    {
+      "id": 274,
+      "start": 918.82,
+      "end": 923.1800000000001,
+      "text": "Their tech infrastructure is trying to make them into the same enterprise."
+    },
+    {
+      "id": 275,
+      "start": 923.1800000000001,
+      "end": 924.98,
+      "text": "They have the same Orca chart."
+    },
+    {
+      "id": 276,
+      "start": 924.98,
+      "end": 930.1,
+      "text": "They have presumably roughly the same, they don't have the same data infrastructure."
+    },
+    {
+      "id": 277,
+      "start": 930.1,
+      "end": 935.5,
+      "text": "And what you learn on the battlefield is that, and in life is, that's not particularly valuable."
+    },
+    {
+      "id": 278,
+      "start": 935.5,
+      "end": 939.4200000000001,
+      "text": "What is very valuable is an enterprise can do something no enterprise in the world can"
+    },
+    {
+      "id": 279,
+      "start": 939.4200000000001,
+      "end": 940.4200000000001,
+      "text": "do."
+    },
+    {
+      "id": 280,
+      "start": 940.4200000000001,
+      "end": 944.48,
+      "text": "And so that is the goal of every single military intelligence service."
+    },
+    {
+      "id": 281,
+      "start": 944.48,
+      "end": 948.48,
+      "text": "In fact, all these intelligence service and militaries have their own specialization."
+    },
+    {
+      "id": 282,
+      "start": 948.48,
+      "end": 953.9,
+      "text": "And so when we went to commerce, like what we're saying is, how can we make your insurance,"
+    },
+    {
+      "id": 283,
+      "start": 953.9,
+      "end": 955.9,
+      "text": "the way you underwrite?"
+    },
+    {
+      "id": 284,
+      "start": 955.9,
+      "end": 959.92,
+      "text": "How can we make that to your tribal knowledge about underwriting?"
+    },
+    {
+      "id": 285,
+      "start": 959.92,
+      "end": 965.9399999999999,
+      "text": "How can we transform this to knowledge everyone has to a knowledge only you have and with efficiencies"
+    },
+    {
+      "id": 286,
+      "start": 965.9399999999999,
+      "end": 966.9399999999999,
+      "text": "that no one else has?"
+    },
+    {
+      "id": 287,
+      "start": 966.9399999999999,
+      "end": 972.4599999999999,
+      "text": "So, as an example, on the battlefield, one of the most important issues is how do you"
+    },
+    {
+      "id": 288,
+      "start": 972.4599999999999,
+      "end": 977.4399999999999,
+      "text": "acquire data, process it, and then put it into a framework where it can be actioned, either"
+    },
+    {
+      "id": 289,
+      "start": 977.44,
+      "end": 978.44,
+      "text": "from an intelligence perspective."
+    },
+    {
+      "id": 290,
+      "start": 978.44,
+      "end": 979.44,
+      "text": "Yeah."
+    },
+    {
+      "id": 291,
+      "start": 979.44,
+      "end": 982.96,
+      "text": "So, it's obviously, what does a business do?"
+    },
+    {
+      "id": 292,
+      "start": 982.96,
+      "end": 985.0400000000001,
+      "text": "In the end of the day, what is a business doing?"
+    },
+    {
+      "id": 293,
+      "start": 985.0400000000001,
+      "end": 989.6800000000001,
+      "text": "I mean, it is so, for example, especially in anything underwriting, banking, hospital intakes,"
+    },
+    {
+      "id": 294,
+      "start": 989.6800000000001,
+      "end": 990.6800000000001,
+      "text": "it's information."
+    },
+    {
+      "id": 295,
+      "start": 990.6800000000001,
+      "end": 992.0400000000001,
+      "text": "It's information."
+    },
+    {
+      "id": 296,
+      "start": 992.0400000000001,
+      "end": 998.34,
+      "text": "It's sorting the information in a way that you have a distinct advantage over other people"
+    },
+    {
+      "id": 297,
+      "start": 998.34,
+      "end": 1001.08,
+      "text": "who are similarly situated."
+    },
+    {
+      "id": 298,
+      "start": 1001.08,
+      "end": 1003.8000000000001,
+      "text": "And that that advantage can't be eviscerated easily."
+    },
+    {
+      "id": 299,
+      "start": 1003.8,
+      "end": 1008.3599999999999,
+      "text": "And so, de facto, for what you can't, what you're doing on the battlefield with our products,"
+    },
+    {
+      "id": 300,
+      "start": 1008.3599999999999,
+      "end": 1012.3599999999999,
+      "text": "without getting, I'm happy to, is like, what you're doing with ontology and foundry, in"
+    },
+    {
+      "id": 301,
+      "start": 1012.3599999999999,
+      "end": 1016.9399999999999,
+      "text": "some cases on the battlefield, but definitely in like commercial organizations across the"
+    },
+    {
+      "id": 302,
+      "start": 1016.9399999999999,
+      "end": 1022.04,
+      "text": "world, but especially in America, is when you approach the underwriter or the hospital,"
+    },
+    {
+      "id": 303,
+      "start": 1022.04,
+      "end": 1023.54,
+      "text": "we power tons and tons of hospitals."
+    },
+    {
+      "id": 304,
+      "start": 1023.54,
+      "end": 1024.54,
+      "text": "Right."
+    },
+    {
+      "id": 305,
+      "start": 1024.54,
+      "end": 1025.54,
+      "text": "They have an intake problem."
+    },
+    {
+      "id": 306,
+      "start": 1025.54,
+      "end": 1026.54,
+      "text": "They all have an intake problem."
+    },
+    {
+      "id": 307,
+      "start": 1026.54,
+      "end": 1028.36,
+      "text": "They all have a shortage of doctors and nurses."
+    },
+    {
+      "id": 308,
+      "start": 1028.36,
+      "end": 1030.36,
+      "text": "They are working in a low margin environment."
+    },
+    {
+      "id": 309,
+      "start": 1030.36,
+      "end": 1034.6999999999998,
+      "text": "But every single one has a different way of processing their patients according to what"
+    },
+    {
+      "id": 310,
+      "start": 1034.6999999999998,
+      "end": 1038.36,
+      "text": "their specialty is and the kind of patients they don't do well with and how do you manage"
+    },
+    {
+      "id": 311,
+      "start": 1038.36,
+      "end": 1039.36,
+      "text": "that."
+    },
+    {
+      "id": 312,
+      "start": 1039.36,
+      "end": 1044.6999999999998,
+      "text": "And so the intake flow and into your enterprise in a way that you can actually process these"
+    },
+    {
+      "id": 313,
+      "start": 1044.6999999999998,
+      "end": 1048.02,
+      "text": "things 10, 15 times faster than you could before."
+    },
+    {
+      "id": 314,
+      "start": 1048.02,
+      "end": 1049.02,
+      "text": "And then the other..."
+    },
+    {
+      "id": 315,
+      "start": 1049.02,
+      "end": 1050.02,
+      "text": "That saves lives, then."
+    },
+    {
+      "id": 316,
+      "start": 1050.02,
+      "end": 1052.8,
+      "text": "It saves a lot of lives."
+    },
+    {
+      "id": 317,
+      "start": 1052.8,
+      "end": 1058.8,
+      "text": "It also, interestingly, because you're processing the LLM in an ontology, you have a structure."
+    },
+    {
+      "id": 318,
+      "start": 1058.8,
+      "end": 1063.46,
+      "text": "Despite what people may want to believe, it also bolsters civil liberties."
+    },
+    {
+      "id": 319,
+      "start": 1063.46,
+      "end": 1066.5,
+      "text": "Because now you can say, well, I mean, just simple questions."
+    },
+    {
+      "id": 320,
+      "start": 1066.5,
+      "end": 1069.1399999999999,
+      "text": "Was someone processed based on economic considerations?"
+    },
+    {
+      "id": 321,
+      "start": 1069.1399999999999,
+      "end": 1074.36,
+      "text": "Or were they processed based on their background?"
+    },
+    {
+      "id": 322,
+      "start": 1074.36,
+      "end": 1076.8,
+      "text": "Those things are impossible to see unless you have..."
+    },
+    {
+      "id": 323,
+      "start": 1076.8,
+      "end": 1081.22,
+      "text": "Like there's a huge civil liberties betterment side of this that typically people don't"
+    },
+    {
+      "id": 324,
+      "start": 1081.22,
+      "end": 1084.78,
+      "text": "believe we care about, but it's actually exactly the opposite."
+    },
+    {
+      "id": 325,
+      "start": 1084.78,
+      "end": 1085.78,
+      "text": "We do care."
+    },
+    {
+      "id": 326,
+      "start": 1085.78,
+      "end": 1087.46,
+      "text": "And, you know, showing is caring."
+    },
+    {
+      "id": 327,
+      "start": 1087.46,
+      "end": 1092.9199999999998,
+      "text": "And it's like we can granularly show why someone came in, why they were taken, why they were"
+    },
+    {
+      "id": 328,
+      "start": 1092.9199999999998,
+      "end": 1093.9199999999998,
+      "text": "rejected."
+    },
+    {
+      "id": 329,
+      "start": 1093.9199999999998,
+      "end": 1098.72,
+      "text": "And we can do it in a way that makes business sense for the business itself."
+    },
+    {
+      "id": 330,
+      "start": 1098.72,
+      "end": 1100.96,
+      "text": "And then it leads to safety efficiencies."
+    },
+    {
+      "id": 331,
+      "start": 1100.96,
+      "end": 1103.1000000000001,
+      "text": "And probably brings down costs."
+    },
+    {
+      "id": 332,
+      "start": 1103.1000000000001,
+      "end": 1109.54,
+      "text": "Well, if you want to do a shorter kind of financial version, you basically, in the past,"
+    },
+    {
+      "id": 333,
+      "start": 1109.54,
+      "end": 1115.18,
+      "text": "to do what we can do in the full light of a public market, you need to take the company"
+    },
+    {
+      "id": 334,
+      "start": 1115.18,
+      "end": 1116.18,
+      "text": "private."
+    },
+    {
+      "id": 335,
+      "start": 1116.18,
+      "end": 1120.54,
+      "text": "So, and then you would take out the cost structure and you... that you'd probably resell it."
+    },
+    {
+      "id": 336,
+      "start": 1120.54,
+      "end": 1124.22,
+      "text": "Well, now you can take out the cost structure, make the workers more important."
+    },
+    {
+      "id": 337,
+      "start": 1124.22,
+      "end": 1129.68,
+      "text": "So, the actual workers, not the fat kind of in the middle."
+    },
+    {
+      "id": 338,
+      "start": 1129.68,
+      "end": 1131.98,
+      "text": "And then you can change the way they go to market."
+    },
+    {
+      "id": 339,
+      "start": 1131.98,
+      "end": 1132.98,
+      "text": "So, the..."
+    },
+    {
+      "id": 340,
+      "start": 1132.98,
+      "end": 1134.98,
+      "text": "But in hospitals, you can process this information faster."
+    },
+    {
+      "id": 341,
+      "start": 1134.98,
+      "end": 1135.98,
+      "text": "Presumably, you'll have..."
+    },
+    {
+      "id": 342,
+      "start": 1135.98,
+      "end": 1141.46,
+      "text": "Much faster and then the nurses... the nurses... the... one of the... the nurses and doctors"
+    },
+    {
+      "id": 343,
+      "start": 1141.46,
+      "end": 1142.46,
+      "text": "are also happier."
+    },
+    {
+      "id": 344,
+      "start": 1142.46,
+      "end": 1143.46,
+      "text": "And, yeah."
+    },
+    {
+      "id": 345,
+      "start": 1143.46,
+      "end": 1149.16,
+      "text": "So, you... you... you suggested that for companies to rapidly adopt that they have to..."
+    },
+    {
+      "id": 346,
+      "start": 1149.16,
+      "end": 1152.1000000000001,
+      "text": "The best way to do it is go in private, then they could restructure, but..."
+    },
+    {
+      "id": 347,
+      "start": 1152.1,
+      "end": 1153.1,
+      "text": "No, no."
+    },
+    {
+      "id": 348,
+      "start": 1153.1,
+      "end": 1154.98,
+      "text": "What I'm suggesting is they don't have to do that anymore."
+    },
+    {
+      "id": 349,
+      "start": 1154.98,
+      "end": 1155.98,
+      "text": "They don't have to do that anymore."
+    },
+    {
+      "id": 350,
+      "start": 1155.98,
+      "end": 1165.3999999999999,
+      "text": "So, what is the basic... what is the basic hindrance in the adaption of the... of AI?"
+    },
+    {
+      "id": 351,
+      "start": 1165.3999999999999,
+      "end": 1170.3,
+      "text": "Is it just legacy systems, legacy issues?"
+    },
+    {
+      "id": 352,
+      "start": 1170.3,
+      "end": 1171.3,
+      "text": "What..."
+    },
+    {
+      "id": 353,
+      "start": 1171.3,
+      "end": 1172.3,
+      "text": "How do you..."
+    },
+    {
+      "id": 354,
+      "start": 1172.3,
+      "end": 1173.3,
+      "text": "Well..."
+    },
+    {
+      "id": 355,
+      "start": 1173.3,
+      "end": 1176.3,
+      "text": "How do we accelerate the adoption that it's good for humanity?"
+    },
+    {
+      "id": 356,
+      "start": 1176.3,
+      "end": 1181.06,
+      "text": "Well, I mean, our adoption accelerates beyond our capacity."
+    },
+    {
+      "id": 357,
+      "start": 1181.06,
+      "end": 1183.58,
+      "text": "So, it... it... the..."
+    },
+    {
+      "id": 358,
+      "start": 1183.58,
+      "end": 1188.1,
+      "text": "I think if you just buy large language models off the shelf and try to do any of this, it"
+    },
+    {
+      "id": 359,
+      "start": 1188.1,
+      "end": 1189.1,
+      "text": "won't work."
+    },
+    {
+      "id": 360,
+      "start": 1189.1,
+      "end": 1190.1,
+      "text": "It's a commodity."
+    },
+    {
+      "id": 361,
+      "start": 1190.1,
+      "end": 1191.1,
+      "text": "It's... and..."
+    },
+    {
+      "id": 362,
+      "start": 1191.1,
+      "end": 1192.1,
+      "text": "Well, also, it's not precise enough."
+    },
+    {
+      "id": 363,
+      "start": 1192.1,
+      "end": 1194.18,
+      "text": "It... like... you can't do underwriting with..."
+    },
+    {
+      "id": 364,
+      "start": 1194.18,
+      "end": 1195.18,
+      "text": "No."
+    },
+    {
+      "id": 365,
+      "start": 1195.18,
+      "end": 1197.18,
+      "text": "You can't... you couldn't do any of these things that are regulated."
+    },
+    {
+      "id": 366,
+      "start": 1197.18,
+      "end": 1198.18,
+      "text": "No."
+    },
+    {
+      "id": 367,
+      "start": 1198.18,
+      "end": 1204.94,
+      "text": "So, moving to, like, everybody... there's not... like... the... the problem with adoption at"
+    },
+    {
+      "id": 368,
+      "start": 1204.94,
+      "end": 1209.94,
+      "text": "this point is people have tried things that just can never work."
+    },
+    {
+      "id": 369,
+      "start": 1209.94,
+      "end": 1214.94,
+      "text": "Like buying... you borrow a large language model, you put it on your stack, and you wonder why,"
+    },
+    {
+      "id": 370,
+      "start": 1214.94,
+      "end": 1216.8200000000002,
+      "text": "you know, it's, like, not working."
+    },
+    {
+      "id": 371,
+      "start": 1216.8200000000002,
+      "end": 1222.96,
+      "text": "And so, what you're going to see, especially in America, is people trying to do something"
+    },
+    {
+      "id": 372,
+      "start": 1222.96,
+      "end": 1227.96,
+      "text": "like what we do with ontology maybe by hand, because once you build a software layer to"
+    },
+    {
+      "id": 373,
+      "start": 1227.96,
+      "end": 1233.76,
+      "text": "orchestrate and manage the large language models in a language that your enterprise understands,"
+    },
+    {
+      "id": 374,
+      "start": 1233.76,
+      "end": 1235.72,
+      "text": "you actually can create value."
+    },
+    {
+      "id": 375,
+      "start": 1235.72,
+      "end": 1236.72,
+      "text": "I don't..."
+    },
+    {
+      "id": 376,
+      "start": 1236.72,
+      "end": 1239.58,
+      "text": "I... I think, like, there's... like, there's a lot of discussions, like, are we in the AI"
+    },
+    {
+      "id": 377,
+      "start": 1239.58,
+      "end": 1240.58,
+      "text": "bubble?"
+    },
+    {
+      "id": 378,
+      "start": 1240.58,
+      "end": 1241.58,
+      "text": "What is the meaning of the bubble?"
+    },
+    {
+      "id": 379,
+      "start": 1241.58,
+      "end": 1246.5,
+      "text": "Well, it's, like... I... I think what... if anything, we're just in a lag where there's"
+    },
+    {
+      "id": 380,
+      "start": 1246.5,
+      "end": 1248.5,
+      "text": "a lot of AI, some of it works."
+    },
+    {
+      "id": 381,
+      "start": 1248.5,
+      "end": 1253.82,
+      "text": "Again, if you go back to the battlefield context, like, it... most people... everybody in the"
+    },
+    {
+      "id": 382,
+      "start": 1253.82,
+      "end": 1256.12,
+      "text": "world assumed this would not work."
+    },
+    {
+      "id": 383,
+      "start": 1256.12,
+      "end": 1257.7,
+      "text": "But now it does work."
+    },
+    {
+      "id": 384,
+      "start": 1257.7,
+      "end": 1263.08,
+      "text": "And so, now the question isn't, does it work, but how can we get it to work for my country?"
+    },
+    {
+      "id": 385,
+      "start": 1263.08,
+      "end": 1264.5,
+      "text": "And this is exactly what's happening..."
+    },
+    {
+      "id": 386,
+      "start": 1264.5,
+      "end": 1265.5,
+      "text": "In companies."
+    },
+    {
+      "id": 387,
+      "start": 1265.5,
+      "end": 1266.5,
+      "text": "In companies."
+    },
+    {
+      "id": 388,
+      "start": 1266.5,
+      "end": 1268.44,
+      "text": "It's, like, oh, this company, it worked."
+    },
+    {
+      "id": 389,
+      "start": 1268.44,
+      "end": 1269.44,
+      "text": "Mine didn't."
+    },
+    {
+      "id": 390,
+      "start": 1269.44,
+      "end": 1270.44,
+      "text": "What are you doing?"
+    },
+    {
+      "id": 391,
+      "start": 1270.44,
+      "end": 1274.62,
+      "text": "Like, for example, I mean, if you want to just make it, like, parochial to us, Palantir"
+    },
+    {
+      "id": 392,
+      "start": 1274.62,
+      "end": 1276.12,
+      "text": "barely has a sales force."
+    },
+    {
+      "id": 393,
+      "start": 1276.12,
+      "end": 1280.4399999999998,
+      "text": "In fact, it seems to be getting smaller every time I go see them."
+    },
+    {
+      "id": 394,
+      "start": 1280.4399999999998,
+      "end": 1284.56,
+      "text": "And it's, like... and it's simply because you're laughing because you know it's Palantirians"
+    },
+    {
+      "id": 395,
+      "start": 1284.56,
+      "end": 1289.0,
+      "text": "here, but it's getting smaller and smaller and smaller."
+    },
+    {
+      "id": 396,
+      "start": 1289.0,
+      "end": 1293.4199999999998,
+      "text": "And it's not because we're trying to save on the internet economics."
+    },
+    {
+      "id": 397,
+      "start": 1293.4199999999998,
+      "end": 1298.4199999999998,
+      "text": "It's actually because it is a low-trust environment in AI."
+    },
+    {
+      "id": 398,
+      "start": 1298.4199999999998,
+      "end": 1299.6999999999998,
+      "text": "People have tried lots of stuff."
+    },
+    {
+      "id": 399,
+      "start": 1299.6999999999998,
+      "end": 1301.2199999999998,
+      "text": "A lot of it hasn't worked."
+    },
+    {
+      "id": 400,
+      "start": 1301.2199999999998,
+      "end": 1306.0,
+      "text": "But if you've delivered stuff that does work, why do you need a sales force?"
+    },
+    {
+      "id": 401,
+      "start": 1306.0,
+      "end": 1307.0,
+      "text": "Like, you just..."
+    },
+    {
+      "id": 402,
+      "start": 1307.0,
+      "end": 1308.0,
+      "text": "It sells itself."
+    },
+    {
+      "id": 403,
+      "start": 1308.0,
+      "end": 1310.82,
+      "text": "Well, you have to say, hey, don't talk to us."
+    },
+    {
+      "id": 404,
+      "start": 1310.82,
+      "end": 1313.26,
+      "text": "And then that's on commercial."
+    },
+    {
+      "id": 405,
+      "start": 1313.26,
+      "end": 1316.78,
+      "text": "In government, at this point, it's really..."
+    },
+    {
+      "id": 406,
+      "start": 1316.78,
+      "end": 1318.0,
+      "text": "We don't..."
+    },
+    {
+      "id": 407,
+      "start": 1318.0,
+      "end": 1319.5,
+      "text": "Like, we don't..."
+    },
+    {
+      "id": 408,
+      "start": 1319.5,
+      "end": 1323.32,
+      "text": "It's very hard to export simply because we have to train the people."
+    },
+    {
+      "id": 409,
+      "start": 1323.32,
+      "end": 1324.32,
+      "text": "And we have limited bandwidth."
+    },
+    {
+      "id": 410,
+      "start": 1324.32,
+      "end": 1327.44,
+      "text": "I was going to say, that's your limited bandwidth, the training."
+    },
+    {
+      "id": 411,
+      "start": 1327.44,
+      "end": 1329.44,
+      "text": "And then somebody takes on your software."
+    },
+    {
+      "id": 412,
+      "start": 1329.44,
+      "end": 1336.04,
+      "text": "Well, in the government context, every country, like, obviously has the equivalent of a security"
+    },
+    {
+      "id": 413,
+      "start": 1336.04,
+      "end": 1337.04,
+      "text": "clearance."
+    },
+    {
+      "id": 414,
+      "start": 1337.04,
+      "end": 1338.04,
+      "text": "Right?"
+    },
+    {
+      "id": 415,
+      "start": 1338.04,
+      "end": 1339.04,
+      "text": "So, to use our..."
+    },
+    {
+      "id": 416,
+      "start": 1339.04,
+      "end": 1345.3400000000001,
+      "text": "To build Project Maven or Maven into your architecture, you're going to need somebody with the highest"
+    },
+    {
+      "id": 417,
+      "start": 1345.34,
+      "end": 1348.34,
+      "text": "level of clearance that also is technical."
+    },
+    {
+      "id": 418,
+      "start": 1348.34,
+      "end": 1352.84,
+      "text": "And most technical people, unfortunately, are not going after the highest level of clearance."
+    },
+    {
+      "id": 419,
+      "start": 1352.84,
+      "end": 1355.02,
+      "text": "So, there are very, very few people like that."
+    },
+    {
+      "id": 420,
+      "start": 1355.02,
+      "end": 1358.1799999999998,
+      "text": "So, that resource is super scarce."
+    },
+    {
+      "id": 421,
+      "start": 1358.1799999999998,
+      "end": 1359.86,
+      "text": "And then they have to be trained."
+    },
+    {
+      "id": 422,
+      "start": 1359.86,
+      "end": 1361.04,
+      "text": "And that takes..."
+    },
+    {
+      "id": 423,
+      "start": 1361.04,
+      "end": 1362.04,
+      "text": "That can take a while."
+    },
+    {
+      "id": 424,
+      "start": 1362.04,
+      "end": 1366.3,
+      "text": "And then you also have to have, like anything, you really have to believe in this and really"
+    },
+    {
+      "id": 425,
+      "start": 1366.3,
+      "end": 1367.8,
+      "text": "think it's important."
+    },
+    {
+      "id": 426,
+      "start": 1367.8,
+      "end": 1371.2199999999998,
+      "text": "And you know, not everybody fits in that category."
+    },
+    {
+      "id": 427,
+      "start": 1371.2199999999998,
+      "end": 1373.1599999999999,
+      "text": "How many people need to be trained to do this?"
+    },
+    {
+      "id": 428,
+      "start": 1373.1599999999999,
+      "end": 1374.6599999999999,
+      "text": "I mean, does it..."
+    },
+    {
+      "id": 429,
+      "start": 1374.6599999999999,
+      "end": 1377.84,
+      "text": "In a corporate level, does it have to be from the CEO down?"
+    },
+    {
+      "id": 430,
+      "start": 1377.84,
+      "end": 1379.08,
+      "text": "How does this work?"
+    },
+    {
+      "id": 431,
+      "start": 1379.08,
+      "end": 1380.08,
+      "text": "As you add..."
+    },
+    {
+      "id": 432,
+      "start": 1380.08,
+      "end": 1381.08,
+      "text": "Well..."
+    },
+    {
+      "id": 433,
+      "start": 1381.08,
+      "end": 1383.86,
+      "text": "You're talking about, like, insurance underwriting."
+    },
+    {
+      "id": 434,
+      "start": 1383.86,
+      "end": 1385.34,
+      "text": "Well, like, you know, yeah."
+    },
+    {
+      "id": 435,
+      "start": 1385.34,
+      "end": 1389.3799999999999,
+      "text": "So, insurance underwriting..."
+    },
+    {
+      "id": 436,
+      "start": 1389.38,
+      "end": 1391.94,
+      "text": "The way it works is the best case scenario."
+    },
+    {
+      "id": 437,
+      "start": 1391.94,
+      "end": 1394.14,
+      "text": "You have the best and worst case scenario."
+    },
+    {
+      "id": 438,
+      "start": 1394.14,
+      "end": 1400.2800000000002,
+      "text": "Best case scenario, CEO is mathematically inclined."
+    },
+    {
+      "id": 439,
+      "start": 1400.2800000000002,
+      "end": 1405.38,
+      "text": "Even though they may not know nothing about product, but you can..."
+    },
+    {
+      "id": 440,
+      "start": 1405.38,
+      "end": 1409.24,
+      "text": "They can impute a product working by looking at the math."
+    },
+    {
+      "id": 441,
+      "start": 1409.24,
+      "end": 1414.6000000000001,
+      "text": "And has..."
+    },
+    {
+      "id": 442,
+      "start": 1414.6000000000001,
+      "end": 1418.5400000000002,
+      "text": "And then we probably need to train five or six people on there."
+    },
+    {
+      "id": 443,
+      "start": 1418.54,
+      "end": 1420.1,
+      "text": "And in the beginning, we do all of it."
+    },
+    {
+      "id": 444,
+      "start": 1420.1,
+      "end": 1423.72,
+      "text": "And then we transfer that as much as we can to them."
+    },
+    {
+      "id": 445,
+      "start": 1423.72,
+      "end": 1426.6,
+      "text": "Or we're trying to partner with people who can do that with us."
+    },
+    {
+      "id": 446,
+      "start": 1426.6,
+      "end": 1428.5,
+      "text": "But you need a small number of people."
+    },
+    {
+      "id": 447,
+      "start": 1428.5,
+      "end": 1431.1,
+      "text": "But we still need more than we have."
+    },
+    {
+      "id": 448,
+      "start": 1431.1,
+      "end": 1437.86,
+      "text": "You suggested repeatedly about how AI could strengthen foundations for an economy."
+    },
+    {
+      "id": 449,
+      "start": 1437.86,
+      "end": 1441.78,
+      "text": "Especially, we're seeing that in the United States."
+    },
+    {
+      "id": 450,
+      "start": 1441.78,
+      "end": 1445.6599999999999,
+      "text": "How rapidly can AI change the growth trajectory?"
+    },
+    {
+      "id": 451,
+      "start": 1445.6599999999999,
+      "end": 1454.1,
+      "text": "Because you mentioned that earlier about how it could improve the economies, the well-being of companies."
+    },
+    {
+      "id": 452,
+      "start": 1454.1,
+      "end": 1461.1,
+      "text": "Well, in a lot of these things, there's a speed question."
+    },
+    {
+      "id": 453,
+      "start": 1461.1,
+      "end": 1467.6599999999999,
+      "text": "But I think, like, with a lot of our companies, it's like we can take out..."
+    },
+    {
+      "id": 454,
+      "start": 1467.66,
+      "end": 1475.8400000000001,
+      "text": "In the area we go in, up to 80% of your cost and improve your top line dramatically."
+    },
+    {
+      "id": 455,
+      "start": 1475.8400000000001,
+      "end": 1478.22,
+      "text": "But it really depends on the use case and what we're doing."
+    },
+    {
+      "id": 456,
+      "start": 1478.22,
+      "end": 1481.22,
+      "text": "And then there's a speed function, which is we can..."
+    },
+    {
+      "id": 457,
+      "start": 1481.22,
+      "end": 1483.22,
+      "text": "In the past, five years ago, that would take us a year."
+    },
+    {
+      "id": 458,
+      "start": 1483.22,
+      "end": 1484.22,
+      "text": "Sure."
+    },
+    {
+      "id": 459,
+      "start": 1484.22,
+      "end": 1485.22,
+      "text": "Now it could take a week."
+    },
+    {
+      "id": 460,
+      "start": 1485.22,
+      "end": 1486.22,
+      "text": "Yeah."
+    },
+    {
+      "id": 461,
+      "start": 1486.22,
+      "end": 1488.22,
+      "text": "Let me further that question, though."
+    },
+    {
+      "id": 462,
+      "start": 1488.22,
+      "end": 1490.22,
+      "text": "I'm sure it's on the minds of some people here."
+    },
+    {
+      "id": 463,
+      "start": 1490.22,
+      "end": 1494.22,
+      "text": "Is AI going to create jobs or destroy jobs overall?"
+    },
+    {
+      "id": 464,
+      "start": 1494.22,
+      "end": 1495.22,
+      "text": "Yeah."
+    },
+    {
+      "id": 465,
+      "start": 1495.22,
+      "end": 1503.22,
+      "text": "I think one of the unfortunate things of the narrative in the West is it will destroy humanity's"
+    },
+    {
+      "id": 466,
+      "start": 1503.22,
+      "end": 1509.22,
+      "text": "jobs of, like, you know, you went to an elite school and you studied philosophy."
+    },
+    {
+      "id": 467,
+      "start": 1509.22,
+      "end": 1512.22,
+      "text": "I'll use myself as an example."
+    },
+    {
+      "id": 468,
+      "start": 1512.22,
+      "end": 1513.22,
+      "text": "I did, too."
+    },
+    {
+      "id": 469,
+      "start": 1513.22,
+      "end": 1514.22,
+      "text": "Yeah."
+    },
+    {
+      "id": 470,
+      "start": 1514.22,
+      "end": 1518.28,
+      "text": "Hopefully, you have some other skill."
+    },
+    {
+      "id": 471,
+      "start": 1518.28,
+      "end": 1520.78,
+      "text": "That one is going to be hard to market."
+    },
+    {
+      "id": 472,
+      "start": 1520.78,
+      "end": 1522.78,
+      "text": "It was always hard to market."
+    },
+    {
+      "id": 473,
+      "start": 1522.78,
+      "end": 1523.78,
+      "text": "It was hard to market."
+    },
+    {
+      "id": 474,
+      "start": 1523.78,
+      "end": 1524.78,
+      "text": "Very hard."
+    },
+    {
+      "id": 475,
+      "start": 1524.78,
+      "end": 1525.78,
+      "text": "It was a good education."
+    },
+    {
+      "id": 476,
+      "start": 1525.78,
+      "end": 1527.7,
+      "text": "A very, very strong education."
+    },
+    {
+      "id": 477,
+      "start": 1527.7,
+      "end": 1529.46,
+      "text": "If you can get a job, you might keep it."
+    },
+    {
+      "id": 478,
+      "start": 1529.46,
+      "end": 1530.78,
+      "text": "At the heart, that's what I always thought."
+    },
+    {
+      "id": 479,
+      "start": 1530.78,
+      "end": 1534.42,
+      "text": "It was like, if I finally get a job, I'll probably keep it and do well, but I'm not sure who's"
+    },
+    {
+      "id": 480,
+      "start": 1534.42,
+      "end": 1537.3600000000001,
+      "text": "going to give me my first job."
+    },
+    {
+      "id": 481,
+      "start": 1537.36,
+      "end": 1542.4199999999998,
+      "text": "But, like, technicians."
+    },
+    {
+      "id": 482,
+      "start": 1542.42,
+      "end": 1549.98,
+      "text": "If you're a vocational technician or, like, we're building batteries for a battery company,"
+    },
+    {
+      "id": 483,
+      "start": 1549.98,
+      "end": 1554.6,
+      "text": "and the people who are doing it in America are doing roughly the same job that Japanese"
+    },
+    {
+      "id": 484,
+      "start": 1554.6,
+      "end": 1556.54,
+      "text": "engineers are doing, and they went to high school."
+    },
+    {
+      "id": 485,
+      "start": 1556.54,
+      "end": 1563.6,
+      "text": "And now they're very valuable, if not irreplaceable, because we can make them into something different"
+    },
+    {
+      "id": 486,
+      "start": 1563.6,
+      "end": 1566.1,
+      "text": "than what they were very rapidly."
+    },
+    {
+      "id": 487,
+      "start": 1566.1,
+      "end": 1569.1,
+      "text": "And those jobs are going to become more valuable."
+    },
+    {
+      "id": 488,
+      "start": 1569.1,
+      "end": 1577.0,
+      "text": "I mean, you know, not to divert some of my usual political screeds, but there will be more"
+    },
+    {
+      "id": 489,
+      "start": 1577.0,
+      "end": 1582.3,
+      "text": "than enough jobs for the citizens of your nation, especially those with vocational training."
+    },
+    {
+      "id": 490,
+      "start": 1582.3,
+      "end": 1587.98,
+      "text": "I do think these trends really do make it hard to imagine why we should have large scale immigration"
+    },
+    {
+      "id": 491,
+      "start": 1587.98,
+      "end": 1590.2199999999998,
+      "text": "unless you have a very specialized skill."
+    },
+    {
+      "id": 492,
+      "start": 1590.2199999999998,
+      "end": 1591.2199999999998,
+      "text": "Because."
+    },
+    {
+      "id": 493,
+      "start": 1591.2199999999998,
+      "end": 1597.2199999999998,
+      "text": "What about the foundation for white collar work in Europe and the United States has been"
+    },
+    {
+      "id": 494,
+      "start": 1597.2199999999998,
+      "end": 1598.9199999999998,
+      "text": "through the universities."
+    },
+    {
+      "id": 495,
+      "start": 1598.92,
+      "end": 1604.42,
+      "text": "But I just heard you say we're going to need more vocational men and women, and they may,"
+    },
+    {
+      "id": 496,
+      "start": 1604.42,
+      "end": 1609.5600000000002,
+      "text": "they're going to be, but are you also insinuating we're probably going to need less white collar?"
+    },
+    {
+      "id": 497,
+      "start": 1609.5600000000002,
+      "end": 1614.96,
+      "text": "I think, like, I think what we need to do is, yes, but I think we need different ways of testing"
+    },
+    {
+      "id": 498,
+      "start": 1614.96,
+      "end": 1615.96,
+      "text": "aptitude."
+    },
+    {
+      "id": 499,
+      "start": 1615.96,
+      "end": 1622.6000000000001,
+      "text": "You know, it's like, you know, there are a lot of people doing X that should be doing Y."
+    },
+    {
+      "id": 500,
+      "start": 1622.6000000000001,
+      "end": 1627.8400000000001,
+      "text": "Like if you could manage one of our, just like, just the person managing our MAVEN system"
+    },
+    {
+      "id": 501,
+      "start": 1627.84,
+      "end": 1633.34,
+      "text": "in the U.S. Army is a former police officer who I think went to a junior college."
+    },
+    {
+      "id": 502,
+      "start": 1633.34,
+      "end": 1638.9199999999998,
+      "text": "And they're doing very, very high end, very complicated targeting globally."
+    },
+    {
+      "id": 503,
+      "start": 1638.92,
+      "end": 1642.42,
+      "text": "And that person actually is irreplaceable."
+    },
+    {
+      "id": 504,
+      "start": 1642.42,
+      "end": 1652.76,
+      "text": "And I think in the past, the way we tested for aptitude would not have fully exposed how irreplaceable that person's talents are."
+    },
+    {
+      "id": 505,
+      "start": 1652.76,
+      "end": 1656.26,
+      "text": "And would they have been as talented if they had not gone to their college?"
+    },
+    {
+      "id": 506,
+      "start": 1656.26,
+      "end": 1656.26,
+      "text": ""
+    },
+    {
+      "id": 507,
+      "start": 1656.26,
+      "end": 1665.84,
+      "text": "And, but I think the, the, I tend to, even inside Palantir, if you look at inside Palantir, what am I really doing all day?"
+    },
+    {
+      "id": 508,
+      "start": 1665.84,
+      "end": 1671.34,
+      "text": "I'm walking around figuring out what is someone's outlier aptitude."
+    },
+    {
+      "id": 509,
+      "start": 1671.34,
+      "end": 1677.9199999999998,
+      "text": "And then I'm putting them on that thing and trying to get them to stay on that thing and not on the five other things they think they're great at."
+    },
+    {
+      "id": 510,
+      "start": 1677.9199999999998,
+      "end": 1678.9199999999998,
+      "text": "Like, you know."
+    },
+    {
+      "id": 511,
+      "start": 1678.9199999999998,
+      "end": 1679.9199999999998,
+      "text": "Keeping their."
+    },
+    {
+      "id": 512,
+      "start": 1679.9199999999998,
+      "end": 1692.54,
+      "text": "Yeah, it's like, well, you know, everyone at Palantir, every, every engineer at Palantir, it's the most, wherever I go in the world, like for, for, as you know, maybe for 18 years, everyone thought we were like a business joke."
+    },
+    {
+      "id": 513,
+      "start": 1692.54,
+      "end": 1699.24,
+      "text": "And now lots of business people want my advice. You know, the only people who don't want my advice at Palantir about business are Palantir engineers."
+    },
+    {
+      "id": 514,
+      "start": 1699.24,
+      "end": 1703.8799999999999,
+      "text": "They're like, hey, Alex, I have an idea about how we could just be in a much better company."
+    },
+    {
+      "id": 515,
+      "start": 1703.8799999999999,
+      "end": 1712.7,
+      "text": "And it's, it's always like, yeah, it's like, it's like literally McDonald's, but it's like, we should have some titles and you should stop speaking in public."
+    },
+    {
+      "id": 516,
+      "start": 1712.7,
+      "end": 1716.7,
+      "text": "And, yeah, and then, I mean, there's probably right about speaking in public sometimes."
+    },
+    {
+      "id": 517,
+      "start": 1716.7,
+      "end": 1718.54,
+      "text": "I certainly admit that."
+    },
+    {
+      "id": 518,
+      "start": 1718.54,
+      "end": 1721.34,
+      "text": "I don't think you, I don't think you did anything wrong today."
+    },
+    {
+      "id": 519,
+      "start": 1721.34,
+      "end": 1724.1,
+      "text": "Yeah, so, yeah, thank you for that high praise."
+    },
+    {
+      "id": 520,
+      "start": 1724.1,
+      "end": 1729.04,
+      "text": "One of the keys to success is setting the bar very low."
+    },
+    {
+      "id": 521,
+      "start": 1729.04,
+      "end": 1733.12,
+      "text": "Yes. No, I don't believe that's how you operate Palantir."
+    },
+    {
+      "id": 522,
+      "start": 1733.4199999999998,
+      "end": 1734.62,
+      "text": "One last question."
+    },
+    {
+      "id": 523,
+      "start": 1737.4199999999998,
+      "end": 1742.8,
+      "text": "Where, where is this, where will the curve of AI go in the utilization?"
+    },
+    {
+      "id": 524,
+      "start": 1743.8,
+      "end": 1745.1,
+      "text": "In the United States?"
+    },
+    {
+      "id": 525,
+      "start": 1745.82,
+      "end": 1747.3,
+      "text": "In other developed economies?"
+    },
+    {
+      "id": 526,
+      "start": 1747.9399999999998,
+      "end": 1750.1799999999998,
+      "text": "But what about the developing economies?"
+    },
+    {
+      "id": 527,
+      "start": 1750.18,
+      "end": 1752.94,
+      "text": "How, can they participate in this?"
+    },
+    {
+      "id": 528,
+      "start": 1752.94,
+      "end": 1765.52,
+      "text": "I mean, I read a research report yesterday that said the application of AI has been so dominant by societies of high education or companies of high education."
+    },
+    {
+      "id": 529,
+      "start": 1765.52,
+      "end": 1771.22,
+      "text": "And they're seeing a very big divergence that is occurring already."
+    },
+    {
+      "id": 530,
+      "start": 1771.22,
+      "end": 1776.7,
+      "text": "And it's so much based on the application of education and how that is being utilized."
+    },
+    {
+      "id": 531,
+      "start": 1776.7,
+      "end": 1785.4,
+      "text": "So, is AI going to create more, a greater imbalance in our world in terms of growth?"
+    },
+    {
+      "id": 532,
+      "start": 1785.4,
+      "end": 1795.0600000000002,
+      "text": "Well, I think the obvious first imbalance is it seems like America and China understand versions of making this work and they're different."
+    },
+    {
+      "id": 533,
+      "start": 1795.3600000000001,
+      "end": 1795.6000000000001,
+      "text": "Yes."
+    },
+    {
+      "id": 534,
+      "start": 1795.7,
+      "end": 1797.8400000000001,
+      "text": "But they both work and they work at scale."
+    },
+    {
+      "id": 535,
+      "start": 1797.94,
+      "end": 1803.9,
+      "text": "And I think that is very likely to accelerate way beyond what most people believe is possible."
+    },
+    {
+      "id": 536,
+      "start": 1803.9,
+      "end": 1813.3600000000001,
+      "text": "Like the discount rate, I think, not in the short term, but in the long term, is way too high on what will be done and how this will impact every aspect of our society."
+    },
+    {
+      "id": 537,
+      "start": 1813.36,
+      "end": 1819.04,
+      "text": "And I would say, especially on military, and then I tend to be a realist in that."
+    },
+    {
+      "id": 538,
+      "start": 1819.1399999999999,
+      "end": 1821.1599999999999,
+      "text": "I think, you know, you have wide divergences."
+    },
+    {
+      "id": 539,
+      "start": 1821.3,
+      "end": 1827.1999999999998,
+      "text": "It's going to be hard to have the kind of discussions people want to have where two countries are."
+    },
+    {
+      "id": 540,
+      "start": 1827.34,
+      "end": 1832.58,
+      "text": "And with maybe a third following of Russia on the like, because they're so good at fighting."
+    },
+    {
+      "id": 541,
+      "start": 1832.58,
+      "end": 1838.62,
+      "text": "But, and then, and then I, I look, I spent, and I'll get to the developing world."
+    },
+    {
+      "id": 542,
+      "start": 1838.76,
+      "end": 1846.1599999999999,
+      "text": "I spent a lot of my life, my most important years, and my father's family came from a part of Germany."
+    },
+    {
+      "id": 543,
+      "start": 1846.1599999999999,
+      "end": 1853.26,
+      "text": "And I, I really care about Europe and especially the German parts of Europe, where I had many of my best years."
+    },
+    {
+      "id": 544,
+      "start": 1853.52,
+      "end": 1858.46,
+      "text": "I still fantasize of going back to grad school for not for the learning reasons."
+    },
+    {
+      "id": 545,
+      "start": 1858.46,
+      "end": 1863.78,
+      "text": "And, and, and, I had so much fun."
+    },
+    {
+      "id": 546,
+      "start": 1863.9,
+      "end": 1865.4,
+      "text": "Oh, we won't go into that."
+    },
+    {
+      "id": 547,
+      "start": 1865.7,
+      "end": 1867.3,
+      "text": "But it's like endless."
+    },
+    {
+      "id": 548,
+      "start": 1867.46,
+      "end": 1870.42,
+      "text": "I sometimes when I'm traveling across the country, I just think of grad school."
+    },
+    {
+      "id": 549,
+      "start": 1870.42,
+      "end": 1887.8600000000001,
+      "text": "But, it's, but, I, the, the tech adoption in, in, in Europe is a serious and very, very structural problem."
+    },
+    {
+      "id": 550,
+      "start": 1887.86,
+      "end": 1897.32,
+      "text": "And, what scares me the most is I haven't seen any political leader just stand up and say, we have a serious and structural problem that we are going to fix."
+    },
+    {
+      "id": 551,
+      "start": 1897.32,
+      "end": 1900.72,
+      "text": "So, that, then you get to the developing world."
+    },
+    {
+      "id": 552,
+      "start": 1901.06,
+      "end": 1904.76,
+      "text": "I would imagine, it also depends what you mean by the developing world."
+    },
+    {
+      "id": 553,
+      "start": 1905.1799999999998,
+      "end": 1913.1599999999999,
+      "text": "I would imagine with not enough knowledge, you're just going to find pockets that go very well and pockets that go very poorly."
+    },
+    {
+      "id": 554,
+      "start": 1913.16,
+      "end": 1928.64,
+      "text": "As a generalization, like, again, if you go back to this somewhat non-successful solopsy I had about the underlying architecture, one way to look at the unfairness of AI is it pen tests, meaning it load bears on things."
+    },
+    {
+      "id": 555,
+      "start": 1929.18,
+      "end": 1935.5400000000002,
+      "text": "So, societies that can, and organizations and companies that can bear that load have a huge advantage."
+    },
+    {
+      "id": 556,
+      "start": 1935.54,
+      "end": 1942.56,
+      "text": "The problem is if you can't, if you've been pretending you're bearing a load you're not, it collapses and that's where you have to start."
+    },
+    {
+      "id": 557,
+      "start": 1943.24,
+      "end": 1949.56,
+      "text": "And so, if you go around and just say, okay, what societies and microcultures are going to be load bearing here?"
+    },
+    {
+      "id": 558,
+      "start": 1949.56,
+      "end": 1955.82,
+      "text": "I think you would find that parts of the developing world, certain communities in that are going to do very well."
+    },
+    {
+      "id": 559,
+      "start": 1956.8799999999999,
+      "end": 1960.5,
+      "text": "You do need a realistic assessment of the load bearing."
+    },
+    {
+      "id": 560,
+      "start": 1961.36,
+      "end": 1970.82,
+      "text": "And there's a certain honesty that is painful for all of us in this technology, large language models, however, implemented in software."
+    },
+    {
+      "id": 561,
+      "start": 1971.56,
+      "end": 1975.7,
+      "text": "You just cannot obfuscate what can bear the load and what can't."
+    },
+    {
+      "id": 562,
+      "start": 1975.7,
+      "end": 1979.24,
+      "text": "And then political structures are built to do just that."
+    },
+    {
+      "id": 563,
+      "start": 1979.72,
+      "end": 1988.96,
+      "text": "Like, yeah, I can't fix anything, but I can give you some bullshit line that you want to hear that's going to make you not care about how bad your life is and how much worse it's going to be tomorrow."
+    },
+    {
+      "id": 564,
+      "start": 1989.18,
+      "end": 1990.56,
+      "text": "I can give you that for free."
+    },
+    {
+      "id": 565,
+      "start": 1991.32,
+      "end": 1999.76,
+      "text": "And that stuff is harder to get away with in this culture."
+    },
+    {
+      "id": 566,
+      "start": 1999.76,
+      "end": 2003.8799999999999,
+      "text": "And, you know, I still view myself as a card-carrying progressive."
+    },
+    {
+      "id": 567,
+      "start": 2004.3799999999999,
+      "end": 2015.18,
+      "text": "And I think it's the single most important thing a progressive could do is go around and say, yeah, but the revolution that's coming is going to expose the actual market value of what you're doing."
+    },
+    {
+      "id": 568,
+      "start": 2015.72,
+      "end": 2016.74,
+      "text": "Whether we want it or not."
+    },
+    {
+      "id": 569,
+      "start": 2016.74,
+      "end": 2020.24,
+      "text": "Like, it's like I don't even want to know the market value of some of this stuff."
+    },
+    {
+      "id": 570,
+      "start": 2020.6200000000001,
+      "end": 2024.26,
+      "text": "But it is over and over a relative rapid period of time."
+    },
+    {
+      "id": 571,
+      "start": 2024.34,
+      "end": 2031.94,
+      "text": "So next three years, you're just going to get market value, honesty in all sorts of communities and micro communities."
+    },
+    {
+      "id": 572,
+      "start": 2031.94,
+      "end": 2051.48,
+      "text": "And the best thing you can do if you are in a community, whether that is a large community like Germany or a large community larger like America is, and you really care for the people you're representing, is to say, yeah, but let's, we have to kind of look closely at what load we can bear."
+    },
+    {
+      "id": 573,
+      "start": 2053.14,
+      "end": 2054.14,
+      "text": "Thank you, Alex."
+    },
+    {
+      "id": 574,
+      "start": 2054.5,
+      "end": 2054.9,
+      "text": "Thank you."
+    },
+    {
+      "id": 575,
+      "start": 2054.92,
+      "end": 2055.38,
+      "text": "Thank you, everyone."
+    },
+    {
+      "id": 576,
+      "start": 2055.38,
+      "end": 2055.5,
+      "text": "Thank you."
+    },
+    {
+      "id": 577,
+      "start": 2061.94,
+      "end": 2073.0,
+      "text": "Thank you."
+    }
+  ]
+}

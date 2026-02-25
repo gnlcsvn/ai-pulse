@@ -1,0 +1,2816 @@
+{
+  "metadata": {
+    "video_id": "TOsNrV3bXtQ",
+    "url": "https://www.youtube.com/watch?v=TOsNrV3bXtQ",
+    "title": "No Priors Ep. 144 | The 2026 AI Forecast with Sarah & Elad",
+    "channel": "No Priors",
+    "upload_date": "2026-02-07",
+    "duration": "40m",
+    "guests": [
+      "Sarah Guo",
+      "Elad Gil"
+    ],
+    "transcribed_date": "2026-02-24",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "Hi listeners, welcome to KnowPriors. How can we even begin to wrap this year up? The AI field has grown, breaking out into the mainstream and taking center stage with policymakers. ChatGPT shipped massive numbers and asked for massive dollars. Gemini and Google roared back strong. And on the application front, AI coding has shifted to agents and is eating up all of our inference capacity. Doctors are adopting clinical decision support en masse and in law and customer support, enterprise adoption is accelerating. What's next? On the research front, the race has multiple live players with open source closing the gap too. A handful of neo labs, new research labs got funded this year and the narrative is changing. Ilya is calling it the age of research. People are trying different ideas around diffusion, self-improvement, data efficiency, eq, large-scale Asian collaboration, continual learning, energy transformers. It's more open than it's ever been. Finally, we had a lot of attempts to make AI reach into the real world with renewed optimism around robotics. Next year, those companies are going to start making contact with reality. From a prediction standpoint, personally, I think we're going to see somebody make a lot of money, hundreds of millions of dollars, trading markets with LLMs next year. It's inevitable. So we're in the second or third inning. Markets are running a little hot and a little volatile. It's hot in the hot tub. So get into it with me and Elad. Okay, Elad, it's been a year. I know, how's it going? It's 2026, baby. Are you feeling the AGI? Are you feeling AI winter in a good way? I think I'm actually just feeling microplastics. I think I'm now 80% microplastics. I'm just increasing my microplastic consumptions. A friend of mine actually launched a new water brand that has their microplastics, by the way. It's called Lute. It's got like glass bottles and also the cap doesn't have plastic. Does it come with continual testing? No, that's a good idea. Does it come with continual testing for you? They did actually try to take out all the microplastics. And so they, I guess bottled water in actual bottles have more microplastics than plastic bottles because of the cap. Okay, we'll check back in with you in 27 to see if you feel. Yeah, I'm just completely ossified out of plastic. I'm actually really worried about microplastics. What about all the little glass particles? Aren't you worried about that? People talk about microplastics, but not microplastics. I'm much more concerned about that. I don't think those particles end up embedded for you permanently. Silicon? You're not worried about silicons. I go to the beach. I'm like, oh no, microplastics everywhere. I'm actually very willing to insert silicon in my body eventually in my. Wow. That was, yeah, I'm not going to say anything. We can keep going. What's what's happening in AI a lot? What do you, where are we and what are you most excited about? Yeah, I guess for 26 years about this stuff, I think I will be interesting this coming. I think we will. I think there's probably four or five things. One is I think people will proclaim yet again that AI is not doing much and it's overhyped and like that MIT report that people were quoting that I thought really didn't matter. And the reality of the technology always take like 10 years to propagate and people are getting enormous value out of the AI already and they're going to get way more out of it in the future. You know, there's these undoubtedly next year there'll be these overstated but bubble claims as well as, um, hey, I actually isn't working that well kind of claims and that happens every technology cycle and we'll just hear it again next year. And there'll be pundits and discussions and just a bunch of waste of time on it. So I think that'll happen. I think another prediction for 26 is the next set of verticals will hit massive scale. I think this year we saw consolidation of coding into a handful of players and medical ascribing into a handful of players, legal into a handful of players like RV and others. And so I think we'll see that next set of consolidated verticals happening. So I think I'll be interesting. I can keep going. I have like a bunch of these. Do you want to go next? We can alternate as to two. Why don't you do two? Maybe I'll react or react or react and then I'll and then I'll give you two predictions. I have to think of my predictions while I'm reacting. So I'm glad I have at least two threads. Yes. I think that the overall sentiment on AI in the investing landscape is a lot of people getting stressed about the amount of capital they have at work and then just a level of uncertainty around the adoption cycle and technical bets that people are making that they don't have full first principles confidence on coming to risk. So I think like any number of exogenous factors plus noise about the speed of adoption, which, by the way, seems like blinding overall and we can talk about what the constraints are so fast. I don't know what people are talking about. I just saw a report that talked about it's from this group called off call that talked about adoption of AI by doctors. And look, there is just amazing adoption of, of course, you know, several different categories like documentation, clinical decision and support with things like a bridge and open evidence and obviously the general models. But there's like massive enthusiasm for most of the physician profession here. And I'm like, okay, of all of the domains that were professional and considered more conservative, the fact that there is this like, you know, desire to have things that make work better seems like obviously to continue in the other professions. I think this is, by the way, super under discussed that the people who have tended to be the slowest adopters of technology love AI. That's physicians, that's lawyers, that's certain accounting types. It's, you know, it's, it's actually kind of fascinating. It's compliance. You know, it's all the people who always never adopt technology are now adopting this stuff fast. So I do think that's really notable and very under discussed. It will keep happening. There are actually lots of professions where like being able to reason and interact with unstructured data is very useful. Like I expect that there's going to be some like negative market current, like, you know, if Nvidia doesn't over perform by some massive amount, one quarter, everybody's going to freak out. But I, I think that has very little to do with the fundamental secular change. Yeah, it has to do with microplastics and Nvidia. It has to do with microglastics, as you said. Yeah, that's true. Actually, the silicon there is in the air, I bet. I bet that microglastics all over the place. It's messed up, Sarah. It's part of the trade. If you make $20 million as an average Nvidia employee, you also have to have microglastics in your blood. I know, it's awful. Don't listen to this, Jensen. Jensen's our next guest. It's 1% microglastics in the blood. I think, you know, a third area is the next set of foundation models are going to come. And by that, I don't mean the Neo labs and the next gen LLM, which of course will happen. But I mean, physics and materials, science progress by models, math progress. And I think what will happen is there'll be one or two cases where it works really well for something, the lumpents in the material, there'll be some conjecture proved or something. And then it'll fall into this overstated hype cycle of it's going to change everything about physical sciences or whatever. And that one off will be overstated. And in the long run, the trend will be understated and will be incredibly important. So that's what that's another prediction for next year is there'll be a couple anecdotal one offs in science that will make people say, look, science is solved and they'll realize science isn't solved. And then later, science will be solved. I have, okay, fine. Three, three quick predictions for you. One is there's going to be like some collapse of sentiment around a set of robotics companies next year, not because it like actually isn't as a field going to progress, but because, you know, people are beginning to project timelines and, you know, not everybody is going to deliver on those timelines. What's your timeline? I think that we will see humanoid and semi-humanoid robots get deployed at small scale in environments, be the consumer or industrial next year, and not everything will work. And that like the, because there's this, you know, hype cycle around human rights overall, as soon as something doesn't perfectly work, which it will not, people are going to freak out. Right. And then there's going to be some bifurcation about people investing. Yeah. I mean, we're in the year 15, 17, whatever self-driving something around there. And it's really working now, but it took a long time. So it seems like robotics should have maybe a faster curve, but a similar curve, right? It's going to take some time to figure all this stuff out. And then once it's figured out, it's going to be really valuable. And the big question for me on robotics. Now, it's interesting. If you look at self-driving, there's like two dozen, three dozen, whatever legitimate self-driving companies, really good teams and good approaches and all the rest. And then arguably the two biggest winners, at least now are Waymo and Tesla, which were two incumbents, right? Waymo is Google, Tesla is Tesla. So I wonder what will happen in robotics. It feels to me like Optimus or some form of like Tesla robot will be one of the winners, most likely, right? High probability. And then the question is, does Waymo just adopt what it's doing for cars to robots as well? There's some similar problems there. Is it some other big industrial company that startups like who are the winners and why? And structurally, when you have a lot of capital needs, but also a lot of hardware and manufacturing needs, that's going to favor incumbents, which is self-driving, right? I guess arguably the other winners in self-driving are Chinese companies, right? Chinese car companies, which are banned from coming into the US market. And those will probably also be winners in robotics, right? The most likely global winners in robotics will be some subset of China plus Tesla plus something else, right? Maybe one of the startups. I think that's right. But that's like saying, I think in most industries, like, you know, the incumbents are more likely to win than the startups, if you're just looking at it, like as a numbers game. I don't know. Yeah, I don't know. I don't think so. I think there's startup industries where startups should win. And there's incumbent industries where incumbents should win. And they have different characteristics in terms of market structure, in terms of capital needs, in terms of expertise and supply chain. You know, so I do think there are markets where incumbents should definitionally do better. They don't always, but they typically do. And then I think there are markets where startups will do better. Sure. But I don't argue that like some markets are struck, like the moats are structurally deeper, right? But one way that you might look at autonomous vehicles is this one very complex single use case robot. And it mostly does locomotion. It does lots of other necessary types of prediction, defense, and whatever else. But it's a single use case robot. Yeah. And we forget there's a lot of good ones like that. Dishwashers are great single use robots, vacuum cleaners are great. You know, like, there's all these things that we actually have that are robots in the home that we pretend aren't, right? We forgot that they're robots. Elevators are robots. No, seriously. Escalators are robots. I'm going to use the language of like, for a robot to be a robot, it has to be somewhat intelligent, right? And so dishwasher doesn't count as an appliance. A self-driving car does count as a robot. Not just like, Where's the border of intelligence for you? I think like, it's probably some level of generalization, right? It can work in different environments. It can work on different tasks. It can work on different objects. Otherwise, you know, self-driving car is, program. Yeah, I don't know. I didn't have that complex of a definition. I just had it as like something that will do certain pre-programmed types of labor for you. Maybe you have a better definition. Let me look up what the definition of robot is. A machine capable of carrying out a complex series of actions automatically, especially when programmable by a computer. But you know, all these things have chips in them now. Your dishwasher has a chip in it, right? Or the computer in it. Okay. Yes. But like, I would argue that robotics has not been an interesting area of innovation without intelligence. And so that's the relevant set for maybe you and me, and many people that are looking for something that changes quickly. Yeah, that's cool. I mean, I do think that on the on the topic of robots, the biggest trend perhaps, or one of the biggest trends of 2026, 100% will be that self-driving will really begin to matter. And that'll be both in terms of your own car, it'll be in terms of Waymo and Tesla cabs. It's going to be, I think one of the big things that's talked about next year. So I think I think on the robotics team, that's the biggie. I think if you look at all of the potential use cases for robots besides self-driving and say like self-driving, I mean, the Optimus team actually proves this. Like if you take if you take a model that is powering Tesla self-driving and you put it in Optimus, it can do locomotion, but it can't do many other things and you still have to do the hardware. Right. Like manipulation. And so I think that the advantages here are not as strong as you believe they are. And like startups, some sort of startups. Yeah. The scary competition is the Chinese, but I do think that there is opportunity here. Oh, I totally think there's opportunity for startups that don't misinterpret me. I just think that it's not just the fact that you have a model or a base model, you have the expertise to build the model, but then you also have all the supply chain. And I think that's really important because a lot of the same sensors that you need to use are there and how you think about actually procuring and scaling things are there. There's good overlap actually in terms of some of the other skill sets that are needed that take a long time to build usually at a startup that are a little bit painful to build and people do it. It's fine. It's not. I mean, Anderil did it and SpaceX did it. And all these companies have done it. It's extra stuff. So that makes sense. I do think I do think some startups will succeed here. I just trying to think through besides the startups, who's going to be big. And then also, I think there are one or two like income and loss that will just default happen unless something very strange happens. And one could have argued that should have happened in foundation models where Google should have had a default slot. And in the end, it did. It got there. And I think that was very predictable that the Google models will get there. I think I even may have read a post about this like two, three years ago that Google would be relevant, right? Because they just had all the assets that were needed for them to be a really important foundation model company. They obviously invented transformers, but they had all the data, they had all the capital, they had TPUs and GPs, but the best people for all sorts of things are some of the best people. So it felt inevitable. And I think this feels the same to me, but it's right. Do you want to talk about IP as an M&A next year? What do you think will happen there? I think that's another big, that's the number four, five, I guess, you know, three was different types of models, four was robots and self-driving, and then five would be IP as an M&A. What do you think? More IPOs, less IPOs, more M&A, less M&A, different types of M&A? It depends on whether or not the bottom of falls out of the AI market at some point, right? What do you mean by the bottom falls out? What does that translate into? I think people just get skittish about, you know, the cycle here is like, what are people scared of? They are concerned that demand isn't real. No, demand isn't real for AI to support the CapEx cycle, that there is systemic risk from people passing the ball around in terms of who is actually responsible for the CapEx build out and these credit agreements, right? Or, you know, pay on delivery contracts for data centers and for chips. What else are they afraid of? They're afraid of like the microglastics, AKA, too much concentration in NVIDIA and a small number of other players. If you're like a big public markets investor, you're just like, you know, you... Too much silicon. It's too much silicon. It's too much silicon. You're damned if you do, you're damned if you don't. I was talking to a friend of mine who runs a large tech hedge fund, and they're already like a foundation model investor in like multiple significant labs that may or may not go public in the next couple of years. Yeah. And they're like, okay, well, the question is, do you buy the IPO? Their game theory on it was like, actually, no matter what I think about it, I have to do it because retail will want it. Because they like want to be part of the AI revolution. And then if you're a hedge fund, you get benchmarked on annual performance. And because of the retail pop and some set of investors wanting to buy into it as a pure play where you're like, oh, I can't miss it. Like I missed NVIDIA, then you have to buy it. And so his view was like, you buy the IPO, regardless of your fundamental view of the company. And I was like, wow, this is not the investing job I know how to do. Yeah. What do you think happens? I think there'll definitely be a lot more IPOs next year. I think if one of the main AI companies goes out, it'll be... Probably do extremely well, depending where they price. I mean, obviously, if they're overly aggressive, it won't. But in general, I think there's so much retail appetite to actually participate in AI besides NVIDIA. And then that'll just get a lot of other people to go public just as followers on it. So I do expect there'll be a lot of them. It's just one that even goes out. And then also, it's a great way to raise huge amounts of money for some of these labs, potentially. So it'll be interesting to watch what happens there. Any other predictions for 26? Yeah, I think that I did not believe that we were going to see that many like unique consumer experiences besides like ChatGPT. I think we are going to see like a slate of consumer hardware that mostly fails, but I'm still open minded to it. And then definitely actually like, it remains to be see of any of these scales, but I am seeing magical experiences of like really different consumer agent software that I like, I actually want and will use. And I think people are barely beginning to... Well, these companies are in sales right now. But I do think that like, there's going to be a lot more product people that experiment with this and model companies experiment with this next year. And so I'm pretty optimistic about that. Yeah, I agree with that 100%. And I think the big question is what will end up being a breakout startup and undoubtedly be some. And then what will be a startup that will grow really fast and then it'll get copied by the main lab slash Google, and then it just gets incorporated into the core product. And the interesting thing is unless a company truly hits escape velocity and build a network effect or something else that's really defensible, using comments can launch two, three years later and catch up. And so if they have the distribution and have a product and that, but to your point, I think it's very exciting. And I've been waiting for this for a while. I think two years ago, three years ago, this guy, David Song, who was on my team at the time, ran a two quarter thing at Stanford, where we had different team supply from the engineering programs there. And it was like groups of people building consumer apps using AI because we said, this wave of AI is so fascinating. Why isn't anybody building anything consumer? So we basically just gave people free GPU to go and try stuff. And there was no obligation on their side to do anything with it, in terms of us getting involved. It was just go do cool stuff because this is such a good playground. And those really neat experiences are being prototypes. And then I was just shocked that nothing happened for a couple years in terms of really interesting consumer products. So I agree with you. There's so much room for that. And I always wonder, is it because there's a different generation of founders who don't want to work on consumer or forgotten how? Because the big consumer companies have kind of aged out. Is it the incumbents are just too scary? Is it like, why is there so little innovation actually on the consumer side of AI? I still don't quite understand what the issue is. Okay. Let's list the reasons. I do think that the incumbents are pretty scary. And anybody who was around for the last generation of interesting consumer ideas saw actually the ingestion of those ideas into the existing platform, as you put out. Yeah. So there's that. I also think like the first instinct that I've seen from companies, from founders working on like new consumer experiences is essentially building like a better version of like last generation experiences with this generation technology. And that ends up like not being that interesting. And so I actually think you have to be like either quite close to research or pretty creatively ambitious to build like something very different that has any chance. And so I think like, I think like there's just not that many people who have had that experience set or that creativity. And now we're going to see it. Yeah, I think it's pretty exciting. The other thing is, I was talking to a really well known consumer founder who's running a giant public company. And his view is that perhaps in the entire world, there's a few hundred great product people for consumer, at least in terms of who are actually working on it. Obviously, there's enormous human potential and people who aren't working in consumer products could, you know, but of the people working in consumer products, he thinks that most of the few hundred people who are exceptional who could actually come up with and launch their own product that would be interesting or good. And so you could also just say that maybe there's just a limitation on how many of these things can exist, just given human potential within the set of people who are already doing it, which I think is kind of an interesting argument. I don't know if I agree with it, but I thought it was an interesting argument. I would limit myself to that number if it's also the set of people who like have the context of like what is possible now. If you've got great consumer product instinct, but you're like work, you're like grinding away on the like 50th iteration of an existing product. Like, yeah, you're working on the little sub button in Gmail or whatever, instead of actually going off and doing this 100%. Yeah. Well, anything else we should talk about or any other big predictions for 26? I feel like a very big emergent thing that happened this year was the surprising funding of like Neo labs, like three through eight. What do you think of that? What do you think about alternative architectures? Like, do you have any point of view on all of the effort around like getting reinforcement learning to be more general, continual learning, some of the research directions? You know, I think there's enormous amounts of really interesting research being done. So I you know, there's a lot of juice to be squeezed out of these models still in different ways. And I think that's really exciting. Ultimately, these things become capital gains for certain types of approaches or models. Because we know scale really matters, which means that eventually you have to collapse into a handful of players because capital aggregate to things that are working the most, no generating revenue. And so then the question is, what are those things? At what point do things to say get kind of locked in from a usage perspective for whatever reason? And there's all sorts of ways you can imagine this being built over time against some of the models. So I think it's interesting. I think it's exciting. I think we'll see how it plays out. I think to articulate what like the the arguments could be for, you know, new research directions is like Ilya, you know, did this interview recently, where he describes it as the age of research. And to paraphrase, he like basically says that, yes, I believe in scaling, of course, but you know, there's there's some floor of compute that is not infinite, where we can test ideas at scale. And then if we have, let's say, secret ideas around like how to get to more rapid or more compute efficient improvement, then it actually isn't just a straight resource battle, which like the rat race does feel a little bit like today. I think the other argument you could take is actually like multiple architectures and people have done some research on this, but multiple architectures are really relevant at big domains of of usefulness. They just haven't been scaled. Right. And like there's enough capital out there to test them, be they like diffusion or SSMs or whatever. And that's going to happen this next year. And then I think there's like a like a resource focus argument, right? If Ilya is describing that some set of labs, they have an enormous amount of compute, but they have to spend a lot of that compute on inference today, then how much do you spend on your particular research direction? Yeah, be it self-improvement or post training or emotional intelligence or very large scale out agent stuff. Yeah, it depends on what you're doing, because the inference is what ends up then raising you money to pay for everything else because you're generating revenue. So I think sure, but it's effectively your way to bootstrap into more and more scale. So I always thought perhaps incorrectly, I actually probably think it's incorrect, but I always thought that eventually you end up with evolutionary systems is really how you build AI because maybe I'm over extrapolating up a biology where effectively your brain has a series of modules that have different functions or tasks, right? You have a visual system that's highly sort of pre-wired to deal with vision really effectively. You have different areas of higher thought and learning. You have memory, you have mirror neurons that are involved with empathy, right? Your brain is actually very specialized in some ways, although obviously, as people were born with literally like half a brain hemisphere and the brain rewires and sort of covers all the functionality. But there's a few famous cases like that. But, you know, fundamentally, you have a lot of stuff that evolves into very specialized tasks. It's almost like a MOE or something, you know. And the question is the degree to which you recapitulate that as you're doing further development of AI. And when do you start just spawning off a bunch of instances of something and just have some utility function they're evolving against that you then have some selection and recombining and all the other stuff that you kind of do to try and make some of that work versus how much of it is a more analytical approach or a more experimental and iterative approach or, you know, so it's in a directed way. And so I think it's really interesting to ask because if you look again at biology as a as a potential precedent, although maybe a very bad one, you look at protein design. And for a long time, there are these like super analytically designed proteins and then they came up with all these systems that's involved as shit, you know, like phase display and like mutagenic scans and all sorts of things that give you dramatically better results than if you just sat and thought about it. And now, of course, we kind of solved it with AI where you have all these 3D structural predictions that are actually very good. That was AlphaFold and a few other things that really were breakthroughs there. So it feels like in the context of AI, maybe eventually we end up there as well, right? Where you just involve these systems. And then that may be a very different type of approach and training. You know, that may be where I think things really have an interesting break. And that's one of the the reasons that arguably people are so focused on code because code is arguably a bootstrap into moving faster on development of a GI. But I think it's kind of code plus self-evolution is really the the potential really interesting approach to it to get some really fast lift off. But maybe not. Right. We'll see. What is the one prediction you have for 26 that has nothing to do with AI? Do you think about anything else, Sarah? I do. I'm joking. Really? I mean, the other thing, by the way, one other prediction that doesn't have to do with AI is I do think defense will accelerate in terms of startups and defense tech and the shift to autonomous or not autonomous, but to drone based systems in general. The massive reworking of how you think about war and defense. And I think that's going to be a shoot shot that we'll see go even faster this coming year. I think this is accelerating in part to how the Trump administration has been approaching it and the secretary of war and everybody there have been thinking about it. I think in part, just you have enough density now startups doing interesting things. So I think that's the other thing that's like a huge shift that, you know, it's a hype cycle right now. And I actually think again, it's a little bit under thought about because it's, it's going to be so big outside of the AI. I mean, I think there's obvious really interesting things happening in space with SpaceX and Starlink and I think about communications and telephony. So that's a big shift. There's really interesting things in my opinion happening in energy and mining. And, you know, I think there's a lot going on in the world. I agree on defense with some like concern that, you know, we have to wait for budget to actually shift from contracts to primes to some of these new companies at scale. But the demands like the need to be competitive in a world that's increasingly autonomy driven is like so obvious. Right. And I think, you know, hype cycles and booms are good in that they bring a lot of people to the table, you know, capital founders, people who want to work in the industry. And so you can make a lot of progress in a quick amount of time, even if a lot of companies die and there's, there's more enthusiasm over a short period of time. So I agree with that. And I also don't think that's necessarily bad. Right. What's your prediction? I think that like, I'm not the only one, but I think that the like GLP one thing is just, despite all of the enthusiasm, like still underrated for how much impact it has happened. Right. And so I think that the continual adoption of these is like inexorable. I actually think it creates a path that is interesting for like other peptide and hormone therapies. I think the fact that it has been so effective has like lots of second order effects, both from people way, like just being a lot less overweight, like directly and the willingness to look at other engineered peptides or like, I think it, like everybody understands now that like delivery matters. There are these really incredible medicines. And I think that the impact of that is going to like fuel much more investment in anything that looks like that type of opportunity. And so I think that's exciting. Yeah, I actually think one thing that you mentioned is really interesting, where if you look at the sort of biohacking community, there's a lot of peptide use now, different, you know, different peptides that will do different things in terms of, you know, somebody will have some chronic carpal tunnel thing and they'll fly to Dubai to get peptides injected or whatever. And usually those are sort of early indicators of potential larger scale adoption societally. And so I think that's a really interesting trend right now, in general, like this whole like world of peptides and their uses. And is there a hymns of peptides? Like what's the what's coming there? So I think that's super interesting. Yeah, I also think like the biohacking community, as you said, it like the set of people who were really, really early off label GLP one adopters interested in longevity neuromodulation with ultrasound stem cell injection, for example, like that has been like a fringe small community. And I think that like, I think it's going to get less French. And a lot of these things traditionally 10 years ago came out of the bodybuilding community, right? The bodybuilding community was like creatine and all these things that are more broadly used now, but also other other things for sleep aids or other, you know, magnesium and all this stuff. And to round out this year end episode, we've asked some of our friends for their predictions for 2026. I'm so curious. My prediction for next year is that the reasoning systems are going to translate directly to AI's that are much, much more versatile, much, much more robust. And reasoning is going to impact is going to revolutionize not just not just language models, but reasoning is going to impact every single industry from biology to self-driving cars to robotics. And so reasoning, I think is, is the big, huge breakthrough that, that is going to transform a lot of different applications and industries. In 2026, AI will stop being a reactive tool that waits for us to prompt it. Instead, it will become very proactive and get deeply integrated in our work life. It will go where we go, hear what we hear, know what tasks we need to work on. And in fact, most of the times complete those for us before we even ask it to do so. It will be a coach that helps us improve our skills. It will be a manager who helps us prioritize our work and manage our time. In short, it's going to be the best work companion we could wish for. I think the main AI prediction that I have for next year is I think context is just going to be the most important part of every single product. And honestly, like one of the best experiences I've had with it so far is just memory and ChatGPT. Like, I think that there are going to be a lot more features that basically their goal is to extract the user intent and make the onus less on the user to basically give all of the models or the system or the product more and more context. So in other words, how do you put the onus on the product to actually extract that from the user instead of the user having to do all of the work to do this upfront? My prediction for 2026 is there will be a whole new suite of product experiences that run on much faster inference. My prediction for 2026 is that we'll finally stop copy pasting stuff into chat boxes. Instead, I think we're going to have applications that have better use of screen sharing and context management across the sources that matter the most. One prediction for 2026. There's so much talk of agents right now and there has been for a while, but no one has truly created a mass scale consumer agentic AI. I think the models are there today for this to be possible. And in 2026, we will see the group that figures out the right interface and system and product that creates as big a step function and overall experience as ChatGPT when it first came out. And I think this area is not nearly as seated to labs as people assume. It really is anyone's ballgame. Hello, Aaron here. First of all, I get quite awkward around doing selfie videos. This is my ninth take of this video. So I hope it goes okay. But 2026 prediction would be that this is going to be certainly the continued year number two of AI agents, but in particular, AI agents in the enterprise in either deep vertical or domain specific areas. I think this is going to be the main way that we actually take all of the progress that we're seeing in AI models and actually deliver them into the enterprise. You have to be able to tie to the workflow of the organization. You have to get access to the data that they have. You have to have the right context engineering to make the agents actually work. And then you have to do the change management that makes the agents effective. So this is going to be a year where we start to see this pattern emerge more and more, which equally means that we need to ensure that we have a lot more happening on agent harnesses. So shout out to Akorva, Suhail and Dex for that answer. But it's definitely going to be the year of the agent harness and seeing how do you start to get, you know, an order of magnitude improvement on the model's capabilities by having all the right scaffolding around the model. And then finally, it will be the year of economically useful evals. So really starting to figure out how these models end up doing a lot more knowledge worker tasks in the economy. And that's going to, we're going to see a lot more of that in 2026. We saw some previews of that this year with APEX and GDPVAL and a handful of others. We're going to see way more of that. So those are the predictions and we'll see you in 2026. I think 2026 is going to be a very interesting year for American open models. Over the last year, the frontier of open intelligence shifted from America to China, starting with the release of DT at the end of 2024. And American institutions were slow to notice this erosion of American leadership and open intelligence. But I think they've noticed in a big way over the last half year, both from the government level, from the enterprise level. And there are some really interesting neolabs starting to come out with open intelligence as their directive. And there are a few of these, not just reflection. And these companies are starting to produce some very interesting small open models. And next year, I think we'll see the US regaining leadership at the open weight frontier at the largest scale. And I'm really excited to see that. Hey folks, my prediction for 2026 is that I think we will see AI become much more politicized. I think we'll see it become a major point of discussion for the 2026 midterm elections. And some people will come out strongly against it. Some people will come out strongly supportive of it. And I'm not sure which side is going to win out. 2025 has marked an incredible year in AI drug discovery. In the past year alone, we've gone from being able to design simple molecules on the computer to designing simple antibodies, and now most recently, full-length antibodies with drug-like properties, zero shot on the computer. If 2025 has been the year of research in AI drug discovery, 2026 will be the year of deployment. The models have finally entered an era where they're becoming really useful for drug discovery. Not only do they make things faster, but they're also allowing us to go after really challenging targets, which have been traditionally really difficult to do with traditional techniques. I'm really excited to see what comes next because the models show no signs of slowing down. Okay, my prediction for 2026 is it will be the year that YOLO dies. We will begin transforming ourselves from a you only live once to don't die. I think right now we're kind of a suicidal species. We do very primitive things. We poison ourselves with what we eat. We design our lives so that we slowly kill ourselves. Companies make profits by making us addicted and miserable. We destroy the only home we have and somehow we celebrate these things as virtue. I think it's all backwards. I think one day we'll look back and we'll be pretty astonished that we behaved like this. I think the shift coming is going to be simple and radical. That we say yes to life and no to death. It's simple, but I think it could be in response to AI's progress. And we do this defiantly as a form of unification. I think it does require a lot of courage for us though to say we recognize how sacred our existence is. We don't want to throw it away and we want to defend it with every bit of courage and strength we have because it is so precious. I think it's going to be the year we end YOLO and the beginning of don't die. The most striking thing about next year is that the other forms of knowledge work are going to experience what software engineers are feeling right now. Where they went from typing you know most of their lines of code at the beginning of the year to typing barely any of them at the end of the year. I think of this as the Claude code experience but for all forms of knowledge work. I also think that probably continual learning gets sold in a satisfying way. That we see the first test deployments of home robots and the software engineering itself goes utterly wild next year. My prediction for 2026 is that it's the year where everyone's perceptions are flipped. Currently everyone believes that you can only use Nvidia outside of Google and that will be obvious that that's not the case. Currently about a third of Americans hate AI and think it's really bad. That number will increase. Currently most Americans think AI is not useful. That will flip as well. And so everyone's priors will be flipped. That's because the transformative use of AI will be so prevalent. The obvious utility of it will be so high that there is no way for anyone's priors. You know cognitive dissonance will be wiped away. Hey I'm Benger Inspector. I'm Asher Spector. And our prediction is that 2026 is the year of energy efficient AI. Data center build-ups are primarily constrained by energy. Power available, the great interconnects, high voltage equipment, things like that. Which is why XAI's Colossus was initially powered by on-site gas turbines. The thing is the demand for compute is continuing to grow. Labs, neolabs like us, and startups like Cursor have a pretty remarkably sensational demand for both training and compute. And this demand is currently outstripping our ability to push lots onto the grid. This means that in 2026 it will be really important to squeeze every available bit of tons out of every wallet. That said, in the long term chips probably matter more than power because chips depreciate much more quickly than the underlying power infrastructure. So for example with data center power supplies at 10 per kilowatt hour, the chips cost actually order amounted more than the power in the five year depreciation cycle. So in 2026 we think intelligence per watt is really important to squeeze as much intelligence you can out of every unit of energy. But in the long term we think it's the chips that matter more. Happy holidays. Happy New Year. Thanks for the year. Happy 2026. Happy 2026 listeners. Thank you. Find us on Twitter at NoPriorsPod. Subscribe to our YouTube channel if you want to see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at no-priors.com.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 11.28,
+      "text": "Hi listeners, welcome to KnowPriors. How can we even begin to wrap this year up? The AI field"
+    },
+    {
+      "id": 1,
+      "start": 11.28,
+      "end": 15.200000000000001,
+      "text": "has grown, breaking out into the mainstream and taking center stage with policymakers."
+    },
+    {
+      "id": 2,
+      "start": 16.06,
+      "end": 21.48,
+      "text": "ChatGPT shipped massive numbers and asked for massive dollars. Gemini and Google roared back"
+    },
+    {
+      "id": 3,
+      "start": 21.48,
+      "end": 26.62,
+      "text": "strong. And on the application front, AI coding has shifted to agents and is eating up all of"
+    },
+    {
+      "id": 4,
+      "start": 26.62,
+      "end": 31.44,
+      "text": "our inference capacity. Doctors are adopting clinical decision support en masse and in law"
+    },
+    {
+      "id": 5,
+      "start": 31.44,
+      "end": 36.78,
+      "text": "and customer support, enterprise adoption is accelerating. What's next? On the research front,"
+    },
+    {
+      "id": 6,
+      "start": 36.78,
+      "end": 42.7,
+      "text": "the race has multiple live players with open source closing the gap too. A handful of neo labs,"
+    },
+    {
+      "id": 7,
+      "start": 42.92,
+      "end": 47.84,
+      "text": "new research labs got funded this year and the narrative is changing. Ilya is calling it the"
+    },
+    {
+      "id": 8,
+      "start": 47.84,
+      "end": 53.6,
+      "text": "age of research. People are trying different ideas around diffusion, self-improvement, data efficiency,"
+    },
+    {
+      "id": 9,
+      "start": 53.6,
+      "end": 60.82,
+      "text": "eq, large-scale Asian collaboration, continual learning, energy transformers. It's more open"
+    },
+    {
+      "id": 10,
+      "start": 60.82,
+      "end": 65.82000000000001,
+      "text": "than it's ever been. Finally, we had a lot of attempts to make AI reach into the real world"
+    },
+    {
+      "id": 11,
+      "start": 65.82000000000001,
+      "end": 71.66,
+      "text": "with renewed optimism around robotics. Next year, those companies are going to start making contact"
+    },
+    {
+      "id": 12,
+      "start": 71.66,
+      "end": 76.56,
+      "text": "with reality. From a prediction standpoint, personally, I think we're going to see somebody"
+    },
+    {
+      "id": 13,
+      "start": 76.56,
+      "end": 80.78,
+      "text": "make a lot of money, hundreds of millions of dollars, trading markets with LLMs next year."
+    },
+    {
+      "id": 14,
+      "start": 80.78,
+      "end": 86.34,
+      "text": "It's inevitable. So we're in the second or third inning. Markets are running a little hot and a"
+    },
+    {
+      "id": 15,
+      "start": 86.34,
+      "end": 91.3,
+      "text": "little volatile. It's hot in the hot tub. So get into it with me and Elad. Okay, Elad, it's been a"
+    },
+    {
+      "id": 16,
+      "start": 91.3,
+      "end": 98.12,
+      "text": "year. I know, how's it going? It's 2026, baby. Are you feeling the AGI? Are you feeling AI winter in a"
+    },
+    {
+      "id": 17,
+      "start": 98.12,
+      "end": 103.34,
+      "text": "good way? I think I'm actually just feeling microplastics. I think I'm now 80% microplastics."
+    },
+    {
+      "id": 18,
+      "start": 103.34,
+      "end": 107.72,
+      "text": "I'm just increasing my microplastic consumptions. A friend of mine actually launched a new water"
+    },
+    {
+      "id": 19,
+      "start": 107.72,
+      "end": 112.28,
+      "text": "brand that has their microplastics, by the way. It's called Lute. It's got like glass bottles and"
+    },
+    {
+      "id": 20,
+      "start": 112.28,
+      "end": 115.52000000000001,
+      "text": "also the cap doesn't have plastic. Does it come with continual testing?"
+    },
+    {
+      "id": 21,
+      "start": 115.52000000000001,
+      "end": 117.86,
+      "text": "No, that's a good idea. Does it come with continual testing for you?"
+    },
+    {
+      "id": 22,
+      "start": 117.86,
+      "end": 122.54,
+      "text": "They did actually try to take out all the microplastics. And so they, I guess bottled water"
+    },
+    {
+      "id": 23,
+      "start": 122.54,
+      "end": 126.26,
+      "text": "in actual bottles have more microplastics than plastic bottles because of the cap."
+    },
+    {
+      "id": 24,
+      "start": 126.26,
+      "end": 130.04,
+      "text": "Okay, we'll check back in with you in 27 to see if you feel."
+    },
+    {
+      "id": 25,
+      "start": 130.04,
+      "end": 135.68,
+      "text": "Yeah, I'm just completely ossified out of plastic. I'm actually really worried about microplastics."
+    },
+    {
+      "id": 26,
+      "start": 135.68,
+      "end": 139.04000000000002,
+      "text": "What about all the little glass particles? Aren't you worried about that? People talk about"
+    },
+    {
+      "id": 27,
+      "start": 139.04000000000002,
+      "end": 142.4,
+      "text": "microplastics, but not microplastics. I'm much more concerned about that."
+    },
+    {
+      "id": 28,
+      "start": 142.4,
+      "end": 145.46,
+      "text": "I don't think those particles end up embedded for you permanently."
+    },
+    {
+      "id": 29,
+      "start": 145.46,
+      "end": 151.58,
+      "text": "Silicon? You're not worried about silicons. I go to the beach. I'm like, oh no,"
+    },
+    {
+      "id": 30,
+      "start": 151.58,
+      "end": 156.24,
+      "text": "microplastics everywhere. I'm actually very willing to insert silicon in"
+    },
+    {
+      "id": 31,
+      "start": 156.24,
+      "end": 160.08,
+      "text": "my body eventually in my. Wow."
+    },
+    {
+      "id": 32,
+      "start": 160.08,
+      "end": 162.96,
+      "text": "That was, yeah, I'm not going to say anything. We can keep going."
+    },
+    {
+      "id": 33,
+      "start": 162.96,
+      "end": 167.70000000000002,
+      "text": "What's what's happening in AI a lot? What do you, where are we and what are you most excited about?"
+    },
+    {
+      "id": 34,
+      "start": 167.70000000000002,
+      "end": 171.66,
+      "text": "Yeah, I guess for 26 years about this stuff, I think I will be interesting this coming."
+    },
+    {
+      "id": 35,
+      "start": 171.66,
+      "end": 176.0,
+      "text": "I think we will. I think there's probably four or five things. One is I think people will"
+    },
+    {
+      "id": 36,
+      "start": 176.0,
+      "end": 181.98000000000002,
+      "text": "proclaim yet again that AI is not doing much and it's overhyped and like that MIT report that"
+    },
+    {
+      "id": 37,
+      "start": 181.98000000000002,
+      "end": 185.48000000000002,
+      "text": "people were quoting that I thought really didn't matter. And the reality of the technology"
+    },
+    {
+      "id": 38,
+      "start": 185.48,
+      "end": 189.32,
+      "text": "always take like 10 years to propagate and people are getting enormous value out of the"
+    },
+    {
+      "id": 39,
+      "start": 189.32,
+      "end": 191.39999999999998,
+      "text": "AI already and they're going to get way more out of it in the future."
+    },
+    {
+      "id": 40,
+      "start": 191.4,
+      "end": 197.24,
+      "text": "You know, there's these undoubtedly next year there'll be these overstated but bubble claims as well as,"
+    },
+    {
+      "id": 41,
+      "start": 197.24,
+      "end": 201.32,
+      "text": "um, hey, I actually isn't working that well kind of claims and that happens every technology cycle and"
+    },
+    {
+      "id": 42,
+      "start": 201.32,
+      "end": 205.64000000000001,
+      "text": "we'll just hear it again next year. And there'll be pundits and discussions and just a bunch of"
+    },
+    {
+      "id": 43,
+      "start": 205.64000000000001,
+      "end": 210.92000000000002,
+      "text": "waste of time on it. So I think that'll happen. I think another prediction for 26 is the next set of"
+    },
+    {
+      "id": 44,
+      "start": 210.92000000000002,
+      "end": 215.4,
+      "text": "verticals will hit massive scale. I think this year we saw consolidation of coding into a handful of"
+    },
+    {
+      "id": 45,
+      "start": 215.4,
+      "end": 220.76000000000002,
+      "text": "players and medical ascribing into a handful of players, legal into a handful of players like RV and"
+    },
+    {
+      "id": 46,
+      "start": 220.76000000000002,
+      "end": 225.64000000000001,
+      "text": "others. And so I think we'll see that next set of consolidated verticals happening. So I think"
+    },
+    {
+      "id": 47,
+      "start": 225.64000000000001,
+      "end": 229.64000000000001,
+      "text": "I'll be interesting. I can keep going. I have like a bunch of these. Do you want to go next? We can"
+    },
+    {
+      "id": 48,
+      "start": 229.64000000000001,
+      "end": 235.08,
+      "text": "alternate as to two. Why don't you do two? Maybe I'll react or react or react and then I'll and then"
+    },
+    {
+      "id": 49,
+      "start": 235.08,
+      "end": 239.4,
+      "text": "I'll give you two predictions. I have to think of my predictions while I'm reacting. So I'm glad I have"
+    },
+    {
+      "id": 50,
+      "start": 239.4,
+      "end": 248.36,
+      "text": "at least two threads. Yes. I think that the overall sentiment on AI in the investing landscape is a lot"
+    },
+    {
+      "id": 51,
+      "start": 248.36,
+      "end": 255.8,
+      "text": "of people getting stressed about the amount of capital they have at work and then just a level"
+    },
+    {
+      "id": 52,
+      "start": 255.8,
+      "end": 261.72,
+      "text": "of uncertainty around the adoption cycle and technical bets that people are making that they"
+    },
+    {
+      "id": 53,
+      "start": 261.72,
+      "end": 267.96000000000004,
+      "text": "don't have full first principles confidence on coming to risk. So I think like any number of"
+    },
+    {
+      "id": 54,
+      "start": 267.96,
+      "end": 275.4,
+      "text": "exogenous factors plus noise about the speed of adoption, which, by the way, seems like blinding"
+    },
+    {
+      "id": 55,
+      "start": 275.4,
+      "end": 279.4,
+      "text": "overall and we can talk about what the constraints are so fast. I don't know what people are talking"
+    },
+    {
+      "id": 56,
+      "start": 279.4,
+      "end": 286.59999999999997,
+      "text": "about. I just saw a report that talked about it's from this group called off call that talked about"
+    },
+    {
+      "id": 57,
+      "start": 286.59999999999997,
+      "end": 293.24,
+      "text": "adoption of AI by doctors. And look, there is just amazing adoption of, of course, you know, several"
+    },
+    {
+      "id": 58,
+      "start": 293.24,
+      "end": 297.88,
+      "text": "different categories like documentation, clinical decision and support with things like a bridge and"
+    },
+    {
+      "id": 59,
+      "start": 297.88,
+      "end": 303.96000000000004,
+      "text": "open evidence and obviously the general models. But there's like massive enthusiasm for most of the"
+    },
+    {
+      "id": 60,
+      "start": 303.96000000000004,
+      "end": 309.24,
+      "text": "physician profession here. And I'm like, okay, of all of the domains that were professional and"
+    },
+    {
+      "id": 61,
+      "start": 309.24,
+      "end": 315.08,
+      "text": "considered more conservative, the fact that there is this like, you know, desire to have things that"
+    },
+    {
+      "id": 62,
+      "start": 315.08,
+      "end": 319.0,
+      "text": "make work better seems like obviously to continue in the other professions."
+    },
+    {
+      "id": 63,
+      "start": 319.0,
+      "end": 325.48,
+      "text": "I think this is, by the way, super under discussed that the people who have tended to be the slowest"
+    },
+    {
+      "id": 64,
+      "start": 325.48,
+      "end": 331.96,
+      "text": "adopters of technology love AI. That's physicians, that's lawyers, that's certain accounting types."
+    },
+    {
+      "id": 65,
+      "start": 331.96,
+      "end": 336.68,
+      "text": "It's, you know, it's, it's actually kind of fascinating. It's compliance. You know, it's all the"
+    },
+    {
+      "id": 66,
+      "start": 336.68,
+      "end": 341.64,
+      "text": "people who always never adopt technology are now adopting this stuff fast. So I do think that's really"
+    },
+    {
+      "id": 67,
+      "start": 341.64,
+      "end": 345.88,
+      "text": "notable and very under discussed. It will keep happening. There are actually lots of professions"
+    },
+    {
+      "id": 68,
+      "start": 345.88,
+      "end": 351.15999999999997,
+      "text": "where like being able to reason and interact with unstructured data is very useful. Like I expect"
+    },
+    {
+      "id": 69,
+      "start": 351.15999999999997,
+      "end": 355.56,
+      "text": "that there's going to be some like negative market current, like, you know, if Nvidia doesn't over"
+    },
+    {
+      "id": 70,
+      "start": 355.56,
+      "end": 361.15999999999997,
+      "text": "perform by some massive amount, one quarter, everybody's going to freak out. But I, I think"
+    },
+    {
+      "id": 71,
+      "start": 361.15999999999997,
+      "end": 363.71999999999997,
+      "text": "that has very little to do with the fundamental secular change."
+    },
+    {
+      "id": 72,
+      "start": 363.71999999999997,
+      "end": 365.64,
+      "text": "Yeah, it has to do with microplastics and Nvidia."
+    },
+    {
+      "id": 73,
+      "start": 365.64,
+      "end": 369.56,
+      "text": "It has to do with microglastics, as you said."
+    },
+    {
+      "id": 74,
+      "start": 369.56,
+      "end": 372.04,
+      "text": "Yeah, that's true. Actually, the silicon there is in the air,"
+    },
+    {
+      "id": 75,
+      "start": 372.04,
+      "end": 376.04,
+      "text": "I bet. I bet that microglastics all over the place. It's messed up, Sarah."
+    },
+    {
+      "id": 76,
+      "start": 376.04,
+      "end": 380.20000000000005,
+      "text": "It's part of the trade. If you make $20 million as an average Nvidia employee,"
+    },
+    {
+      "id": 77,
+      "start": 380.76000000000005,
+      "end": 382.84000000000003,
+      "text": "you also have to have microglastics in your blood."
+    },
+    {
+      "id": 78,
+      "start": 382.84000000000003,
+      "end": 383.32,
+      "text": "I know, it's awful."
+    },
+    {
+      "id": 79,
+      "start": 383.32,
+      "end": 385.32000000000005,
+      "text": "Don't listen to this, Jensen. Jensen's our next guest."
+    },
+    {
+      "id": 80,
+      "start": 385.32000000000005,
+      "end": 388.6,
+      "text": "It's 1% microglastics in the blood."
+    },
+    {
+      "id": 81,
+      "start": 388.6,
+      "end": 394.76,
+      "text": "I think, you know, a third area is the next set of foundation models are going to come. And by that,"
+    },
+    {
+      "id": 82,
+      "start": 394.76,
+      "end": 400.2,
+      "text": "I don't mean the Neo labs and the next gen LLM, which of course will happen. But I mean,"
+    },
+    {
+      "id": 83,
+      "start": 400.76,
+      "end": 405.15999999999997,
+      "text": "physics and materials, science progress by models, math progress."
+    },
+    {
+      "id": 84,
+      "start": 405.71999999999997,
+      "end": 409.88,
+      "text": "And I think what will happen is there'll be one or two cases where it works really well for"
+    },
+    {
+      "id": 85,
+      "start": 409.88,
+      "end": 414.12,
+      "text": "something, the lumpents in the material, there'll be some conjecture proved or something."
+    },
+    {
+      "id": 86,
+      "start": 415.48,
+      "end": 419.56,
+      "text": "And then it'll fall into this overstated hype cycle of it's going to change everything about"
+    },
+    {
+      "id": 87,
+      "start": 419.56,
+      "end": 424.6,
+      "text": "physical sciences or whatever. And that one off will be overstated. And in the long run,"
+    },
+    {
+      "id": 88,
+      "start": 424.6,
+      "end": 427.8,
+      "text": "the trend will be understated and will be incredibly important. So that's what that's"
+    },
+    {
+      "id": 89,
+      "start": 427.8,
+      "end": 432.84000000000003,
+      "text": "another prediction for next year is there'll be a couple anecdotal one offs in science that will"
+    },
+    {
+      "id": 90,
+      "start": 432.84000000000003,
+      "end": 436.28,
+      "text": "make people say, look, science is solved and they'll realize science isn't solved. And then later,"
+    },
+    {
+      "id": 91,
+      "start": 436.28,
+      "end": 442.68,
+      "text": "science will be solved. I have, okay, fine. Three, three quick predictions for you. One is there's"
+    },
+    {
+      "id": 92,
+      "start": 442.68,
+      "end": 449.4,
+      "text": "going to be like some collapse of sentiment around a set of robotics companies next year, not"
+    },
+    {
+      "id": 93,
+      "start": 449.4,
+      "end": 454.91999999999996,
+      "text": "because it like actually isn't as a field going to progress, but because, you know, people are"
+    },
+    {
+      "id": 94,
+      "start": 454.91999999999996,
+      "end": 461.79999999999995,
+      "text": "beginning to project timelines and, you know, not everybody is going to deliver on those timelines."
+    },
+    {
+      "id": 95,
+      "start": 461.79999999999995,
+      "end": 464.35999999999996,
+      "text": "What's your timeline? I think that we will see"
+    },
+    {
+      "id": 96,
+      "start": 465.79999999999995,
+      "end": 472.35999999999996,
+      "text": "humanoid and semi-humanoid robots get deployed at small scale in environments, be the consumer or"
+    },
+    {
+      "id": 97,
+      "start": 472.35999999999996,
+      "end": 478.44,
+      "text": "industrial next year, and not everything will work. And that like the, because there's this, you know,"
+    },
+    {
+      "id": 98,
+      "start": 478.44,
+      "end": 483.24,
+      "text": "hype cycle around human rights overall, as soon as something doesn't perfectly work, which it will"
+    },
+    {
+      "id": 99,
+      "start": 483.24,
+      "end": 487.48,
+      "text": "not, people are going to freak out. Right. And then there's going to be some bifurcation about"
+    },
+    {
+      "id": 100,
+      "start": 487.48,
+      "end": 494.04,
+      "text": "people investing. Yeah. I mean, we're in the year 15, 17, whatever self-driving something around there."
+    },
+    {
+      "id": 101,
+      "start": 494.04,
+      "end": 498.68,
+      "text": "And it's really working now, but it took a long time. So it seems like robotics should have maybe"
+    },
+    {
+      "id": 102,
+      "start": 498.68,
+      "end": 501.96,
+      "text": "a faster curve, but a similar curve, right? It's going to take some time to figure all this stuff out."
+    },
+    {
+      "id": 103,
+      "start": 502.52,
+      "end": 505.15999999999997,
+      "text": "And then once it's figured out, it's going to be really valuable. And the big question for me on"
+    },
+    {
+      "id": 104,
+      "start": 505.16,
+      "end": 508.92,
+      "text": "robotics. Now, it's interesting. If you look at self-driving, there's like two dozen, three dozen,"
+    },
+    {
+      "id": 105,
+      "start": 508.92,
+      "end": 513.1600000000001,
+      "text": "whatever legitimate self-driving companies, really good teams and good approaches and all the rest."
+    },
+    {
+      "id": 106,
+      "start": 513.8000000000001,
+      "end": 520.0400000000001,
+      "text": "And then arguably the two biggest winners, at least now are Waymo and Tesla, which were two incumbents,"
+    },
+    {
+      "id": 107,
+      "start": 520.0400000000001,
+      "end": 524.52,
+      "text": "right? Waymo is Google, Tesla is Tesla. So I wonder what will happen in robotics. It feels to me like"
+    },
+    {
+      "id": 108,
+      "start": 524.52,
+      "end": 530.2,
+      "text": "Optimus or some form of like Tesla robot will be one of the winners, most likely, right? High probability."
+    },
+    {
+      "id": 109,
+      "start": 530.9200000000001,
+      "end": 534.52,
+      "text": "And then the question is, does Waymo just adopt what it's doing for cars to robots as well?"
+    },
+    {
+      "id": 110,
+      "start": 535.7199999999999,
+      "end": 540.1999999999999,
+      "text": "There's some similar problems there. Is it some other big industrial company that startups like"
+    },
+    {
+      "id": 111,
+      "start": 540.1999999999999,
+      "end": 546.04,
+      "text": "who are the winners and why? And structurally, when you have a lot of capital needs, but also a lot of"
+    },
+    {
+      "id": 112,
+      "start": 546.04,
+      "end": 551.48,
+      "text": "hardware and manufacturing needs, that's going to favor incumbents, which is self-driving, right?"
+    },
+    {
+      "id": 113,
+      "start": 552.04,
+      "end": 557.0799999999999,
+      "text": "I guess arguably the other winners in self-driving are Chinese companies, right? Chinese car companies,"
+    },
+    {
+      "id": 114,
+      "start": 557.0799999999999,
+      "end": 561.9599999999999,
+      "text": "which are banned from coming into the US market. And those will probably also be winners in robotics,"
+    },
+    {
+      "id": 115,
+      "start": 561.96,
+      "end": 567.24,
+      "text": "right? The most likely global winners in robotics will be some subset of China plus Tesla plus"
+    },
+    {
+      "id": 116,
+      "start": 567.24,
+      "end": 571.96,
+      "text": "something else, right? Maybe one of the startups. I think that's right. But that's like saying,"
+    },
+    {
+      "id": 117,
+      "start": 571.96,
+      "end": 578.0400000000001,
+      "text": "I think in most industries, like, you know, the incumbents are more likely to win than the startups,"
+    },
+    {
+      "id": 118,
+      "start": 578.0400000000001,
+      "end": 580.2,
+      "text": "if you're just looking at it, like as a numbers game."
+    },
+    {
+      "id": 119,
+      "start": 581.08,
+      "end": 586.0400000000001,
+      "text": "I don't know. Yeah, I don't know. I don't think so. I think there's startup industries where startups"
+    },
+    {
+      "id": 120,
+      "start": 586.0400000000001,
+      "end": 588.52,
+      "text": "should win. And there's incumbent industries where incumbents should win."
+    },
+    {
+      "id": 121,
+      "start": 588.52,
+      "end": 592.04,
+      "text": "And they have different characteristics in terms of market structure, in terms of capital needs,"
+    },
+    {
+      "id": 122,
+      "start": 592.04,
+      "end": 597.0799999999999,
+      "text": "in terms of expertise and supply chain. You know, so I do think there are markets where incumbents"
+    },
+    {
+      "id": 123,
+      "start": 597.0799999999999,
+      "end": 601.16,
+      "text": "should definitionally do better. They don't always, but they typically do. And then I think there are"
+    },
+    {
+      "id": 124,
+      "start": 601.16,
+      "end": 606.52,
+      "text": "markets where startups will do better. Sure. But I don't argue that like some markets are struck,"
+    },
+    {
+      "id": 125,
+      "start": 606.52,
+      "end": 612.6,
+      "text": "like the moats are structurally deeper, right? But one way that you might look at autonomous vehicles is"
+    },
+    {
+      "id": 126,
+      "start": 612.6,
+      "end": 620.12,
+      "text": "this one very complex single use case robot. And it mostly does locomotion. It does lots of other"
+    },
+    {
+      "id": 127,
+      "start": 620.12,
+      "end": 625.5600000000001,
+      "text": "necessary types of prediction, defense, and whatever else. But it's a single use case robot."
+    },
+    {
+      "id": 128,
+      "start": 625.5600000000001,
+      "end": 630.6,
+      "text": "Yeah. And we forget there's a lot of good ones like that. Dishwashers are great single use robots,"
+    },
+    {
+      "id": 129,
+      "start": 630.6,
+      "end": 634.28,
+      "text": "vacuum cleaners are great. You know, like, there's all these things that we actually have that are"
+    },
+    {
+      "id": 130,
+      "start": 634.28,
+      "end": 638.6800000000001,
+      "text": "robots in the home that we pretend aren't, right? We forgot that they're robots. Elevators are robots."
+    },
+    {
+      "id": 131,
+      "start": 638.68,
+      "end": 642.5999999999999,
+      "text": "No, seriously. Escalators are robots. I'm going to use the language of like,"
+    },
+    {
+      "id": 132,
+      "start": 642.5999999999999,
+      "end": 647.64,
+      "text": "for a robot to be a robot, it has to be somewhat intelligent, right? And so dishwasher doesn't"
+    },
+    {
+      "id": 133,
+      "start": 647.64,
+      "end": 653.16,
+      "text": "count as an appliance. A self-driving car does count as a robot. Not just like,"
+    },
+    {
+      "id": 134,
+      "start": 653.16,
+      "end": 657.4,
+      "text": "Where's the border of intelligence for you? I think like, it's probably some level of"
+    },
+    {
+      "id": 135,
+      "start": 657.4,
+      "end": 661.16,
+      "text": "generalization, right? It can work in different environments. It can work on different tasks."
+    },
+    {
+      "id": 136,
+      "start": 661.16,
+      "end": 665.0799999999999,
+      "text": "It can work on different objects. Otherwise, you know, self-driving car is,"
+    },
+    {
+      "id": 137,
+      "start": 665.08,
+      "end": 669.1600000000001,
+      "text": "program. Yeah, I don't know. I didn't have that complex of a definition. I just had it as like"
+    },
+    {
+      "id": 138,
+      "start": 669.1600000000001,
+      "end": 674.84,
+      "text": "something that will do certain pre-programmed types of labor for you. Maybe you have a better"
+    },
+    {
+      "id": 139,
+      "start": 674.84,
+      "end": 681.0,
+      "text": "definition. Let me look up what the definition of robot is. A machine capable of carrying out a"
+    },
+    {
+      "id": 140,
+      "start": 681.0,
+      "end": 686.6800000000001,
+      "text": "complex series of actions automatically, especially when programmable by a computer. But you know,"
+    },
+    {
+      "id": 141,
+      "start": 686.6800000000001,
+      "end": 690.2800000000001,
+      "text": "all these things have chips in them now. Your dishwasher has a chip in it, right? Or the computer in it."
+    },
+    {
+      "id": 142,
+      "start": 690.28,
+      "end": 696.8399999999999,
+      "text": "Okay. Yes. But like, I would argue that robotics has not been an interesting area of innovation"
+    },
+    {
+      "id": 143,
+      "start": 696.8399999999999,
+      "end": 701.8,
+      "text": "without intelligence. And so that's the relevant set for maybe you and me, and many people that are"
+    },
+    {
+      "id": 144,
+      "start": 701.8,
+      "end": 708.36,
+      "text": "looking for something that changes quickly. Yeah, that's cool. I mean, I do think that on the"
+    },
+    {
+      "id": 145,
+      "start": 708.36,
+      "end": 714.6,
+      "text": "on the topic of robots, the biggest trend perhaps, or one of the biggest trends of 2026, 100% will be"
+    },
+    {
+      "id": 146,
+      "start": 714.6,
+      "end": 718.76,
+      "text": "that self-driving will really begin to matter. And that'll be both in terms of your own car, it'll be in"
+    },
+    {
+      "id": 147,
+      "start": 718.76,
+      "end": 723.96,
+      "text": "terms of Waymo and Tesla cabs. It's going to be, I think one of the big things that's talked about"
+    },
+    {
+      "id": 148,
+      "start": 723.96,
+      "end": 729.72,
+      "text": "next year. So I think I think on the robotics team, that's the biggie. I think if you look at all of"
+    },
+    {
+      "id": 149,
+      "start": 729.72,
+      "end": 735.24,
+      "text": "the potential use cases for robots besides self-driving and say like self-driving, I mean, the"
+    },
+    {
+      "id": 150,
+      "start": 735.24,
+      "end": 741.24,
+      "text": "Optimus team actually proves this. Like if you take if you take a model that is powering Tesla self-driving"
+    },
+    {
+      "id": 151,
+      "start": 741.24,
+      "end": 745.16,
+      "text": "and you put it in Optimus, it can do locomotion, but it can't do many other things and you still have to do"
+    },
+    {
+      "id": 152,
+      "start": 745.16,
+      "end": 750.92,
+      "text": "the hardware. Right. Like manipulation. And so I think that the advantages here are not as strong"
+    },
+    {
+      "id": 153,
+      "start": 750.92,
+      "end": 755.88,
+      "text": "as you believe they are. And like startups, some sort of startups. Yeah. The scary competition is"
+    },
+    {
+      "id": 154,
+      "start": 755.88,
+      "end": 759.9599999999999,
+      "text": "the Chinese, but I do think that there is opportunity here. Oh, I totally think there's"
+    },
+    {
+      "id": 155,
+      "start": 759.9599999999999,
+      "end": 764.36,
+      "text": "opportunity for startups that don't misinterpret me. I just think that it's not just the fact that you"
+    },
+    {
+      "id": 156,
+      "start": 764.36,
+      "end": 768.52,
+      "text": "have a model or a base model, you have the expertise to build the model, but then you also have all the"
+    },
+    {
+      "id": 157,
+      "start": 768.52,
+      "end": 773.4,
+      "text": "supply chain. And I think that's really important because a lot of the same sensors that you need to use are"
+    },
+    {
+      "id": 158,
+      "start": 773.4,
+      "end": 779.0,
+      "text": "there and how you think about actually procuring and scaling things are there. There's good overlap"
+    },
+    {
+      "id": 159,
+      "start": 779.0,
+      "end": 782.4399999999999,
+      "text": "actually in terms of some of the other skill sets that are needed that take a long time to build usually"
+    },
+    {
+      "id": 160,
+      "start": 782.4399999999999,
+      "end": 786.6,
+      "text": "at a startup that are a little bit painful to build and people do it. It's fine. It's not. I mean,"
+    },
+    {
+      "id": 161,
+      "start": 786.6,
+      "end": 791.72,
+      "text": "Anderil did it and SpaceX did it. And all these companies have done it. It's extra stuff. So that"
+    },
+    {
+      "id": 162,
+      "start": 791.72,
+      "end": 795.72,
+      "text": "makes sense. I do think I do think some startups will succeed here. I just trying to think through"
+    },
+    {
+      "id": 163,
+      "start": 796.68,
+      "end": 800.76,
+      "text": "besides the startups, who's going to be big. And then also, I think there are one or two like"
+    },
+    {
+      "id": 164,
+      "start": 800.76,
+      "end": 804.68,
+      "text": "income and loss that will just default happen unless something very strange happens. And"
+    },
+    {
+      "id": 165,
+      "start": 805.56,
+      "end": 808.92,
+      "text": "one could have argued that should have happened in foundation models where Google should have had"
+    },
+    {
+      "id": 166,
+      "start": 808.92,
+      "end": 814.52,
+      "text": "a default slot. And in the end, it did. It got there. And I think that was very predictable that"
+    },
+    {
+      "id": 167,
+      "start": 814.52,
+      "end": 818.6,
+      "text": "the Google models will get there. I think I even may have read a post about this like two, three years"
+    },
+    {
+      "id": 168,
+      "start": 818.6,
+      "end": 824.36,
+      "text": "ago that Google would be relevant, right? Because they just had all the assets that were needed for"
+    },
+    {
+      "id": 169,
+      "start": 824.36,
+      "end": 827.64,
+      "text": "them to be a really important foundation model company. They obviously invented transformers,"
+    },
+    {
+      "id": 170,
+      "start": 827.64,
+      "end": 831.56,
+      "text": "but they had all the data, they had all the capital, they had TPUs and GPs, but the best people"
+    },
+    {
+      "id": 171,
+      "start": 831.56,
+      "end": 836.6,
+      "text": "for all sorts of things are some of the best people. So it felt inevitable. And I think this"
+    },
+    {
+      "id": 172,
+      "start": 836.6,
+      "end": 841.0,
+      "text": "feels the same to me, but it's right. Do you want to talk about IP as an M&A next year? What do you"
+    },
+    {
+      "id": 173,
+      "start": 841.0,
+      "end": 846.36,
+      "text": "think will happen there? I think that's another big, that's the number four, five, I guess, you know,"
+    },
+    {
+      "id": 174,
+      "start": 846.36,
+      "end": 851.96,
+      "text": "three was different types of models, four was robots and self-driving, and then five would be IP as an M&A."
+    },
+    {
+      "id": 175,
+      "start": 851.96,
+      "end": 857.4000000000001,
+      "text": "What do you think? More IPOs, less IPOs, more M&A, less M&A, different types of M&A?"
+    },
+    {
+      "id": 176,
+      "start": 857.4000000000001,
+      "end": 861.88,
+      "text": "It depends on whether or not the bottom of falls out of the AI market at some point, right?"
+    },
+    {
+      "id": 177,
+      "start": 863.32,
+      "end": 867.8000000000001,
+      "text": "What do you mean by the bottom falls out? What does that translate into?"
+    },
+    {
+      "id": 178,
+      "start": 868.6,
+      "end": 873.88,
+      "text": "I think people just get skittish about, you know, the cycle here is like, what are people scared of?"
+    },
+    {
+      "id": 179,
+      "start": 873.88,
+      "end": 882.28,
+      "text": "They are concerned that demand isn't real. No, demand isn't real for AI to support the CapEx cycle,"
+    },
+    {
+      "id": 180,
+      "start": 882.28,
+      "end": 889.32,
+      "text": "that there is systemic risk from people passing the ball around in terms of who is actually"
+    },
+    {
+      "id": 181,
+      "start": 889.32,
+      "end": 895.08,
+      "text": "responsible for the CapEx build out and these credit agreements, right? Or, you know, pay on"
+    },
+    {
+      "id": 182,
+      "start": 895.08,
+      "end": 901.88,
+      "text": "delivery contracts for data centers and for chips. What else are they afraid of? They're afraid of like"
+    },
+    {
+      "id": 183,
+      "start": 901.88,
+      "end": 909.16,
+      "text": "the microglastics, AKA, too much concentration in NVIDIA and a small number of other players."
+    },
+    {
+      "id": 184,
+      "start": 909.16,
+      "end": 913.24,
+      "text": "If you're like a big public markets investor, you're just like, you know, you..."
+    },
+    {
+      "id": 185,
+      "start": 913.24,
+      "end": 915.72,
+      "text": "Too much silicon. It's too much silicon."
+    },
+    {
+      "id": 186,
+      "start": 915.72,
+      "end": 919.72,
+      "text": "It's too much silicon. You're damned if you do, you're damned if you don't. I was talking to"
+    },
+    {
+      "id": 187,
+      "start": 919.72,
+      "end": 927.0,
+      "text": "a friend of mine who runs a large tech hedge fund, and they're already like a foundation model investor"
+    },
+    {
+      "id": 188,
+      "start": 927.0,
+      "end": 931.4,
+      "text": "in like multiple significant labs that may or may not go public in the next couple of years."
+    },
+    {
+      "id": 189,
+      "start": 931.4,
+      "end": 932.04,
+      "text": "Yeah."
+    },
+    {
+      "id": 190,
+      "start": 932.04,
+      "end": 937.0,
+      "text": "And they're like, okay, well, the question is, do you buy the IPO? Their game theory on it was like,"
+    },
+    {
+      "id": 191,
+      "start": 937.0,
+      "end": 941.72,
+      "text": "actually, no matter what I think about it, I have to do it because retail will want it."
+    },
+    {
+      "id": 192,
+      "start": 942.6,
+      "end": 946.28,
+      "text": "Because they like want to be part of the AI revolution. And then if you're a hedge fund,"
+    },
+    {
+      "id": 193,
+      "start": 946.28,
+      "end": 951.96,
+      "text": "you get benchmarked on annual performance. And because of the retail pop and some set of investors"
+    },
+    {
+      "id": 194,
+      "start": 951.96,
+      "end": 957.1600000000001,
+      "text": "wanting to buy into it as a pure play where you're like, oh, I can't miss it. Like I missed NVIDIA,"
+    },
+    {
+      "id": 195,
+      "start": 957.1600000000001,
+      "end": 963.4000000000001,
+      "text": "then you have to buy it. And so his view was like, you buy the IPO, regardless of your fundamental"
+    },
+    {
+      "id": 196,
+      "start": 963.4000000000001,
+      "end": 966.52,
+      "text": "view of the company. And I was like, wow, this is not the investing job I know how to do."
+    },
+    {
+      "id": 197,
+      "start": 966.52,
+      "end": 967.0,
+      "text": "Yeah."
+    },
+    {
+      "id": 198,
+      "start": 967.0,
+      "end": 967.8000000000001,
+      "text": "What do you think happens?"
+    },
+    {
+      "id": 199,
+      "start": 968.36,
+      "end": 973.08,
+      "text": "I think there'll definitely be a lot more IPOs next year. I think if one of the main AI companies"
+    },
+    {
+      "id": 200,
+      "start": 973.08,
+      "end": 977.64,
+      "text": "goes out, it'll be... Probably do extremely well, depending where they price. I mean, obviously,"
+    },
+    {
+      "id": 201,
+      "start": 977.64,
+      "end": 981.08,
+      "text": "if they're overly aggressive, it won't. But in general, I think there's so much retail appetite to"
+    },
+    {
+      "id": 202,
+      "start": 981.08,
+      "end": 986.5200000000001,
+      "text": "actually participate in AI besides NVIDIA. And then that'll just get a lot of other people to"
+    },
+    {
+      "id": 203,
+      "start": 986.5200000000001,
+      "end": 990.84,
+      "text": "go public just as followers on it. So I do expect there'll be a lot of them. It's just one that even"
+    },
+    {
+      "id": 204,
+      "start": 990.84,
+      "end": 995.48,
+      "text": "goes out. And then also, it's a great way to raise huge amounts of money for some of these labs,"
+    },
+    {
+      "id": 205,
+      "start": 995.48,
+      "end": 1000.44,
+      "text": "potentially. So it'll be interesting to watch what happens there. Any other predictions for 26?"
+    },
+    {
+      "id": 206,
+      "start": 1001.24,
+      "end": 1009.6400000000001,
+      "text": "Yeah, I think that I did not believe that we were going to see that many like unique consumer"
+    },
+    {
+      "id": 207,
+      "start": 1009.64,
+      "end": 1017.48,
+      "text": "experiences besides like ChatGPT. I think we are going to see like a slate of consumer hardware"
+    },
+    {
+      "id": 208,
+      "start": 1017.48,
+      "end": 1022.68,
+      "text": "that mostly fails, but I'm still open minded to it. And then definitely actually like, it remains to be"
+    },
+    {
+      "id": 209,
+      "start": 1022.68,
+      "end": 1030.76,
+      "text": "see of any of these scales, but I am seeing magical experiences of like really different consumer agent"
+    },
+    {
+      "id": 210,
+      "start": 1030.76,
+      "end": 1037.0,
+      "text": "software that I like, I actually want and will use. And I think people are barely beginning to..."
+    },
+    {
+      "id": 211,
+      "start": 1037.0,
+      "end": 1042.2,
+      "text": "Well, these companies are in sales right now. But I do think that like, there's going to be a lot"
+    },
+    {
+      "id": 212,
+      "start": 1042.2,
+      "end": 1046.6,
+      "text": "more product people that experiment with this and model companies experiment with this next year."
+    },
+    {
+      "id": 213,
+      "start": 1047.64,
+      "end": 1051.48,
+      "text": "And so I'm pretty optimistic about that. Yeah, I agree with that 100%. And I think"
+    },
+    {
+      "id": 214,
+      "start": 1052.12,
+      "end": 1057.0,
+      "text": "the big question is what will end up being a breakout startup and undoubtedly be some. And then what will"
+    },
+    {
+      "id": 215,
+      "start": 1057.0,
+      "end": 1061.72,
+      "text": "be a startup that will grow really fast and then it'll get copied by the main lab slash Google, and then it"
+    },
+    {
+      "id": 216,
+      "start": 1061.72,
+      "end": 1066.28,
+      "text": "just gets incorporated into the core product. And the interesting thing is unless a company truly hits"
+    },
+    {
+      "id": 217,
+      "start": 1066.28,
+      "end": 1069.88,
+      "text": "escape velocity and build a network effect or something else that's really defensible,"
+    },
+    {
+      "id": 218,
+      "start": 1070.68,
+      "end": 1075.56,
+      "text": "using comments can launch two, three years later and catch up. And so if they have the distribution"
+    },
+    {
+      "id": 219,
+      "start": 1075.56,
+      "end": 1079.96,
+      "text": "and have a product and that, but to your point, I think it's very exciting. And I've been waiting for"
+    },
+    {
+      "id": 220,
+      "start": 1079.96,
+      "end": 1085.32,
+      "text": "this for a while. I think two years ago, three years ago, this guy, David Song, who was on my team at the"
+    },
+    {
+      "id": 221,
+      "start": 1085.32,
+      "end": 1092.4399999999998,
+      "text": "time, ran a two quarter thing at Stanford, where we had different team supply from the engineering"
+    },
+    {
+      "id": 222,
+      "start": 1092.4399999999998,
+      "end": 1098.52,
+      "text": "programs there. And it was like groups of people building consumer apps using AI because we said,"
+    },
+    {
+      "id": 223,
+      "start": 1098.52,
+      "end": 1103.56,
+      "text": "this wave of AI is so fascinating. Why isn't anybody building anything consumer? So we basically just gave"
+    },
+    {
+      "id": 224,
+      "start": 1103.56,
+      "end": 1110.9199999999998,
+      "text": "people free GPU to go and try stuff. And there was no obligation on their side to do anything with it,"
+    },
+    {
+      "id": 225,
+      "start": 1110.92,
+      "end": 1115.8000000000002,
+      "text": "in terms of us getting involved. It was just go do cool stuff because this is such a good playground."
+    },
+    {
+      "id": 226,
+      "start": 1116.52,
+      "end": 1121.0,
+      "text": "And those really neat experiences are being prototypes. And then I was just shocked that"
+    },
+    {
+      "id": 227,
+      "start": 1121.0,
+      "end": 1126.2,
+      "text": "nothing happened for a couple years in terms of really interesting consumer products. So I agree with"
+    },
+    {
+      "id": 228,
+      "start": 1126.2,
+      "end": 1129.96,
+      "text": "you. There's so much room for that. And I always wonder, is it because there's a different generation"
+    },
+    {
+      "id": 229,
+      "start": 1129.96,
+      "end": 1135.4,
+      "text": "of founders who don't want to work on consumer or forgotten how? Because the big consumer companies have"
+    },
+    {
+      "id": 230,
+      "start": 1135.4,
+      "end": 1141.8000000000002,
+      "text": "kind of aged out. Is it the incumbents are just too scary? Is it like, why is there so little"
+    },
+    {
+      "id": 231,
+      "start": 1141.8000000000002,
+      "end": 1146.68,
+      "text": "innovation actually on the consumer side of AI? I still don't quite understand what the issue is."
+    },
+    {
+      "id": 232,
+      "start": 1147.72,
+      "end": 1153.96,
+      "text": "Okay. Let's list the reasons. I do think that the incumbents are pretty scary. And anybody who was"
+    },
+    {
+      "id": 233,
+      "start": 1153.96,
+      "end": 1159.88,
+      "text": "around for the last generation of interesting consumer ideas saw actually the ingestion of those ideas into"
+    },
+    {
+      "id": 234,
+      "start": 1159.88,
+      "end": 1166.44,
+      "text": "the existing platform, as you put out. Yeah. So there's that. I also think like the first instinct"
+    },
+    {
+      "id": 235,
+      "start": 1166.44,
+      "end": 1173.48,
+      "text": "that I've seen from companies, from founders working on like new consumer experiences is essentially"
+    },
+    {
+      "id": 236,
+      "start": 1173.48,
+      "end": 1178.8400000000001,
+      "text": "building like a better version of like last generation experiences with this generation technology."
+    },
+    {
+      "id": 237,
+      "start": 1178.8400000000001,
+      "end": 1183.3200000000002,
+      "text": "And that ends up like not being that interesting. And so I actually think you have to be like either"
+    },
+    {
+      "id": 238,
+      "start": 1183.3200000000002,
+      "end": 1189.16,
+      "text": "quite close to research or pretty creatively ambitious to build like something very different that has any"
+    },
+    {
+      "id": 239,
+      "start": 1189.16,
+      "end": 1194.8400000000001,
+      "text": "chance. And so I think like, I think like there's just not that many people who have had that experience"
+    },
+    {
+      "id": 240,
+      "start": 1194.8400000000001,
+      "end": 1199.3200000000002,
+      "text": "set or that creativity. And now we're going to see it. Yeah, I think it's pretty exciting. The other"
+    },
+    {
+      "id": 241,
+      "start": 1199.3200000000002,
+      "end": 1206.1200000000001,
+      "text": "thing is, I was talking to a really well known consumer founder who's running a giant public company."
+    },
+    {
+      "id": 242,
+      "start": 1206.92,
+      "end": 1213.48,
+      "text": "And his view is that perhaps in the entire world, there's a few hundred great product people for"
+    },
+    {
+      "id": 243,
+      "start": 1213.48,
+      "end": 1217.64,
+      "text": "consumer, at least in terms of who are actually working on it. Obviously, there's enormous human"
+    },
+    {
+      "id": 244,
+      "start": 1217.64,
+      "end": 1222.2800000000002,
+      "text": "potential and people who aren't working in consumer products could, you know, but of the people working"
+    },
+    {
+      "id": 245,
+      "start": 1222.2800000000002,
+      "end": 1225.72,
+      "text": "in consumer products, he thinks that most of the few hundred people who are exceptional who could"
+    },
+    {
+      "id": 246,
+      "start": 1225.72,
+      "end": 1230.44,
+      "text": "actually come up with and launch their own product that would be interesting or good. And so you could"
+    },
+    {
+      "id": 247,
+      "start": 1230.44,
+      "end": 1234.2800000000002,
+      "text": "also just say that maybe there's just a limitation on how many of these things can exist, just given"
+    },
+    {
+      "id": 248,
+      "start": 1234.2800000000002,
+      "end": 1238.68,
+      "text": "human potential within the set of people who are already doing it, which I think is kind of an"
+    },
+    {
+      "id": 249,
+      "start": 1238.68,
+      "end": 1241.72,
+      "text": "interesting argument. I don't know if I agree with it, but I thought it was an interesting argument."
+    },
+    {
+      "id": 250,
+      "start": 1241.72,
+      "end": 1249.88,
+      "text": "I would limit myself to that number if it's also the set of people who like have the context of like"
+    },
+    {
+      "id": 251,
+      "start": 1249.88,
+      "end": 1255.88,
+      "text": "what is possible now. If you've got great consumer product instinct, but you're like work, you're like"
+    },
+    {
+      "id": 252,
+      "start": 1255.88,
+      "end": 1263.4,
+      "text": "grinding away on the like 50th iteration of an existing product. Like, yeah, you're working on the"
+    },
+    {
+      "id": 253,
+      "start": 1264.28,
+      "end": 1267.32,
+      "text": "little sub button in Gmail or whatever, instead of actually going off and doing this 100%."
+    },
+    {
+      "id": 254,
+      "start": 1267.32,
+      "end": 1272.2,
+      "text": "Yeah. Well, anything else we should talk about or any other big predictions for 26?"
+    },
+    {
+      "id": 255,
+      "start": 1272.2,
+      "end": 1280.12,
+      "text": "I feel like a very big emergent thing that happened this year was the surprising funding of like"
+    },
+    {
+      "id": 256,
+      "start": 1280.12,
+      "end": 1284.36,
+      "text": "Neo labs, like three through eight. What do you think of that? What do you think about alternative"
+    },
+    {
+      "id": 257,
+      "start": 1284.36,
+      "end": 1291.96,
+      "text": "architectures? Like, do you have any point of view on all of the effort around like getting reinforcement"
+    },
+    {
+      "id": 258,
+      "start": 1291.96,
+      "end": 1296.28,
+      "text": "learning to be more general, continual learning, some of the research directions?"
+    },
+    {
+      "id": 259,
+      "start": 1296.28,
+      "end": 1300.52,
+      "text": "You know, I think there's enormous amounts of really interesting research being done. So I you"
+    },
+    {
+      "id": 260,
+      "start": 1300.52,
+      "end": 1303.8799999999999,
+      "text": "know, there's a lot of juice to be squeezed out of these models still in different ways."
+    },
+    {
+      "id": 261,
+      "start": 1304.52,
+      "end": 1308.92,
+      "text": "And I think that's really exciting. Ultimately, these things become capital gains for certain"
+    },
+    {
+      "id": 262,
+      "start": 1308.92,
+      "end": 1313.3999999999999,
+      "text": "types of approaches or models. Because we know scale really matters, which means that eventually"
+    },
+    {
+      "id": 263,
+      "start": 1313.3999999999999,
+      "end": 1317.16,
+      "text": "you have to collapse into a handful of players because capital aggregate to things that are working"
+    },
+    {
+      "id": 264,
+      "start": 1317.16,
+      "end": 1322.28,
+      "text": "the most, no generating revenue. And so then the question is, what are those things? At what point"
+    },
+    {
+      "id": 265,
+      "start": 1322.28,
+      "end": 1326.12,
+      "text": "do things to say get kind of locked in from a usage perspective for whatever reason? And there's all sorts of"
+    },
+    {
+      "id": 266,
+      "start": 1326.12,
+      "end": 1331.0,
+      "text": "ways you can imagine this being built over time against some of the models. So I think it's"
+    },
+    {
+      "id": 267,
+      "start": 1331.0,
+      "end": 1333.8799999999999,
+      "text": "interesting. I think it's exciting. I think we'll see how it plays out."
+    },
+    {
+      "id": 268,
+      "start": 1333.8799999999999,
+      "end": 1341.6399999999999,
+      "text": "I think to articulate what like the the arguments could be for, you know, new research directions is"
+    },
+    {
+      "id": 269,
+      "start": 1341.6399999999999,
+      "end": 1346.36,
+      "text": "like Ilya, you know, did this interview recently, where he describes it as the age of research. And"
+    },
+    {
+      "id": 270,
+      "start": 1346.36,
+      "end": 1353.7199999999998,
+      "text": "to paraphrase, he like basically says that, yes, I believe in scaling, of course, but you know,"
+    },
+    {
+      "id": 271,
+      "start": 1353.7199999999998,
+      "end": 1362.12,
+      "text": "there's there's some floor of compute that is not infinite, where we can test ideas at scale."
+    },
+    {
+      "id": 272,
+      "start": 1362.12,
+      "end": 1369.7199999999998,
+      "text": "And then if we have, let's say, secret ideas around like how to get to more rapid or more compute"
+    },
+    {
+      "id": 273,
+      "start": 1369.72,
+      "end": 1375.08,
+      "text": "efficient improvement, then it actually isn't just a straight resource battle, which like the rat race"
+    },
+    {
+      "id": 274,
+      "start": 1375.08,
+      "end": 1383.32,
+      "text": "does feel a little bit like today. I think the other argument you could take is actually like multiple"
+    },
+    {
+      "id": 275,
+      "start": 1383.32,
+      "end": 1387.64,
+      "text": "architectures and people have done some research on this, but multiple architectures are really"
+    },
+    {
+      "id": 276,
+      "start": 1387.64,
+      "end": 1395.48,
+      "text": "relevant at big domains of of usefulness. They just haven't been scaled. Right. And like there's"
+    },
+    {
+      "id": 277,
+      "start": 1395.48,
+      "end": 1401.4,
+      "text": "enough capital out there to test them, be they like diffusion or SSMs or whatever. And that's going to"
+    },
+    {
+      "id": 278,
+      "start": 1401.4,
+      "end": 1406.76,
+      "text": "happen this next year. And then I think there's like a like a resource focus argument, right? If Ilya is"
+    },
+    {
+      "id": 279,
+      "start": 1406.76,
+      "end": 1411.0,
+      "text": "describing that some set of labs, they have an enormous amount of compute, but they have to spend a lot of"
+    },
+    {
+      "id": 280,
+      "start": 1411.0,
+      "end": 1416.0400000000002,
+      "text": "that compute on inference today, then how much do you spend on your particular research direction?"
+    },
+    {
+      "id": 281,
+      "start": 1416.04,
+      "end": 1423.72,
+      "text": "Yeah, be it self-improvement or post training or emotional intelligence or very large scale out"
+    },
+    {
+      "id": 282,
+      "start": 1423.72,
+      "end": 1427.8,
+      "text": "agent stuff. Yeah, it depends on what you're doing, because the inference is what ends up then"
+    },
+    {
+      "id": 283,
+      "start": 1429.0,
+      "end": 1432.28,
+      "text": "raising you money to pay for everything else because you're generating revenue. So I think"
+    },
+    {
+      "id": 284,
+      "start": 1433.56,
+      "end": 1439.1599999999999,
+      "text": "sure, but it's effectively your way to bootstrap into more and more scale. So I always thought perhaps"
+    },
+    {
+      "id": 285,
+      "start": 1439.1599999999999,
+      "end": 1444.92,
+      "text": "incorrectly, I actually probably think it's incorrect, but I always thought that eventually you end up with"
+    },
+    {
+      "id": 286,
+      "start": 1444.92,
+      "end": 1451.72,
+      "text": "evolutionary systems is really how you build AI because maybe I'm over extrapolating up a biology"
+    },
+    {
+      "id": 287,
+      "start": 1451.72,
+      "end": 1456.04,
+      "text": "where effectively your brain has a series of modules that have different functions or tasks, right? You"
+    },
+    {
+      "id": 288,
+      "start": 1456.04,
+      "end": 1465.24,
+      "text": "have a visual system that's highly sort of pre-wired to deal with vision really effectively. You have"
+    },
+    {
+      "id": 289,
+      "start": 1465.24,
+      "end": 1470.76,
+      "text": "different areas of higher thought and learning. You have memory, you have mirror neurons that are involved"
+    },
+    {
+      "id": 290,
+      "start": 1470.76,
+      "end": 1474.84,
+      "text": "with empathy, right? Your brain is actually very specialized in some ways, although obviously,"
+    },
+    {
+      "id": 291,
+      "start": 1474.84,
+      "end": 1479.8799999999999,
+      "text": "as people were born with literally like half a brain hemisphere and the brain rewires and sort of"
+    },
+    {
+      "id": 292,
+      "start": 1479.8799999999999,
+      "end": 1486.52,
+      "text": "covers all the functionality. But there's a few famous cases like that. But, you know, fundamentally,"
+    },
+    {
+      "id": 293,
+      "start": 1488.12,
+      "end": 1492.36,
+      "text": "you have a lot of stuff that evolves into very specialized tasks. It's almost like a MOE or something,"
+    },
+    {
+      "id": 294,
+      "start": 1492.36,
+      "end": 1498.6,
+      "text": "you know. And the question is the degree to which you recapitulate that as you're doing further"
+    },
+    {
+      "id": 295,
+      "start": 1498.6,
+      "end": 1503.8799999999999,
+      "text": "development of AI. And when do you start just spawning off a bunch of instances of something and"
+    },
+    {
+      "id": 296,
+      "start": 1503.8799999999999,
+      "end": 1508.4399999999998,
+      "text": "just have some utility function they're evolving against that you then have some selection and"
+    },
+    {
+      "id": 297,
+      "start": 1508.4399999999998,
+      "end": 1513.24,
+      "text": "recombining and all the other stuff that you kind of do to try and make some of that work versus how much"
+    },
+    {
+      "id": 298,
+      "start": 1513.24,
+      "end": 1517.6399999999999,
+      "text": "of it is a more analytical approach or a more experimental and iterative approach or, you know, so"
+    },
+    {
+      "id": 299,
+      "start": 1517.64,
+      "end": 1523.4,
+      "text": "it's in a directed way. And so I think it's really interesting to ask because if you look again at"
+    },
+    {
+      "id": 300,
+      "start": 1523.4,
+      "end": 1529.0800000000002,
+      "text": "biology as a as a potential precedent, although maybe a very bad one, you look at protein design."
+    },
+    {
+      "id": 301,
+      "start": 1530.68,
+      "end": 1535.0,
+      "text": "And for a long time, there are these like super analytically designed proteins and then they came"
+    },
+    {
+      "id": 302,
+      "start": 1535.0,
+      "end": 1541.0,
+      "text": "up with all these systems that's involved as shit, you know, like phase display and like mutagenic scans"
+    },
+    {
+      "id": 303,
+      "start": 1541.0,
+      "end": 1544.1200000000001,
+      "text": "and all sorts of things that give you dramatically better results than if you just sat and thought about it."
+    },
+    {
+      "id": 304,
+      "start": 1544.12,
+      "end": 1550.4399999999998,
+      "text": "And now, of course, we kind of solved it with AI where you have all these 3D structural predictions"
+    },
+    {
+      "id": 305,
+      "start": 1550.4399999999998,
+      "end": 1556.6799999999998,
+      "text": "that are actually very good. That was AlphaFold and a few other things that really were breakthroughs"
+    },
+    {
+      "id": 306,
+      "start": 1556.6799999999998,
+      "end": 1561.7199999999998,
+      "text": "there. So it feels like in the context of AI, maybe eventually we end up there as well, right?"
+    },
+    {
+      "id": 307,
+      "start": 1561.7199999999998,
+      "end": 1566.9199999999998,
+      "text": "Where you just involve these systems. And then that may be a very different type of approach and"
+    },
+    {
+      "id": 308,
+      "start": 1566.9199999999998,
+      "end": 1572.1999999999998,
+      "text": "training. You know, that may be where I think things really have an interesting break. And that's one of the"
+    },
+    {
+      "id": 309,
+      "start": 1572.2,
+      "end": 1576.3600000000001,
+      "text": "the reasons that arguably people are so focused on code because code is arguably a bootstrap into"
+    },
+    {
+      "id": 310,
+      "start": 1576.3600000000001,
+      "end": 1582.68,
+      "text": "moving faster on development of a GI. But I think it's kind of code plus self-evolution is really the"
+    },
+    {
+      "id": 311,
+      "start": 1582.68,
+      "end": 1587.48,
+      "text": "the potential really interesting approach to it to get some really fast lift off. But maybe not."
+    },
+    {
+      "id": 312,
+      "start": 1587.48,
+      "end": 1594.1200000000001,
+      "text": "Right. We'll see. What is the one prediction you have for 26 that has nothing to do with AI?"
+    },
+    {
+      "id": 313,
+      "start": 1594.12,
+      "end": 1596.28,
+      "text": "Do you think about anything else, Sarah?"
+    },
+    {
+      "id": 314,
+      "start": 1598.1999999999998,
+      "end": 1598.6,
+      "text": "I do."
+    },
+    {
+      "id": 315,
+      "start": 1598.6,
+      "end": 1599.8,
+      "text": "I'm joking."
+    },
+    {
+      "id": 316,
+      "start": 1599.8,
+      "end": 1601.0,
+      "text": "Really?"
+    },
+    {
+      "id": 317,
+      "start": 1602.84,
+      "end": 1606.04,
+      "text": "I mean, the other thing, by the way, one other prediction that doesn't have to do with AI"
+    },
+    {
+      "id": 318,
+      "start": 1606.76,
+      "end": 1612.6,
+      "text": "is I do think defense will accelerate in terms of startups and defense tech and the shift to"
+    },
+    {
+      "id": 319,
+      "start": 1612.6,
+      "end": 1618.12,
+      "text": "autonomous or not autonomous, but to drone based systems in general. The massive reworking of how you"
+    },
+    {
+      "id": 320,
+      "start": 1618.12,
+      "end": 1622.6,
+      "text": "think about war and defense. And I think that's going to be a shoot shot that we'll see go even faster"
+    },
+    {
+      "id": 321,
+      "start": 1622.6,
+      "end": 1626.6799999999998,
+      "text": "this coming year. I think this is accelerating in part to how the Trump administration has been"
+    },
+    {
+      "id": 322,
+      "start": 1626.6799999999998,
+      "end": 1629.9599999999998,
+      "text": "approaching it and the secretary of war and everybody there have been thinking about it."
+    },
+    {
+      "id": 323,
+      "start": 1629.9599999999998,
+      "end": 1633.56,
+      "text": "I think in part, just you have enough density now startups doing interesting things. So I think"
+    },
+    {
+      "id": 324,
+      "start": 1633.56,
+      "end": 1638.1999999999998,
+      "text": "that's the other thing that's like a huge shift that, you know, it's a hype cycle right now. And"
+    },
+    {
+      "id": 325,
+      "start": 1638.1999999999998,
+      "end": 1642.76,
+      "text": "I actually think again, it's a little bit under thought about because it's, it's going to be so big"
+    },
+    {
+      "id": 326,
+      "start": 1642.76,
+      "end": 1645.9599999999998,
+      "text": "outside of the AI. I mean, I think there's obvious really interesting things happening in space"
+    },
+    {
+      "id": 327,
+      "start": 1645.9599999999998,
+      "end": 1651.32,
+      "text": "with SpaceX and Starlink and I think about communications and telephony. So that's a big shift."
+    },
+    {
+      "id": 328,
+      "start": 1651.32,
+      "end": 1654.9199999999998,
+      "text": "There's really interesting things in my opinion happening in energy and mining. And, you know,"
+    },
+    {
+      "id": 329,
+      "start": 1654.9199999999998,
+      "end": 1662.52,
+      "text": "I think there's a lot going on in the world. I agree on defense with some like concern that,"
+    },
+    {
+      "id": 330,
+      "start": 1662.52,
+      "end": 1668.04,
+      "text": "you know, we have to wait for budget to actually shift from contracts to primes to some of these"
+    },
+    {
+      "id": 331,
+      "start": 1668.04,
+      "end": 1674.2,
+      "text": "new companies at scale. But the demands like the need to be competitive in a world that's increasingly"
+    },
+    {
+      "id": 332,
+      "start": 1674.2,
+      "end": 1681.64,
+      "text": "autonomy driven is like so obvious. Right. And I think, you know, hype cycles and booms are good"
+    },
+    {
+      "id": 333,
+      "start": 1681.64,
+      "end": 1687.8,
+      "text": "in that they bring a lot of people to the table, you know, capital founders, people who want to work"
+    },
+    {
+      "id": 334,
+      "start": 1687.8,
+      "end": 1692.28,
+      "text": "in the industry. And so you can make a lot of progress in a quick amount of time, even if a lot"
+    },
+    {
+      "id": 335,
+      "start": 1692.28,
+      "end": 1699.24,
+      "text": "of companies die and there's, there's more enthusiasm over a short period of time. So I agree with that."
+    },
+    {
+      "id": 336,
+      "start": 1699.24,
+      "end": 1704.2,
+      "text": "And I also don't think that's necessarily bad. Right. What's your prediction?"
+    },
+    {
+      "id": 337,
+      "start": 1705.0,
+      "end": 1710.68,
+      "text": "I think that like, I'm not the only one, but I think that the like GLP one thing is just,"
+    },
+    {
+      "id": 338,
+      "start": 1711.48,
+      "end": 1719.0,
+      "text": "despite all of the enthusiasm, like still underrated for how much impact it has happened. Right. And so I"
+    },
+    {
+      "id": 339,
+      "start": 1719.0,
+      "end": 1725.72,
+      "text": "think that the continual adoption of these is like inexorable. I actually think it creates a path that"
+    },
+    {
+      "id": 340,
+      "start": 1725.72,
+      "end": 1733.48,
+      "text": "is interesting for like other peptide and hormone therapies. I think the fact that it has been so"
+    },
+    {
+      "id": 341,
+      "start": 1733.48,
+      "end": 1740.6,
+      "text": "effective has like lots of second order effects, both from people way, like just being a lot less"
+    },
+    {
+      "id": 342,
+      "start": 1740.6,
+      "end": 1747.64,
+      "text": "overweight, like directly and the willingness to look at other engineered peptides or like, I think it,"
+    },
+    {
+      "id": 343,
+      "start": 1747.64,
+      "end": 1754.0400000000002,
+      "text": "like everybody understands now that like delivery matters. There are these really incredible medicines."
+    },
+    {
+      "id": 344,
+      "start": 1754.0400000000002,
+      "end": 1760.0400000000002,
+      "text": "And I think that the impact of that is going to like fuel much more investment in anything that"
+    },
+    {
+      "id": 345,
+      "start": 1760.0400000000002,
+      "end": 1765.0,
+      "text": "looks like that type of opportunity. And so I think that's exciting. Yeah, I actually think one thing"
+    },
+    {
+      "id": 346,
+      "start": 1765.0,
+      "end": 1769.3200000000002,
+      "text": "that you mentioned is really interesting, where if you look at the sort of biohacking community,"
+    },
+    {
+      "id": 347,
+      "start": 1770.0400000000002,
+      "end": 1773.88,
+      "text": "there's a lot of peptide use now, different, you know, different peptides that will do different"
+    },
+    {
+      "id": 348,
+      "start": 1773.88,
+      "end": 1778.2800000000002,
+      "text": "things in terms of, you know, somebody will have some chronic carpal tunnel thing and they'll fly"
+    },
+    {
+      "id": 349,
+      "start": 1778.2800000000002,
+      "end": 1783.88,
+      "text": "to Dubai to get peptides injected or whatever. And usually those are sort of early indicators of"
+    },
+    {
+      "id": 350,
+      "start": 1783.88,
+      "end": 1788.8400000000001,
+      "text": "potential larger scale adoption societally. And so I think that's a really interesting trend right now,"
+    },
+    {
+      "id": 351,
+      "start": 1788.8400000000001,
+      "end": 1795.0800000000002,
+      "text": "in general, like this whole like world of peptides and their uses. And is there a hymns of peptides?"
+    },
+    {
+      "id": 352,
+      "start": 1795.0800000000002,
+      "end": 1797.48,
+      "text": "Like what's the what's coming there? So I think that's super interesting."
+    },
+    {
+      "id": 353,
+      "start": 1797.48,
+      "end": 1804.44,
+      "text": "Yeah, I also think like the biohacking community, as you said, it like the set of people who were"
+    },
+    {
+      "id": 354,
+      "start": 1805.0,
+      "end": 1813.88,
+      "text": "really, really early off label GLP one adopters interested in longevity neuromodulation with"
+    },
+    {
+      "id": 355,
+      "start": 1813.88,
+      "end": 1821.72,
+      "text": "ultrasound stem cell injection, for example, like that has been like a fringe small community. And I think"
+    },
+    {
+      "id": 356,
+      "start": 1821.72,
+      "end": 1827.08,
+      "text": "that like, I think it's going to get less French. And a lot of these things traditionally 10 years ago came out of the"
+    },
+    {
+      "id": 357,
+      "start": 1827.08,
+      "end": 1830.6,
+      "text": "bodybuilding community, right? The bodybuilding community was like creatine and all these things"
+    },
+    {
+      "id": 358,
+      "start": 1830.6,
+      "end": 1835.3999999999999,
+      "text": "that are more broadly used now, but also other other things for sleep aids or other, you know,"
+    },
+    {
+      "id": 359,
+      "start": 1835.3999999999999,
+      "end": 1840.6799999999998,
+      "text": "magnesium and all this stuff. And to round out this year end episode, we've asked some of our friends"
+    },
+    {
+      "id": 360,
+      "start": 1840.6799999999998,
+      "end": 1850.28,
+      "text": "for their predictions for 2026. I'm so curious. My prediction for next year is that the reasoning"
+    },
+    {
+      "id": 361,
+      "start": 1850.28,
+      "end": 1861.32,
+      "text": "systems are going to translate directly to AI's that are much, much more versatile, much, much more robust."
+    },
+    {
+      "id": 362,
+      "start": 1861.32,
+      "end": 1867.72,
+      "text": "And reasoning is going to impact is going to revolutionize not just not just language models,"
+    },
+    {
+      "id": 363,
+      "start": 1867.72,
+      "end": 1876.2,
+      "text": "but reasoning is going to impact every single industry from biology to self-driving cars to robotics."
+    },
+    {
+      "id": 364,
+      "start": 1876.2,
+      "end": 1883.64,
+      "text": "And so reasoning, I think is, is the big, huge breakthrough that, that is going to transform"
+    },
+    {
+      "id": 365,
+      "start": 1883.64,
+      "end": 1885.56,
+      "text": "a lot of different applications and industries."
+    },
+    {
+      "id": 366,
+      "start": 1885.56,
+      "end": 1893.16,
+      "text": "In 2026, AI will stop being a reactive tool that waits for us to prompt it. Instead,"
+    },
+    {
+      "id": 367,
+      "start": 1893.8,
+      "end": 1899.88,
+      "text": "it will become very proactive and get deeply integrated in our work life. It will go where we go,"
+    },
+    {
+      "id": 368,
+      "start": 1900.68,
+      "end": 1908.92,
+      "text": "hear what we hear, know what tasks we need to work on. And in fact, most of the times complete those for"
+    },
+    {
+      "id": 369,
+      "start": 1908.92,
+      "end": 1916.1200000000001,
+      "text": "us before we even ask it to do so. It will be a coach that helps us improve our skills. It will be a"
+    },
+    {
+      "id": 370,
+      "start": 1916.1200000000001,
+      "end": 1922.2,
+      "text": "manager who helps us prioritize our work and manage our time. In short, it's going to be the best work"
+    },
+    {
+      "id": 371,
+      "start": 1922.2,
+      "end": 1923.4,
+      "text": "companion we could wish for."
+    },
+    {
+      "id": 372,
+      "start": 1923.4,
+      "end": 1929.0,
+      "text": "I think the main AI prediction that I have for next year is I think context is just going to be the most"
+    },
+    {
+      "id": 373,
+      "start": 1929.0,
+      "end": 1933.5600000000002,
+      "text": "important part of every single product. And honestly, like one of the best experiences I've"
+    },
+    {
+      "id": 374,
+      "start": 1933.5600000000002,
+      "end": 1939.16,
+      "text": "had with it so far is just memory and ChatGPT. Like, I think that there are going to be a lot more"
+    },
+    {
+      "id": 375,
+      "start": 1939.16,
+      "end": 1946.92,
+      "text": "features that basically their goal is to extract the user intent and make the onus less on the user to"
+    },
+    {
+      "id": 376,
+      "start": 1946.92,
+      "end": 1952.44,
+      "text": "basically give all of the models or the system or the product more and more context. So in other words,"
+    },
+    {
+      "id": 377,
+      "start": 1952.44,
+      "end": 1958.6000000000001,
+      "text": "how do you put the onus on the product to actually extract that from the user instead of the user"
+    },
+    {
+      "id": 378,
+      "start": 1958.6000000000001,
+      "end": 1961.24,
+      "text": "having to do all of the work to do this upfront?"
+    },
+    {
+      "id": 379,
+      "start": 1961.24,
+      "end": 1967.56,
+      "text": "My prediction for 2026 is there will be a whole new suite of product experiences that run on much"
+    },
+    {
+      "id": 380,
+      "start": 1967.56,
+      "end": 1969.24,
+      "text": "faster inference."
+    },
+    {
+      "id": 381,
+      "start": 1969.24,
+      "end": 1974.92,
+      "text": "My prediction for 2026 is that we'll finally stop copy pasting stuff into chat boxes."
+    },
+    {
+      "id": 382,
+      "start": 1975.48,
+      "end": 1980.68,
+      "text": "Instead, I think we're going to have applications that have better use of screen sharing and context"
+    },
+    {
+      "id": 383,
+      "start": 1980.68,
+      "end": 1983.0,
+      "text": "management across the sources that matter the most."
+    },
+    {
+      "id": 384,
+      "start": 1983.0,
+      "end": 1989.48,
+      "text": "One prediction for 2026. There's so much talk of agents right now and there has been for a while,"
+    },
+    {
+      "id": 385,
+      "start": 1989.48,
+      "end": 1995.48,
+      "text": "but no one has truly created a mass scale consumer agentic AI. I think the models are there today for"
+    },
+    {
+      "id": 386,
+      "start": 1995.48,
+      "end": 2000.3600000000001,
+      "text": "this to be possible. And in 2026, we will see the group that figures out the right interface and system"
+    },
+    {
+      "id": 387,
+      "start": 2000.3600000000001,
+      "end": 2005.48,
+      "text": "and product that creates as big a step function and overall experience as ChatGPT when it first came out."
+    },
+    {
+      "id": 388,
+      "start": 2005.48,
+      "end": 2010.44,
+      "text": "And I think this area is not nearly as seated to labs as people assume. It really is anyone's ballgame."
+    },
+    {
+      "id": 389,
+      "start": 2011.0,
+      "end": 2016.76,
+      "text": "Hello, Aaron here. First of all, I get quite awkward around doing selfie videos. This is my ninth take"
+    },
+    {
+      "id": 390,
+      "start": 2016.76,
+      "end": 2023.64,
+      "text": "of this video. So I hope it goes okay. But 2026 prediction would be that this is going to be"
+    },
+    {
+      "id": 391,
+      "start": 2023.64,
+      "end": 2031.0,
+      "text": "certainly the continued year number two of AI agents, but in particular, AI agents in the enterprise in"
+    },
+    {
+      "id": 392,
+      "start": 2031.0,
+      "end": 2036.92,
+      "text": "either deep vertical or domain specific areas. I think this is going to be the main way that we"
+    },
+    {
+      "id": 393,
+      "start": 2036.92,
+      "end": 2042.12,
+      "text": "actually take all of the progress that we're seeing in AI models and actually deliver them into the"
+    },
+    {
+      "id": 394,
+      "start": 2042.12,
+      "end": 2046.84,
+      "text": "enterprise. You have to be able to tie to the workflow of the organization. You have to get"
+    },
+    {
+      "id": 395,
+      "start": 2046.84,
+      "end": 2051.16,
+      "text": "access to the data that they have. You have to have the right context engineering to make the agents"
+    },
+    {
+      "id": 396,
+      "start": 2051.16,
+      "end": 2055.72,
+      "text": "actually work. And then you have to do the change management that makes the agents effective. So this is"
+    },
+    {
+      "id": 397,
+      "start": 2055.72,
+      "end": 2060.2,
+      "text": "going to be a year where we start to see this pattern emerge more and more, which equally means that we"
+    },
+    {
+      "id": 398,
+      "start": 2060.2,
+      "end": 2065.72,
+      "text": "need to ensure that we have a lot more happening on agent harnesses. So shout out to Akorva,"
+    },
+    {
+      "id": 399,
+      "start": 2065.72,
+      "end": 2070.52,
+      "text": "Suhail and Dex for that answer. But it's definitely going to be the year of the agent harness and"
+    },
+    {
+      "id": 400,
+      "start": 2070.52,
+      "end": 2076.3599999999997,
+      "text": "seeing how do you start to get, you know, an order of magnitude improvement on the model's capabilities"
+    },
+    {
+      "id": 401,
+      "start": 2076.3599999999997,
+      "end": 2081.16,
+      "text": "by having all the right scaffolding around the model. And then finally, it will be the year of"
+    },
+    {
+      "id": 402,
+      "start": 2081.72,
+      "end": 2088.12,
+      "text": "economically useful evals. So really starting to figure out how these models end up doing a lot more"
+    },
+    {
+      "id": 403,
+      "start": 2088.12,
+      "end": 2092.52,
+      "text": "knowledge worker tasks in the economy. And that's going to, we're going to see a lot more of that in"
+    },
+    {
+      "id": 404,
+      "start": 2092.52,
+      "end": 2098.68,
+      "text": "2026. We saw some previews of that this year with APEX and GDPVAL and a handful of others. We're going"
+    },
+    {
+      "id": 405,
+      "start": 2098.68,
+      "end": 2103.4,
+      "text": "to see way more of that. So those are the predictions and we'll see you in 2026."
+    },
+    {
+      "id": 406,
+      "start": 2103.4,
+      "end": 2112.36,
+      "text": "I think 2026 is going to be a very interesting year for American open models. Over the last year,"
+    },
+    {
+      "id": 407,
+      "start": 2112.36,
+      "end": 2117.56,
+      "text": "the frontier of open intelligence shifted from America to China, starting with the release of"
+    },
+    {
+      "id": 408,
+      "start": 2117.56,
+      "end": 2125.88,
+      "text": "DT at the end of 2024. And American institutions were slow to notice this erosion of American leadership"
+    },
+    {
+      "id": 409,
+      "start": 2125.88,
+      "end": 2133.1600000000003,
+      "text": "and open intelligence. But I think they've noticed in a big way over the last half year, both from the"
+    },
+    {
+      "id": 410,
+      "start": 2133.16,
+      "end": 2139.48,
+      "text": "government level, from the enterprise level. And there are some really interesting neolabs starting"
+    },
+    {
+      "id": 411,
+      "start": 2139.48,
+      "end": 2144.52,
+      "text": "to come out with open intelligence as their directive. And there are a few of these, not just reflection."
+    },
+    {
+      "id": 412,
+      "start": 2145.3999999999996,
+      "end": 2152.8399999999997,
+      "text": "And these companies are starting to produce some very interesting small open models. And next year,"
+    },
+    {
+      "id": 413,
+      "start": 2152.8399999999997,
+      "end": 2159.3199999999997,
+      "text": "I think we'll see the US regaining leadership at the open weight frontier at the largest scale."
+    },
+    {
+      "id": 414,
+      "start": 2159.32,
+      "end": 2166.6800000000003,
+      "text": "And I'm really excited to see that. Hey folks, my prediction for 2026 is that I think we will see"
+    },
+    {
+      "id": 415,
+      "start": 2166.6800000000003,
+      "end": 2173.0800000000004,
+      "text": "AI become much more politicized. I think we'll see it become a major point of discussion for the"
+    },
+    {
+      "id": 416,
+      "start": 2173.0800000000004,
+      "end": 2178.44,
+      "text": "2026 midterm elections. And some people will come out strongly against it. Some people will come out"
+    },
+    {
+      "id": 417,
+      "start": 2178.44,
+      "end": 2185.4,
+      "text": "strongly supportive of it. And I'm not sure which side is going to win out. 2025 has marked an incredible year"
+    },
+    {
+      "id": 418,
+      "start": 2185.4,
+      "end": 2191.7200000000003,
+      "text": "in AI drug discovery. In the past year alone, we've gone from being able to design simple molecules on"
+    },
+    {
+      "id": 419,
+      "start": 2191.7200000000003,
+      "end": 2197.8,
+      "text": "the computer to designing simple antibodies, and now most recently, full-length antibodies with drug-like"
+    },
+    {
+      "id": 420,
+      "start": 2197.8,
+      "end": 2204.84,
+      "text": "properties, zero shot on the computer. If 2025 has been the year of research in AI drug discovery,"
+    },
+    {
+      "id": 421,
+      "start": 2204.84,
+      "end": 2210.6,
+      "text": "2026 will be the year of deployment. The models have finally entered an era where they're becoming"
+    },
+    {
+      "id": 422,
+      "start": 2210.6,
+      "end": 2216.12,
+      "text": "really useful for drug discovery. Not only do they make things faster, but they're also allowing us"
+    },
+    {
+      "id": 423,
+      "start": 2216.12,
+      "end": 2220.92,
+      "text": "to go after really challenging targets, which have been traditionally really difficult to do with"
+    },
+    {
+      "id": 424,
+      "start": 2220.92,
+      "end": 2226.12,
+      "text": "traditional techniques. I'm really excited to see what comes next because the models show no signs of"
+    },
+    {
+      "id": 425,
+      "start": 2226.12,
+      "end": 2232.36,
+      "text": "slowing down. Okay, my prediction for 2026 is it will be the year that YOLO dies. We will begin"
+    },
+    {
+      "id": 426,
+      "start": 2232.36,
+      "end": 2237.96,
+      "text": "transforming ourselves from a you only live once to don't die. I think right now we're kind of a"
+    },
+    {
+      "id": 427,
+      "start": 2237.96,
+      "end": 2243.56,
+      "text": "suicidal species. We do very primitive things. We poison ourselves with what we eat. We design our"
+    },
+    {
+      "id": 428,
+      "start": 2243.56,
+      "end": 2249.32,
+      "text": "lives so that we slowly kill ourselves. Companies make profits by making us addicted and miserable."
+    },
+    {
+      "id": 429,
+      "start": 2249.32,
+      "end": 2255.08,
+      "text": "We destroy the only home we have and somehow we celebrate these things as virtue. I think it's all"
+    },
+    {
+      "id": 430,
+      "start": 2255.08,
+      "end": 2261.0,
+      "text": "backwards. I think one day we'll look back and we'll be pretty astonished that we behaved like this."
+    },
+    {
+      "id": 431,
+      "start": 2261.88,
+      "end": 2267.88,
+      "text": "I think the shift coming is going to be simple and radical. That we say yes to life and no to"
+    },
+    {
+      "id": 432,
+      "start": 2267.88,
+      "end": 2274.28,
+      "text": "death. It's simple, but I think it could be in response to AI's progress. And we do this defiantly"
+    },
+    {
+      "id": 433,
+      "start": 2274.28,
+      "end": 2280.2000000000003,
+      "text": "as a form of unification. I think it does require a lot of courage for us though to say we recognize"
+    },
+    {
+      "id": 434,
+      "start": 2280.2000000000003,
+      "end": 2286.44,
+      "text": "how sacred our existence is. We don't want to throw it away and we want to defend it with every bit of"
+    },
+    {
+      "id": 435,
+      "start": 2286.44,
+      "end": 2291.48,
+      "text": "courage and strength we have because it is so precious. I think it's going to be the year we end"
+    },
+    {
+      "id": 436,
+      "start": 2291.48,
+      "end": 2296.6,
+      "text": "YOLO and the beginning of don't die. The most striking thing about next year is that the other forms of"
+    },
+    {
+      "id": 437,
+      "start": 2296.6,
+      "end": 2300.7599999999998,
+      "text": "knowledge work are going to experience what software engineers are feeling right now. Where they went"
+    },
+    {
+      "id": 438,
+      "start": 2300.7599999999998,
+      "end": 2304.7599999999998,
+      "text": "from typing you know most of their lines of code at the beginning of the year to typing barely any of"
+    },
+    {
+      "id": 439,
+      "start": 2304.7599999999998,
+      "end": 2308.68,
+      "text": "them at the end of the year. I think of this as the Claude code experience but for all forms of"
+    },
+    {
+      "id": 440,
+      "start": 2308.68,
+      "end": 2313.3199999999997,
+      "text": "knowledge work. I also think that probably continual learning gets sold in a satisfying way. That we"
+    },
+    {
+      "id": 441,
+      "start": 2313.3199999999997,
+      "end": 2318.6,
+      "text": "see the first test deployments of home robots and the software engineering itself goes utterly wild next year."
+    },
+    {
+      "id": 442,
+      "start": 2318.6,
+      "end": 2323.7999999999997,
+      "text": "My prediction for 2026 is that it's the year where everyone's perceptions are flipped."
+    },
+    {
+      "id": 443,
+      "start": 2323.8,
+      "end": 2329.0800000000004,
+      "text": "Currently everyone believes that you can only use Nvidia outside of Google and that will be"
+    },
+    {
+      "id": 444,
+      "start": 2329.96,
+      "end": 2335.1600000000003,
+      "text": "obvious that that's not the case. Currently about a third of Americans hate AI and think it's really bad."
+    },
+    {
+      "id": 445,
+      "start": 2335.7200000000003,
+      "end": 2343.1600000000003,
+      "text": "That number will increase. Currently most Americans think AI is not useful. That will flip as well. And so"
+    },
+    {
+      "id": 446,
+      "start": 2343.7200000000003,
+      "end": 2348.84,
+      "text": "everyone's priors will be flipped. That's because the transformative use of AI will"
+    },
+    {
+      "id": 447,
+      "start": 2348.84,
+      "end": 2357.4,
+      "text": "be so prevalent. The obvious utility of it will be so high that there is no way for anyone's priors."
+    },
+    {
+      "id": 448,
+      "start": 2357.4,
+      "end": 2360.2000000000003,
+      "text": "You know cognitive dissonance will be wiped away."
+    },
+    {
+      "id": 449,
+      "start": 2360.2000000000003,
+      "end": 2362.84,
+      "text": "Hey I'm Benger Inspector. I'm Asher Spector."
+    },
+    {
+      "id": 450,
+      "start": 2362.84,
+      "end": 2365.8,
+      "text": "And our prediction is that 2026 is the year of energy efficient AI."
+    },
+    {
+      "id": 451,
+      "start": 2365.8,
+      "end": 2370.76,
+      "text": "Data center build-ups are primarily constrained by energy. Power available, the great interconnects,"
+    },
+    {
+      "id": 452,
+      "start": 2370.76,
+      "end": 2375.96,
+      "text": "high voltage equipment, things like that. Which is why XAI's Colossus was initially powered by on-site gas"
+    },
+    {
+      "id": 453,
+      "start": 2375.96,
+      "end": 2380.84,
+      "text": "turbines. The thing is the demand for compute is continuing to grow. Labs, neolabs like us,"
+    },
+    {
+      "id": 454,
+      "start": 2380.84,
+      "end": 2385.48,
+      "text": "and startups like Cursor have a pretty remarkably sensational demand for both training and compute."
+    },
+    {
+      "id": 455,
+      "start": 2385.48,
+      "end": 2389.2400000000002,
+      "text": "And this demand is currently outstripping our ability to push lots onto the grid. This means"
+    },
+    {
+      "id": 456,
+      "start": 2389.2400000000002,
+      "end": 2393.88,
+      "text": "that in 2026 it will be really important to squeeze every available bit of tons out of every wallet."
+    },
+    {
+      "id": 457,
+      "start": 2393.88,
+      "end": 2399.0,
+      "text": "That said, in the long term chips probably matter more than power because chips depreciate much more"
+    },
+    {
+      "id": 458,
+      "start": 2399.0,
+      "end": 2403.16,
+      "text": "quickly than the underlying power infrastructure. So for example with data center power supplies at 10"
+    },
+    {
+      "id": 459,
+      "start": 2403.16,
+      "end": 2407.96,
+      "text": "per kilowatt hour, the chips cost actually order amounted more than the power in the five year"
+    },
+    {
+      "id": 460,
+      "start": 2407.96,
+      "end": 2413.72,
+      "text": "depreciation cycle. So in 2026 we think intelligence per watt is really important to squeeze as much"
+    },
+    {
+      "id": 461,
+      "start": 2413.72,
+      "end": 2417.64,
+      "text": "intelligence you can out of every unit of energy. But in the long term we think it's the chips that"
+    },
+    {
+      "id": 462,
+      "start": 2417.64,
+      "end": 2425.64,
+      "text": "matter more. Happy holidays. Happy New Year. Thanks for the year. Happy 2026. Happy 2026 listeners. Thank you."
+    },
+    {
+      "id": 463,
+      "start": 2428.52,
+      "end": 2433.08,
+      "text": "Find us on Twitter at NoPriorsPod. Subscribe to our YouTube channel if you want to see"
+    },
+    {
+      "id": 464,
+      "start": 2433.08,
+      "end": 2438.52,
+      "text": "our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new"
+    },
+    {
+      "id": 465,
+      "start": 2438.52,
+      "end": 2449.0,
+      "text": "episode every week. And sign up for emails or find transcripts for every episode at no-priors.com."
+    }
+  ]
+}

@@ -255,6 +255,23 @@ If any predictions were extracted during this run, regenerate `vault/visualizati
 
 ---
 
+## YouTube Link Health Check
+Periodically (at least once per run), verify that processed YouTube videos are still available. For each video in `data/processed.json`:
+
+```bash
+yt-dlp --skip-download --print "%(availability)s" "https://www.youtube.com/watch?v=VIDEO_ID"
+```
+
+If a video returns an error or shows as unavailable/private/removed:
+- Add `"link_status": "dead"` and `"link_checked": "YYYY-MM-DD"` to the video's entry in `processed.json`
+- Do NOT delete the video's data (transcript, note, predictions) — the content is still valuable
+- Add a notice at the top of the Obsidian note: `> ⚠️ **Source video unavailable** as of YYYY-MM-DD. The original transcript and all timestamps are preserved below.`
+- Log the finding in the daily summary
+
+For videos that are still available, update `"link_checked": "YYYY-MM-DD"` to track when they were last verified. Focus checks on older videos first (those with the oldest or missing `link_checked` date).
+
+---
+
 ## Error Handling
 - If `yt-dlp` fails on a video, skip it and log the error. Do not retry.
 - If `transcribe.py` fails, skip the video.

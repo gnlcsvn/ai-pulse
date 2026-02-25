@@ -1,0 +1,3477 @@
+{
+  "metadata": {
+    "video_id": "C1TGh6zqigg",
+    "url": "https://www.youtube.com/watch?v=C1TGh6zqigg",
+    "title": "The day after AGI: Two rock stars of AI on what it will mean for humanity",
+    "channel": "World Economic Forum",
+    "upload_date": "2026-02-12",
+    "duration": "50m",
+    "guests": [
+      "Demis Hassabis",
+      "Dario Amodei",
+      "Zanny Minton Beddoes"
+    ],
+    "transcribed_date": "2026-02-25",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "It will help us cure cancer, it may help us to eradicate tropical diseases, it will help us understand the universe, but there are these immense and grave risks. Welcome to Radio Davos, the podcast from the World Economic Forum that looks at the biggest challenges and how we might solve them. This week, what happens when AI becomes AGI, Artificial General Intelligence, smarter than humans at just about everything. What happens after AGI arrives, really we would be in uncharted territory at that point. Two of the smartest human minds, Demis Hassabis, CEO of Google DeepMind, and Dario Amadei of Anthropic, came together in Davos for a conversation called The Day After AGI. This was for me like sharing a conversation between the Beatles and the Rolling Stones. The editor-in-chief of The Economist asks these rockstar AI founders what the rest of us should know about AGI, which could now be just a few years away. Are we going to get through the technological adolescence of this technology without destroying ourselves? I think this is a risk. This is a risk that if we all work together, we can address, we can learn through science to properly control and direct these creations that we're building. But if we build them poorly, if we're all racing and we go so fast that there's no guardrails, then I think there is risk of something going on. So what exactly is AGI? When will it happen and what will it mean? It's on this episode of Radio Davos, available wherever you get podcasts and at wef.ch slash podcasts. I'm Robin Pomeroy at the World Economic Forum. And with this look at the future of AI and of humanity... It's for us to write as humanity what's going to happen next. This is Radio Davos. Welcome to Radio Davos. This week, we're talking about artificial intelligence and artificial general intelligence. To talk about that, I'm joined by a co-host, Benjamin Larson, all the way from San Francisco. Hi, Benjamin. How are you? Hi, Robin. It's great to be here. It's great to have you. Tell us what you do at the World Economic Forum. I'm an AI safety lead. I work at the Forum Center for AI Excellence. I'm based here in San Francisco. We have what's called the AI Global Alliance, where we have a number of different work streams. And I'm leading one of these work streams called Safe Systems and Technologies, where we're looking especially at the safety and security and so on surrounding frontier models and systems and AI agents. You've joined me here to kind of set up this session that happened at the World Economic Forum's annual meeting in Davos 2026, just a few weeks ago. It's been viewed many, many times online. It is two AI founders and CEOs. Could you tell us something about them? It's Dario Amadei and Demis Hassabis. Who are they and why are they important to listen to? Yeah, definitely. So Dario Amadei and Demis Hassabis, they're essentially two of the most influential leaders that are shaping the direction of advanced AI today. And Dario, he's the CEO and co-founder of Anthropic, and that's one of the leading AI research companies. He was previously at OpenAI, actually, and is probably best known for his focus on AI safety and alignment and building systems that are powerful, but also safe and controllable. That's something that's very much front and center for Anthropic. And then there's Demis. So Demis, he's the CEO and co-founder of Google DeepMind. He was originally trained as a neuroscientist, actually, and he's known for breakthroughs such as AlphaGo, which is a system that beat the world-leading Go player back in 2016, but also is very known for scientific AI, so advanced breakthroughs such as AlphaFold, which is a protein structure prediction algorithm. And Demis, he's long framed kind of AI as a scientific project that's aimed at understanding intelligence itself. And this is where AI, AGI, it comes into the picture as well. So AGI then, artificial general intelligence. Is that a concept that's very clear? I have a feeling there's probably several definitions of it or maybe a scale of definitions. What do you think? If I'd never heard of that expression before, how would you define it for me? Yeah, so I would say perhaps one way of understanding is that you can have narrow or specific intelligence or you can have very general intelligence. So AGI, it stands for artificial general intelligence, and it really refers to a system that can understand and learn and apply knowledge across a whole range of tasks that are comparable to that of a human being. So if you think about our intelligence, Robin, we don't have intelligence in just one narrow and very specific domain, but we're able to interact and operate in the physical world. And that demands kind of a very broad and generalized sense of intelligence. So you can think of this as kind of AI systems that are moving from being very simple and scoped towards broadly understanding and being able to interact and interpret the world in ways that are actually very similar and very general, so similar to what we do as humans. For people who've been kind of bamboozled by generative AI over the last three years or so, maybe they'd say, well, it looks like some of these models can do that already because you can ask one of these large language models any question. And, well, it sounds very authoritative. You can ask it to do tasks for you as well, to work things out or to create something for you. Is that not already general intelligence to some degree? You could say to some degree it is, and one definition of it. So I'm leading what's called a global future council on AGI that's co-shed by Yoshua Benjua and Akiko Morokami as well, who's the executive director of Japan's AI Safety Institute. And the working definition of AGI that we use is that it would be a system that's able to perform tasks that demands a cognitive function that would be similar to that of a human in a range of digital settings. And you could say that to some extent, some systems, they are definitely already able to do that. But again, it may not have the general in there. So it could be that a system is able to perform one task well or perform well in one domain, but for it to perform across other domains similar to a human and how we are able to switch tasks. That would demand significant engineering still. So you're not just able to take any system and plug it into kind of any digital environment and say, perform these and those actions according to these kind of specifications. And that's something that is still missing. But we're definitely seeing trends and tendencies towards this direction. So we're definitely seeing that as we speak. And why is it such a big deal? Some people also talk about there being a singularity, which I'm not entirely sure you can help us with what that means. Is it we wake up one day and suddenly we're surrounded by incredibly intelligent machines, AIs that have this general intelligence. Why are people so fixated on AGI? Because also you hear a lot of the heads of a lot of these companies saying, this is what we're working on. Maybe there's a race to achieve AGI. Why is it such a big deal? Yeah, so the singularity, just to unpack a little bit what that is. So that's a hypothetical point in time at which AI systems, they would become capable of improving themselves faster than humans can understand or control. So in this kind of scenario, you would have accelerating progress. And that could lead to rapid or unpredictable societal change, essentially. But I think it's worth here stressing that not everyone, they believe that the singularity will happen, or at least that it will be happening anytime soon. But some, they also view it as a useful thought experiment for stress testing assumptions and, for example, about exponential growth. While others, they would maybe treat it as a real risk that demands preparation and significant safeguards already today. So how we view AGI in the work that I mentioned on the council before is much more kind of a progressive approach. It's not something that we're going to wake up to tomorrow and then we'll have AGI similar to how we understand the singularity. But you could view AGI as kind of a jacket form of intelligence that's able to kind of excel and be superhuman in some areas. For example, in terms of the underlying information that's wrapped into the existing language models and how they can respond almost like an oracle would be. And that's very different from how we would respond as humans in terms of a limited memory and understanding of some subjects. But then in other areas where we would excel these systems, we would say, why can't you even remember what we talked about five minutes ago or something like that? So there are real differences and that's why you can understand it as a jagged form of intelligence right now that's accelerating in some fields, but it's still very limited in other fields. One thing that's mentioned, there's a concept that's mentioned many times in what we're about to listen to. They talk about AI models closing the loop. Could you tell us what that means? Closing the loop, it means moving from AI systems that are only able to generate outputs. So if you prompt a large language model today, you would say, OK, I have an input and I expect an output. But closing the loop, it refers to systems that can also take actions, that can observe the results and they can then adapt their behavior accordingly and over time. So that means it's much more about a loop similar to how, again, we as humans think and learn and act. I just don't come up with an answer, but I think through what are the implications of that? Where do I need to search for additional knowledge? How do I solve a part of this task? And based on how I solve all of these different elements, I then go back and I revisit what was the original task. So that will be closing the loop, essentially. So you could say that this involves kind of iteration and it's really important because it's a step towards autonomy. You can imagine that if you're able to close this loop and you actually have greater autonomy and then you can take kind of more infinite steps at solving specific tasks. But of course, very important to also stress that when you do aim to close this loop or you do aim for greater autonomy, for example, in the genetic settings, then you also have new risks that demand new governance approaches. And that's something that we've been focusing a lot on in our work at the forum. So in a closed loop environment, the AI doesn't need any human input anymore. It can go off on its own, learn new things, decide what it's doing by itself. Or am I oversimplifying? I think that would be taking it a step too far in terms of where we currently are. But in the bigger picture, we do see, for example, computer use agents that you can simply give an agent a laptop and you can ask it to do a number of things. And then maybe you can ask it to have a degree of freedom where it can actually go out and do its own kind of thing. And it would go on and take unpredictable actions. So you don't want that in any kind of work setting at all, of course, because there's a number of risks associated with that. But you could also say that these systems are a bit more rudimentary than that in terms of how much is actually actions that are diverted or that are directed at solving or optimizing a specific problem. So that goes back to this notion of singularity that we just talked about and where does kind of direction come from? Does it come from an algorithm that's seeking to kind of maximize its own goals or objectives? Or are those goals and objectives, are they stated by a human in the loop who's actually running a system? So I think that's a core degree of difference in terms of control versus where we realistically are today. But of course, there are scenarios where you have to think much more carefully about what are the systems that we are creating. And once we have artificial general intelligence that are able to close the loop, as we talked about, and what is the outcome of that? And how are you able to control and guarantee that, essentially? There's a recent kind of hype cycle. It's funny. I'm sitting here in Geneva. You're in San Francisco. You're close to where there's interesting things going on all the time. Occasionally, stories break out of the bubble, maybe, of Silicon Valley. And one of them that a lot of people have been paying attention to was this, well, it's changed its name a few times. Open Claw, I think, is its latest iteration. The reason I mention it is because you mentioned you could give a laptop to an AI and set it off doing its thing. And as I understand it, that's kind of what's been happening here. And that's what some people have been getting excited about. A lot of people are quite skeptical about what it is as well. But could you explain to anyone who's not heard of that what it is and why some people were very excited about it? Open Claw, the latest name iteration, of course. So that would be an idea of a personal AI assistant, essentially. So let's say that I engage with Open Claw. Open Claw is entirely open source. So I can essentially have a personal assistant. I can grant it access to my email, my calendar, and my schedules. And for the first time, you kind of have this idea of a personal assistant that's actually useful and helpful. Of course, it's still brittle and it can break down a lot. But the difference, Robin, is that this time it's an open source system. Everybody is able to tweak the agent and interact and give it access to personal resources and so on. Versus a lot of the agents that we've been seeing so far, they tend to be proprietary. It's, of course, a closed source. It's companies that are developing these systems and they are much more targeted at specific use cases and so on. And that's a big difference. But what we've also seen with Open Claw, and this is a cautionary tale, once you begin to grant access to kind of early stage agents and allow them access to all of your systems and so on, it also increases the attack surface for hackers and malicious activity that are able to go in and exploit cybersecurity vulnerabilities and so on. And I certainly wouldn't feel comfortable kind of in that kind of situation or scenario having the ability of having some of my personal data exposed essentially. So it's kind of indicative of the direction of travel that we're going to see much more innovation in terms of agents and AI assistance in the time to come, also in the open source domain. And that paired with the underlying protocols, such as model context protocol and agent to agent protocols, we can expect much more in the time to come in terms of not only AI and personal assistance, but also in terms of agents, broadly speaking, and how that is changing the notion of the underlying infrastructure essentially having a much more agentic web and many more agentic surfaces. And that speaks to what we talked about earlier in terms of closing the loop that we're going to see more autonomy in AI and in software systems in general in the time to come. Right. Well, let's listen to this session then from Davos. This is the two, as the moderator of this session, Zannie Minton-Bedos, who's the editor-in-chief of The Economist. She calls, she says it's like moderate, she's done this a couple of times before with Dario Amode and Demis Hassabis. And she said it's like interviewing the Beatles and the Rolling Stones at the same time, which is a pretty good, pretty good queuing up of it. Before I let you go, though, Ben, you mentioned the Global Future Council. These are groups with a dozen or so kind of experts from around the world that the World Economic Forum brings together. In your case, it's the Global Future Council. What did you say? It's the Global Future Council on AGI. Is there already stuff people can find about that yet or is that something to look out for in the future? Yes. So we have a web page where we are publishing a number of shorter briefing papers, precision papers, essentially. So we're looking into areas such as agency and control that we've been discussing here, Robin. We're looking at international collaboration, what that looks like. We're looking at AGI and policy triggers. So, for example, implications for labor markets, economic and societal transformation and so on. And we, of course, similar to the conversation that we're about to tune into, take a stance on a number of these areas and are here to essentially help inform stakeholders, make better decisions when it comes to what is increasingly capable systems, this notion of artificial general intelligence. What does that look like in the time to come? What do we need to do now in order to be better prepared? I'll put a link to that in the show notes to this. You mentioned one of the chairs of that Global Future Council is Joshua Bengio. I met him in Davos a few weeks ago, recorded an interview, which he talks a lot about the dangers, as do the two people we're about to listen to now, of artificial intelligence. And these are people who really know what they're talking about, all three of them. So please look out for that episode coming up in the next few weeks on Radio Davos. For now, Benjamin Larson, thanks very much for joining us on Radio Davos. Robin, it was a pleasure to be here. Great. Well, let's just go ahead and listen to that. You can watch this session. I'll also put a link to that. It's on the World Economic Forum's YouTube page. It's called The Day After AGI. And the first voice you'll hear will be the chief editor of The Economist, Zannie Minton-Beros. Welcome, everybody, and welcome to those of you joining us on live stream to this conversation. I have to say I have been looking forward to for months. I was lucky enough to moderate a conversation between Dari Amadei and Demis Hassabis last year in Paris, which I'm afraid got most attention for the fact that you two were squashed on a very small love seat while I sat on an enormous sofa, which was probably my screw-up. But I said at that point that this was, for me, like, you know, chairing a conversation between The Beatles and The Rolling Stones. And you have not had a conversation on stage since. So this is, you know, the sequel. The bands get together again. I'm delighted. You need no introduction. The title of our conversation is The Day After AGI, which I think is perhaps slightly getting ahead of ourselves because we should probably talk about how quickly and easily we will get there. And I want to do a bit of a sort of update on that and then talk about the consequences. So firstly, on the timeline, Dario, you last year in Paris said, we'll have a model that can do everything a human could do at the level of a Nobel laureate across many fields by 26, 27. We're in 26. Do you still stand by that timeline? So, you know, it's always hard to know exactly when something will happen, but I don't think that's going to turn out to be that far off. So, you know, the mechanism whereby I imagined it would happen is that we would make models that were good at coding and good at AI research, and we would use that to produce the next generation of model and speed it up, to create a loop that would increase the speed of model development. We are now, in terms of, you know, the models that write code, I have engineers within Anthropoc who say, I don't write any code anymore. I just let the model write the code. I edit it. I do the things around it. I think, I don't know, we might be six to 12 months away from when the model is doing most, maybe all of what SWEs do end to end. And then it's a question of how fast does that loop close? Not every part of that loop is something that can be sped up by AI, right? There's like chips, there's manufacture of chips, there's training time for the model. So it's, you know, I think there's a lot of uncertainty. It's easy to see how this could take a few years. I don't, it's very hard for me to see how it could take longer than that. But if I had to guess, I would guess that this goes faster than people imagine. And that key element of code and increasingly research going faster than we imagine, that's going to be the key driver. It's really hard to predict, again, how much that exponential is going to speed us up. But something fast is going to happen. So you, Demis, were a little more cautious last year. You said a 50% chance of a system that can exhibit all the cognitive capabilities humans can by the end of the decade. Clearly in coding, as Darius says, it's been remarkable. What is your sense of, do you stand by your prediction? And what's changed in the past year? Yeah, look, I think I'm still on the same kind of timeline. I think there has been remarkable progress. But I think some areas of kind of engineering work, coding, or so you could say mathematics, are a little bit easier to see how they would be automated. Partly because they're verifiable, what the output is. Some areas of natural science are much harder to do than that. You won't necessarily know if the chemical compound you've built or this prediction about physics is correct. You may have to test it experimentally, and that will all take longer. So I also think there are some missing capabilities at the moment in terms of not just solving existing conjectures or existing problems, but actually coming up with the question in the first place or coming up with the theory or the hypothesis. I think that's much, much harder. And I think that's the highest level of scientific creativity. And it's not clear. I think we will have those systems. I don't think it's impossible. But I think there may be one or two missing ingredients. It remains to be seen how, you know, first of all, can this self-improvement loop that we're all working on actually close without a human in the loop? I think there are also risks to that kind of system, by the way, which we should discuss. And I'm sure we will. But that could speed things up if that kind of system does work. We'll get to the risks in a minute. But one other change, I think, of the past year has been a kind of change in the pecking order of the race, if you will. This time a year ago, we just had the deep seek moment, and everyone was incredibly excited about what happened there. And there was still a sense, you know, that Google DeepMind was kind of lagging OpenAI. I would say that now it's looking quite different. I mean, they've declared code red, right? It's been quite a year. So talk me through what specifically you've been surprised by and how well you've done this year and whether you think, and then I'm going to ask you about the lineup. Well, look, I think we were, I was always very confident we would get back to sort of the top of the leaderboards and the SOTA type of models across the board. Because I think we've always had like the deepest and broadest research bench. And it was about kind of marshalling that all together and getting the intensity and focus and the kind of startup mentality back to the whole organization. And it's been a lot of work. And but I think we're, and we're still a lot of work to do. But I think you can start seeing the, you know, the kind of the progress that's been made in both the models with Gemini 3, but also on the product side with Gemini app getting increasing market share. So I feel like we're making great progress, but there's a ton more work to do. And, you know, we're bringing to bear Google DeepMind's kind of like the engine room of Google, where we're getting used to shipping our models more and more quickly into the product surfaces. One question for you, Daria, on this aspect of it, because you've just saw you're in the process of, you know, a new round at an extraordinary valuation too. But you are, unlike them, as a, let's call it an independent model maker. And there is, I think, an increasing concern that the independent model makers will not be able to continue for long enough until you get to where the revenues come in. It's made very openly about open AI. But talk me through how you think about that. And then we'll get to the AGI itself. Yeah, I mean, you know, I think how we think about that is, you know, as we've built better and better models, there's been a kind of exponential relationship, not only between how much compute you put into the model and how cognitively capable it is, but between how cognitively capable it is and how much revenue it's able to generate. So our revenue has grown 10x in the last three years from zero to 100 million in 2023, 100 million to a billion in 2024, and 1 billion to 10 billion in 2025. And so those revenue numbers, you know, I don't know if that curve will literally continue. It would be crazy if it did. But those numbers are starting to get not too far from, you know, the scale of the largest companies in the world. So there's always uncertainty. You know, we're trying to bootstrap this from nothing. It's a crazy thing. But I have confidence that if we're able to produce the best models in the things that we focus on, then I think things will go well. And, you know, I will generally say, you know, I think it's been a good year for both Google and Anthropic. And I think the thing we actually have in common is that they're, you know, they're both kind of companies that are, you know, or the research part of the company that are kind of led by researchers who focus on the models, who focus on solving important problems in the world, right, who have these kind of hard scientific problems as a North Star. And I think those are the kind of companies that are going to succeed going forward. And, you know, I think we share that between us. I'm going to resist the temptation to ask you what will happen to the companies that are not led by researchers. Because I know you won't answer it. But let's then go on to the predictions area now. And we are supposed to be talking about the day after AI. But let's talk about closing the loop. The odds that you will get models that will close the loop and be able to, you know, power themselves, if you will. Because that's really the crux for the winner-takes-all threshold approach. Do you still believe that we are likely to see that? Or is this going to be much more of a normal technology where followers and catch-up can compete? Well, look, I definitely don't think it's going to be a normal technology. So, I mean, there are aspects already that, as Dario mentioned, that it's already helping with our coding and some aspects of research. The full closing of the loop, though, I think is an unknown. I mean, I think it's possible to do. You may need AGI itself to be able to do that in some domains. Again, where these domains, you know, where there's more messiness around them. It's not so easy to verify your answer very quickly. There's kind of MP hard domains. So, as soon as you start getting more, and, you know, I also include, by the way, for AGI, physical AI, robotics working, all of these kind of things. And then you've got, you know, hardware in the loop. That may limit how fast the self-improvement systems can work. But I think in coding and mathematics and these kind of areas, I can definitely see that working. And then the question is more theoretical one is what is the limit of engineering and maths to solve the natural sciences? Dario, you last year, I think it was last year that you published Machines of Loving Grace, which was a very, I would say, upbeat essay about the potential that you were going to see unfold. I'm told that you are working on an update to this, a new essay. So, you know, wait for it, guys. It's not out yet, but it is coming out. But perhaps you can give us a sort of a sneak preview of what a year later your big take is going to be. Yes. So, you know, my take has not changed. It has always been my view that, you know, AI is going to be incredibly powerful. I think Demis and I, you know, kind of agree on that. It's just a question of exactly when. And because it's incredibly powerful, it will do all these wonderful things like the ones I talked about in Machines of Loving Grace. It, you know, will help us cure cancer. It may help us to eradicate tropical diseases. It will help us understand the universe. But that there are these, you know, immense and grave risks that, you know, not that we can't address them. I'm not a doomer. But that, you know, we need to think about them and we need to address them. And I wrote Machines of Loving Grace first. I'd love to give some sophisticated reason why I wrote that first. But it was just that the positive essay was easier and more fun to write than the negative essay. So, you know, I finally spent some time on vacation and I was able to write an essay about the risks. And even when I'm writing about the risks, I tried, you know, I'm like an optimistic person, right? So even as I'm writing about these risks, I wrote about it in a way that was like, how do we overcome these risks? How do we have a battle plan to fight them? And the way I framed it was, you know, there's this scene from Carl Sagan's Contact, the movie version of it, where, you know, they kind of discover alien life. And it's this international panel that's like interviewing, you know, people to, you know, to be humanity's representative to meet the alien. And one of the questions they asked one of the candidates is, you know, if you could ask the aliens, anyone question, what would it be? And one of the characters says, I would ask, how did you do it? How did you manage to get through this technological adolescence without destroying yourselves? How did you make it through? And ever since I saw it, it was like 20 years ago, I think I saw that movie. It's kind of stuck with me. And that's the frame that I used, which is that, you know, we are knocking on the door of these incredible capabilities, right? The ability to build basically machines out of sand, right? I think it was inevitable the instant we started working with fire. But how we handle it is not inevitable. And so I think the next few years, we're going to be dealing with, you know, how do we keep these systems under control that are highly autonomous and smarter than any human? How do we make sure that individuals don't misuse them, right? I have worries about things like bioterrorism. How do we make sure that nation states don't misuse them? That's why I've been so concerned about, you know, the CCP, other authoritarian governments. What are the economic impacts, right? I've talked about labor displacement a lot. And, you know, what haven't we thought of, which in many cases, you know, may be the hardest thing to deal with at all. So, you know, I'm thinking through how to address those risks. And, you know, for each of these, it's a mixture of things that we individually need to do as leaders of the companies and that we can do working together. And then there's going to need to be some role for wider societal institutions like the government in addressing all of these. But, you know, I just feel this urgency that, you know, every day, you know, there's all kinds of crazy stuff going on in the outside world, outside AI, right? But, you know, my view is this is happening so fast. It is such a crisis. We should be devoting almost all of our effort to thinking about how to get through this. So I can't decide whether I'm more surprised that you, A, take a vacation. B, when you take a vacation, you think about the risks of AI and C, that your essay is framed in terms of, are we going to get through the technological adolescence of this technology without destroying ourselves? So my head is slightly spinning, but you then, and I can't wait to read it, but you mentioned several areas that can guide the rest of our conversation. Let's start with jobs, because you actually have been very outspoken about that. And I think you said that half of entry-level white-collar jobs could be gone within the next one to five years. But I'm going to turn to you, Demis, because so far, we haven't actually seen any discernible impact on the labour market. Yes, unemployment has ticked up in the US, but all of the kind of economic studies I've looked at and that we've written about suggests that this is overhiring post-pandemic, that it's really not AI-driven. If anything, people are hiring to build out AI capability. Do you think that this will be, as economists have always argued, that it's not a lump of labour fallacy, that actually there will be new jobs created? Because so far, the evidence seems to suggest that. Yeah, I mean, I think in the near term, that is what will happen, the kind of normal evolution when a breakthrough technology arrives. So some jobs will get disrupted, but I think new, even more valuable, perhaps more meaningful jobs will get created. I think we're going to see this year the beginnings of maybe impacting the junior-level, entry-level child of jobs, internships, this type of thing. I think there is some evidence. I can feel that ourselves, maybe like a slowdown in hiring in that. But I think that can be more than compensated by the fact there are these amazing creative tools out there, pretty much available for everyone, almost for free. That if I was to talk to a class of undergrads right now, I would be telling them to get really unbelievably proficient with these tools. I think to the extent that even those of us building it, we're so busy building it, it's hard to have also time to really explore almost the capability overhang even today's models and products have, let alone tomorrow's. And I think that can be maybe better than a traditional internship would have been in terms of you sort of leapfrogging yourself to be useful in a profession. So I think that's what I see happening probably in the next five years. Maybe we, again, slightly differ on timescales on that. But I think what happens after AGI arrives, that's a different question. So I think really we would be in uncharted territory at that point. Do you think it's going to take longer than you thought last year when you said half of all entry-level white-colored jobs? No, I have about the same view. I actually agree with you and with Demis that at the time I made the comment, there was no impact on the labor market. I wasn't saying there was an impact on the labor market at that moment. Now, I think maybe we're starting to see just the little beginnings of it in software encoding. I even see it within Anthropic where I can kind of look forward to a time where on the more junior end and then on the more intermediate end, we actually need less and not more people. And, you know, we're thinking about how to deal with that within Anthropic in a, you know, sense in a sensible way. I, you know, one to five years as of six months ago, I would stick with that. You know, if you kind of, you know, connect this to what I said before, which is, you know, we might have AI that's better than humans at everything in, you know, maybe one to two years, maybe a little longer than that. But those don't seem to line up. The reason is that there's this lag and there's this replacement thing, right? I know that the labor market is adaptable, right? It's just like, you know, 80% of people used to do farming. You know, farming got automated and then they became factory workers and then knowledge workers. So, you know, there is some level of adaptability here as well, right? We should be economically sophisticated about how the labor market works. But my worry is as this exponential keeps compounding, and I don't think it's going to take that long, again, somewhere between a year and five years, it will overwhelm our ability to adapt. I think I may be saying the same thing Demis is, just factored out of that difference we have about timelines, which I think ultimately comes down to how fast you close the loop on coronavirus. How much confidence do you have that governments get the scale of this and are beginning to think about what policy responses they need to have? I don't think that it's anywhere near enough work going on about this. I'm constantly surprised, even when I meet economists at places like this, that they're not more of professional economists, professors thinking about what happens. And not just sort of on the way to AGI, but even if we get all the technical things right that Dario is talking about and the job displacement is one question. We're all worried about the economics of that, but maybe there are ways to distribute this new productivity, this new wealth more fairly. I don't know if we have the right institutions to do that, but that's what should happen at that point. There should be, you know, we may be in a post-scarcity world, but then there are even the things that keep me up right now. There are even bigger questions than that at that point to do with meaning and purpose. And a lot of the things that we get from our jobs, not just economically, that's one question. But I think that may be easier to solve, strangely, than what happens to the human condition and humanity as a whole. And I think I'm also optimistic we'll come up with new answers there. We do a lot of things today from extreme sports to art that aren't necessarily directly to do with economic gain. So I think we will find meaning and maybe there'll be even more sort of sophisticated versions of those activities. Plus, I think we'll be exploring the stars. So there'll be all of that to factor in as well in terms of purpose. But I think it's really worth thinking now, even in my timelines of like five to ten years away, that isn't a lot of time before this comes. How big do you think is the risk of a popular backlash against AI that will somehow kind of cause governments to do what, from your perspective, might be stupid things? Because I'm just thinking back to the era of globalization in the 1990s when there was indeed some displacement of jobs. Governments didn't do enough. The public backlash was such that we've ended up sort of where we are now. Do you think that there is a risk that there will be a growing antipathy towards what you are doing and your companies in the kind of body politic? I think there's definitely a risk. I think that's kind of reasonable. There's fear and there's worries about these things like jobs and livelihoods. I think there's a couple of things that, I mean, it's going to be very complicated the next few years, I think, geopolitically, but also the various factors here. Like we want to, and we're trying to do this with AlphaFold and our science work and isomorphic, our spin-out companies solve all disease, cure diseases, come up with new energy sources. I think as a society, it's clear we'd want that. I think maybe the balance of what the industry is doing is not enough balance towards those types of activities. I think we should have a lot more examples. I know Dario agrees with me of like AlphaFold-like things that help sort of unequivocal goods in the world. And I think actually it's incumbent on the industry and all of us leading players to show that more, demonstrate that, not just talk about it, but demonstrate that. But then it's going to come with these other intended disruptions. And, but I don't, I think the other issue is the geopolitical competition. There's obviously competition between the companies, but also US and China primarily. So unless there's an international cooperation or understanding around this, which I think would be good actually in terms of things like minimum safety standards for deployment. I think Dario would agree on that as well. I think it's vitally needed. This technology is going to be cross-border. It's going to affect everyone. It's going to affect all of humanity. Actually, Contact is one of my favorite films as well. So it's sort of funny enough, I didn't realize it was yours too, Dario. But I think, you know, those kind of things need to be worked through. And if we can, maybe it would be good to have a bit of slow, a slightly slower pace than we're currently predicting, even my timelines, so that we can get this right societally. But that would require some coordination. That is. I prefer your timelines. Yes. I think it would be better for many reasons. That'll concede. But Dario, let's turn to this now, because one thing since we last spoke in Paris, the geopolitical environment has, if anything, I don't know, complicated, mad, crazy, whatever phrase you want to use. Secondly, the U.S. has a very different approach now towards China. It's a much more, it's a kind of no holds barred, go as fast as we can, but then sell chips to China. And that is, so you've got a different attitude towards the United States. You've got a very strange relationship between the United States and Europe right now geopolitically. Against that, I mean, I hear you talk about it, it would be nice to have a CERN-like organization. I mean, it's a million years from where we are, from the real world. So in the real world, have the geopolitical risks increased? And what, if anything, do you think should be done about that? And the administration seems to be doing the opposite of what you were suggesting. Yeah, I mean, look, you know, we're just trying to do the best we can to, you know, we're just one company and we're trying to operate in, you know, the environment that exists, no matter how crazy it is. But, you know, I think at least my policy recommendations haven't changed. That, you know, not selling chips is one of the, you know, one of the biggest things we can do to, you know, make sure that we have the time to handle this. You know, you know, I said before, you know, I prefer Demis' timeline. I wish we had five to ten years, you know, so it's possible he's just right and I'm just wrong. But assume I'm right and it can be done in one to two years. Why can't we slow down to Demis' timeline? Well, you could just slow down. Well, no, but the reason we can't do that is, you know, because we have geopolitical adversaries building the same technology at a similar pace. It's very hard to have an enforceable agreement where they slow down and we slow down. And so if we can just not sell the chips, then this isn't a question of competition between the U.S. and China. This is a question of competition between me and Demis, which I'm very confident that we can work out. And what do you make of the logic of the administration, which, as I understand it, is we need to sell them chips because we need to bind them into U.S. supply chains. So, you know, it's I think it's I think it's a question not just of timescale, but of the significance of the technology. Right. If this was telecom or something, then all this stuff about proliferating the U.S. stack and, you know, wanting to build our, you know, chips around the world to make sure that, you know, you know, this, you know, these random countries in different parts of the world, you know, build data centers that have NVIDIA chips instead of Huawei chips. You know, I think of this more as like, you know, it's a decision. Are we going to, you know, sell nuclear weapons to North Korea? And, you know, because that produces some profit for Boeing, you know, where we can say, OK, yeah, these cases were made by Boeing. Like the U.S. is winning. Like, this is great. Like I just, you know, that that analogy should just make clear how I see this tradeoff, that I just don't think it makes sense. And we've done a lot of more aggressive stuff, you know, towards towards China, China and other players that I think is much less effective than this this one this one measure. One more area for me, and then I hope we'll have time for a question or two. The other area of potential risk that doomers worry about is a kind of all powerful malign AI. And I think you've both been somewhat skeptical of the Duma approach. But in the last year, we have seen, you know, these models showing themselves to be capable of deception, duplicity. Do you think that do you think differently about that risk now than you did a year ago? And is there something about the way the models are evolving that we should put a little bit more concern on that? Yeah, I mean, you know, since since the beginning of Anthropic, we've kind of thought about this risk. I mean, you know, our research at the beginning of it was very theoretical, right? You know, we pioneered this idea of mechanistic interpretability, which is looking inside the model and trying to understand looking inside its brain, trying to understand why it does what it does. And, you know, as human neuroscientists, which we actually both have background in, try to understand the brain. And I think as time has gone on, we've increasingly documented the, you know, bad behaviors of the models when they emerge and are now working on trying to address them with mechanistic interpretability. So, you know, I think, you know, I've always been concerned about these risks. I've talked to Demis many times. I think he has also been concerned about these risks. I think I have definitely been, and I would guess Demis as well, although I'll let him speak for himself, skeptical of doomerism, which is, you know, we're doomed. There's nothing we can do or this is the most likely outcome. I think this is a risk. This is a risk that if we all work together, we can address, we can learn through science to properly, you know, control and direct these creations that we're building. But if we build them poorly, if we go, you know, if we're all racing and we go so fast that there's no guardrails, then I think there is risk of something going wrong. So I'm going to give you a chance to answer that in the context of a slightly broader question, which is over the past year, have you grown more confident of the upside potential of the technology, science, all of the areas that you have talked about a lot? Or are you more worried about the risks that we've been discussing? Look, Azana, I've been working on this for 20 plus years. So we already knew, look, the reason I've spent my whole career on AI is the upsides of solving basically the ultimate tool for science and understanding the universe around us. I've sort of been obsessed with that since a kid. And building AI is the, you know, should be the ultimate tool for that if we do it in the right way. The risks also we've been thinking about since the start, at least the start of DeepMind 15 years ago. And we kind of sort of foresaw that if you got the upsides, it's a dual purpose technology. So it could be repurposed by, say, bad actors for harmful ends. So we've needed to think about that all the way through. But I'm a big believer in human ingenuity. But the question is having the time and the focus and all the best minds collaborating on it to solve these problems. I'm sure if we had that, we would solve the technical risk problem. It may be we don't have that and then that will introduce risk because we'll be sort of, it'll be fragmented. There'll be different projects and people be racing each other. Then it's much harder to make sure, you know, these systems that we produce will be technically safe. But I feel like that's a very tractable problem if we have the time. If you are able to do it. If we have the time and space. I want to make sure there's one question. Gentlemen, keep it very short because we've got literally two minutes. Thanks for, hello. No, speak. Thanks very much. I'm Philip, co-founder of Star Cloud Building Data Centers in Space. I wanted to ask a slightly philosophical question. The sort of strongest argument for Doomerism to me is the Fermi Paradox, the idea that we don't see intelligent life in our galaxy. I was wondering if you guys have any thoughts. Yeah, I've thought a lot about that. That can't be the reason because we should see all the AIs that have. So just for everyone. The idea is, well, it's sort of unclear why that would happen. Right. So if the reason there's a Fermi Paradox, there are no aliens because they get taken out by their own technology. We should be seeing paper clips coming towards us from some part of the galaxy. And apparently we don't. We don't see any structures. Dyson spheres, nothing. Whether they're AI or natural or sort of biological. So to me, there has to be a different answer to Fermi Paradox. I have my own theories about that. But it's out of scope for the next minute. But, you know, I just feel like that my prediction, my feeling is that we're past the great filter. It was probably multicellular life, if I would have to guess. It was incredibly hard for biology to evolve that. So we're on that. You know, there isn't a comfort of like what's going to happen next. I think it's for us to write as humanity what's going to happen next. This could be a great discussion, but it is out of scope for the next 36 seconds. But what isn't? 15 seconds each. When we meet again, I hope next year, the three of us, which I would love, what will have changed by then? Well, I think the biggest thing to watch is this issue of AI systems building AI systems. How that goes, whether that goes one way or another, that will determine, you know, whether it's a few more years until we get there. Or if we have, you know, if we have wonders and a great emergency in front of us that we have to face. AI systems building AI systems. I agree on that. So we're keeping close touch about that. But also, I think outside of that, I think there are other interesting ideas being researched, like world models, continual learning. These are the things I think they'll need to be cracked. If self-improvement doesn't sort of deliver the goods on its own, then we'll need these other things to work. And then I think things like robotics may have its sort of breakout moment. But maybe on the basis of what you've just said, we should all be hoping that it does take you a little bit longer. And indeed, everybody else to give us a little more time. I would prefer that. I think that would be better for the world. Well, you guys could do something about that. Thank you both very much. Thank you. Thank you. Thank you. This episode of Radio Davos was written, presented, produced and edited by me, Robin Pomeroy and by my colleague Benjamin Larson. Studio production was by Taz Kell-Aha. Radio Davos will be back next week. But for now, thanks to you for listening and goodbye.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 10.16,
+      "text": "It will help us cure cancer, it may help us to eradicate tropical diseases, it will help us understand the universe, but there are these immense and grave risks."
+    },
+    {
+      "id": 1,
+      "start": 10.34,
+      "end": 16.38,
+      "text": "Welcome to Radio Davos, the podcast from the World Economic Forum that looks at the biggest challenges and how we might solve them."
+    },
+    {
+      "id": 2,
+      "start": 16.580000000000002,
+      "end": 25.0,
+      "text": "This week, what happens when AI becomes AGI, Artificial General Intelligence, smarter than humans at just about everything."
+    },
+    {
+      "id": 3,
+      "start": 25.1,
+      "end": 29.68,
+      "text": "What happens after AGI arrives, really we would be in uncharted territory at that point."
+    },
+    {
+      "id": 4,
+      "start": 29.68,
+      "end": 41.08,
+      "text": "Two of the smartest human minds, Demis Hassabis, CEO of Google DeepMind, and Dario Amadei of Anthropic, came together in Davos for a conversation called The Day After AGI."
+    },
+    {
+      "id": 5,
+      "start": 41.36,
+      "end": 44.84,
+      "text": "This was for me like sharing a conversation between the Beatles and the Rolling Stones."
+    },
+    {
+      "id": 6,
+      "start": 45.019999999999996,
+      "end": 52.94,
+      "text": "The editor-in-chief of The Economist asks these rockstar AI founders what the rest of us should know about AGI, which could now be just a few years away."
+    },
+    {
+      "id": 7,
+      "start": 53.18,
+      "end": 57.86,
+      "text": "Are we going to get through the technological adolescence of this technology without destroying ourselves?"
+    },
+    {
+      "id": 8,
+      "start": 57.86,
+      "end": 69.7,
+      "text": "I think this is a risk. This is a risk that if we all work together, we can address, we can learn through science to properly control and direct these creations that we're building."
+    },
+    {
+      "id": 9,
+      "start": 69.7,
+      "end": 77.5,
+      "text": "But if we build them poorly, if we're all racing and we go so fast that there's no guardrails, then I think there is risk of something going on."
+    },
+    {
+      "id": 10,
+      "start": 77.58,
+      "end": 80.52000000000001,
+      "text": "So what exactly is AGI? When will it happen and what will it mean?"
+    },
+    {
+      "id": 11,
+      "start": 80.60000000000001,
+      "end": 85.94,
+      "text": "It's on this episode of Radio Davos, available wherever you get podcasts and at wef.ch slash podcasts."
+    },
+    {
+      "id": 12,
+      "start": 86.32000000000001,
+      "end": 88.32000000000001,
+      "text": "I'm Robin Pomeroy at the World Economic Forum."
+    },
+    {
+      "id": 13,
+      "start": 88.48,
+      "end": 90.7,
+      "text": "And with this look at the future of AI and of humanity..."
+    },
+    {
+      "id": 14,
+      "start": 91.24000000000001,
+      "end": 93.92,
+      "text": "It's for us to write as humanity what's going to happen next."
+    },
+    {
+      "id": 15,
+      "start": 94.02000000000001,
+      "end": 95.04,
+      "text": "This is Radio Davos."
+    },
+    {
+      "id": 16,
+      "start": 95.04,
+      "end": 102.30000000000001,
+      "text": "Welcome to Radio Davos. This week, we're talking about artificial intelligence and artificial general intelligence."
+    },
+    {
+      "id": 17,
+      "start": 102.62,
+      "end": 108.48,
+      "text": "To talk about that, I'm joined by a co-host, Benjamin Larson, all the way from San Francisco."
+    },
+    {
+      "id": 18,
+      "start": 109.06,
+      "end": 110.16000000000001,
+      "text": "Hi, Benjamin. How are you?"
+    },
+    {
+      "id": 19,
+      "start": 110.28,
+      "end": 111.54,
+      "text": "Hi, Robin. It's great to be here."
+    },
+    {
+      "id": 20,
+      "start": 111.74000000000001,
+      "end": 114.46000000000001,
+      "text": "It's great to have you. Tell us what you do at the World Economic Forum."
+    },
+    {
+      "id": 21,
+      "start": 114.7,
+      "end": 119.36000000000001,
+      "text": "I'm an AI safety lead. I work at the Forum Center for AI Excellence. I'm based here in San Francisco."
+    },
+    {
+      "id": 22,
+      "start": 119.36,
+      "end": 124.46,
+      "text": "We have what's called the AI Global Alliance, where we have a number of different work streams."
+    },
+    {
+      "id": 23,
+      "start": 124.58,
+      "end": 128.02,
+      "text": "And I'm leading one of these work streams called Safe Systems and Technologies,"
+    },
+    {
+      "id": 24,
+      "start": 128.42,
+      "end": 137.28,
+      "text": "where we're looking especially at the safety and security and so on surrounding frontier models and systems and AI agents."
+    },
+    {
+      "id": 25,
+      "start": 137.78,
+      "end": 146.66,
+      "text": "You've joined me here to kind of set up this session that happened at the World Economic Forum's annual meeting in Davos 2026, just a few weeks ago."
+    },
+    {
+      "id": 26,
+      "start": 146.66,
+      "end": 155.32,
+      "text": "It's been viewed many, many times online. It is two AI founders and CEOs. Could you tell us something about them?"
+    },
+    {
+      "id": 27,
+      "start": 155.42,
+      "end": 162.22,
+      "text": "It's Dario Amadei and Demis Hassabis. Who are they and why are they important to listen to?"
+    },
+    {
+      "id": 28,
+      "start": 162.48,
+      "end": 171.57999999999998,
+      "text": "Yeah, definitely. So Dario Amadei and Demis Hassabis, they're essentially two of the most influential leaders that are shaping the direction of advanced AI today."
+    },
+    {
+      "id": 29,
+      "start": 171.58,
+      "end": 179.3,
+      "text": "And Dario, he's the CEO and co-founder of Anthropic, and that's one of the leading AI research companies."
+    },
+    {
+      "id": 30,
+      "start": 179.92000000000002,
+      "end": 190.58,
+      "text": "He was previously at OpenAI, actually, and is probably best known for his focus on AI safety and alignment and building systems that are powerful, but also safe and controllable."
+    },
+    {
+      "id": 31,
+      "start": 191.24,
+      "end": 195.62,
+      "text": "That's something that's very much front and center for Anthropic."
+    },
+    {
+      "id": 32,
+      "start": 195.62,
+      "end": 200.28,
+      "text": "And then there's Demis. So Demis, he's the CEO and co-founder of Google DeepMind."
+    },
+    {
+      "id": 33,
+      "start": 201.14000000000001,
+      "end": 212.64000000000001,
+      "text": "He was originally trained as a neuroscientist, actually, and he's known for breakthroughs such as AlphaGo, which is a system that beat the world-leading Go player back in 2016,"
+    },
+    {
+      "id": 34,
+      "start": 212.64,
+      "end": 225.05999999999997,
+      "text": "but also is very known for scientific AI, so advanced breakthroughs such as AlphaFold, which is a protein structure prediction algorithm."
+    },
+    {
+      "id": 35,
+      "start": 225.82,
+      "end": 233.04,
+      "text": "And Demis, he's long framed kind of AI as a scientific project that's aimed at understanding intelligence itself."
+    },
+    {
+      "id": 36,
+      "start": 233.51999999999998,
+      "end": 237.33999999999997,
+      "text": "And this is where AI, AGI, it comes into the picture as well."
+    },
+    {
+      "id": 37,
+      "start": 237.34,
+      "end": 251.48000000000002,
+      "text": "So AGI then, artificial general intelligence. Is that a concept that's very clear? I have a feeling there's probably several definitions of it or maybe a scale of definitions."
+    },
+    {
+      "id": 38,
+      "start": 252.12,
+      "end": 256.6,
+      "text": "What do you think? If I'd never heard of that expression before, how would you define it for me?"
+    },
+    {
+      "id": 39,
+      "start": 256.6,
+      "end": 267.02000000000004,
+      "text": "Yeah, so I would say perhaps one way of understanding is that you can have narrow or specific intelligence or you can have very general intelligence."
+    },
+    {
+      "id": 40,
+      "start": 267.62,
+      "end": 280.82000000000005,
+      "text": "So AGI, it stands for artificial general intelligence, and it really refers to a system that can understand and learn and apply knowledge across a whole range of tasks that are comparable to that of a human being."
+    },
+    {
+      "id": 41,
+      "start": 280.82,
+      "end": 293.71999999999997,
+      "text": "So if you think about our intelligence, Robin, we don't have intelligence in just one narrow and very specific domain, but we're able to interact and operate in the physical world."
+    },
+    {
+      "id": 42,
+      "start": 293.82,
+      "end": 298.06,
+      "text": "And that demands kind of a very broad and generalized sense of intelligence."
+    },
+    {
+      "id": 43,
+      "start": 298.06,
+      "end": 314.96,
+      "text": "So you can think of this as kind of AI systems that are moving from being very simple and scoped towards broadly understanding and being able to interact and interpret the world in ways that are actually very similar and very general, so similar to what we do as humans."
+    },
+    {
+      "id": 44,
+      "start": 314.96,
+      "end": 330.71999999999997,
+      "text": "For people who've been kind of bamboozled by generative AI over the last three years or so, maybe they'd say, well, it looks like some of these models can do that already because you can ask one of these large language models any question."
+    },
+    {
+      "id": 45,
+      "start": 331.34,
+      "end": 333.02,
+      "text": "And, well, it sounds very authoritative."
+    },
+    {
+      "id": 46,
+      "start": 333.56,
+      "end": 337.96,
+      "text": "You can ask it to do tasks for you as well, to work things out or to create something for you."
+    },
+    {
+      "id": 47,
+      "start": 338.34,
+      "end": 341.29999999999995,
+      "text": "Is that not already general intelligence to some degree?"
+    },
+    {
+      "id": 48,
+      "start": 341.3,
+      "end": 345.68,
+      "text": "You could say to some degree it is, and one definition of it."
+    },
+    {
+      "id": 49,
+      "start": 346.40000000000003,
+      "end": 355.72,
+      "text": "So I'm leading what's called a global future council on AGI that's co-shed by Yoshua Benjua and Akiko Morokami as well, who's the executive director of Japan's AI Safety Institute."
+    },
+    {
+      "id": 50,
+      "start": 356.2,
+      "end": 369.34000000000003,
+      "text": "And the working definition of AGI that we use is that it would be a system that's able to perform tasks that demands a cognitive function that would be similar to that of a human in a range of digital settings."
+    },
+    {
+      "id": 51,
+      "start": 369.34,
+      "end": 375.34,
+      "text": "And you could say that to some extent, some systems, they are definitely already able to do that."
+    },
+    {
+      "id": 52,
+      "start": 375.44,
+      "end": 378.58,
+      "text": "But again, it may not have the general in there."
+    },
+    {
+      "id": 53,
+      "start": 378.71999999999997,
+      "end": 390.32,
+      "text": "So it could be that a system is able to perform one task well or perform well in one domain, but for it to perform across other domains similar to a human and how we are able to switch tasks."
+    },
+    {
+      "id": 54,
+      "start": 390.32,
+      "end": 393.36,
+      "text": "That would demand significant engineering still."
+    },
+    {
+      "id": 55,
+      "start": 393.5,
+      "end": 405.82,
+      "text": "So you're not just able to take any system and plug it into kind of any digital environment and say, perform these and those actions according to these kind of specifications."
+    },
+    {
+      "id": 56,
+      "start": 406.53999999999996,
+      "end": 408.88,
+      "text": "And that's something that is still missing."
+    },
+    {
+      "id": 57,
+      "start": 408.88,
+      "end": 413.2,
+      "text": "But we're definitely seeing trends and tendencies towards this direction."
+    },
+    {
+      "id": 58,
+      "start": 413.2,
+      "end": 416.32,
+      "text": "So we're definitely seeing that as we speak."
+    },
+    {
+      "id": 59,
+      "start": 416.82,
+      "end": 418.56,
+      "text": "And why is it such a big deal?"
+    },
+    {
+      "id": 60,
+      "start": 419.34,
+      "end": 426.26,
+      "text": "Some people also talk about there being a singularity, which I'm not entirely sure you can help us with what that means."
+    },
+    {
+      "id": 61,
+      "start": 426.26,
+      "end": 438.76,
+      "text": "Is it we wake up one day and suddenly we're surrounded by incredibly intelligent machines, AIs that have this general intelligence."
+    },
+    {
+      "id": 62,
+      "start": 439.34,
+      "end": 442.65999999999997,
+      "text": "Why are people so fixated on AGI?"
+    },
+    {
+      "id": 63,
+      "start": 442.9,
+      "end": 447.9,
+      "text": "Because also you hear a lot of the heads of a lot of these companies saying, this is what we're working on."
+    },
+    {
+      "id": 64,
+      "start": 448.09999999999997,
+      "end": 450.48,
+      "text": "Maybe there's a race to achieve AGI."
+    },
+    {
+      "id": 65,
+      "start": 450.9,
+      "end": 452.03999999999996,
+      "text": "Why is it such a big deal?"
+    },
+    {
+      "id": 66,
+      "start": 452.04,
+      "end": 456.6,
+      "text": "Yeah, so the singularity, just to unpack a little bit what that is."
+    },
+    {
+      "id": 67,
+      "start": 456.66,
+      "end": 466.6,
+      "text": "So that's a hypothetical point in time at which AI systems, they would become capable of improving themselves faster than humans can understand or control."
+    },
+    {
+      "id": 68,
+      "start": 466.6,
+      "end": 470.44,
+      "text": "So in this kind of scenario, you would have accelerating progress."
+    },
+    {
+      "id": 69,
+      "start": 470.92,
+      "end": 476.5,
+      "text": "And that could lead to rapid or unpredictable societal change, essentially."
+    },
+    {
+      "id": 70,
+      "start": 476.5,
+      "end": 485.46,
+      "text": "But I think it's worth here stressing that not everyone, they believe that the singularity will happen, or at least that it will be happening anytime soon."
+    },
+    {
+      "id": 71,
+      "start": 486.08,
+      "end": 494.24,
+      "text": "But some, they also view it as a useful thought experiment for stress testing assumptions and, for example, about exponential growth."
+    },
+    {
+      "id": 72,
+      "start": 494.58,
+      "end": 502.7,
+      "text": "While others, they would maybe treat it as a real risk that demands preparation and significant safeguards already today."
+    },
+    {
+      "id": 73,
+      "start": 502.7,
+      "end": 513.02,
+      "text": "So how we view AGI in the work that I mentioned on the council before is much more kind of a progressive approach."
+    },
+    {
+      "id": 74,
+      "start": 513.18,
+      "end": 519.34,
+      "text": "It's not something that we're going to wake up to tomorrow and then we'll have AGI similar to how we understand the singularity."
+    },
+    {
+      "id": 75,
+      "start": 519.34,
+      "end": 529.0600000000001,
+      "text": "But you could view AGI as kind of a jacket form of intelligence that's able to kind of excel and be superhuman in some areas."
+    },
+    {
+      "id": 76,
+      "start": 529.26,
+      "end": 538.3000000000001,
+      "text": "For example, in terms of the underlying information that's wrapped into the existing language models and how they can respond almost like an oracle would be."
+    },
+    {
+      "id": 77,
+      "start": 538.7800000000001,
+      "end": 545.76,
+      "text": "And that's very different from how we would respond as humans in terms of a limited memory and understanding of some subjects."
+    },
+    {
+      "id": 78,
+      "start": 545.76,
+      "end": 556.0,
+      "text": "But then in other areas where we would excel these systems, we would say, why can't you even remember what we talked about five minutes ago or something like that?"
+    },
+    {
+      "id": 79,
+      "start": 556.26,
+      "end": 566.54,
+      "text": "So there are real differences and that's why you can understand it as a jagged form of intelligence right now that's accelerating in some fields, but it's still very limited in other fields."
+    },
+    {
+      "id": 80,
+      "start": 566.54,
+      "end": 572.28,
+      "text": "One thing that's mentioned, there's a concept that's mentioned many times in what we're about to listen to."
+    },
+    {
+      "id": 81,
+      "start": 573.06,
+      "end": 577.88,
+      "text": "They talk about AI models closing the loop. Could you tell us what that means?"
+    },
+    {
+      "id": 82,
+      "start": 578.14,
+      "end": 583.36,
+      "text": "Closing the loop, it means moving from AI systems that are only able to generate outputs."
+    },
+    {
+      "id": 83,
+      "start": 583.56,
+      "end": 590.4,
+      "text": "So if you prompt a large language model today, you would say, OK, I have an input and I expect an output."
+    },
+    {
+      "id": 84,
+      "start": 590.4,
+      "end": 602.12,
+      "text": "But closing the loop, it refers to systems that can also take actions, that can observe the results and they can then adapt their behavior accordingly and over time."
+    },
+    {
+      "id": 85,
+      "start": 602.5799999999999,
+      "end": 608.5,
+      "text": "So that means it's much more about a loop similar to how, again, we as humans think and learn and act."
+    },
+    {
+      "id": 86,
+      "start": 609.18,
+      "end": 614.64,
+      "text": "I just don't come up with an answer, but I think through what are the implications of that?"
+    },
+    {
+      "id": 87,
+      "start": 614.64,
+      "end": 620.14,
+      "text": "Where do I need to search for additional knowledge? How do I solve a part of this task?"
+    },
+    {
+      "id": 88,
+      "start": 620.22,
+      "end": 626.4,
+      "text": "And based on how I solve all of these different elements, I then go back and I revisit what was the original task."
+    },
+    {
+      "id": 89,
+      "start": 626.48,
+      "end": 628.88,
+      "text": "So that will be closing the loop, essentially."
+    },
+    {
+      "id": 90,
+      "start": 629.48,
+      "end": 638.86,
+      "text": "So you could say that this involves kind of iteration and it's really important because it's a step towards autonomy."
+    },
+    {
+      "id": 91,
+      "start": 638.86,
+      "end": 649.1800000000001,
+      "text": "You can imagine that if you're able to close this loop and you actually have greater autonomy and then you can take kind of more infinite steps at solving specific tasks."
+    },
+    {
+      "id": 92,
+      "start": 649.82,
+      "end": 658.46,
+      "text": "But of course, very important to also stress that when you do aim to close this loop or you do aim for greater autonomy, for example, in the genetic settings,"
+    },
+    {
+      "id": 93,
+      "start": 658.88,
+      "end": 662.7,
+      "text": "then you also have new risks that demand new governance approaches."
+    },
+    {
+      "id": 94,
+      "start": 663.08,
+      "end": 667.46,
+      "text": "And that's something that we've been focusing a lot on in our work at the forum."
+    },
+    {
+      "id": 95,
+      "start": 667.46,
+      "end": 673.0400000000001,
+      "text": "So in a closed loop environment, the AI doesn't need any human input anymore."
+    },
+    {
+      "id": 96,
+      "start": 673.1600000000001,
+      "end": 678.0400000000001,
+      "text": "It can go off on its own, learn new things, decide what it's doing by itself."
+    },
+    {
+      "id": 97,
+      "start": 678.34,
+      "end": 679.74,
+      "text": "Or am I oversimplifying?"
+    },
+    {
+      "id": 98,
+      "start": 679.98,
+      "end": 685.4000000000001,
+      "text": "I think that would be taking it a step too far in terms of where we currently are."
+    },
+    {
+      "id": 99,
+      "start": 685.4,
+      "end": 697.68,
+      "text": "But in the bigger picture, we do see, for example, computer use agents that you can simply give an agent a laptop and you can ask it to do a number of things."
+    },
+    {
+      "id": 100,
+      "start": 697.68,
+      "end": 704.52,
+      "text": "And then maybe you can ask it to have a degree of freedom where it can actually go out and do its own kind of thing."
+    },
+    {
+      "id": 101,
+      "start": 704.52,
+      "end": 707.22,
+      "text": "And it would go on and take unpredictable actions."
+    },
+    {
+      "id": 102,
+      "start": 707.34,
+      "end": 713.6,
+      "text": "So you don't want that in any kind of work setting at all, of course, because there's a number of risks associated with that."
+    },
+    {
+      "id": 103,
+      "start": 714.1,
+      "end": 729.48,
+      "text": "But you could also say that these systems are a bit more rudimentary than that in terms of how much is actually actions that are diverted or that are directed at solving or optimizing a specific problem."
+    },
+    {
+      "id": 104,
+      "start": 729.48,
+      "end": 736.28,
+      "text": "So that goes back to this notion of singularity that we just talked about and where does kind of direction come from?"
+    },
+    {
+      "id": 105,
+      "start": 736.38,
+      "end": 742.9,
+      "text": "Does it come from an algorithm that's seeking to kind of maximize its own goals or objectives?"
+    },
+    {
+      "id": 106,
+      "start": 743.22,
+      "end": 750.04,
+      "text": "Or are those goals and objectives, are they stated by a human in the loop who's actually running a system?"
+    },
+    {
+      "id": 107,
+      "start": 750.16,
+      "end": 758.0600000000001,
+      "text": "So I think that's a core degree of difference in terms of control versus where we realistically are today."
+    },
+    {
+      "id": 108,
+      "start": 758.06,
+      "end": 765.02,
+      "text": "But of course, there are scenarios where you have to think much more carefully about what are the systems that we are creating."
+    },
+    {
+      "id": 109,
+      "start": 765.5,
+      "end": 773.3599999999999,
+      "text": "And once we have artificial general intelligence that are able to close the loop, as we talked about, and what is the outcome of that?"
+    },
+    {
+      "id": 110,
+      "start": 773.42,
+      "end": 775.9799999999999,
+      "text": "And how are you able to control and guarantee that, essentially?"
+    },
+    {
+      "id": 111,
+      "start": 776.56,
+      "end": 779.76,
+      "text": "There's a recent kind of hype cycle."
+    },
+    {
+      "id": 112,
+      "start": 780.4599999999999,
+      "end": 781.04,
+      "text": "It's funny."
+    },
+    {
+      "id": 113,
+      "start": 781.1999999999999,
+      "end": 782.16,
+      "text": "I'm sitting here in Geneva."
+    },
+    {
+      "id": 114,
+      "start": 782.16,
+      "end": 784.9599999999999,
+      "text": "You're in San Francisco."
+    },
+    {
+      "id": 115,
+      "start": 785.42,
+      "end": 789.0,
+      "text": "You're close to where there's interesting things going on all the time."
+    },
+    {
+      "id": 116,
+      "start": 789.48,
+      "end": 793.06,
+      "text": "Occasionally, stories break out of the bubble, maybe, of Silicon Valley."
+    },
+    {
+      "id": 117,
+      "start": 793.76,
+      "end": 800.8,
+      "text": "And one of them that a lot of people have been paying attention to was this, well, it's changed its name a few times."
+    },
+    {
+      "id": 118,
+      "start": 801.92,
+      "end": 804.7199999999999,
+      "text": "Open Claw, I think, is its latest iteration."
+    },
+    {
+      "id": 119,
+      "start": 804.72,
+      "end": 814.14,
+      "text": "The reason I mention it is because you mentioned you could give a laptop to an AI and set it off doing its thing."
+    },
+    {
+      "id": 120,
+      "start": 814.48,
+      "end": 817.28,
+      "text": "And as I understand it, that's kind of what's been happening here."
+    },
+    {
+      "id": 121,
+      "start": 817.6,
+      "end": 820.12,
+      "text": "And that's what some people have been getting excited about."
+    },
+    {
+      "id": 122,
+      "start": 820.1800000000001,
+      "end": 822.5,
+      "text": "A lot of people are quite skeptical about what it is as well."
+    },
+    {
+      "id": 123,
+      "start": 822.86,
+      "end": 830.14,
+      "text": "But could you explain to anyone who's not heard of that what it is and why some people were very excited about it?"
+    },
+    {
+      "id": 124,
+      "start": 830.14,
+      "end": 833.36,
+      "text": "Open Claw, the latest name iteration, of course."
+    },
+    {
+      "id": 125,
+      "start": 833.56,
+      "end": 838.98,
+      "text": "So that would be an idea of a personal AI assistant, essentially."
+    },
+    {
+      "id": 126,
+      "start": 839.6,
+      "end": 843.4399999999999,
+      "text": "So let's say that I engage with Open Claw."
+    },
+    {
+      "id": 127,
+      "start": 843.4399999999999,
+      "end": 845.5,
+      "text": "Open Claw is entirely open source."
+    },
+    {
+      "id": 128,
+      "start": 845.5,
+      "end": 850.1,
+      "text": "So I can essentially have a personal assistant."
+    },
+    {
+      "id": 129,
+      "start": 850.34,
+      "end": 855.74,
+      "text": "I can grant it access to my email, my calendar, and my schedules."
+    },
+    {
+      "id": 130,
+      "start": 855.74,
+      "end": 862.6800000000001,
+      "text": "And for the first time, you kind of have this idea of a personal assistant that's actually useful and helpful."
+    },
+    {
+      "id": 131,
+      "start": 862.86,
+      "end": 865.22,
+      "text": "Of course, it's still brittle and it can break down a lot."
+    },
+    {
+      "id": 132,
+      "start": 865.62,
+      "end": 869.58,
+      "text": "But the difference, Robin, is that this time it's an open source system."
+    },
+    {
+      "id": 133,
+      "start": 869.72,
+      "end": 876.98,
+      "text": "Everybody is able to tweak the agent and interact and give it access to personal resources and so on."
+    },
+    {
+      "id": 134,
+      "start": 877.32,
+      "end": 882.52,
+      "text": "Versus a lot of the agents that we've been seeing so far, they tend to be proprietary."
+    },
+    {
+      "id": 135,
+      "start": 882.52,
+      "end": 885.1,
+      "text": "It's, of course, a closed source."
+    },
+    {
+      "id": 136,
+      "start": 885.24,
+      "end": 891.3,
+      "text": "It's companies that are developing these systems and they are much more targeted at specific use cases and so on."
+    },
+    {
+      "id": 137,
+      "start": 891.8,
+      "end": 893.26,
+      "text": "And that's a big difference."
+    },
+    {
+      "id": 138,
+      "start": 893.48,
+      "end": 905.28,
+      "text": "But what we've also seen with Open Claw, and this is a cautionary tale, once you begin to grant access to kind of early stage agents and allow them access to all of your systems and so on,"
+    },
+    {
+      "id": 139,
+      "start": 905.28,
+      "end": 917.6999999999999,
+      "text": "it also increases the attack surface for hackers and malicious activity that are able to go in and exploit cybersecurity vulnerabilities and so on."
+    },
+    {
+      "id": 140,
+      "start": 917.76,
+      "end": 929.16,
+      "text": "And I certainly wouldn't feel comfortable kind of in that kind of situation or scenario having the ability of having some of my personal data exposed essentially."
+    },
+    {
+      "id": 141,
+      "start": 929.16,
+      "end": 940.5,
+      "text": "So it's kind of indicative of the direction of travel that we're going to see much more innovation in terms of agents and AI assistance in the time to come, also in the open source domain."
+    },
+    {
+      "id": 142,
+      "start": 940.5,
+      "end": 952.98,
+      "text": "And that paired with the underlying protocols, such as model context protocol and agent to agent protocols, we can expect much more in the time to come in terms of not only AI and personal assistance,"
+    },
+    {
+      "id": 143,
+      "start": 953.18,
+      "end": 964.82,
+      "text": "but also in terms of agents, broadly speaking, and how that is changing the notion of the underlying infrastructure essentially having a much more agentic web and many more agentic surfaces."
+    },
+    {
+      "id": 144,
+      "start": 964.82,
+      "end": 975.1800000000001,
+      "text": "And that speaks to what we talked about earlier in terms of closing the loop that we're going to see more autonomy in AI and in software systems in general in the time to come."
+    },
+    {
+      "id": 145,
+      "start": 975.1800000000001,
+      "end": 979.34,
+      "text": "Right. Well, let's listen to this session then from Davos."
+    },
+    {
+      "id": 146,
+      "start": 980.1600000000001,
+      "end": 989.4000000000001,
+      "text": "This is the two, as the moderator of this session, Zannie Minton-Bedos, who's the editor-in-chief of The Economist."
+    },
+    {
+      "id": 147,
+      "start": 989.4,
+      "end": 995.92,
+      "text": "She calls, she says it's like moderate, she's done this a couple of times before with Dario Amode and Demis Hassabis."
+    },
+    {
+      "id": 148,
+      "start": 996.0799999999999,
+      "end": 1004.54,
+      "text": "And she said it's like interviewing the Beatles and the Rolling Stones at the same time, which is a pretty good, pretty good queuing up of it."
+    },
+    {
+      "id": 149,
+      "start": 1005.26,
+      "end": 1010.42,
+      "text": "Before I let you go, though, Ben, you mentioned the Global Future Council."
+    },
+    {
+      "id": 150,
+      "start": 1011.12,
+      "end": 1018.38,
+      "text": "These are groups with a dozen or so kind of experts from around the world that the World Economic Forum brings together."
+    },
+    {
+      "id": 151,
+      "start": 1018.38,
+      "end": 1021.2,
+      "text": "In your case, it's the Global Future Council."
+    },
+    {
+      "id": 152,
+      "start": 1021.36,
+      "end": 1021.98,
+      "text": "What did you say?"
+    },
+    {
+      "id": 153,
+      "start": 1022.16,
+      "end": 1023.9,
+      "text": "It's the Global Future Council on AGI."
+    },
+    {
+      "id": 154,
+      "start": 1024.28,
+      "end": 1028.7,
+      "text": "Is there already stuff people can find about that yet or is that something to look out for in the future?"
+    },
+    {
+      "id": 155,
+      "start": 1029.42,
+      "end": 1029.7,
+      "text": "Yes."
+    },
+    {
+      "id": 156,
+      "start": 1029.8,
+      "end": 1037.36,
+      "text": "So we have a web page where we are publishing a number of shorter briefing papers, precision papers, essentially."
+    },
+    {
+      "id": 157,
+      "start": 1038.04,
+      "end": 1042.88,
+      "text": "So we're looking into areas such as agency and control that we've been discussing here, Robin."
+    },
+    {
+      "id": 158,
+      "start": 1042.98,
+      "end": 1046.6,
+      "text": "We're looking at international collaboration, what that looks like."
+    },
+    {
+      "id": 159,
+      "start": 1046.6,
+      "end": 1049.34,
+      "text": "We're looking at AGI and policy triggers."
+    },
+    {
+      "id": 160,
+      "start": 1049.82,
+      "end": 1055.04,
+      "text": "So, for example, implications for labor markets, economic and societal transformation and so on."
+    },
+    {
+      "id": 161,
+      "start": 1055.56,
+      "end": 1066.76,
+      "text": "And we, of course, similar to the conversation that we're about to tune into, take a stance on a number of these areas and are here to essentially help inform stakeholders,"
+    },
+    {
+      "id": 162,
+      "start": 1066.76,
+      "end": 1074.3799999999999,
+      "text": "make better decisions when it comes to what is increasingly capable systems, this notion of artificial general intelligence."
+    },
+    {
+      "id": 163,
+      "start": 1074.58,
+      "end": 1076.16,
+      "text": "What does that look like in the time to come?"
+    },
+    {
+      "id": 164,
+      "start": 1076.54,
+      "end": 1081.08,
+      "text": "What do we need to do now in order to be better prepared?"
+    },
+    {
+      "id": 165,
+      "start": 1081.08,
+      "end": 1084.1,
+      "text": "I'll put a link to that in the show notes to this."
+    },
+    {
+      "id": 166,
+      "start": 1084.1,
+      "end": 1088.58,
+      "text": "You mentioned one of the chairs of that Global Future Council is Joshua Bengio."
+    },
+    {
+      "id": 167,
+      "start": 1088.9599999999998,
+      "end": 1101.02,
+      "text": "I met him in Davos a few weeks ago, recorded an interview, which he talks a lot about the dangers, as do the two people we're about to listen to now, of artificial intelligence."
+    },
+    {
+      "id": 168,
+      "start": 1101.02,
+      "end": 1103.98,
+      "text": "And these are people who really know what they're talking about, all three of them."
+    },
+    {
+      "id": 169,
+      "start": 1103.98,
+      "end": 1108.48,
+      "text": "So please look out for that episode coming up in the next few weeks on Radio Davos."
+    },
+    {
+      "id": 170,
+      "start": 1108.88,
+      "end": 1113.58,
+      "text": "For now, Benjamin Larson, thanks very much for joining us on Radio Davos."
+    },
+    {
+      "id": 171,
+      "start": 1114.3,
+      "end": 1115.98,
+      "text": "Robin, it was a pleasure to be here."
+    },
+    {
+      "id": 172,
+      "start": 1116.46,
+      "end": 1116.72,
+      "text": "Great."
+    },
+    {
+      "id": 173,
+      "start": 1116.78,
+      "end": 1118.6200000000001,
+      "text": "Well, let's just go ahead and listen to that."
+    },
+    {
+      "id": 174,
+      "start": 1118.68,
+      "end": 1120.58,
+      "text": "You can watch this session."
+    },
+    {
+      "id": 175,
+      "start": 1120.88,
+      "end": 1122.24,
+      "text": "I'll also put a link to that."
+    },
+    {
+      "id": 176,
+      "start": 1122.3600000000001,
+      "end": 1124.68,
+      "text": "It's on the World Economic Forum's YouTube page."
+    },
+    {
+      "id": 177,
+      "start": 1124.68,
+      "end": 1128.0800000000002,
+      "text": "It's called The Day After AGI."
+    },
+    {
+      "id": 178,
+      "start": 1129.0,
+      "end": 1135.26,
+      "text": "And the first voice you'll hear will be the chief editor of The Economist, Zannie Minton-Beros."
+    },
+    {
+      "id": 179,
+      "start": 1136.6200000000001,
+      "end": 1142.14,
+      "text": "Welcome, everybody, and welcome to those of you joining us on live stream to this conversation."
+    },
+    {
+      "id": 180,
+      "start": 1142.26,
+      "end": 1144.7,
+      "text": "I have to say I have been looking forward to for months."
+    },
+    {
+      "id": 181,
+      "start": 1145.64,
+      "end": 1152.22,
+      "text": "I was lucky enough to moderate a conversation between Dari Amadei and Demis Hassabis last year in Paris,"
+    },
+    {
+      "id": 182,
+      "start": 1152.22,
+      "end": 1158.24,
+      "text": "which I'm afraid got most attention for the fact that you two were squashed on a very small love seat"
+    },
+    {
+      "id": 183,
+      "start": 1158.24,
+      "end": 1162.26,
+      "text": "while I sat on an enormous sofa, which was probably my screw-up."
+    },
+    {
+      "id": 184,
+      "start": 1162.3,
+      "end": 1165.46,
+      "text": "But I said at that point that this was, for me, like, you know,"
+    },
+    {
+      "id": 185,
+      "start": 1165.56,
+      "end": 1167.6000000000001,
+      "text": "chairing a conversation between The Beatles and The Rolling Stones."
+    },
+    {
+      "id": 186,
+      "start": 1167.82,
+      "end": 1170.58,
+      "text": "And you have not had a conversation on stage since."
+    },
+    {
+      "id": 187,
+      "start": 1170.58,
+      "end": 1172.56,
+      "text": "So this is, you know, the sequel."
+    },
+    {
+      "id": 188,
+      "start": 1173.0,
+      "end": 1175.2,
+      "text": "The bands get together again."
+    },
+    {
+      "id": 189,
+      "start": 1175.28,
+      "end": 1175.82,
+      "text": "I'm delighted."
+    },
+    {
+      "id": 190,
+      "start": 1176.34,
+      "end": 1177.28,
+      "text": "You need no introduction."
+    },
+    {
+      "id": 191,
+      "start": 1177.8999999999999,
+      "end": 1180.52,
+      "text": "The title of our conversation is The Day After AGI,"
+    },
+    {
+      "id": 192,
+      "start": 1180.76,
+      "end": 1183.74,
+      "text": "which I think is perhaps slightly getting ahead of ourselves"
+    },
+    {
+      "id": 193,
+      "start": 1183.74,
+      "end": 1187.48,
+      "text": "because we should probably talk about how quickly and easily we will get there."
+    },
+    {
+      "id": 194,
+      "start": 1187.68,
+      "end": 1190.7,
+      "text": "And I want to do a bit of a sort of update on that and then talk about the consequences."
+    },
+    {
+      "id": 195,
+      "start": 1191.2,
+      "end": 1194.76,
+      "text": "So firstly, on the timeline, Dario, you last year in Paris said,"
+    },
+    {
+      "id": 196,
+      "start": 1195.26,
+      "end": 1197.96,
+      "text": "we'll have a model that can do everything a human could do"
+    },
+    {
+      "id": 197,
+      "start": 1197.96,
+      "end": 1201.8,
+      "text": "at the level of a Nobel laureate across many fields by 26, 27."
+    },
+    {
+      "id": 198,
+      "start": 1202.34,
+      "end": 1203.26,
+      "text": "We're in 26."
+    },
+    {
+      "id": 199,
+      "start": 1203.92,
+      "end": 1205.1399999999999,
+      "text": "Do you still stand by that timeline?"
+    },
+    {
+      "id": 200,
+      "start": 1205.14,
+      "end": 1208.5600000000002,
+      "text": "So, you know, it's always hard to know exactly when something will happen,"
+    },
+    {
+      "id": 201,
+      "start": 1208.8200000000002,
+      "end": 1212.5400000000002,
+      "text": "but I don't think that's going to turn out to be that far off."
+    },
+    {
+      "id": 202,
+      "start": 1212.7,
+      "end": 1217.5600000000002,
+      "text": "So, you know, the mechanism whereby I imagined it would happen"
+    },
+    {
+      "id": 203,
+      "start": 1217.5600000000002,
+      "end": 1222.0200000000002,
+      "text": "is that we would make models that were good at coding and good at AI research,"
+    },
+    {
+      "id": 204,
+      "start": 1222.0200000000002,
+      "end": 1226.74,
+      "text": "and we would use that to produce the next generation of model and speed it up,"
+    },
+    {
+      "id": 205,
+      "start": 1226.7800000000002,
+      "end": 1231.0800000000002,
+      "text": "to create a loop that would increase the speed of model development."
+    },
+    {
+      "id": 206,
+      "start": 1231.08,
+      "end": 1235.36,
+      "text": "We are now, in terms of, you know, the models that write code,"
+    },
+    {
+      "id": 207,
+      "start": 1235.76,
+      "end": 1239.48,
+      "text": "I have engineers within Anthropoc who say, I don't write any code anymore."
+    },
+    {
+      "id": 208,
+      "start": 1239.8799999999999,
+      "end": 1241.86,
+      "text": "I just let the model write the code."
+    },
+    {
+      "id": 209,
+      "start": 1242.22,
+      "end": 1243.0,
+      "text": "I edit it."
+    },
+    {
+      "id": 210,
+      "start": 1243.12,
+      "end": 1244.54,
+      "text": "I do the things around it."
+    },
+    {
+      "id": 211,
+      "start": 1244.9399999999998,
+      "end": 1248.6399999999999,
+      "text": "I think, I don't know, we might be six to 12 months away"
+    },
+    {
+      "id": 212,
+      "start": 1248.6399999999999,
+      "end": 1254.3799999999999,
+      "text": "from when the model is doing most, maybe all of what SWEs do end to end."
+    },
+    {
+      "id": 213,
+      "start": 1254.38,
+      "end": 1257.5,
+      "text": "And then it's a question of how fast does that loop close?"
+    },
+    {
+      "id": 214,
+      "start": 1257.88,
+      "end": 1262.22,
+      "text": "Not every part of that loop is something that can be sped up by AI, right?"
+    },
+    {
+      "id": 215,
+      "start": 1262.2800000000002,
+      "end": 1266.7,
+      "text": "There's like chips, there's manufacture of chips, there's training time for the model."
+    },
+    {
+      "id": 216,
+      "start": 1267.0600000000002,
+      "end": 1269.1200000000001,
+      "text": "So it's, you know, I think there's a lot of uncertainty."
+    },
+    {
+      "id": 217,
+      "start": 1269.3000000000002,
+      "end": 1273.14,
+      "text": "It's easy to see how this could take a few years."
+    },
+    {
+      "id": 218,
+      "start": 1273.5400000000002,
+      "end": 1276.4,
+      "text": "I don't, it's very hard for me to see how it could take longer than that."
+    },
+    {
+      "id": 219,
+      "start": 1276.4,
+      "end": 1282.1000000000001,
+      "text": "But if I had to guess, I would guess that this goes faster than people imagine."
+    },
+    {
+      "id": 220,
+      "start": 1282.3000000000002,
+      "end": 1289.1000000000001,
+      "text": "And that key element of code and increasingly research going faster than we imagine,"
+    },
+    {
+      "id": 221,
+      "start": 1289.46,
+      "end": 1290.7,
+      "text": "that's going to be the key driver."
+    },
+    {
+      "id": 222,
+      "start": 1290.8400000000001,
+      "end": 1295.2,
+      "text": "It's really hard to predict, again, how much that exponential is going to speed us up."
+    },
+    {
+      "id": 223,
+      "start": 1295.3000000000002,
+      "end": 1297.5400000000002,
+      "text": "But something fast is going to happen."
+    },
+    {
+      "id": 224,
+      "start": 1297.88,
+      "end": 1300.5400000000002,
+      "text": "So you, Demis, were a little more cautious last year."
+    },
+    {
+      "id": 225,
+      "start": 1300.5800000000002,
+      "end": 1304.98,
+      "text": "You said a 50% chance of a system that can exhibit all the cognitive capabilities humans can"
+    },
+    {
+      "id": 226,
+      "start": 1304.98,
+      "end": 1306.9,
+      "text": "by the end of the decade."
+    },
+    {
+      "id": 227,
+      "start": 1307.6,
+      "end": 1310.42,
+      "text": "Clearly in coding, as Darius says, it's been remarkable."
+    },
+    {
+      "id": 228,
+      "start": 1310.88,
+      "end": 1313.92,
+      "text": "What is your sense of, do you stand by your prediction?"
+    },
+    {
+      "id": 229,
+      "start": 1314.28,
+      "end": 1315.6,
+      "text": "And what's changed in the past year?"
+    },
+    {
+      "id": 230,
+      "start": 1315.8,
+      "end": 1319.08,
+      "text": "Yeah, look, I think I'm still on the same kind of timeline."
+    },
+    {
+      "id": 231,
+      "start": 1319.28,
+      "end": 1320.98,
+      "text": "I think there has been remarkable progress."
+    },
+    {
+      "id": 232,
+      "start": 1321.3600000000001,
+      "end": 1328.14,
+      "text": "But I think some areas of kind of engineering work, coding, or so you could say mathematics,"
+    },
+    {
+      "id": 233,
+      "start": 1328.54,
+      "end": 1331.04,
+      "text": "are a little bit easier to see how they would be automated."
+    },
+    {
+      "id": 234,
+      "start": 1331.6,
+      "end": 1334.16,
+      "text": "Partly because they're verifiable, what the output is."
+    },
+    {
+      "id": 235,
+      "start": 1334.16,
+      "end": 1337.42,
+      "text": "Some areas of natural science are much harder to do than that."
+    },
+    {
+      "id": 236,
+      "start": 1337.5400000000002,
+      "end": 1342.5,
+      "text": "You won't necessarily know if the chemical compound you've built or this prediction about physics is correct."
+    },
+    {
+      "id": 237,
+      "start": 1342.92,
+      "end": 1346.6200000000001,
+      "text": "You may have to test it experimentally, and that will all take longer."
+    },
+    {
+      "id": 238,
+      "start": 1347.02,
+      "end": 1354.0800000000002,
+      "text": "So I also think there are some missing capabilities at the moment in terms of not just solving existing conjectures"
+    },
+    {
+      "id": 239,
+      "start": 1354.08,
+      "end": 1360.6,
+      "text": "or existing problems, but actually coming up with the question in the first place or coming up with the theory or the hypothesis."
+    },
+    {
+      "id": 240,
+      "start": 1360.6,
+      "end": 1362.0,
+      "text": "I think that's much, much harder."
+    },
+    {
+      "id": 241,
+      "start": 1362.46,
+      "end": 1365.26,
+      "text": "And I think that's the highest level of scientific creativity."
+    },
+    {
+      "id": 242,
+      "start": 1365.8,
+      "end": 1366.3999999999999,
+      "text": "And it's not clear."
+    },
+    {
+      "id": 243,
+      "start": 1366.4399999999998,
+      "end": 1367.78,
+      "text": "I think we will have those systems."
+    },
+    {
+      "id": 244,
+      "start": 1367.8999999999999,
+      "end": 1368.72,
+      "text": "I don't think it's impossible."
+    },
+    {
+      "id": 245,
+      "start": 1368.72,
+      "end": 1371.6000000000001,
+      "text": "But I think there may be one or two missing ingredients."
+    },
+    {
+      "id": 246,
+      "start": 1372.46,
+      "end": 1378.98,
+      "text": "It remains to be seen how, you know, first of all, can this self-improvement loop that we're all working on actually close without a human in the loop?"
+    },
+    {
+      "id": 247,
+      "start": 1379.24,
+      "end": 1382.84,
+      "text": "I think there are also risks to that kind of system, by the way, which we should discuss."
+    },
+    {
+      "id": 248,
+      "start": 1383.06,
+      "end": 1384.08,
+      "text": "And I'm sure we will."
+    },
+    {
+      "id": 249,
+      "start": 1384.58,
+      "end": 1388.42,
+      "text": "But that could speed things up if that kind of system does work."
+    },
+    {
+      "id": 250,
+      "start": 1388.42,
+      "end": 1389.42,
+      "text": "We'll get to the risks in a minute."
+    },
+    {
+      "id": 251,
+      "start": 1389.5,
+      "end": 1394.8000000000002,
+      "text": "But one other change, I think, of the past year has been a kind of change in the pecking order of the race, if you will."
+    },
+    {
+      "id": 252,
+      "start": 1395.1000000000001,
+      "end": 1400.5800000000002,
+      "text": "This time a year ago, we just had the deep seek moment, and everyone was incredibly excited about what happened there."
+    },
+    {
+      "id": 253,
+      "start": 1400.72,
+      "end": 1406.46,
+      "text": "And there was still a sense, you know, that Google DeepMind was kind of lagging OpenAI."
+    },
+    {
+      "id": 254,
+      "start": 1406.74,
+      "end": 1409.0800000000002,
+      "text": "I would say that now it's looking quite different."
+    },
+    {
+      "id": 255,
+      "start": 1409.26,
+      "end": 1410.64,
+      "text": "I mean, they've declared code red, right?"
+    },
+    {
+      "id": 256,
+      "start": 1411.18,
+      "end": 1412.94,
+      "text": "It's been quite a year."
+    },
+    {
+      "id": 257,
+      "start": 1412.94,
+      "end": 1420.9,
+      "text": "So talk me through what specifically you've been surprised by and how well you've done this year and whether you think, and then I'm going to ask you about the lineup."
+    },
+    {
+      "id": 258,
+      "start": 1421.8,
+      "end": 1430.78,
+      "text": "Well, look, I think we were, I was always very confident we would get back to sort of the top of the leaderboards and the SOTA type of models across the board."
+    },
+    {
+      "id": 259,
+      "start": 1430.78,
+      "end": 1435.0,
+      "text": "Because I think we've always had like the deepest and broadest research bench."
+    },
+    {
+      "id": 260,
+      "start": 1435.0,
+      "end": 1442.8,
+      "text": "And it was about kind of marshalling that all together and getting the intensity and focus and the kind of startup mentality back to the whole organization."
+    },
+    {
+      "id": 261,
+      "start": 1442.94,
+      "end": 1444.92,
+      "text": "And it's been a lot of work."
+    },
+    {
+      "id": 262,
+      "start": 1445.5800000000002,
+      "end": 1448.42,
+      "text": "And but I think we're, and we're still a lot of work to do."
+    },
+    {
+      "id": 263,
+      "start": 1448.76,
+      "end": 1461.02,
+      "text": "But I think you can start seeing the, you know, the kind of the progress that's been made in both the models with Gemini 3, but also on the product side with Gemini app getting increasing market share."
+    },
+    {
+      "id": 264,
+      "start": 1461.02,
+      "end": 1465.9,
+      "text": "So I feel like we're making great progress, but there's a ton more work to do."
+    },
+    {
+      "id": 265,
+      "start": 1465.9,
+      "end": 1475.5400000000002,
+      "text": "And, you know, we're bringing to bear Google DeepMind's kind of like the engine room of Google, where we're getting used to shipping our models more and more quickly into the product surfaces."
+    },
+    {
+      "id": 266,
+      "start": 1475.66,
+      "end": 1483.0800000000002,
+      "text": "One question for you, Daria, on this aspect of it, because you've just saw you're in the process of, you know, a new round at an extraordinary valuation too."
+    },
+    {
+      "id": 267,
+      "start": 1483.08,
+      "end": 1487.6799999999998,
+      "text": "But you are, unlike them, as a, let's call it an independent model maker."
+    },
+    {
+      "id": 268,
+      "start": 1487.8999999999999,
+      "end": 1495.74,
+      "text": "And there is, I think, an increasing concern that the independent model makers will not be able to continue for long enough until you get to where the revenues come in."
+    },
+    {
+      "id": 269,
+      "start": 1496.1799999999998,
+      "end": 1498.1599999999999,
+      "text": "It's made very openly about open AI."
+    },
+    {
+      "id": 270,
+      "start": 1498.4199999999998,
+      "end": 1500.26,
+      "text": "But talk me through how you think about that."
+    },
+    {
+      "id": 271,
+      "start": 1500.3,
+      "end": 1501.8799999999999,
+      "text": "And then we'll get to the AGI itself."
+    },
+    {
+      "id": 272,
+      "start": 1501.88,
+      "end": 1520.5200000000002,
+      "text": "Yeah, I mean, you know, I think how we think about that is, you know, as we've built better and better models, there's been a kind of exponential relationship, not only between how much compute you put into the model and how cognitively capable it is, but between how cognitively capable it is and how much revenue it's able to generate."
+    },
+    {
+      "id": 273,
+      "start": 1520.5200000000002,
+      "end": 1530.3600000000001,
+      "text": "So our revenue has grown 10x in the last three years from zero to 100 million in 2023, 100 million to a billion in 2024, and 1 billion to 10 billion in 2025."
+    },
+    {
+      "id": 274,
+      "start": 1530.36,
+      "end": 1534.6599999999999,
+      "text": "And so those revenue numbers, you know, I don't know if that curve will literally continue."
+    },
+    {
+      "id": 275,
+      "start": 1534.78,
+      "end": 1536.04,
+      "text": "It would be crazy if it did."
+    },
+    {
+      "id": 276,
+      "start": 1536.58,
+      "end": 1543.02,
+      "text": "But those numbers are starting to get not too far from, you know, the scale of the largest companies in the world."
+    },
+    {
+      "id": 277,
+      "start": 1543.1399999999999,
+      "end": 1545.12,
+      "text": "So there's always uncertainty."
+    },
+    {
+      "id": 278,
+      "start": 1545.3,
+      "end": 1547.0,
+      "text": "You know, we're trying to bootstrap this from nothing."
+    },
+    {
+      "id": 279,
+      "start": 1547.1399999999999,
+      "end": 1548.26,
+      "text": "It's a crazy thing."
+    },
+    {
+      "id": 280,
+      "start": 1548.6399999999999,
+      "end": 1557.56,
+      "text": "But I have confidence that if we're able to produce the best models in the things that we focus on, then I think things will go well."
+    },
+    {
+      "id": 281,
+      "start": 1557.56,
+      "end": 1563.62,
+      "text": "And, you know, I will generally say, you know, I think it's been a good year for both Google and Anthropic."
+    },
+    {
+      "id": 282,
+      "start": 1564.04,
+      "end": 1575.56,
+      "text": "And I think the thing we actually have in common is that they're, you know, they're both kind of companies that are, you know, or the research part of the company that are kind of led by researchers who focus on the models,"
+    },
+    {
+      "id": 283,
+      "start": 1575.98,
+      "end": 1583.6799999999998,
+      "text": "who focus on solving important problems in the world, right, who have these kind of hard scientific problems as a North Star."
+    },
+    {
+      "id": 284,
+      "start": 1583.68,
+      "end": 1589.4,
+      "text": "And I think those are the kind of companies that are going to succeed going forward."
+    },
+    {
+      "id": 285,
+      "start": 1589.54,
+      "end": 1591.74,
+      "text": "And, you know, I think we share that between us."
+    },
+    {
+      "id": 286,
+      "start": 1592.8,
+      "end": 1596.8200000000002,
+      "text": "I'm going to resist the temptation to ask you what will happen to the companies that are not led by researchers."
+    },
+    {
+      "id": 287,
+      "start": 1598.3,
+      "end": 1599.6000000000001,
+      "text": "Because I know you won't answer it."
+    },
+    {
+      "id": 288,
+      "start": 1599.64,
+      "end": 1604.24,
+      "text": "But let's then go on to the predictions area now."
+    },
+    {
+      "id": 289,
+      "start": 1604.24,
+      "end": 1606.46,
+      "text": "And we are supposed to be talking about the day after AI."
+    },
+    {
+      "id": 290,
+      "start": 1606.64,
+      "end": 1608.32,
+      "text": "But let's talk about closing the loop."
+    },
+    {
+      "id": 291,
+      "start": 1608.94,
+      "end": 1614.86,
+      "text": "The odds that you will get models that will close the loop and be able to, you know, power themselves, if you will."
+    },
+    {
+      "id": 292,
+      "start": 1614.88,
+      "end": 1618.6200000000001,
+      "text": "Because that's really the crux for the winner-takes-all threshold approach."
+    },
+    {
+      "id": 293,
+      "start": 1618.72,
+      "end": 1621.82,
+      "text": "Do you still believe that we are likely to see that?"
+    },
+    {
+      "id": 294,
+      "start": 1621.82,
+      "end": 1628.06,
+      "text": "Or is this going to be much more of a normal technology where followers and catch-up can compete?"
+    },
+    {
+      "id": 295,
+      "start": 1628.96,
+      "end": 1631.1399999999999,
+      "text": "Well, look, I definitely don't think it's going to be a normal technology."
+    },
+    {
+      "id": 296,
+      "start": 1631.6399999999999,
+      "end": 1638.76,
+      "text": "So, I mean, there are aspects already that, as Dario mentioned, that it's already helping with our coding and some aspects of research."
+    },
+    {
+      "id": 297,
+      "start": 1639.1599999999999,
+      "end": 1642.4199999999998,
+      "text": "The full closing of the loop, though, I think is an unknown."
+    },
+    {
+      "id": 298,
+      "start": 1642.6399999999999,
+      "end": 1644.1399999999999,
+      "text": "I mean, I think it's possible to do."
+    },
+    {
+      "id": 299,
+      "start": 1644.5,
+      "end": 1648.04,
+      "text": "You may need AGI itself to be able to do that in some domains."
+    },
+    {
+      "id": 300,
+      "start": 1648.04,
+      "end": 1652.3,
+      "text": "Again, where these domains, you know, where there's more messiness around them."
+    },
+    {
+      "id": 301,
+      "start": 1652.58,
+      "end": 1655.12,
+      "text": "It's not so easy to verify your answer very quickly."
+    },
+    {
+      "id": 302,
+      "start": 1655.76,
+      "end": 1657.82,
+      "text": "There's kind of MP hard domains."
+    },
+    {
+      "id": 303,
+      "start": 1658.36,
+      "end": 1664.92,
+      "text": "So, as soon as you start getting more, and, you know, I also include, by the way, for AGI, physical AI, robotics working, all of these kind of things."
+    },
+    {
+      "id": 304,
+      "start": 1665.1599999999999,
+      "end": 1667.12,
+      "text": "And then you've got, you know, hardware in the loop."
+    },
+    {
+      "id": 305,
+      "start": 1667.62,
+      "end": 1671.56,
+      "text": "That may limit how fast the self-improvement systems can work."
+    },
+    {
+      "id": 306,
+      "start": 1671.82,
+      "end": 1676.2,
+      "text": "But I think in coding and mathematics and these kind of areas, I can definitely see that working."
+    },
+    {
+      "id": 307,
+      "start": 1676.2,
+      "end": 1683.3,
+      "text": "And then the question is more theoretical one is what is the limit of engineering and maths to solve the natural sciences?"
+    },
+    {
+      "id": 308,
+      "start": 1684.28,
+      "end": 1696.28,
+      "text": "Dario, you last year, I think it was last year that you published Machines of Loving Grace, which was a very, I would say, upbeat essay about the potential that you were going to see unfold."
+    },
+    {
+      "id": 309,
+      "start": 1696.28,
+      "end": 1699.84,
+      "text": "I'm told that you are working on an update to this, a new essay."
+    },
+    {
+      "id": 310,
+      "start": 1700.0,
+      "end": 1701.8799999999999,
+      "text": "So, you know, wait for it, guys."
+    },
+    {
+      "id": 311,
+      "start": 1701.8999999999999,
+      "end": 1703.52,
+      "text": "It's not out yet, but it is coming out."
+    },
+    {
+      "id": 312,
+      "start": 1703.7,
+      "end": 1710.44,
+      "text": "But perhaps you can give us a sort of a sneak preview of what a year later your big take is going to be."
+    },
+    {
+      "id": 313,
+      "start": 1710.68,
+      "end": 1710.96,
+      "text": "Yes."
+    },
+    {
+      "id": 314,
+      "start": 1711.1,
+      "end": 1713.28,
+      "text": "So, you know, my take has not changed."
+    },
+    {
+      "id": 315,
+      "start": 1713.66,
+      "end": 1717.56,
+      "text": "It has always been my view that, you know, AI is going to be incredibly powerful."
+    },
+    {
+      "id": 316,
+      "start": 1717.76,
+      "end": 1719.7,
+      "text": "I think Demis and I, you know, kind of agree on that."
+    },
+    {
+      "id": 317,
+      "start": 1719.7,
+      "end": 1721.18,
+      "text": "It's just a question of exactly when."
+    },
+    {
+      "id": 318,
+      "start": 1722.44,
+      "end": 1727.7,
+      "text": "And because it's incredibly powerful, it will do all these wonderful things like the ones I talked about in Machines of Loving Grace."
+    },
+    {
+      "id": 319,
+      "start": 1727.9,
+      "end": 1730.06,
+      "text": "It, you know, will help us cure cancer."
+    },
+    {
+      "id": 320,
+      "start": 1730.2,
+      "end": 1732.66,
+      "text": "It may help us to eradicate tropical diseases."
+    },
+    {
+      "id": 321,
+      "start": 1732.66,
+      "end": 1735.44,
+      "text": "It will help us understand the universe."
+    },
+    {
+      "id": 322,
+      "start": 1735.8600000000001,
+      "end": 1741.56,
+      "text": "But that there are these, you know, immense and grave risks that, you know, not that we can't address them."
+    },
+    {
+      "id": 323,
+      "start": 1741.56,
+      "end": 1742.3600000000001,
+      "text": "I'm not a doomer."
+    },
+    {
+      "id": 324,
+      "start": 1742.66,
+      "end": 1746.78,
+      "text": "But that, you know, we need to think about them and we need to address them."
+    },
+    {
+      "id": 325,
+      "start": 1746.78,
+      "end": 1748.8,
+      "text": "And I wrote Machines of Loving Grace first."
+    },
+    {
+      "id": 326,
+      "start": 1749.26,
+      "end": 1752.72,
+      "text": "I'd love to give some sophisticated reason why I wrote that first."
+    },
+    {
+      "id": 327,
+      "start": 1752.84,
+      "end": 1758.18,
+      "text": "But it was just that the positive essay was easier and more fun to write than the negative essay."
+    },
+    {
+      "id": 328,
+      "start": 1758.84,
+      "end": 1763.86,
+      "text": "So, you know, I finally spent some time on vacation and I was able to write an essay about the risks."
+    },
+    {
+      "id": 329,
+      "start": 1763.94,
+      "end": 1771.02,
+      "text": "And even when I'm writing about the risks, I tried, you know, I'm like an optimistic person, right?"
+    },
+    {
+      "id": 330,
+      "start": 1771.02,
+      "end": 1777.4,
+      "text": "So even as I'm writing about these risks, I wrote about it in a way that was like, how do we overcome these risks?"
+    },
+    {
+      "id": 331,
+      "start": 1777.44,
+      "end": 1779.52,
+      "text": "How do we have a battle plan to fight them?"
+    },
+    {
+      "id": 332,
+      "start": 1779.94,
+      "end": 1789.6399999999999,
+      "text": "And the way I framed it was, you know, there's this scene from Carl Sagan's Contact, the movie version of it, where, you know, they kind of discover alien life."
+    },
+    {
+      "id": 333,
+      "start": 1789.64,
+      "end": 1796.8200000000002,
+      "text": "And it's this international panel that's like interviewing, you know, people to, you know, to be humanity's representative to meet the alien."
+    },
+    {
+      "id": 334,
+      "start": 1798.44,
+      "end": 1805.9,
+      "text": "And one of the questions they asked one of the candidates is, you know, if you could ask the aliens, anyone question, what would it be?"
+    },
+    {
+      "id": 335,
+      "start": 1805.9,
+      "end": 1810.2800000000002,
+      "text": "And one of the characters says, I would ask, how did you do it?"
+    },
+    {
+      "id": 336,
+      "start": 1810.38,
+      "end": 1816.14,
+      "text": "How did you manage to get through this technological adolescence without destroying yourselves?"
+    },
+    {
+      "id": 337,
+      "start": 1816.38,
+      "end": 1817.4,
+      "text": "How did you make it through?"
+    },
+    {
+      "id": 338,
+      "start": 1818.0,
+      "end": 1821.3000000000002,
+      "text": "And ever since I saw it, it was like 20 years ago, I think I saw that movie."
+    },
+    {
+      "id": 339,
+      "start": 1821.3600000000001,
+      "end": 1822.5,
+      "text": "It's kind of stuck with me."
+    },
+    {
+      "id": 340,
+      "start": 1822.74,
+      "end": 1831.8200000000002,
+      "text": "And that's the frame that I used, which is that, you know, we are knocking on the door of these incredible capabilities, right?"
+    },
+    {
+      "id": 341,
+      "start": 1831.82,
+      "end": 1836.3,
+      "text": "The ability to build basically machines out of sand, right?"
+    },
+    {
+      "id": 342,
+      "start": 1836.34,
+      "end": 1840.08,
+      "text": "I think it was inevitable the instant we started working with fire."
+    },
+    {
+      "id": 343,
+      "start": 1841.26,
+      "end": 1844.86,
+      "text": "But how we handle it is not inevitable."
+    },
+    {
+      "id": 344,
+      "start": 1845.08,
+      "end": 1854.8999999999999,
+      "text": "And so I think the next few years, we're going to be dealing with, you know, how do we keep these systems under control that are highly autonomous and smarter than any human?"
+    },
+    {
+      "id": 345,
+      "start": 1855.32,
+      "end": 1859.8999999999999,
+      "text": "How do we make sure that individuals don't misuse them, right?"
+    },
+    {
+      "id": 346,
+      "start": 1859.9,
+      "end": 1862.14,
+      "text": "I have worries about things like bioterrorism."
+    },
+    {
+      "id": 347,
+      "start": 1862.26,
+      "end": 1865.52,
+      "text": "How do we make sure that nation states don't misuse them?"
+    },
+    {
+      "id": 348,
+      "start": 1865.5400000000002,
+      "end": 1871.2,
+      "text": "That's why I've been so concerned about, you know, the CCP, other authoritarian governments."
+    },
+    {
+      "id": 349,
+      "start": 1871.5400000000002,
+      "end": 1873.18,
+      "text": "What are the economic impacts, right?"
+    },
+    {
+      "id": 350,
+      "start": 1873.18,
+      "end": 1875.14,
+      "text": "I've talked about labor displacement a lot."
+    },
+    {
+      "id": 351,
+      "start": 1875.6200000000001,
+      "end": 1881.44,
+      "text": "And, you know, what haven't we thought of, which in many cases, you know, may be the hardest thing to deal with at all."
+    },
+    {
+      "id": 352,
+      "start": 1882.0400000000002,
+      "end": 1887.0400000000002,
+      "text": "So, you know, I'm thinking through how to address those risks."
+    },
+    {
+      "id": 353,
+      "start": 1887.04,
+      "end": 1896.34,
+      "text": "And, you know, for each of these, it's a mixture of things that we individually need to do as leaders of the companies and that we can do working together."
+    },
+    {
+      "id": 354,
+      "start": 1896.5,
+      "end": 1903.72,
+      "text": "And then there's going to need to be some role for wider societal institutions like the government in addressing all of these."
+    },
+    {
+      "id": 355,
+      "start": 1903.86,
+      "end": 1911.7,
+      "text": "But, you know, I just feel this urgency that, you know, every day, you know, there's all kinds of crazy stuff going on in the outside world, outside AI, right?"
+    },
+    {
+      "id": 356,
+      "start": 1911.7,
+      "end": 1916.56,
+      "text": "But, you know, my view is this is happening so fast."
+    },
+    {
+      "id": 357,
+      "start": 1916.6000000000001,
+      "end": 1917.46,
+      "text": "It is such a crisis."
+    },
+    {
+      "id": 358,
+      "start": 1918.06,
+      "end": 1922.6200000000001,
+      "text": "We should be devoting almost all of our effort to thinking about how to get through this."
+    },
+    {
+      "id": 359,
+      "start": 1922.74,
+      "end": 1925.92,
+      "text": "So I can't decide whether I'm more surprised that you, A, take a vacation."
+    },
+    {
+      "id": 360,
+      "start": 1926.26,
+      "end": 1936.46,
+      "text": "B, when you take a vacation, you think about the risks of AI and C, that your essay is framed in terms of, are we going to get through the technological adolescence of this technology without destroying ourselves?"
+    },
+    {
+      "id": 361,
+      "start": 1936.46,
+      "end": 1943.4,
+      "text": "So my head is slightly spinning, but you then, and I can't wait to read it, but you mentioned several areas that can guide the rest of our conversation."
+    },
+    {
+      "id": 362,
+      "start": 1943.68,
+      "end": 1947.5,
+      "text": "Let's start with jobs, because you actually have been very outspoken about that."
+    },
+    {
+      "id": 363,
+      "start": 1947.54,
+      "end": 1952.08,
+      "text": "And I think you said that half of entry-level white-collar jobs could be gone within the next one to five years."
+    },
+    {
+      "id": 364,
+      "start": 1952.26,
+      "end": 1959.8600000000001,
+      "text": "But I'm going to turn to you, Demis, because so far, we haven't actually seen any discernible impact on the labour market."
+    },
+    {
+      "id": 365,
+      "start": 1959.86,
+      "end": 1971.12,
+      "text": "Yes, unemployment has ticked up in the US, but all of the kind of economic studies I've looked at and that we've written about suggests that this is overhiring post-pandemic, that it's really not AI-driven."
+    },
+    {
+      "id": 366,
+      "start": 1971.2199999999998,
+      "end": 1975.7199999999998,
+      "text": "If anything, people are hiring to build out AI capability."
+    },
+    {
+      "id": 367,
+      "start": 1976.82,
+      "end": 1985.02,
+      "text": "Do you think that this will be, as economists have always argued, that it's not a lump of labour fallacy, that actually there will be new jobs created?"
+    },
+    {
+      "id": 368,
+      "start": 1985.08,
+      "end": 1987.04,
+      "text": "Because so far, the evidence seems to suggest that."
+    },
+    {
+      "id": 369,
+      "start": 1987.04,
+      "end": 1994.42,
+      "text": "Yeah, I mean, I think in the near term, that is what will happen, the kind of normal evolution when a breakthrough technology arrives."
+    },
+    {
+      "id": 370,
+      "start": 1994.6,
+      "end": 2000.5,
+      "text": "So some jobs will get disrupted, but I think new, even more valuable, perhaps more meaningful jobs will get created."
+    },
+    {
+      "id": 371,
+      "start": 2001.1399999999999,
+      "end": 2009.1399999999999,
+      "text": "I think we're going to see this year the beginnings of maybe impacting the junior-level, entry-level child of jobs, internships, this type of thing."
+    },
+    {
+      "id": 372,
+      "start": 2009.2,
+      "end": 2010.3799999999999,
+      "text": "I think there is some evidence."
+    },
+    {
+      "id": 373,
+      "start": 2010.5,
+      "end": 2014.1599999999999,
+      "text": "I can feel that ourselves, maybe like a slowdown in hiring in that."
+    },
+    {
+      "id": 374,
+      "start": 2014.16,
+      "end": 2022.38,
+      "text": "But I think that can be more than compensated by the fact there are these amazing creative tools out there, pretty much available for everyone, almost for free."
+    },
+    {
+      "id": 375,
+      "start": 2022.74,
+      "end": 2031.46,
+      "text": "That if I was to talk to a class of undergrads right now, I would be telling them to get really unbelievably proficient with these tools."
+    },
+    {
+      "id": 376,
+      "start": 2031.46,
+      "end": 2042.6200000000001,
+      "text": "I think to the extent that even those of us building it, we're so busy building it, it's hard to have also time to really explore almost the capability overhang even today's models and products have, let alone tomorrow's."
+    },
+    {
+      "id": 377,
+      "start": 2043.02,
+      "end": 2052.7,
+      "text": "And I think that can be maybe better than a traditional internship would have been in terms of you sort of leapfrogging yourself to be useful in a profession."
+    },
+    {
+      "id": 378,
+      "start": 2052.7,
+      "end": 2057.04,
+      "text": "So I think that's what I see happening probably in the next five years."
+    },
+    {
+      "id": 379,
+      "start": 2057.8199999999997,
+      "end": 2060.2,
+      "text": "Maybe we, again, slightly differ on timescales on that."
+    },
+    {
+      "id": 380,
+      "start": 2060.2599999999998,
+      "end": 2063.8399999999997,
+      "text": "But I think what happens after AGI arrives, that's a different question."
+    },
+    {
+      "id": 381,
+      "start": 2063.8999999999996,
+      "end": 2067.02,
+      "text": "So I think really we would be in uncharted territory at that point."
+    },
+    {
+      "id": 382,
+      "start": 2067.24,
+      "end": 2071.7,
+      "text": "Do you think it's going to take longer than you thought last year when you said half of all entry-level white-colored jobs?"
+    },
+    {
+      "id": 383,
+      "start": 2071.7,
+      "end": 2072.6,
+      "text": "No, I have about the same view."
+    },
+    {
+      "id": 384,
+      "start": 2072.7,
+      "end": 2078.7999999999997,
+      "text": "I actually agree with you and with Demis that at the time I made the comment, there was no impact on the labor market."
+    },
+    {
+      "id": 385,
+      "start": 2078.8,
+      "end": 2082.1400000000003,
+      "text": "I wasn't saying there was an impact on the labor market at that moment."
+    },
+    {
+      "id": 386,
+      "start": 2083.1200000000003,
+      "end": 2088.5600000000004,
+      "text": "Now, I think maybe we're starting to see just the little beginnings of it in software encoding."
+    },
+    {
+      "id": 387,
+      "start": 2088.6600000000003,
+      "end": 2104.1400000000003,
+      "text": "I even see it within Anthropic where I can kind of look forward to a time where on the more junior end and then on the more intermediate end, we actually need less and not more people."
+    },
+    {
+      "id": 388,
+      "start": 2104.14,
+      "end": 2110.72,
+      "text": "And, you know, we're thinking about how to deal with that within Anthropic in a, you know, sense in a sensible way."
+    },
+    {
+      "id": 389,
+      "start": 2111.94,
+      "end": 2116.74,
+      "text": "I, you know, one to five years as of six months ago, I would stick with that."
+    },
+    {
+      "id": 390,
+      "start": 2116.8199999999997,
+      "end": 2129.2599999999998,
+      "text": "You know, if you kind of, you know, connect this to what I said before, which is, you know, we might have AI that's better than humans at everything in, you know, maybe one to two years, maybe a little longer than that."
+    },
+    {
+      "id": 391,
+      "start": 2129.26,
+      "end": 2137.1800000000003,
+      "text": "But those don't seem to line up. The reason is that there's this lag and there's this replacement thing, right?"
+    },
+    {
+      "id": 392,
+      "start": 2137.2000000000003,
+      "end": 2142.4,
+      "text": "I know that the labor market is adaptable, right? It's just like, you know, 80% of people used to do farming."
+    },
+    {
+      "id": 393,
+      "start": 2143.0200000000004,
+      "end": 2146.7200000000003,
+      "text": "You know, farming got automated and then they became factory workers and then knowledge workers."
+    },
+    {
+      "id": 394,
+      "start": 2147.2200000000003,
+      "end": 2151.4,
+      "text": "So, you know, there is some level of adaptability here as well, right?"
+    },
+    {
+      "id": 395,
+      "start": 2151.4,
+      "end": 2154.6800000000003,
+      "text": "We should be economically sophisticated about how the labor market works."
+    },
+    {
+      "id": 396,
+      "start": 2154.68,
+      "end": 2166.1,
+      "text": "But my worry is as this exponential keeps compounding, and I don't think it's going to take that long, again, somewhere between a year and five years, it will overwhelm our ability to adapt."
+    },
+    {
+      "id": 397,
+      "start": 2166.22,
+      "end": 2176.2999999999997,
+      "text": "I think I may be saying the same thing Demis is, just factored out of that difference we have about timelines, which I think ultimately comes down to how fast you close the loop on coronavirus."
+    },
+    {
+      "id": 398,
+      "start": 2176.3,
+      "end": 2185.94,
+      "text": "How much confidence do you have that governments get the scale of this and are beginning to think about what policy responses they need to have?"
+    },
+    {
+      "id": 399,
+      "start": 2185.98,
+      "end": 2190.7000000000003,
+      "text": "I don't think that it's anywhere near enough work going on about this."
+    },
+    {
+      "id": 400,
+      "start": 2190.7,
+      "end": 2198.8399999999997,
+      "text": "I'm constantly surprised, even when I meet economists at places like this, that they're not more of professional economists, professors thinking about what happens."
+    },
+    {
+      "id": 401,
+      "start": 2199.66,
+      "end": 2208.2,
+      "text": "And not just sort of on the way to AGI, but even if we get all the technical things right that Dario is talking about and the job displacement is one question."
+    },
+    {
+      "id": 402,
+      "start": 2208.2799999999997,
+      "end": 2214.18,
+      "text": "We're all worried about the economics of that, but maybe there are ways to distribute this new productivity, this new wealth more fairly."
+    },
+    {
+      "id": 403,
+      "start": 2214.18,
+      "end": 2218.22,
+      "text": "I don't know if we have the right institutions to do that, but that's what should happen at that point."
+    },
+    {
+      "id": 404,
+      "start": 2218.52,
+      "end": 2223.14,
+      "text": "There should be, you know, we may be in a post-scarcity world, but then there are even the things that keep me up right now."
+    },
+    {
+      "id": 405,
+      "start": 2223.2999999999997,
+      "end": 2228.52,
+      "text": "There are even bigger questions than that at that point to do with meaning and purpose."
+    },
+    {
+      "id": 406,
+      "start": 2229.14,
+      "end": 2233.02,
+      "text": "And a lot of the things that we get from our jobs, not just economically, that's one question."
+    },
+    {
+      "id": 407,
+      "start": 2233.12,
+      "end": 2239.8599999999997,
+      "text": "But I think that may be easier to solve, strangely, than what happens to the human condition and humanity as a whole."
+    },
+    {
+      "id": 408,
+      "start": 2240.04,
+      "end": 2242.68,
+      "text": "And I think I'm also optimistic we'll come up with new answers there."
+    },
+    {
+      "id": 409,
+      "start": 2242.68,
+      "end": 2250.2799999999997,
+      "text": "We do a lot of things today from extreme sports to art that aren't necessarily directly to do with economic gain."
+    },
+    {
+      "id": 410,
+      "start": 2250.62,
+      "end": 2257.0,
+      "text": "So I think we will find meaning and maybe there'll be even more sort of sophisticated versions of those activities."
+    },
+    {
+      "id": 411,
+      "start": 2257.64,
+      "end": 2260.02,
+      "text": "Plus, I think we'll be exploring the stars."
+    },
+    {
+      "id": 412,
+      "start": 2260.3399999999997,
+      "end": 2264.1,
+      "text": "So there'll be all of that to factor in as well in terms of purpose."
+    },
+    {
+      "id": 413,
+      "start": 2264.3999999999996,
+      "end": 2272.12,
+      "text": "But I think it's really worth thinking now, even in my timelines of like five to ten years away, that isn't a lot of time before this comes."
+    },
+    {
+      "id": 414,
+      "start": 2272.12,
+      "end": 2283.2599999999998,
+      "text": "How big do you think is the risk of a popular backlash against AI that will somehow kind of cause governments to do what, from your perspective, might be stupid things?"
+    },
+    {
+      "id": 415,
+      "start": 2283.3399999999997,
+      "end": 2291.2799999999997,
+      "text": "Because I'm just thinking back to the era of globalization in the 1990s when there was indeed some displacement of jobs."
+    },
+    {
+      "id": 416,
+      "start": 2291.62,
+      "end": 2292.74,
+      "text": "Governments didn't do enough."
+    },
+    {
+      "id": 417,
+      "start": 2292.74,
+      "end": 2296.9199999999996,
+      "text": "The public backlash was such that we've ended up sort of where we are now."
+    },
+    {
+      "id": 418,
+      "start": 2297.58,
+      "end": 2305.8599999999997,
+      "text": "Do you think that there is a risk that there will be a growing antipathy towards what you are doing and your companies in the kind of body politic?"
+    },
+    {
+      "id": 419,
+      "start": 2305.86,
+      "end": 2308.3,
+      "text": "I think there's definitely a risk."
+    },
+    {
+      "id": 420,
+      "start": 2308.46,
+      "end": 2311.1200000000003,
+      "text": "I think that's kind of reasonable."
+    },
+    {
+      "id": 421,
+      "start": 2311.3,
+      "end": 2314.7400000000002,
+      "text": "There's fear and there's worries about these things like jobs and livelihoods."
+    },
+    {
+      "id": 422,
+      "start": 2315.76,
+      "end": 2322.82,
+      "text": "I think there's a couple of things that, I mean, it's going to be very complicated the next few years, I think, geopolitically, but also the various factors here."
+    },
+    {
+      "id": 423,
+      "start": 2322.9,
+      "end": 2332.1200000000003,
+      "text": "Like we want to, and we're trying to do this with AlphaFold and our science work and isomorphic, our spin-out companies solve all disease, cure diseases, come up with new energy sources."
+    },
+    {
+      "id": 424,
+      "start": 2332.12,
+      "end": 2334.2,
+      "text": "I think as a society, it's clear we'd want that."
+    },
+    {
+      "id": 425,
+      "start": 2334.64,
+      "end": 2339.9,
+      "text": "I think maybe the balance of what the industry is doing is not enough balance towards those types of activities."
+    },
+    {
+      "id": 426,
+      "start": 2340.2599999999998,
+      "end": 2341.7799999999997,
+      "text": "I think we should have a lot more examples."
+    },
+    {
+      "id": 427,
+      "start": 2341.9,
+      "end": 2347.38,
+      "text": "I know Dario agrees with me of like AlphaFold-like things that help sort of unequivocal goods in the world."
+    },
+    {
+      "id": 428,
+      "start": 2347.66,
+      "end": 2354.8599999999997,
+      "text": "And I think actually it's incumbent on the industry and all of us leading players to show that more, demonstrate that, not just talk about it, but demonstrate that."
+    },
+    {
+      "id": 429,
+      "start": 2356.0,
+      "end": 2358.92,
+      "text": "But then it's going to come with these other intended disruptions."
+    },
+    {
+      "id": 430,
+      "start": 2358.92,
+      "end": 2363.14,
+      "text": "And, but I don't, I think the other issue is the geopolitical competition."
+    },
+    {
+      "id": 431,
+      "start": 2363.26,
+      "end": 2366.92,
+      "text": "There's obviously competition between the companies, but also US and China primarily."
+    },
+    {
+      "id": 432,
+      "start": 2367.44,
+      "end": 2376.44,
+      "text": "So unless there's an international cooperation or understanding around this, which I think would be good actually in terms of things like minimum safety standards for deployment."
+    },
+    {
+      "id": 433,
+      "start": 2376.56,
+      "end": 2377.82,
+      "text": "I think Dario would agree on that as well."
+    },
+    {
+      "id": 434,
+      "start": 2377.88,
+      "end": 2379.04,
+      "text": "I think it's vitally needed."
+    },
+    {
+      "id": 435,
+      "start": 2379.14,
+      "end": 2380.76,
+      "text": "This technology is going to be cross-border."
+    },
+    {
+      "id": 436,
+      "start": 2381.06,
+      "end": 2381.98,
+      "text": "It's going to affect everyone."
+    },
+    {
+      "id": 437,
+      "start": 2382.08,
+      "end": 2383.16,
+      "text": "It's going to affect all of humanity."
+    },
+    {
+      "id": 438,
+      "start": 2384.2000000000003,
+      "end": 2386.44,
+      "text": "Actually, Contact is one of my favorite films as well."
+    },
+    {
+      "id": 439,
+      "start": 2386.44,
+      "end": 2389.56,
+      "text": "So it's sort of funny enough, I didn't realize it was yours too, Dario."
+    },
+    {
+      "id": 440,
+      "start": 2389.7000000000003,
+      "end": 2394.34,
+      "text": "But I think, you know, those kind of things need to be worked through."
+    },
+    {
+      "id": 441,
+      "start": 2394.8,
+      "end": 2404.2400000000002,
+      "text": "And if we can, maybe it would be good to have a bit of slow, a slightly slower pace than we're currently predicting, even my timelines, so that we can get this right societally."
+    },
+    {
+      "id": 442,
+      "start": 2404.64,
+      "end": 2406.4,
+      "text": "But that would require some coordination."
+    },
+    {
+      "id": 443,
+      "start": 2406.78,
+      "end": 2407.0,
+      "text": "That is."
+    },
+    {
+      "id": 444,
+      "start": 2407.34,
+      "end": 2408.8,
+      "text": "I prefer your timelines."
+    },
+    {
+      "id": 445,
+      "start": 2408.94,
+      "end": 2409.12,
+      "text": "Yes."
+    },
+    {
+      "id": 446,
+      "start": 2409.66,
+      "end": 2410.86,
+      "text": "I think it would be better for many reasons."
+    },
+    {
+      "id": 447,
+      "start": 2410.86,
+      "end": 2411.56,
+      "text": "That'll concede."
+    },
+    {
+      "id": 448,
+      "start": 2411.56,
+      "end": 2423.82,
+      "text": "But Dario, let's turn to this now, because one thing since we last spoke in Paris, the geopolitical environment has, if anything, I don't know, complicated, mad, crazy, whatever phrase you want to use."
+    },
+    {
+      "id": 449,
+      "start": 2424.52,
+      "end": 2428.2799999999997,
+      "text": "Secondly, the U.S. has a very different approach now towards China."
+    },
+    {
+      "id": 450,
+      "start": 2428.44,
+      "end": 2433.08,
+      "text": "It's a much more, it's a kind of no holds barred, go as fast as we can, but then sell chips to China."
+    },
+    {
+      "id": 451,
+      "start": 2433.08,
+      "end": 2438.2599999999998,
+      "text": "And that is, so you've got a different attitude towards the United States."
+    },
+    {
+      "id": 452,
+      "start": 2438.42,
+      "end": 2445.14,
+      "text": "You've got a very strange relationship between the United States and Europe right now geopolitically."
+    },
+    {
+      "id": 453,
+      "start": 2445.86,
+      "end": 2450.02,
+      "text": "Against that, I mean, I hear you talk about it, it would be nice to have a CERN-like organization."
+    },
+    {
+      "id": 454,
+      "start": 2450.2,
+      "end": 2452.62,
+      "text": "I mean, it's a million years from where we are, from the real world."
+    },
+    {
+      "id": 455,
+      "start": 2452.72,
+      "end": 2455.86,
+      "text": "So in the real world, have the geopolitical risks increased?"
+    },
+    {
+      "id": 456,
+      "start": 2456.36,
+      "end": 2459.7599999999998,
+      "text": "And what, if anything, do you think should be done about that?"
+    },
+    {
+      "id": 457,
+      "start": 2459.76,
+      "end": 2462.48,
+      "text": "And the administration seems to be doing the opposite of what you were suggesting."
+    },
+    {
+      "id": 458,
+      "start": 2462.76,
+      "end": 2472.84,
+      "text": "Yeah, I mean, look, you know, we're just trying to do the best we can to, you know, we're just one company and we're trying to operate in, you know, the environment that exists, no matter how crazy it is."
+    },
+    {
+      "id": 459,
+      "start": 2472.84,
+      "end": 2477.5200000000004,
+      "text": "But, you know, I think at least my policy recommendations haven't changed."
+    },
+    {
+      "id": 460,
+      "start": 2478.0,
+      "end": 2489.0800000000004,
+      "text": "That, you know, not selling chips is one of the, you know, one of the biggest things we can do to, you know, make sure that we have the time to handle this."
+    },
+    {
+      "id": 461,
+      "start": 2489.76,
+      "end": 2494.26,
+      "text": "You know, you know, I said before, you know, I prefer Demis' timeline."
+    },
+    {
+      "id": 462,
+      "start": 2494.44,
+      "end": 2499.38,
+      "text": "I wish we had five to ten years, you know, so it's possible he's just right and I'm just wrong."
+    },
+    {
+      "id": 463,
+      "start": 2499.5400000000004,
+      "end": 2502.3,
+      "text": "But assume I'm right and it can be done in one to two years."
+    },
+    {
+      "id": 464,
+      "start": 2502.6000000000004,
+      "end": 2504.98,
+      "text": "Why can't we slow down to Demis' timeline?"
+    },
+    {
+      "id": 465,
+      "start": 2505.26,
+      "end": 2506.2200000000003,
+      "text": "Well, you could just slow down."
+    },
+    {
+      "id": 466,
+      "start": 2506.22,
+      "end": 2518.8599999999997,
+      "text": "Well, no, but the reason we can't do that is, you know, because we have geopolitical adversaries building the same technology at a similar pace."
+    },
+    {
+      "id": 467,
+      "start": 2519.0,
+      "end": 2523.52,
+      "text": "It's very hard to have an enforceable agreement where they slow down and we slow down."
+    },
+    {
+      "id": 468,
+      "start": 2523.52,
+      "end": 2531.96,
+      "text": "And so if we can just not sell the chips, then this isn't a question of competition between the U.S. and China."
+    },
+    {
+      "id": 469,
+      "start": 2532.18,
+      "end": 2536.66,
+      "text": "This is a question of competition between me and Demis, which I'm very confident that we can work out."
+    },
+    {
+      "id": 470,
+      "start": 2537.2,
+      "end": 2545.5,
+      "text": "And what do you make of the logic of the administration, which, as I understand it, is we need to sell them chips because we need to bind them into U.S. supply chains."
+    },
+    {
+      "id": 471,
+      "start": 2545.5,
+      "end": 2555.2,
+      "text": "So, you know, it's I think it's I think it's a question not just of timescale, but of the significance of the technology."
+    },
+    {
+      "id": 472,
+      "start": 2555.58,
+      "end": 2569.52,
+      "text": "Right. If this was telecom or something, then all this stuff about proliferating the U.S. stack and, you know, wanting to build our, you know, chips around the world to make sure that, you know, you know, this, you know,"
+    },
+    {
+      "id": 473,
+      "start": 2569.52,
+      "end": 2577.14,
+      "text": "these random countries in different parts of the world, you know, build data centers that have NVIDIA chips instead of Huawei chips."
+    },
+    {
+      "id": 474,
+      "start": 2577.7,
+      "end": 2580.66,
+      "text": "You know, I think of this more as like, you know, it's a decision."
+    },
+    {
+      "id": 475,
+      "start": 2580.96,
+      "end": 2585.64,
+      "text": "Are we going to, you know, sell nuclear weapons to North Korea?"
+    },
+    {
+      "id": 476,
+      "start": 2586.08,
+      "end": 2593.22,
+      "text": "And, you know, because that produces some profit for Boeing, you know, where we can say, OK, yeah, these cases were made by Boeing."
+    },
+    {
+      "id": 477,
+      "start": 2593.22,
+      "end": 2595.68,
+      "text": "Like the U.S. is winning. Like, this is great."
+    },
+    {
+      "id": 478,
+      "start": 2595.68,
+      "end": 2603.5,
+      "text": "Like I just, you know, that that analogy should just make clear how I see this tradeoff, that I just don't think it makes sense."
+    },
+    {
+      "id": 479,
+      "start": 2604.0,
+      "end": 2614.58,
+      "text": "And we've done a lot of more aggressive stuff, you know, towards towards China, China and other players that I think is much less effective than this this one this one measure."
+    },
+    {
+      "id": 480,
+      "start": 2615.2799999999997,
+      "end": 2617.8199999999997,
+      "text": "One more area for me, and then I hope we'll have time for a question or two."
+    },
+    {
+      "id": 481,
+      "start": 2617.98,
+      "end": 2624.46,
+      "text": "The other area of potential risk that doomers worry about is a kind of all powerful malign AI."
+    },
+    {
+      "id": 482,
+      "start": 2624.46,
+      "end": 2628.56,
+      "text": "And I think you've both been somewhat skeptical of the Duma approach."
+    },
+    {
+      "id": 483,
+      "start": 2628.66,
+      "end": 2635.2,
+      "text": "But in the last year, we have seen, you know, these models showing themselves to be capable of deception, duplicity."
+    },
+    {
+      "id": 484,
+      "start": 2636.62,
+      "end": 2641.3,
+      "text": "Do you think that do you think differently about that risk now than you did a year ago?"
+    },
+    {
+      "id": 485,
+      "start": 2641.3,
+      "end": 2646.9,
+      "text": "And is there something about the way the models are evolving that we should put a little bit more concern on that?"
+    },
+    {
+      "id": 486,
+      "start": 2647.46,
+      "end": 2651.82,
+      "text": "Yeah, I mean, you know, since since the beginning of Anthropic, we've kind of thought about this risk."
+    },
+    {
+      "id": 487,
+      "start": 2651.82,
+      "end": 2656.52,
+      "text": "I mean, you know, our research at the beginning of it was very theoretical, right?"
+    },
+    {
+      "id": 488,
+      "start": 2656.6000000000004,
+      "end": 2666.02,
+      "text": "You know, we pioneered this idea of mechanistic interpretability, which is looking inside the model and trying to understand looking inside its brain, trying to understand why it does what it does."
+    },
+    {
+      "id": 489,
+      "start": 2666.02,
+      "end": 2674.16,
+      "text": "And, you know, as human neuroscientists, which we actually both have background in, try to understand the brain."
+    },
+    {
+      "id": 490,
+      "start": 2674.64,
+      "end": 2685.08,
+      "text": "And I think as time has gone on, we've increasingly documented the, you know, bad behaviors of the models when they emerge and are now working on trying to address them with mechanistic interpretability."
+    },
+    {
+      "id": 491,
+      "start": 2685.08,
+      "end": 2689.58,
+      "text": "So, you know, I think, you know, I've always been concerned about these risks."
+    },
+    {
+      "id": 492,
+      "start": 2689.66,
+      "end": 2691.16,
+      "text": "I've talked to Demis many times."
+    },
+    {
+      "id": 493,
+      "start": 2691.22,
+      "end": 2694.12,
+      "text": "I think he has also been concerned about these risks."
+    },
+    {
+      "id": 494,
+      "start": 2694.58,
+      "end": 2703.92,
+      "text": "I think I have definitely been, and I would guess Demis as well, although I'll let him speak for himself, skeptical of doomerism, which is, you know, we're doomed."
+    },
+    {
+      "id": 495,
+      "start": 2704.04,
+      "end": 2707.02,
+      "text": "There's nothing we can do or this is the most likely outcome."
+    },
+    {
+      "id": 496,
+      "start": 2707.34,
+      "end": 2709.04,
+      "text": "I think this is a risk."
+    },
+    {
+      "id": 497,
+      "start": 2709.04,
+      "end": 2720.14,
+      "text": "This is a risk that if we all work together, we can address, we can learn through science to properly, you know, control and direct these creations that we're building."
+    },
+    {
+      "id": 498,
+      "start": 2720.34,
+      "end": 2730.9,
+      "text": "But if we build them poorly, if we go, you know, if we're all racing and we go so fast that there's no guardrails, then I think there is risk of something going wrong."
+    },
+    {
+      "id": 499,
+      "start": 2730.9,
+      "end": 2744.12,
+      "text": "So I'm going to give you a chance to answer that in the context of a slightly broader question, which is over the past year, have you grown more confident of the upside potential of the technology, science, all of the areas that you have talked about a lot?"
+    },
+    {
+      "id": 500,
+      "start": 2744.54,
+      "end": 2747.44,
+      "text": "Or are you more worried about the risks that we've been discussing?"
+    },
+    {
+      "id": 501,
+      "start": 2747.44,
+      "end": 2750.86,
+      "text": "Look, Azana, I've been working on this for 20 plus years."
+    },
+    {
+      "id": 502,
+      "start": 2751.12,
+      "end": 2761.1,
+      "text": "So we already knew, look, the reason I've spent my whole career on AI is the upsides of solving basically the ultimate tool for science and understanding the universe around us."
+    },
+    {
+      "id": 503,
+      "start": 2761.16,
+      "end": 2763.18,
+      "text": "I've sort of been obsessed with that since a kid."
+    },
+    {
+      "id": 504,
+      "start": 2763.7200000000003,
+      "end": 2767.96,
+      "text": "And building AI is the, you know, should be the ultimate tool for that if we do it in the right way."
+    },
+    {
+      "id": 505,
+      "start": 2768.42,
+      "end": 2772.9,
+      "text": "The risks also we've been thinking about since the start, at least the start of DeepMind 15 years ago."
+    },
+    {
+      "id": 506,
+      "start": 2772.9,
+      "end": 2777.82,
+      "text": "And we kind of sort of foresaw that if you got the upsides, it's a dual purpose technology."
+    },
+    {
+      "id": 507,
+      "start": 2778.02,
+      "end": 2781.34,
+      "text": "So it could be repurposed by, say, bad actors for harmful ends."
+    },
+    {
+      "id": 508,
+      "start": 2781.5,
+      "end": 2783.44,
+      "text": "So we've needed to think about that all the way through."
+    },
+    {
+      "id": 509,
+      "start": 2783.62,
+      "end": 2785.7400000000002,
+      "text": "But I'm a big believer in human ingenuity."
+    },
+    {
+      "id": 510,
+      "start": 2786.32,
+      "end": 2794.6800000000003,
+      "text": "But the question is having the time and the focus and all the best minds collaborating on it to solve these problems."
+    },
+    {
+      "id": 511,
+      "start": 2794.8,
+      "end": 2797.88,
+      "text": "I'm sure if we had that, we would solve the technical risk problem."
+    },
+    {
+      "id": 512,
+      "start": 2797.88,
+      "end": 2803.34,
+      "text": "It may be we don't have that and then that will introduce risk because we'll be sort of, it'll be fragmented."
+    },
+    {
+      "id": 513,
+      "start": 2803.78,
+      "end": 2805.96,
+      "text": "There'll be different projects and people be racing each other."
+    },
+    {
+      "id": 514,
+      "start": 2806.04,
+      "end": 2810.76,
+      "text": "Then it's much harder to make sure, you know, these systems that we produce will be technically safe."
+    },
+    {
+      "id": 515,
+      "start": 2810.92,
+      "end": 2814.84,
+      "text": "But I feel like that's a very tractable problem if we have the time."
+    },
+    {
+      "id": 516,
+      "start": 2814.84,
+      "end": 2815.52,
+      "text": "If you are able to do it."
+    },
+    {
+      "id": 517,
+      "start": 2815.52,
+      "end": 2816.94,
+      "text": "If we have the time and space."
+    },
+    {
+      "id": 518,
+      "start": 2817.26,
+      "end": 2818.86,
+      "text": "I want to make sure there's one question."
+    },
+    {
+      "id": 519,
+      "start": 2819.04,
+      "end": 2821.46,
+      "text": "Gentlemen, keep it very short because we've got literally two minutes."
+    },
+    {
+      "id": 520,
+      "start": 2822.88,
+      "end": 2824.04,
+      "text": "Thanks for, hello."
+    },
+    {
+      "id": 521,
+      "start": 2824.62,
+      "end": 2825.38,
+      "text": "No, speak."
+    },
+    {
+      "id": 522,
+      "start": 2825.38,
+      "end": 2826.42,
+      "text": "Thanks very much."
+    },
+    {
+      "id": 523,
+      "start": 2826.46,
+      "end": 2829.04,
+      "text": "I'm Philip, co-founder of Star Cloud Building Data Centers in Space."
+    },
+    {
+      "id": 524,
+      "start": 2829.7000000000003,
+      "end": 2832.5,
+      "text": "I wanted to ask a slightly philosophical question."
+    },
+    {
+      "id": 525,
+      "start": 2832.94,
+      "end": 2838.26,
+      "text": "The sort of strongest argument for Doomerism to me is the Fermi Paradox, the idea that we don't see intelligent life in our galaxy."
+    },
+    {
+      "id": 526,
+      "start": 2838.6800000000003,
+      "end": 2839.86,
+      "text": "I was wondering if you guys have any thoughts."
+    },
+    {
+      "id": 527,
+      "start": 2839.86,
+      "end": 2840.9,
+      "text": "Yeah, I've thought a lot about that."
+    },
+    {
+      "id": 528,
+      "start": 2840.9,
+      "end": 2845.2200000000003,
+      "text": "That can't be the reason because we should see all the AIs that have."
+    },
+    {
+      "id": 529,
+      "start": 2845.6400000000003,
+      "end": 2846.3,
+      "text": "So just for everyone."
+    },
+    {
+      "id": 530,
+      "start": 2846.48,
+      "end": 2850.0,
+      "text": "The idea is, well, it's sort of unclear why that would happen."
+    },
+    {
+      "id": 531,
+      "start": 2850.0,
+      "end": 2850.44,
+      "text": "Right."
+    },
+    {
+      "id": 532,
+      "start": 2850.54,
+      "end": 2855.54,
+      "text": "So if the reason there's a Fermi Paradox, there are no aliens because they get taken out by their own technology."
+    },
+    {
+      "id": 533,
+      "start": 2856.02,
+      "end": 2859.96,
+      "text": "We should be seeing paper clips coming towards us from some part of the galaxy."
+    },
+    {
+      "id": 534,
+      "start": 2860.2,
+      "end": 2861.28,
+      "text": "And apparently we don't."
+    },
+    {
+      "id": 535,
+      "start": 2861.4,
+      "end": 2862.5,
+      "text": "We don't see any structures."
+    },
+    {
+      "id": 536,
+      "start": 2862.88,
+      "end": 2863.8,
+      "text": "Dyson spheres, nothing."
+    },
+    {
+      "id": 537,
+      "start": 2863.92,
+      "end": 2866.4,
+      "text": "Whether they're AI or natural or sort of biological."
+    },
+    {
+      "id": 538,
+      "start": 2866.96,
+      "end": 2869.6,
+      "text": "So to me, there has to be a different answer to Fermi Paradox."
+    },
+    {
+      "id": 539,
+      "start": 2869.7,
+      "end": 2870.8,
+      "text": "I have my own theories about that."
+    },
+    {
+      "id": 540,
+      "start": 2870.86,
+      "end": 2872.26,
+      "text": "But it's out of scope for the next minute."
+    },
+    {
+      "id": 541,
+      "start": 2872.26,
+      "end": 2879.7000000000003,
+      "text": "But, you know, I just feel like that my prediction, my feeling is that we're past the great filter."
+    },
+    {
+      "id": 542,
+      "start": 2879.88,
+      "end": 2882.5600000000004,
+      "text": "It was probably multicellular life, if I would have to guess."
+    },
+    {
+      "id": 543,
+      "start": 2882.88,
+      "end": 2885.84,
+      "text": "It was incredibly hard for biology to evolve that."
+    },
+    {
+      "id": 544,
+      "start": 2886.6800000000003,
+      "end": 2887.5600000000004,
+      "text": "So we're on that."
+    },
+    {
+      "id": 545,
+      "start": 2887.7200000000003,
+      "end": 2889.98,
+      "text": "You know, there isn't a comfort of like what's going to happen next."
+    },
+    {
+      "id": 546,
+      "start": 2890.0400000000004,
+      "end": 2893.0600000000004,
+      "text": "I think it's for us to write as humanity what's going to happen next."
+    },
+    {
+      "id": 547,
+      "start": 2893.1400000000003,
+      "end": 2896.1800000000003,
+      "text": "This could be a great discussion, but it is out of scope for the next 36 seconds."
+    },
+    {
+      "id": 548,
+      "start": 2896.28,
+      "end": 2896.86,
+      "text": "But what isn't?"
+    },
+    {
+      "id": 549,
+      "start": 2896.98,
+      "end": 2898.0400000000004,
+      "text": "15 seconds each."
+    },
+    {
+      "id": 550,
+      "start": 2898.04,
+      "end": 2903.94,
+      "text": "When we meet again, I hope next year, the three of us, which I would love, what will have changed by then?"
+    },
+    {
+      "id": 551,
+      "start": 2904.88,
+      "end": 2912.36,
+      "text": "Well, I think the biggest thing to watch is this issue of AI systems building AI systems."
+    },
+    {
+      "id": 552,
+      "start": 2912.7799999999997,
+      "end": 2919.2,
+      "text": "How that goes, whether that goes one way or another, that will determine, you know,"
+    },
+    {
+      "id": 553,
+      "start": 2919.3,
+      "end": 2921.92,
+      "text": "whether it's a few more years until we get there."
+    },
+    {
+      "id": 554,
+      "start": 2921.92,
+      "end": 2930.1800000000003,
+      "text": "Or if we have, you know, if we have wonders and a great emergency in front of us that we have to face."
+    },
+    {
+      "id": 555,
+      "start": 2930.64,
+      "end": 2931.92,
+      "text": "AI systems building AI systems."
+    },
+    {
+      "id": 556,
+      "start": 2931.92,
+      "end": 2932.6,
+      "text": "I agree on that."
+    },
+    {
+      "id": 557,
+      "start": 2932.6800000000003,
+      "end": 2934.56,
+      "text": "So we're keeping close touch about that."
+    },
+    {
+      "id": 558,
+      "start": 2934.7000000000003,
+      "end": 2940.44,
+      "text": "But also, I think outside of that, I think there are other interesting ideas being researched,"
+    },
+    {
+      "id": 559,
+      "start": 2940.56,
+      "end": 2942.2200000000003,
+      "text": "like world models, continual learning."
+    },
+    {
+      "id": 560,
+      "start": 2942.54,
+      "end": 2944.2000000000003,
+      "text": "These are the things I think they'll need to be cracked."
+    },
+    {
+      "id": 561,
+      "start": 2944.2,
+      "end": 2949.64,
+      "text": "If self-improvement doesn't sort of deliver the goods on its own, then we'll need these other things to work."
+    },
+    {
+      "id": 562,
+      "start": 2949.96,
+      "end": 2952.96,
+      "text": "And then I think things like robotics may have its sort of breakout moment."
+    },
+    {
+      "id": 563,
+      "start": 2953.08,
+      "end": 2957.3999999999996,
+      "text": "But maybe on the basis of what you've just said, we should all be hoping that it does take you a little bit longer."
+    },
+    {
+      "id": 564,
+      "start": 2957.54,
+      "end": 2959.04,
+      "text": "And indeed, everybody else to give us a little more time."
+    },
+    {
+      "id": 565,
+      "start": 2959.04,
+      "end": 2959.7599999999998,
+      "text": "I would prefer that."
+    },
+    {
+      "id": 566,
+      "start": 2959.8399999999997,
+      "end": 2961.0,
+      "text": "I think that would be better for the world."
+    },
+    {
+      "id": 567,
+      "start": 2961.3399999999997,
+      "end": 2963.06,
+      "text": "Well, you guys could do something about that."
+    },
+    {
+      "id": 568,
+      "start": 2963.2999999999997,
+      "end": 2964.68,
+      "text": "Thank you both very much."
+    },
+    {
+      "id": 569,
+      "start": 2964.68,
+      "end": 2994.66,
+      "text": "Thank you."
+    },
+    {
+      "id": 570,
+      "start": 2994.68,
+      "end": 3024.66,
+      "text": "Thank you."
+    },
+    {
+      "id": 571,
+      "start": 3024.68,
+      "end": 3029.06,
+      "text": "Thank you."
+    },
+    {
+      "id": 572,
+      "start": 3029.06,
+      "end": 3035.16,
+      "text": "This episode of Radio Davos was written, presented, produced and edited by me, Robin Pomeroy and by my colleague Benjamin Larson."
+    },
+    {
+      "id": 573,
+      "start": 3035.54,
+      "end": 3036.98,
+      "text": "Studio production was by Taz Kell-Aha."
+    },
+    {
+      "id": 574,
+      "start": 3037.12,
+      "end": 3039.06,
+      "text": "Radio Davos will be back next week."
+    },
+    {
+      "id": 575,
+      "start": 3039.16,
+      "end": 3041.1,
+      "text": "But for now, thanks to you for listening and goodbye."
+    }
+  ]
+}

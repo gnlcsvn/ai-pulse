@@ -1,0 +1,2738 @@
+{
+  "metadata": {
+    "video_id": "K7F6ohcBJus",
+    "url": "https://www.youtube.com/watch?v=K7F6ohcBJus",
+    "title": "Anthropic CEO Dario Amodei From World Economic Forum WSJ",
+    "channel": "The Wall Street Journal",
+    "upload_date": "2026-01-20",
+    "duration": "32m",
+    "guests": [
+      "Dario Amodei",
+      "Emma Tucker"
+    ],
+    "transcribed_date": "2026-02-25",
+    "whisper_model": "mlx-community/whisper-large-v3-turbo"
+  },
+  "language": "en",
+  "text": "Very well. Welcome everybody, welcome to Journal House, and a big welcome too to our audiences that are joining us online. But above all, a big welcome to Dario Amadei, the Chief Exec of Anthropic. And thank you for having me. Not at all. So, Dario, we're at Davos, there's a lot going on. But I wanted to start with a big picture question, which I'll characterize like this. It feels to me that this time last year, everybody was very excited about AI, and everyone was talking about what AI can do, its potential, its capabilities. It feels to me as though the debate has shifted somewhat this year to be more less what can AI do to what is AI doing to the world. And I know that you think a lot about these things. So my question is, do you think businesses, policymakers, governments, whatever, are doing enough to prepare for the impact? No. No. I'll explain the longer version now. You know, I've been watching this field for 15 years, and I've been in this field for 10 years. And one of the things I've most noticed is that there's been a surprise, the actual trajectory of the field has been surprisingly on a, you know, the same trajectory. Whereas the kind of public opinion and the reaction of the public has oscillated wildly. I would say that in two different ways. One is the capabilities of the technology. Every three to six months, we have this reversal of polarity, where the media is incredibly excited about what the technology can do. It's going to change everything. And then it's, you know, it's all a bubble. It's all going to fall apart. And what I see is this smooth exponential line where, similar to Moore's law for compute, we basically have a Moore's law for intelligence, where the model is getting more and more cognitively capable every few months. And that march has just been constant. The up and down, the we invented a new thing, it's all going to crash, it's hitting a wall, it's going to go crazy. That is a public perception phenomenon. That's on the capability of the technology. I think there's a similar thing on the polarity of whether the technology is good or bad. You know, in 2023 and 2024, there was a lot of concern about AI, right? There was, you know, concern AI, you know, AI is going to, AI is going to take over. There was a lot of talk about AI risk, AI misuse. Then in 2025, the political wind shifted, as you say, to AI opportunity. And now they're sort of shifting back. And I think throughout all of this, the approach that I have tried to take and the approach that Anthropic has tried to take is one of constancy, of saying that there is balance here. And balance of a very strange form because I think the technology technology is very extreme in what it's capable of doing. But I think it's positive impacts and it's negative impacts that, you know, they both exist, right? I wrote this essay, Machines of Loving Grace, about a year and a half ago. It had a very radical view of the upside of AI, that, you know, it would help us to, you know, cure cancer, eradicate tropical diseases, you know, kind of bring economic development to, you know, parts of the world that haven't seen it. And my view hasn't changed. I believe all of those things. But the other side of it, which, you know, I'm now, you know, kind of writing more about and, you know, may release something about soon, is, yeah, you know, bad things will happen as well. So if we just take, just for an example, as one of the risks, we take the economic side of it, my view is the signature of this technology is it's going to take us to a world where we have very high GDP growth and potentially also very high unemployment and inequality. Now, that's not a combination we've almost ever seen before, right? You think of it as high GDP growth that's lots of stuff to do, lots of jobs for everyone. It's always been like that in the past. We've never had a technology that's this disruptive. So the idea that we could have 5% or 10% GDP growth, but also, you know, 10% unemployment, it's not logically inconsistent at all. It's just never happened that way before. And I'm really quite, you know, for those both reasons, excited and worried. If I take an example, something like AI coding, you know, the latest model we released, Claude Opus 4.5, I have some engineers, some engineering leads within Anthropic who have basically said to me, I don't write any code anymore. I, you know, I just let Opus do the work and I edit it. We just released a new thing called Claude Cowork. We can go into, you know, we can go into that later. But this was a version of our tool, Claude Code, for non-coding. This was built in a week and a half, almost entirely with Claude Opus. There are still things for the software engineers to do, right? It's like, even if the software engineers are only doing 10% of it, they can, you know, they still have a job to do or they can take a level up. That's not going to last forever. The models are going to do more and more. And so there's an incredible, this is a microcosm. You can see there's an incredible amount of productivity here. Software is going to become cheap, maybe essentially free. The premise that you need to amortize a piece of software you build across millions of users, that may start to be false. Like for this meeting, it might cost a few cents to just say, I don't know, let's make some apps so people can talk to each other or whatever. You know, it just may be very flexible and recyclable. But at the same time, there are whole jobs, whole careers that we built for decades that may not be present. And, you know, I think we can deal with it. I think we can adjust to it. But I don't think there's an awareness at all of what is coming here and the magnitude of it. So how, that's, it's so interesting when you say that. So how do you think in a world of high GDP growth, but also high unemployment, you know, what does that do to society? And you said there are, you know, people aren't thinking about it now. Can you give concrete examples of how society might organize itself to adapt to such a world? Yeah. So, you know, I think there's a few things. The first thing that we've done, that we've focused on, and this is not a solution so much as it is a first step, is we have this thing called the Anthropic Economic Index. We've had it for about a year. We've updated it, I think, four or five times now. And what that does is it's a real-time index that lets you track, you know, what our model Claude is being used for. It goes across all the conversations and kind of uses Claude in a privacy-preserving way to, you know, kind of statistically query how Claude is being used. What are the tasks it's being used for? To what extent is it automating versus augmenting tasks? What industries is it being used in? How is it diffusing across states in the United States and countries, countries in the world? We've just added kind of more and more detail here. And my view is until we can measure the shape of this economic transition, any policy is going to be blind and misinformed, right? Many policies have gone wrong because they're based on premises that are fundamentally incorrect. So that's step one. Step two is I think we need to think very carefully about how do we allow people to adapt, right? People can adapt more quickly or they can adapt more slowly. This can mean adapting to use the technology within existing jobs. This can mean adapting, you know, from one job to another job. For example, I think there are probably going to be more jobs in the physical world and less jobs in the knowledge work economy. Now, maybe eventually robotics, you know, makes progress, but I think that's on a slower trajectory. So that's one. Are there jobs that have, you know, still kind of, you know, really value a human touch? Some of them do, some of them don't. We may find out how important that is in the market and where it's most important. At the level of companies, what are the moats when software becomes cheap and then subsequently the rest of knowledge work becomes cheap? We don't know. We've never quite asked that question. We've thought about moats in a certain way. So there's going to be a huge scramble at the level of companies. So, you know, teaching people to adapt, teaching them what to expect, I think, is the second step. And the third step is, I think, there's going to need to be some role for government in a displacement that's this macroeconomically large. I just don't see how it doesn't happen. The pie is going to grow much larger, right? Like, the money is going to be there. Like, you know, the budget may balance without us doing anything because there's so much growth. The issue is distributing it to the right people. And so I think this is probably a time to worry less about disincentivizing growth and worry more about making sure that everyone gets a part of that growth, which I know is the opposite of the prevailing sentiment now. But I think technological reality is about to change in a way that forces our ideas to change. So obviously, in your desire to create this greater sense of urgency, are you speaking to people in the administration? I mean, Anthropic hasn't always been the sort of first on the guest list for this administration. But do you have people there that you're talking to? I have said it to them myself. And, you know, to be clear, there are plenty of things we agree on, right? You know, I think the AI action plan that the administration put out in the middle of this year actually had some very good ideas here. You know, I think we probably agreed with the vast majority of it. But I think most of all, we just want to say these things in public and kind of have a public debate about them, right? We don't control policy. I think the most useful thing we can do is describe to the world what we're seeing and provide data to the world. And then, you know, it's left to the public in a democracy to, you know, to take that data and to use it to drive policy. We can't drive policy on our own. Are you going to be talking to officials while you're here? Have you been along to USA House yet? I've not been to USA House. You know, I will be talking to officials during my trip to Davos. Good. So just to go back to Anthropic then. So you founded Anthropic specifically because you were worried about, you didn't think that OpenAI was taking safety seriously enough. Now, some people say that, you know, the competitive pressures mean that you've gone more hawkish now. I mean, are those competitive pressures, you know, to keep up with China and keep ahead of China, all the rest of it, have they, do you think they have compromised your safety principles? So we've taken a very different route than some of the other players have. I think one of the good choices we made early was to be a company that is focused on enterprise rather than consumer. And I think, you know, it's very hard to fight your own business incentives. It's easier to choose a business model where there's less need to fight your own business incentives. So, you know, I have a lot of worries about consumer AI that it kind of leads to needing to maximize engagement. It leads to slop. You know, we've seen a lot of stuff around ads from some of the other players. You know, Anthropic is not a player that works like that or needs to work like that. We just sell things to businesses and those things directly have value, right? We don't need to monetize a billion free users. We don't need to maximize engagement for a billion free users because we're in some, you know, death race with some other, you know, some other large player. And so I think that has let us think more carefully. But even with that, we have made sacrifices. You know, we do all these tests on our models that others have not done. You know, some other players have done them. But, you know, I think we've been the most, you know, aggressive in, you know, when we run tests that, you know, show up concerning behaviors in our model. You know, these things around deception, blackmail, sycophancy that we show in tests and that are present in all of the models. But, you know, we make sure to always talk to the public about these things. And, you know, we've pioneered the science of mechanistic interpretability for looking inside models. So, you know, have we been perfect? Of course not. I think we've done a generally good job. I mean, you mentioned China. You know, I think that's not about competition. That is about, actually, the public benefit mission is I'm worried that if autocracies lead in this technology, it will be a bad outcome for every single person in this room. And what are your specific concerns there? Is it about the chips, about, you know, sharing data around chips or? Yeah, well, I think, I mean, you know, the kind of means is selling the chips, right? That's the thing that I think will have the most impact on who is ahead and who's not. But, you know, the concern, and, you know, it's not about any particular country or certainly not the people in any country. It's about a form of government. I am concerned that AI may be uniquely well-suited to autocracy and to deepening the repression that we see in autocracies. We already see it in the kind of surveillance state that is possible with today's technology. But if you think of the extent to which AI can make individualized propaganda, can break into any computer system in the world, can, you know, surveil everyone in a population, detect dissent everywhere and suppress it, you know, make, you know, a huge army of drones that could go after each individual person, it's really scary. It's really scary, and we have to stop it. But, again, is that something that you feel governments aren't paying enough attention to? I mean, you know, I think it's fair to say that, you know, obviously, you know, different countries think of themselves as having geopolitical adversaries, but the specific focus on we don't want autocracies to get this powerful technology, and we should have targeted policies. Like, we don't need to fight them. Like, we just need to not sell these chips. That, you know, I think there's not enough focus on that. Mm-hmm. I want to talk a bit more about Claude, because I think it's fair to say it's having a real moment. I mean, we wrote... It's having a moment. It is having a moment. And we recently reported on how engineers and regular users are, like, are getting Claude-pilled. And I just wondered how you feel about the state of the business today versus a year ago. Yeah, I mean, this is one of these things that's been... The growth of the business has been fast, but kind of on the same smooth exponential curve as the technology. So, you know, we have this revenue curve that in 2023 went from zero to roughly 100 million. And 2024 went from roughly 100 million to roughly a billion. 2025 went from roughly a billion to roughly 10 billion. Not exactly. These are rounded numbers, but that is roughly it. You know, through that, if you go on Twitter, every couple months, it's like, Oh my God, Anthropics changing the world. Oh my God, you know, Anthropics totally destroyed. You know, just the excitability of the moment. But we just watch it and we watch this curve. It's fast. It's constantly progressing. It's given us confidence. We never know for sure if it's going to continue. It might not. But that has been empirically what we have observed the whole time. And then there are these moments where even though the curve is smooth, there's a breakout moment. And so right now, I think there's a breakout moment around quad code among developers. You know, this thing about being able to make whole apps and doing things end to end. Again, that advanced gradually. But with our most recent model, Opus 4.5, it just kind of reached an inflection point. Right? Where, you know, the improvement was gradual. But, you know, it's just like, you know, boiling the fraud. You know, you see the gradual improvement. And then there's a specific point at which suddenly that's the point people notice. I think the second thing that has maybe accelerated that further is we looked at quad code. And one of the things we noticed is there were a lot of people inside Anthropic and outside Anthropic who were not technical but who realized that quad code could do these incredible agentic tasks for you. It couldn't just write code. But it could also organize your to-do list or plan your projects or organize your folders or, you know, process a bunch of information and kind of summarize. So the idea that not just a chatbot but agentic tasks were needed. Non-technical people were realizing it. And they wanted it so much that they were wrestling with the command line. Right? Non-technical, you know, they have no reason. If you're not a programmer, it's such a terrible interface to use if you're not a programmer. But people were going through and using it anyway. And so I looked at that and I said, that looks like unmet demand. And so we used quad code, again, in like two weeks, you know, to make basically a kind of a version with a better UI that's customized for tasks other than code. And, you know, we released it. And, you know, within like a day, you know, it had like, you know, you know, most of the metrics on the tenant were like four times as much as anything we'd ever released. So, you know, those are the two moments. I don't know that these are new capabilities, but, you know, there was just one of these kind of consensus moments where people got really excited. And it's driving adoption really fast. I think people are catching up to what the technology is capable of because it's reached a certain point and because we built interfaces that have made it accessible. Can you tell us a bit about how you personally, in your life, your family life, use agentic AI? Yeah. So, you know, when I'm writing like, you know, an essay or something or like, you know, things I say in front of the company, I feel like a fair amount of my job is writing. And so I kind of have Claude, you know, come up with sources, help me with my writing, that kind of thing. And then obviously you're having this great moment. And I think it's widely expected that you're going to IPO this year. Can you tell us a bit about your plans for that? Yeah. I mean, you know, we don't know for sure what we're going to do. And, you know, I would say we're more focused on just keeping the revenue curve going, making the models better, selling the models to people, you know, warning about the societal impacts and bringing the good societal impacts. So, you know, that's kind of the highest priority right now. But, you know, I'm not saying anything novel if I say that this is an industry with very high capital demands and, you know, that there's only so much at some point that the private markets can provide. So another model that's absolutely having a moment is Gemini. Yes. And it sort of surged to the top of the App Store recently and OpenAI declared code red. And so everyone has got very excited about that. Do you worry about your ability to compete against Gemini given the sheer size of Google? So I think this is another place where just being different helps. So, you know, the enterprise strategy, Google and OpenAI are fighting it out in consumer, right? It is existential to both of them. Existential to OpenAI because that's their whole business. Existential to Google because they have the search business and that's what's being disrupted by this. So they need to, you know, replace themselves and fight the disruption. So that's always their first priority. And, you know, they seem much more focused on that than kind of operating in the enterprise. It's been great to see what Gemini is capable of, you know, capable of in consumer. You know, I think they're going about it a different way. I was just on a panel with Demis Asabes who leads research at Google. You know, I think he's a great guy. I've known him for 15 years, so I'm rooting for him. Great. You talk about differences. One difference, I believe, is that our topic doesn't have the ability to generate videos and photos. Do you see that as a potential weakness? You know, I think for enterprise business, you know, there's not really a demand for, like, you know, photos of, you know, cats riding donkeys or, you know, whatever. Whatever consumer video people want. There's maybe an edge case around, like, slides and presentations. But if we ever need it, we can just buy them, you know, we can just contract a model from someone else. So, you know, I don't know what will happen. I don't know what will happen in the future, but I at least don't anticipate needing this. And I think there are problems associated with this. Like, you know, I think, you know, we look at the amount of short-form video out there. Like, a lot of it's fake. A lot of it's pretty addictive. A lot of it's slop. Not to say that all of it is bad or that necessarily doing it means you're bad. But it's not a part of the market that I'm, like, you know, tripping over myself to get involved in. You mentioned that you were on a panel with Demisa Sabis. And when we were chatting earlier yesterday, you said something that I thought was very interesting, that scientists are approaching the AI era, or scientists who are leading these big AI companies are approaching the era differently from sort of tech entrepreneurs. Can you say a bit more about what you mean by that? Yeah, well, so, you know, when you think about this technology, it's really the intersection of research that has been going on for many decades, much of which was academic in nature until, you know, a decade, decade and a half ago. And the kind of scale needed to, you know, needed to develop and deploy these technologies over the last decade and a half, which has only come from the large scale kind of internet and social media companies, right? They have the infrastructure, they have the cash. So we've seen a world in which some of the companies are essentially led by people who have a scientific background. That's my background. That's Demis' background. Some of them are led by the generation of entrepreneurs that did social media. And I think that's very different, that, you know, scientists, there's a long tradition of scientists thinking about the effects of the technology they build, of thinking of themselves as having responsibility for the technology they build, not ducking responsibility, right? They're motivated in the first place by creating something for the world. And so then they worry in the cases where that something can go wrong. I think the motivation of entrepreneurs, particularly the generation of social media entrepreneurs, is very different. The selection effects that operated on them, the way in which they interacted with, you might say, manipulated consumers, is very different. And so I think that leads to different attitudes. Now, we've been taking some questions from readers who submitted their questions online. But before we do that, I just wanted to ask you one more thing, which is that, you know, again, big picture, tensions are running very high at the moment between the US and the EU. Do you wonder about how that might impact how you operate your business? Should things escalate? Look, I mean, you know, we have always, you know, we only speak for ourselves. We've always thought of ourselves as, you know, kind of our own thing. And independent, right? We don't go out of our way to be for or against anyone. But when we, you know, when we disagree on policy, we say so. When we agree on policy, we say so. And we really keep it focused on AI. And so, you know, I haven't seen any reluctance in folks in other parts of the world to work with us, right? We're our own thing. We're providing AI models. We try to do that responsibly. I mean, there's been a lot of talk this week about AI sovereignty. I'm not entirely sure what. Everybody seems to have a different definition. I don't know what it means either. You don't have your own definition. Good. Okay. Well, look. So we have solicited questions from readers online. So I'm going to start now with one from Trevor Loomis. And his question is, what is the single most important technical breakthrough still missing to make frontier AI reliably safe and controllable in real world deployment? So I think we need to make more progress on mechanistic interpretability, which is the science of looking inside the models. One of the problems when we train these models is that we don't know. You can't be sure they're going to do what you think they're going to do. You can talk to the model in one context. It can say all kinds of things. Just as with a human, that may not be a faithful representation of what they're actually thinking. If they tell you, I'm doing X because Y, they might be doing X for a completely different reason. They might be lying about doing X. Like, we're very used to these problems with humans, but they exist with AI as well. And so any kind of phenomenological testing or training, we can't be certain of. But similar to how, you know, you can learn things about human brains by doing an MRI or an X-ray that you can't learn just by talking to a human, the science of looking inside the AI models, I am convinced that this ultimately holds the key to making the model safe and controllable because it's the only ground truth we have. Right. Okay. I have another question here from Jim O'Connell. How will AI affect current K-12 educational achievement gaps? A practical question there from no doubt a parent. Yeah. So, you know, there's kind of the short-term stuff about, you know, people using AI for cheating, which I think is, you know, I think is problematic. But, you know, in relative terms, okay, fine. You can have a kind of a different way of, you know, of teaching using AI. And, you know, we've thought about that. We've released versions of Claude for Education that are kind of designed around that. But I think the harder problem behind that is, okay, what skills are we actually teaching in the world of AI? What does education look like in the world of AI? And it's not so easy because the disruption is broad. And we don't, you know, if someone asks me exactly what career should I go into, the uncomfortable truth is I'm not sure. I can't tell the direction that it's going to go yet. I will say that I think we should go back to some concepts that we had earlier about education. Like, we've had a very kind of, like, economically inflected, almost mercenary notion of education. And I think one of the things that we should do is we should maybe move away from that notion back to the idea that, like, you know, education is designed to shape you as a person, is designed to build character, is, you know, is kind of designed to enrich you and, like, make you a better person. I think that's actually a safer foundation for education in the future. That sounds, I'm rather envious of the kids who are yet to be educated. It's the kind of education I think we'd all have liked to have. So to be fair to everybody in the room then, I just, I think we've got time for one question if anybody would like to ask a question. Yeah? Is the lady here? Yeah, no, no, here's the mic. I wanted to ask from a point of view of the AI labs, what kind of responsibility do you hold when there are economies, countries, and people that are being left behind? Would that expand into structurally involving them? Slowing down or actually making sure that they're not being left out? Yeah, I worry about that on a whole bunch of scales. And it's, you know, it's not just country versus country. Certainly I worry about the developing world versus the developed world, where, you know, sometimes the developing world will get passed by by technological revolutions. But, you know, I also worry about divisions within a country. It has occurred to me, as I've looked across our customers, as the startups are so fast to adopt AI, and the traditional enterprises, because they're bigger, because they do a specific thing, they move much slower. And we can see it in our economic data. We can see the diffusion of the technology from states within the U.S. that adopt it quickly and states that move slowly. It is diffusing. It's getting out there. But there's no question that there's a differential here. If I were to describe the nightmare, and then I'll try to describe some, you know, what I think of as a solutions, the nightmare would be that there's like this emerging zeroth world country of like 10 million people that's like 7 million people in the Bay, you know, in like Silicon Valley. And, you know, 3 million people kind of scattered, scattered, scattered, scattered throughout that, you know, is kind of forming its own economy and is becoming decoupled or disconnected. Right. Maybe the 10 percent GDP growth looks like 50 percent GDP growth in that part. Like this technology is so crazy, it can pull things apart that way. I think that would be a really bad world. I would almost say that it was a dystopian world. Right. And we should think about how to stop that. There are, you know, a number of things Anthropic is thinking about or doing. One is, as regards to developing world, we are starting to do a lot of work around public health. We've announced stuff with, you know, Ronda Ministry of Education. We're doing a lot of work with the Gates Foundation. You know, I wrote about this in Machines of Loving Grace. It would be really great to get these fast economic growth rates, which in theory should be even faster because it's catch-up growth, in the developing world that I predict we're going to get in the developed world. You know, within countries, we need to, you know, we need to think about, you know, how not to have a part of the world that just kind of decouples. Right. How do we get the economic growth to Mississippi that, you know, that is coming to this contained area of Silicon Valley? And so, you know, there we've done work around kind of economic mobility and economic opportunity. But I think both of these, again, are going to need to have some involvement of the government. We're going to find that, you know, ideology will not survive the nature of this technology. It won't survive reality. The things I'm talking about, you know, while you could today say, oh, yeah, they're like politically coded in some way, they're going to become bipartisan and universal because everyone will recognize the necessity of it. Just mark my words. We come back, if not next year, the year after, everyone's going to think this. Well, you've managed to end on a more or less positive note. So I'm going to draw a line there and say thank you very much, Dario. That was really, really fascinating. Thank you for having me.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 1.0,
+      "end": 2.0,
+      "text": "Very well."
+    },
+    {
+      "id": 1,
+      "start": 3.8000000000000003,
+      "end": 6.140000000000001,
+      "text": "Welcome everybody, welcome to Journal House,"
+    },
+    {
+      "id": 2,
+      "start": 6.32,
+      "end": 9.86,
+      "text": "and a big welcome too to our audiences that are joining us online."
+    },
+    {
+      "id": 3,
+      "start": 10.46,
+      "end": 14.52,
+      "text": "But above all, a big welcome to Dario Amadei, the Chief Exec of Anthropic."
+    },
+    {
+      "id": 4,
+      "start": 14.9,
+      "end": 15.860000000000001,
+      "text": "And thank you for having me."
+    },
+    {
+      "id": 5,
+      "start": 16.0,
+      "end": 16.64,
+      "text": "Not at all."
+    },
+    {
+      "id": 6,
+      "start": 17.2,
+      "end": 20.92,
+      "text": "So, Dario, we're at Davos, there's a lot going on."
+    },
+    {
+      "id": 7,
+      "start": 21.44,
+      "end": 24.240000000000002,
+      "text": "But I wanted to start with a big picture question,"
+    },
+    {
+      "id": 8,
+      "start": 24.48,
+      "end": 26.22,
+      "text": "which I'll characterize like this."
+    },
+    {
+      "id": 9,
+      "start": 26.22,
+      "end": 31.5,
+      "text": "It feels to me that this time last year, everybody was very excited about AI,"
+    },
+    {
+      "id": 10,
+      "start": 31.7,
+      "end": 35.64,
+      "text": "and everyone was talking about what AI can do, its potential, its capabilities."
+    },
+    {
+      "id": 11,
+      "start": 36.26,
+      "end": 39.6,
+      "text": "It feels to me as though the debate has shifted somewhat this year"
+    },
+    {
+      "id": 12,
+      "start": 39.6,
+      "end": 44.42,
+      "text": "to be more less what can AI do to what is AI doing to the world."
+    },
+    {
+      "id": 13,
+      "start": 45.14,
+      "end": 47.84,
+      "text": "And I know that you think a lot about these things."
+    },
+    {
+      "id": 14,
+      "start": 47.92,
+      "end": 51.879999999999995,
+      "text": "So my question is, do you think businesses, policymakers, governments, whatever,"
+    },
+    {
+      "id": 15,
+      "start": 52.06,
+      "end": 54.08,
+      "text": "are doing enough to prepare for the impact?"
+    },
+    {
+      "id": 16,
+      "start": 54.08,
+      "end": 54.599999999999994,
+      "text": "No."
+    },
+    {
+      "id": 17,
+      "start": 54.6,
+      "end": 54.9,
+      "text": "No."
+    },
+    {
+      "id": 18,
+      "start": 56.46,
+      "end": 58.08,
+      "text": "I'll explain the longer version now."
+    },
+    {
+      "id": 19,
+      "start": 59.68,
+      "end": 63.52,
+      "text": "You know, I've been watching this field for 15 years,"
+    },
+    {
+      "id": 20,
+      "start": 63.980000000000004,
+      "end": 66.14,
+      "text": "and I've been in this field for 10 years."
+    },
+    {
+      "id": 21,
+      "start": 66.76,
+      "end": 72.06,
+      "text": "And one of the things I've most noticed is that there's been a surprise,"
+    },
+    {
+      "id": 22,
+      "start": 72.22,
+      "end": 80.06,
+      "text": "the actual trajectory of the field has been surprisingly on a, you know, the same trajectory."
+    },
+    {
+      "id": 23,
+      "start": 80.06,
+      "end": 85.56,
+      "text": "Whereas the kind of public opinion and the reaction of the public has oscillated wildly."
+    },
+    {
+      "id": 24,
+      "start": 85.94,
+      "end": 88.10000000000001,
+      "text": "I would say that in two different ways."
+    },
+    {
+      "id": 25,
+      "start": 88.22,
+      "end": 90.24000000000001,
+      "text": "One is the capabilities of the technology."
+    },
+    {
+      "id": 26,
+      "start": 90.78,
+      "end": 94.8,
+      "text": "Every three to six months, we have this reversal of polarity,"
+    },
+    {
+      "id": 27,
+      "start": 94.92,
+      "end": 98.6,
+      "text": "where the media is incredibly excited about what the technology can do."
+    },
+    {
+      "id": 28,
+      "start": 98.6,
+      "end": 99.8,
+      "text": "It's going to change everything."
+    },
+    {
+      "id": 29,
+      "start": 100.16,
+      "end": 101.86,
+      "text": "And then it's, you know, it's all a bubble."
+    },
+    {
+      "id": 30,
+      "start": 102.03999999999999,
+      "end": 103.36,
+      "text": "It's all going to fall apart."
+    },
+    {
+      "id": 31,
+      "start": 103.36,
+      "end": 109.86,
+      "text": "And what I see is this smooth exponential line where, similar to Moore's law for compute,"
+    },
+    {
+      "id": 32,
+      "start": 109.96,
+      "end": 112.12,
+      "text": "we basically have a Moore's law for intelligence,"
+    },
+    {
+      "id": 33,
+      "start": 112.44,
+      "end": 116.92,
+      "text": "where the model is getting more and more cognitively capable every few months."
+    },
+    {
+      "id": 34,
+      "start": 117.06,
+      "end": 119.48,
+      "text": "And that march has just been constant."
+    },
+    {
+      "id": 35,
+      "start": 119.9,
+      "end": 124.36,
+      "text": "The up and down, the we invented a new thing, it's all going to crash, it's hitting a wall,"
+    },
+    {
+      "id": 36,
+      "start": 124.82,
+      "end": 126.16,
+      "text": "it's going to go crazy."
+    },
+    {
+      "id": 37,
+      "start": 126.16,
+      "end": 128.79999999999998,
+      "text": "That is a public perception phenomenon."
+    },
+    {
+      "id": 38,
+      "start": 129.34,
+      "end": 131.56,
+      "text": "That's on the capability of the technology."
+    },
+    {
+      "id": 39,
+      "start": 132.04,
+      "end": 136.51999999999998,
+      "text": "I think there's a similar thing on the polarity of whether the technology is good or bad."
+    },
+    {
+      "id": 40,
+      "start": 138.26,
+      "end": 145.06,
+      "text": "You know, in 2023 and 2024, there was a lot of concern about AI, right?"
+    },
+    {
+      "id": 41,
+      "start": 145.14,
+      "end": 149.56,
+      "text": "There was, you know, concern AI, you know, AI is going to, AI is going to take over."
+    },
+    {
+      "id": 42,
+      "start": 149.72,
+      "end": 153.01999999999998,
+      "text": "There was a lot of talk about AI risk, AI misuse."
+    },
+    {
+      "id": 43,
+      "start": 153.02,
+      "end": 159.3,
+      "text": "Then in 2025, the political wind shifted, as you say, to AI opportunity."
+    },
+    {
+      "id": 44,
+      "start": 159.98000000000002,
+      "end": 161.94,
+      "text": "And now they're sort of shifting back."
+    },
+    {
+      "id": 45,
+      "start": 162.58,
+      "end": 168.10000000000002,
+      "text": "And I think throughout all of this, the approach that I have tried to take"
+    },
+    {
+      "id": 46,
+      "start": 168.10000000000002,
+      "end": 172.26000000000002,
+      "text": "and the approach that Anthropic has tried to take is one of constancy,"
+    },
+    {
+      "id": 47,
+      "start": 172.42000000000002,
+      "end": 174.10000000000002,
+      "text": "of saying that there is balance here."
+    },
+    {
+      "id": 48,
+      "start": 175.12,
+      "end": 179.16000000000003,
+      "text": "And balance of a very strange form because I think the technology"
+    },
+    {
+      "id": 49,
+      "start": 179.16,
+      "end": 183.48,
+      "text": "technology is very extreme in what it's capable of doing."
+    },
+    {
+      "id": 50,
+      "start": 183.68,
+      "end": 187.14,
+      "text": "But I think it's positive impacts and it's negative impacts that, you know,"
+    },
+    {
+      "id": 51,
+      "start": 187.18,
+      "end": 188.51999999999998,
+      "text": "they both exist, right?"
+    },
+    {
+      "id": 52,
+      "start": 188.54,
+      "end": 192.3,
+      "text": "I wrote this essay, Machines of Loving Grace, about a year and a half ago."
+    },
+    {
+      "id": 53,
+      "start": 192.35999999999999,
+      "end": 195.42,
+      "text": "It had a very radical view of the upside of AI, that, you know,"
+    },
+    {
+      "id": 54,
+      "start": 195.46,
+      "end": 200.56,
+      "text": "it would help us to, you know, cure cancer, eradicate tropical diseases,"
+    },
+    {
+      "id": 55,
+      "start": 200.56,
+      "end": 206.52,
+      "text": "you know, kind of bring economic development to, you know, parts of the world that haven't seen it."
+    },
+    {
+      "id": 56,
+      "start": 206.84,
+      "end": 208.02,
+      "text": "And my view hasn't changed."
+    },
+    {
+      "id": 57,
+      "start": 208.08,
+      "end": 209.16,
+      "text": "I believe all of those things."
+    },
+    {
+      "id": 58,
+      "start": 210.08,
+      "end": 215.96,
+      "text": "But the other side of it, which, you know, I'm now, you know,"
+    },
+    {
+      "id": 59,
+      "start": 216.02,
+      "end": 220.62,
+      "text": "kind of writing more about and, you know, may release something about soon,"
+    },
+    {
+      "id": 60,
+      "start": 221.02,
+      "end": 224.64000000000001,
+      "text": "is, yeah, you know, bad things will happen as well."
+    },
+    {
+      "id": 61,
+      "start": 224.64,
+      "end": 230.66,
+      "text": "So if we just take, just for an example, as one of the risks, we take the economic side of it,"
+    },
+    {
+      "id": 62,
+      "start": 231.23999999999998,
+      "end": 238.11999999999998,
+      "text": "my view is the signature of this technology is it's going to take us to a world where we have"
+    },
+    {
+      "id": 63,
+      "start": 238.11999999999998,
+      "end": 245.57999999999998,
+      "text": "very high GDP growth and potentially also very high unemployment and inequality."
+    },
+    {
+      "id": 64,
+      "start": 245.95999999999998,
+      "end": 249.29999999999998,
+      "text": "Now, that's not a combination we've almost ever seen before, right?"
+    },
+    {
+      "id": 65,
+      "start": 249.33999999999997,
+      "end": 254.07999999999998,
+      "text": "You think of it as high GDP growth that's lots of stuff to do, lots of jobs for everyone."
+    },
+    {
+      "id": 66,
+      "start": 254.08,
+      "end": 255.94000000000003,
+      "text": "It's always been like that in the past."
+    },
+    {
+      "id": 67,
+      "start": 256.36,
+      "end": 259.42,
+      "text": "We've never had a technology that's this disruptive."
+    },
+    {
+      "id": 68,
+      "start": 259.56,
+      "end": 266.34000000000003,
+      "text": "So the idea that we could have 5% or 10% GDP growth, but also, you know, 10% unemployment,"
+    },
+    {
+      "id": 69,
+      "start": 266.66,
+      "end": 268.76,
+      "text": "it's not logically inconsistent at all."
+    },
+    {
+      "id": 70,
+      "start": 269.04,
+      "end": 271.90000000000003,
+      "text": "It's just never happened that way before."
+    },
+    {
+      "id": 71,
+      "start": 272.38,
+      "end": 277.46000000000004,
+      "text": "And I'm really quite, you know, for those both reasons, excited and worried."
+    },
+    {
+      "id": 72,
+      "start": 277.66,
+      "end": 282.7,
+      "text": "If I take an example, something like AI coding, you know,"
+    },
+    {
+      "id": 73,
+      "start": 282.7,
+      "end": 291.08,
+      "text": "the latest model we released, Claude Opus 4.5, I have some engineers, some engineering leads"
+    },
+    {
+      "id": 74,
+      "start": 291.08,
+      "end": 296.62,
+      "text": "within Anthropic who have basically said to me, I don't write any code anymore."
+    },
+    {
+      "id": 75,
+      "start": 297.2,
+      "end": 300.32,
+      "text": "I, you know, I just let Opus do the work and I edit it."
+    },
+    {
+      "id": 76,
+      "start": 300.38,
+      "end": 302.8,
+      "text": "We just released a new thing called Claude Cowork."
+    },
+    {
+      "id": 77,
+      "start": 302.8,
+      "end": 305.72,
+      "text": "We can go into, you know, we can go into that later."
+    },
+    {
+      "id": 78,
+      "start": 306.12,
+      "end": 310.32,
+      "text": "But this was a version of our tool, Claude Code, for non-coding."
+    },
+    {
+      "id": 79,
+      "start": 310.40000000000003,
+      "end": 314.7,
+      "text": "This was built in a week and a half, almost entirely with Claude Opus."
+    },
+    {
+      "id": 80,
+      "start": 314.74,
+      "end": 316.7,
+      "text": "There are still things for the software engineers to do, right?"
+    },
+    {
+      "id": 81,
+      "start": 316.74,
+      "end": 321.08000000000004,
+      "text": "It's like, even if the software engineers are only doing 10% of it, they can, you know,"
+    },
+    {
+      "id": 82,
+      "start": 321.08000000000004,
+      "end": 323.56,
+      "text": "they still have a job to do or they can take a level up."
+    },
+    {
+      "id": 83,
+      "start": 323.88,
+      "end": 325.44,
+      "text": "That's not going to last forever."
+    },
+    {
+      "id": 84,
+      "start": 325.44,
+      "end": 327.82,
+      "text": "The models are going to do more and more."
+    },
+    {
+      "id": 85,
+      "start": 327.96,
+      "end": 330.9,
+      "text": "And so there's an incredible, this is a microcosm."
+    },
+    {
+      "id": 86,
+      "start": 330.96,
+      "end": 333.48,
+      "text": "You can see there's an incredible amount of productivity here."
+    },
+    {
+      "id": 87,
+      "start": 333.9,
+      "end": 337.28,
+      "text": "Software is going to become cheap, maybe essentially free."
+    },
+    {
+      "id": 88,
+      "start": 337.64,
+      "end": 343.78,
+      "text": "The premise that you need to amortize a piece of software you build across millions of users,"
+    },
+    {
+      "id": 89,
+      "start": 343.98,
+      "end": 345.56,
+      "text": "that may start to be false."
+    },
+    {
+      "id": 90,
+      "start": 345.9,
+      "end": 350.34,
+      "text": "Like for this meeting, it might cost a few cents to just say, I don't know,"
+    },
+    {
+      "id": 91,
+      "start": 350.34,
+      "end": 353.71999999999997,
+      "text": "let's make some apps so people can talk to each other or whatever."
+    },
+    {
+      "id": 92,
+      "start": 353.88,
+      "end": 358.46,
+      "text": "You know, it just may be very flexible and recyclable."
+    },
+    {
+      "id": 93,
+      "start": 358.97999999999996,
+      "end": 363.97999999999996,
+      "text": "But at the same time, there are whole jobs, whole careers that we built for decades"
+    },
+    {
+      "id": 94,
+      "start": 363.97999999999996,
+      "end": 366.29999999999995,
+      "text": "that may not be present."
+    },
+    {
+      "id": 95,
+      "start": 366.44,
+      "end": 367.97999999999996,
+      "text": "And, you know, I think we can deal with it."
+    },
+    {
+      "id": 96,
+      "start": 368.03999999999996,
+      "end": 369.91999999999996,
+      "text": "I think we can adjust to it."
+    },
+    {
+      "id": 97,
+      "start": 370.05999999999995,
+      "end": 377.35999999999996,
+      "text": "But I don't think there's an awareness at all of what is coming here and the magnitude of it."
+    },
+    {
+      "id": 98,
+      "start": 377.36,
+      "end": 380.32,
+      "text": "So how, that's, it's so interesting when you say that."
+    },
+    {
+      "id": 99,
+      "start": 380.38,
+      "end": 386.16,
+      "text": "So how do you think in a world of high GDP growth, but also high unemployment,"
+    },
+    {
+      "id": 100,
+      "start": 386.6,
+      "end": 387.90000000000003,
+      "text": "you know, what does that do to society?"
+    },
+    {
+      "id": 101,
+      "start": 388.06,
+      "end": 390.64,
+      "text": "And you said there are, you know, people aren't thinking about it now."
+    },
+    {
+      "id": 102,
+      "start": 390.7,
+      "end": 396.02000000000004,
+      "text": "Can you give concrete examples of how society might organize itself to adapt to such a world?"
+    },
+    {
+      "id": 103,
+      "start": 396.7,
+      "end": 396.90000000000003,
+      "text": "Yeah."
+    },
+    {
+      "id": 104,
+      "start": 397.16,
+      "end": 399.68,
+      "text": "So, you know, I think there's a few things."
+    },
+    {
+      "id": 105,
+      "start": 400.16,
+      "end": 403.92,
+      "text": "The first thing that we've done, that we've focused on,"
+    },
+    {
+      "id": 106,
+      "start": 403.92,
+      "end": 406.62,
+      "text": "and this is not a solution so much as it is a first step,"
+    },
+    {
+      "id": 107,
+      "start": 406.62,
+      "end": 410.24,
+      "text": "is we have this thing called the Anthropic Economic Index."
+    },
+    {
+      "id": 108,
+      "start": 410.36,
+      "end": 411.98,
+      "text": "We've had it for about a year."
+    },
+    {
+      "id": 109,
+      "start": 412.3,
+      "end": 414.64,
+      "text": "We've updated it, I think, four or five times now."
+    },
+    {
+      "id": 110,
+      "start": 415.14,
+      "end": 421.16,
+      "text": "And what that does is it's a real-time index that lets you track, you know,"
+    },
+    {
+      "id": 111,
+      "start": 421.2,
+      "end": 423.26,
+      "text": "what our model Claude is being used for."
+    },
+    {
+      "id": 112,
+      "start": 423.32,
+      "end": 427.52,
+      "text": "It goes across all the conversations and kind of uses Claude in a privacy-preserving way"
+    },
+    {
+      "id": 113,
+      "start": 427.52,
+      "end": 432.52,
+      "text": "to, you know, kind of statistically query how Claude is being used."
+    },
+    {
+      "id": 114,
+      "start": 432.58,
+      "end": 434.14,
+      "text": "What are the tasks it's being used for?"
+    },
+    {
+      "id": 115,
+      "start": 434.14,
+      "end": 438.97999999999996,
+      "text": "To what extent is it automating versus augmenting tasks?"
+    },
+    {
+      "id": 116,
+      "start": 439.44,
+      "end": 441.24,
+      "text": "What industries is it being used in?"
+    },
+    {
+      "id": 117,
+      "start": 441.32,
+      "end": 446.15999999999997,
+      "text": "How is it diffusing across states in the United States and countries, countries in the world?"
+    },
+    {
+      "id": 118,
+      "start": 446.16,
+      "end": 449.28000000000003,
+      "text": "We've just added kind of more and more detail here."
+    },
+    {
+      "id": 119,
+      "start": 449.78000000000003,
+      "end": 454.38000000000005,
+      "text": "And my view is until we can measure the shape of this economic transition,"
+    },
+    {
+      "id": 120,
+      "start": 454.78000000000003,
+      "end": 457.66,
+      "text": "any policy is going to be blind and misinformed, right?"
+    },
+    {
+      "id": 121,
+      "start": 457.72,
+      "end": 462.74,
+      "text": "Many policies have gone wrong because they're based on premises that are fundamentally incorrect."
+    },
+    {
+      "id": 122,
+      "start": 463.16,
+      "end": 465.18,
+      "text": "So that's step one."
+    },
+    {
+      "id": 123,
+      "start": 465.18,
+      "end": 471.64,
+      "text": "Step two is I think we need to think very carefully about how do we allow people to adapt, right?"
+    },
+    {
+      "id": 124,
+      "start": 471.7,
+      "end": 474.88,
+      "text": "People can adapt more quickly or they can adapt more slowly."
+    },
+    {
+      "id": 125,
+      "start": 474.98,
+      "end": 479.22,
+      "text": "This can mean adapting to use the technology within existing jobs."
+    },
+    {
+      "id": 126,
+      "start": 479.62,
+      "end": 484.42,
+      "text": "This can mean adapting, you know, from one job to another job."
+    },
+    {
+      "id": 127,
+      "start": 484.56,
+      "end": 488.92,
+      "text": "For example, I think there are probably going to be more jobs in the physical world"
+    },
+    {
+      "id": 128,
+      "start": 488.92,
+      "end": 491.7,
+      "text": "and less jobs in the knowledge work economy."
+    },
+    {
+      "id": 129,
+      "start": 491.7,
+      "end": 497.38,
+      "text": "Now, maybe eventually robotics, you know, makes progress, but I think that's on a slower trajectory."
+    },
+    {
+      "id": 130,
+      "start": 497.74,
+      "end": 498.52,
+      "text": "So that's one."
+    },
+    {
+      "id": 131,
+      "start": 498.94,
+      "end": 504.12,
+      "text": "Are there jobs that have, you know, still kind of, you know, really value a human touch?"
+    },
+    {
+      "id": 132,
+      "start": 504.84,
+      "end": 506.32,
+      "text": "Some of them do, some of them don't."
+    },
+    {
+      "id": 133,
+      "start": 506.38,
+      "end": 510.86,
+      "text": "We may find out how important that is in the market and where it's most important."
+    },
+    {
+      "id": 134,
+      "start": 511.18,
+      "end": 515.2,
+      "text": "At the level of companies, what are the moats when software becomes cheap"
+    },
+    {
+      "id": 135,
+      "start": 515.2,
+      "end": 518.58,
+      "text": "and then subsequently the rest of knowledge work becomes cheap?"
+    },
+    {
+      "id": 136,
+      "start": 518.84,
+      "end": 519.34,
+      "text": "We don't know."
+    },
+    {
+      "id": 137,
+      "start": 519.42,
+      "end": 520.74,
+      "text": "We've never quite asked that question."
+    },
+    {
+      "id": 138,
+      "start": 520.74,
+      "end": 522.32,
+      "text": "We've thought about moats in a certain way."
+    },
+    {
+      "id": 139,
+      "start": 522.48,
+      "end": 526.6,
+      "text": "So there's going to be a huge scramble at the level of companies."
+    },
+    {
+      "id": 140,
+      "start": 526.96,
+      "end": 531.86,
+      "text": "So, you know, teaching people to adapt, teaching them what to expect, I think, is the second step."
+    },
+    {
+      "id": 141,
+      "start": 532.5,
+      "end": 537.66,
+      "text": "And the third step is, I think, there's going to need to be some role for government"
+    },
+    {
+      "id": 142,
+      "start": 537.66,
+      "end": 542.38,
+      "text": "in a displacement that's this macroeconomically large."
+    },
+    {
+      "id": 143,
+      "start": 542.5600000000001,
+      "end": 545.04,
+      "text": "I just don't see how it doesn't happen."
+    },
+    {
+      "id": 144,
+      "start": 545.5,
+      "end": 547.88,
+      "text": "The pie is going to grow much larger, right?"
+    },
+    {
+      "id": 145,
+      "start": 547.88,
+      "end": 549.76,
+      "text": "Like, the money is going to be there."
+    },
+    {
+      "id": 146,
+      "start": 550.1,
+      "end": 554.74,
+      "text": "Like, you know, the budget may balance without us doing anything because there's so much growth."
+    },
+    {
+      "id": 147,
+      "start": 556.04,
+      "end": 558.7,
+      "text": "The issue is distributing it to the right people."
+    },
+    {
+      "id": 148,
+      "start": 558.9399999999999,
+      "end": 565.02,
+      "text": "And so I think this is probably a time to worry less about disincentivizing growth and worry more"
+    },
+    {
+      "id": 149,
+      "start": 565.02,
+      "end": 573.46,
+      "text": "about making sure that everyone gets a part of that growth, which I know is the opposite of the prevailing sentiment now."
+    },
+    {
+      "id": 150,
+      "start": 573.46,
+      "end": 579.24,
+      "text": "But I think technological reality is about to change in a way that forces our ideas to change."
+    },
+    {
+      "id": 151,
+      "start": 579.24,
+      "end": 585.58,
+      "text": "So obviously, in your desire to create this greater sense of urgency, are you speaking to people in the administration?"
+    },
+    {
+      "id": 152,
+      "start": 585.86,
+      "end": 590.0,
+      "text": "I mean, Anthropic hasn't always been the sort of first on the guest list for this administration."
+    },
+    {
+      "id": 153,
+      "start": 590.1800000000001,
+      "end": 592.42,
+      "text": "But do you have people there that you're talking to?"
+    },
+    {
+      "id": 154,
+      "start": 592.84,
+      "end": 595.42,
+      "text": "I have said it to them myself."
+    },
+    {
+      "id": 155,
+      "start": 595.42,
+      "end": 602.18,
+      "text": "And, you know, to be clear, there are plenty of things we agree on, right?"
+    },
+    {
+      "id": 156,
+      "start": 602.56,
+      "end": 608.54,
+      "text": "You know, I think the AI action plan that the administration put out in the middle of this year"
+    },
+    {
+      "id": 157,
+      "start": 608.54,
+      "end": 612.26,
+      "text": "actually had some very good ideas here."
+    },
+    {
+      "id": 158,
+      "start": 612.4799999999999,
+      "end": 618.0,
+      "text": "You know, I think we probably agreed with the vast majority of it."
+    },
+    {
+      "id": 159,
+      "start": 618.0,
+      "end": 624.44,
+      "text": "But I think most of all, we just want to say these things in public and kind of have a public debate about them, right?"
+    },
+    {
+      "id": 160,
+      "start": 624.48,
+      "end": 626.14,
+      "text": "We don't control policy."
+    },
+    {
+      "id": 161,
+      "start": 626.64,
+      "end": 634.36,
+      "text": "I think the most useful thing we can do is describe to the world what we're seeing and provide data to the world."
+    },
+    {
+      "id": 162,
+      "start": 634.88,
+      "end": 644.38,
+      "text": "And then, you know, it's left to the public in a democracy to, you know, to take that data and to use it to drive policy."
+    },
+    {
+      "id": 163,
+      "start": 644.46,
+      "end": 645.9,
+      "text": "We can't drive policy on our own."
+    },
+    {
+      "id": 164,
+      "start": 645.9,
+      "end": 648.22,
+      "text": "Are you going to be talking to officials while you're here?"
+    },
+    {
+      "id": 165,
+      "start": 648.42,
+      "end": 650.68,
+      "text": "Have you been along to USA House yet?"
+    },
+    {
+      "id": 166,
+      "start": 651.04,
+      "end": 653.34,
+      "text": "I've not been to USA House."
+    },
+    {
+      "id": 167,
+      "start": 653.6,
+      "end": 658.86,
+      "text": "You know, I will be talking to officials during my trip to Davos."
+    },
+    {
+      "id": 168,
+      "start": 660.18,
+      "end": 660.64,
+      "text": "Good."
+    },
+    {
+      "id": 169,
+      "start": 661.0,
+      "end": 663.74,
+      "text": "So just to go back to Anthropic then."
+    },
+    {
+      "id": 170,
+      "start": 663.86,
+      "end": 671.28,
+      "text": "So you founded Anthropic specifically because you were worried about, you didn't think that OpenAI was taking safety seriously enough."
+    },
+    {
+      "id": 171,
+      "start": 671.28,
+      "end": 676.64,
+      "text": "Now, some people say that, you know, the competitive pressures mean that you've gone more hawkish now."
+    },
+    {
+      "id": 172,
+      "start": 677.04,
+      "end": 685.54,
+      "text": "I mean, are those competitive pressures, you know, to keep up with China and keep ahead of China, all the rest of it, have they, do you think they have compromised your safety principles?"
+    },
+    {
+      "id": 173,
+      "start": 685.54,
+      "end": 689.78,
+      "text": "So we've taken a very different route than some of the other players have."
+    },
+    {
+      "id": 174,
+      "start": 690.5,
+      "end": 700.14,
+      "text": "I think one of the good choices we made early was to be a company that is focused on enterprise rather than consumer."
+    },
+    {
+      "id": 175,
+      "start": 700.14,
+      "end": 705.0,
+      "text": "And I think, you know, it's very hard to fight your own business incentives."
+    },
+    {
+      "id": 176,
+      "start": 705.4399999999999,
+      "end": 710.48,
+      "text": "It's easier to choose a business model where there's less need to fight your own business incentives."
+    },
+    {
+      "id": 177,
+      "start": 711.04,
+      "end": 718.04,
+      "text": "So, you know, I have a lot of worries about consumer AI that it kind of leads to needing to maximize engagement."
+    },
+    {
+      "id": 178,
+      "start": 718.56,
+      "end": 719.78,
+      "text": "It leads to slop."
+    },
+    {
+      "id": 179,
+      "start": 720.3199999999999,
+      "end": 724.8,
+      "text": "You know, we've seen a lot of stuff around ads from some of the other players."
+    },
+    {
+      "id": 180,
+      "start": 725.4399999999999,
+      "end": 729.98,
+      "text": "You know, Anthropic is not a player that works like that or needs to work like that."
+    },
+    {
+      "id": 181,
+      "start": 730.38,
+      "end": 734.52,
+      "text": "We just sell things to businesses and those things directly have value, right?"
+    },
+    {
+      "id": 182,
+      "start": 734.58,
+      "end": 737.82,
+      "text": "We don't need to monetize a billion free users."
+    },
+    {
+      "id": 183,
+      "start": 738.12,
+      "end": 747.7,
+      "text": "We don't need to maximize engagement for a billion free users because we're in some, you know, death race with some other, you know, some other large player."
+    },
+    {
+      "id": 184,
+      "start": 747.82,
+      "end": 750.78,
+      "text": "And so I think that has let us think more carefully."
+    },
+    {
+      "id": 185,
+      "start": 751.38,
+      "end": 753.26,
+      "text": "But even with that, we have made sacrifices."
+    },
+    {
+      "id": 186,
+      "start": 753.5600000000001,
+      "end": 758.02,
+      "text": "You know, we do all these tests on our models that others have not done."
+    },
+    {
+      "id": 187,
+      "start": 758.02,
+      "end": 760.9,
+      "text": "You know, some other players have done them."
+    },
+    {
+      "id": 188,
+      "start": 761.12,
+      "end": 770.5,
+      "text": "But, you know, I think we've been the most, you know, aggressive in, you know, when we run tests that, you know, show up concerning behaviors in our model."
+    },
+    {
+      "id": 189,
+      "start": 770.64,
+      "end": 777.16,
+      "text": "You know, these things around deception, blackmail, sycophancy that we show in tests and that are present in all of the models."
+    },
+    {
+      "id": 190,
+      "start": 777.16,
+      "end": 782.9599999999999,
+      "text": "But, you know, we make sure to always talk to the public about these things."
+    },
+    {
+      "id": 191,
+      "start": 783.64,
+      "end": 789.76,
+      "text": "And, you know, we've pioneered the science of mechanistic interpretability for looking inside models."
+    },
+    {
+      "id": 192,
+      "start": 790.24,
+      "end": 792.36,
+      "text": "So, you know, have we been perfect?"
+    },
+    {
+      "id": 193,
+      "start": 792.54,
+      "end": 793.1,
+      "text": "Of course not."
+    },
+    {
+      "id": 194,
+      "start": 793.42,
+      "end": 795.0799999999999,
+      "text": "I think we've done a generally good job."
+    },
+    {
+      "id": 195,
+      "start": 795.08,
+      "end": 796.38,
+      "text": "I mean, you mentioned China."
+    },
+    {
+      "id": 196,
+      "start": 796.98,
+      "end": 799.14,
+      "text": "You know, I think that's not about competition."
+    },
+    {
+      "id": 197,
+      "start": 799.44,
+      "end": 809.62,
+      "text": "That is about, actually, the public benefit mission is I'm worried that if autocracies lead in this technology, it will be a bad outcome for every single person in this room."
+    },
+    {
+      "id": 198,
+      "start": 809.84,
+      "end": 811.44,
+      "text": "And what are your specific concerns there?"
+    },
+    {
+      "id": 199,
+      "start": 811.5400000000001,
+      "end": 816.12,
+      "text": "Is it about the chips, about, you know, sharing data around chips or?"
+    },
+    {
+      "id": 200,
+      "start": 816.12,
+      "end": 821.48,
+      "text": "Yeah, well, I think, I mean, you know, the kind of means is selling the chips, right?"
+    },
+    {
+      "id": 201,
+      "start": 821.5600000000001,
+      "end": 827.62,
+      "text": "That's the thing that I think will have the most impact on who is ahead and who's not."
+    },
+    {
+      "id": 202,
+      "start": 828.04,
+      "end": 834.86,
+      "text": "But, you know, the concern, and, you know, it's not about any particular country or certainly not the people in any country."
+    },
+    {
+      "id": 203,
+      "start": 835.0,
+      "end": 837.18,
+      "text": "It's about a form of government."
+    },
+    {
+      "id": 204,
+      "start": 837.18,
+      "end": 848.16,
+      "text": "I am concerned that AI may be uniquely well-suited to autocracy and to deepening the repression that we see in autocracies."
+    },
+    {
+      "id": 205,
+      "start": 848.2399999999999,
+      "end": 852.5999999999999,
+      "text": "We already see it in the kind of surveillance state that is possible with today's technology."
+    },
+    {
+      "id": 206,
+      "start": 853.06,
+      "end": 860.92,
+      "text": "But if you think of the extent to which AI can make individualized propaganda, can break into any computer system in the world,"
+    },
+    {
+      "id": 207,
+      "start": 860.92,
+      "end": 869.56,
+      "text": "can, you know, surveil everyone in a population, detect dissent everywhere and suppress it,"
+    },
+    {
+      "id": 208,
+      "start": 869.9599999999999,
+      "end": 878.14,
+      "text": "you know, make, you know, a huge army of drones that could go after each individual person, it's really scary."
+    },
+    {
+      "id": 209,
+      "start": 878.56,
+      "end": 880.68,
+      "text": "It's really scary, and we have to stop it."
+    },
+    {
+      "id": 210,
+      "start": 881.0799999999999,
+      "end": 886.04,
+      "text": "But, again, is that something that you feel governments aren't paying enough attention to?"
+    },
+    {
+      "id": 211,
+      "start": 886.04,
+      "end": 895.8199999999999,
+      "text": "I mean, you know, I think it's fair to say that, you know, obviously, you know, different countries think of themselves as having geopolitical adversaries,"
+    },
+    {
+      "id": 212,
+      "start": 895.98,
+      "end": 902.4599999999999,
+      "text": "but the specific focus on we don't want autocracies to get this powerful technology,"
+    },
+    {
+      "id": 213,
+      "start": 902.64,
+      "end": 905.3,
+      "text": "and we should have targeted policies."
+    },
+    {
+      "id": 214,
+      "start": 905.86,
+      "end": 907.26,
+      "text": "Like, we don't need to fight them."
+    },
+    {
+      "id": 215,
+      "start": 907.38,
+      "end": 909.98,
+      "text": "Like, we just need to not sell these chips."
+    },
+    {
+      "id": 216,
+      "start": 911.88,
+      "end": 915.0799999999999,
+      "text": "That, you know, I think there's not enough focus on that."
+    },
+    {
+      "id": 217,
+      "start": 915.08,
+      "end": 915.5600000000001,
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 218,
+      "start": 916.48,
+      "end": 921.5200000000001,
+      "text": "I want to talk a bit more about Claude, because I think it's fair to say it's having a real moment."
+    },
+    {
+      "id": 219,
+      "start": 921.6600000000001,
+      "end": 922.1800000000001,
+      "text": "I mean, we wrote..."
+    },
+    {
+      "id": 220,
+      "start": 922.1800000000001,
+      "end": 922.9000000000001,
+      "text": "It's having a moment."
+    },
+    {
+      "id": 221,
+      "start": 922.94,
+      "end": 923.7800000000001,
+      "text": "It is having a moment."
+    },
+    {
+      "id": 222,
+      "start": 923.88,
+      "end": 929.5200000000001,
+      "text": "And we recently reported on how engineers and regular users are, like, are getting Claude-pilled."
+    },
+    {
+      "id": 223,
+      "start": 930.74,
+      "end": 934.74,
+      "text": "And I just wondered how you feel about the state of the business today versus a year ago."
+    },
+    {
+      "id": 224,
+      "start": 935.6600000000001,
+      "end": 938.4000000000001,
+      "text": "Yeah, I mean, this is one of these things that's been..."
+    },
+    {
+      "id": 225,
+      "start": 938.4000000000001,
+      "end": 945.0,
+      "text": "The growth of the business has been fast, but kind of on the same smooth exponential curve as the technology."
+    },
+    {
+      "id": 226,
+      "start": 945.5400000000001,
+      "end": 952.7,
+      "text": "So, you know, we have this revenue curve that in 2023 went from zero to roughly 100 million."
+    },
+    {
+      "id": 227,
+      "start": 953.22,
+      "end": 956.64,
+      "text": "And 2024 went from roughly 100 million to roughly a billion."
+    },
+    {
+      "id": 228,
+      "start": 957.0200000000001,
+      "end": 960.22,
+      "text": "2025 went from roughly a billion to roughly 10 billion."
+    },
+    {
+      "id": 229,
+      "start": 960.5600000000001,
+      "end": 961.12,
+      "text": "Not exactly."
+    },
+    {
+      "id": 230,
+      "start": 961.22,
+      "end": 964.26,
+      "text": "These are rounded numbers, but that is roughly it."
+    },
+    {
+      "id": 231,
+      "start": 964.5200000000001,
+      "end": 967.64,
+      "text": "You know, through that, if you go on Twitter, every couple months, it's like,"
+    },
+    {
+      "id": 232,
+      "start": 967.64,
+      "end": 969.46,
+      "text": "Oh my God, Anthropics changing the world."
+    },
+    {
+      "id": 233,
+      "start": 969.8,
+      "end": 972.02,
+      "text": "Oh my God, you know, Anthropics totally destroyed."
+    },
+    {
+      "id": 234,
+      "start": 972.12,
+      "end": 975.12,
+      "text": "You know, just the excitability of the moment."
+    },
+    {
+      "id": 235,
+      "start": 975.58,
+      "end": 977.6,
+      "text": "But we just watch it and we watch this curve."
+    },
+    {
+      "id": 236,
+      "start": 977.96,
+      "end": 978.76,
+      "text": "It's fast."
+    },
+    {
+      "id": 237,
+      "start": 978.92,
+      "end": 980.38,
+      "text": "It's constantly progressing."
+    },
+    {
+      "id": 238,
+      "start": 980.6,
+      "end": 981.64,
+      "text": "It's given us confidence."
+    },
+    {
+      "id": 239,
+      "start": 981.78,
+      "end": 983.4399999999999,
+      "text": "We never know for sure if it's going to continue."
+    },
+    {
+      "id": 240,
+      "start": 983.54,
+      "end": 984.14,
+      "text": "It might not."
+    },
+    {
+      "id": 241,
+      "start": 984.56,
+      "end": 987.9399999999999,
+      "text": "But that has been empirically what we have observed the whole time."
+    },
+    {
+      "id": 242,
+      "start": 988.28,
+      "end": 992.46,
+      "text": "And then there are these moments where even though the curve is smooth, there's a breakout moment."
+    },
+    {
+      "id": 243,
+      "start": 992.46,
+      "end": 998.4000000000001,
+      "text": "And so right now, I think there's a breakout moment around quad code among developers."
+    },
+    {
+      "id": 244,
+      "start": 999.34,
+      "end": 1003.58,
+      "text": "You know, this thing about being able to make whole apps and doing things end to end."
+    },
+    {
+      "id": 245,
+      "start": 1003.86,
+      "end": 1005.5400000000001,
+      "text": "Again, that advanced gradually."
+    },
+    {
+      "id": 246,
+      "start": 1005.7800000000001,
+      "end": 1011.22,
+      "text": "But with our most recent model, Opus 4.5, it just kind of reached an inflection point."
+    },
+    {
+      "id": 247,
+      "start": 1011.46,
+      "end": 1011.76,
+      "text": "Right?"
+    },
+    {
+      "id": 248,
+      "start": 1011.86,
+      "end": 1014.14,
+      "text": "Where, you know, the improvement was gradual."
+    },
+    {
+      "id": 249,
+      "start": 1014.62,
+      "end": 1017.2,
+      "text": "But, you know, it's just like, you know, boiling the fraud."
+    },
+    {
+      "id": 250,
+      "start": 1017.32,
+      "end": 1019.34,
+      "text": "You know, you see the gradual improvement."
+    },
+    {
+      "id": 251,
+      "start": 1019.34,
+      "end": 1023.8000000000001,
+      "text": "And then there's a specific point at which suddenly that's the point people notice."
+    },
+    {
+      "id": 252,
+      "start": 1024.22,
+      "end": 1029.88,
+      "text": "I think the second thing that has maybe accelerated that further is we looked at quad code."
+    },
+    {
+      "id": 253,
+      "start": 1029.96,
+      "end": 1035.96,
+      "text": "And one of the things we noticed is there were a lot of people inside Anthropic and outside Anthropic"
+    },
+    {
+      "id": 254,
+      "start": 1035.96,
+      "end": 1043.14,
+      "text": "who were not technical but who realized that quad code could do these incredible agentic tasks for you."
+    },
+    {
+      "id": 255,
+      "start": 1043.22,
+      "end": 1044.7,
+      "text": "It couldn't just write code."
+    },
+    {
+      "id": 256,
+      "start": 1044.7,
+      "end": 1049.5800000000002,
+      "text": "But it could also organize your to-do list or plan your projects or organize your folders"
+    },
+    {
+      "id": 257,
+      "start": 1049.5800000000002,
+      "end": 1053.7,
+      "text": "or, you know, process a bunch of information and kind of summarize."
+    },
+    {
+      "id": 258,
+      "start": 1053.88,
+      "end": 1059.26,
+      "text": "So the idea that not just a chatbot but agentic tasks were needed."
+    },
+    {
+      "id": 259,
+      "start": 1060.6000000000001,
+      "end": 1062.5,
+      "text": "Non-technical people were realizing it."
+    },
+    {
+      "id": 260,
+      "start": 1062.64,
+      "end": 1066.02,
+      "text": "And they wanted it so much that they were wrestling with the command line."
+    },
+    {
+      "id": 261,
+      "start": 1066.16,
+      "end": 1066.22,
+      "text": "Right?"
+    },
+    {
+      "id": 262,
+      "start": 1066.26,
+      "end": 1067.96,
+      "text": "Non-technical, you know, they have no reason."
+    },
+    {
+      "id": 263,
+      "start": 1067.96,
+      "end": 1072.0,
+      "text": "If you're not a programmer, it's such a terrible interface to use if you're not a programmer."
+    },
+    {
+      "id": 264,
+      "start": 1072.3,
+      "end": 1073.94,
+      "text": "But people were going through and using it anyway."
+    },
+    {
+      "id": 265,
+      "start": 1074.06,
+      "end": 1076.5,
+      "text": "And so I looked at that and I said, that looks like unmet demand."
+    },
+    {
+      "id": 266,
+      "start": 1077.04,
+      "end": 1085.3400000000001,
+      "text": "And so we used quad code, again, in like two weeks, you know, to make basically a kind of a version"
+    },
+    {
+      "id": 267,
+      "start": 1085.34,
+      "end": 1092.1799999999998,
+      "text": "with a better UI that's customized for tasks other than code."
+    },
+    {
+      "id": 268,
+      "start": 1092.8799999999999,
+      "end": 1095.1399999999999,
+      "text": "And, you know, we released it."
+    },
+    {
+      "id": 269,
+      "start": 1095.32,
+      "end": 1099.78,
+      "text": "And, you know, within like a day, you know, it had like, you know, you know,"
+    },
+    {
+      "id": 270,
+      "start": 1100.62,
+      "end": 1106.1999999999998,
+      "text": "most of the metrics on the tenant were like four times as much as anything we'd ever released."
+    },
+    {
+      "id": 271,
+      "start": 1106.8999999999999,
+      "end": 1108.48,
+      "text": "So, you know, those are the two moments."
+    },
+    {
+      "id": 272,
+      "start": 1108.48,
+      "end": 1113.9,
+      "text": "I don't know that these are new capabilities, but, you know, there was just one of these kind of consensus moments"
+    },
+    {
+      "id": 273,
+      "start": 1113.9,
+      "end": 1115.88,
+      "text": "where people got really excited."
+    },
+    {
+      "id": 274,
+      "start": 1116.04,
+      "end": 1118.24,
+      "text": "And it's driving adoption really fast."
+    },
+    {
+      "id": 275,
+      "start": 1118.32,
+      "end": 1123.14,
+      "text": "I think people are catching up to what the technology is capable of because it's reached a certain point"
+    },
+    {
+      "id": 276,
+      "start": 1123.14,
+      "end": 1125.46,
+      "text": "and because we built interfaces that have made it accessible."
+    },
+    {
+      "id": 277,
+      "start": 1125.76,
+      "end": 1130.4,
+      "text": "Can you tell us a bit about how you personally, in your life, your family life, use agentic AI?"
+    },
+    {
+      "id": 278,
+      "start": 1131.24,
+      "end": 1131.56,
+      "text": "Yeah."
+    },
+    {
+      "id": 279,
+      "start": 1132.02,
+      "end": 1136.5,
+      "text": "So, you know, when I'm writing like, you know, an essay or something or like, you know,"
+    },
+    {
+      "id": 280,
+      "start": 1136.5,
+      "end": 1140.58,
+      "text": "things I say in front of the company, I feel like a fair amount of my job is writing."
+    },
+    {
+      "id": 281,
+      "start": 1140.82,
+      "end": 1147.22,
+      "text": "And so I kind of have Claude, you know, come up with sources, help me with my writing, that kind of thing."
+    },
+    {
+      "id": 282,
+      "start": 1147.92,
+      "end": 1150.1,
+      "text": "And then obviously you're having this great moment."
+    },
+    {
+      "id": 283,
+      "start": 1150.22,
+      "end": 1153.7,
+      "text": "And I think it's widely expected that you're going to IPO this year."
+    },
+    {
+      "id": 284,
+      "start": 1153.78,
+      "end": 1155.52,
+      "text": "Can you tell us a bit about your plans for that?"
+    },
+    {
+      "id": 285,
+      "start": 1156.0,
+      "end": 1156.22,
+      "text": "Yeah."
+    },
+    {
+      "id": 286,
+      "start": 1156.3,
+      "end": 1160.18,
+      "text": "I mean, you know, we don't know for sure what we're going to do."
+    },
+    {
+      "id": 287,
+      "start": 1160.18,
+      "end": 1164.74,
+      "text": "And, you know, I would say we're more focused on just keeping the revenue curve going,"
+    },
+    {
+      "id": 288,
+      "start": 1164.74,
+      "end": 1168.5,
+      "text": "making the models better, selling the models to people, you know,"
+    },
+    {
+      "id": 289,
+      "start": 1168.68,
+      "end": 1172.06,
+      "text": "warning about the societal impacts and bringing the good societal impacts."
+    },
+    {
+      "id": 290,
+      "start": 1172.26,
+      "end": 1177.38,
+      "text": "So, you know, that's kind of the highest priority right now."
+    },
+    {
+      "id": 291,
+      "start": 1177.48,
+      "end": 1182.44,
+      "text": "But, you know, I'm not saying anything novel if I say that this is an industry with very high capital demands"
+    },
+    {
+      "id": 292,
+      "start": 1182.44,
+      "end": 1189.14,
+      "text": "and, you know, that there's only so much at some point that the private markets can provide."
+    },
+    {
+      "id": 293,
+      "start": 1189.14,
+      "end": 1193.4,
+      "text": "So another model that's absolutely having a moment is Gemini."
+    },
+    {
+      "id": 294,
+      "start": 1193.6200000000001,
+      "end": 1193.8400000000001,
+      "text": "Yes."
+    },
+    {
+      "id": 295,
+      "start": 1193.96,
+      "end": 1197.96,
+      "text": "And it sort of surged to the top of the App Store recently and OpenAI declared code red."
+    },
+    {
+      "id": 296,
+      "start": 1198.44,
+      "end": 1200.3600000000001,
+      "text": "And so everyone has got very excited about that."
+    },
+    {
+      "id": 297,
+      "start": 1201.0400000000002,
+      "end": 1207.46,
+      "text": "Do you worry about your ability to compete against Gemini given the sheer size of Google?"
+    },
+    {
+      "id": 298,
+      "start": 1207.46,
+      "end": 1212.24,
+      "text": "So I think this is another place where just being different helps."
+    },
+    {
+      "id": 299,
+      "start": 1212.94,
+      "end": 1219.04,
+      "text": "So, you know, the enterprise strategy, Google and OpenAI are fighting it out in consumer, right?"
+    },
+    {
+      "id": 300,
+      "start": 1219.46,
+      "end": 1221.8,
+      "text": "It is existential to both of them."
+    },
+    {
+      "id": 301,
+      "start": 1221.9,
+      "end": 1225.32,
+      "text": "Existential to OpenAI because that's their whole business."
+    },
+    {
+      "id": 302,
+      "start": 1225.78,
+      "end": 1230.38,
+      "text": "Existential to Google because they have the search business and that's what's being disrupted by this."
+    },
+    {
+      "id": 303,
+      "start": 1230.44,
+      "end": 1234.88,
+      "text": "So they need to, you know, replace themselves and fight the disruption."
+    },
+    {
+      "id": 304,
+      "start": 1234.88,
+      "end": 1237.3000000000002,
+      "text": "So that's always their first priority."
+    },
+    {
+      "id": 305,
+      "start": 1238.3000000000002,
+      "end": 1246.3000000000002,
+      "text": "And, you know, they seem much more focused on that than kind of operating in the enterprise."
+    },
+    {
+      "id": 306,
+      "start": 1246.7600000000002,
+      "end": 1251.5400000000002,
+      "text": "It's been great to see what Gemini is capable of, you know, capable of in consumer."
+    },
+    {
+      "id": 307,
+      "start": 1251.72,
+      "end": 1254.6200000000001,
+      "text": "You know, I think they're going about it a different way."
+    },
+    {
+      "id": 308,
+      "start": 1254.8000000000002,
+      "end": 1259.4,
+      "text": "I was just on a panel with Demis Asabes who leads research at Google."
+    },
+    {
+      "id": 309,
+      "start": 1259.5800000000002,
+      "end": 1260.8200000000002,
+      "text": "You know, I think he's a great guy."
+    },
+    {
+      "id": 310,
+      "start": 1260.9,
+      "end": 1263.0,
+      "text": "I've known him for 15 years, so I'm rooting for him."
+    },
+    {
+      "id": 311,
+      "start": 1263.0,
+      "end": 1263.14,
+      "text": "Great."
+    },
+    {
+      "id": 312,
+      "start": 1264.06,
+      "end": 1265.26,
+      "text": "You talk about differences."
+    },
+    {
+      "id": 313,
+      "start": 1265.4,
+      "end": 1270.86,
+      "text": "One difference, I believe, is that our topic doesn't have the ability to generate videos and photos."
+    },
+    {
+      "id": 314,
+      "start": 1271.04,
+      "end": 1273.06,
+      "text": "Do you see that as a potential weakness?"
+    },
+    {
+      "id": 315,
+      "start": 1273.9,
+      "end": 1284.92,
+      "text": "You know, I think for enterprise business, you know, there's not really a demand for, like, you know, photos of, you know, cats riding donkeys or, you know, whatever."
+    },
+    {
+      "id": 316,
+      "start": 1286.2,
+      "end": 1288.48,
+      "text": "Whatever consumer video people want."
+    },
+    {
+      "id": 317,
+      "start": 1288.48,
+      "end": 1291.2,
+      "text": "There's maybe an edge case around, like, slides and presentations."
+    },
+    {
+      "id": 318,
+      "start": 1291.48,
+      "end": 1298.48,
+      "text": "But if we ever need it, we can just buy them, you know, we can just contract a model from someone else."
+    },
+    {
+      "id": 319,
+      "start": 1298.58,
+      "end": 1300.72,
+      "text": "So, you know, I don't know what will happen."
+    },
+    {
+      "id": 320,
+      "start": 1301.22,
+      "end": 1305.26,
+      "text": "I don't know what will happen in the future, but I at least don't anticipate needing this."
+    },
+    {
+      "id": 321,
+      "start": 1305.26,
+      "end": 1307.72,
+      "text": "And I think there are problems associated with this."
+    },
+    {
+      "id": 322,
+      "start": 1307.94,
+      "end": 1311.66,
+      "text": "Like, you know, I think, you know, we look at the amount of short-form video out there."
+    },
+    {
+      "id": 323,
+      "start": 1311.76,
+      "end": 1312.92,
+      "text": "Like, a lot of it's fake."
+    },
+    {
+      "id": 324,
+      "start": 1313.24,
+      "end": 1314.82,
+      "text": "A lot of it's pretty addictive."
+    },
+    {
+      "id": 325,
+      "start": 1315.32,
+      "end": 1316.42,
+      "text": "A lot of it's slop."
+    },
+    {
+      "id": 326,
+      "start": 1316.9,
+      "end": 1321.7,
+      "text": "Not to say that all of it is bad or that necessarily doing it means you're bad."
+    },
+    {
+      "id": 327,
+      "start": 1321.7,
+      "end": 1329.16,
+      "text": "But it's not a part of the market that I'm, like, you know, tripping over myself to get involved in."
+    },
+    {
+      "id": 328,
+      "start": 1329.68,
+      "end": 1332.7,
+      "text": "You mentioned that you were on a panel with Demisa Sabis."
+    },
+    {
+      "id": 329,
+      "start": 1332.9,
+      "end": 1337.94,
+      "text": "And when we were chatting earlier yesterday, you said something that I thought was very interesting,"
+    },
+    {
+      "id": 330,
+      "start": 1338.1200000000001,
+      "end": 1347.28,
+      "text": "that scientists are approaching the AI era, or scientists who are leading these big AI companies are approaching the era differently from sort of tech entrepreneurs."
+    },
+    {
+      "id": 331,
+      "start": 1347.74,
+      "end": 1349.88,
+      "text": "Can you say a bit more about what you mean by that?"
+    },
+    {
+      "id": 332,
+      "start": 1349.88,
+      "end": 1360.0200000000002,
+      "text": "Yeah, well, so, you know, when you think about this technology, it's really the intersection of research that has been going on for many decades,"
+    },
+    {
+      "id": 333,
+      "start": 1360.42,
+      "end": 1364.92,
+      "text": "much of which was academic in nature until, you know, a decade, decade and a half ago."
+    },
+    {
+      "id": 334,
+      "start": 1366.1200000000001,
+      "end": 1375.3000000000002,
+      "text": "And the kind of scale needed to, you know, needed to develop and deploy these technologies over the last decade and a half,"
+    },
+    {
+      "id": 335,
+      "start": 1375.3,
+      "end": 1380.6599999999999,
+      "text": "which has only come from the large scale kind of internet and social media companies, right?"
+    },
+    {
+      "id": 336,
+      "start": 1380.7,
+      "end": 1382.48,
+      "text": "They have the infrastructure, they have the cash."
+    },
+    {
+      "id": 337,
+      "start": 1382.82,
+      "end": 1389.84,
+      "text": "So we've seen a world in which some of the companies are essentially led by people who have a scientific background."
+    },
+    {
+      "id": 338,
+      "start": 1389.96,
+      "end": 1390.76,
+      "text": "That's my background."
+    },
+    {
+      "id": 339,
+      "start": 1390.9199999999998,
+      "end": 1391.84,
+      "text": "That's Demis' background."
+    },
+    {
+      "id": 340,
+      "start": 1392.22,
+      "end": 1395.78,
+      "text": "Some of them are led by the generation of entrepreneurs that did social media."
+    },
+    {
+      "id": 341,
+      "start": 1395.78,
+      "end": 1407.52,
+      "text": "And I think that's very different, that, you know, scientists, there's a long tradition of scientists thinking about the effects of the technology they build,"
+    },
+    {
+      "id": 342,
+      "start": 1407.8,
+      "end": 1414.84,
+      "text": "of thinking of themselves as having responsibility for the technology they build, not ducking responsibility, right?"
+    },
+    {
+      "id": 343,
+      "start": 1414.96,
+      "end": 1419.8999999999999,
+      "text": "They're motivated in the first place by creating something for the world."
+    },
+    {
+      "id": 344,
+      "start": 1419.9,
+      "end": 1424.4,
+      "text": "And so then they worry in the cases where that something can go wrong."
+    },
+    {
+      "id": 345,
+      "start": 1424.98,
+      "end": 1433.6000000000001,
+      "text": "I think the motivation of entrepreneurs, particularly the generation of social media entrepreneurs, is very different."
+    },
+    {
+      "id": 346,
+      "start": 1433.68,
+      "end": 1441.02,
+      "text": "The selection effects that operated on them, the way in which they interacted with, you might say, manipulated consumers, is very different."
+    },
+    {
+      "id": 347,
+      "start": 1441.6200000000001,
+      "end": 1445.9,
+      "text": "And so I think that leads to different attitudes."
+    },
+    {
+      "id": 348,
+      "start": 1445.9,
+      "end": 1452.1200000000001,
+      "text": "Now, we've been taking some questions from readers who submitted their questions online."
+    },
+    {
+      "id": 349,
+      "start": 1452.22,
+      "end": 1460.18,
+      "text": "But before we do that, I just wanted to ask you one more thing, which is that, you know, again, big picture, tensions are running very high at the moment between the US and the EU."
+    },
+    {
+      "id": 350,
+      "start": 1460.52,
+      "end": 1464.46,
+      "text": "Do you wonder about how that might impact how you operate your business?"
+    },
+    {
+      "id": 351,
+      "start": 1464.64,
+      "end": 1465.7,
+      "text": "Should things escalate?"
+    },
+    {
+      "id": 352,
+      "start": 1466.3000000000002,
+      "end": 1470.4,
+      "text": "Look, I mean, you know, we have always, you know, we only speak for ourselves."
+    },
+    {
+      "id": 353,
+      "start": 1470.7800000000002,
+      "end": 1474.6000000000001,
+      "text": "We've always thought of ourselves as, you know, kind of our own thing."
+    },
+    {
+      "id": 354,
+      "start": 1474.6,
+      "end": 1478.02,
+      "text": "And independent, right?"
+    },
+    {
+      "id": 355,
+      "start": 1478.06,
+      "end": 1482.02,
+      "text": "We don't go out of our way to be for or against anyone."
+    },
+    {
+      "id": 356,
+      "start": 1482.28,
+      "end": 1486.82,
+      "text": "But when we, you know, when we disagree on policy, we say so."
+    },
+    {
+      "id": 357,
+      "start": 1486.9199999999998,
+      "end": 1489.28,
+      "text": "When we agree on policy, we say so."
+    },
+    {
+      "id": 358,
+      "start": 1489.4199999999998,
+      "end": 1491.58,
+      "text": "And we really keep it focused on AI."
+    },
+    {
+      "id": 359,
+      "start": 1491.58,
+      "end": 1499.4399999999998,
+      "text": "And so, you know, I haven't seen any reluctance in folks in other parts of the world to work with us, right?"
+    },
+    {
+      "id": 360,
+      "start": 1499.4399999999998,
+      "end": 1500.4199999999998,
+      "text": "We're our own thing."
+    },
+    {
+      "id": 361,
+      "start": 1500.56,
+      "end": 1502.04,
+      "text": "We're providing AI models."
+    },
+    {
+      "id": 362,
+      "start": 1502.2199999999998,
+      "end": 1503.6599999999999,
+      "text": "We try to do that responsibly."
+    },
+    {
+      "id": 363,
+      "start": 1503.66,
+      "end": 1506.8400000000001,
+      "text": "I mean, there's been a lot of talk this week about AI sovereignty."
+    },
+    {
+      "id": 364,
+      "start": 1507.1000000000001,
+      "end": 1508.22,
+      "text": "I'm not entirely sure what."
+    },
+    {
+      "id": 365,
+      "start": 1508.72,
+      "end": 1509.74,
+      "text": "Everybody seems to have a different definition."
+    },
+    {
+      "id": 366,
+      "start": 1509.74,
+      "end": 1510.72,
+      "text": "I don't know what it means either."
+    },
+    {
+      "id": 367,
+      "start": 1511.0,
+      "end": 1512.44,
+      "text": "You don't have your own definition."
+    },
+    {
+      "id": 368,
+      "start": 1514.3600000000001,
+      "end": 1514.8400000000001,
+      "text": "Good."
+    },
+    {
+      "id": 369,
+      "start": 1515.02,
+      "end": 1515.3000000000002,
+      "text": "Okay."
+    },
+    {
+      "id": 370,
+      "start": 1515.4,
+      "end": 1515.74,
+      "text": "Well, look."
+    },
+    {
+      "id": 371,
+      "start": 1515.94,
+      "end": 1520.24,
+      "text": "So we have solicited questions from readers online."
+    },
+    {
+      "id": 372,
+      "start": 1520.24,
+      "end": 1523.76,
+      "text": "So I'm going to start now with one from Trevor Loomis."
+    },
+    {
+      "id": 373,
+      "start": 1524.56,
+      "end": 1535.52,
+      "text": "And his question is, what is the single most important technical breakthrough still missing to make frontier AI reliably safe and controllable in real world deployment?"
+    },
+    {
+      "id": 374,
+      "start": 1535.52,
+      "end": 1543.5,
+      "text": "So I think we need to make more progress on mechanistic interpretability, which is the science of looking inside the models."
+    },
+    {
+      "id": 375,
+      "start": 1543.5,
+      "end": 1548.34,
+      "text": "One of the problems when we train these models is that we don't know."
+    },
+    {
+      "id": 376,
+      "start": 1548.34,
+      "end": 1552.1999999999998,
+      "text": "You can't be sure they're going to do what you think they're going to do."
+    },
+    {
+      "id": 377,
+      "start": 1552.26,
+      "end": 1554.08,
+      "text": "You can talk to the model in one context."
+    },
+    {
+      "id": 378,
+      "start": 1554.4199999999998,
+      "end": 1555.84,
+      "text": "It can say all kinds of things."
+    },
+    {
+      "id": 379,
+      "start": 1556.1799999999998,
+      "end": 1561.56,
+      "text": "Just as with a human, that may not be a faithful representation of what they're actually thinking."
+    },
+    {
+      "id": 380,
+      "start": 1561.56,
+      "end": 1566.6599999999999,
+      "text": "If they tell you, I'm doing X because Y, they might be doing X for a completely different reason."
+    },
+    {
+      "id": 381,
+      "start": 1566.66,
+      "end": 1568.46,
+      "text": "They might be lying about doing X."
+    },
+    {
+      "id": 382,
+      "start": 1568.76,
+      "end": 1573.7,
+      "text": "Like, we're very used to these problems with humans, but they exist with AI as well."
+    },
+    {
+      "id": 383,
+      "start": 1574.0600000000002,
+      "end": 1578.42,
+      "text": "And so any kind of phenomenological testing or training, we can't be certain of."
+    },
+    {
+      "id": 384,
+      "start": 1578.88,
+      "end": 1587.88,
+      "text": "But similar to how, you know, you can learn things about human brains by doing an MRI or an X-ray that you can't learn just by talking to a human,"
+    },
+    {
+      "id": 385,
+      "start": 1587.88,
+      "end": 1599.16,
+      "text": "the science of looking inside the AI models, I am convinced that this ultimately holds the key to making the model safe and controllable because it's the only ground truth we have."
+    },
+    {
+      "id": 386,
+      "start": 1599.8200000000002,
+      "end": 1600.0400000000002,
+      "text": "Right."
+    },
+    {
+      "id": 387,
+      "start": 1600.66,
+      "end": 1601.0600000000002,
+      "text": "Okay."
+    },
+    {
+      "id": 388,
+      "start": 1601.72,
+      "end": 1604.1000000000001,
+      "text": "I have another question here from Jim O'Connell."
+    },
+    {
+      "id": 389,
+      "start": 1604.8600000000001,
+      "end": 1609.22,
+      "text": "How will AI affect current K-12 educational achievement gaps?"
+    },
+    {
+      "id": 390,
+      "start": 1609.8600000000001,
+      "end": 1611.92,
+      "text": "A practical question there from no doubt a parent."
+    },
+    {
+      "id": 391,
+      "start": 1612.3400000000001,
+      "end": 1612.5200000000002,
+      "text": "Yeah."
+    },
+    {
+      "id": 392,
+      "start": 1612.52,
+      "end": 1621.1399999999999,
+      "text": "So, you know, there's kind of the short-term stuff about, you know, people using AI for cheating, which I think is, you know, I think is problematic."
+    },
+    {
+      "id": 393,
+      "start": 1621.82,
+      "end": 1625.0,
+      "text": "But, you know, in relative terms, okay, fine."
+    },
+    {
+      "id": 394,
+      "start": 1625.06,
+      "end": 1630.3,
+      "text": "You can have a kind of a different way of, you know, of teaching using AI."
+    },
+    {
+      "id": 395,
+      "start": 1630.56,
+      "end": 1631.86,
+      "text": "And, you know, we've thought about that."
+    },
+    {
+      "id": 396,
+      "start": 1631.94,
+      "end": 1636.66,
+      "text": "We've released versions of Claude for Education that are kind of designed around that."
+    },
+    {
+      "id": 397,
+      "start": 1636.66,
+      "end": 1643.74,
+      "text": "But I think the harder problem behind that is, okay, what skills are we actually teaching in the world of AI?"
+    },
+    {
+      "id": 398,
+      "start": 1643.9,
+      "end": 1646.88,
+      "text": "What does education look like in the world of AI?"
+    },
+    {
+      "id": 399,
+      "start": 1647.38,
+      "end": 1650.42,
+      "text": "And it's not so easy because the disruption is broad."
+    },
+    {
+      "id": 400,
+      "start": 1651.18,
+      "end": 1658.7,
+      "text": "And we don't, you know, if someone asks me exactly what career should I go into, the uncomfortable truth is I'm not sure."
+    },
+    {
+      "id": 401,
+      "start": 1658.7,
+      "end": 1663.4,
+      "text": "I can't tell the direction that it's going to go yet."
+    },
+    {
+      "id": 402,
+      "start": 1663.64,
+      "end": 1670.1200000000001,
+      "text": "I will say that I think we should go back to some concepts that we had earlier about education."
+    },
+    {
+      "id": 403,
+      "start": 1670.28,
+      "end": 1677.98,
+      "text": "Like, we've had a very kind of, like, economically inflected, almost mercenary notion of education."
+    },
+    {
+      "id": 404,
+      "start": 1677.98,
+      "end": 1697.8600000000001,
+      "text": "And I think one of the things that we should do is we should maybe move away from that notion back to the idea that, like, you know, education is designed to shape you as a person, is designed to build character, is, you know, is kind of designed to enrich you and, like, make you a better person."
+    },
+    {
+      "id": 405,
+      "start": 1698.14,
+      "end": 1701.76,
+      "text": "I think that's actually a safer foundation for education in the future."
+    },
+    {
+      "id": 406,
+      "start": 1701.76,
+      "end": 1705.42,
+      "text": "That sounds, I'm rather envious of the kids who are yet to be educated."
+    },
+    {
+      "id": 407,
+      "start": 1705.56,
+      "end": 1707.52,
+      "text": "It's the kind of education I think we'd all have liked to have."
+    },
+    {
+      "id": 408,
+      "start": 1707.98,
+      "end": 1714.3,
+      "text": "So to be fair to everybody in the room then, I just, I think we've got time for one question if anybody would like to ask a question."
+    },
+    {
+      "id": 409,
+      "start": 1714.44,
+      "end": 1714.56,
+      "text": "Yeah?"
+    },
+    {
+      "id": 410,
+      "start": 1716.04,
+      "end": 1716.96,
+      "text": "Is the lady here?"
+    },
+    {
+      "id": 411,
+      "start": 1718.1,
+      "end": 1719.66,
+      "text": "Yeah, no, no, here's the mic."
+    },
+    {
+      "id": 412,
+      "start": 1720.76,
+      "end": 1730.92,
+      "text": "I wanted to ask from a point of view of the AI labs, what kind of responsibility do you hold when there are economies, countries, and people that are being left behind?"
+    },
+    {
+      "id": 413,
+      "start": 1731.46,
+      "end": 1735.22,
+      "text": "Would that expand into structurally involving them?"
+    },
+    {
+      "id": 414,
+      "start": 1735.22,
+      "end": 1740.18,
+      "text": "Slowing down or actually making sure that they're not being left out?"
+    },
+    {
+      "id": 415,
+      "start": 1740.18,
+      "end": 1743.8200000000002,
+      "text": "Yeah, I worry about that on a whole bunch of scales."
+    },
+    {
+      "id": 416,
+      "start": 1744.38,
+      "end": 1746.98,
+      "text": "And it's, you know, it's not just country versus country."
+    },
+    {
+      "id": 417,
+      "start": 1747.0600000000002,
+      "end": 1756.2,
+      "text": "Certainly I worry about the developing world versus the developed world, where, you know, sometimes the developing world will get passed by by technological revolutions."
+    },
+    {
+      "id": 418,
+      "start": 1756.2,
+      "end": 1760.72,
+      "text": "But, you know, I also worry about divisions within a country."
+    },
+    {
+      "id": 419,
+      "start": 1761.2,
+      "end": 1773.18,
+      "text": "It has occurred to me, as I've looked across our customers, as the startups are so fast to adopt AI, and the traditional enterprises, because they're bigger, because they do a specific thing, they move much slower."
+    },
+    {
+      "id": 420,
+      "start": 1773.18,
+      "end": 1776.02,
+      "text": "And we can see it in our economic data."
+    },
+    {
+      "id": 421,
+      "start": 1776.1200000000001,
+      "end": 1782.76,
+      "text": "We can see the diffusion of the technology from states within the U.S. that adopt it quickly and states that move slowly."
+    },
+    {
+      "id": 422,
+      "start": 1783.0600000000002,
+      "end": 1783.96,
+      "text": "It is diffusing."
+    },
+    {
+      "id": 423,
+      "start": 1784.0800000000002,
+      "end": 1784.8400000000001,
+      "text": "It's getting out there."
+    },
+    {
+      "id": 424,
+      "start": 1785.1200000000001,
+      "end": 1788.0800000000002,
+      "text": "But there's no question that there's a differential here."
+    },
+    {
+      "id": 425,
+      "start": 1788.08,
+      "end": 1806.04,
+      "text": "If I were to describe the nightmare, and then I'll try to describe some, you know, what I think of as a solutions, the nightmare would be that there's like this emerging zeroth world country of like 10 million people that's like 7 million people in the Bay, you know, in like Silicon Valley."
+    },
+    {
+      "id": 426,
+      "start": 1806.04,
+      "end": 1815.5,
+      "text": "And, you know, 3 million people kind of scattered, scattered, scattered, scattered throughout that, you know, is kind of forming its own economy and is becoming decoupled or disconnected."
+    },
+    {
+      "id": 427,
+      "start": 1815.5,
+      "end": 1820.02,
+      "text": "Right. Maybe the 10 percent GDP growth looks like 50 percent GDP growth in that part."
+    },
+    {
+      "id": 428,
+      "start": 1820.22,
+      "end": 1823.78,
+      "text": "Like this technology is so crazy, it can pull things apart that way."
+    },
+    {
+      "id": 429,
+      "start": 1824.54,
+      "end": 1826.52,
+      "text": "I think that would be a really bad world."
+    },
+    {
+      "id": 430,
+      "start": 1826.62,
+      "end": 1828.92,
+      "text": "I would almost say that it was a dystopian world."
+    },
+    {
+      "id": 431,
+      "start": 1829.0,
+      "end": 1832.0,
+      "text": "Right. And we should think about how to stop that."
+    },
+    {
+      "id": 432,
+      "start": 1832.62,
+      "end": 1836.5,
+      "text": "There are, you know, a number of things Anthropic is thinking about or doing."
+    },
+    {
+      "id": 433,
+      "start": 1837.4,
+      "end": 1843.34,
+      "text": "One is, as regards to developing world, we are starting to do a lot of work around public health."
+    },
+    {
+      "id": 434,
+      "start": 1843.34,
+      "end": 1846.6999999999998,
+      "text": "We've announced stuff with, you know, Ronda Ministry of Education."
+    },
+    {
+      "id": 435,
+      "start": 1847.04,
+      "end": 1849.6799999999998,
+      "text": "We're doing a lot of work with the Gates Foundation."
+    },
+    {
+      "id": 436,
+      "start": 1850.62,
+      "end": 1853.12,
+      "text": "You know, I wrote about this in Machines of Loving Grace."
+    },
+    {
+      "id": 437,
+      "start": 1853.24,
+      "end": 1859.08,
+      "text": "It would be really great to get these fast economic growth rates, which in theory should be even faster because it's catch-up growth,"
+    },
+    {
+      "id": 438,
+      "start": 1859.4599999999998,
+      "end": 1863.74,
+      "text": "in the developing world that I predict we're going to get in the developed world."
+    },
+    {
+      "id": 439,
+      "start": 1863.74,
+      "end": 1874.52,
+      "text": "You know, within countries, we need to, you know, we need to think about, you know, how not to have a part of the world that just kind of decouples."
+    },
+    {
+      "id": 440,
+      "start": 1874.66,
+      "end": 1882.72,
+      "text": "Right. How do we get the economic growth to Mississippi that, you know, that is coming to this contained area of Silicon Valley?"
+    },
+    {
+      "id": 441,
+      "start": 1882.72,
+      "end": 1887.7,
+      "text": "And so, you know, there we've done work around kind of economic mobility and economic opportunity."
+    },
+    {
+      "id": 442,
+      "start": 1888.18,
+      "end": 1892.2,
+      "text": "But I think both of these, again, are going to need to have some involvement of the government."
+    },
+    {
+      "id": 443,
+      "start": 1892.64,
+      "end": 1899.0,
+      "text": "We're going to find that, you know, ideology will not survive the nature of this technology."
+    },
+    {
+      "id": 444,
+      "start": 1899.1200000000001,
+      "end": 1900.48,
+      "text": "It won't survive reality."
+    },
+    {
+      "id": 445,
+      "start": 1900.88,
+      "end": 1907.72,
+      "text": "The things I'm talking about, you know, while you could today say, oh, yeah, they're like politically coded in some way,"
+    },
+    {
+      "id": 446,
+      "start": 1907.72,
+      "end": 1912.04,
+      "text": "they're going to become bipartisan and universal because everyone will recognize the necessity of it."
+    },
+    {
+      "id": 447,
+      "start": 1912.1200000000001,
+      "end": 1913.14,
+      "text": "Just mark my words."
+    },
+    {
+      "id": 448,
+      "start": 1913.26,
+      "end": 1917.42,
+      "text": "We come back, if not next year, the year after, everyone's going to think this."
+    },
+    {
+      "id": 449,
+      "start": 1917.76,
+      "end": 1920.76,
+      "text": "Well, you've managed to end on a more or less positive note."
+    },
+    {
+      "id": 450,
+      "start": 1920.8600000000001,
+      "end": 1924.02,
+      "text": "So I'm going to draw a line there and say thank you very much, Dario."
+    },
+    {
+      "id": 451,
+      "start": 1924.1000000000001,
+      "end": 1925.42,
+      "text": "That was really, really fascinating."
+    },
+    {
+      "id": 452,
+      "start": 1925.66,
+      "end": 1926.34,
+      "text": "Thank you for having me."
+    }
+  ]
+}
