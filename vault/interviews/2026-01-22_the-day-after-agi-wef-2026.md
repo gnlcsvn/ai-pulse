@@ -74,7 +74,7 @@ predictions_count: 11
 | Junior/entry-level white-collar job impact begins in 2026 | 2026 | Medium | Demis Hassabis | [▶ 14:48](https://www.youtube.com/watch?v=NnVW9epLlTM&t=888s) |
 | Half of entry-level white-collar jobs gone | 1-5 years (2026-2031) | Medium (reaffirmed) | Dario Amodei | [▶ 16:41](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1001s) |
 | AI labor displacement will overwhelm adaptation ability | 1-5 years (2027-2031) | Medium | Dario Amodei | [▶ 17:26](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1046s) |
-| Post-scarcity world achievable post-AGI | 5-10 years (2031-2036) | Speculative | Demis Hassabis | [▶ 18:23](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1103s) |
+| Post-scarcity world achievable post-AGI | 5-10 years (2031-2036) | Speculative | Demis Hassabis | [▶ 18:58](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1138s) |
 | AGI with Hassabis timeline (preferred by both) | 5-10 years | Medium | Demis Hassabis | [▶ 19:19](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1159s) |
 | Robotics may have breakout moment | By next WEF (2027) | Speculative | Demis Hassabis | [▶ 30:36](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1836s) |
 | Great filter is behind humanity (multicellular life) | N/A | Speculative | Demis Hassabis | [▶ 29:22](https://www.youtube.com/watch?v=NnVW9epLlTM&t=1762s) |

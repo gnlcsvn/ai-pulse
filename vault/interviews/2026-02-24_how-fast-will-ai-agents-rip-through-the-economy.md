@@ -62,7 +62,7 @@ predictions_count: 7
 | AI will touch the majority of entry-level white-collar jobs, changing hiring plans and potentially reducing openings | next couple of years | medium | [▶ 46:59](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=2819s) |
 | Emergence of an AI-to-AI economy where AI agents and AI businesses do business with one another | near-term | speculative | [▶ 53:10](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=3190s) |
 | Economy will be "running extremely hot" with GDP getting substantially larger from AI-driven economic activity | coming years | medium | [▶ 63:40](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=3820s) |
-| We will be able to show concrete AI-accelerated science results via the Genesis Project | in a year or two | medium | [▶ 80:58](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=4858s) |
+| We will be able to show concrete AI-accelerated science results via the Genesis Project | in a year or two | medium | [▶ 80:00](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=4800s) |
 | AI systems will be able to synthesize vast human knowledge and produce creative insights on a near-daily basis | near-term (within a year) | medium | [▶ 86:24](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=5184s) |
 | Two types of people will emerge: those who co-created their personality with AI and those who developed self-knowledge independently | long-term | speculative | [▶ 90:36](https://www.youtube.com/watch?v=lIJelwO8yHQ&t=5436s) |
 

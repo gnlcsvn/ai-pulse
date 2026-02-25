@@ -64,7 +64,7 @@ predictions_count: 7
 | AI could do many human cognitive jobs (behind a keyboard) | Within five years (~2030-2031) | Medium-high (stated as matter of time, unless scientific wall) | [▶ 37:27](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=2247s) |
 | AI will eventually be significantly smarter than any human | No specific timeframe, trend ongoing | High (stated trend hasn't stopped) | [▶ 44:41](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=2681s) |
 | Mirror life bioweapons could be developed | Next few years to next decade | Medium (stated as plausible) | [▶ 47:41](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=2861s) |
-| AI will lead to concentration of power -- corporations or nations dominating through AI superiority | Gradual, signs already visible | High | [▶ 49:45](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=2985s) |
+| AI will lead to concentration of power -- corporations or nations dominating through AI superiority | Gradual, signs already visible | High | [▶ 49:45](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=2984s) |
 | US and Chinese governments will eventually want to sign an AI treaty once evidence of catastrophic risks grows | When evidence is sufficient | Medium (contingent on evidence) | [▶ 76:02](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=4562s) |
 | Governments will demand much more control over AI development as national security risks rise | As capabilities increase | High | [▶ 74:06](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=4446s) |
 | Physical/robotics jobs will eventually be automated too, as robot data accumulates | After cognitive jobs, years later | Medium (stated as only a temporary lag) | [▶ 39:53](https://www.youtube.com/watch?v=zQ1POHiR8m8&t=2393s) |

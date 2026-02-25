@@ -19,7 +19,7 @@ predictions_count: 7
 
 ## Key Takeaways
 1. AI is the biggest thing since the Industrial Revolution, but we are still in early innings -- the economic impact will take 20-25 years to fully unfold, not happen overnight [▶ 5:18](https://www.youtube.com/watch?v=8-boBsWcr5A&t=318s)
-2. Microsoft's end-user tools business (Office, M365) will transform into an infrastructure business supporting AI agents doing autonomous work [▶ 31:21](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1881s)
+2. Microsoft's end-user tools business (Office, M365) will transform into an infrastructure business supporting AI agents doing autonomous work [▶ 0:47](https://www.youtube.com/watch?v=8-boBsWcr5A&t=47s)
 3. The AI coding agent market grew from $500M run rate to $5-6B in one year -- a 10x expansion -- with GitHub Copilot, Claude Code, Cursor, Codex, and others all competing [▶ 18:49](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1129s)
 4. Model companies may face a "winner's curse" -- they do all the hard R&D but are "one copy away" from commoditization, especially with open source checkpoints available [▶ 24:06](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1446s)
 5. GitHub Copilot grew from 20 to 26 million subscribers in one quarter, and one developer joins GitHub every second [▶ 15:30](https://www.youtube.com/watch?v=8-boBsWcr5A&t=930s)
@@ -34,7 +34,7 @@ predictions_count: 7
 
 > "If you're a model company, you may have a winner's curse. You may have done all the hard work, done unbelievable innovation, except it's kind of like one copy away from that being commoditized." - Satya Nadella [▶ 24:06](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1446s)
 
-> "Our business, which today is an end-user tools business, will become essentially an infrastructure business in support of agents doing work." - Satya Nadella [▶ 31:21](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1881s)
+> "Our business, which today is an end-user tools business, will become essentially an infrastructure business in support of agents doing work." - Satya Nadella [▶ 0:47](https://www.youtube.com/watch?v=8-boBsWcr5A&t=47s)
 
 > "You can't build an infrastructure that's optimized for one model. If you do that, you're one tweak away. Some MOE-like breakthrough that happens and your entire network topology goes out of the window, then that's a scary thing." - Satya Nadella [▶ 3:58](https://www.youtube.com/watch?v=8-boBsWcr5A&t=238s)
 
@@ -67,12 +67,12 @@ predictions_count: 7
 | Prediction | Timeframe | Confidence | Source |
 |---|---|---|---|
 | AI revolution's full economic impact will be compressed into 20-25 years (vs 150-200 years for Industrial Revolution) | 20-25 years | Medium | [▶ 9:10](https://www.youtube.com/watch?v=8-boBsWcr5A&t=550s) |
-| Microsoft's tools business will transform into an infrastructure business supporting AI agents | Next 5-10 years | High | [▶ 31:21](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1881s) |
+| Microsoft's tools business will transform into an infrastructure business supporting AI agents | Next 5-10 years | High | [▶ 0:47](https://www.youtube.com/watch?v=8-boBsWcr5A&t=47s) |
 | AI coding/software factory category will be one of the biggest, possibly bigger than knowledge work | Next 5 years | Medium | [▶ 15:03](https://www.youtube.com/watch?v=8-boBsWcr5A&t=903s) |
-| Coding agents will progress from 2-minute tasks to 10-30 minute tasks to days of autonomous work | Next 2-5 years | High | [▶ 21:21](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1281s) |
+| Coding agents will progress from 2-minute tasks to 10-30 minute tasks to days of autonomous work | Next 2-5 years | High | [▶ 21:21](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1279s) |
 | Open source models will always be "fairly capable" enough to build on with data and scaffolding | Ongoing | High | [▶ 23:47](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1427s) |
 | AI models will be commoditized; scaffolding and data liquidity will determine winners | Next 3-5 years | Medium | [▶ 23:18](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1398s) |
-| Five to eight more research breakthroughs needed on the march towards superintelligence | Next 10-20 years | Speculative | [▶ 40:27](https://www.youtube.com/watch?v=8-boBsWcr5A&t=2427s) |
+| Five to eight more research breakthroughs needed on the march towards superintelligence | Next 10-20 years | Speculative | [▶ 40:27](https://www.youtube.com/watch?v=8-boBsWcr5A&t=2424s) |
 
 ## Topics Discussed
 - **Data center infrastructure and AI scaling**: Tour of Microsoft's Fairwater 2 data center in Atlanta, with 10x training capacity over GPT-5, connected to Milwaukee facilities via AI-WAN for distributed training [▶ 1:23](https://www.youtube.com/watch?v=8-boBsWcr5A&t=83s)

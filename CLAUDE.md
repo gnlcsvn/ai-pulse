@@ -40,6 +40,7 @@ yt-dlp --flat-playlist --print "%(id)s | %(title)s | %(upload_date)s | %(duratio
   - INCLUDE: Videos discussing frontier AI models, AGI, AI safety, AI regulation, AI breakthroughs
   - EXCLUDE: Tutorials, how-to guides, product reviews, AI tool demos, AI news compilations without interviews
   - EXCLUDE: Videos shorter than 5 minutes or longer than 2 hours
+  - EXCLUDE: Videos with `upload_date` older than 30 days from the current run date
   - EXCLUDE: Non-English content (unless from major AI figures)
 - Select the top 3 most relevant videos to process in this run (to keep runs manageable)
 
@@ -113,6 +114,23 @@ Scan the transcript for concrete, specific, falsifiable predictions. Look for:
 - AGI/ASI timelines, economic forecasts, tech milestones, job displacement, company/product predictions, regulation forecasts
 - Skip vague aspirational statements — only include specific, verifiable/falsifiable claims
 
+**CRITICAL: Timeframe year assignment rules**
+The `timeframe.raw` field must contain ONLY the verbatim words from the transcript — never add editorial annotations like "(implied near-term)" or "(implied 2026-2027)".
+
+Only assign `earliest_year`/`latest_year`/`midpoint_year` when the speaker explicitly states one of:
+- **An explicit year**: "by 2030", "before 2035" → assign those years
+- **A calculable relative timeframe**: "in 3 years", "within 5 years", "within a decade", "next 10 years" → calculate from `prediction_date` (see below)
+- **A named decade**: "end of the decade", "by the 2030s" → assign the appropriate range
+- **"End of this year"**, **"next year"** → calculate from `prediction_date`
+
+Set all three year fields to `null` when the speaker uses:
+- Vague language: "soon", "eventually", "at some point", "in the near term", "in the long term", "not long from now", "in the future"
+- Conditional framing: "when X happens", "once we get to...", "if Y continues"
+- No temporal language at all (just a directional claim like "AI will replace X")
+- Current observations: "is happening now", "we're already seeing"
+
+Predictions with null years are still valuable and should be extracted — they just won't appear on the timeline visualization. The interview markdown notes show all predictions regardless of whether they have dates.
+
 For each prediction, create an entry following this schema:
 ```json
 {
@@ -120,7 +138,7 @@ For each prediction, create an entry following this schema:
   "prediction": "What was predicted (concise summary)",
   "category": "AGI timeline | coding automation | economic impact | job displacement | robotics | compute infrastructure | AI safety incident | product/company | regulation | other",
   "person": { "name": "Speaker Name", "role": "Their Role", "company": "Their Company" },
-  "timeframe": { "raw": "exact phrasing from transcript", "earliest_year": 2027, "latest_year": 2030, "midpoint_year": 2028 },
+  "timeframe": { "raw": "exact phrasing from transcript (verbatim, no editorial notes)", "earliest_year": 2027, "latest_year": 2030, "midpoint_year": 2028 },
   "confidence": { "raw": "exact phrasing or null", "level": "high|medium|low|speculative|unstated", "percentage": 90 },
   "source": {
     "video_id": "VIDEO_ID",
@@ -128,6 +146,7 @@ For each prediction, create an entry following this schema:
     "title": "Video Title",
     "channel": "Channel Name",
     "upload_date": "YYYY-MM-DD",
+    "prediction_date": "YYYY-MM-DD",
     "timestamp_seconds": 841,
     "timestamp_display": "14:01",
     "timestamp_url": "https://www.youtube.com/watch?v=VIDEO_ID&t=841s"
@@ -137,7 +156,27 @@ For each prediction, create an entry following this schema:
 }
 ```
 
+**`prediction_date` rules:**
+- Default `prediction_date` to `upload_date` (most videos are published the same day or within days of recording)
+- Override when evidence exists in the video title, description, or transcript (e.g., "TED2025" in the title → use the event date, "recorded in January" in the transcript → use that month)
+- Use `prediction_date` (not `upload_date`) when calculating years for relative timeframes like "in 3 years", "within 5 years", "next year", "end of this year"
+
 Find the exact timestamp for each prediction by searching the JSON segments (lowercase substring match). If no explicit predictions are found, that's fine — not every interview contains them.
+
+**Step 5b-iii: Verify prediction timestamps**
+After extracting predictions for a video, verify each one before saving:
+
+1. **`timeframe.raw` and `confidence.raw` MUST be verbatim substrings** copied directly from the transcript — never paraphrased, summarized, or editorialized. You must be able to find the exact string via case-insensitive substring search in the transcript segments.
+2. **Derive `timestamp_seconds` from the transcript match, not from memory.** For each prediction, search the JSON segments for `timeframe.raw` as a case-insensitive substring. Use the matching segment's `start` time as `timestamp_seconds`. If the text spans a segment boundary, use the first segment's `start`.
+3. **If a raw text string cannot be found verbatim in any segment** (single or multi-segment window), the text was paraphrased. Either fix it to the exact wording from the transcript or do not include the prediction.
+4. **Post-processing gate:** After saving predictions for a video, run `python3 scripts/verify-predictions.py --video-id VIDEO_ID --strict`. This MUST pass with 0 paraphrased and 0 ambiguous before proceeding to the next video. Fix any failures before continuing.
+
+**Common mistakes to avoid** (discovered from audit of 277 predictions):
+- **DO NOT use `...` (ellipsis) to stitch together phrases from different segments.** Pick one segment's text or use a short distinctive phrase from a single segment.
+- **DO NOT add editorial notes in parentheses** like `"(implied near-term)"` or `"(no explicit timeframe)"`. If there's no timeframe language, set `timeframe.raw` to `null`.
+- **DO NOT clean up Whisper transcription artifacts.** If the transcript says `"by the end of this, end of this year"` (stutter), the raw field must say that too, not `"by the end of this year"`.
+- **DO NOT use generic phrases as raw text** like `"next year"` or `"I think"` if they appear many times in the transcript. Pick a longer, more distinctive substring that uniquely identifies the prediction.
+- **Prefer short, distinctive substrings** from a single segment over long multi-segment reconstructions. A 5-word phrase from one segment is better than a 30-word reconstruction across 8 segments.
 
 **Step 5c: Write the Obsidian note**
 Create a structured note at `vault/interviews/YYYY-MM-DD_video-title-slug.md`:
@@ -153,6 +192,7 @@ title: Full Video Title
 guests: [Guest Name 1, Guest Name 2]
 topics: [topic1, topic2, topic3]
 duration: XhYm
+prediction_date: YYYY-MM-DD
 processed_date: YYYY-MM-DD
 predictions_count: 0
 ---

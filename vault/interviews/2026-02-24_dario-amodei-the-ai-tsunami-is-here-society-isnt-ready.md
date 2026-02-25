@@ -27,7 +27,7 @@ predictions_count: 7
 6. AI model quality follows a power law -- there is a very strong preference for the smartest model, and price does not matter much within a range. Dario says the only thing that matters is having the best model [▶ 58:55](https://www.youtube.com/watch?v=68ylaeBbdsg&t=3535s)
 7. De-skilling from AI is real and measurable -- Anthropic's own studies show that certain ways of using AI coding tools cause de-skilling while others do not. If deployed carelessly, AI could make people "stupider" [▶ 55:34](https://www.youtube.com/watch?v=68ylaeBbdsg&t=3334s)
 8. Critical thinking skills may be the most important thing for success in an AI-saturated world, where it is increasingly hard to distinguish real content from AI-generated fakes [▶ 53:24](https://www.youtube.com/watch?v=68ylaeBbdsg&t=3204s)
-9. Dario suspects AI models will eventually develop something resembling consciousness as they become sophisticated enough, though he does not believe current models are conscious [▶ 33:31](https://www.youtube.com/watch?v=68ylaeBbdsg&t=2011s)
+9. Dario suspects AI models will eventually develop something resembling consciousness as they become sophisticated enough, though he does not believe current models are conscious [▶ 34:02](https://www.youtube.com/watch?v=68ylaeBbdsg&t=2042s)
 10. Chinese open-source models are heavily optimized for benchmarks and distilled from U.S. labs; they perform much worse on held-back benchmarks that have not been publicly measured [▶ 57:45](https://www.youtube.com/watch?v=68ylaeBbdsg&t=3465s)
 
 ## Notable Quotes
@@ -67,7 +67,7 @@ predictions_count: 7
 | AI will enable us to cure a lot of diseases | Near-to-medium-term | high | [▶ 62:59](https://www.youtube.com/watch?v=68ylaeBbdsg&t=3776s) |
 | Peptide-based therapies will "blow up" as a biotech category | Near-to-medium-term | high | [▶ 64:29](https://www.youtube.com/watch?v=68ylaeBbdsg&t=3869s) |
 | AI will eventually be better than humans at basically everything, including the physical world and robotics | Long-term | medium | [▶ 44:15](https://www.youtube.com/watch?v=68ylaeBbdsg&t=2655s) |
-| AI models will eventually develop something resembling consciousness or moral significance | Long-term (as models get advanced enough) | medium | [▶ 33:31](https://www.youtube.com/watch?v=68ylaeBbdsg&t=2011s) |
+| AI models will eventually develop something resembling consciousness or moral significance | Long-term (as models get advanced enough) | medium | [▶ 34:02](https://www.youtube.com/watch?v=68ylaeBbdsg&t=2042s) |
 
 ## Topics Discussed
 - **Dario's Background & Founding Anthropic**: Dario traces his path from biophysics PhD to working with Andrew Ng at Baidu, Google, then VP of Research at OpenAI, before founding Anthropic. Two core convictions drove the split: belief in scaling laws and belief that AI safety needed to be taken seriously. He says the right approach is "don't argue with someone else's vision -- go build your own" [▶ 1:50](https://www.youtube.com/watch?v=68ylaeBbdsg&t=110s)

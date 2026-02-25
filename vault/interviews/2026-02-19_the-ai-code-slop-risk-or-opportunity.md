@@ -64,7 +64,7 @@ predictions_count: 5
 | Tech will represent 15-30% of US GDP by 2035, up from 12% today, as AI converts services into software spend | 15-20% of GDP to, you know, 30% of GDP in 2035 | medium | [▶ 23:53](https://www.youtube.com/watch?v=efUt__S_AjY&t=1433s) |
 | AI labs will go from $10 billion to $100 billion in revenue in three to five years | it's like three, four or five years | medium | [▶ 16:55](https://www.youtube.com/watch?v=efUt__S_AjY&t=1015s) |
 | Technology displacement cycles that previously took a decade will now happen in one to two years due to AI velocity of change | what normally would have taken a decade... is now happening in a year or two | high | [▶ 38:41](https://www.youtube.com/watch?v=efUt__S_AjY&t=2321s) |
-| There will be significantly more $100 billion tech companies than exist today as tech's share of GDP grows | terminal values 10 years from now | medium | [▶ 28:49](https://www.youtube.com/watch?v=efUt__S_AjY&t=1729s) |
+| There will be significantly more $100 billion tech companies than exist today as tech's share of GDP grows | terminal values 10 years from now | medium | [▶ 24:09](https://www.youtube.com/watch?v=efUt__S_AjY&t=1449s) |
 | Every two years of AI-era competition will be equivalent to ten years in the previous SaaS era -- founders must adopt a compressed-timeline mindset | if every two years is 10 years | high | [▶ 39:12](https://www.youtube.com/watch?v=efUt__S_AjY&t=2352s) |
 
 ## Topics Discussed

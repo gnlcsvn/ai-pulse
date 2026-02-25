@@ -52,7 +52,7 @@ predictions_count: 5
 |---|---|---|
 | Anthropic estimated valuation | **~$350 billion** | [▶ 0:40](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=40s) |
 | Anthropic revenue growth rate | **10x per year** | [▶ 7:54](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=474s) |
-| Projected AI-driven developed-world GDP growth | **5-15%** | [▶ 8:21](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=501s) |
+| Projected AI-driven developed-world GDP growth | **5-15%** | [▶ 2:19](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=139s) |
 | US GDP reference | **$20-30 trillion** | [▶ 8:04](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=484s) |
 | Anthropic's AI constitution length | **~75 pages** | [▶ 49:15](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=2955s) |
 | Opus 4.6 self-assessed consciousness probability | **15-20%** | [▶ 52:43](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=3163s) |
@@ -62,7 +62,7 @@ predictions_count: 5
 | Prediction | Timeframe | Confidence | Source |
 |---|---|---|---|
 | "Country of geniuses in a data center" (genius-level AI) achieved | 1-2 years (by 2027-2028), possibly up to 5 | High | [▶ 15:01](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=901s) |
-| AI brings developed-world GDP growth to 5-15% | Next 5-10 years | Medium | [▶ 8:21](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=501s) |
+| AI brings developed-world GDP growth to 5-15% | Next 5-10 years | Medium | [▶ 2:19](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=139s) |
 | Software engineering centaur phase will be "very brief" before full AI automation | Near-term | Medium | [▶ 17:25](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=1045s) |
 | Robot "brain" (AI capable of piloting robots) ready in next couple of years; robot body/safety issues take longer | 2-5 years for brain; longer for body | High | [▶ 30:10](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=1810s) |
 | Something will go wrong with someone's AI system due to speed of deployment | Near-term | High | [▶ 46:27](https://www.youtube.com/watch?v=N5JDzS9MQYI&t=2787s) |

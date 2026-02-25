@@ -23,7 +23,7 @@ Host: **Hannah Fry** - Professor & Podcast Host, Google DeepMind
 1. Current AI systems are "a lot more than sparks" of AGI -- already superhuman at languages and general knowledge, but still weak at continual learning and visual reasoning [▶ 1:52](https://www.youtube.com/watch?v=l3u_FAv33G0&t=112s)
 2. Shane Legg defines "minimal AGI" as an AI that can do all cognitive things people can typically do, and estimates it is about two years away (i.e., ~2028) [▶ 7:04](https://www.youtube.com/watch?v=l3u_FAv33G0&t=424s)
 3. He reaffirms his long-standing prediction of a 50-50 chance of (minimal) AGI by 2028, first published on his blog in 2009 [▶ 49:32](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2972s)
-4. Full AGI (matching the entire spectrum of human cognition) could follow 3-6 years after minimal AGI, and he believes it will arrive within a decade [▶ 49:57](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2997s)
+4. Full AGI (matching the entire spectrum of human cognition) could follow 3-6 years after minimal AGI, and he believes it will arrive within a decade [▶ 49:57](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2999s)
 5. There are no fundamental blockers to AGI -- progress requires a combination of more data, algorithmic innovation, and architectural changes rather than just scaling [▶ 4:31](https://www.youtube.com/watch?v=l3u_FAv33G0&t=271s)
 6. He advocates "system two safety" -- making AI reason explicitly about ethics using chain-of-thought monitoring, potentially becoming more ethical than humans [▶ 20:44](https://www.youtube.com/watch?v=l3u_FAv33G0&t=1244s)
 7. In software engineering, the fraction of AI-written code will increase dramatically in the next few years, potentially reducing a 100-person team to 20 [▶ 42:39](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2559s)
@@ -59,16 +59,16 @@ Host: **Hannah Fry** - Professor & Podcast Host, Google DeepMind
 | Brain signal propagation speed | **30 m/s** (electrochemical) | [▶ 34:52](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2092s) |
 | Data centre signal speed | **300,000 km/s** (speed of light) | [▶ 35:12](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2112s) |
 | Orders of magnitude advantage (data centre vs brain) | **6-8** across four dimensions | [▶ 34:58](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2098s) |
-| Software engineer team reduction example | **100 down to 20** (in a few years) | [▶ 42:50](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2570s) |
+| Software engineer team reduction example | **100 down to 20** (in a few years) | [▶ 42:50](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2567s) |
 | Shane Legg's AGI prediction (from blog) | **50% by 2028** (since 2009) | [▶ 49:32](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2972s) |
 
 ## Predictions
 | Prediction | Timeframe | Confidence | Source |
 |---|---|---|---|
 | 50-50 chance of minimal AGI (AI that can do all typical human cognitive tasks) | By 2028 | 50% (stated explicitly) | [▶ 49:32](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2972s) |
-| Full AGI (matching the full spectrum of human cognition) | 3-6 years after minimal AGI (~2031-2034), within a decade from now | Medium-High | [▶ 49:57](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2997s) |
+| Full AGI (matching the full spectrum of human cognition) | 3-6 years after minimal AGI (~2031-2034), within a decade from now | Medium-High | [▶ 49:57](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2999s) |
 | AI will progress toward superintelligence far beyond human intelligence | Within 1-2 decades | High | [▶ 34:01](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2041s) |
-| Software engineering teams will shrink from 100 to 20 people using advanced AI tools | Next few years (~2026-2029) | High | [▶ 42:50](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2570s) |
+| Software engineering teams will shrink from 100 to 20 people using advanced AI tools | Next few years (~2026-2029) | High | [▶ 42:50](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2567s) |
 | Physical/manual jobs (e.g., plumbing) will remain protected from AI disruption | Coming years (near-term) | High | [▶ 45:09](https://www.youtube.com/watch?v=l3u_FAv33G0&t=2709s) |
 
 ## Topics Discussed

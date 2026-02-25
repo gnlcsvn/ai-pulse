@@ -61,7 +61,7 @@ predictions_count: 5
 | Prediction | Timeframe | Confidence | Source |
 |---|---|---|---|
 | Hundreds of millions of AI "immigrants" will enter societies from China and the US as doctors, teachers, and agents | Within the next decade | Medium (stated as "I'm sure") | [▶ 7:03](https://www.youtube.com/watch?v=rGAA59JTBtg&t=423s) |
-| Neither the US nor China will ultimately let their companies build uncontrolled superintelligence | Foreseeable future | Medium | [▶ 17:50](https://www.youtube.com/watch?v=rGAA59JTBtg&t=1070s) |
+| Neither the US nor China will ultimately let their companies build uncontrolled superintelligence | Foreseeable future | Medium | [▶ 19:40](https://www.youtube.com/watch?v=rGAA59JTBtg&t=1180s) |
 | AI safety regulation similar to pharma/food standards will emerge, driven by bipartisan coalition | Near-term | Medium-high | [▶ 19:23](https://www.youtube.com/watch?v=rGAA59JTBtg&t=1163s) |
 | If superintelligence is built, it will end the era of human control of Earth | Upon achievement of superintelligence | High (stated as "most likely") | [▶ 12:07](https://www.youtube.com/watch?v=rGAA59JTBtg&t=727s) |
 | Consequences of children growing up interacting primarily with AIs will become clear in 20 years | ~20 years (~2046) | Low (acknowledged as unknown) | [▶ 10:16](https://www.youtube.com/watch?v=rGAA59JTBtg&t=616s) |

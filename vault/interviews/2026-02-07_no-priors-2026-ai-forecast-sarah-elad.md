@@ -23,7 +23,7 @@ Plus guest predictions from friends of the show recorded as short video segments
 ## Key Takeaways
 1. Traditionally slow technology adopters (physicians, lawyers, accountants) are enthusiastically adopting AI, which is a massively under-discussed signal [▶ 5:19](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=319s)
 2. The next wave of AI verticals will consolidate at massive scale in 2026, following the pattern of coding, medical scribing, and legal in 2025 [▶ 3:30](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=210s)
-3. AI foundation models for physics, materials science, and math will produce breakthrough one-off results that get overhyped in the short term but are understated long-term [▶ 6:28](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=388s)
+3. AI foundation models for physics, materials science, and math will produce breakthrough one-off results that get overhyped in the short term but are understated long-term [▶ 7:07](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=427s)
 4. Sentiment around robotics companies will collapse in 2026 as some fail to deliver on projected timelines, even though the field will continue to progress [▶ 7:22](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=442s)
 5. Self-driving will be one of the biggest trends of 2026, both for personal vehicles and ride-hailing (Waymo, Tesla) [▶ 11:48](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=708s)
 6. The most likely global winners in robotics will be a subset of Chinese companies plus Tesla plus possibly one startup [▶ 9:21](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=561s)
@@ -64,17 +64,17 @@ Plus guest predictions from friends of the show recorded as short video segments
 | Someone will make hundreds of millions trading markets with LLMs | 2026 | High ("inevitable") | Sarah Guo | [▶ 1:16](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=76s) |
 | Overstated AI bubble claims and "AI isn't working" narratives will recur | 2026 | High | Elad Gil | [▶ 2:56](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=176s) |
 | Next set of AI verticals will hit massive scale and consolidate | 2026 | High | Elad Gil | [▶ 3:30](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=210s) |
-| AI models for physics/materials science/math will produce overhyped one-off breakthroughs | 2026 | Medium | Elad Gil | [▶ 6:28](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=388s) |
+| AI models for physics/materials science/math will produce overhyped one-off breakthroughs | 2026 | Medium | Elad Gil | [▶ 7:07](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=427s) |
 | Sentiment collapse around a set of robotics companies | 2026 | High | Sarah Guo | [▶ 7:22](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=442s) |
 | Humanoid/semi-humanoid robots deployed at small scale (consumer and industrial) | 2026 | Medium | Sarah Guo | [▶ 7:45](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=465s) |
 | Tesla Optimus / Tesla robot will be one of the winners in robotics | Long-term | High ("high probability") | Elad Gil | [▶ 8:44](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=524s) |
 | Global robotics winners will be Chinese companies + Tesla + maybe a startup | Long-term | Medium | Elad Gil | [▶ 9:21](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=561s) |
 | Self-driving will really begin to matter (personal cars + Waymo/Tesla cabs) | 2026 | High ("100%") | Elad Gil | [▶ 11:48](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=708s) |
 | A lot more AI IPOs; major AI company IPO will do extremely well | 2026 | High | Elad Gil | [▶ 16:08](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=968s) |
-| Consumer AI hardware slate will mostly fail | 2026 | Medium | Sarah Guo | [▶ 16:57](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1017s) |
+| Consumer AI hardware slate will mostly fail | 2026 | Medium | Sarah Guo | [▶ 16:57](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1009s) |
 | Defense tech startups will accelerate massively with drone-based systems | 2026 | High | Elad Gil | [▶ 26:46](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1606s) |
-| GLP-1 impact is still underrated; will fuel investment in peptide/hormone therapies | 2026+ | High | Sarah Guo | [▶ 28:25](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1705s) |
-| Reasoning systems will revolutionize every industry from biology to robotics | 2026 | High | Guest | [▶ 30:50](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1850s) |
+| GLP-1 impact is still underrated; will fuel investment in peptide/hormone therapies | 2026+ | High | Sarah Guo | [▶ 28:25](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1719s) |
+| Reasoning systems will revolutionize every industry from biology to robotics | 2026 | High | Guest | [▶ 30:50](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1840s) |
 | Mass-scale consumer agentic AI product will emerge (as big as ChatGPT launch) | 2026 | High | Guest | [▶ 33:03](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1983s) |
 | US will regain leadership at the open-weight frontier at largest scale | 2026 | High | Guest | [▶ 35:52](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=2152s) |
 | AI will become much more politicized and a major topic in 2026 midterm elections | 2026 | Medium | Guest | [▶ 36:06](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=2166s) |
@@ -82,15 +82,15 @@ Plus guest predictions from friends of the show recorded as short video segments
 ## Topics Discussed
 - **AI Adoption by Conservative Professions**: Physicians, lawyers, and accountants are surprisingly fast AI adopters -- a massively under-discussed trend [▶ 5:19](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=319s)
 - **AI Vertical Consolidation**: Following coding, medical scribing, and legal, the next set of verticals will hit massive scale in 2026 [▶ 3:30](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=210s)
-- **AI for Science**: Foundation models for physics, materials science, and math will produce breakthrough results [▶ 6:28](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=388s)
+- **AI for Science**: Foundation models for physics, materials science, and math will produce breakthrough results [▶ 7:07](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=427s)
 - **Robotics & Self-Driving**: Self-driving is the biggest near-term robotics story; humanoid robots will deploy at small scale with mixed results [▶ 7:22](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=442s)
 - **Incumbents vs. Startups in Robotics**: Capital-intensive markets with supply chain complexity favor incumbents (Tesla, Chinese companies), but startups still have opportunity [▶ 9:21](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=561s)
 - **AI IPOs & Market Sentiment**: Huge retail appetite for AI pure-play investments; hedge funds feel compelled to buy regardless of fundamentals [▶ 15:19](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=919s)
-- **Consumer AI**: Magical consumer agent software emerging, but consumer AI hardware will mostly fail; scarcity of great consumer product people limits innovation [▶ 16:57](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1017s)
+- **Consumer AI**: Magical consumer agent software emerging, but consumer AI hardware will mostly fail; scarcity of great consumer product people limits innovation [▶ 16:57](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1009s)
 - **Neo Labs & Alternative Architectures**: Funding of new research labs 3-8; diffusion, SSMs, and other architectures will be tested at scale [▶ 21:20](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1280s)
 - **Evolutionary AI Systems**: Elad speculates that AI development may eventually mirror biology -- specialized modules, evolutionary selection, recombination [▶ 24:04](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1444s)
 - **Defense Tech**: Drone-based systems and defense tech startups accelerating, driven by Trump administration focus and startup density [▶ 26:46](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1606s)
-- **GLP-1 & Biotech**: GLP-1 drugs still underrated; their success creates a path for peptide and hormone therapies to go mainstream [▶ 28:25](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1705s)
+- **GLP-1 & Biotech**: GLP-1 drugs still underrated; their success creates a path for peptide and hormone therapies to go mainstream [▶ 28:25](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=1719s)
 - **LLM Market Trading**: Sarah predicts someone will make hundreds of millions trading with LLMs [▶ 1:16](https://www.youtube.com/watch?v=TOsNrV3bXtQ&t=76s)
 
 ## Summary

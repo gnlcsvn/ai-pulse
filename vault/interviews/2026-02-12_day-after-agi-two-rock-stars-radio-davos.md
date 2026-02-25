@@ -74,10 +74,10 @@ predictions_count: 11
 | AGI achievable in 1-2 years (possibly longer) | 2027-2028 | Medium | Dario Amodei | [▶ 35:16](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2117s) |
 | 50% chance of full AGI by end of decade | By 2030 | 50% explicit | Demis Hassabis | [▶ 21:40](https://www.youtube.com/watch?v=C1TGh6zqigg&t=1301s) |
 | Junior/entry-level white-collar job impact begins in 2026 | 2026 | Medium | Demis Hassabis | [▶ 33:21](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2001s) |
-| Half of entry-level white-collar jobs gone | 1-5 years (2026-2031) | Medium (reaffirmed) | Dario Amodei | [▶ 34:32](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2073s) |
+| Half of entry-level white-collar jobs gone | 1-5 years (2026-2031) | Medium (reaffirmed) | Dario Amodei | [▶ 34:32](https://www.youtube.com/watch?v=C1TGh6zqigg&t=1947s) |
 | Anthropic will need fewer junior/intermediate engineers | Near-term | High (internal observation) | Dario Amodei | [▶ 34:48](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2089s) |
 | AI labor displacement will overwhelm adaptation ability | 1-5 years (2027-2031) | Medium | Dario Amodei | [▶ 35:54](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2155s) |
-| Post-scarcity world achievable post-AGI | 5-10 years (2031-2036) | Speculative | Demis Hassabis | [▶ 36:58](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2219s) |
+| Post-scarcity world achievable post-AGI | 5-10 years (2031-2036) | Speculative | Demis Hassabis | [▶ 36:58](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2264s) |
 | Robotics may have breakout moment | By next WEF (2027) | Speculative | Demis Hassabis | [▶ 49:09](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2950s) |
 | Great filter is behind humanity (multicellular life) | N/A | Speculative | Demis Hassabis | [▶ 47:52](https://www.youtube.com/watch?v=C1TGh6zqigg&t=2872s) |
 

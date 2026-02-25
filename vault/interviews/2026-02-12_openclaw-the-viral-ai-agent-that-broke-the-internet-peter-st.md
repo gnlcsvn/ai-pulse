@@ -59,10 +59,10 @@ predictions_count: 4
 ## Predictions
 | Prediction | Timeframe | Confidence | Source |
 |---|---|---|---|
-| Personal AI agents will kill off 80% of apps, as every app is effectively just a slow API that agents can interact with directly via browser automation | it might kill off 80% of apps | medium | [▶ 2:53:59](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10439s) |
-| 2026 is the year of personal agents -- this is the future of computing | I think this is the year of personal agents and that's the future | high | [▶ 2:24:18](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=8658s) |
-| Companies that resist becoming agent-friendly will become the next Blockbuster -- services should race to expose agent-friendly APIs | agent friendly... companies that resist become Blockbuster | medium | [▶ 2:59:10](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10750s) |
-| Programming as a manual activity will become like knitting -- done for love, not necessity -- while the builder mindset remains essential | programming... it's gonna be like knitting, you know, like people do that because they love it | medium | [▶ 3:01:42](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10902s) |
+| Personal AI agents will kill off 80% of apps, as every app is effectively just a slow API that agents can interact with directly via browser automation | it might kill off 80% of apps | medium | [▶ 2:53:59](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10441s) |
+| 2026 is the year of personal agents -- this is the future of computing | I think this is the year of personal agents and that's the future | high | [▶ 2:24:18](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=8660s) |
+| Companies that resist becoming agent-friendly will become the next Blockbuster -- services should race to expose agent-friendly APIs | agent friendly... companies that resist become Blockbuster | medium | [▶ 2:59:10](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10803s) |
+| Programming as a manual activity will become like knitting -- done for love, not necessity -- while the builder mindset remains essential | programming... it's gonna be like knitting, you know, like people do that because they love it | medium | [▶ 3:01:42](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=10906s) |
 
 ## Topics Discussed
 - **Origin Story & One-Hour Prototype**: Built by hooking WhatsApp to Claude Code CLI; the "magic moment" was when the agent autonomously transcribed an audio message it was never trained to handle, finding an OpenAI key and using curl to call their transcription API [▶ 5:52](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=352s)

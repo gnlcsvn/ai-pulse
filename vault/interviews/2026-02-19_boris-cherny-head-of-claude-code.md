@@ -75,7 +75,7 @@ predictions_count: 8
 | Everyone will be able to program; anyone can just build software anytime | a few years in the future | speculative | [▶ 40:15](https://www.youtube.com/watch?v=We7BZVKbCVw&t=2415s) |
 | AI will expand to impact roles adjacent to engineering -- product managers, designers, data scientists -- any work done on a computer | N/A | high | [▶ 36:23](https://www.youtube.com/watch?v=We7BZVKbCVw&t=2183s) |
 | Claude Code will author a fifth of all GitHub code commits by end of 2026 (citing Semi Analysis report) | by the end of the year | unstated | [▶ 5:55](https://www.youtube.com/watch?v=We7BZVKbCVw&t=355s) |
-| AI models will get better and better at using tools, using computers, and running for long periods of time | build for the model six months out | high | [▶ 1:07:47](https://www.youtube.com/watch?v=We7BZVKbCVw&t=4067s) |
+| AI models will get better and better at using tools, using computers, and running for long periods of time | build for the model six months out | high | [▶ 1:07:47](https://www.youtube.com/watch?v=We7BZVKbCVw&t=4035s) |
 
 ## Topics Discussed
 - **Boris's Personal Coding Workflow**: 100% of code written by Claude Code since November; ships 10-30 PRs per day with ~5 agents running in parallel; still reviews code but never edits by hand [▶ 16:20](https://www.youtube.com/watch?v=We7BZVKbCVw&t=980s)

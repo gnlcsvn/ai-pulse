@@ -22,8 +22,8 @@ predictions_count: 9
 1. AI will surpass any individual human in intelligence by end of 2026, and exceed all of humanity collectively by 2030-2031 [▶ 30:29](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1829s)
 2. Electrical power, not chip production, is the fundamental bottleneck for AI deployment [▶ 17:07](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1013s)
 3. Tesla plans to sell humanoid robots (Optimus) to the general public by end of 2027 [▶ 23:59](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1439s)
-4. SpaceX aims to achieve full Starship reusability in 2026, which would reduce the cost of space access by 100x [▶ 26:23](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1583s)
-5. The lowest-cost location for AI data centers will be space within 2-3 years, leveraging solar power and natural cooling [▶ 29:52](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1792s)
+4. SpaceX aims to achieve full Starship reusability in 2026, which would reduce the cost of space access by 100x [▶ 27:13](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1633s)
+5. The lowest-cost location for AI data centers will be space within 2-3 years, leveraging solar power and natural cooling [▶ 29:52](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1800s)
 6. SpaceX and Tesla are each independently building toward 100 GW/year of solar manufacturing capacity in the US within about 3 years [▶ 22:18](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1338s)
 7. Musk predicts there will eventually be more humanoid robots than people, saturating all human needs [▶ 11:23](https://www.youtube.com/watch?v=IgifEgm1-e0&t=683s)
 8. Self-driving cars are "essentially a solved problem" with Tesla robotaxi service expected to be widespread across the US by end of 2026 [▶ 25:13](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1513s)
@@ -75,9 +75,9 @@ predictions_count: 9
 | Tesla selling humanoid robots to the public | By end of 2027 | High | [▶ 23:59](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1439s) |
 | Tesla Optimus doing complex tasks in factories | By end of 2026 | High | [▶ 23:45](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1425s) |
 | Tesla robotaxi service widespread across the US | By end of 2026 | High | [▶ 25:24](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1524s) |
-| Space will be lowest-cost location for AI data centers | Within 2-3 years (by 2028-2029) | High | [▶ 29:52](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1792s) |
+| Space will be lowest-cost location for AI data centers | Within 2-3 years (by 2028-2029) | High | [▶ 29:52](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1800s) |
 | SpaceX/Tesla building to 100 GW/year US solar manufacturing | About 3 years (by ~2029) | Medium | [▶ 22:18](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1338s) |
-| Starship full reusability achieved | 2026 | High | [▶ 26:23](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1583s) |
+| Starship full reusability achieved | 2026 | High | [▶ 27:13](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1633s) |
 
 ## Topics Discussed
 - **SpaceX and Multi-Planetary Life**: Musk frames SpaceX's mission as ensuring the survival of consciousness by making life multi-planetary, describing consciousness as "a tiny candle in a vast darkness" [▶ 7:32](https://www.youtube.com/watch?v=IgifEgm1-e0&t=452s)
@@ -87,7 +87,7 @@ predictions_count: 9
 - **Solar Power Potential**: A 100x100 mile area of solar panels could power the entire US; high tariffs on Chinese solar panels are artificially inflating costs [▶ 20:29](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1229s)
 - **Tesla Optimus Humanoid Robots**: Currently doing simple factory tasks, expected to handle complex tasks by end of 2026 and be sold to the public by end of 2027 [▶ 23:37](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1417s)
 - **Full Self-Driving and Robotaxis**: FSD declared "essentially a solved problem," with robotaxi service launching in multiple US cities and insurance companies offering 50% discounts for FSD use [▶ 25:13](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1513s)
-- **Starship Full Reusability**: SpaceX hopes to prove full rocket reusability in 2026, which would reduce space access costs by 100x to under $100/pound [▶ 26:23](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1583s)
+- **Starship Full Reusability**: SpaceX hopes to prove full rocket reusability in 2026, which would reduce space access costs by 100x to under $100/pound [▶ 27:13](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1633s)
 - **Space-Based AI Data Centers**: Solar-powered AI satellites are planned, with space offering 5x solar effectiveness, natural cooling at 3K, and potentially the lowest-cost location for AI compute within 2-3 years [▶ 29:15](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1755s)
 - **AGI Timeline**: Musk predicts AI smarter than any human by end of 2026 (no later than 2027), and smarter than all of humanity by 2030-2031 [▶ 30:29](https://www.youtube.com/watch?v=IgifEgm1-e0&t=1829s)
 - **Aging and Longevity**: Musk believes reversing aging is "highly likely" and the mechanism is "not subtle" since all cells age at the same rate, suggesting a synchronizing clock [▶ 13:48](https://www.youtube.com/watch?v=IgifEgm1-e0&t=828s)
