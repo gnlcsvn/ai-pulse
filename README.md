@@ -1,33 +1,42 @@
 # AI Pulse
 
-Autonomous pipeline that discovers, transcribes, and summarizes AI leader interviews from YouTube. Every quote, data point, and prediction is linked to its exact source timestamp so you can verify anything with one click.
+An autonomous pipeline that discovers, transcribes, and analyzes AI leader interviews from YouTube — plus a static website that makes the extracted data explorable and verifiable.
 
-Output goes to an Obsidian vault as structured markdown notes.
+## The Website
 
-## How It Works
+**https://gnlcsvn.github.io/ai-pulse/**
 
-A daily cron job invokes Claude Code in `--print` mode, which autonomously:
+A static site built with Vite, serving two interactive D3.js visualizations:
+
+- **Predictions Timeline** — 273 concrete, falsifiable predictions from 28 AI leaders (Dario Amodei, Elon Musk, Sam Altman, Jensen Huang, and others). Filter by category and person, hover for details, click any dot to jump to the exact moment in the source video.
+- **Dead or Alive** — Risk signals extracted from the same interviews: what the people building AI say about its dangers, mapped on a spectrum from alarm to dismissal.
+
+Every data point links to a timestamped YouTube URL so you can verify anything with one click.
+
+## The Repository
+
+The repo contains two things:
+
+### 1. Data pipeline (`scripts/`, `data/`, `config/`)
+
+A cron job invokes Claude Code in `--print` mode, which autonomously:
 
 1. **Discovers** new AI interviews via `yt-dlp` search and tracked channels
 2. **Filters** by relevance (AI leaders, frontier research, company announcements)
 3. **Downloads** audio and transcribes with `mlx-whisper` (Apple Silicon optimized)
-4. **Extracts** key takeaways, quotes, data points, and predictions — each with a `[▶ timestamp](youtube-link)` source link
-5. **Generates** Obsidian markdown notes and an interactive predictions timeline
+4. **Extracts** predictions, risk signals, key takeaways, and quotes — each traced to its source timestamp
+5. **Verifies** extracted data against transcripts (speaker attribution, verbatim quotes, timestamp accuracy)
+6. **Generates** Obsidian markdown notes for each interview
 
-## Predictions Timeline
+### 2. Static site (`site/`)
 
-92 concrete, falsifiable predictions extracted from 12 interviews with AI leaders including Dario Amodei, Elon Musk, Mustafa Suleyman, Boris Cherny, and others.
+A multi-page Vite app that reads the pipeline's JSON output and renders it as interactive visualizations. Deployed to GitHub Pages.
 
-Interactive D3.js visualization at `vault/visualizations/predictions-timeline.html`:
-- Filter by category (AGI timeline, coding automation, economic impact, etc.) and person
-- Range bars showing prediction timeframes with consensus bands
-- Click any prediction to jump to the exact moment in the source video
-- Sortable table with all 92 predictions
-
-**To view locally:**
 ```bash
-python3 -m http.server 8000
-# Open http://localhost:8000/vault/visualizations/predictions-timeline.html
+cd site
+./build.sh                  # sync data from pipeline
+npm run dev                 # develop locally at localhost:5173
+npm run build && npm run deploy   # build and push to GitHub Pages
 ```
 
 ## Project Structure
@@ -38,19 +47,26 @@ ai-pulse/
 ├── scripts/
 │   ├── run.sh                     # Cron entry point
 │   ├── transcribe.py              # mlx-whisper transcription
-│   └── reprocess-predictions.sh   # Batch re-extract predictions
+│   ├── verify-predictions.py      # Verify prediction quotes against transcripts
+│   ├── verify-risk-signals.py     # Verify risk signal quotes against transcripts
+│   └── verify-speakers.py         # Verify speaker attribution
 ├── config/
 │   ├── topics.md                  # Search terms, people, companies
 │   └── sources.md                 # Tracked YouTube channels
 ├── data/
-│   ├── processed.json             # Video tracking database
-│   ├── predictions.json           # 92 structured predictions
-│   ├── queue.json                 # Videos queued for processing
-│   └── transcripts/               # Whisper JSON + TXT (12 interviews)
+│   ├── processed.json             # Video tracking database (38 videos)
+│   ├── predictions.json           # 273 structured predictions
+│   ├── risk-signals.json          # 283 risk signals
+│   └── transcripts/               # Whisper JSON + TXT
+├── site/                          # Static website (Vite + D3.js)
+│   ├── index.html                 # Landing page
+│   ├── predictions/index.html     # Predictions timeline
+│   ├── dead-or-alive/index.html   # Risk signals visualization
+│   ├── src/                       # JS modules (shared/, predictions/, dead-or-alive/)
+│   └── public/data/               # JSON data synced from pipeline
 └── vault/                         # Obsidian vault
-    ├── interviews/                # 12 interview notes with timestamp links
-    ├── summaries/                 # Daily digests
-    └── visualizations/            # Interactive HTML (predictions timeline)
+    ├── interviews/                # 38 interview notes with timestamp links
+    └── summaries/                 # Daily digests
 ```
 
 ## Requirements
@@ -58,13 +74,15 @@ ai-pulse/
 - macOS with Apple Silicon (for mlx-whisper)
 - `yt-dlp`, `ffmpeg`, `python3`, `claude` CLI
 - `mlx-whisper` (`pip install mlx-whisper`)
+- Node.js (for the site)
 
 ## Stats
 
 | Metric | Value |
 |--------|-------|
-| Interviews processed | 12 |
-| Predictions extracted | 92 |
-| AGI timeline predictions | 14 |
-| Median predicted AGI year | 2030 |
-| Transcript hours | ~20h |
+| Interviews processed | 38 |
+| Predictions extracted | 273 |
+| Risk signals extracted | 283 |
+| People tracked | 28 |
+| AGI timeline predictions | 26 |
+| Median predicted AGI year | 2029 |

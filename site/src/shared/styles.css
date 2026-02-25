@@ -1,0 +1,175 @@
+:root {
+    /* gianluca-com warm palette */
+    --color-bg: #faf9f6;
+    --color-surface: #f5f4f0;
+    --color-surface-alt: #f0eee9;
+    --color-border: #e2dfd8;
+    --color-border-strong: #c4c0b8;
+    --color-text: #131314;
+    --color-text-secondary: #5c5850;
+    --color-text-muted: #8a857d;
+    --color-accent: #c4704e;
+    --color-accent-light: rgba(196, 112, 78, 0.1);
+
+    /* typography */
+    --font-heading: 'Libre Baskerville', Georgia, serif;
+    --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    --font-body: 'JetBrains Mono', monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 400;
+    background: var(--color-bg);
+    color: var(--color-text);
+    padding: 3rem 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+    background: rgba(196, 112, 78, 0.2);
+}
+
+/* Header */
+header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+header .subtitle {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-weight: 300;
+}
+
+/* Shared card styles */
+.stat-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    padding: 1.2rem;
+    text-align: center;
+}
+.stat-card .value {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-text);
+}
+.stat-card .label {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    color: var(--color-text-muted);
+    margin-top: 0.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-strong);
+    padding: 1rem 1.2rem;
+    max-width: 380px;
+    font-size: 0.78rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 100;
+    box-shadow: 0 4px 16px rgba(19, 19, 20, 0.08);
+}
+.tooltip .tt-prediction {
+    font-family: var(--font-heading);
+    color: var(--color-text);
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+.tooltip .tt-meta {
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+    line-height: 1.7;
+}
+.tooltip .tt-meta span {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+.tooltip .tt-link {
+    color: var(--color-accent);
+    font-size: 0.72rem;
+    margin-top: 0.5rem;
+    display: block;
+    font-weight: 500;
+}
+
+/* Shared table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.78rem;
+}
+th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 2px solid var(--color-text);
+    color: var(--color-text);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+}
+th:hover { color: var(--color-accent); }
+th .sort-arrow { margin-left: 4px; font-size: 0.6rem; }
+td {
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+    vertical-align: top;
+    line-height: 1.45;
+}
+tr:hover td { background: var(--color-accent-light); }
+td a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+td a:hover { text-decoration: underline; }
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 3rem;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
