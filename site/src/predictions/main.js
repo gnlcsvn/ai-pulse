@@ -26,10 +26,10 @@ function init() {
     initSortHandlers(() => renderTable(filteredPredictions))
 }
 
-function applyFilters({ category, person }) {
+function applyFilters({ categories, people }) {
     filteredPredictions = allPredictions.filter(p => {
-        if (category && p.category !== category) return false
-        if (person && p.person.name !== person) return false
+        if (categories.size && !categories.has(p.category)) return false
+        if (people.size && !people.has(p.person.name)) return false
         return true
     })
     renderTimeline(filteredPredictions, allPredictions)
