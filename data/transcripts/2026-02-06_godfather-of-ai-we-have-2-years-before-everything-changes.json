@@ -7,7 +7,7 @@
     "upload_date": "2026-02-06",
     "duration": "99m",
     "guests": [
-      "Geoffrey Hinton"
+      "Yoshua Bengio"
     ],
     "transcribed_date": "2026-02-25",
     "whisper_model": "mlx-community/whisper-large-v3-turbo"

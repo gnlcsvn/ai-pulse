@@ -3,16 +3,18 @@
 Verify prediction timestamps against source transcripts.
 
 Cross-references every prediction in data/predictions.json against its source
-transcript to detect wrong timestamps and paraphrased raw text.
+transcript to detect wrong timestamps, paraphrased raw text, and misattributed speakers.
 
 Usage:
     python3 scripts/verify-predictions.py              # Report only
     python3 scripts/verify-predictions.py --fix        # Apply auto-fixes
     python3 scripts/verify-predictions.py --video-id X # Single video
     python3 scripts/verify-predictions.py --verbose    # Show all results
+    python3 scripts/verify-predictions.py --strict     # Fail on paraphrased/ambiguous/bad speakers
 """
 
 import argparse
+import importlib.util
 import json
 import os
 import re
@@ -23,6 +25,15 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PREDICTIONS_PATH = PROJECT_ROOT / "data" / "predictions.json"
 PROCESSED_PATH = PROJECT_ROOT / "data" / "processed.json"
+
+# Import speaker verification from verify-speakers.py (hyphenated filename)
+_vs_spec = importlib.util.spec_from_file_location(
+    "verify_speakers", PROJECT_ROOT / "scripts" / "verify-speakers.py"
+)
+_vs_mod = importlib.util.module_from_spec(_vs_spec)
+_vs_spec.loader.exec_module(_vs_mod)
+classify_speaker = _vs_mod.classify_speaker
+load_transcript_with_meta = _vs_mod.load_transcript
 
 TOLERANCE_SECONDS = 30  # ±30s counts as "verified"
 
@@ -454,9 +465,55 @@ def main():
         print(f"  - {len(results['paraphrased'])} have paraphrased raw text (need re-extraction from transcript)")
         print(f"  - {len(results['ambiguous'])} have ambiguous matches (multiple locations)")
 
-    # Strict mode: fail if any predictions are paraphrased or ambiguous
-    if args.strict and remaining > 0:
-        print(f"\n✗ STRICT MODE: {remaining} predictions failed verification")
+    # Speaker verification (always runs in --strict mode)
+    speaker_failures = 0
+    if args.strict:
+        print(f"\n{'='*70}")
+        print(f"SPEAKER ATTRIBUTION CHECK")
+        print(f"{'='*70}")
+
+        # Cache transcript metadata per video
+        transcript_meta_cache = {}
+
+        def get_transcript_meta(video_id):
+            if video_id not in transcript_meta_cache:
+                tpath = transcript_map.get(video_id)
+                if tpath:
+                    transcript_meta_cache[video_id] = load_transcript_with_meta(tpath)
+                else:
+                    transcript_meta_cache[video_id] = (None, None)
+            return transcript_meta_cache[video_id]
+
+        speaker_results = {}  # (name, vid) -> (classification, details)
+        for pred in predictions_data["predictions"]:
+            vid = pred["source"]["video_id"]
+            if args.video_id and vid != args.video_id:
+                continue
+            name = pred["person"]["name"]
+            key = (name, vid)
+            if key not in speaker_results:
+                metadata, segs = get_transcript_meta(vid)
+                classification, details = classify_speaker(name, vid, metadata, segs or [])
+                speaker_results[key] = (classification, details)
+
+        # Count pass/fail
+        passing_classes = {"verified", "guest_only"}
+        for (name, vid), (classification, details) in sorted(speaker_results.items()):
+            if classification not in passing_classes:
+                speaker_failures += 1
+                print(f"  \033[31mFAIL: {name} in {vid} — {classification}: {details}\033[0m")
+            elif args.verbose:
+                print(f"  \033[32mOK: {name} in {vid} — {classification}\033[0m")
+
+        if speaker_failures == 0:
+            print(f"  \033[32mAll speakers verified against transcript metadata\033[0m")
+        else:
+            print(f"\n  \033[31m{speaker_failures} speaker attribution failures\033[0m")
+
+    # Strict mode: fail if any predictions are paraphrased, ambiguous, or misattributed
+    total_failures = remaining + speaker_failures
+    if args.strict and total_failures > 0:
+        print(f"\n✗ STRICT MODE: {total_failures} predictions failed verification")
         return 1
 
     return 0 if not results["fixable"] or args.fix else 1

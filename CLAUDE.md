@@ -163,13 +163,14 @@ For each prediction, create an entry following this schema:
 
 Find the exact timestamp for each prediction by searching the JSON segments (lowercase substring match). If no explicit predictions are found, that's fine — not every interview contains them.
 
-**Step 5b-iii: Verify prediction timestamps**
+**Step 5b-iii: Verify prediction timestamps and speaker attribution**
 After extracting predictions for a video, verify each one before saving:
 
 1. **`timeframe.raw` and `confidence.raw` MUST be verbatim substrings** copied directly from the transcript — never paraphrased, summarized, or editorialized. You must be able to find the exact string via case-insensitive substring search in the transcript segments.
 2. **Derive `timestamp_seconds` from the transcript match, not from memory.** For each prediction, search the JSON segments for `timeframe.raw` as a case-insensitive substring. Use the matching segment's `start` time as `timestamp_seconds`. If the text spans a segment boundary, use the first segment's `start`.
 3. **If a raw text string cannot be found verbatim in any segment** (single or multi-segment window), the text was paraphrased. Either fix it to the exact wording from the transcript or do not include the prediction.
-4. **Post-processing gate:** After saving predictions for a video, run `python3 scripts/verify-predictions.py --video-id VIDEO_ID --strict`. This MUST pass with 0 paraphrased and 0 ambiguous before proceeding to the next video. Fix any failures before continuing.
+4. **Speaker attribution MUST match `metadata.guests`** — see Speaker Identification Rules above. The `person.name` must be a guest listed in the transcript metadata, NOT a host/interviewer, and NOT a generic name.
+5. **Post-processing gate:** After saving predictions for a video, run `python3 scripts/verify-predictions.py --video-id VIDEO_ID --strict`. This MUST pass with 0 paraphrased, 0 ambiguous, AND 0 speaker failures before proceeding to the next video. Fix any failures before continuing.
 
 **Common mistakes to avoid** (discovered from audit of 277 predictions):
 - **DO NOT use `...` (ellipsis) to stitch together phrases from different segments.** Pick one segment's text or use a short distinctive phrase from a single segment.
@@ -177,6 +178,43 @@ After extracting predictions for a video, verify each one before saving:
 - **DO NOT clean up Whisper transcription artifacts.** If the transcript says `"by the end of this, end of this year"` (stutter), the raw field must say that too, not `"by the end of this year"`.
 - **DO NOT use generic phrases as raw text** like `"next year"` or `"I think"` if they appear many times in the transcript. Pick a longer, more distinctive substring that uniquely identifies the prediction.
 - **Prefer short, distinctive substrings** from a single segment over long multi-segment reconstructions. A 5-word phrase from one segment is better than a 30-word reconstruction across 8 segments.
+
+**CRITICAL: Speaker Identification Rules (applies to predictions, risk signals, and all quotes)**
+
+Before extracting any predictions or risk signals, identify speakers deterministically:
+
+1. **Read `metadata.guests` from the transcript JSON** — this is the ground truth for who the speakers are. NEVER rely on the video title or channel name to identify speakers (e.g., "Godfather of AI" could be Hinton OR Bengio).
+2. **Verify the speaker name appears in the transcript intro** (first 50 segments). Speakers are typically introduced early in the video.
+3. **Only attribute quotes to people listed in `metadata.guests`**. If `metadata.guests` is empty, populate it first by reading the transcript intro before extracting anything.
+4. **Never attribute quotes to hosts/interviewers** unless they are AI principals making substantive claims about their own work. Known hosts to exclude: Lex Fridman, Chris Anderson, Ezra Klein, Cleo Abram, Harry Stebbings, Dwarkesh Patel, Lenny Rachitsky, Zanny Minton Beddoes, Francine Lacqua, Emma Tucker, Roula Khalaf, Nikhil Kamath, Ross Douthat, Andrew Ross Sorkin, Kara Swisher, Scott Pelley, Erik Torenberg, Packy McCormick.
+5. **Never use generic/anonymous attributions** like "Guest Contributor", "Panel Speaker", "Audience Member", "Unknown". If you cannot identify the speaker, do not extract the quote.
+6. **For multi-speaker panels/interviews**, pay close attention to conversational context to attribute quotes to the correct speaker. When in doubt, skip the quote.
+7. **Post-processing gate**: After extracting predictions/risk signals for a video, run `python3 scripts/verify-speakers.py --video-id VIDEO_ID --strict`. This MUST pass before proceeding.
+
+**Step 5b-iv: Extract risk signals**
+Scan the transcript for statements about existential risk, catastrophic AI outcomes, or AI safety sentiment. Look for:
+- **Alarm/danger keywords:** existential, extinction, destroy, catastrophic, doom, wipe out, end of humanity, lose control, misaligned, uncontrollable, arms race, bioweapon, p(doom), could all lose, resist being shut down
+- **Optimism/safety keywords:** benefit, cure, abundance, best thing, golden age, solvable, manageable, overstated, overblown, not as dangerous, flourish
+- **Risk estimates:** percent chance, probability, explicit percentages (1%, 5%, 10%, 20%, 50/50)
+
+For each risk signal, extract a verbatim quote from the transcript segments and classify it:
+
+| Sentiment | Score range | Signal |
+|---|---|---|
+| `alarm` | -1.0 to -0.6 | "extinction", "destroy humanity", "wipe us out", "could all lose" |
+| `concern` | -0.6 to -0.2 | "percent chance of catastrophic", "could go wrong", "serious risk" |
+| `cautious_optimism` | -0.2 to 0.2 | Risk acknowledgment + "solvable", "manageable", "hopeful" |
+| `optimism` | 0.2 to 0.6 | "best thing", "cure diseases", "abundance", without caveats |
+| `dismissal` | 0.6 to 1.0 | "doomers are wrong", "overstated", "not a real risk" |
+
+Assign themes from: `existential_risk`, `alignment_failure`, `loss_of_control`, `bioweapons`, `power_concentration`, `arms_race`, `job_displacement`, `consciousness_rights`, `safety_solvable`, `net_positive`, `regulation_needed`, `precautionary_principle`
+
+Set `is_builder=true` for people directly building frontier AI (Amodei, Altman, Hassabis, Huang, Sutskever, Suleyman, Nadella) vs. commentators/academics (Harari, Tegmark, Bengio).
+
+Save each signal to `data/risk-signals.json` following the schema (see `data/risk-signals.json` for the full structure). The `quote` field MUST be a verbatim substring — same rules as `timeframe.raw` in predictions.
+
+**Step 5b-v: Verify risk signals**
+After extracting risk signals for a video, run `python3 scripts/verify-risk-signals.py --video-id VIDEO_ID --strict`. This MUST pass with 0 paraphrased, 0 ambiguous, AND 0 speaker failures before proceeding. The `--strict` flag now also runs speaker attribution checks automatically.
 
 **Step 5c: Write the Obsidian note**
 Create a structured note at `vault/interviews/YYYY-MM-DD_video-title-slug.md`:
@@ -224,6 +262,13 @@ predictions_count: 0
 
 (If no explicit predictions found: "No explicit predictions identified in this interview.")
 
+## Risk Signals
+| Quote | Sentiment | Score | Themes | Source |
+|---|---|---|---|---|
+| "Verbatim quote" | alarm/concern/etc | -0.8 | themes | [▶ M:SS](https://www.youtube.com/watch?v=VIDEO_ID&t=Xs) |
+
+(If no risk signals found: "No explicit risk signals identified in this interview.")
+
 ## Topics Discussed
 - **Topic Name**: Brief summary [▶ M:SS](https://www.youtube.com/watch?v=VIDEO_ID&t=Xs)
 
@@ -250,13 +295,16 @@ The entry should include:
   "status": "success",
   "note_path": "vault/interviews/YYYY-MM-DD_slug.md",
   "transcript_path": "data/transcripts/VIDEO_ID.json",
-  "predictions_count": 0
+  "predictions_count": 0,
+  "risk_signals_count": 0
 }
 ```
 
 Also update `last_run` and `total_processed` in the top-level object.
 
 Additionally, append any extracted predictions to `data/predictions.json`. Use the deterministic ID format `pred-{video_id}-{timestamp_seconds}` to avoid duplicates — if an ID already exists, skip it.
+
+Additionally, append any extracted risk signals to `data/risk-signals.json`. Use the deterministic ID format `risk-{video_id}-{timestamp_seconds}` to avoid duplicates — if an ID already exists, skip it.
 
 ### Step 7: Generate Daily Summary
 If any videos were processed, create/update the daily summary at `vault/summaries/YYYY-MM-DD.md`:
@@ -292,6 +340,17 @@ If any predictions were extracted during this run, regenerate `vault/visualizati
 - Hover tooltips with prediction details, click to open YouTube at timestamp
 - Sortable predictions table
 - Category breakdown chart
+
+### Step 8b: Update Dead or Alive Visualization
+If any risk signals were extracted during this run, regenerate `vault/visualizations/dead-or-alive.html` by reading `data/risk-signals.json` and inlining the signals data as a JavaScript constant (replacing the `SIGNALS_DATA` assignment). The HTML is a self-contained D3.js visualization with:
+- Hero stat: "X of Y AI builders have publicly warned their technology could cause catastrophic harm"
+- Spectrum bar with person dots positioned by average sentiment score
+- Person cards with top quotes, sentiment labels, and share buttons
+- Interactive dot plot: X-axis = sentiment score, Y-axis = person, colored by theme
+- Quote wall: masonry grid of shareable quote cards
+- Sentiment distribution donut, theme frequency bars, builder vs. commentator comparison, rhetoric over time
+- Sortable data table
+- Share mechanics: clipboard copy + Web Share API + Twitter intent
 
 ---
 
@@ -333,20 +392,24 @@ ai-pulse/
 ├── CLAUDE.md                   # This file - agent instructions
 ├── scripts/
 │   ├── run.sh                  # Cron entry point (invokes Claude Code)
-│   └── reprocess-predictions.sh # Batch re-extract predictions from all transcripts
+│   ├── reprocess-predictions.sh # Batch re-extract predictions from all transcripts
+│   ├── extract-risk-signals.sh  # Batch extract risk signals from all transcripts
+│   ├── verify-risk-signals.py   # Verify risk signal quotes against transcripts
+│   └── verify-speakers.py       # Verify speaker attribution against transcript metadata
 ├── config/
 │   ├── topics.md               # Search terms, people, companies, filters (editable markdown)
 │   └── sources.md              # Tracked YouTube channels (editable markdown)
 ├── data/
 │   ├── processed.json          # Tracks all processed videos
 │   ├── predictions.json        # Structured predictions database
+│   ├── risk-signals.json       # Structured risk signals database (existential risk quotes)
 │   ├── queue.json              # Videos queued for processing (pick from top)
 │   ├── transcripts/            # Whisper outputs (.json with timestamps, .txt for reading)
 │   └── audio/                  # Temporary audio files (deleted after processing)
 └── vault/                      # Obsidian vault
     ├── interviews/             # Individual interview notes with timestamp links
     ├── summaries/              # Daily digests
-    └── visualizations/         # Interactive HTML visualizations (predictions timeline, etc.)
+    └── visualizations/         # Interactive HTML visualizations (predictions timeline, dead-or-alive, etc.)
 ```
 
 ## Important Notes
