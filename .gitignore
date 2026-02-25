@@ -1,0 +1,6 @@
+data/audio/*.mp3
+data/audio/*.info.json
+data/cron.log
+.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
