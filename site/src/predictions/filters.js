@@ -1,36 +1,30 @@
+import { escapeHtml } from '../shared/utils.js'
+
 export function renderFilters(predictions, { onFilter }) {
     const bar = document.getElementById('filter-bar')
     const categories = [...new Set(predictions.map(p => p.category))].sort()
     const people = [...new Set(predictions.map(p => p.person.name))].sort()
 
-    let activeCategory = null
-    let activePerson = null
+    bar.innerHTML = `
+        <label for="filter-category">Category:</label>
+        <select id="filter-category" class="filter-select">
+            <option value="">All categories</option>
+            ${categories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('')}
+        </select>
+        <label for="filter-person">Person:</label>
+        <select id="filter-person" class="filter-select">
+            <option value="">All people</option>
+            ${people.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('')}
+        </select>
+    `
 
-    let html = '<label>Category:</label>'
-    html += `<button class="filter-btn active" data-type="cat" data-val="">All</button>`
-    categories.forEach(c => {
-        html += `<button class="filter-btn" data-type="cat" data-val="${c}">${c}</button>`
-    })
-    html += '<div class="filter-separator"></div><label>Person:</label>'
-    html += `<button class="filter-btn active" data-type="person" data-val="">All</button>`
-    people.forEach(p => {
-        html += `<button class="filter-btn" data-type="person" data-val="${p}">${p}</button>`
-    })
-    bar.innerHTML = html
+    const catSelect = document.getElementById('filter-category')
+    const personSelect = document.getElementById('filter-person')
 
-    bar.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const type = btn.dataset.type
-            const val = btn.dataset.val || null
-            if (type === 'cat') {
-                activeCategory = val
-                bar.querySelectorAll('[data-type="cat"]').forEach(b => b.classList.remove('active'))
-            } else {
-                activePerson = val
-                bar.querySelectorAll('[data-type="person"]').forEach(b => b.classList.remove('active'))
-            }
-            btn.classList.add('active')
-            onFilter({ category: activeCategory, person: activePerson })
-        })
+    catSelect.addEventListener('change', () => {
+        onFilter({ category: catSelect.value || null, person: personSelect.value || null })
+    })
+    personSelect.addEventListener('change', () => {
+        onFilter({ category: catSelect.value || null, person: personSelect.value || null })
     })
 }
